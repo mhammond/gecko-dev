@@ -1,0 +1,4 @@
+changeset 6d7c88d923886811a7d3608ec2f4b700cc30ba85
+manifest dd44de137453ef732f07e5dea03fa719381bf091
+files mfbt/UniquePtrExtensions.h
+patch 271,272,

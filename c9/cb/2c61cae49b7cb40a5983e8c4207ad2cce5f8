@@ -1,0 +1,5 @@
+changeset 633cd9d7ba592152bd5a2823c17023d0c2d006a6
+manifest 78f27f7027a388545633d1d634c6b111c7a71f83
+extra histedit_source:5341f5ddd3f92e5a4c01fb7626fce002db2e2074
+files browser/components/uitour/test/browser_closeTab.js
+patch 383,459,

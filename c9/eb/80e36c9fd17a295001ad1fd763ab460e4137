@@ -1,0 +1,5 @@
+changeset 87219f2b44e5617029b6ba0f1d59a6b9ec2843a7
+manifest 0cde1e52fbe2c5355b5bee7261f993125c2d554b
+extra rebase_source:b8a9d9ad49e6abd5eb3f58ead54742a204821945
+files taskcluster/taskgraph/kind/legacy.py
+patch 269,343,

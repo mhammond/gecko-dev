@@ -1,0 +1,5 @@
+changeset 7a2db11cc81934507f730ae24429a41be6202438
+manifest 317c8f3eb4474dd4b472bb0b890b4cc3cb68b6c4
+extra rebase_source:2aeba7616e1ac28776142026474389fa1f1a943e
+files mobile/android/base/java/org/mozilla/gecko/preferences/AndroidImport.java
+patch 325,399,

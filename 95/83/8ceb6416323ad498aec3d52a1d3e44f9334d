@@ -1,0 +1,5 @@
+changeset 99dffa5be57569ee2f1a2f2366947c0872745f81
+manifest 87151b32968a6738fadd94e05b5738aebddf64fa
+extra source:d26b211c3a2bb56e9254f4c1a97c253054c4cefa
+files toolkit/components/sqlite/tests/xpcshell/xpcshell.ini
+patch 279,346,

@@ -1,0 +1,5 @@
+changeset e5a71ecae4b453008c9191d874b4f76f3e3ac092
+manifest 0a956979ee62df72b6d3a510b73349fc3a5043be
+extra source:784c52abffb3e8ec4135b999369c23552a5239d9
+files browser/components/sessionstore/test/browser_newtab_userTypedValue.js
+patch 366,433,

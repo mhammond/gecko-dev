@@ -1,0 +1,5 @@
+changeset 72689dcc8fe2361742ec88282f820bf381e99174
+manifest fc32301415776cba172ace0a90c5d20c041612f7
+extra source:ad0d6c3a73e1684eacf7a6484dee6b2320055404
+files mobile/android/base/java/org/mozilla/gecko/reader/ReaderModeUtils.java
+patch 345,412,

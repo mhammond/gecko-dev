@@ -1,0 +1,5 @@
+changeset 4260f9f8a7181f212170275acd5286dd6c4c0282
+manifest 502dfcffef360d02001df561250dd3d26395aaee
+extra commitid:1ngV1DKn5ym
+files mobile/android/base/java/org/mozilla/gecko/prompts/Prompt.java
+patch 242,282,

@@ -1,0 +1,5 @@
+changeset 3412aee78e98bc65c42a45ee0c898efccb57e188
+manifest 598341f072f0f8b7b963ab96070925016351ffbb
+extra rebase_source:6ae3ff60839bb01f5fd6c8088c523812b4d43080
+files widget/windows/GfxInfo.cpp
+patch 244,318,

@@ -1,0 +1,6 @@
+changeset 00793d7d19d9d5f07f4a8237f5382a918fbeabf3
+manifest 6774c36edabcfd6a4a6b4ea4254b9f3cc9ee0df3
+author Jorg K
+extra rebase_source:fba203582cf9c6436879bf2923cf19e19147bf5f
+files dom/base/nsPIDOMWindowInlines.h
+patch 214,288,

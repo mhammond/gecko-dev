@@ -1,0 +1,4 @@
+changeset 569434e69a44250c0554fae609bf3d4483c9a29b
+manifest c067e1a4171053ec22194f83816fede77d126dbf
+files python/mozboot/mozboot/android-ndk.rb
+patch 179,180,

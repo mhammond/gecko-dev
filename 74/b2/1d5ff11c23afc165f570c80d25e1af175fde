@@ -1,0 +1,5 @@
+changeset 1b2854d057e76fb0a7adf2796cf8482adf4b7a4f
+manifest 2f7faed952bd22a9f8ca28b9aa5a7a85cbf1f512
+extra source:833fadcf5004b6cc6011fb70f60b337639607d0c
+files widget/gtk/nsLookAndFeel.cpp
+patch 278,345,

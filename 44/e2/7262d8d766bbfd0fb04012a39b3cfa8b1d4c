@@ -1,0 +1,5 @@
+changeset 4c7373c6c29efffa4e7f1f87acbf755d9fae8f0d
+manifest 2c59dac09ff8b95d747d9d1e97b59d96ffa5980d
+extra rebase_source:31bdc58f9aff90bc7aecb076885e56f37885a320
+files js/src/devtools/rootAnalysis/computeGCFunctions.js
+patch 299,373,

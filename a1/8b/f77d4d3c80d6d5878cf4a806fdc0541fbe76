@@ -1,0 +1,4 @@
+changeset 03ccd2a9b30cddc081644cdaa9204a64a575115e
+manifest 20098faf5649056de9d66abb1cd32c6fbed23ce9
+files hal/linux/UPowerClient.cpp
+patch 342,343,

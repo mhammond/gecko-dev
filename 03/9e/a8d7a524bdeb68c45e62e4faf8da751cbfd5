@@ -1,0 +1,5 @@
+changeset 14d293a0db977a757ca5bb7166527ee7f5f2843f
+manifest 605add3cfb42cc5131c7cc678de872b60f5321c7
+extra rebase_source:842872351965d66a31cc3827317887e4542c21d7
+files dom/base/nsIContent.h
+patch 334,408,

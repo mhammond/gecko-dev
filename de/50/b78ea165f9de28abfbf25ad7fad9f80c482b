@@ -1,0 +1,4 @@
+changeset 128b434db0a2063624002d2d7a861e0a8c8fe84c
+manifest 98e2d10a3614721089f6374b67b2d03e5b4acb52
+files content/events/src/nsEventStateManager.cpp
+patch 259,260,

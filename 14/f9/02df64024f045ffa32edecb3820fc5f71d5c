@@ -1,0 +1,5 @@
+changeset 59f710308c265042d195f67fddc1460ca0399b34
+manifest 9c987fe765c755c1d7f377c9ae14ca357ba2b56c
+extra source:2c11e355dbf56ef7e52d8de3ad7d8b26acc3f65d
+files devtools/client/themes/responsivedesign.inc.css
+patch 295,362,

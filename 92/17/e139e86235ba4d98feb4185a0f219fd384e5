@@ -1,0 +1,5 @@
+changeset 00ff94876faeee59e5a004f5c045e9d9cbcd3c35
+manifest 6991ba36c79f523081327152d53f03fc3581d187
+extra rebase_source:6ab27c37c9058bb4ae36a4799ff0427125fbaf9e
+files mobile/android/themes/core/aboutAddons.css
+patch 284,358,

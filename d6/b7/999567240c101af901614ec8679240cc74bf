@@ -1,0 +1,5 @@
+changeset fd1f1513e91e805ff87c266242a80c2962883e9b
+manifest 9f08dc7675a0eeff8ac4df02a9c7ef4acd6df549
+extra rebase_source:dda432a1da69065e3284487369a3dd70777d81c3
+files devtools/chrome.manifest
+patch 298,372,

@@ -1,0 +1,4 @@
+changeset 38cbbbad1ffe85fede2d253e4c25ba1422bb2420
+manifest e7c75a4936a19b4599ae3dea1720f5887fd7ef6b
+files toolkit/components/url-classifier/nsUrlClassifierPrefixSet.cpp
+patch 234,235,

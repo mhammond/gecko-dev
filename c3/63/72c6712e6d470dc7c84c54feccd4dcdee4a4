@@ -1,0 +1,4 @@
+changeset 5ec370c6581bc7af478995fbb3e0374c9e200f0b
+manifest 6a4a82d874ce20e7142faba6a2cb4c497c53c2c0
+files mozglue/build/Nuwa.cpp
+patch 287,288,

@@ -1,0 +1,5 @@
+changeset 04b5cc7a68efbed9fb044c4ab45f90d6db47dc26
+manifest faf601c5d235bc9603450583d92a216011225acb
+extra rebase_source:c1fbbd98db82af9165cf102887129b038e188922
+files devtools/shared/tests/unit/xpcshell.ini
+patch 571,645,

@@ -1,0 +1,4 @@
+changeset e82d05c2c18ceeec22c7e14740dd7f0e2711e3c7
+manifest 46446c16306710e13925146ab8b00d527f6e635a
+files browser/devtools/performance/modules/front.js
+patch 218,219,

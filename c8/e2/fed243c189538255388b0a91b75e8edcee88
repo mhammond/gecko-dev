@@ -1,0 +1,4 @@
+changeset 244da089ea48f32f42414e2e6a3f53c2ab8de332
+manifest 8bbf85ca5cc527698f9131df3d43148fa715a76a
+files devtools/client/shared/widgets/Graphs.js
+patch 245,246,

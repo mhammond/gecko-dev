@@ -1,0 +1,5 @@
+changeset 2494e1f32e5595a6c4b65aba2daf283c3d12e337
+manifest 97789adaa6bb950c96b82ebe5bbaa107fa1fe134
+extra rebase_source:fc57046f4d0a289703fcfbe478df1d2e52fe79b6
+files taskcluster/ci/hazard/kind.yml
+patch 276,350,

@@ -1,0 +1,5 @@
+changeset b6613e975a08ac92f061accbe3d23f857344352b
+manifest 1229ad50f086c9ebace0e8ab0907175871325e89
+extra rebase_source:69ef374808ce11eb4287be847bc0ac71431511f9
+files js/src/jit/Lowering.cpp
+patch 195,269,

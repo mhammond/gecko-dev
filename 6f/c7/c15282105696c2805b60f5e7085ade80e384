@@ -1,0 +1,5 @@
+changeset 09a0d7b4527a516e337a25cc84d9a486176f8dd5
+manifest 5abf318e125bcf7107208e78ccd3b130caf8cefa
+extra rebase_source:908daffad217e4a5be7339039e4dc8a155b3a239
+files mobile/android/base/widget/LoginDoorHanger.java
+patch 274,348,

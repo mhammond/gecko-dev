@@ -1,0 +1,5 @@
+changeset c244554cc68b7d91d7fc74b52210acc2848dc294
+manifest de0b18195b9ce469dc3b47facafb421c3367cd3c
+extra rebase_source:3027e7bc247cfeda38cf4a8a7a47a066cc4d2ff9
+files devtools/client/themes/floating-scrollbars-dark-theme.css
+patch 330,404,

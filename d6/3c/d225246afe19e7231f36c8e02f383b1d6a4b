@@ -1,0 +1,4 @@
+changeset 8f3e93fe5121e38c2c0e30118ef0becd641a0f62
+manifest f15a7ceb603025db67c5afc951b67148292ae528
+files xpcom/glue/nsBaseHashtable.h
+patch 215,216,

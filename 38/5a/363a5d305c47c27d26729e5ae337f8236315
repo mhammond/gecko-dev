@@ -1,0 +1,4 @@
+changeset 4ba3b39912519c1c66258289a21f97fdbceeb8ad
+manifest 7ed24a48cf033f0ab655c0a7bda9753d2cf6f3d8
+files widget/gtk/nsIdleServiceGTK.cpp
+patch 207,208,

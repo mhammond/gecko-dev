@@ -1,0 +1,5 @@
+changeset e65ba3be0c0fa9608746891d6e4f901f3891f946
+manifest 1e50b36f25a4065b4f8ab9c9c945d7f9a579f1ed
+extra source:2e3bde77f6d2a01b99992bbae699400fba96967a
+files docshell/test/browser/browser_bug670318.js
+patch 263,330,

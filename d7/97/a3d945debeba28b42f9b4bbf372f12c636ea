@@ -1,0 +1,5 @@
+changeset 5975aac167625bee819373fa87362f7912972ace
+manifest 15fc60e67364fe3a906f52021d4ecc67c753ed87
+extra rebase_source:de34f589be31ecbf1c1fd5aef24b1b89edecb2ea
+files browser/devtools/styleeditor/test/browser_styleeditor_opentab.js
+patch 310,384,

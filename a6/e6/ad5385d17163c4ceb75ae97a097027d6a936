@@ -1,0 +1,4 @@
+changeset 782e9a74bd4a7a9d6a1a8ac436cdd3075db54bc1
+manifest ffa66e28ada8a31ba90a1da35171efccf5593755
+files db/sqlite3/src/Makefile.in
+patch 528,529,

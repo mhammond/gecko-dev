@@ -1,0 +1,5 @@
+changeset 26e9a666179bf822f030ed8322b3a032ffa4b496
+manifest 82ef3e8d183645888b7c03a4024aac73b099e2b8
+extra rebase_source:7a20a75c01fda19f04b6db9df88c09dc681d9ef0
+files config/nsinstall.c
+patch 251,325,

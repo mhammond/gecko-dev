@@ -1,0 +1,5 @@
+changeset b4f8c78ed43fa522ac06db4a537eee8337d25509
+manifest fb8f9ba549cdc6c5126982eeaaac40030b327378
+extra source:84a1e4dbbbafea5de5b2c4296487293acbc40f47
+files js/src/vm/ArrayObject-inl.h
+patch 384,451,

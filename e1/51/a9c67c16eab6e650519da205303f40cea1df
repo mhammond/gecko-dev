@@ -1,0 +1,4 @@
+changeset c3e97c1f281977eb73c9c99490b6d600878c7fdd
+manifest 103466938bf43a7b2907754f625e20aa6abf6e3d
+files addon-sdk/source/lib/sdk/context-menu.js
+patch 197,198,

@@ -1,0 +1,5 @@
+changeset 473ca9bf2b2f541518aeb35abf2e99d4a57c8ef2
+manifest 89e0f39b41493a7d927cdf1d635915aa633e5e56
+extra rebase_source:5c1d43df6b576f92102f9b0c49a68bfc61bca951
+files toolkit/components/extensions/ext-notifications.js
+patch 337,411,

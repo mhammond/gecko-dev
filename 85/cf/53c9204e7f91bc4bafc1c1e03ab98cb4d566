@@ -1,0 +1,4 @@
+changeset cc8240cc2d1f9bb72217cdd6aba2c898e2f82fd9
+manifest 972ac3248249df1a975b75e7aca1e831f905aaf8
+files toolkit/mozapps/update/test/unit/test_0030_general.js
+patch 248,249,

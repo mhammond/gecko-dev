@@ -1,0 +1,5 @@
+changeset 7efd806788be0cc904a3674f8a99f88f43146e97
+manifest 579eec71f333e714e043f20d1538662e29171e34
+extra source:262e8120ccb2b7a3d94557812ecdfc0101b916d5
+files gfx/layers/opengl/MacIOSurfaceTextureClientOGL.cpp
+patch 294,361,

@@ -1,0 +1,4 @@
+changeset 02517c2c78bd6da0d0433b6b549c09e9a43a9895
+manifest 74f09ed04ceebbe45c52042968fd1237997a4871
+files devtools/server/actors/styleeditor.js
+patch 200,201,

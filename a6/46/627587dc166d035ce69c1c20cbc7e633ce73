@@ -1,0 +1,4 @@
+changeset b0738c7a39f0fb038b7c50b331e73dd69a118891
+manifest dbb1306aeaca66cb819d646ebbf5bfa25759f277
+files toolkit/components/perfmonitoring/PerformanceStats-content.js
+patch 199,200,

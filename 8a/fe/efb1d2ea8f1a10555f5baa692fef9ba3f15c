@@ -1,0 +1,5 @@
+changeset 6f8df48ff0dfadd3e8efc9bc95f43441a35706ff
+manifest e29763bf9f73fe155dffb652f9a6b18b3730afd6
+extra rebase_source:f689e53703107a81182e386e7d93cbab60d6837c
+files widget/windows/nsdefs.h
+patch 303,377,

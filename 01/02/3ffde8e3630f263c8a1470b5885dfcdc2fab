@@ -1,0 +1,5 @@
+changeset bce489c0ccbad97c0fe52bacb4f574230c590538
+manifest 265e3c9661eaecf3eedc9efbca6073af3cb07ac2
+extra rebase_source:8f4d4c5e07b3e2d3044ca8bcb7e6d00ffecbda45
+files mobile/android/base/java/org/mozilla/gecko/tabqueue/TabReceivedService.java
+patch 337,411,

@@ -1,0 +1,5 @@
+changeset e12d01ac13b063768a1ebcddd638120806b0b745
+manifest 61c93ef9350ee0ae3843802e84b84aaa1b741f75
+extra commitid:4pTOtazWPwq
+files toolkit/mozapps/extensions/test/moz.build
+patch 236,276,

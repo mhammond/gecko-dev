@@ -1,0 +1,4 @@
+changeset 05a02a824ae21a7496903b719be11a90e6082f2b
+manifest ba10b544581be92066578028964a7a45454b6cb6
+files dom/plugins/base/nsPluginInstanceOwner.cpp
+patch 263,264,

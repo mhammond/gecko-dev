@@ -1,0 +1,4 @@
+changeset 3026a0345003b62c61371988cb92e48d536ba8f1
+manifest abf38f4a5968fee05caae6647a2804ca60bbd1a0
+files dom/xul/templates/nsXULTemplateQueryProcessorRDF.cpp
+patch 293,294,

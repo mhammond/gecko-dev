@@ -1,0 +1,4 @@
+changeset 58e036ba3d666dfad9e0d6d7bc3958d33236669a
+manifest 0ad4a1ccf77f2392b74144828bd1e7105b1c0a86
+files netwerk/base/nsILoadGroup.idl
+patch 206,207,

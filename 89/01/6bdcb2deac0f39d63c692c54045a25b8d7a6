@@ -1,0 +1,4 @@
+changeset ab01fd91bc02b28fc165ec91a9c99d2c7013a02c
+manifest 656edb486b5f6d1d9bb856c206863d5b9e33a1dc
+files toolkit/components/aboutperformance/tests/xpcshell/test_compartments.js
+patch 251,252,

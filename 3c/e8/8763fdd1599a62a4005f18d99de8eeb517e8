@@ -1,0 +1,4 @@
+changeset fe169f6b08ad1402047e14fc9c626acc968d38cd
+manifest 0389654a10a2de8fcaac35bd6e9fcb0c517e2988
+files dom/bluetooth/bluetooth2/BluetoothGattCharacteristic.cpp
+patch 236,237,

@@ -1,0 +1,4 @@
+changeset 1b81cf31e5e3f006de38c958b634e07d9e3cbdc5
+manifest f470e509fe8ba82aade7945d2bee5bce631fe814
+files testing/config/mozharness/try_arguments.py
+patch 293,294,

@@ -1,0 +1,4 @@
+changeset fc46dfa8cfc9c8397122b606b27689b89e7ef629
+manifest 477e5258a3b2744713abaffa3fcbf64e88e6a31c
+files mobile/android/chrome/content/ActionBarHandler.js
+patch 258,259,

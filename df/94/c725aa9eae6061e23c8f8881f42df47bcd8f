@@ -1,0 +1,4 @@
+changeset fbfdb965124a343b2abca415adfaddf1ef3bce15
+manifest 7f3f82fbbad5b635cb4609d02ab90ffaec72d123
+files dom/bluetooth/bluedroid/BluetoothA2dpManager.cpp
+patch 280,281,

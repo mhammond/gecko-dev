@@ -1,0 +1,4 @@
+changeset b220113f8adf06475fd0798ac00c0bf6b6579958
+manifest 82c5924fea04b50f031e1b278bc89a5577c78ea8
+files devtools/client/performance/test/browser_perf-legacy-front-01.js
+patch 289,290,

@@ -1,0 +1,5 @@
+changeset 88e44bfba48380a0a7822d170488e89c40fa16d9
+manifest 274d415f257fe630a8a34d0feedc37b3ef44dbce
+author Jorg K
+files dom/base/nsDocumentEncoder.cpp
+patch 186,187,

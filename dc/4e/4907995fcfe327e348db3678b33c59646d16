@@ -1,0 +1,4 @@
+changeset ca53d4297f02919e8b4b79f7571d339d371c52db
+manifest 8c50534e962f85ea28f8600f47190012f083f83f
+files mobile/android/base/RestrictionProvider.java
+patch 186,187,

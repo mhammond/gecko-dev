@@ -1,0 +1,5 @@
+changeset 7211d57fedfe5a7034372bfc7f3f58f9e5f3124a
+manifest 4d3819104d40a8ba841072000b0e772634b68c60
+author ffxbld
+files security/manager/ssl/StaticHPKPins.h
+patch 192,193,

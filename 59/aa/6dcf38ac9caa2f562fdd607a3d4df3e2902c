@@ -1,0 +1,4 @@
+changeset 77fea9f0a2a7c57d7c63f78af8f6af3bfcf8525e
+manifest 733bdb74b4dd52dbb6a3ffb51280a26205d5d54d
+files js/src/jit/shared/LIR-shared.h
+patch 287,288,

@@ -1,0 +1,4 @@
+changeset 6346c12c68a4cea09b7faf16b9e4d21d0c576619
+manifest 61977eb781cb7fbd5e7eded8a5d5712c599af3ec
+files layout/generic/nsBlockFrame.cpp
+patch 247,248,

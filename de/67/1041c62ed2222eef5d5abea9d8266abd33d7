@@ -1,0 +1,5 @@
+changeset 5108e581ac5c34169d0a8453df00e1702a50d673
+manifest cc63654c6c2f8ab7117e960f887f10e4fd672e2e
+extra source:8e8b4d74e547cb0146fd9778efb2de07bcd06279
+files devtools/client/webconsole/test/browser_webconsole_bug_646025_console_file_location.js
+patch 389,456,

@@ -1,0 +1,5 @@
+changeset 56cc74607c72f390645dd048fe874e437bc5e4e5
+manifest 904e8c3c06f0b63d5093d9fa9d8ce027bdbaf3f3
+extra rebase_source:5f3cf81454c0616f0706945ce937deb7262f79ab
+files layout/style/nsComputedDOMStylePropertyList.h
+patch 349,423,

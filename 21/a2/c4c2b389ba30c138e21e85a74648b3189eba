@@ -1,0 +1,5 @@
+changeset bc1562f01b6ac3bfe189865e380bcb1becfb051e
+manifest ea4ec60d65150c3caaa28a19cd5306fba7f22b5c
+extra source:778a1de3e41583e1c8f0a885ca34efc12375396a
+files layout/generic/nsLineLayout.cpp
+patch 271,338,

@@ -1,0 +1,4 @@
+changeset 89d45ec9d5aaf048aa2d227031d65c7f30022798
+manifest a0b0182fd6531a5f536fca52bce38b8bb4144bf0
+files taskcluster/ci/legacy/tasks/builds/android_x86.yml
+patch 229,230,

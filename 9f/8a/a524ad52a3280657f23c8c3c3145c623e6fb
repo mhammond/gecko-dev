@@ -1,0 +1,4 @@
+changeset 39e699922ca7763e81c690e706a451f0d849059f
+manifest 23646406e4b63cf4c003918d564aff2b3b68c592
+files gfx/skia/skia/src/opts/SkXfermode_opts.h
+patch 206,207,

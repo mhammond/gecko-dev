@@ -1,0 +1,5 @@
+changeset 13104b0d5cfd374ead934d3014f4c98fe998a1c2
+manifest a7f35345bfc65a502bd1ce4ea4ce6ce7645b7e41
+extra rebase_source:b0828cd31ba5fd7778852185fdb39af180750287
+files xpcom/ds/nsSupportsPrimitives.cpp
+patch 238,312,

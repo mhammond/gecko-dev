@@ -1,0 +1,4 @@
+changeset cd3eb724d9ba82108634de9c5049eca05db28d20
+manifest fe09cfe074b2cb493a8770e79877f1fc72f01f81
+files js/src/xpconnect/src/nsXPConnect.cpp
+patch 203,204,

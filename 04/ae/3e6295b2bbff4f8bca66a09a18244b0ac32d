@@ -1,0 +1,5 @@
+changeset ac1b00df5ee10fddb382f1c47cbe28274dd05e84
+manifest a794e9c0860000b72fdeed486ea6be9f6edba540
+extra rebase_source:7e0be66d81d1b6d9c3439a1232874f69c7699174
+files devtools/client/shared/widgets/spectrum.css
+patch 278,352,

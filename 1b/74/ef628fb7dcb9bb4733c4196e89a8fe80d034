@@ -1,0 +1,5 @@
+changeset 6f05d5562250a86c4354dc96533684c48112f6f8
+manifest e9ac467a647ae4692d5cade8fe92c96f07eef1dc
+extra rebase_source:309d68cd40fb8417d0c70b07c994c2cbb44f6ec9
+files toolkit/components/viewsource/content/viewSource.js
+patch 308,382,

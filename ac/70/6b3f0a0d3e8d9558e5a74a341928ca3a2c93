@@ -1,0 +1,4 @@
+changeset f4504937d633c690bec7240d67df7b73775d9f6c
+manifest 2376e388ac71304157fe64d067047dc5f992faeb
+files dom/tests/mochitest/geolocation/mochitest.ini
+patch 246,247,

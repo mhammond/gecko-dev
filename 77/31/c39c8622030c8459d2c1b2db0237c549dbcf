@@ -1,0 +1,5 @@
+changeset 73286977976724ab7d14b65ed43a3910cd726f76
+manifest e54230af817f082962682ab5e392a2d81ba58c87
+extra rebase_source:a60092660cbce30e855bf6e6c960bb5929991439
+files js/src/jit/MIR.h
+patch 237,311,

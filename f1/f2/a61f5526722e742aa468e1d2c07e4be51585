@@ -1,0 +1,4 @@
+changeset 7d55178b297d3b120ef659c9b24aaf67c24f6d5c
+manifest e6a8b418b39a8895f9904fca28bb1b6f43820d1d
+files toolkit/components/places/tests/browser/browser_visituri_nohistory.js
+patch 222,223,

@@ -1,0 +1,5 @@
+changeset d07c2f504fd7ed55ed960b764db788058c52e2e7
+manifest 9a684bb9c30f66a5b719c91344173f3e7e95270c
+extra source:2a4f41a5f0be1b703b0f3fc11da06310e0134fde
+files gfx/2d/DrawTargetCairo.cpp
+patch 259,326,

@@ -1,0 +1,4 @@
+changeset 45b55758ff66efb9acc037b973d67231968dc111
+manifest ff74cf9563a6259750f40c859acf069bab654855
+files mobile/android/base/java/org/mozilla/gecko/TextSelection.java
+patch 286,287,

@@ -1,0 +1,5 @@
+changeset 89bb123e0697907b1658809032245bc422253df0
+manifest 1a1a5ebd3ed32939fb30ce962b2caf6c7b0fca2f
+extra amend_source:8b6b1a359a1f092018c7fa4096cea074fe8e223f
+files mobile/android/base/java/org/mozilla/gecko/toolbar/SiteIdentityPopup.java
+patch 378,451,

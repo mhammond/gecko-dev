@@ -1,0 +1,4 @@
+changeset b440b912a5adca04f5a7a7b4b152f930a427ab7c
+manifest ada57a78e66d850e421de0e4e17287d6cff09d75
+files toolkit/components/ctypes/tests/chrome/xpcshellTestHarnessAdaptor.js
+patch 266,267,

@@ -1,0 +1,5 @@
+changeset 935545bab63273f0118a581030abfe1b895b66bf
+manifest fbed30d498e5dc984b2da7a4e891b990c8ba29ce
+extra amend_source:9efb698c7535f8817618da390c6316e86306a735
+files image/decoders/nsPNGDecoder.cpp
+patch 252,325,

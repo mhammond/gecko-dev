@@ -1,0 +1,5 @@
+changeset 20bef27e57d1080a94e388caf6f29bec918e21b5
+manifest 412f4ebc3b69f485514e20f40d476845d3584bd3
+extra branch:GECKO2411esr_2013111803_RELBRANCH
+files extensions/spellcheck/src/mozInlineSpellChecker.cpp
+patch 324,376,

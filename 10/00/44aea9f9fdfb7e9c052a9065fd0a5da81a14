@@ -1,0 +1,5 @@
+changeset 75f8e3a05ef807ec1494dffe691016fa01206186
+manifest 0d4f7d8e1d4d2e954ec215be5bfaad7d2160c3e1
+extra rebase_source:574afa9a8bdaf6eea027144de96c55a2a24ea241
+files browser/base/content/pageinfo/pageInfo.js
+patch 721,795,

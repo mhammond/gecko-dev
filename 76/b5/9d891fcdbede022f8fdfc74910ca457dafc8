@@ -1,0 +1,5 @@
+changeset ab21bce760546b2c68427491da9c6b8bc743523e
+manifest e9ece5701b1f4ac01ddd9746584ea96436270a46
+extra rebase_source:f4076901e376194d7db9fe03f27f1930b0931788
+files dom/base/nsINode.h
+patch 273,347,

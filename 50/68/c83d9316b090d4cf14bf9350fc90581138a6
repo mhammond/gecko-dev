@@ -1,0 +1,5 @@
+changeset f71ff24a7738ef70968582759a47260343dd4efa
+manifest 4375b597e6da6baffca04c9d300fda31e3b015b0
+extra rebase_source:fde7c2c722a94032b759d2d818c073a6e4d77781
+files testing/mozharness/mozharness/mozilla/purge.py
+patch 279,353,

@@ -1,0 +1,4 @@
+changeset 50e29526c717d4a01ecdc24d2afaf6b3571eb902
+manifest a74e94d5784eb8a0816b1e33f33a64a6d9220e8b
+files devtools/shared/heapsnapshot/HeapAnalysesClient.js
+patch 436,437,

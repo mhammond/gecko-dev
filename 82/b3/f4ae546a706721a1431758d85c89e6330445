@@ -1,0 +1,4 @@
+changeset d3a0bc6f68b128c4a83924bfb599d04d9e377afe
+manifest fc6a1f7292d02183cbf8b857399cde4873002c05
+files browser/metro/base/content/helperui/SelectionHelperUI.js
+patch 217,218,

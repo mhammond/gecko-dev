@@ -1,0 +1,4 @@
+changeset 3e1cb78ad72beeab811453987537f1bf1e087da5
+manifest a60c225b7bc90e7367f0124f328e3ea837aaca72
+files testing/taskcluster/tasks/builds/b2g_aries_lightsaber_nightly.yml
+patch 191,192,

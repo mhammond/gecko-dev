@@ -1,0 +1,4 @@
+changeset e232ece8e04158c87d0339390b621c3fbe404f55
+manifest 04352b5581b96621e4af4427599f627a5395c306
+files toolkit/devtools/server/actors/webbrowser.js
+patch 235,236,

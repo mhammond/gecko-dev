@@ -1,0 +1,6 @@
+changeset 3d3e03d528e015cb85dd7acf15e65443c0d3d589
+manifest 41b72caad7153e42013958e7a8e500b380569644
+author Dragana Damjanovic dd.mozilla@gmail.com
+extra source:7e9f778585288a52dbd6333b77ed817df6c97177
+files modules/libpref/init/all.js
+patch 246,313,

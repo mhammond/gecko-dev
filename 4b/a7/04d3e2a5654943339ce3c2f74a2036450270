@@ -1,0 +1,5 @@
+changeset 914265a547bf425c524a37a5b3d4985626f8c1e2
+manifest 805d88550da951149426a18ad16b98b0f533243e
+extra rebase_source:22534e56a0b9668921fc7bc0d5c2f874823645ed
+files mobile/android/base/java/org/mozilla/gecko/home/SearchEngineBar.java
+patch 666,740,

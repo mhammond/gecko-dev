@@ -1,0 +1,4 @@
+changeset f5629f12625731f16b7dcd5c9d80f1669f3af4c7
+manifest 97a6e57830f233f729dd6a03be62ab8f0b5af83c
+files toolkit/devtools/shared/worker-helper.js
+patch 217,218,

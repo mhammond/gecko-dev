@@ -1,0 +1,4 @@
+changeset 7f8a1c681597d1f1cfcc33fe47dcf59aff04b924
+manifest 0a777a0d283bdbcbd0e3cc7ffbb24196d264881c
+files dom/offline/nsDOMOfflineResourceList.h
+patch 245,246,

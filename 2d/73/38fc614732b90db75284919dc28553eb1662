@@ -1,0 +1,4 @@
+changeset dcf164aca02ee2986dc59ed71325d9097cd7927f
+manifest 31a822cd3522fbb67e6969e235d2b9fb5c6f7b49
+files js/xpconnect/src/XPCWrappedNative.cpp
+patch 235,236,

@@ -1,0 +1,5 @@
+changeset 7cb944f2d37f09ddfcfcecbfd8cb89486b7039a3
+manifest 14d7d90aacecff713849250471dfa81093425536
+extra source:d347db00f665a7e5895b73f1bd1e8c631ad326a1
+files layout/style/test/test_restyles_in_smil_animation.html
+patch 760,827,

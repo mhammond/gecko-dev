@@ -1,0 +1,4 @@
+changeset 7d67a7bc88295f67a7dffd1664ca8469e68425a5
+manifest 22c56271d435cdac26867763e0e433053c747ce0
+files mobile/android/tests/browser/robocop/src/org/mozilla/gecko/tests/testInputConnection.java
+patch 318,319,

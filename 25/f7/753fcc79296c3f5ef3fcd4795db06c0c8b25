@@ -1,0 +1,4 @@
+changeset cd52056697d5e3538e64e4e689f0ae1df22dd58b
+manifest ba4b82d1a2ce0ff74820615ceddc97f285f4f20e
+files browser/base/content/test/general/browser_urlbarEnter.js
+patch 283,284,

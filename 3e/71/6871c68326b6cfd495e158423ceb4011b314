@@ -1,0 +1,4 @@
+changeset 749cf956cbf4afc1ae151308f8b0b458891d768f
+manifest a48468d2a7e75edebee869dfea6c61f6567f954e
+files testing/mozharness/scripts/firefox_ui_updates.py
+patch 251,252,

@@ -1,0 +1,5 @@
+changeset db237a68215f8706c3e8528a36b7ea08161de4f3
+manifest 65f2fc54e09eddf897f96fbb8e84e117a9f68487
+extra rebase_source:0791d5c36368120a42adc780a07166d504c98c0c
+files browser/base/content/test/plugins/browser_CTP_crashreporting.js
+patch 299,373,

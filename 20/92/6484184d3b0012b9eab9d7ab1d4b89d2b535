@@ -1,0 +1,5 @@
+changeset ec866ebf94bc7049be971795dc6f38317a1c3372
+manifest 927eedbb98389149bf6d5e9eb9585ac33e9d66e0
+extra rebase_source:b22e53908a68a099efe0afbd6cba5d0012f9b5c9
+files gfx/layers/apz/util/TouchActionHelper.cpp
+patch 294,368,

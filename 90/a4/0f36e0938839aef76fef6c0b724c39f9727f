@@ -1,0 +1,4 @@
+changeset e8aca0d36b45b2de19fe7ce94bf2b00153379ef6
+manifest 98d0e091e87b0f4aece7057f5d42372a47e18da2
+files browser/base/content/test/browser_lastAccessedTab.js
+patch 288,289,

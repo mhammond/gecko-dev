@@ -1,0 +1,4 @@
+changeset c8d173e66fa2c9ddf5cec2bf20411e7e29404ce4
+manifest da086c9a8f17899587feea079e67883819e5ec94
+files js/src/tests/lib/jittests.py
+patch 198,199,

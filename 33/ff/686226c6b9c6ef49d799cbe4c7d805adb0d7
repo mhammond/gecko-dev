@@ -1,0 +1,4 @@
+changeset 16f2f3a4ecc9f3c2d1a17c99ac984178017bc02a
+manifest e9fffd20cab18881f3247f8b0a2b47dd7a0e94c8
+files gfx/layers/d3d9/TextureD3D9.cpp
+patch 188,189,

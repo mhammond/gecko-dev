@@ -1,0 +1,4 @@
+changeset 51e8405321ae1a3bc7bedf8bd12e3cd5d25dc8be
+manifest d07f079402375cff0491baeac6948919b9afbc10
+files js/src/vm/GlobalObject.cpp
+patch 259,260,

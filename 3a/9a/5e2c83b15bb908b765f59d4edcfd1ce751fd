@@ -1,0 +1,4 @@
+changeset bbfdbbf1dab41bb9f4395c56a15df061bf67e309
+manifest a585734d6d6b58706d4542012a5cf9c4db323a4e
+files dom/security/nsCSPUtils.cpp
+patch 240,241,

@@ -1,0 +1,4 @@
+changeset 634b8bb42eea3a1284695027a59c5e7e5df733bd
+manifest a243e9126dd4e6a6ec1d83a0feb48e21d3f8a0d7
+files toolkit/components/captivedetect/test/unit/test_captive_portal_found_303.js
+patch 274,275,

@@ -1,0 +1,5 @@
+changeset d6b420b13a6a605ae6718ae8dd918fb967c38de4
+manifest 879ad35a155cedc6a7a7b2016d9e38eb56b76b71
+extra source:e17911d5430d63392fe38d92086e8438d7e01cdd
+files testing/marionette/harness/marionette/tests/unit/test_window_handles.py
+patch 502,569,

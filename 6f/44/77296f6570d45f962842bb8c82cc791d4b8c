@@ -1,0 +1,4 @@
+changeset 1375c8688cc47b69713fea582773fcd0d8421374
+manifest 53b92e1f6cc29e03a3c76ecc938574914c33f02b
+files toolkit/components/passwordmgr/LoginManagerParent.jsm
+patch 260,261,

@@ -1,0 +1,5 @@
+changeset 208ae86f81b4e8aaf069b55d062aa08c84d826ae
+manifest 44fc3fd3b544b32c363157c22fd22de994eaa504
+extra rebase_source:954d8589410f72cccf6e29d22ba595bc8f3d8bb4
+files toolkit/components/telemetry/Histograms.json
+patch 325,399,

@@ -1,0 +1,4 @@
+changeset e478d1502ee26f741eb8843f9a98088f3ef4aa8b
+manifest 5b610520fd9f8b7b215692da6611b514badd3fcb
+files js/src/vm/MallocProvider.h
+patch 233,234,

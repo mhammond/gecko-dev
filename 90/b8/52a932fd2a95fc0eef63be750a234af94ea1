@@ -1,0 +1,5 @@
+changeset e585a3f41bba0b93658c27ae7979d5f8bc052a63
+manifest 02bc7c1d5360db7d665c01cd5ab0361b82f761f8
+extra rebase_source:1138e1b23a60c7e798b0f112a9268005de10e117
+files toolkit/components/url-classifier/LookupCache.h
+patch 310,384,

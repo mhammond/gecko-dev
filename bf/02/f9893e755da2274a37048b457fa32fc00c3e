@@ -1,0 +1,4 @@
+changeset 663bf47035887cc359171243585312058e75dc6f
+manifest 0a9d7f0a141ec8e7fdb1cac728a7f7de80848cd4
+files js/xpconnect/tests/mochitest/mochitest.ini
+patch 250,251,

@@ -1,0 +1,5 @@
+changeset f075b15b50d5da294b866a13dd70ef3b45beaa46
+manifest f65204dbb82d407a8067418d356c2e692fe271af
+extra transplant_source:ÏÆóÁÁö¥áúÿRÊ£İ×4Ó4 
+files xpcom/reflect/xptinfo/xptiInterfaceInfo.cpp
+patch 260,352,

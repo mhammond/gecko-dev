@@ -1,0 +1,4 @@
+changeset 0fc4b8fc291124a665df02112c3a12e9721f274b
+manifest fb438d316941c2d9c75437027e2f4e4824dbf763
+files testing/mozbase/mozrunner/mozrunner/devices/android_device.py
+patch 221,222,

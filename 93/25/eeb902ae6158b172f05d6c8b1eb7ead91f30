@@ -1,0 +1,5 @@
+changeset 65a2aa44161b485ca727a6be66249b8ae9b3940b
+manifest c79c8abd52dee1a05372e1e3d733a57a4bb5faf4
+extra rebase_source:1f08ffd194ba33bb0c76b5789b57ce80bc4b24da
+files editor/libeditor/nsHTMLEditRules.cpp
+patch 243,317,

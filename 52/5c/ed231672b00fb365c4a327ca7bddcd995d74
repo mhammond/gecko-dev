@@ -1,0 +1,4 @@
+changeset a01bf3016c0824cc48f301c95507358d3bbdc5eb
+manifest 7cc0afb5b91b0e2319f1d4e8ca045ee0cb19d497
+files browser/components/translation/test/browser_translation_exceptions.js
+patch 264,265,

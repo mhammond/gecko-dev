@@ -1,0 +1,4 @@
+changeset 1183a9938bb5dccb9035db792e9804c7781a04cd
+manifest bdea809ad8c5d92d42f29238cd063f753d31318d
+files browser/devtools/performance/views/details-memory-call-tree.js
+patch 266,267,

@@ -1,0 +1,5 @@
+changeset 6e62bf258128e91645787ebecd2e8b896bfe431d
+manifest bd105b0a58fc77c901e0e6488eab28f4806ea499
+extra rebase_source:67a3995872fff4a5028ce86ea070078635ba17e9
+files layout/generic/nsBlockReflowState.h
+patch 343,417,

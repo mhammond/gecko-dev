@@ -1,0 +1,5 @@
+changeset 124641c7e85d0090330c6732098fe65427073fcb
+manifest b3ada32d88db8b39139249b32fc69014b7656ee9
+extra rebase_source:9329892b3d387739ffc9c53d3c89b3a30e8833ff
+files devtools/client/themes/common.css
+patch 648,722,

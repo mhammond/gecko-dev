@@ -1,0 +1,4 @@
+changeset 442bd6f785cd148976490a98378064c04751f3ba
+manifest 6d6a2b90b62663998b17eb9769a19e98e0e8f561
+files js/src/jsnativestack.cpp
+patch 268,269,

@@ -1,0 +1,5 @@
+changeset e9d6e9e5ab707b4c5f436c288195938840eea3af
+manifest a564417c644ed955e27bb9dd31938fd99555e432
+extra source:830a804fa9597b74f0ee1cf3a78f4e105e192d2e
+files dom/media/webaudio/AudioBufferSourceNode.cpp
+patch 264,331,

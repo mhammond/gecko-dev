@@ -1,0 +1,4 @@
+changeset 7b6e415628ffc15542bb5a21dd085840b5aea3d9
+manifest eb810456385c30458e029611cd68766aad0fb747
+files browser/devtools/styleinspector/computed-view.js
+patch 259,260,

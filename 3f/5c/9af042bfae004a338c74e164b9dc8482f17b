@@ -1,0 +1,5 @@
+changeset 53d175f97046f0499c60ab70d16be1ad1514421c
+manifest fae6574b33de262697e638d2db7f80b6eafb10d5
+extra source:43b1143f29306800bc0994273857e489d06bc88f
+files js/src/threading/posix/ConditionVariable.cpp
+patch 317,384,

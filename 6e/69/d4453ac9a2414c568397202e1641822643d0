@@ -1,0 +1,4 @@
+changeset 54bfcfb26e1179fb9601a177630670964f76caee
+manifest 7042c59274ed25c20666d55e1f19248051a1649b
+files testing/web-platform/tests/innerText/getter-tests.js
+patch 281,282,

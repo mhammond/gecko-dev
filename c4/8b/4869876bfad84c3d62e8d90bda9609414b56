@@ -1,0 +1,5 @@
+changeset 46e9cc3061102fa5a060ac5688a08102ed9e1b2b
+manifest 0b704c22bb42c2e0ec718adfe680d139691caef0
+extra source:6f9e929f43a21f5d9fc57b9325751524005756ec
+files toolkit/modules/SelectContentHelper.jsm
+patch 265,332,

@@ -1,0 +1,5 @@
+changeset 97f90224e529b0f3d9828a860ff9114b21c8971a
+manifest 053673704408f644d7cfb95980827ede0edc011e
+extra rebase_source:9aaee02c597af6c38daf6b165a73c49141494f1c
+files mobile/android/tests/browser/robocop/src/org/mozilla/gecko/tests/JavascriptBridgeTest.java
+patch 336,410,

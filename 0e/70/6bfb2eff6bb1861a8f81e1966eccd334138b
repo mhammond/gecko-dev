@@ -1,0 +1,5 @@
+changeset 3c145973b6cb3234e0f786557918bb7fabc7eeb9
+manifest 204c6d0808ff0b7d360f3a5865b2b02083aafa5d
+extra source:4d5314a40363e0979b930e4d2fbbb6023c02a4bb
+files toolkit/components/url-classifier/ProtocolParser.cpp
+patch 274,341,

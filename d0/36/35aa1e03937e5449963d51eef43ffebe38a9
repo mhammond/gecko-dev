@@ -1,0 +1,4 @@
+changeset 4763e50236582325ad3ce9c16d584d615b83d06b
+manifest c036d40ed31738475952f94b799f2dbe6a4bc31b
+files tools/lint/eslint/eslint-plugin-mozilla/lib/processors/xbl-bindings.js
+patch 259,260,

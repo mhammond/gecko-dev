@@ -1,0 +1,5 @@
+changeset e51df628d6f718ec8c76085e9a7ecab1ee1c3bb8
+manifest 84d15f0accd52f366a12e3d4f28419cf7d7da17b
+extra rebase_source:885ecd284c4dc3c82ab8229b677384af80781900
+files devtools/client/inspector/test/browser_inspector_initialization.js
+patch 350,424,

@@ -1,0 +1,4 @@
+changeset 017d89f4503d25a302636456d93ffb00a691916f
+manifest 5e5dce385201f862509dd4c03e56c2ef29886708
+files js/src/jit/arm/MacroAssembler-arm.cpp
+patch 189,190,

@@ -1,0 +1,5 @@
+changeset df3c13ea7d3eef0d751d2c020bb4d90c3dbdbc1e
+manifest c0b101291cbbdc2ea4faa582aff6aa81c25167d2
+extra rebase_source:d64016382035ae99a3be9abc5bf974ab710c058b
+files testing/docker/recipes/install-mercurial.sh
+patch 496,570,

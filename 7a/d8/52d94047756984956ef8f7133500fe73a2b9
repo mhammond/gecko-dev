@@ -1,0 +1,5 @@
+changeset 7e4d77c786f9dafd1413f8e99ce176f74626c14c
+manifest ecffb4995ee1eaa9ab6d22f32a9f4b5dde0d74fe
+extra source:d2bd7cfc6d8c0aaf1dab44de0e6b8ad5aff13f4f
+files browser/base/content/test/general/browser_selectpopup.js
+patch 284,351,

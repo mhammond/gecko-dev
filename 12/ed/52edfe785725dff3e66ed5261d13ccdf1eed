@@ -1,0 +1,4 @@
+changeset acc2927bf3a30345a0b13ddfce24814f4e61f7c5
+manifest a6db6ef081188f3d029b14fe4502b2e88b040539
+files devtools/client/webconsole/test/browser_webconsole_bug_632817.js
+patch 235,236,

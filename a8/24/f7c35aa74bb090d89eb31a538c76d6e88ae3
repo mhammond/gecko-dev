@@ -1,0 +1,5 @@
+changeset d9cf55e9404dff48da2fd05f3f1f2c240c3bd382
+manifest 0f0ac0ba4ba46fcf0c1fe4eb5edeb223db5bb27e
+extra branch:GECKO380_2015050320_RELBRANCH
+files media/webrtc/trunk/webrtc/modules/video_coding/main/source/jitter_buffer.cc
+patch 321,369,

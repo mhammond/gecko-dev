@@ -1,0 +1,4 @@
+changeset 9c6a80906eb921fc1a0995a85d245a2934017475
+manifest b321acb9744e3aea94df5c4082dde948a0ff8824
+files dom/base/ObjectWrapper.jsm
+patch 227,228,

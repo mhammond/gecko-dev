@@ -1,0 +1,5 @@
+changeset c66bf651083a0acd5a779934b74011035c287725
+manifest 525254a88bba3cb8dce9de67b7bd0f8a602e3bbc
+extra rebase_source:37be932100f8fa101c35f9dd52dd83a062bd8eab
+files dom/telephony/nsITelephonyService.idl
+patch 266,340,

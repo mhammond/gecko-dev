@@ -1,0 +1,5 @@
+changeset 1f83d890004e58a00947b6bf18b8e827230c19a7
+manifest 7671912dce297df3ac31564090cbe31ea596b85a
+extra rebase_source:df027e399592339b215e5a729ade0dd7a4c1d22a
+files rdf/base/nsInMemoryDataSource.cpp
+patch 306,380,

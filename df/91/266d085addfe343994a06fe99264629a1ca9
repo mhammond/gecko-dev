@@ -1,0 +1,4 @@
+changeset 46139944dd1fbe044fd241ea0cd90d67821dcc92
+manifest a5c57498d7e39412b8fd1c076b7913efff9ca95e
+files devtools/client/animationinspector/test/browser_animation_participate_in_inspector_update.js
+patch 338,339,

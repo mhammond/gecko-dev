@@ -1,0 +1,4 @@
+changeset c49359cf04ff0398969ed5c5a4ceb4d939d734af
+manifest fcd9ed1bd8d5dbe385af67fd729644686b871b99
+files toolkit/components/tooltiptext/tests/browser_input_file_tooltips.js
+patch 295,296,

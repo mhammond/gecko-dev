@@ -1,0 +1,5 @@
+changeset 707a1c447539311e191f8fcfe07a7e7eef505fd8
+manifest a1fef034913d8f01d2a19bcad5bbf82cf4e5a6ff
+extra source:5906ece6f9067b5c7a3682f25b44d76f8833d231
+files media/webrtc/trunk/webrtc/modules/audio_processing/utility/delay_estimator.c
+patch 298,365,

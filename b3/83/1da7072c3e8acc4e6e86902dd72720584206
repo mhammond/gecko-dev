@@ -1,0 +1,5 @@
+changeset f7274ff3425c685734e7dc675ff124228aeed150
+manifest 393a50c2d55a13280f378a964abd31d1652b33b1
+extra source:0bfe3ec74b6063d996cb400e5a9ead2689efb669
+files services/datareporting/datareporting-prefs.js
+patch 267,334,

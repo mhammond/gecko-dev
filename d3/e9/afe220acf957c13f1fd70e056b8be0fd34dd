@@ -1,0 +1,4 @@
+changeset b6b9c0012ba7bef84ffcf600791b079eba1e3713
+manifest 72a06fb4e9a58a3cb9e4d15323b2253763fb727c
+files devtools/client/webide/modules/app-projects.js
+patch 270,271,

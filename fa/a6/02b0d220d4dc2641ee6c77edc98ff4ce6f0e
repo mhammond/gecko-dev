@@ -1,0 +1,4 @@
+changeset a877d212f6b091ade73854ba65bf4977cdf809e2
+manifest 329e6cd648008ec8038edfb202a2736f821e257a
+files browser/devtools/shared/inplace-editor.js
+patch 194,195,

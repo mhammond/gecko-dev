@@ -1,0 +1,4 @@
+changeset 251a9edbb0cc910eff1944e5232c7ddbe2a4e670
+manifest 6d71e42b030748a4074f24e5d1f1c8d54bece5ff
+files devtools/client/shared/widgets/FilterWidget.js
+patch 192,193,

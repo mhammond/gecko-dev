@@ -1,0 +1,4 @@
+changeset 747868feec5183a7bdea401472dce1dcdc31d137
+manifest a5d440d5a0e34ce4da23ad0d43b87e5cb9095deb
+files gfx/thebes/gfxWindowsNativeDrawing.cpp
+patch 339,340,

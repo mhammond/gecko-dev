@@ -1,0 +1,4 @@
+changeset 7f565d761d0c17cf37706f28d62c6c8c8989fbc9
+manifest 51fece39862ce701d68207d615e679ab4a308559
+files browser/components/test/browser_polaris_prefs.js
+patch 245,246,

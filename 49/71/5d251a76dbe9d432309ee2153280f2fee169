@@ -1,0 +1,4 @@
+changeset 708ea01b2758870b59a3d92e8a2e65e607b96b89
+manifest 14197fbc977b953ba5982aa2932dfb123aabf6aa
+files toolkit/components/passwordmgr/test/browser/browser_hasInsecureLoginForms_streamConverter.js
+patch 232,233,

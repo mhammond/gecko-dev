@@ -1,0 +1,5 @@
+changeset a9491e79c1aebebd47be6113f7f577df4c9de198
+manifest 422feca5facf5ccec69ff43ad989352b09a7fedd
+extra source:7eb40c545894888263c099243b2986e9fce0839f
+files dom/tests/mochitest/beacon/test_beaconRedirect.html
+patch 349,416,

@@ -1,0 +1,5 @@
+changeset 8f269ef84bca0aef90799191847347381ea6cce9
+manifest 900e3282df47dbe4c9f1ba99f6cf4adeebc0639d
+extra commitid:EwaZah7Y7Xg
+files dom/interfaces/base/nsIDOMWindowUtils.idl
+patch 253,293,

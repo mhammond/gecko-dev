@@ -1,0 +1,5 @@
+changeset a88317c76f6496ab37fe9edd2b7588b2e01aeadc
+manifest 6265eb0f1810c7097b391232551c98f24dd37549
+extra source:561ac57efc474b5e7c4cad3c55ef24edb7c955b6
+files gfx/tests/gtest/TestCompositor.cpp
+patch 253,320,

@@ -1,0 +1,4 @@
+changeset bb07b5227ff1683f14ae78cdd630164969335608
+manifest 3ddd576c54ea826d9e90707d3609d3b9fec7ca51
+files memory/replace/dmd/test/SmokeDMD.cpp
+patch 186,187,

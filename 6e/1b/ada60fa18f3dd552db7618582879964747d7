@@ -1,0 +1,5 @@
+changeset 0ef86d9dd93b86eb6e1ffb6f1958ddffdfbe3606
+manifest 11c687bce3048e15019b8d95ab0f4f6552437c40
+extra histedit_source:214b7cf2b86b9cce4fb4a1c25528013a8530fdea
+files b2g/chrome/content/shell.js
+patch 281,357,

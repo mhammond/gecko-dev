@@ -1,0 +1,4 @@
+changeset 18ab41c28e2e073d7a8d1854b565236b44ce9ba7
+manifest dbfbd5cf429a105c0cd5e2639999a74185f81fd3
+files mobile/android/geckoview/src/main/java/org/mozilla/gecko/util/UnusedResourcesUtil.java
+patch 239,240,

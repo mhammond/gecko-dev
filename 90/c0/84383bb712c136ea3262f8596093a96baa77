@@ -1,0 +1,4 @@
+changeset f50b8c335e195a6c54f144a678fd0b7913d8dd8a
+manifest add7ad4074d269a72d1a3937e3076a4b177b40be
+files browser/components/customizableui/test/browser_no_mutationrecords_during_panel_opening.js
+patch 254,255,

@@ -1,0 +1,4 @@
+changeset 3ae47666700d8007c219035028189a8c2e542ec7
+manifest bfc72b041b24b0f4b44565ec9a79544fffe0536f
+files browser/base/content/test/referrer/browser.ini
+patch 237,238,

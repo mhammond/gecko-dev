@@ -1,0 +1,5 @@
+changeset 47614b0d507aab411dcf7d7a0c687cdefebaf853
+manifest a285c260b8e186db37c712bdd1a0c7ef97a30878
+extra source:699388c59ab26a6dee69c946eb7059f5519cb9a5
+files mobile/android/base/home/HistoryPanel.java
+patch 293,360,

@@ -1,0 +1,5 @@
+changeset 96527a436bd86b0d83bb4f73b17c21b847ed40d7
+manifest 48412e938d6a6aa4be22d396be8f3fd54a4c9ad0
+extra rebase_source:94e43c347042f4ef9ec3fc582f4ea37cc9239038
+files taskcluster/ci/legacy/tasks/builds/sm_base.yml
+patch 303,377,

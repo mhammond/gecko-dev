@@ -1,0 +1,5 @@
+changeset 6efc0964ec62bc4abfdc4cb1dc7cc461c3238634
+manifest 5941a20b1b7cbee5a7c18602c8f7a3556329d1a9
+extra source:b10e48ea5d2066097c55fe287264819cbbc25d0b
+files toolkit/components/thumbnails/test/browser_thumbnails_bg_no_cookies_stored.js
+patch 315,382,

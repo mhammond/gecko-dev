@@ -1,0 +1,5 @@
+changeset 77b43decfd15ab40a27e71612e2165fed4446d49
+manifest d9dc7df9989396d996f01cd9b279a0c2e39a16be
+extra rebase_source:e6ce341ea871509562f2a42f6a058e7f8bd417b0
+files browser/base/content/test/general/browser_tab_drag_drop_perwindow.js
+patch 304,378,

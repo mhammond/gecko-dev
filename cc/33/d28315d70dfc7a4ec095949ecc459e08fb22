@@ -1,0 +1,4 @@
+changeset 38873310354d3e4c24eeda92d439cfb1bde4df66
+manifest 2b2843bae28d9b43d9f7de85355f7d9e6d014d50
+files js/src/vm/UbiNode.cpp
+patch 267,268,

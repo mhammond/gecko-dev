@@ -1,0 +1,5 @@
+changeset 7f9d120b9eae3f07cad92342be5aa204034bcde0
+manifest 43cd2977a0be2ff35e14386a3b2be3b830d2e4fa
+extra source:5f330d996ca4e3bd5a8c2c12e5867a406e27af66
+files js/src/vm/SharedArrayObject.cpp
+patch 240,307,

@@ -1,0 +1,5 @@
+changeset 10533587f045f2f10e19e12d147312f5afbd3b6a
+manifest 240dddb96eaaa22aef8e6599987adeeadd077d58
+extra transplant_source:”Ïùß6»|e\00ë+!­OÁ
+files testing/eslint-plugin-mozilla/lib/rules/import-headjs-globals.js
+patch 273,363,

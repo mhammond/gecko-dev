@@ -1,0 +1,5 @@
+changeset 9470fd1a1c8952f9d949715f2be3e3262762e536
+manifest ce194ad4dba595b0058868a7989b45293eada20a
+extra amend_source:1eef6c93d8a842dafea4f48a3357a87febda4853
+files gfx/layers/client/TextureClientSharedSurface.cpp
+patch 347,420,

@@ -1,0 +1,5 @@
+changeset c80fa00eef3cec1a9e91f7a88718553a11c0772b
+manifest 66d499e3076544a0a560d6450963ec96cc8dee57
+extra source:ba3a63e57add9c95d6bef8bf05ce763fae664eeb
+files testing/firefox-ui/tests/firefox_ui_tests/functional/locationbar/test_favicon_in_autocomplete.py
+patch 339,406,

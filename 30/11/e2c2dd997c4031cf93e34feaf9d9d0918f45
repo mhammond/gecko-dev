@@ -1,0 +1,5 @@
+changeset cdb8f7fe8a7c963b7a2c345286db6831e6297a43
+manifest a00f788fa89c87a3c13ee8d113e807a9feeba1bf
+extra rebase_source:4358a4cf8d8b6e613097449e90a1cbb92f668552
+files tools/profiler/core/GeckoSampler.h
+patch 304,378,

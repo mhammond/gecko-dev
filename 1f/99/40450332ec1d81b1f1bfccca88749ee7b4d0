@@ -1,0 +1,4 @@
+changeset 0ced5597653827d57beebce2dd8b4835340988b1
+manifest 364a8f75f935bb2c54eb7b63c8fd232b6314a91b
+files media/libjpeg/jstdhuff.c
+patch 162,163,

@@ -1,0 +1,5 @@
+changeset e36855754025d374b21f6454239727c36e7d2f83
+manifest c123205e12c18f8a59ca2579eb0dd9aa2e71dfd7
+extra rebase_source:21531f330bdd828f09a21395fcd68fe2206d864b
+files browser/components/customizableui/CustomizableUI.jsm
+patch 271,345,

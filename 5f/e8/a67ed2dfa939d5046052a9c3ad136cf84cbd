@@ -1,0 +1,4 @@
+changeset c9da8fe2636d567ae25ed76a5f91a55e42465b81
+manifest a6e7027f13a6c41b94a6bf8888962fb5e5a9bdc0
+files dom/network/tests/test_networkstats_enabled_perm.html
+patch 253,254,

@@ -1,0 +1,4 @@
+changeset b2cb9942d4343f6e2b4416cd5247be5908cdf0de
+manifest 5deaa4ac71c0c6361c95b66779745b19f786ce66
+files media/webrtc/signaling/src/sdp/sipcc/cpr_win_types.h
+patch 269,270,

@@ -1,0 +1,4 @@
+changeset 32f66481e16137222bf628ce07ea256c20c90f55
+manifest dcfbb6b7ab288d5b11b7a85db77998c24d86e7f4
+files intl/unicharutil/src/nsSaveAsCharset.cpp
+patch 166,167,

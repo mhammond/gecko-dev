@@ -1,0 +1,4 @@
+changeset 6319e40df7ff39554404da914c708289d65c9c63
+manifest 8a19b66aea2fa1b4a26080f975858d32a818268a
+files devtools/client/animationinspector/test/browser_animation_timeline_ui.js
+patch 298,299,

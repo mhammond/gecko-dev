@@ -1,0 +1,5 @@
+changeset 4bc6e299b3bbdccee27280e22886ca81f82e89cf
+manifest baf2703ae9c9ad079b35a14d3e8dd5746b599a4f
+extra source:3470e326025c62381dc5f7c06629dbe5dbd7f242
+files mobile/android/base/java/org/mozilla/gecko/text/FloatingToolbarTextSelection.java
+patch 389,456,

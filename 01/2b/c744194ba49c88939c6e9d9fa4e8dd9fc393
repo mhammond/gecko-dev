@@ -1,0 +1,4 @@
+changeset 66297c03cf1f57f24650f6871310fad8a77e9dc2
+manifest 4fe87ec9c85fda099df43b7aea8a7b0eefdee3dd
+files security/manager/ssl/tests/unit/xpcshell.ini
+patch 191,192,

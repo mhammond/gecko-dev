@@ -1,0 +1,4 @@
+changeset 9ecc776c8824f4a0e17e67dbba935c83f2db3dfd
+manifest 230f0f5bf3ce0a1e08f6013073bae2b6824331f4
+files mobile/android/base/java/org/mozilla/gecko/home/SimpleCursorLoader.java
+patch 430,431,

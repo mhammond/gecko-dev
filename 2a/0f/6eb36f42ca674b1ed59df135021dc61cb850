@@ -1,0 +1,4 @@
+changeset 9eb7e1d20e40eea17611cd254c5e0aca17e16831
+manifest b3e9b57321a3187218d0c13f25e091c4aa8f0327
+files testing/web-platform/meta/fetch/nosniff/image.html.ini
+patch 277,278,

@@ -1,0 +1,5 @@
+changeset 12ebcba46956a810bed79613d03e70c432525025
+manifest d5ad592da8ed588ef769c48603c1fac711981a28
+extra source:c37ebb6f4e2ee6e38d3a5d33dbd7aece0ed3465e
+files devtools/client/webconsole/test/browser_webconsole_bug_601177_log_levels.js
+patch 326,393,

@@ -1,0 +1,4 @@
+changeset 1fa2d3b94b609f57252fa6a1cf9e179fbfeb5c75
+manifest d7a2b6e273107a5faa5198925c37d00101cb5553
+files netwerk/base/nsURLHelper.cpp
+patch 333,334,

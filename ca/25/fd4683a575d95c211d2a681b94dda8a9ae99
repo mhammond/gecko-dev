@@ -1,0 +1,4 @@
+changeset 5a5b8c2939064f79c1289f36d19a18f47f71ebaa
+manifest e16e79ab8a9d7badae7fd723aa060eedadf2172b
+files mobile/android/installer/package-manifest.in
+patch 379,380,

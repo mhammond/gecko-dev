@@ -1,0 +1,4 @@
+changeset cccba602c83ae61d905264256aff0256f45b16e4
+manifest 1699901f12d3c0cc7ddc986ae49dbead0f8f90b0
+files browser/base/content/test/general/browser_locationBarCommand.js
+patch 302,303,

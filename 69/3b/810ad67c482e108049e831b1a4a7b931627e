@@ -1,0 +1,4 @@
+changeset 58c2eb92a95925e54633afd7299aa6cd4209a197
+manifest 209bc65df67ba8cdc88aae0848fb69223bfb26bc
+files toolkit/components/telemetry/TelemetryPing.jsm
+patch 241,242,

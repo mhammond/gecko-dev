@@ -1,0 +1,4 @@
+changeset 67288cb013d276f81721daecabeeb9c557ec81b3
+manifest 845a403e284d1ed9b06e105b86d9da8398b0d305
+files mobile/android/base/java/org/mozilla/gecko/firstrun/ImportPanel.java
+patch 211,212,

@@ -1,0 +1,5 @@
+changeset 32e84e78700581979f49ffa05bb15d6192509610
+manifest 73e04e59f3e003e9f664ef0d2f81d2334ac0d528
+extra rebase_source:4bfb29935221f079cf48898f88885499c0dc84c9
+files devtools/client/webconsole/test/browser_bug664688_sandbox_update_after_navigation.js
+patch 361,435,

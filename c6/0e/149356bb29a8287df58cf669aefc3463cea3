@@ -1,0 +1,4 @@
+changeset ea7b33f78d5e353c8e4e8c4bfa05d47c19b130d8
+manifest 2711a1db5691dd4d09e696182f27b627545fd546
+files browser/components/extensions/test/browser/browser_ext_windows_events.js
+patch 284,285,

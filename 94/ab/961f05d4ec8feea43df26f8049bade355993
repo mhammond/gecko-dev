@@ -1,0 +1,4 @@
+changeset ef13bb5a11d52ed112be78bf79b15faff1d4ed7c
+manifest cc6e265043f3a969153d11f81aefd8ef1b29f7e1
+files dom/tests/mochitest/localstorage/test_localStorageBase.html
+patch 299,300,

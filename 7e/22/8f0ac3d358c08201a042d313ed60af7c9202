@@ -1,0 +1,5 @@
+changeset dbe01bed8465708ffa0e721fe2a53edbb11e16d5
+manifest 22c2b5b8af8484e0ad75879d5c694115097e7068
+extra rebase_source:20afdb05ded3d8e4b454a26d18c803f42dc84f37
+files gfx/layers/client/TextureClientRecycleAllocator.cpp
+patch 261,335,

@@ -1,0 +1,4 @@
+changeset 51bdbe58fc2d3ec4e3d272713f76deeb3afc8d25
+manifest c93af3dc9a1077bb7d561f550a287bf4057f72fb
+files toolkit/mozapps/update/updater/updater.cpp
+patch 257,258,

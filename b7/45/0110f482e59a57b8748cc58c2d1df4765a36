@@ -1,0 +1,5 @@
+changeset 92d9d60f0a82f5cec6ad9525de3ab601d3f3e914
+manifest 938fe78f660b59b47b04afb602b8421e384be66c
+extra rebase_source:825f38d069a4c71ed335286c76044cf682ec7f61
+files layout/base/TouchManager.cpp
+patch 300,374,

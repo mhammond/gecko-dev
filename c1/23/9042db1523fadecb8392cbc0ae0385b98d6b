@@ -1,0 +1,5 @@
+changeset 51afefd5f63d13b28b304c52301818cfad7d229b
+manifest 89b992feb0ed6c0915b99e84a9586ea54328309b
+extra rebase_source:0cc24cf42d60497e939c7f9b45036d1ee904334b
+files browser/components/dirprovider/DirectoryProvider.cpp
+patch 323,397,

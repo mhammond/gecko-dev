@@ -1,0 +1,4 @@
+changeset aaa82c7efa4e14b56dc6873285d240f719600887
+manifest 7aaa4f155660840d2bc830e9944c244dd984ed55
+files devtools/client/memory/test/browser/browser_memory_no_auto_expand.js
+patch 240,241,

@@ -1,0 +1,5 @@
+changeset d35279fba00bb6c2dc46936c7b80bdd1cbc9f8bb
+manifest 9f2aa81c8c3f9ec7c4a73633a91699082a5e2c6a
+extra rebase_source:e622874d3c2c56b2e4e62c78f807189550b1dc10
+files js/src/jit/LIR.cpp
+patch 213,287,

@@ -1,0 +1,5 @@
+changeset dc1cb7ec5fdda323bdbb050c8401413754f116d7
+manifest 506082af1ed438370c2c9e0b32748c780788f6c1
+extra histedit_source:86ca0e336d4a31e23cb9c35302f12673dafbd09a
+files toolkit/components/search/nsSidebar.js
+patch 313,389,

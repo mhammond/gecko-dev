@@ -1,0 +1,5 @@
+changeset 46fe278f9f764bc9758ef9c690123f687633d0d1
+manifest 8e0ea870157186f71e2235edbacaf89d84e3a7d7
+extra rebase_source:b13291d1a6e0d7909ccf2b3a58a74fd769fc03d7
+files mobile/android/base/java/org/mozilla/gecko/BrowserApp.java
+patch 319,393,

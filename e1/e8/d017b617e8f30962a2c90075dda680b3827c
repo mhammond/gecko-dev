@@ -1,0 +1,5 @@
+changeset 5a0e8ae1170c5f57752a22cc843e8758f1503590
+manifest a8e26dc029da29036d2c11394072c2f4e0b0b59c
+extra rebase_source:1f8e4014f635d55196c2f32c44a2a56c309c76b6
+files taskcluster/ci/legacy/tasks/builds/android_api_15_gradle.yml
+patch 409,483,

@@ -1,0 +1,5 @@
+changeset 8e724faf0734aabdb05020be65798a68f46ac354
+manifest 84d63aa785744748873ae654605de710fa6771b7
+extra source:123a7cac7ce9603ae051be855e4e6a48e6f4a41c
+files mobile/android/base/java/org/mozilla/gecko/home/CombinedHistoryPanel.java
+patch 354,421,

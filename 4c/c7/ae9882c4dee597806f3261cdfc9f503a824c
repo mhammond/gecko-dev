@@ -1,0 +1,5 @@
+changeset cdb6fdbec0028cc9cbe94f856143340f78ce4eb8
+manifest edb58511ab503f45a847a98f0ec189c8b47c6d61
+extra rebase_source:c5938c4373df0ca7dc4bbc1cb7310a18d3197e9c
+files browser/base/content/test/urlbar/browser_urlbarCopying.js
+patch 396,470,

@@ -1,0 +1,5 @@
+changeset ab876459cc14149b7724c918bfb71dfb2439bfa9
+manifest ca8e6ac42d7948b9c698ab0c68381350194e29a5
+extra rebase_source:bcad2f101e94411a5defd655247ed4ace250a852
+files testing/docker/recipes/run-task
+patch 758,832,

@@ -1,0 +1,4 @@
+changeset fba73d3a3792f4a53528a04c12959362e1cb3ee4
+manifest 929ec8740ff6fd3973ba6ce76da18a5453007cdf
+files browser/base/content/test/general/browser_urlbar_autoFill_backspaced.js
+patch 306,307,

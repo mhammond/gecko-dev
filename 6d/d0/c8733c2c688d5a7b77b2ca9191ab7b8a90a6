@@ -1,0 +1,5 @@
+changeset c23a8d5e4088962b5c70359257bdc85c3aa189ec
+manifest 3da0dfbc99efc9871fc78235be5ad0ec00d75222
+extra rebase_source:8ce100b3f12576ca23d5485a12c194daece3b051
+files taskcluster/ci/desktop-test/tests.yml
+patch 294,368,

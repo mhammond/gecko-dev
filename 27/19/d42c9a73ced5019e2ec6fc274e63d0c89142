@@ -1,0 +1,4 @@
+changeset 4bd0ad73562bbeb34ba496b2a581827e8bc5c9c4
+manifest 8fcb79892f8f86f4b971c49569e70ea54b4c3df5
+files security/manager/ssl/nsISecurityUITelemetry.idl
+patch 246,247,

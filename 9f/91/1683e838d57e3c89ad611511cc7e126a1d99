@@ -1,0 +1,5 @@
+changeset 192603a9319a6d2490ecb1fa4acddd413c6e85dc
+manifest 18b9a157eb02b2b6fc0b25719930735a688c6283
+extra source:ed866278df3952d0d42d854f60cc828b91eceee5
+files devtools/client/inspector/rules/test/browser_rules_user-agent-styles.js
+patch 297,364,

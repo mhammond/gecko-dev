@@ -1,0 +1,4 @@
+changeset ea9cc82ddf70bcf62c284a97f904bd712ba7c716
+manifest c2a7256b67bd85af0cf91858bc258a72304b3b27
+files layout/xul/nsGroupBoxFrame.cpp
+patch 245,246,

@@ -1,0 +1,4 @@
+changeset 7ccd9c22dd043894f11aee24805a00f104ed1701
+manifest 6f885185ce224faedf3b83e29c0f2ad7903fefb5
+files widget/qt/nsWindow.cpp
+patch 211,212,

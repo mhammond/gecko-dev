@@ -1,0 +1,4 @@
+changeset 4f17b0471d62cc845f1c5c41ef54ed69a57b7766
+manifest e679053bdb93ff3a3506ba05850db535554abeff
+files dom/base/nsCopySupport.cpp
+patch 159,160,

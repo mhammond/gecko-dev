@@ -1,0 +1,5 @@
+changeset c10dc4f9f3ecd7bc2311f2f946af0ad96b5b9183
+manifest 6a035e4776c0df0756bf3333360d2ac904ae858d
+extra rebase_source:1a83126a3081c4d2b5d5a1d900b3a8a65c5016dd
+files media/libstagefright/system/core/libutils/VectorImpl.cpp
+patch 308,382,

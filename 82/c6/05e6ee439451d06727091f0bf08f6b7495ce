@@ -1,0 +1,4 @@
+changeset ece77f2aba36db99c34b999f8c4a39a3554ea157
+manifest 98d2d9ac6daa0f0b39bdf9992504235a45c82412
+files toolkit/components/places/tests/queries/stub-test.js
+patch 178,179,

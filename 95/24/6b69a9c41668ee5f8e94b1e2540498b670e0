@@ -1,0 +1,4 @@
+changeset 001a1805c476e1a9dc443ee547145b849be07463
+manifest ae977cdfcbafd3006379f0a8e7dfdd463110d186
+files netwerk/base/src/NetUtil.jsm
+patch 162,163,

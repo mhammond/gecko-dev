@@ -1,0 +1,4 @@
+changeset f14ceb85c47d0f8c11dafb7cb0ac05cf43256b26
+manifest e42eff3162c1d3fe2d9b82945f22bfca33da1f5a
+files browser/base/content/test/general/browser_addKeywordSearch.js
+patch 231,232,

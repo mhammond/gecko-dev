@@ -1,0 +1,4 @@
+changeset 2148987d7e46f5326ec82f837bb8b33d518a9921
+manifest 04eb9733382517ed47995371c6257a21c1b00e95
+files js/src/jit/mips32/Architecture-mips32.h
+patch 285,286,

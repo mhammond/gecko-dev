@@ -1,0 +1,4 @@
+changeset 85bef7bdcafc1d93dd4ec86775c63771617f4acd
+manifest b92720f82d724d20dd8b1fb326dd93ec6bca55d8
+files testing/web-platform/tests/service-workers/service-worker/resources/fetch-rewrite-worker.js
+patch 267,268,

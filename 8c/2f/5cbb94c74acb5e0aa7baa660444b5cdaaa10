@@ -1,0 +1,5 @@
+changeset 68d6f69e0837db5a8790c18d6f0040e9de3abe88
+manifest 2229bf9a8c8b421a3f6f66a22f08cf118cde1274
+extra amend_source:0940efc65bb706b572f0699ab5c66b82d6591d30
+files security/certverifier/ExtendedValidation.cpp
+patch 579,652,

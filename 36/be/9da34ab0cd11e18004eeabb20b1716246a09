@@ -1,0 +1,5 @@
+changeset 7ce747f01b726348dbe01ab143146acbd4ecdd88
+manifest 7e6a6c55b2a262e628b185f50ebbce2cacfbc9d8
+extra rebase_source:9e79e93939fbfbab519bfebc288f3a39d052d07d
+files js/src/jsstr.cpp
+patch 244,318,

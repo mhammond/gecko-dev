@@ -1,0 +1,6 @@
+changeset 3fa9b262d4e54faa7694e6f9bc0827a2b470d64f
+manifest 120bb0ec324308b0de556df6d81731c3e43bb582
+author Eddy Bruel <ejpbruel@mozilla.com
+extra source:b274d6e85690c468b5f97dce27c92835f2b8168d
+files js/src/vm/Debugger.cpp
+patch 229,296,

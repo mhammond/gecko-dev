@@ -1,0 +1,4 @@
+changeset 5d2a0c380c6e5020138a0ac697c5d51487da2ab2
+manifest be9221af51516cda9bbd043c3091c78ddfc5c036
+files testing/xpcshell/runtestsb2g.py
+patch 247,248,

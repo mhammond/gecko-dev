@@ -1,0 +1,4 @@
+changeset b999fac0569d760e971b6579c420eb887d645433
+manifest 8332fa29f3abefe602cf7c9226058b83f4ecc02a
+files mobile/android/chrome/content/SelectionHandler.js
+patch 233,234,

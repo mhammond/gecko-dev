@@ -1,0 +1,4 @@
+changeset eb673021691c3c3257546995edf4731a1a7c165c
+manifest e36bd8000c41e9414cec3ee7a835bbdd3654f662
+files devtools/client/inspector/rules/test/browser_rules_edit-property-computed.js
+patch 888,889,

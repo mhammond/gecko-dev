@@ -1,0 +1,4 @@
+changeset a3b08f485c17ba518bab515bc8d942803e676c45
+manifest d3bd9282c7667ac06cb964ae1a1646fb61b8d59a
+files toolkit/mozapps/installer/upload-files.mk
+patch 219,220,

@@ -1,0 +1,5 @@
+changeset 530a881ab15d9f101400accdfe367203d123d7d2
+manifest f7d3b268bb9cc0a2a9c66b6eb187ab18d9180881
+author Eddy Bruel <ejpbruel@mozilla.com
+files devtools/client/inspector/markup/test/actor_events_form.js
+patch 221,222,

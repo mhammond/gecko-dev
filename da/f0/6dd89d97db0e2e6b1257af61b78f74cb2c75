@@ -1,0 +1,5 @@
+changeset 8a9734a9d97dd35d0c1b1f0d82b8390f652bdfbd
+manifest f2bc4d071178de106aeb1b963d0e29dd8dcf9b86
+extra amend_source:e57cda0bd3609f5b931050e8fe0c290f7901e44a
+files dom/base/nsImageLoadingContent.cpp
+patch 287,360,

@@ -1,0 +1,4 @@
+changeset fd2ab87ba9fb30124af6a5807d2347fb4e8fa6bf
+manifest b24555cfba98599e25518ce367ac8231677f2386
+files dom/canvas/test/test_bitmaprenderer.html
+patch 331,332,

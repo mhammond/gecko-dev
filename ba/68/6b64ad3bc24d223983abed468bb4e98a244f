@@ -1,0 +1,5 @@
+changeset ff29f08b72c466b65dea5efa6f82f99add8f17ef
+manifest 769c6500d18b34d19a8e53e89a430608ceffbda3
+extra rebase_source:f5712a5b12a298b0d026d1b4a6ce42087c1d43bb
+files devtools/client/shared/test/browser_tableWidget_mouse_interaction.js
+patch 364,438,

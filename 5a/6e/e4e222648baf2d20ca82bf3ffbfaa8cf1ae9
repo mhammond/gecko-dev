@@ -1,0 +1,4 @@
+changeset ca507a54c7cc0fb0126a1ac3163b4c5f47d3ce88
+manifest 24482cb3dd395b57f68c250702ddd90b7295e04e
+files mfbt/Poison.cpp
+patch 266,267,

@@ -1,0 +1,4 @@
+changeset 1e2f1521b7e8226aba3e5d828b3eb8e569ac6886
+manifest 9d797b912e33b7e4469c74d2c003c0d6c424d710
+files build/unix/mozconfig.gtk
+patch 312,313,

@@ -1,0 +1,5 @@
+changeset 393b9382b1fcc5b4d373a2698b7c1f257fdb922a
+manifest 8a4b9e39f23bd676f786ec7b73976b8c325a1e15
+extra source:2b2e61f6c66bf52c5d4dea4e5d2f3d45ef14c85d
+files testing/marionette/interaction.js
+patch 295,362,

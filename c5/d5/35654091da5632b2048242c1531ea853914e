@@ -1,0 +1,5 @@
+changeset 88ef22723df67da787a0b1ac5a330f7e81d94916
+manifest a0bb41ee4dfc53cf8fded02ef6e0a826d3eaedb4
+extra transplant_source:“,H-\0CƒHUè¼’@ÏAP
+files browser/components/preferences/in-content/moz.build
+patch 297,381,

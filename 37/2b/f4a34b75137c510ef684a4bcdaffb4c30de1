@@ -1,0 +1,4 @@
+changeset 3b5b22189fcf35c0342190f4fcd289084b000c45
+manifest 9242e328243c521d8b41221a736b1a92661594dd
+files mobile/android/config/proguard/strip-libs.cfg
+patch 274,275,

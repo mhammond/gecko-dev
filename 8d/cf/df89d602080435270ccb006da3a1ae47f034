@@ -1,0 +1,4 @@
+changeset 645991c76862d7bf87ecf584737e20ba77f64eb1
+manifest 041cfaf031f4e625b303ffb0302c5f0c05bfa1be
+files layout/tables/nsTableFrame.cpp
+patch 244,245,

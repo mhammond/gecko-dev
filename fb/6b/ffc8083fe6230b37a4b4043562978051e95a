@@ -1,0 +1,4 @@
+changeset d0e9ed27cd82617819af079b89d731215daea123
+manifest 7981e5fd59c0ab3252d2c0d9ea2a8ab30daa41ce
+files browser/base/content/test/general/browser_tabfocus.js
+patch 232,233,

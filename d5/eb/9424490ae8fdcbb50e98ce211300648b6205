@@ -1,0 +1,5 @@
+changeset 192a5ffbf501cf1699cbb1b2498bbb9c9862cbcc
+manifest 2b3d788b0a261430d947ee2b79af9cc40e1b91a1
+author Jorg K
+files editor/libeditor/nsHTMLDataTransfer.cpp
+patch 174,175,

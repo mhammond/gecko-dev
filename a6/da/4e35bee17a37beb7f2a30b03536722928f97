@@ -1,0 +1,5 @@
+changeset 57b2f4205e1280ee43ab599fc797d0e72742bd3a
+manifest 447ce9b83360975f403582c6b112b0d54885e118
+extra source:a17f13eaa49edb62af190ac224d31c6756dac3e8
+files testing/firefox-ui/tests/firefox_ui_tests/functional/locationbar/test_suggest_bookmarks.py
+patch 341,408,

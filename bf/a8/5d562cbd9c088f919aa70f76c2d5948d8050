@@ -1,0 +1,5 @@
+changeset fa10bd34b8f7cbfbe275c6ebe9a33b583e179b3a
+manifest 4a5de8a39dd26c2ec6315736b6dd54d4a329e4c9
+extra rebase_source:cb60de6f916fdacc9bbb627b1724a68fad708ff1
+files toolkit/components/url-classifier/SafeBrowsing.jsm
+patch 338,412,

@@ -1,0 +1,4 @@
+changeset 7ea47f407616c0490ce703cd623804250a89400e
+manifest 406d26b563621e7dab4398805262d012d415ede5
+files testing/mozharness/scripts/android_emulator_unittest.py
+patch 221,222,

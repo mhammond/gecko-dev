@@ -1,0 +1,5 @@
+changeset b4abf0606e3b0ba61e8ba29e174a009f3f464b59
+manifest 4d9128b893974d7528c988f815f10793676faeeb
+extra rebase_source:66777ac0a46c77298c5a4bee815f03dd92fca208
+files extensions/spellcheck/tests/mochitest/mochitest.ini
+patch 252,326,

@@ -1,0 +1,5 @@
+changeset 16b1dec1956fb81cada13fe80cf0c005b2a755e0
+manifest ff4125d8aa4031714c7911f9cdca61e36eeb1997
+extra rebase_source:d410228beecea6c6389f1980f849738745d81631
+files mobile/android/tests/background/junit4/src/org/mozilla/gecko/util/TestFloatUtils.java
+patch 310,384,

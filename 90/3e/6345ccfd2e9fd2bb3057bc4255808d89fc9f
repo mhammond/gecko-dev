@@ -1,0 +1,4 @@
+changeset a72145cb5a3d63af16b81dbca8b4f7dd8ca7253d
+manifest 58dbbd87ce6540c369a2f25e3a33a4c9ea7a5a1f
+files dom/canvas/WebGLStrongTypes.h
+patch 275,276,

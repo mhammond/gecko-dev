@@ -1,0 +1,4 @@
+changeset 6b8a7556ab2e9b7d24768197827f18e032a9d880
+manifest d14afe828f6f375a68f609d1fd29799220c04b7e
+files toolkit/mozapps/update/test_timermanager/unit/xpcshell.ini
+patch 246,247,

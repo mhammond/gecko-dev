@@ -1,0 +1,4 @@
+changeset f0b2932c2ae39f4da8b92f30e8a1d87b64e0918f
+manifest 6297cfede5800c0bfa85fc91d6582882be6f387a
+files js/src/jit/BacktrackingAllocator.cpp
+patch 252,253,

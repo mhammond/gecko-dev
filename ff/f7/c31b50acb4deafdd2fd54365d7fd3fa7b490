@@ -1,0 +1,5 @@
+changeset 3366b3cde4918ef217a57293f1cc9bd9a6656bcb
+manifest b4b9b066a6cc93d01f4df553b82234b79b4c9308
+extra source:26e8e90223c1cf5ac8304e88df00fccab7f34281
+files gfx/layers/apz/src/AndroidAPZ.cpp
+patch 277,344,

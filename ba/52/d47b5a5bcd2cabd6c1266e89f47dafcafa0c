@@ -1,0 +1,5 @@
+changeset 3099bd33de817e6745c989c3ae0b16c9b2ec0a76
+manifest 73fe4fbc0ebe1637a46b13178639b0e3ffd7a4e3
+extra source:5624c53dd9a5b3a38e734c3652dfdeb9e6f877c7
+files mobile/android/base/java/org/mozilla/gecko/gfx/JavaPanZoomController.java
+patch 404,471,

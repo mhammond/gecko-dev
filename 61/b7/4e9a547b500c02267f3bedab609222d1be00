@@ -1,0 +1,5 @@
+changeset c6af39f64775b5a8a71e08e2fb28436fd990b401
+manifest 48a4a31ec1b55ed5396d7aa313a069c0d03ebb3f
+extra source:f437498da477bac3d8e9852e67c89d6a5c0d7422
+files media/libstagefright/frameworks/av/media/libstagefright/SampleTable.cpp
+patch 344,411,

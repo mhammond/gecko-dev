@@ -1,0 +1,5 @@
+changeset 4d742ed5c563787a8b2301427390d8f596d11f6d
+manifest 759ab028a63a812abd5e5af7438be84a2c13655d
+extra rebase_source:b44ed66dd66481c63bbddafefca34b88860ecc1b
+files xpcom/io/SnappyUncompressInputStream.cpp
+patch 290,364,

@@ -1,0 +1,5 @@
+changeset 2d331d4ba0f5e18dcd31fa984178ff8d547cdce7
+manifest 1fc9d366bc63208a9d127dbec17c3cf4af966c3b
+extra rebase_source:5570d4f5f5cb25c791f327ff9e5b97777b04da9b
+files media/webrtc/signaling/src/common/PtrVector.h
+patch 292,366,

@@ -1,0 +1,5 @@
+changeset 5b331e32276013f99cbe7034f06eb2fbd1e64c80
+manifest 38e0c703c6f66a5d2dcdc3be459c3984073d6a66
+extra rebase_source:ee4b0b74ef722160f9310b58d761d1542f22712a
+files toolkit/content/license.html
+patch 260,334,

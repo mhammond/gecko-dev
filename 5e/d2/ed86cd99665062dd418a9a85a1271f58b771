@@ -1,0 +1,4 @@
+changeset 144913d1647729e7a7025c7c3546840d78c6441d
+manifest 91c870cecb5564caa73c47cde8d594caa599cfd2
+files browser/base/content/test/general/browser_devices_get_user_media.js
+patch 233,234,

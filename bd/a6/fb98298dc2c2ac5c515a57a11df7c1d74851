@@ -1,0 +1,4 @@
+changeset b4ead0ffd25ac75f0ef6124f34b74e86c1d573eb
+manifest 31d81b3ad7cfe755c4e94e16438445e2b85ec4bc
+files devtools/client/aboutdebugging/test/addons/bug1273184.xpi
+patch 291,292,

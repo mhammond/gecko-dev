@@ -1,0 +1,5 @@
+changeset 8c26f35e08a3ab42d442895a87ff6dd7614d0b70
+manifest 219485260f84cc0cbf28943b45f5578ffcd69ad8
+extra source:977e775db17eb654e0bb8ba8b9998a6e2e81d801
+files dom/html/test/test_bug1260704.html
+patch 300,367,

@@ -1,0 +1,4 @@
+changeset adbd5c905a16bec519550eb3b9f5f83cbe972608
+manifest 57ae232f150e4c4064206513f0240816667210ec
+files python/mozbuild/mozbuild/backend/fastermake.py
+patch 451,452,

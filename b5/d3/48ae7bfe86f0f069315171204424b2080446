@@ -1,0 +1,5 @@
+changeset 36f945043957d096b5085599dc65c3c91866f067
+manifest a3d580e3e942d2047b97d6a60be3b386bddab091
+extra source:bc22ca7ff05bbe74b770f9c41ca7bcadfe188d98
+files mobile/android/base/java/org/mozilla/gecko/home/TwoLinePageRow.java
+patch 898,965,

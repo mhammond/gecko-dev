@@ -1,0 +1,4 @@
+changeset 52e0f82a635e435f226bcabd6924b71c90b8e86e
+manifest 40639e5a5ad5293c0e01b8f4e5defc8908e19078
+files browser/components/sessionstore/RunState.jsm
+patch 189,190,

@@ -1,0 +1,5 @@
+changeset 315763ca22c190dde2ef96f4f42e49fe63246106
+manifest a62a35f2de86cbf1e279884208e206fdb091f01f
+extra rebase_source:b8756eae2dc7479944d88f73c095d559343c5b88
+files toolkit/themes/shared/aboutReaderContent.css
+patch 306,380,

@@ -1,0 +1,5 @@
+changeset 2ca8ada54b9b1d2c5805077e3cf28142bcc5b612
+manifest 937f4bb7d3d47f6b2197989c2c1b523d3591e24a
+extra rebase_source:9a9f938ab7499ddcc18a1bce549e651a07829716
+files xpcom/reflect/xptinfo/xptiInterfaceInfo.cpp
+patch 265,339,

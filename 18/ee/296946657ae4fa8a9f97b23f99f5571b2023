@@ -1,0 +1,5 @@
+changeset 34a3c8f67a8ed7c0f7e3d597acfcbb285f37d32a
+manifest ebef7b84679fd302113e219c9594de5889527fe2
+extra source:c3d6cc14a14807c08fed16c0dfdad4277bc7f953
+files netwerk/test/unit/xpcshell.ini
+patch 307,374,

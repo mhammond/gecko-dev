@@ -1,0 +1,4 @@
+changeset a452ab15ac37fa989603b742f6f08716e7293544
+manifest 37dd71be321e10f33eb9edd3b17097af57c31060
+files browser/devtools/performance/views/details-js-call-tree.js
+patch 230,231,

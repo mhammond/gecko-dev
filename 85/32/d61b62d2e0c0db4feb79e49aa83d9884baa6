@@ -1,0 +1,4 @@
+changeset 04aa3c668d656aa1c1528eb074d78a98ecc88001
+manifest 0ef4f6b2174a639d3ffee06d9e47cc78ee7efec3
+files build/win32/autobinscope.py
+patch 232,233,

@@ -1,0 +1,5 @@
+changeset f83eddcbebbc4c2c9554bb2a929f0f25bc6c563d
+manifest d4e767cab8929743d6a9cb66598954afea61b0e3
+extra rebase_source:62162bada5175c319ce02e8a9a8ff8ac85970b48
+files netwerk/cache/nsDiskCacheBlockFile.cpp
+patch 277,351,

@@ -1,0 +1,4 @@
+changeset e5232fc114207f56fcbc2699c2d7000c31df9b53
+manifest 826e5ea412347e577ade3d835aa11117356f7fbf
+files js/src/tests/ecma_6/Class/newTargetDefaults.js
+patch 211,212,

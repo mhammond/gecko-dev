@@ -1,0 +1,4 @@
+changeset 4a79b4164b66464e07347cb22b1648f39a8ed89b
+manifest 6d0ceea27fa7d7da4f7dd9a1bc2151b7a0ea9d2d
+files mobile/android/base/java/org/mozilla/gecko/home/SearchEngineBar.java
+patch 322,323,

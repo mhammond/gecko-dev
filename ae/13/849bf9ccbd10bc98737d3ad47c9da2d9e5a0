@@ -1,0 +1,5 @@
+changeset 162ac8a32f0fa9ed62985bcea7b9b90c1a5abb96
+manifest 94c552e5c04ef8246727bc39bb49f1655bb1e00a
+extra source:09e913e907314f698a7e61a9dcee787271df01b5
+files media/libcubeb/src/cubeb_pulse.c
+patch 267,334,

@@ -1,0 +1,4 @@
+changeset c081648c06e33d9c2d9c0a587fdb83320f231efd
+manifest fdbd881b8af924ddb3809028ecff77e75e5a4082
+files dom/requestsync/tests/common_basic.js
+patch 270,271,

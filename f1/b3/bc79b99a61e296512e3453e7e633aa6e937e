@@ -1,0 +1,5 @@
+changeset 8f7cc8ac46eab7f0107a5e37fc90f39a37e13a68
+manifest f16dbc28ce819ccd5fad3701527f2a53d3e332c8
+extra rebase_source:7ea2e05ab0b8ac77c6e2d5a2b28745cf2047e06d
+files layout/svg/nsSVGSwitchFrame.cpp
+patch 273,347,

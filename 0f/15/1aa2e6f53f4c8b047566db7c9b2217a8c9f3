@@ -1,0 +1,5 @@
+changeset c01a9c030fd094e73d45bf88639fc320127b9a3e
+manifest ea43ffee992e045e72c47e61b265df5c18a22052
+extra rebase_source:c3bb6b6c00b4e787cd108af55254235eed6f50ab
+files other-licenses/bsdiff/moz.build
+patch 290,364,

@@ -1,0 +1,5 @@
+changeset caeea0265cc359b759894bd60dbedd8d5db800c2
+manifest ed5c4bae9cdf2905738bc5522c8ac3a4f5b91f68
+extra rebase_source:0d7884362358b6e6d94b75f01c6c856b7cf7741f
+files dom/browser-element/mochitest/browserElement_Manifestchange.js
+patch 331,405,

@@ -1,0 +1,4 @@
+changeset 1960bbbac430921ccd4178075f974477ae7f707e
+manifest 92f80cf836a1100ea49fa78f4ca7769005c76713
+files dom/tests/mochitest/geolocation/geolocation_common.js
+patch 317,318,

@@ -1,0 +1,4 @@
+changeset 7330514ef5e4d0daed0505ffc20395dced5c29ec
+manifest 342f2f1a8b31bb035eb798c5ee69ea06ee868be4
+files toolkit/components/passwordmgr/storage-json.js
+patch 227,228,

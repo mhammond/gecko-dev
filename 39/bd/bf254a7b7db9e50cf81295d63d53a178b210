@@ -1,0 +1,4 @@
+changeset 6ce4e94c7ba5178db2c85578436a8106b90ef0d2
+manifest 0e39f196f9bb708ee3908f72f4c0cab53ea011f6
+files js/src/jit/mips32/Trampoline-mips32.cpp
+patch 188,189,

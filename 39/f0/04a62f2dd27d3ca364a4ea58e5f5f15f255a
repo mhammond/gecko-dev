@@ -1,0 +1,5 @@
+changeset 22d480ab8d7e845aa87ba2ebf11805fcd126bac8
+manifest 974512a03df02af3bcf34eaeebcecf8853bba147
+extra rebase_source:bae500686dcefa93248a3b7c8765ab287060d324
+files devtools/shared/touch/simulator-core.js
+patch 304,378,

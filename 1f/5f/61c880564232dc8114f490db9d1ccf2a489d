@@ -1,0 +1,4 @@
+changeset 3b25dd5d9f0e2295209753d7d29e903de3d9b73e
+manifest 0c04ff7486b718a30628407cd4baafdb74fc0ec6
+files js/src/vm/ScopeObject.cpp
+patch 196,197,

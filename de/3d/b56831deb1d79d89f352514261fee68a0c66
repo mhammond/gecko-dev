@@ -1,0 +1,5 @@
+changeset ffb38910dcae79a05680bdb917ef93e69d6d3a8a
+manifest dd3863a87a4918edbea55dc68f4fd09800935413
+extra rebase_source:2ac7779e355ffe48f61084aeb76e741e64cea6f6
+files security/manager/ssl/nsNSSComponent.h
+patch 322,396,

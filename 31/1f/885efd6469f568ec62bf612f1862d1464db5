@@ -1,0 +1,4 @@
+changeset 9a33547316416679c6901b963ac327ae8087a14b
+manifest 350180942dc3356c72966404bd44a2387a921b6c
+files extensions/auth/nsAuthSambaNTLM.cpp
+patch 198,199,

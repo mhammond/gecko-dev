@@ -1,0 +1,4 @@
+changeset 179f60ef0916f8b8b7ce8d0bb66f0343037fa1b6
+manifest 7f6db24f200fe69554441afbcf9c99996fb9c1d6
+files js/xpconnect/shell/xpcshell.cpp
+patch 222,223,

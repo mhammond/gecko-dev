@@ -1,0 +1,4 @@
+changeset 3082c3a0823f98a7dd21f52544f3a100d333cf58
+manifest 3fad9370d0aa24678a1baad7df19b4d4d88c517a
+files layout/base/tests/test_scroll_snapping_scrollbars.html
+patch 378,379,

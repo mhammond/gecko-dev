@@ -1,0 +1,4 @@
+changeset e3d7d24ebf13fc5dd54eccd81108b6830b48d39e
+manifest 78beffa259cc465c6ee445f0c2dfe4d23dba916d
+files widget/gtk/nsScreenManagerGtk.cpp
+patch 215,216,

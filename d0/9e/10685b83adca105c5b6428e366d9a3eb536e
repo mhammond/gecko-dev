@@ -1,0 +1,5 @@
+changeset 8aed2cc25606fc2fe1f0d3f14e35285c7556c9f3
+manifest 1826826e6b4683027f0474134c11f84f8cd77c75
+extra transplant_source:Ïq;ó•îÊ£?*ÏB&^…¿
+files security/manager/ssl/src/SSLServerCertVerification.cpp
+patch 299,393,

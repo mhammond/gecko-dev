@@ -1,0 +1,5 @@
+changeset 522031a5febb97d77c84e967c9ee57262c1ef7bb
+manifest c1428be8daf721dbc312ef5f369acdbb76c9e395
+extra source:42aa972560ed5b9e5581eacd22da3a3bef276c6d
+files dom/base/nsDOMWindowUtils.cpp
+patch 306,373,

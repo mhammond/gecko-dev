@@ -1,0 +1,5 @@
+changeset e26037d2a25382b8b8a70d6b0390dc1cbe370f5b
+manifest 24b7da478fbdaec1a6e961c774437827c813573e
+extra rebase_source:7b039f81072b743c8d92937c7862ebb02580b4fd
+files devtools/client/themes/inspector.css
+patch 313,387,

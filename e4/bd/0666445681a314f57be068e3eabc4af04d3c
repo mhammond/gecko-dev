@@ -1,0 +1,5 @@
+changeset bacbce751fa71fff958e86871addd5e4322765ba
+manifest 819f8aff0cfd96316614da805ac3d3e021af8d4d
+extra source:56b9ab3514582ba4c11c5a6273febd81df959f97
+files mobile/android/base/resources/values/styles.xml
+patch 305,372,

@@ -1,0 +1,4 @@
+changeset 9b508b2c3d8736a02909b82ad51f2c94c49dd2fc
+manifest c528a892db6dd3981ee9102bb1dd840dc453c659
+files browser/extensions/loop/chrome/content/panels/test/conversation_test.js
+patch 295,296,

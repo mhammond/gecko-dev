@@ -1,0 +1,4 @@
+changeset c1516ee3efd8a0329fccf93ba0398c69ed296ea4
+manifest 24c59653d74d35c630c1126300d520196d33285e
+files browser/extensions/loop/chrome/content/modules/MozLoopService.jsm
+patch 272,273,

@@ -1,0 +1,4 @@
+changeset 2e372790cc3595e78a624224ee05959e2c0817fe
+manifest 96c9a97d3edb4d3bc37619890c52a11fa4a7537b
+files browser/components/sessionstore/test/browser_grouped_session_store.js
+patch 390,391,

@@ -1,0 +1,5 @@
+changeset 04b0cd43c3b0659967694e58006a8553aeee01db
+manifest d4ddcbfa5a9c4770c4f4cfe022df68ecbb570aa2
+extra rebase_source:eca42ec2b1ba7b38658419a4d61b65f9c318d998
+files js/src/tests/ecma_6/Expressions/destructuring-pattern-parenthesized.js
+patch 319,393,

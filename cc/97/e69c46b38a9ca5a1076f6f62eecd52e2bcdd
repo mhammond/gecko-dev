@@ -1,0 +1,5 @@
+changeset 05581ad47ed687cae77d43d71149bb6736b56924
+manifest 1c6dca2c4d8b3a15a45c649f0056081815908897
+extra source:e25d749bcafc0276814572d323775b59a1f6bc4c
+files devtools/client/webconsole/test/browser_eval_in_debugger_stackframe.js
+patch 351,418,

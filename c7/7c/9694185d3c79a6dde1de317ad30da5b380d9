@@ -1,0 +1,5 @@
+changeset 844d73172246061eab0a612454b4be5aefbcb0df
+manifest 57d07e23c85b6a8e6c7a57fe92d1b0b02d4901e6
+extra rebase_source:f48c118f56db66653168880e5504bd0509c7e357
+files js/src/jsatom.cpp
+patch 264,338,

@@ -1,0 +1,5 @@
+changeset 369ea77ee0d9140b06f529c820e819dd630ec193
+manifest ba19cd7e2798eab3c13e34f211bbebca2cd70522
+extra rebase_source:bd4a7c99a2fdeba789ec95c3f461ef0c0f090b0e
+files toolkit/components/extensions/ExtensionStorage.jsm
+patch 261,335,

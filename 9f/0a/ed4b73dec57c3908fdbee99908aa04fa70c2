@@ -1,0 +1,4 @@
+changeset af33a66c68116bf306a9607cb3c9ad76deaa9b0f
+manifest cfe005522cbc4dc85e6c68d3c299677441397711
+files xpcom/io/nsLinebreakConverter.cpp
+patch 341,342,

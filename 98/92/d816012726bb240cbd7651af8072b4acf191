@@ -1,0 +1,5 @@
+changeset 3ad3e245ee8be0f54272889c20f4cb13298a8acf
+manifest 326f324a99d8083bb8e703a8f0c71dbbe99072b1
+extra rebase_source:bfc37381fe33b3e84e1c05c7b64a1a573cf400ab
+files dom/canvas/test/test_canvas.html
+patch 271,345,

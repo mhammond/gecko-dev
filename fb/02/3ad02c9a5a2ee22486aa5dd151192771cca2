@@ -1,0 +1,5 @@
+changeset 0c7cb48aed8616cdd47bbab66cf649e01353de1b
+manifest c6cba94ef9b5da1460013d4b83df234b88c3ac2d
+extra rebase_source:255351c790da15cc1730a36cf270829fc44afa33
+files testing/marionette/client/requirements.txt
+patch 296,370,

@@ -1,0 +1,5 @@
+changeset da3d456cee21a0b0cce59a793f561987d2c57cf0
+manifest 476a35132cc57c1ff1e35be6c73740becc8a7afc
+extra commitid:1vBQaP9xtp4
+files toolkit/mozapps/installer/packager.py
+patch 226,266,

@@ -1,0 +1,4 @@
+changeset 7df031670bc97f846929f551b83b04c280079ccf
+manifest 0cfa9892c52b3324bd1c1b26e54930eeec8980bc
+files toolkit/components/viewsource/test/browser/browser.ini
+patch 215,216,

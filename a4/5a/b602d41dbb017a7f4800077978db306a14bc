@@ -1,0 +1,4 @@
+changeset b935e0100697bde8bfc19d56a7ae6beb8722dff5
+manifest db36f75e108ade39c2b1e7497c60d6818c3ef22e
+files browser/extensions/loop/chrome/content/panels/js/panel.js
+patch 227,228,

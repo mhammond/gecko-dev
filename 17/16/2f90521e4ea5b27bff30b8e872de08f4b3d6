@@ -1,0 +1,5 @@
+changeset ff0e32d96b6c01cafc6ebf2bb68772b0fceaa3a1
+manifest f1288138ef1ad428fe0c3cd33e38050014da1e9a
+extra rebase_source:179d4a80182bd1631415c210618d2a54a77abafd
+files modules/libjar/nsJAR.cpp
+patch 292,366,

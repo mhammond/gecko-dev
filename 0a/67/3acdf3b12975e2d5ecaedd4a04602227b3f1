@@ -1,0 +1,4 @@
+changeset 41a9ead06eee530634b596df6e6738fb38505bf0
+manifest 6f047914c9d6f6b03b9dd8bb1b4c4d5811834baf
+files toolkit/components/extensions/test/mochitest/test_ext_runtime_sendMessage.html
+patch 263,264,

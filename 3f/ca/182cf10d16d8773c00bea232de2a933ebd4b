@@ -1,0 +1,4 @@
+changeset 496db28e275d83a8a8d57033384d18199ccbcbd9
+manifest 0bb82c0c26b3856edf1ccace8ce5ccdfc5e05eaa
+files mobile/android/base/java/org/mozilla/gecko/toolbar/ToolbarEditText.java
+patch 526,527,

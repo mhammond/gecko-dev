@@ -1,0 +1,4 @@
+changeset 9aa4890029d7b0806080ef62418eee568aa6fbfc
+manifest 89f0d7f7da3e65e4d99d314dea3740255c8295b3
+files toolkit/xre/Makefile.in
+patch 407,408,

@@ -1,0 +1,4 @@
+changeset e40632871909ee7d553bc9d88f1a604b8df2d26c
+manifest cd6344e2987fcb2750ddb6e30a25565af840e32f
+files toolkit/mozapps/update/tests/chrome/chrome.ini
+patch 281,282,

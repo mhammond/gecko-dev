@@ -1,0 +1,4 @@
+changeset 51994c27948c7255ae448d126a53a6308fa14ab0
+manifest 4fc79e34338b69853c8b846095180d5c6aa66b96
+files media/libstagefright/system/core/libutils/SharedBuffer.cpp
+patch 540,541,

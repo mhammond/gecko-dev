@@ -1,0 +1,4 @@
+changeset b3eb74549f59fa280a06b1f79fa706673984fa01
+manifest ae05e1ca53d8b4840297452a64d0bd11ca9d187d
+files js/xpconnect/wrappers/XrayWrapper.h
+patch 262,263,

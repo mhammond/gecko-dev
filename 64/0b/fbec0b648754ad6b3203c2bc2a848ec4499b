@@ -1,0 +1,5 @@
+changeset 72a2ec038f5366bf1af0ed4426a76851aa2d6aac
+manifest 6651750920cd1f0e1046f4bd76703bb719b612d3
+extra rebase_source:e31284758a80054831fd6ecda0e7733ab4e9312a
+files xpcom/glue/standalone/nsXPCOMGlue.cpp
+patch 296,370,

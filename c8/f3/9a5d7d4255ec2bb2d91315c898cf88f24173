@@ -1,0 +1,4 @@
+changeset d84b40b07cb75c66c05b30904e4c77148eb9568d
+manifest 16c8d6435fc13819f00343bcd8f2d23fb1e63bfd
+files db/sqlite3/src/moz.build
+patch 191,192,

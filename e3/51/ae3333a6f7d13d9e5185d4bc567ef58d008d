@@ -1,0 +1,4 @@
+changeset 7f526cb5eccf63ce6c997503e23b6825ed2b7ad2
+manifest cba4c92684e98dbad0d1aebc413cf406c6774287
+files widget/gtk/nsColorPicker.cpp
+patch 200,201,

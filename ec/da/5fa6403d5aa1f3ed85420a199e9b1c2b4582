@@ -1,0 +1,5 @@
+changeset 76b4a13e4fc783dd6c5ebb12884105a6a8f87282
+manifest 7f732a313058691c3f6637bdeae62419d839b8f8
+extra rebase_source:a0a34ec83cd49f24ca63cdd2cc9e6cdc4cab6eeb
+files dom/settings/SettingsRequestManager.jsm
+patch 277,351,

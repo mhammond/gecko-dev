@@ -1,0 +1,5 @@
+changeset 80dfd8d213ccd4bfad1c63a405f921e1a036652b
+manifest 20740c524bbeb22e5228ffbed659700fff90fab6
+extra amend_source:6ec88eab20a93952e841790c0b3d43beac2e5867
+files toolkit/components/extensions/test/mochitest/test_ext_window_postMessage.html
+patch 295,368,

@@ -1,0 +1,4 @@
+changeset ffad198d409ba438b2ed8967444fdb9aa344f315
+manifest d07f1b22674d9fdd40d9dddcd6a0240b24cdc437
+files dom/bluetooth/bluedroid/BluetoothDaemonInterface.cpp
+patch 412,413,

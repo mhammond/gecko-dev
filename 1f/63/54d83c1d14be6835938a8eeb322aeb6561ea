@@ -1,0 +1,5 @@
+changeset bc476c66d225412b0aaace0de9e06e3d1eaef15b
+manifest a68e210feb982bddd0423896cdc068ab0a20baa3
+extra rebase_source:65cab4795999cafd86714b67289da25e67ca7661
+files mobile/android/stumbler/java/org/mozilla/mozstumbler/service/stumblerthread/Reporter.java
+patch 365,439,

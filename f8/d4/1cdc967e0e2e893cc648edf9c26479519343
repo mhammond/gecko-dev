@@ -1,0 +1,4 @@
+changeset 54693bad0ca1e6a8ce72091a1436daf67cfcbecf
+manifest e0e684dbd08216c642dd6d84c38d5f0ad661ebf6
+files gfx/layers/opengl/GrallocTextureClient.cpp
+patch 178,179,

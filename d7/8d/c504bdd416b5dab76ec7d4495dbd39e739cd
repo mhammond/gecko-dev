@@ -1,0 +1,4 @@
+changeset 007066bf36c62944e2ace4b1ec4e6346a325c3b8
+manifest a8c3afed9cd4fc3a0cfe436f4f3dccacabc10864
+files dom/html/nsBrowserElement.cpp
+patch 245,246,

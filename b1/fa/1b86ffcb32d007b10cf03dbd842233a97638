@@ -1,0 +1,4 @@
+changeset 8056a7c17e641608c3b4be6a567ea73e1e03b847
+manifest 8dd935511d84f386ea59ce3dbee61675a03bcd93
+files js/src/asmjs/WasmCode.h
+patch 243,244,

@@ -1,0 +1,5 @@
+changeset 2b6afc878dd4ccc1bd87ee6b91ef668015c3e79e
+manifest 7e19c69eec4ae9146873923e59db7a45d7a2c7bb
+extra rebase_source:acde4f9c2cae7eef7b8f6db601fa335677a3ee7c
+files mobile/android/base/java/org/mozilla/gecko/home/activitystream/menu/ActivityStreamContextMenu.java
+patch 411,485,

@@ -1,0 +1,5 @@
+changeset 90895be7c78f3a4cb0771be18300e72a73ad60df
+manifest 03ddbb70feadaddb0f00c0442417993d1c5e09d9
+extra rebase_source:594235cd317b0261e436da3ac5ab8166a754df8a
+files toolkit/mozapps/extensions/test/browser/browser_hotfix.js
+patch 346,420,

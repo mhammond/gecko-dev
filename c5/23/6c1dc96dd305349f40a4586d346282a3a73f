@@ -1,0 +1,4 @@
+changeset 92f7082a90be77700618e8176c73ad7538ee75a3
+manifest 78d2dab564d186c691716050a7fe5e3c090eb291
+files js/src/tests/ecma_7/AsyncFunctions/syntax-modules.js
+patch 253,254,

@@ -1,0 +1,4 @@
+changeset 78fc486047b9a938ce5b7f932aa0e2c58ff776b5
+manifest bb798df01e737d194915a70a39a1381e773ba5dc
+files testing/mozharness/mozharness/mozilla/testing/testbase.py
+patch 314,315,

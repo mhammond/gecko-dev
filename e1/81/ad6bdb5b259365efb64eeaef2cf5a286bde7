@@ -1,0 +1,4 @@
+changeset bb2df603bb19131f9f6969c4b75ea5e28ff77587
+manifest 6aa6df8fb2fd3e26c690137979fd781544ece558
+files services/sync/nsBookmarksSyncService.js
+patch 149,150,

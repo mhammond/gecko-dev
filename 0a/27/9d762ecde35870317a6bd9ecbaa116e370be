@@ -1,0 +1,5 @@
+changeset 683bcd6c86d019dabba207466f5f61b7e1e7b41d
+manifest 313767a65a653ed30209e4a60b02531e8b30969a
+extra rebase_source:3cde3e4c09369179c64c625715bbf7ed97d4b254
+files browser/themes/shared/readinglist/sidebar.inc.css
+patch 280,354,

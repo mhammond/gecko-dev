@@ -1,0 +1,4 @@
+changeset 57055f96a040c99dc0f708a1470da3bdb9ffd8ca
+manifest 64e1da95b7f95f643fa376f7875d987fb24e17e3
+files netwerk/base/nsIChannel.idl
+patch 250,251,

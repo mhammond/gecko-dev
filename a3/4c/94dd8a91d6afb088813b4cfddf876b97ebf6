@@ -1,0 +1,4 @@
+changeset e3f898cc3cb96b4681d32a8499df03c776265063
+manifest 3e60afaee6560494cdf13e3a925e59fac2af2a4b
+files js/src/vm/NativeObject-inl.h
+patch 217,218,

@@ -1,0 +1,5 @@
+changeset 0aebad4cd674cddfb849da22f137a35c57b807ad
+manifest 2925922cc62c0a3f9f1f3562f6fe13e1e147085c
+extra source:eb3f60cefeb89abdf13aee861de376ac5a92528e
+files js/src/tests/ecma_6/Object/bug-1206700.js
+patch 284,351,

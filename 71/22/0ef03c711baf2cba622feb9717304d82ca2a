@@ -1,0 +1,4 @@
+changeset 98d1a38f79a104f137008d29de2f05338b1fc349
+manifest 7d50045cadc3843de6a03811a85cda9c6c881a3f
+files devtools/server/actors/highlighters/measuring-tool.js
+patch 229,230,

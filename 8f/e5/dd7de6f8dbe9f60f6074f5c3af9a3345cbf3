@@ -1,0 +1,5 @@
+changeset cf467a128c95a82bcaa1e2e583289e4c2e12513f
+manifest ccd96e01a3ec6186a2c7f252aa3f8e8cc4a2c6bc
+extra histedit_source:031a665451a52e4083fc822e75d5d121673ec1f0
+files toolkit/components/extensions/ExtensionUtils.jsm
+patch 297,373,

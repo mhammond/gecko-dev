@@ -1,0 +1,5 @@
+changeset d0e19d47a59bddba82641e60a993263e61905c4a
+manifest 287b6f92d1b78d9e745afc2168fa8aec4663ed6d
+extra rebase_source:85258e2402a9f0b8fbeefd76c4e405cfb8eb887f
+files xpcom/glue/pldhash.h
+patch 257,331,

@@ -1,0 +1,5 @@
+changeset dc3fed21da749ac87ede92fe98a523e664c032ce
+manifest 43d5337618d1b472bf6dc1182c194749d67c37cc
+extra rebase_source:32ba5059c1f04e4d5df167b3a72104dfd47b5c4f
+files devtools/client/shared/test/browser_key_shortcuts.js
+patch 314,388,

@@ -1,0 +1,4 @@
+changeset a645a24a07bf16cb68790c80b687452cc23227b2
+manifest d128761c2a9c88a1dde6cfbae9083f78b61328a1
+files devtools/server/actors/highlighters/eye-dropper.js
+patch 224,225,

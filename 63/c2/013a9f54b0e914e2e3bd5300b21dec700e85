@@ -1,0 +1,5 @@
+changeset a0365d37a510dca7411c6043da29992d26490ff9
+manifest 32b318f8eef8cf75c14355a662e5d080656fd815
+extra rebase_source:aef9af37dc8a1fdcc481ad9a69e4bf59a5e7a2bb
+files widget/BasicEvents.h
+patch 236,310,

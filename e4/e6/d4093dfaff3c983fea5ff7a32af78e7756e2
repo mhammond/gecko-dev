@@ -1,0 +1,5 @@
+changeset 9ae890059b3c2580a0e3ee31f39c6047798464e4
+manifest 633be5f6c602adf105de0a90738ae98f1c674c2a
+extra rebase_source:755928c578dc7e7656b0164a7fed7eab0fd1e288
+files gfx/src/gfxCrashReporterUtils.cpp
+patch 373,447,

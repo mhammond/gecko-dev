@@ -1,0 +1,4 @@
+changeset c102c5a5afbec1562b5946d6df926e117f02bd52
+manifest dec6aa41ea6b0828e9119b8f58133b67c1a6ba46
+files dom/bluetooth/BluetoothHfpManager.cpp
+patch 232,233,

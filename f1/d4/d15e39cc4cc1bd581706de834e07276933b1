@@ -1,0 +1,5 @@
+changeset 67fbffadaa47af2ba4d397f34f6c07e909bf0d6e
+manifest c4b73108cc16c0d1b6b795b5a830f8e3427adfb9
+extra commitid:29mAEwGdSuM
+files caps/tests/mochitest/test_bug292789.html
+patch 307,347,

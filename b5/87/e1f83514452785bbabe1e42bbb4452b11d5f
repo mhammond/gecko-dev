@@ -1,0 +1,4 @@
+changeset 7d6edef7f2424f51be3b1539925c8caaea3effd7
+manifest 36e9c200c506c81a2e4552f0374318e79e12ff0c
+files toolkit/mozapps/installer/make-eme.mk
+patch 197,198,

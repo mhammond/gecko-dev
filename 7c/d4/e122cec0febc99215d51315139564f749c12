@@ -1,0 +1,4 @@
+changeset 2e1b414266f1f89ac43aaa5f8ec3025b96d85985
+manifest f2e8fa5f8bd354235740380f9a7bc285f562e704
+files dom/canvas/WebGLFramebuffer.cpp
+patch 303,304,

@@ -1,0 +1,4 @@
+changeset 1efbf4e6be470943b5208c2121e5acc520b9a0f2
+manifest 9de678daa6341e4cf240c8b865c8e4e626f1bcba
+files layout/generic/nsPluginFrame.cpp
+patch 193,194,

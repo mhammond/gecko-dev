@@ -1,0 +1,5 @@
+changeset e1c63d16f05c366c92a12254bf3580585d634c75
+manifest ef365b747de0fa47c357d0e5e51771923eb7fe1c
+extra source:4d478f1afdb99dabb2afa8a5d05f857381f03015
+files browser/components/migration/MSMigrationUtils.jsm
+patch 268,335,

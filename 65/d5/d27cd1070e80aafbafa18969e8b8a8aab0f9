@@ -1,0 +1,5 @@
+changeset 41024098e3f61743afdfcb25f1760e2d10eadc62
+manifest db68078f92c93ac6062faf0d2ed333f09e8632d5
+extra transplant_source:4½6È‚<A¥¢V<´4¬¿
+files python/mozbuild/mozbuild/frontend/reader.py
+patch 249,337,

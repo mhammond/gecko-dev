@@ -1,0 +1,4 @@
+changeset 960112fbae7844edd5d329b3cbb28bec8c1c34c3
+manifest ff6bad582af049306d2bd4f7b1f53051bc09fcc6
+files browser/base/content/browser.js
+patch 226,227,

@@ -1,0 +1,5 @@
+changeset 4037672fcc2adb6af5e821560bdb8defd62afe60
+manifest 481204da71285835c1e26abc3c91468e81080eef
+extra rebase_source:11b4b53887d953bb92fbfab2b3c96a921810a7af
+files browser/components/loop/content/shared/libs/sdk.js
+patch 273,347,

@@ -1,0 +1,4 @@
+changeset 54bf2c8de57659338dd0c54a2c3887d34f08250f
+manifest 4065c1d984358b55a19708664e48483d66c043e2
+files xpcom/string/nsTSubstring.h
+patch 211,212,

@@ -1,0 +1,4 @@
+changeset 58df2621a8cb775ff9018a26e7493dea6cb78d11
+manifest cd0aa16ad353da3cf855b0ced58886d11361e12d
+files devtools/client/animationinspector/test/browser_animation_shows_player_on_valid_node.js
+patch 328,329,

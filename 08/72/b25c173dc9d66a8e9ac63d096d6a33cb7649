@@ -1,0 +1,5 @@
+changeset 2e878037ca2fc698f2539fb0598c2700af5d5b58
+manifest 679496e6dcf53898270180e2ed3fcb05cd09467d
+extra rebase_source:1196a5d0aaefaee43d53d480ed5a27d536e6c84f
+files image/imgLoader.cpp
+patch 239,313,

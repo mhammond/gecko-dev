@@ -1,0 +1,5 @@
+changeset b80438cb08254aa968c9406b9db6787b9a3f501b
+manifest 69dc801a575ae69c38b09ef80779c56d4d2e7c29
+extra source:7e495997ff2ed886b366e13b230ec6d0e14f9122
+files dom/webidl/WebGL2RenderingContext.webidl
+patch 281,348,

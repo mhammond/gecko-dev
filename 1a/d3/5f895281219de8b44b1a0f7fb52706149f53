@@ -1,0 +1,5 @@
+changeset b4df90ac99641ebad07dddc00fa6452fb5552914
+manifest 1304a1f82f3a5e479032a884df371df10f3a261a
+extra rebase_source:2530d11198a2fd71b80bfe25ac6c66140357c906
+files browser/extensions/loop/content/modules/MozLoopService.jsm
+patch 301,375,

@@ -1,0 +1,4 @@
+changeset 921a1dc56378b70b7ff1570929c4e8c890b81328
+manifest 4c7880ec6666db4f904f2d05f18a1b88998c5e6d
+files netwerk/protocol/websocket/WebSocketChannel.cpp
+patch 217,218,

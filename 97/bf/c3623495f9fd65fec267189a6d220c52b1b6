@@ -1,0 +1,4 @@
+changeset ca12de12bfe055d00c82db14f67b74a31d3d6548
+manifest 3e591a588454c82e133458894e212651ba6fe4c9
+files js/src/tests/ecma_5/Array/frozen-dict-mode-length.js
+patch 350,351,

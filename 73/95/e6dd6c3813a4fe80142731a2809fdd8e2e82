@@ -1,0 +1,4 @@
+changeset 9f19a57496102ef6c8c7a0ec373b006a9f19d5ed
+manifest 3fcff62279f34548f51698f7b39055ca4ee6dea9
+files media/libcubeb/src/cubeb_opensl.c
+patch 216,217,

@@ -1,0 +1,4 @@
+changeset 0cfb84806c0863af4facbdde2b37ac5fdd40567c
+manifest 2f07c7a314953a42ffcd4fe73188a9ac7964d114
+files addon-sdk/source/test/windows/test-firefox-windows.js
+patch 308,309,

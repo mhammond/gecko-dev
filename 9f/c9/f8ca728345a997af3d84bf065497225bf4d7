@@ -1,0 +1,4 @@
+changeset d4cdfb4f843321fa62781e2c30a9dad3970b174d
+manifest c8cbf0cd83b14c01622b34e723631bff316ff04b
+files xpcom/string/public/nsAlgorithm.h
+patch 257,258,

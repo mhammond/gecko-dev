@@ -1,0 +1,4 @@
+changeset 2c8e364b56e11e53b2aba48653b0ed77224a69df
+manifest 3aa4e6182dc60af8bc6da379dd6ac451749abb0f
+files devtools/client/memory/components/toolbar.js
+patch 256,257,

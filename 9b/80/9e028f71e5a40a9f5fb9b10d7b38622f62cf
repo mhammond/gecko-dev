@@ -1,0 +1,5 @@
+changeset c2463be000652c901f160910b4075d081b6c664f
+manifest 9280acd44d73b4166864660124963b803386c7a3
+extra rebase_source:b5bd7dcc59e7b57fc90e4c8557f6bcfd6382e433
+files layout/base/nsCSSRenderingBorders.cpp
+patch 310,384,

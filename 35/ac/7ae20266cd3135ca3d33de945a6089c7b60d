@@ -1,0 +1,4 @@
+changeset e3a490dbfea76cf18008824f3a7a8675ad4c3fee
+manifest f6c18ba45c924d95e650da347e65c07b4669883f
+files devtools/client/shared/components/search-box.js
+patch 280,281,

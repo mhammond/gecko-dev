@@ -1,0 +1,5 @@
+changeset b9a594d013bd9240a323f2899fe061f3781bdbeb
+manifest 7ed6cbf69b5cf301583a0b90daa6ec4d89e64d09
+extra rebase_source:4722a8dbf198f05090370235f811dccb35ce658c
+files dom/base/nsStructuredCloneContainer.cpp
+patch 248,322,

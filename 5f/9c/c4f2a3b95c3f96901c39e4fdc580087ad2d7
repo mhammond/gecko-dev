@@ -1,0 +1,4 @@
+changeset 0ff9e8c6318dfb650a34f0681c67d685f66bfbcf
+manifest ccb18832bc9af7fbbbf34f35ab426208e4d74ee0
+files toolkit/mozapps/extensions/internal/GMPProvider.jsm
+patch 253,254,

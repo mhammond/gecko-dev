@@ -1,0 +1,4 @@
+changeset 7a6d5c81c20b61dc5f4019c281ad7e5304e99997
+manifest 42c87e2bb591fe66d0dda1c8d40466a7cd453f6c
+files testing/taskcluster/scripts/builder/build-simulator.sh
+patch 238,239,

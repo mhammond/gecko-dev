@@ -1,0 +1,5 @@
+changeset 56a45b07ed5651763b9861946d8e6535d20d1494
+manifest 1bfad3d01f52cf34fcff036b13de6ef87e650f15
+extra rebase_source:9e5709297310aae00e14ab02cb17e9c1345b653c
+files taskcluster/taskgraph/task/docker_image.py
+patch 292,366,

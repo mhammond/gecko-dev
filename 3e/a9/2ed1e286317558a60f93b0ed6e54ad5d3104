@@ -1,0 +1,4 @@
+changeset e22aa88ad9802a45ffe8641798641e8e90540ae4
+manifest 551066e24fa51ed9158f810b876e580a9ec84b98
+files media/webrtc/trunk/webrtc/modules/video_capture/windows/device_info_ds.cc
+patch 256,257,

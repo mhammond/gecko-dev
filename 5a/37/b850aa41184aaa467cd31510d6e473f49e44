@@ -1,0 +1,5 @@
+changeset 032f01f6d68b6ab27aa1de034d5e99cd33f8526a
+manifest 0d0a6b975e49526536f2cd670d763ea50ee241af
+extra rebase_source:a9f2d765de402680e0e8f998de28a83bd35eaac2
+files js/src/jit-test/tests/pic/to-dictionary.js
+patch 280,354,

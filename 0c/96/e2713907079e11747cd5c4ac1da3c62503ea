@@ -1,0 +1,5 @@
+changeset b4e9149adb6a71f47b60735a88691b0fb72fa421
+manifest f2b4c349e0bfc188cdb6dd4191e7154f6c86dd7d
+extra rebase_source:126a0d3988c39a56be2cb3db3fe5904564ad93bd
+files js/src/asmjs/WasmBinaryToAST.cpp
+patch 306,380,

@@ -1,0 +1,4 @@
+changeset 0f16494dc6ba3e17c2c759dd66e994ceef786f83
+manifest 15a8d26ea0ee6ab3eaa6e58de95f05a51780daf9
+files toolkit/components/startup/tests/browser/head.js
+patch 287,288,

@@ -1,0 +1,4 @@
+changeset e56c7fef8f22d7041c015d607e8bb768b676c89a
+manifest fd7a52a05690498c283d2b643ab3080054663234
+files dom/system/gonk/tests/test_ril_worker_stk.js
+patch 242,243,

@@ -1,0 +1,4 @@
+changeset 38570110c321a8b53b02dce2c18be27c7f64399c
+manifest 2bc5dd3cee946a4d3a10f03937e359c2ec996881
+files devtools/client/animationinspector/test/browser_animation_target_highlight_select.js
+patch 322,323,

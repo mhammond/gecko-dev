@@ -1,0 +1,4 @@
+changeset 42e2296a5b47ff8cf885484dbcca7ac29584fbca
+manifest ff12d92026f629de50c81d5f9aadac2f58960413
+files dom/events/test/test_legacy_event.html
+patch 287,288,

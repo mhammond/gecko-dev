@@ -1,0 +1,5 @@
+changeset cf0e0332832e2a8c774776c0f301751470c4e375
+manifest ad942aaba192518a820688bbf5a7789d35d1b4a4
+extra rebase_source:95c96e1631ddb8d2efc89d8462fe0f8ade1ecf1f
+files dom/bindings/Makefile.in
+patch 590,664,

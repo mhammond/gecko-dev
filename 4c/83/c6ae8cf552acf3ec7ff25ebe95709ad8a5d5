@@ -1,0 +1,5 @@
+changeset 7465a399094d44bbcc1f207d302805a4e638ba47
+manifest 8f2be58a900b57cd682e4f7c956a8474f8930951
+extra rebase_source:bf3b5d0d330f419fb35ca3a4015c8fcfc5ca9a68
+files dom/requestsync/tests/mochitest.ini
+patch 246,320,

@@ -1,0 +1,4 @@
+changeset 809adf5430de3907d3147914201e6e48051c1d07
+manifest 76745744491d2dd9992b2dee05a5e8d4c821130d
+files js/xpconnect/idl/nsIScriptError.idl
+patch 217,218,

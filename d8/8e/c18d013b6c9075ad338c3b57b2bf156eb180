@@ -1,0 +1,4 @@
+changeset 5973128bd3f714f828ffc431edece61a3f12850b
+manifest 00e87a77d974f46aa984bc04c8629814d6124e99
+files layout/base/tests/chrome/scroll_selection_into_view_window.html
+patch 261,262,

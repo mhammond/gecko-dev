@@ -1,0 +1,4 @@
+changeset 231c365b5d3ecdf40c9ee9ebcc17acf5c5d94f92
+manifest eeb1e3a3646513b45ae894d20f88ea726d2deefa
+files browser/components/preferences/in-content/sync.js
+patch 233,234,

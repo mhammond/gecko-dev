@@ -1,0 +1,5 @@
+changeset 62ffae819bfb4244b776bcb3a58aaae6d30c5810
+manifest 4f7744b1953ad140ba03e6374f8fe704bb48328a
+extra source:bce73b114fdc0c6a845bcc1ed3288918f54622b0
+files mobile/android/base/docs/uitelemetry.rst
+patch 246,313,

@@ -1,0 +1,4 @@
+changeset 5c4cacd09c9cfe2fa743022775a40e71ee2f9e48
+manifest 95e8d09d146082a02383975b7b70287f8ae8b552
+files python/mozbuild/mozpack/packager/l10n.py
+patch 248,249,

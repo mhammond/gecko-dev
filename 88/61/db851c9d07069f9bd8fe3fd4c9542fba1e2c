@@ -1,0 +1,4 @@
+changeset 5496344c05e9947d961d8ae939ed49ddbfc93b04
+manifest 194d83c2869482897b7091ccd7625063dbecf718
+files dom/workers/test/serviceworkers/mochitest.ini
+patch 289,290,

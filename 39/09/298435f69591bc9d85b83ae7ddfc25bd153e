@@ -1,0 +1,4 @@
+changeset d3e45a67feaf6aee230c98ac499d797af010b9dd
+manifest 494ad0865f8dea182deb2a1a9a661db7e5b3b1de
+files toolkit/components/telemetry/tests/unit/xpcshell.ini
+patch 272,273,

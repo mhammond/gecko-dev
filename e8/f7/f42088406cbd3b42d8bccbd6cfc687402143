@@ -1,0 +1,4 @@
+changeset 3627a5fcfd4fd70bd6c35dc4d8929b9db9413afc
+manifest 26dc91906d1bf167533036cc4186e82b9ec1024c
+files netwerk/system/mac/nsNetworkLinkService.mm
+patch 192,193,

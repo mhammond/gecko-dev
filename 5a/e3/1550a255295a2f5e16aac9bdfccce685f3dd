@@ -1,0 +1,4 @@
+changeset dbe1d746fdff01e041486a83734a1cb677d4e474
+manifest 8cd5d8a262df21d393138c41f32007466a84e5d7
+files browser/components/search/test/browser_bing.js
+patch 192,193,

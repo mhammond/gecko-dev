@@ -1,0 +1,4 @@
+changeset e1405906be202a3150dee6522480c89de67352f8
+manifest 55ab10f132749d71e87b0b202bdcdd20fbd0bf8c
+files mobile/android/b2gdroid/app/src/main/java/com/google/android/mms/pdu/EncodedStringValue.java
+patch 257,258,

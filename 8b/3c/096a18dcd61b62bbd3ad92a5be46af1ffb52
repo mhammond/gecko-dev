@@ -1,0 +1,5 @@
+changeset 6994a09c4551d140ab188d45c8bbc5a58c0d89a0
+manifest a28492a26fe80121bc4e8b9a8c2177ecac96410b
+extra source:857f21f44316ef8125fedf8db22b5d3191d9c7e9
+files media/gmp-clearkey/0.1/WMFUtils.cpp
+patch 408,475,

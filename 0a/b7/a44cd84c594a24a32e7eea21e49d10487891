@@ -1,0 +1,4 @@
+changeset 860dc7cb6b778bb5638801e41a1f4bd5dbd4c8da
+manifest 89e16c2dcb3d66ab8b430c8796eef187cf7b9e44
+files accessible/tests/mochitest/events/test_valuechange.html
+patch 232,233,

@@ -1,0 +1,4 @@
+changeset d77c9965e9b287150fcc5fc23d386a9ade278bd2
+manifest 02804bbaec2c66d74edc98fa99c90f7f2e72a0f2
+files js/src/jit/SharedIC.cpp
+patch 193,194,

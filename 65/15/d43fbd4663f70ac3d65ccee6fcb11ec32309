@@ -1,0 +1,5 @@
+changeset 88891cd76c27afdf9139cd80f0e587d2f0e6d653
+manifest 83603ee3d50a61d036b4921dcd30158d4cdd0afe
+extra rebase_source:190ca3e2d71a4189d933677c415e3829f785a15e
+files mobile/android/config/mozconfigs/android-api-15/debug
+patch 322,396,

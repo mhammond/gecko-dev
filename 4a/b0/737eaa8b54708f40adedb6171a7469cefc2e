@@ -1,0 +1,5 @@
+changeset 1dc751d3ef237c37279813ca7b2d2a740d83d378
+manifest 26f0515f275ad3ace9bdf2b44570599f1e899396
+extra source:6a1ce080d9380fca1f0ba77607256c63c5f647d3
+files toolkit/mozapps/extensions/test/browser/browser-common.ini
+patch 328,395,

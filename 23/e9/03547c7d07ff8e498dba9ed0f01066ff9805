@@ -1,0 +1,4 @@
+changeset 9fa11eab63eea7157635b76f55129f35a82ca4d8
+manifest 09b2b95ddd81c4dc487618af1cf5a0ebbce1bd3b
+files dom/plugins/base/nsPluginDirServiceProvider.cpp
+patch 205,206,

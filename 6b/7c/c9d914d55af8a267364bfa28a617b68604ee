@@ -1,0 +1,5 @@
+changeset 25e6c15f94317c36634ac7056ede85af5abdf540
+manifest 635cfafde40aa31f14296ddbe588d509b6221c4a
+extra rebase_source:336751029363a9a4ac50fa394df1e1482a0b7e47
+files accessible/generic/HyperTextAccessible.cpp
+patch 356,430,

@@ -1,0 +1,5 @@
+changeset 876634f4b29930139f2456de6e2342d9b21e71a5
+manifest a7437af2708d7c08c853e566f33bec69128a30fe
+extra source:381f21c8b4c077317ec2070c0a14a8035e36f3b3
+files media/webrtc/trunk/webrtc/modules/video_coding/main/source/video_receiver.cc
+patch 324,391,

@@ -1,0 +1,4 @@
+changeset 71fe4f0920dcdb9ebefdaf36cc230799d04ec2c7
+manifest dc62556af33061f53d892d744d30900e314edf09
+files browser/components/shell/nsMacShellService.cpp
+patch 234,235,

@@ -1,0 +1,5 @@
+changeset db8158d1b31db9c687774b9d9673025b59a710e5
+manifest 941c7ceab993490c492dca52ee11a3a34b3c9501
+extra rebase_source:a43785dafc6c78658f3474958fce03a084486ab5
+files netwerk/base/nsSocketTransportService2.cpp
+patch 298,372,

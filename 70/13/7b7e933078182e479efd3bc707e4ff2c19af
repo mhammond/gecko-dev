@@ -1,0 +1,4 @@
+changeset e8681a8cc6cc2dfde0c42204c566867adec6f436
+manifest 4dac2aefda2fad53c839d26f4c548ea0f0d63c76
+files js/src/vm/Opcodes.h
+patch 189,190,

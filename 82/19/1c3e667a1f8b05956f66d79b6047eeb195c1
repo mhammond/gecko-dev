@@ -1,0 +1,4 @@
+changeset 7740286bd255b48e52cbf322ec3249741422b1d1
+manifest 6113f03ef4c0a539d1d2ded458182e559b958269
+files devtools/client/webconsole/test/browser_console_nsiconsolemessage.js
+patch 292,293,

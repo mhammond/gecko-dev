@@ -1,0 +1,5 @@
+changeset 5ee600d6dd400703f09d1d35f969885d874e5e21
+manifest ab5ec63a1673f2cd1c238911436762eb4c655437
+extra rebase_source:53688c2352da873d8131109c5a9b2eb60f2e16c8
+files toolkit/components/prompts/content/commonDialog.js
+patch 300,374,

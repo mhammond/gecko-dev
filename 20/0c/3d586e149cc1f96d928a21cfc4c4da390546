@@ -1,0 +1,4 @@
+changeset 78de4743eec56c38f843949b23ee42a40b70ec7d
+manifest 5cdfce5cecc8e0a0003b9745c9abee69b1f12ee2
+files security/manager/ssl/tests/unit/test_sts_preloadlist.js
+patch 194,195,

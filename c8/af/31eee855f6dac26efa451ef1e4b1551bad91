@@ -1,0 +1,5 @@
+changeset b41461a95073715158ad4549fce42ef36fa94e94
+manifest b7d0b223d70481889333bac4a9cb2a01b80dd4a5
+extra rebase_source:01fcd196d85832cbf8bc9853b6a47e23b492a55e
+files browser/extensions/pdfjs/test/browser.ini
+patch 275,349,

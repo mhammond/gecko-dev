@@ -1,0 +1,5 @@
+changeset 7be803449716fdccf4215c6b5e770239f70918dc
+manifest 4d56ffb5c48c7ef1edc2a18f4f595c01399c39f1
+extra rebase_source:a02732b893c024d930da3e6d08521d9f35e12a88
+files toolkit/components/url-classifier/RiceDeltaDecoder.cpp
+patch 325,399,

@@ -1,0 +1,5 @@
+changeset 0dbf7d22b0632620d967daaf1ce1cb7694b02778
+manifest 364389e6524547098b7a1a21a616f0a2d769d04c
+extra histedit_source:31e30d68fce2f97015c6e84da953e1b6f04fca50
+files gfx/gl/GLContext.cpp
+patch 276,352,

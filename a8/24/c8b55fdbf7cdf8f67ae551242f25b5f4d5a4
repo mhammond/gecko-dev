@@ -1,0 +1,5 @@
+changeset b73c8bc6b9d7b824eb10f31f368a5a50472ea6a5
+manifest 441427811ee027153b5faeaa06b51503f66f0237
+extra rebase_source:3d52ec9c99dc13e0b51b2c0d982759193a1ac23c
+files testing/web-platform/meta/websockets/interfaces/WebSocket/readyState/006.html.ini
+patch 310,384,

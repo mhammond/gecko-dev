@@ -1,0 +1,5 @@
+changeset 6354213ac26b084d3bd3f5e899eb3846f3e3572f
+manifest 5b2e0cc4bc49c9621806fe57121af479ea821f8f
+extra amend_source:8b8f14397744c3c25f1b902c7f48a5881beb82b7
+files accessible/base/TreeWalker.cpp
+patch 304,377,

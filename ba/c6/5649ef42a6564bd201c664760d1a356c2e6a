@@ -1,0 +1,5 @@
+changeset 8b9e82bf88a93b825751717e92956e7568c81217
+manifest 74f6aba2df607d219f375e47cd3f3f755ad55178
+extra rebase_source:f71628d64fe4f8260da3582e21c58f99dcaade31
+files layout/base/nsPresState.h
+patch 313,387,

@@ -1,0 +1,4 @@
+changeset f1c819ce835c89a7799e01dd937360921f22f014
+manifest af84dd87aad26e6c36b9f4fda0775359b2e84653
+files layout/style/nsFontFaceLoader.cpp
+patch 224,225,

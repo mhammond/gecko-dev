@@ -1,0 +1,4 @@
+changeset b1a4bb4e923ccf349506d33ac28ce9303764c867
+manifest 9eaa84732c7ccfde16ad67e6c3c2af30b00b890b
+files netwerk/base/nsNetUtil.cpp
+patch 276,277,

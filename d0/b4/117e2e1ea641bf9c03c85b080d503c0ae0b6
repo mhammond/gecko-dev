@@ -1,0 +1,4 @@
+changeset e627a445ff01f28fb49c32f2e28e91c034420574
+manifest 2ec7694111460972f9e5a0e39c2c446eb1fa38db
+files browser/extensions/loop/chrome/content/modules/MozLoopPushHandler.jsm
+patch 258,259,

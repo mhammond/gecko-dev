@@ -1,0 +1,5 @@
+changeset e886c6e03475254a8eb4d40da99502744dda28f1
+manifest 2704414d4e8a9faac89dda222a3187a6e3c4f733
+extra rebase_source:956b4dd89c761e04cd704f98717fbc90fa55edac
+files security/manager/pki/resources/jar.mn
+patch 306,380,

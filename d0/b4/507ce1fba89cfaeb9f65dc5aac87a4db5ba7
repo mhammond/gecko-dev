@@ -1,0 +1,4 @@
+changeset 995db217fd1b4a32daa4300195818bdafc78a64d
+manifest 6dda630a7000daa7dddd23f75706bec10641916d
+files dom/camera/DOMCameraControlListener.cpp
+patch 218,219,

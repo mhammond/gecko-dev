@@ -1,0 +1,5 @@
+changeset 8f0b8d0c6bc3cd2127d92590ddb6652e1dc8d19a
+manifest b63903b7f5c80eca6b20dea78ec843065c932617
+extra rebase_source:83b456e67dd6e71392e869425df996a582b78a40
+files mobile/android/themes/core/content.css
+patch 309,383,

@@ -1,0 +1,5 @@
+changeset 71c083faa77fa9d20b3c4babd33a5d8be8492484
+manifest 6f53be35782b25caa1db46dde4df1bfc6aa4a790
+extra rebase_source:6310385f3a62d752da874649df4fb907d9a425ee
+files js/src/vm/Compression.cpp
+patch 291,365,

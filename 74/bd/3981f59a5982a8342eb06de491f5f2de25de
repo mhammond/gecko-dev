@@ -1,0 +1,5 @@
+changeset be036a725d3a48a4bd71918f20d6a0db54a514f4
+manifest 18bb7bcdc7d1601b74ba1230c6f18379f7371e5c
+extra histedit_source:3b61cc82b635437cad618275ebd0fddfccc4151d
+files dom/media/AudioStream.cpp
+patch 278,354,

@@ -1,0 +1,6 @@
+changeset f0ba9e0635e3b12b7d2ec05b5ad52ea3a80f27fc
+manifest a7f3d5c442c52dc4faa94c2eda593711a0defa0e
+author dhouse@mozilla.com
+extra rebase_source:aa0176500658e5cc9e00c080d08bbbc13e745bdd
+files dom/gamepad/GamepadManager.h
+patch 226,300,

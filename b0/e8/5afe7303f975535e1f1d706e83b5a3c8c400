@@ -1,0 +1,5 @@
+changeset 7ab84d5897f577d9c64050d79d5d69ce96829414
+manifest f7d899be8f29ce5ed2896a90495f300b0a10b38c
+extra rebase_source:bd5d6fc179e4e1e4baec838ef66ce9d88e39d377
+files toolkit/content/widgets/dialog.xml
+patch 285,359,

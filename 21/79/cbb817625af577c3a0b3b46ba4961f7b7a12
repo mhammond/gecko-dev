@@ -1,0 +1,4 @@
+changeset 0f8651cfdccb0c6534853b4c8d12da79e5eca267
+manifest 65257176bca426df0c3b4f5d96165214bca5eee8
+files hal/Hal.cpp
+patch 245,246,

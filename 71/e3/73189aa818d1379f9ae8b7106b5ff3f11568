@@ -1,0 +1,4 @@
+changeset e59fbafe563d06a72fe985155c5fd387e4346edd
+manifest 521b4d4b3456b18c8595157b2f60ea18e75e52fb
+files python/mozbuild/mozbuild/action/process_install_manifest.py
+patch 228,229,

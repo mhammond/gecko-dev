@@ -1,0 +1,4 @@
+changeset cd8b8017370cf14c472c107d256bb98ce7a19270
+manifest be187f1ef1e4b0565f58012ab33bba3683bd91a1
+files browser/components/privatebrowsing/test/browser/browser_privatebrowsing_popupblocker.js
+patch 302,303,

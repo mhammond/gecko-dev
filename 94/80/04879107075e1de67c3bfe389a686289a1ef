@@ -1,0 +1,5 @@
+changeset e775f1fed03a8b690671138127215f8f54f5e462
+manifest 165afc9c3227b27beb81ef677eeed01e123c0a13
+extra commitid:5m49j0J45TK
+files toolkit/components/places/nsPlacesAutoComplete.js
+patch 241,281,

@@ -1,0 +1,4 @@
+changeset cca3da96be3ed1d60f1ff2cebe57af191fef862e
+manifest fe221585eb0d8b63941f971e5cc7b28247038d08
+files xpcom/typelib/xpt/tools/xpt.py
+patch 815,816,

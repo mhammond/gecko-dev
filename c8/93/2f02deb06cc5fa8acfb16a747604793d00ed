@@ -1,0 +1,4 @@
+changeset e617c037515ba7c98b1d549832a3fc8decb52663
+manifest ed66192de7c5ec9bc22665e9215d997df1a6da8c
+files toolkit/components/passwordmgr/test/browser/browser_passwordmgr_editing.js
+patch 255,256,

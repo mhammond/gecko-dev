@@ -1,0 +1,4 @@
+changeset a6d0ac7916ff5017d9c0bd7cf7e43098fba8f2d7
+manifest 467e8db0fbc6b6e90b185428ae68948171e1928c
+files toolkit/devtools/DevToolsUtils.js
+patch 1065,1066,

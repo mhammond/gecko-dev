@@ -1,0 +1,4 @@
+changeset ff0b2f8117cb19b661dc88e1b4b5958658a004d8
+manifest 29e9de39b41df969d74fc64cc3fe8209f55865a7
+files netwerk/dns/nsEffectiveTLDService.cpp
+patch 190,191,

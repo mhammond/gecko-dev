@@ -1,0 +1,4 @@
+changeset 4200834d50111d7e71257057a9c916e6d1c125e1
+manifest bb5088fe1fb4dcccb963ad11a3a72cdfd8ed73cb
+files devtools/client/webconsole/test/browser_console_variables_view_highlighter.js
+patch 310,311,

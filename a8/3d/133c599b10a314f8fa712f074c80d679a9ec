@@ -1,0 +1,5 @@
+changeset 1cba3e880e7e54e4b90226b8d9c3844c62e18f11
+manifest 830b0c6e7216a1c3b842a7713e414a55bfeb463c
+extra rebase_source:0ca99b8f56cc9517f702e77645b01d447f49794b
+files js/src/jit/arm/MacroAssembler-arm.h
+patch 310,384,

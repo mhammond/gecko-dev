@@ -1,0 +1,5 @@
+changeset f0e2315fb487567d64f979454db1f6c25fe72a14
+manifest bb504038ec904e82003813f25b19d9a8410d4326
+extra rebase_source:35f0ae9195fd6486f6a7c723ea62bf4f29dcca04
+files dom/base/nsDataDocumentContentPolicy.cpp
+patch 301,375,

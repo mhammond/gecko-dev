@@ -1,0 +1,4 @@
+changeset 4e6cff12b401b04bd6ea58f15119d4ea55cf58f9
+manifest 6af64d35f2417879f288c392bedaefd3e4e508aa
+files browser/devtools/framework/gDevTools.jsm
+patch 235,236,

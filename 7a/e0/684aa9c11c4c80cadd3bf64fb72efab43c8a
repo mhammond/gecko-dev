@@ -1,0 +1,5 @@
+changeset 73b2d9788fe71441c04d8c3c96ab5a93671f3d54
+manifest e21bca1686b8fed980ba8f1c5e6fce5c2cb24d2e
+extra rebase_source:c9610ef1bc4f01c9e087a6e4c2bdcc8cecd335b8
+files toolkit/components/passwordmgr/nsLoginManager.js
+patch 343,417,

@@ -1,0 +1,5 @@
+changeset 6a401c72cdd376945ed93b525665bad830a85880
+manifest 371e9e52fdc33223399e63bde055d3eaf91c6eef
+extra source:aef872111de055eec77ed9e28cdcca95cfb6d9e8
+files testing/mochitest/tests/browser/browser_BrowserTestUtils.js
+patch 312,379,

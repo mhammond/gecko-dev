@@ -1,0 +1,4 @@
+changeset 3b12a8b128accf6717af0e9e546adc7048890490
+manifest 88643fa57955d36694b3a55f197af96159616924
+files db/sqlite3/src/sqlite.symbols
+patch 254,255,

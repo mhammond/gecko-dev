@@ -1,0 +1,5 @@
+changeset 795180188ec37d0d289f3e63ce735ea14af09e76
+manifest 46a54c154f2f3fce72746f220d1b24f72f56e72b
+extra rebase_source:e535ffa2c7649f16ffe7f761a9ed01b061848aa7
+files widget/windows/TSFTextStore.cpp
+patch 718,792,

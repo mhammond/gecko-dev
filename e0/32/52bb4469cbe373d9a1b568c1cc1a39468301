@@ -1,0 +1,5 @@
+changeset 5b643385e0da9986ffd55806d3fc860c8a6dfa54
+manifest 4bbd385a62f2d54773b3e323707215cae08f3f7b
+extra rebase_source:7fb7fa4421d2e4059b4922313dc4fbc40239b863
+files build/mobile/sutagent/android/DoCommand.java
+patch 303,377,

@@ -1,0 +1,4 @@
+changeset 6dbd0dee35720e9ad7a1af3659657104c6a25358
+manifest 9418a0a5a0dabdcef50e197481d3c9dc690952de
+files media/libyuv/source/mjpeg_decoder.cc
+patch 207,208,

@@ -1,0 +1,4 @@
+changeset 8423ee15c2f0d080a152454082863d8246d33adc
+manifest 6e2c6fda574c138138debabd8a4e91386b87e87a
+files devtools/client/inspector/layout/layout.js
+patch 273,274,

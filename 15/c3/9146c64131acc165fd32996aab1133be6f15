@@ -1,0 +1,5 @@
+changeset 98197b9e27e672e791d0ae03555e02f1c6e1f335
+manifest ca952566c470e3702328c24d791b3bfcd528d208
+extra source:91274b84fa33cbe95c3a4f4951f77dee891cd8b6
+files devtools/client/themes/commandline.inc.css
+patch 314,381,

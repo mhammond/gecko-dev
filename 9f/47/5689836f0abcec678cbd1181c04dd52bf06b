@@ -1,0 +1,5 @@
+changeset 1a240efc72a9c50d8e846f42948f0c08406a40d0
+manifest 3f61919e3856c27ae70a8d532f966816c32dae24
+extra source:40935ab99b85c527fa10fcb99a40636fdb6b4e58
+files build/moz.configure/keyfiles.configure
+patch 272,339,

@@ -1,0 +1,4 @@
+changeset 08493e40a4ad44fb3d05d4c19ab8fd923a8de737
+manifest dbf9f12e9807c84167ec12004da3f7ef61b6bd82
+files js/src/jit/IonCaches.cpp
+patch 619,620,

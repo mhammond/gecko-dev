@@ -1,0 +1,5 @@
+changeset 7f6e61c40d3cb80872558b6ea05a9733c3b4be9c
+manifest fffa93e857aacd2d31d5cbdfe36a26088668867b
+extra rebase_source:86834b669a3ae11b3a894d8e08504938401a552d
+files extensions/spellcheck/locales/en-US/hunspell/en-US.dic
+patch 266,340,

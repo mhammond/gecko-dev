@@ -1,0 +1,4 @@
+changeset 8a3c5c9b1486c3328bc4684d5ac5b3b849b09474
+manifest 4bae71584af72a1f08488830b1cd58c3779fec35
+files devtools/client/performance/views/optimizations-list.js
+patch 197,198,

@@ -1,0 +1,4 @@
+changeset 2eb96ce8df526aca2d51f1cb0559bdc4b9b81691
+manifest 28e19593c9ab03524490d3a0c2ff45fc0edeed4b
+files media/libstagefright/binding/include/mp4_demuxer/MoofParser.h
+patch 296,297,

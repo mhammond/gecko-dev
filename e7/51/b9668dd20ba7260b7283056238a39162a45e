@@ -1,0 +1,5 @@
+changeset 64f564d7ea4300e9e6492fac5f1aab1c496bd658
+manifest 8bb5e5e0353ff753489b02e3c26b9bba3bc782a0
+extra rebase_source:86d12bd2b91cbdcefbdfb78f7e17c9dfad273cf5
+files gfx/cairo/cairo/src/moz.build
+patch 331,405,

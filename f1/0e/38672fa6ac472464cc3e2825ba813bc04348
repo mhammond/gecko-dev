@@ -1,0 +1,4 @@
+changeset 5d6c6c05432c3ae3c1aeba07153d77eecdd0d4ac
+manifest dbdd823ec90f35785fac38ec0843c49faab9476a
+files js/src/jit/JitcodeMap.h
+patch 185,186,

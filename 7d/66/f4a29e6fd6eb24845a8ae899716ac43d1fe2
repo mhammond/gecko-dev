@@ -1,0 +1,4 @@
+changeset 0371c68cb1299f237de97ea134e926fff0bdf413
+manifest 1a8c2ca7f24d3ab64b2c7d7e31ad7c6619cea3ec
+files accessible/tests/browser/e10s/browser.ini
+patch 327,328,

@@ -1,0 +1,5 @@
+changeset d23fa9b954300e8f5ed9fb6726ef5d5802ef3003
+manifest 8f9eaa089b9b11cbcc0ca10c249216d0793b8d43
+extra rebase_source:5c7495d615d09a2826eea1338c0c1931b0b588bb
+files js/src/asmjs/WasmSignalHandlers.cpp
+patch 307,381,

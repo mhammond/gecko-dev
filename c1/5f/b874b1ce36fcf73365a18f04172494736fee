@@ -1,0 +1,5 @@
+changeset 3be787295772aac29c8079f446c461e788c823b6
+manifest 00a927705d710f5cf1713c983fcb5cfbb3155f16
+author brendan@mozilla.org
+files js/src/jsparse.c
+patch 155,156,

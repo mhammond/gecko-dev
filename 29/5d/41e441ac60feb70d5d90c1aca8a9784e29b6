@@ -1,0 +1,4 @@
+changeset 91f6567c8b9e698bf0ce0eb7149ac705af667eee
+manifest ee6ccb7980a078c061e447b6749a3b819991dbf8
+files widget/gtk/nsGtkIMModule.cpp
+patch 254,255,

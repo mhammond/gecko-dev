@@ -1,0 +1,5 @@
+changeset f25907a388cc868f6fd2cb64999414c26980b150
+manifest 933a442d9c9c6b829e09d19c30610cb17c0fa8e5
+extra transplant_source:ÏM—¦äùð¥ÏºgL:Uò`
+files browser/components/sessionstore/test/browser_sessionStorage.js
+patch 328,418,

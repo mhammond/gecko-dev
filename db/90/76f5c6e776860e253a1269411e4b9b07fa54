@@ -1,0 +1,5 @@
+changeset c62a235f48252ab6424dbeb5b3a79a713fac873b
+manifest 97f610077e2492d3976519932e67fd0a61cb7dfc
+extra source:69f4cf1125c2137512d2de6594769d21b469a02d
+files mobile/android/base/java/org/mozilla/gecko/gfx/GLController.java
+patch 371,438,

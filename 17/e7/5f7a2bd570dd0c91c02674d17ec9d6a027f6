@@ -1,0 +1,4 @@
+changeset c7ce90c13ab132883ac2a934a91fa5050a5a7de8
+manifest c02718482008abbe10277d6c6c1562f619bf87a7
+files build/win32/Makefile.in
+patch 697,698,

@@ -1,0 +1,5 @@
+changeset 124addcb422ff6cf7756fa1b55ca67f98dbb9187
+manifest 5b2d60998bc256bcfa5d4c3c60341eca15979028
+extra rebase_source:1d3d1fcdc396638d256336d3dfaf5ba5bad35168
+files testing/mozbase/mozlog/mozlog/formatters/html/html.py
+patch 559,633,

@@ -1,0 +1,4 @@
+changeset 4bfe96dd2a319d180def80d327defd7da4f8e6bb
+manifest d75e0a0c5de54784698fc0731a9ccce4d2a3a82d
+files testing/web-platform/meta/websockets/interfaces/CloseEvent/historical.html.ini
+patch 237,238,

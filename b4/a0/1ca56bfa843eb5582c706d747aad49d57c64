@@ -1,0 +1,4 @@
+changeset 447b9fe106e82b9bf8947426260fc5b62261ca5a
+manifest 1ebb6e4dc0b5965715f8807078aeaf292dd2ae43
+files xpcom/glue/Logging.h
+patch 263,264,

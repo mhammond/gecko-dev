@@ -1,0 +1,4 @@
+changeset 3f9f9202ea6408725d103dea58c9174fd2063bd0
+manifest e5fa6aac55bfe5ea963817b73acf78b6607e77d5
+files toolkit/components/places/PlacesUtils.jsm
+patch 251,252,

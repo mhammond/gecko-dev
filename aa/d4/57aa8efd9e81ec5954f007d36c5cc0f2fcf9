@@ -1,0 +1,5 @@
+changeset ad4b115c100f73dee80935bf1e1d60b3321c3502
+manifest 873b700df2c0b3a1e8a45a084c718998c03acf86
+extra commitid:HyFaXHFS3vH
+files gfx/layers/composite/AsyncCompositionManager.cpp
+patch 258,298,

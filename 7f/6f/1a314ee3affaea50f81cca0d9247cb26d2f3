@@ -1,0 +1,5 @@
+changeset 921b458ddbeffc37733fc5a877f53b1afb238f1f
+manifest d507d1bff2e23a6f48a8986e305df2dd9431cd2f
+extra rebase_source:bd5f54ae321bcbabff3af72045bc32e9eb240307
+files b2g/app/ua-update.json.in
+patch 227,301,

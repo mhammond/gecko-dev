@@ -1,0 +1,4 @@
+changeset 7bdf05f490cef74425676582223af86bdb481454
+manifest 3460bfbda59e11b76a7120747893c394b6160d95
+files toolkit/mozapps/update/test/unit/head_update.js.in
+patch 274,275,

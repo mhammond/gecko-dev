@@ -1,0 +1,5 @@
+changeset 31cf031ca23e4927db55f9e5469ac3e4c6599a35
+manifest a6675b47dfbf131e25d1fba060c937e0658dd3b8
+extra commitid:5PJogBDm5ON
+files browser/components/sessionstore/SessionStore.jsm
+patch 209,249,

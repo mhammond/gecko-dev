@@ -1,0 +1,5 @@
+changeset b1f4edc9773d289ce1d9c70c48d9d1278b2aa9d2
+manifest 4015e0c7a12c7dfaa8636cb990cb193b7b4f9377
+extra rebase_source:662b60ed41ec083194071d5f8f1d093b8abce13a
+files js/src/tests/js1_8_5/extensions/recursion.js
+patch 245,319,

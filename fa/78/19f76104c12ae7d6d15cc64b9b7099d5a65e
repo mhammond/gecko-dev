@@ -1,0 +1,4 @@
+changeset b48820f4c87aeaa2186c401c1bafe6661d6b7e31
+manifest 91be079eca3773e87497bf06325866ba1f7e2160
+files devtools/client/debugger/new/test/mochitest/.eslintrc.js
+patch 198,199,

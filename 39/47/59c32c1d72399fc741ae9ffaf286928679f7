@@ -1,0 +1,4 @@
+changeset 3cf22d1e586fbf304f7e64437bf8b99b0d08b1d7
+manifest 78a42f4178c13503e862ebf926d7681a994c118a
+files browser/base/content/aboutDialog-appUpdater.js
+patch 239,240,

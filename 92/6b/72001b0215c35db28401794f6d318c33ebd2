@@ -1,0 +1,4 @@
+changeset 0a1c5b06f3da3ef1e72ea5e82d6724521868fedb
+manifest 5d05c6b0bd0ea9d316534eed36db29c86a5dc069
+files python/mozbuild/mozbuild/compilation/codecomplete.py
+patch 291,292,

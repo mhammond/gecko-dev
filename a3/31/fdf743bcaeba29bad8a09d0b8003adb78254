@@ -1,0 +1,5 @@
+changeset b42fa55211af72e4afe5e9e0511eebe1ec6da9ab
+manifest 3e5d03fd14c24fa8d78cf06eb01f6755629da4c9
+extra source:17cad5502709d068b29c30e84daf6d9d46ca03a8
+files mobile/android/base/home/SearchEngineBar.java
+patch 285,352,

@@ -1,0 +1,4 @@
+changeset 6edd719019ebae0311dce299d2bf39db5c79306b
+manifest 7fa6eb4dc5c9c3013973b6749815e80201280f0c
+files browser/base/content/test/general/browser_misused_characters_in_strings.js
+patch 231,232,

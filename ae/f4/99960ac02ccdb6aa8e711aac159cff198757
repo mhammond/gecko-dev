@@ -1,0 +1,5 @@
+changeset f6f6a67f5f1d1f305fba492b9e30e7570d3a64af
+manifest 018c75318e072324962b1de428415baf5324bd2e
+extra source:1b808c63a394eabe5251b3849332d39bb57e753a
+files storage/mozStorageAsyncStatementExecution.cpp
+patch 369,436,

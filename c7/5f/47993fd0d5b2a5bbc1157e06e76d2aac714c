@@ -1,0 +1,4 @@
+changeset ca1a70889b2bc2009bb18b831598fec26a485919
+manifest 9e7174a051f6bffea9ccb776098e7e75215cf5c3
+files browser/extensions/pocket/content/Pocket.jsm
+patch 194,195,

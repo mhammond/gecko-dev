@@ -1,0 +1,5 @@
+changeset 2ba7a111b2a73cddd9cb8fcddc3482642a161c23
+manifest 2a6aa0cdcb639242cc4e61e1425574baba1ada1c
+extra rebase_source:278543e3b266a285d50628b9554b626b5eae6b1d
+files browser/modules/test/browser_PermissionUI.js
+patch 263,337,

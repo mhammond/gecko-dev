@@ -1,0 +1,4 @@
+changeset b43f4b166fb9e1675ff66b7e397c5b69776c36da
+manifest 6817588c01120bcba71c360dc7fad18c3510715b
+files dom/base/nsNameSpaceManager.cpp
+patch 180,181,

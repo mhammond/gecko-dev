@@ -1,0 +1,4 @@
+changeset d92ee957e3f7dd9b18796e3925e46073712f6043
+manifest d4438fa54b2ee3feebf8ac1cc20bd8c435f2319c
+files browser/components/privatebrowsing/test/browser/browser_privatebrowsing_localStorage.js
+patch 379,380,

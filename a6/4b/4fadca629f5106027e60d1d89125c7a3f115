@@ -1,0 +1,4 @@
+changeset fade91bfd45ca467b59a334a74a4487aab8c35a6
+manifest 73bdbfe2f125d590e9231cfd8352f491e5b58956
+files testing/marionette/components/marionettecomponent.js
+patch 245,246,

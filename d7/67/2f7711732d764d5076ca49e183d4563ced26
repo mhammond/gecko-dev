@@ -1,0 +1,4 @@
+changeset 09aa6cd31c3692aded9fda1f7d2c8e3bc3962c56
+manifest 59e01f708159d67457818b58085c4ad1f166713a
+files browser/base/content/test/general/browser_clipboard_pastefile.js
+patch 245,246,

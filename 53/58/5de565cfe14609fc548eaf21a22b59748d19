@@ -1,0 +1,4 @@
+changeset ad04d81b3eeb32e98f1f9fd0af0f2710b131f257
+manifest 34e7ceaba393be558b94014b9bdf153354bf16f7
+files dom/devicestorage/nsDeviceStorage.cpp
+patch 202,203,

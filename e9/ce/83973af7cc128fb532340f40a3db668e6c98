@@ -1,0 +1,4 @@
+changeset 06bd71f490fa2cc1551373f8cfc08ade8e18a61e
+manifest 48893a8d762069e3606dc0cc718973285f94680a
+files js/src/jsproxy.cpp
+patch 193,194,

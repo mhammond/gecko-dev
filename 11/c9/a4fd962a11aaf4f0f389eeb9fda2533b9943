@@ -1,0 +1,5 @@
+changeset cc5d9a00a4d3e7744dfdb4d0512ac2f0e91b5e5e
+manifest 07755e1d0abd5db8cf4b2d8d0b30633d275179ac
+extra source:9d1bc9b90bb7c416943af504d98f05a8764a542b
+files browser/components/newtab/tests/browser/browser_newtabmessages.js
+patch 340,407,

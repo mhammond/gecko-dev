@@ -1,0 +1,4 @@
+changeset bf4d710c80531aa2c170f076716513e69206b05d
+manifest c60de1b12149d5905a9e657922d0f7c604e99ff5
+files security/pkix/lib/pkixocsp.cpp
+patch 223,224,

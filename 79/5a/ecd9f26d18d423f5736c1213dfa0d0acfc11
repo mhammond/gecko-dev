@@ -1,0 +1,6 @@
+changeset b036afad3d9fca7579a952c9a7e9efa5a72cdabd
+manifest 8ed634660114d787a183dce41d87817865563b70
+author zhoubcfan@163.com
+extra rebase_source:0d340bd7488fb2ba3fdf663a870f9815f3e723c3
+files dom/plugins/base/nsPluginsDirWin.cpp
+patch 331,405,

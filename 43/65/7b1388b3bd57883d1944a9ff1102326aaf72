@@ -1,0 +1,5 @@
+changeset be27e36ce427df475b3ff827d8c0258c1c34c5b5
+manifest 659fc95fc6b1f9468fdd3f007b6d89c9c045830f
+extra commitid:L4nSGtBUKbh
+files browser/components/extensions/test/browser/browser_ext_lastError.js
+patch 269,309,

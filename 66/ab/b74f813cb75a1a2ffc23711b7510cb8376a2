@@ -1,0 +1,5 @@
+changeset fad7967951f733632e4f170bd2d293519a201529
+manifest a30b88c74727a5caed9cfee08ea88327f3f92ea5
+extra rebase_source:b428be80fae70be2bfc6d3bf96775e3e859e9ef1
+files xpcom/idl-parser/xpidl/header.py
+patch 272,346,

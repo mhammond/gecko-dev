@@ -1,0 +1,4 @@
+changeset 64d71638794cec07d8b9cc5c256448047d79459e
+manifest 7148cb3f012d7e312f18906f80518328566e2ce2
+files toolkit/mozapps/extensions/internal/PluginProvider.jsm
+patch 222,223,

@@ -1,0 +1,5 @@
+changeset 5000b940578b090d416273fe88a10c18deec86ba
+manifest 0311abbb65d23d301bc4ac585a269ab77fd9d9b0
+extra rebase_source:bc67a5ce78608dac1655f050dcf145e0f4fed676
+files gfx/src/nsRegion.cpp
+patch 339,413,

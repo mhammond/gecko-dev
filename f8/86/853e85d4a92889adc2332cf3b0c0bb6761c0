@@ -1,0 +1,5 @@
+changeset 368638f4765730c9dd97a4b53b186c7492dc81f5
+manifest 2099f68613954109297ddc5860cad3168943bb48
+extra rebase_source:712d0a4eb04e617c73dd75faf54ad6338663a2be
+files browser/components/customizableui/content/panelUI.inc.xul
+patch 353,427,

@@ -1,0 +1,5 @@
+changeset 1a7af0fca900e297575b413fd1b2707f44ea2c41
+manifest c00ba4ad4d6d4a7a3ee474637f84bef9c4a81a5d
+extra source:f18d7da0b93036139e58e82ca3632a752102d0df
+files testing/web-platform/meta/pointerlock/idlharness.html.ini
+patch 308,375,

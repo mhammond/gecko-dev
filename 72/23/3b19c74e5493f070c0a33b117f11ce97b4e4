@@ -1,0 +1,4 @@
+changeset 2a063b30fd4a287519b350f83c0ee5054a3d30ef
+manifest 40948b143bd7f3b571b750573a544db13471729b
+files dom/media/webrtc/GonkCameraImage.cpp
+patch 261,262,

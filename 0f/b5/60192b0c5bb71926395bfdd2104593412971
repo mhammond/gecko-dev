@@ -1,0 +1,4 @@
+changeset 52007f2cba341367f30533da5b0e1172cfa1daf8
+manifest 8e8502198ddef2264976a79cd9a8d371f7072f38
+files security/manager/ssl/nsNSSIOLayer.cpp
+patch 194,195,

@@ -1,0 +1,5 @@
+changeset 7f0116af2fd7fb4d29fd1f8eae541e5dd57726a5
+manifest 07c17ff81b55029a47e38941b6916c8626dbd369
+extra rebase_source:691c9a3f49c8d4950e2349640ebdacaf711bb00d
+files browser/locales/generic/extract-bookmarks.py
+patch 280,354,

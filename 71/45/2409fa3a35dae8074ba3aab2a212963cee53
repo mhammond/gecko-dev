@@ -1,0 +1,4 @@
+changeset a338aeb2e9be20e7af3bf9c9372c55403419fc9e
+manifest c1623f5c0bc9e4ffb15fa8eff100208217b24338
+files netwerk/dns/mdns/libmdns/moz.build
+patch 219,220,

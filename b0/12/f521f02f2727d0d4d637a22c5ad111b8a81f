@@ -1,0 +1,4 @@
+changeset 339a293305d10412890550b2e7b6900e0dd0c80e
+manifest 517bbe096eebc8c5048d1ef5a75e125a71b42efb
+files dom/camera/GonkCameraControl.cpp
+patch 218,219,

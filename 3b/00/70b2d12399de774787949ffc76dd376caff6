@@ -1,0 +1,5 @@
+changeset 353ef7001763806842df858b846284b22a22a569
+manifest 471d3a8ecb3173b67c72c0eb1db4fe35cce03ec1
+extra rebase_source:b06040dbfa8ab6d1e3cb693ed45750abebdf5efb
+files gfx/thebes/DeviceManagerDx.cpp
+patch 261,335,

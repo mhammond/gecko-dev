@@ -1,0 +1,4 @@
+changeset d9b4ba078d962716a992fb088444c8bc1f539fca
+manifest eea2dc4f9795d4cc90efc982493e649816eada3f
+files dom/webidl/SelectionStateChangedEvent.webidl
+patch 218,219,

@@ -1,0 +1,4 @@
+changeset 7003ce1d246866d09a284379cf005ac06f6f73ad
+manifest 2db6da8c86dfdbb1c7433ea51cb852ee9c9282c8
+files netwerk/wifi/win_wifiScanner.cpp
+patch 247,248,

@@ -1,0 +1,5 @@
+changeset 18647c79fc2fd5470a2b369eef06e652e89ed204
+manifest 7b7903a7b9086bd1b8c3a4ed82eab9b4bdb3b024
+extra commitid:9A0bnmsSNog
+files dom/xbl/nsXBLProtoImplField.cpp
+patch 232,272,

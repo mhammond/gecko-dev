@@ -1,0 +1,6 @@
+changeset 196d99aabc27b355fb7e1c03f841cf0d4945db6f
+manifest f0bb4c97c9d6d5f5af88cee9e5655a8d054a364a
+author "Chris AtLee"
+extra amend_source:681921575b721ee7b1148472d386f669d8f7627d
+files mobile/android/config/mozconfigs/common
+patch 258,331,

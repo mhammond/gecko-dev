@@ -1,0 +1,5 @@
+changeset 511d102e76439b864de39dc6b9f7fff3155bfb2a
+manifest ff954e8ada75ea7ed39395d5605e8a264d292b3f
+extra rebase_source:579b33c6a7a034aa45803b52eee0d1e3eda29e4f
+files devtools/client/webconsole/test/browser_webconsole_bug_613642_prune_scroll.js
+patch 372,446,

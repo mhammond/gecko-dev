@@ -1,0 +1,5 @@
+changeset 04aa9165c832254e43a9b168aeb02cac3da9aed8
+manifest 6ee5bf77909c20adf4966c3f39cede74f1349af0
+extra rebase_source:a93c2b3648b6dd14bf0a679fa241e8780c693780
+files media/libstagefright/moz.build
+patch 280,354,

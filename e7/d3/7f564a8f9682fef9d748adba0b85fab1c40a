@@ -1,0 +1,5 @@
+changeset 77c29b7f2e7c7a4ce3e1480e524b3b4d7b2d2854
+manifest ffe0573c76238b9aefc4b365fbe5333b042cdcc1
+extra histedit_source:78e67730423b142dd6b2775704518396d09075d4
+files dom/html/HTMLImageElement.cpp
+patch 260,336,

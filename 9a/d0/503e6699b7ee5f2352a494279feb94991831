@@ -1,0 +1,5 @@
+changeset cb1376da5ec7dc84d4a0355f5a8988cbcdc6c131
+manifest a6cc8bc04107021255fd45d03680848ed04e793b
+author roc+@cs.cmu.edu
+files layout/generic/nsTextFrameThebes.cpp
+patch 235,236,

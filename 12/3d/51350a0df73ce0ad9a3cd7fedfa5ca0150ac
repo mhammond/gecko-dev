@@ -1,0 +1,5 @@
+changeset 23162c502edcdf9aff8a48aa28822815719b1a0e
+manifest 14f466d4f21f87cca0a207bd3c0277ec6551214a
+extra rebase_source:a1e55ccf56a41e20afabb9f2f46f58db98b82efd
+files devtools/client/shared/shim/Services.js
+patch 293,367,

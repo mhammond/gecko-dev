@@ -1,0 +1,5 @@
+changeset 472ba65eeb68aa8c5aa57f63c661b012a9fe0866
+manifest cba08ce9128e53bde144326fff7943374e5fe74d
+extra source:69b843ebaa274a4c6228af22e0ddeec8085e170b
+files mobile/android/themes/core/aboutReaderControls.css
+patch 285,352,

@@ -1,0 +1,5 @@
+changeset 9e4d3eb55534d37ee761a6e3db6605e1a9e6c39d
+manifest 5c608a961e0593e45f2726b5d15c52d3c500ed4a
+extra rebase_source:da25767f6045507447f90ab03291c60a4f2c6b3d
+files ipc/chromium/src/base/message_pump_libevent.cc
+patch 276,350,

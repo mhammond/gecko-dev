@@ -1,0 +1,4 @@
+changeset 4dbc392a25d8a1978b5e9802561375b502d19c19
+manifest 13a556014b2ee22abc027f1433de30b620742380
+files js/src/tests/ecma_7/AsyncFunctions/identity.js
+patch 261,262,

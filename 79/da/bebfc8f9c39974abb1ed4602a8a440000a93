@@ -1,0 +1,5 @@
+changeset fbdc94c92ec259330f97be37d838440f7e8a3f7a
+manifest 8164ece3124597a5224ccc05030da1daddd7734f
+extra source:da873ecc7120b840d32205a8c08f061dfcb3152e
+files devtools/client/locales/l10n.ini
+patch 364,431,

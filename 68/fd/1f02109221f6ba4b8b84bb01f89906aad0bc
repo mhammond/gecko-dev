@@ -1,0 +1,4 @@
+changeset 617e22a259abffafe0d0233d3f3c038454044f25
+manifest db7728cce97c1555b97d51711c0594c35312ddf5
+files devtools/shared/css-properties-db.js
+patch 263,264,

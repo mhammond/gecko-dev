@@ -1,0 +1,4 @@
+changeset 5c9fd9b2efbbb310c02f9b93b2dd440f55dc6433
+manifest e5afe6a8416e54f6820ef089ec9804209b9219e6
+files testing/docker/centos6-build/system-setup.sh
+patch 282,283,

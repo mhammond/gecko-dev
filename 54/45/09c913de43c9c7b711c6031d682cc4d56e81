@@ -1,0 +1,5 @@
+changeset b57ff9533be3351cf1540754b373a4de3b820baa
+manifest 5d28125f344b151b880d1d61f2ada72dcc091ae3
+extra source:86de03b543e97b54d6ae8c5d161a6daddb8586ba
+files devtools/client/debugger/test/mochitest/browser_dbg_stack-03.js
+patch 318,385,

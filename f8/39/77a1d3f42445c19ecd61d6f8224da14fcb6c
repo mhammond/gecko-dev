@@ -1,0 +1,5 @@
+changeset 86f7c45c29716cd326643a30a9e48915e0e694cc
+manifest 3e7369c9ce3fb23b902820f465d3509705c59d64
+extra rebase_source:59b8204be10a404ea4929a7081e333e04ae994f5
+files js/src/tests/ecma_6/Math/log10-approx.js
+patch 269,343,

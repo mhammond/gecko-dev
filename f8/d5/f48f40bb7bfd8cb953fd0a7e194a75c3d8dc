@@ -1,0 +1,5 @@
+changeset 3bd51cfc11da2e772e69b5d1c6d259c0a3e5d295
+manifest d53d6fda27135a92a01f0e68652435eebd063a38
+extra rebase_source:74b62439232063b42c109de10c22f26c7ccf8510
+files js/src/frontend/NameFunctions.cpp
+patch 237,311,

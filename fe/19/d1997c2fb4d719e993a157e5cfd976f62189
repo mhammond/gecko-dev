@@ -1,0 +1,4 @@
+changeset be8ed23a47e3f6a19f8064b72852f46420645770
+manifest fae93ec5d78ed5ca8313dd9b6fdbce6fbf3301ef
+files testing/web-platform/mozilla/tests/service-workers/service-worker/skip-waiting-using-registration.https.html
+patch 292,293,

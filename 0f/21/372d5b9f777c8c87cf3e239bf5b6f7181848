@@ -1,0 +1,4 @@
+changeset 54e8922be9ef98d9ee0ade82480d2876ae9bd1df
+manifest 1bafe57c898b43f59bcff3ce9ad8c5557e8066a9
+files js/src/tests/ecma_6/Promise/bug-1289040.js
+patch 187,188,

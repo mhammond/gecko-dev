@@ -1,0 +1,4 @@
+changeset 43e0e5d33880d43b70165d7411c6d54606197918
+manifest 7962e6b3fd24ef3dfe5b9595eea7459ce7a2dd5d
+files testing/mozharness/mozharness/mozilla/l10n/locales.py
+patch 202,203,

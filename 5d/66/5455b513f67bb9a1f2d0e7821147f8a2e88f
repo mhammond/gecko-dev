@@ -1,0 +1,5 @@
+changeset 10878e179e4c19f98030f78771d032173d7d1991
+manifest 3bb9872bf41a45652a7551b6f01889cc8a3c44d6
+extra rebase_source:923b19891262a0ee65b836a3d37a44278351972b
+files browser/devtools/styleinspector/test/browser.ini
+patch 320,394,

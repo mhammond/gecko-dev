@@ -1,0 +1,4 @@
+changeset aacd5474fe8bf1b3f9debecdc23bb9c792512af6
+manifest 8df47d33d12ecb3f35ac443f88d989233f03f4b1
+files dom/icc/tests/marionette/test_stk_proactive_command.js
+patch 239,240,

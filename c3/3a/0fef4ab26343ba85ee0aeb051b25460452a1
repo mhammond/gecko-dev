@@ -1,0 +1,4 @@
+changeset 5109c86728705c7498ed2e7f9aa0273303ab8181
+manifest 71e019ab73d4cf147679fd88082519c08a6376c7
+files gfx/thebes/gfxXlibNativeRenderer.cpp
+patch 205,206,

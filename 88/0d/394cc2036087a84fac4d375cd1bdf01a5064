@@ -1,0 +1,4 @@
+changeset d8dcff77656ef4a4a87ed1bf6d3c3cbb46eab22b
+manifest aaa97d76632cdebe1eda7035cc9835d04ca46316
+files toolkit/components/telemetry/histogram_tools.py
+patch 253,254,

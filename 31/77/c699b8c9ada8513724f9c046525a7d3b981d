@@ -1,0 +1,4 @@
+changeset c7bde7c9d5e56565fd3a6a013d712f648480b535
+manifest 65843dc42f1a8c7eaf328e313f726aed790b58e2
+files devtools/client/commandline/test/browser_cmd_highlight_03.js
+patch 244,245,

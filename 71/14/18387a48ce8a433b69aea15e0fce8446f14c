@@ -1,0 +1,5 @@
+changeset 2c2410d6293183283312a2ead9054ccfde3f22fb
+manifest b148b4d96999b58151413d2180f1dcf989b4f42e
+extra rebase_source:70759ab71c0955d8f83c142cf5f1fb9f56d294e5
+files xpcom/ds/nsStaticAtom.h
+patch 315,389,

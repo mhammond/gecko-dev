@@ -1,0 +1,4 @@
+changeset 6f06092e3628ad73b896e62ffd143e2701dcce38
+manifest 6a48680d703787d02bda9f7ad9ac6cb89297e3ed
+files js/src/jsutil.cpp
+patch 509,510,

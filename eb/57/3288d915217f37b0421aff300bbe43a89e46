@@ -1,0 +1,5 @@
+changeset cb711870d2b8d52f51b18e68c4d4cd3f9925bf53
+manifest a8a62a17ba5c28e7ecc513145669d5379be45efd
+extra histedit_source:112c8ef04ccfa6f6fb6342fbf7613fe8e8e859b4
+files toolkit/locales/en-US/chrome/global/regionNames.properties
+patch 278,354,

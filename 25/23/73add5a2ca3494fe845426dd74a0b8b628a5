@@ -1,0 +1,4 @@
+changeset 0fedc9953d6431da101d970a532e5ac99e2d2de2
+manifest 0043ea0d645bbcd32344f64c19d536cedb900906
+files js/xpconnect/wrappers/WrapperFactory.cpp
+patch 236,237,

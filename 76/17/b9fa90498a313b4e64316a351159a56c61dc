@@ -1,0 +1,5 @@
+changeset b0b52bebfd3dff0705f0efddc1d0827144eb1e21
+manifest 8c2a0711e1cf0b1e96e98cf9ea40f0ce48d1e4e3
+extra source:a489ca380382afe2ec8592913d436fdc1958e7ff
+files dom/base/ImageEncoder.cpp
+patch 235,302,

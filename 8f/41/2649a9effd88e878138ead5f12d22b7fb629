@@ -1,0 +1,4 @@
+changeset 5e5c83d83714987314069003e816a14732a0061d
+manifest 2e0d5073e5cf5930e210726c022e5f0689c2a020
+files xpcom/base/moz.build
+patch 203,204,

@@ -1,0 +1,5 @@
+changeset 986a22158836bddedd8ea6dda4134ce20984ab2c
+manifest 4dce3342d5ca90ee27bbdcd629bf4fdffecdaf22
+extra rebase_source:49693c2c1014cbecb8fc2a7f642dc04ad486dc3a
+files devtools/client/inspector/rules/test/browser_rules_completion-new-property_02.js
+patch 382,456,

@@ -1,0 +1,5 @@
+changeset 1152f5ef0bc11ba4221516dad2538c9ac3f21e9d
+manifest e0e00d818e22bedb3c8316e4e939159c1e90e972
+extra rebase_source:7f5fbe373de1c43d27a94344fd9cefe0b6a3aa58
+files browser/devtools/shared/DeveloperToolbar.jsm
+patch 289,363,

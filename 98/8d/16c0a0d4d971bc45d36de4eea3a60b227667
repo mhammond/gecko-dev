@@ -1,0 +1,4 @@
+changeset e1afa494cf22331293221cb6a90c45514c2ba5a4
+manifest 29827ebb4720f5e480aa88ef516e570f01a6f997
+files dom/system/gonk/ril_worker.js
+patch 267,268,

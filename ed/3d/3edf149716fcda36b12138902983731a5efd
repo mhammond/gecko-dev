@@ -1,0 +1,4 @@
+changeset 12fb5bc313d7d9ffaf570db7238c95d4f0ed873b
+manifest 91692e76428aa50f825766162f8090489902fab5
+files layout/generic/nsSelection.cpp
+patch 245,246,

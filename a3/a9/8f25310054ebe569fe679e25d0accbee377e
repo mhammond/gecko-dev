@@ -1,0 +1,4 @@
+changeset 785891c8e9978cdbb3e248bee4b12ec0a17158e5
+manifest 9486f57e6bacb8c401a2d77d096b1990fe5fd170
+files dom/security/nsCSPService.cpp
+patch 198,199,

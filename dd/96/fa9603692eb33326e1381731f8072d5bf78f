@@ -1,0 +1,4 @@
+changeset 7d1f3e56052f0d7b7dffc8ee930e67bffeaa9862
+manifest ac87a6d264aa6e413b46c8b0f47271a94fa394a1
+files js/src/jit-test/tests/asm.js/testAtomics.js
+patch 200,201,

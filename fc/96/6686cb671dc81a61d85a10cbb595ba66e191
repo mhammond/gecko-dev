@@ -1,0 +1,4 @@
+changeset 417d1e27c8eaf63a737abd95cc26d912332f232f
+manifest a98e4c2f6a69b24b400808716c5e9b534ebf7ba1
+files widget/windows/nsNativeThemeWin.cpp
+patch 231,232,

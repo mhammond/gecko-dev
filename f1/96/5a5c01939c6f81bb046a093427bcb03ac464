@@ -1,0 +1,4 @@
+changeset 3d7d1933593042bf73f175768eec6b374e52c5a1
+manifest ea175a46eb9d425bafe704733eaae9fa4054abee
+files testing/web-platform/mozilla/tests/service-workers/service-worker/registration.https.html
+patch 287,288,

@@ -1,0 +1,5 @@
+changeset 15db0848afb01912963ff99d7b85bbb909d43753
+manifest 088ff19337ca020ec1fff9a7101e125728e6744e
+extra source:d457b93de5b76d4bebeda0c1479c921b93101f37
+files netwerk/cookie/test/browser/browser_originattributes.js
+patch 280,347,

@@ -1,0 +1,4 @@
+changeset 2542e1dd838ded6434d62d62558cfca5a300b46f
+manifest a00ee2ca67fb1e295abd0c3d09646182526c8849
+files build/clang-plugin/tests/Makefile.in
+patch 377,378,

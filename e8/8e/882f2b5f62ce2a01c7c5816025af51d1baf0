@@ -1,0 +1,5 @@
+changeset eba071d5d5aa5b9e688d167572586c251d58f4ec
+manifest 85fb1b06d84f0013c685c07834820ae086c625c4
+extra rebase_source:0ad9f7b36c56a9327d18857f556853bd71f17d3e
+files b2g/chrome/content/devtools/hud.js
+patch 251,325,

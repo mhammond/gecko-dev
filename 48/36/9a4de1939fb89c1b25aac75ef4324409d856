@@ -1,0 +1,4 @@
+changeset b9c240ec6e315986405e6595ead8342b10d6a5b8
+manifest 2751733ecb8e655354db36eec6692b6226acbc55
+files testing/web-platform/mozilla/tests/service-workers/service-worker/navigate-window.https.html
+patch 283,284,

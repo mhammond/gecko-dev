@@ -1,0 +1,5 @@
+changeset 1f812f8563fb46faceae3e7f53d05d627f108c06
+manifest cd88981125a607568885885e6aa5817077cd8232
+extra rebase_source:0e81dc3ed261bf8d2e62c4f1ffaccc28e8ffcfa1
+files netwerk/cache2/CacheFileIOManager.h
+patch 319,393,

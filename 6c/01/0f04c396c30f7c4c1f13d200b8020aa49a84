@@ -1,0 +1,4 @@
+changeset 18b785142556610fb8530003e872fb096acddee2
+manifest e14a6d18ec4655892b2f914ef803291359a2dd6a
+files media/webrtc/trunk/webrtc/modules/video_coding/main/source/media_optimization.cc
+patch 259,260,

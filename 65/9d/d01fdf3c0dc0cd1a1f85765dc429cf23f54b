@@ -1,0 +1,5 @@
+changeset f4070aee95b2a621597fe86633161f999424f953
+manifest 8d8d48ea50c3a19fb5992a9dcc2085243f5ec6c0
+extra source:ece5370ee434679c176ab449304a0d7cef07b022
+files devtools/client/webconsole/test/browser_webconsole_bug_589162_css_filter.js
+patch 389,456,

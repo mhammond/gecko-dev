@@ -1,0 +1,5 @@
+changeset d1a9eaecbe0ff95e8d640f07e6d37c928d00174d
+manifest 0a41dea1e03054b2d02d65adbe7f062bddcdb2de
+extra transplant_source:	O=PþI'j-Œ]¥\0#U?
+files devtools/client/markupview/test/browser_markupview_keybindings_04.js
+patch 1154,1240,

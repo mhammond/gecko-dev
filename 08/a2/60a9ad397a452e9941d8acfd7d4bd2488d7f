@@ -1,0 +1,5 @@
+changeset 5c3271cb35c218a5976aa87873099b45719178ea
+manifest 55ebfab7fe8ee0ff94eb19289b7dde895f69b661
+extra rebase_source:58116ec5150bdab2a291ee1128269535ed96a02b
+files devtools/shared/builtin-modules.js
+patch 291,365,

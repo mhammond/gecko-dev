@@ -1,0 +1,4 @@
+changeset ed71e0a2f711dea4d3e17d62a9e1286fff166d66
+manifest 975fd2555b066cd514924d5bb38efedc2a100184
+files xpcom/ds/StickyTimeDuration.h
+patch 535,536,

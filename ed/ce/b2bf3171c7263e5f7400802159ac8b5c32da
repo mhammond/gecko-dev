@@ -1,0 +1,5 @@
+changeset e595d844f05d603bf1b069241b2ac52774ae8a6b
+manifest 1a6169ffdbd5ca85580d93e015505580507577a6
+extra source:7bd2ef72d263e2c277aea8cefccfdc8277ebd54f
+files browser/base/content/test/general/browser_contextmenu_childprocess.js
+patch 303,370,

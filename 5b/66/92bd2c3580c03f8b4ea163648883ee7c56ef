@@ -1,0 +1,5 @@
+changeset 51b5b9c96032fc9f8ea93ed010ce43b6b2442f76
+manifest 2a12a65866aa6e7d067107ab28844bc48d977125
+extra rebase_source:ff39be696ef4cd93ffbe0b9e7c95920aa03a6893
+files layout/base/AccessibleCaretEventHub.cpp
+patch 384,458,

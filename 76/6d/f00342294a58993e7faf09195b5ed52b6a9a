@@ -1,0 +1,4 @@
+changeset 94a25d092e44055eba9c830913d43b8a4f91d898
+manifest 5e064b3d1b8bc92e4138bae3cc5b9bac5d6dfb2b
+files devtools/client/shims/gDevTools.jsm
+patch 207,208,

@@ -1,0 +1,5 @@
+changeset 25178d030eef654678205706df71f93fcf8c5a95
+manifest 11cc72cc4dd1a9313f287b6aa2cb55a51820f7eb
+extra rebase_source:fe06a72a4a3b7ce51edabdb9fbefce1d3d2011e3
+files gfx/harfbuzz/src/hb-private.hh
+patch 267,341,

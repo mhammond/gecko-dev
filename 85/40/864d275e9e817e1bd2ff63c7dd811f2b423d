@@ -1,0 +1,4 @@
+changeset 3a44273280cf5dd2a761c91fb9dac626c9d0700d
+manifest 21ebedd60ca1aaa067aa3a8619bb13f589d0012e
+files devtools/client/sourceeditor/editor.js
+patch 221,222,

@@ -1,0 +1,5 @@
+changeset a1eab626db95522e838cdb9120e22d129fd08c01
+manifest 3f1db6146eeba38cc49b5c431a6b72deda3dbd98
+extra rebase_source:5e7545b20f41efd25da64a1c279fc42a5f571215
+files netwerk/mime/nsIMIMEService.idl
+patch 292,366,

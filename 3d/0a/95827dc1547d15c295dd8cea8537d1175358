@@ -1,0 +1,4 @@
+changeset fbbd78bb3ff1eee7b43c7f7d21ad49dab57989e3
+manifest fce04e5685535cbea517ae87d0137faf6e840f85
+files dom/xul/templates/nsXULTemplateBuilder.cpp
+patch 400,401,

@@ -1,0 +1,4 @@
+changeset d232d7e2fee7f21d96bba7e759e31cf3cada2b15
+manifest 9342cee7429fca7cfb34dbd2072ec7fdf5cfd0f4
+files js/src/jit/mips64/MacroAssembler-mips64.cpp
+patch 310,311,

@@ -1,0 +1,4 @@
+changeset e0299ad29b855f798ee5db8257cbb459894c1b29
+manifest 4782cc9fa399379f7ee4d17ceb4915185a8a991a
+files toolkit/components/telemetry/moz.build
+patch 188,189,

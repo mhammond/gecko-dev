@@ -1,0 +1,4 @@
+changeset d7dc2d4aacc27ee9ce045b19b913c42f7c219594
+manifest 752d1bfea4dde8845abc450283a6ec0ef72ce8d7
+files editor/libeditor/html/tests/browserscope/lib/richtext2/richtext2/tests/insert.py
+patch 298,299,

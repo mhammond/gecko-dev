@@ -1,0 +1,5 @@
+changeset 0ed1ae70d92286c2006b29e954e6c8a14b0c94a8
+manifest d1f803d99e4601db8ac61ed8e99e929ff93c63d6
+extra rebase_source:4912e1d1597a9f1045a50eb41a6cf6e1f7a7bf68
+files gfx/thebes/gfxTextRun.cpp
+patch 231,305,

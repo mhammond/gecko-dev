@@ -1,0 +1,5 @@
+changeset b98bd60a5a876b55af6272c10fdd3b640a6dd9e8
+manifest 4dfc7853069c7acf76e273eafb05c3f68eba3d09
+extra rebase_source:5eec475fd8bbd715833c48a35f92ee8596bd7f4d
+files browser/base/content/abouthome/aboutHome.js
+patch 319,393,

@@ -1,0 +1,4 @@
+changeset dd707db723cf9c5fa372ab2405642e4729125ff1
+manifest 4ef9b2816ac850ac99058feda88a36e878becf37
+files toolkit/devtools/qrcode/decoder/index.js
+patch 208,209,

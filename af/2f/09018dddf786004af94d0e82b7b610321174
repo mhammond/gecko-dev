@@ -1,0 +1,4 @@
+changeset b77e05bf69d596a0048b449fa90e35bb9f80342e
+manifest af06dc5b654e0ccce884041cd926530c6527d192
+files js/src/jsapi-tests/testUncaughtSymbol.cpp
+patch 238,239,

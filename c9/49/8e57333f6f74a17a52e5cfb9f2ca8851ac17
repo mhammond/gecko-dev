@@ -1,0 +1,4 @@
+changeset 448bd54109782c0217f8cfb6df79c820a515922d
+manifest 430f2e5cc0be84e03e8423a5c7089ea11a93ac49
+files browser/devtools/performance/modules/logic/compatibility.js
+patch 223,224,

@@ -1,0 +1,5 @@
+changeset 4fe9665478958ce08c9c25e63dcceec52082de7d
+manifest 3f71512043e18dfa1c12fbd63e4b4d927f01014c
+extra rebase_source:9cb319c94b3f6b5e88bdc514dd0e22dc56277d85
+files testing/mozbase/mozlog/mozlog/structured/commandline.py
+patch 329,403,

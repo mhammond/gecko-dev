@@ -1,0 +1,5 @@
+changeset 2fe563989bc6f23109d602fc3887cec710709f64
+manifest f8bd3d6a578a5d12baf1a3d7cc790990e853dbb2
+extra rebase_source:ddad22a46263fd13955b89828547158c9c723ecb
+files mobile/android/base/java/org/mozilla/gecko/mozglue/SafeIntentUtils.java
+patch 323,397,

@@ -1,0 +1,5 @@
+changeset 4236645e6bdf2bb3cc7dc5324544be14a58fc00e
+manifest 83e4b0e0d4a1349ce93536de318b9dd21c0f594a
+author Dragana Damjanovic dd.mozilla@gmail.com
+files toolkit/components/passwordmgr/test/mochitest/test_prompt_http.html
+patch 200,201,

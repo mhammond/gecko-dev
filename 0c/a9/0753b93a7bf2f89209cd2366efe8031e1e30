@@ -1,0 +1,4 @@
+changeset df57a1d196dc2fd7000d77425d716c3276afd1b1
+manifest c966d748185f0cf12177267b6fc7387ca40f59a5
+files devtools/client/shared/components/tree/object-provider.js
+patch 262,263,

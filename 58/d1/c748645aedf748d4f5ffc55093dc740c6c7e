@@ -1,0 +1,5 @@
+changeset ee0f02a2fc74fc1bd77f9b47119cbed05a882048
+manifest d159d1f2b420b47d0003ae54840278943f1ebcc5
+extra rebase_source:f98f12d8681ef3a753a7fe2bbe976f64c0ebca95
+files toolkit/webapps/tests/chrome.ini
+patch 283,357,

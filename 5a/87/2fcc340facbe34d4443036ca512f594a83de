@@ -1,0 +1,5 @@
+changeset e71532f2babd75e8b92f39a10a59bd665b26af82
+manifest 994cf0ffee0e8452d8f8d22d35e1819c96c47111
+extra rebase_source:ebf9eab60a0896a9b9dfd8bfe3c1157ede5c80f6
+files editor/libeditor/tests/test_selection_move_commands.xul
+patch 293,367,

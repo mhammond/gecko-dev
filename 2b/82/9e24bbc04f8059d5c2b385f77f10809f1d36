@@ -1,0 +1,5 @@
+changeset 87ebfcabb99ac1d7f85b10a595331377cbc3be2e
+manifest 0791770a706eed0a030c1fce526e1b0974364f8f
+extra rebase_source:f3c7c19df8b283e6360fd6975c421a004d26c8ef
+files toolkit/components/promiseworker/tests/xpcshell/test_Promise.js
+patch 385,459,

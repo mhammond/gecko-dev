@@ -1,0 +1,5 @@
+changeset 78083180bd475670936ef0062684327a5a7b3b24
+manifest 8066eb3208b6b7187e62fbce2581acc8e6eaba87
+extra branch:GECKO390_2015063018_RELBRANCH
+files browser/app/blocklist.xml
+patch 225,273,

@@ -1,0 +1,5 @@
+changeset 2c97a4e2f5226995e314d9074bce8c6774af073e
+manifest cac856257e277b5a3f82c1fc6f14dc6e47dc4ab7
+extra source:8ce1ada0c34c930d0065302962a4553040ecca09
+files layout/style/nsCSSPseudoClassList.h
+patch 329,396,

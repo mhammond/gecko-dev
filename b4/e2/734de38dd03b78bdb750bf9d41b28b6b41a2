@@ -1,0 +1,4 @@
+changeset c986a87c78b89fd009959c950a2468e0d8e35410
+manifest 1c034cc98ec8c2fe7b522aad4661bfc17da54ae0
+files dom/base/ConsoleAPIStorage.jsm
+patch 247,248,

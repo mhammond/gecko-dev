@@ -1,0 +1,5 @@
+changeset 1bc7f9b2e95c611cb6da3af62359133fe19d21e0
+manifest dd2f8484d011393f583ace2ea7ff271f9be4fec7
+extra amend_source:cd4e4095a0ef2e972d1717b93ae8575b3fca9e22
+files browser/base/content/browser-fullScreen.js
+patch 293,366,

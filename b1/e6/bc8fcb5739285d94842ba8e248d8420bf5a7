@@ -1,0 +1,5 @@
+changeset 49f62b49f9aa981f7ae656d53c789a8a1524414d
+manifest fb31ae862171cea78cb0de9c1c0f58b4bdcebdef
+extra rebase_source:3e80bf8f8b84bb022a3023a40235c14c900cd7bc
+files dom/media/platforms/wmf/WMFVideoMFTManager.cpp
+patch 287,361,

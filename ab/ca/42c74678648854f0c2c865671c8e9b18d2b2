@@ -1,0 +1,5 @@
+changeset bb5d09eec5eee960351a3a87aa30bbe87c25298d
+manifest ed79dfbabb4a852c8c250c1f2e1f65a05110f609
+extra rebase_source:83611d0790c1052404d1c321e2b91103a8f98ba6
+files devtools/client/webconsole/new-console-output/components/grip-message-body.js
+patch 314,388,

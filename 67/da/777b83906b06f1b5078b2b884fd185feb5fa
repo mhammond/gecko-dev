@@ -1,0 +1,4 @@
+changeset 22d3b72e28e44f0d6cf6f5972bf8919bcd7f8689
+manifest b5fdd1a0ab2d3a488ee0ac4b1f390ff24741d9e6
+files toolkit/crashreporter/google-breakpad/src/client/linux/minidump_writer/minidump_writer.cc
+patch 323,324,

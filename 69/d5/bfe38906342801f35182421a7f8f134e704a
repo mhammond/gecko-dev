@@ -1,0 +1,4 @@
+changeset 61a6a8dcefd364bc7a069198d065abf78ca0307d
+manifest cb2e4a5c7a886fd6b3e556ee790fdef5aa5f02dc
+files media/libstagefright/frameworks/av/media/libstagefright/SampleIterator.cpp
+patch 440,441,

@@ -1,0 +1,5 @@
+changeset 3627ce5ee0648a84553d219a3ce64bf7bb026ff3
+manifest 442fdc6d37fd4636e9dfb7f50d821ce33d4bfa94
+extra rebase_source:e23bf73378e9daafff3c3a6781f815d6053dbe94
+files dom/xul/nsXULPrototypeCache.cpp
+patch 290,364,

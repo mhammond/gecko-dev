@@ -1,0 +1,4 @@
+changeset 56e2ad84a18f8ab89ceeba12c54d5dbea7add5d3
+manifest e276cddb86ff480bf8407882d5879f3d5965a6fe
+files xpcom/base/nsWindowsHelpers.h
+patch 369,370,

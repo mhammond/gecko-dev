@@ -1,0 +1,5 @@
+changeset 8bfdf5dfcf6bcf706fea4cda201f72ffc0c69c4a
+manifest 841ce7941c16de51dc9e6291003be5917e37accf
+extra rebase_source:f28ed60b77797d975290f2b45c242526df984364
+files accessible/generic/ApplicationAccessible.h
+patch 277,351,

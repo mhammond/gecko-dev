@@ -1,0 +1,4 @@
+changeset 5c3790398ff5a5d8ed214c4cbf3d17d3438cdf7e
+manifest 07a7a44ffdcd5d2a9cc384ecac732ef37570cb10
+files devtools/client/debugger/test/mochitest/browser_dbg_split-console-keypress.js
+patch 320,321,

@@ -1,0 +1,4 @@
+changeset effd2a452de92a1cf34a987d27c25a41a6bcbe26
+manifest a971c309c55c68644f4002ab978fb4711d629af8
+files js/src/jsapi-tests/testSharedImmutableStringsCache.cpp
+patch 264,265,

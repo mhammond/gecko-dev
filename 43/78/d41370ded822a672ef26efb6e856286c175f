@@ -1,0 +1,5 @@
+changeset 48001c1d5dc4f78dc72b4fa0175d3c52662353dd
+manifest 9c7506be08e2123b1c9e21347d123404021f7002
+extra amend_source:01749f41a239949510bbc1e90a3324c934cfe86a
+files config/rules.mk
+patch 314,387,

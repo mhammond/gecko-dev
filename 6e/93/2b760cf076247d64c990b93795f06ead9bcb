@@ -1,0 +1,4 @@
+changeset d67e0c7296aa94dda34e76f6d7e256d68e7a47c9
+manifest d954cf4df63c47265a0f51cbd39a1dbf5e240af8
+files devtools/client/netmonitor/test/browser.ini
+patch 224,225,

@@ -1,0 +1,5 @@
+changeset 5df98a0e4cdd3b78e145ce3b569730989351588e
+manifest 02dcb3319477992b82fedc8bb1b3adf3e94b7bb1
+extra rebase_source:7335287c2a5654186bc4e75b5cdf32dcbfcc848c
+files xpcom/build/XPCOMInit.cpp
+patch 264,338,

@@ -1,0 +1,4 @@
+changeset 8f4c28b59a8c4a33ca4aaf0e139a63ab9aff5ddb
+manifest 3195a12a23d65ce3fce19e7fc233266a8c79523c
+files devtools/client/inspector/markup/html-editor.js
+patch 189,190,

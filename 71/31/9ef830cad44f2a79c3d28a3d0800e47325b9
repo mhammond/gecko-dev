@@ -1,0 +1,4 @@
+changeset 02fdb15586d80da0e9ae83300e05d19e402d14a3
+manifest 49ffd91669f38970b5cb9918d34184480b225286
+files browser/devtools/framework/toolbox-highlighter-utils.js
+patch 219,220,

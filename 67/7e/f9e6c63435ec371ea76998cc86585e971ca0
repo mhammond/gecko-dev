@@ -1,0 +1,5 @@
+changeset 2ce54341d00d139f59c13bbca2868f71aae49d60
+manifest 026554498865fb2846288438f29812756f4846b8
+extra rebase_source:7bb0310c4f18fb8871c204b9ac31efe03d56c245
+files mobile/android/base/FennecManifest_permissions.xml.in
+patch 318,392,

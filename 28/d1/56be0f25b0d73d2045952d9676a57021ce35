@@ -1,0 +1,5 @@
+changeset 0aa740ece69e880bcfb57359c6604e132d9ca9ff
+manifest 7c5ca22a475a55f3255e02b5866ffc41833fbd8d
+extra rebase_source:ba0ed32c5b8241fa6bf6300a8fa97ad71a236c1a
+files widget/gtk/nsWindow.cpp
+patch 330,404,

@@ -1,0 +1,4 @@
+changeset 23c05cd9fcf5f44c2edf4776cb3df45047fe4b10
+manifest e8dd730037c5cbe9f00ab3c0136d20dd9a995732
+files devtools/client/debugger/content/views/sources-view.js
+patch 219,220,

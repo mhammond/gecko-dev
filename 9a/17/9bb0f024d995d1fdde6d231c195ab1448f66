@@ -1,0 +1,4 @@
+changeset 0ee0ccd92605d502e04921fc671ade08f7d6440e
+manifest ca03fe12c241e9e2d029c4a1012706979c670832
+files dom/tests/mochitest/fetch/mochitest.ini
+patch 272,273,

@@ -1,0 +1,5 @@
+changeset 6087393c8970f30cf5dce4575050b0b65ab7424e
+manifest 92d4fb7e63904c05f9f782b747933aa2f8b31ad3
+extra source:1193bfa38fddd2dcc8923100863ad578d33f9540
+files dom/base/nsContentUtils.cpp
+patch 267,334,

@@ -1,0 +1,5 @@
+changeset d26b3c84b32337f675506dbf2fb55261acfc6c57
+manifest 7b9bb14f5594389c4f0f5c25303692f7335724c4
+extra amend_source:e3b6017bbe73d2c1004d7f814a6354a06be29262
+files toolkit/mozapps/extensions/test/xpcshell/xpcshell.ini
+patch 285,358,

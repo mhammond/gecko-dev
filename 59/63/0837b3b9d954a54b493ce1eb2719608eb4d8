@@ -1,0 +1,5 @@
+changeset 347963c97481a309675e018c92eaf6c574759aaf
+manifest 084d6125c638b823930b05699e57c1d849d435e4
+extra source:53354197432f5f80d3bdcd7aaca801b09c85c239
+files layout/style/nsCSSPropList.h
+patch 397,464,

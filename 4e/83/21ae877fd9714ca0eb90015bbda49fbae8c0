@@ -1,0 +1,5 @@
+changeset 6795225dc65f98d2c5007e1bf8e0b7ffb2265e38
+manifest 76b92785b6c34d6b08229206866b16f896e7df79
+extra rebase_source:9ce384e8cd7655e09f976222cd888e795f05558b
+files testing/firefox-ui/tests/puppeteer/test_appinfo.py
+patch 306,380,

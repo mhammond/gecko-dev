@@ -1,0 +1,5 @@
+changeset 75355c970c73ca28ba2684b368e8356d6530cb27
+manifest 34e0844c214415d42c59f92886241999aa6cc1ed
+extra source:0930afdb8a61cd130ffe7d6276d2cbd0c1c2ca4d
+files mobile/android/base/home/BrowserSearch.java
+patch 311,378,

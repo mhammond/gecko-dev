@@ -1,0 +1,5 @@
+changeset cab2bec68d53bdcdc69a4e7753e0f9fdc90aae48
+manifest 5746825c221fd14ce9d94959ca5170a435505d11
+extra source:b4a33a9b8c218f3c1bd3ce83c8178f67396b9296
+files extensions/pref/autoconfig/src/nsJSConfigTriggers.cpp
+patch 293,360,

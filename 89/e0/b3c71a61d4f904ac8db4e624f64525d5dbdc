@@ -1,0 +1,4 @@
+changeset ac729af904c97e40a24223230eaba372c917b9c0
+manifest 8f517f2f76a81e30767ca8a1d7da23d2deccdfe3
+files media/webrtc/signaling/src/sipcc/core/ccapp/ccprovider.c
+patch 232,233,

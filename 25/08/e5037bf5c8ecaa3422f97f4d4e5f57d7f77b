@@ -1,0 +1,4 @@
+changeset 87191bd52446546f2427d4d2d524792aa15964fa
+manifest b4055eefcd29482af80c255be46a82fdc73381d8
+files js/src/jsapi.cpp
+patch 166,167,

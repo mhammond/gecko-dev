@@ -1,0 +1,4 @@
+changeset 1d60097b626c2182725a4f9dd87cf0a67f0e9c0f
+manifest e1ca1bfd1377d5001529ca9f8d1eeb5bae23d1e4
+files browser/devtools/styleeditor/test/browser_styleeditor_inline_friendly_names.js
+patch 267,268,

@@ -1,0 +1,4 @@
+changeset 7a7c04a6d9df6a5d4c7272208b6b6972dd5f71b8
+manifest 7fc45c38b0b96ba882d429398c7fe611cb1d1e88
+files testing/mozharness/scripts/merge_day/b2g_tag.py
+patch 181,182,

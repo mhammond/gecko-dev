@@ -1,0 +1,5 @@
+changeset 9796c87f3a2d847fbfe3d359c529b6be241543aa
+manifest 65df6a2a8fbff97d7697658e46aeb7426cd94420
+extra rebase_source:6779e2af09a68af60e5a7ff85908f01da4d7d73d
+files toolkit/locales/en-US/chrome/global/findbar.dtd
+patch 360,434,

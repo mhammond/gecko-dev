@@ -1,0 +1,4 @@
+changeset b2d357bd9c8b260e21da197fb06534826f04e6bc
+manifest 9eb6bd92497c073c81dbae49739ef9d8bab86cdb
+files browser/components/pocket/panels/js/dictionary.js
+patch 231,232,

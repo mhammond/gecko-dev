@@ -1,0 +1,5 @@
+changeset f75beaf3149fd745e760143ef08053f461210f6e
+manifest 190e3e86d03b153b9ed6d4f04f04fe8ff2abd24d
+extra rebase_source:167d2519f59ddf7dab182601f9a581c872fd7998
+files layout/style/nsCSSRuleProcessor.cpp
+patch 394,468,

@@ -1,0 +1,4 @@
+changeset 52b5f3c27b0854a73fbe788982bf63135c5045e5
+manifest 7b084d99284e6da4a72690d9b1067afc2eb02949
+files browser/components/preferences/in-content/tests/browser.ini
+patch 259,260,

@@ -1,0 +1,5 @@
+changeset a126e704b703a707792ca99a33eaf9a1bbaffc94
+manifest d0aa1b3f4ecc4608996c6215dcbbc24b26307231
+extra rebase_source:1e694f0de67780ea3f1c2832fa7ad928f6bad8b1
+files dom/workers/test/test_WorkerDebugger.isFrozen.xul
+patch 278,352,

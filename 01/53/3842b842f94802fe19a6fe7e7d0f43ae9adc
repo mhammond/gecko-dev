@@ -1,0 +1,5 @@
+changeset a23f6035e92ea11f62d6f0eae4d9493ba0ee1da1
+manifest 823909162676029a20147b6adf848a25ba760978
+extra rebase_source:8ce77abd5fcf6e6e0a6e970c0c3e183adf2b8c85
+files gfx/thebes/gfxQuaternion.h
+patch 361,435,

@@ -1,0 +1,5 @@
+changeset 2b687444223cbaa1f5727b4e8fff13177ab8ef0d
+manifest ef84a7e57745a84c041d8181f663322ee75ddce5
+author Eddy Bruel <ejpbruel@mozilla.com
+files devtools/server/actors/script.js
+patch 1356,1357,

@@ -1,0 +1,5 @@
+changeset e077cd6f207cdfff49ea1596b77920cec2d90961
+manifest 39c36f783fa389a8ded35ece498a4332b8a2a17f
+extra rebase_source:58cf287d6a858dce9a6b14c4c88948df9fd4cc2b
+files dom/inputmethod/mochitest/chrome.ini
+patch 322,396,

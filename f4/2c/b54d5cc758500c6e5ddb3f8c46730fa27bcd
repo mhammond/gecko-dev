@@ -1,0 +1,5 @@
+changeset 1e4a8c9991e719b4a52ea09d4ba08731940e826f
+manifest e8207afc4afdcb69f5ece306554b0f9d1e4f6bb2
+extra source:2c9d4c7e3d2d6c5e34ab466ee0edc02c0a4d2d1f
+files devtools/client/themes/widgets.css
+patch 289,356,

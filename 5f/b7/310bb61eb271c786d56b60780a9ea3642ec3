@@ -1,0 +1,5 @@
+changeset 91c8036c0105edda343befe1328d4392cd99ac18
+manifest cca61cc1a47fee43fe93d08f39a56fd852ced73f
+extra transplant_source:¶F€®ŒlV`ŸcoB¢`ÆLo|
+files gfx/angle/src/libGLESv2/renderer/d3d/VertexBuffer.cpp
+patch 253,335,

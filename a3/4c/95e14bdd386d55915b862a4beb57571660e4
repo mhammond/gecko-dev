@@ -1,0 +1,5 @@
+changeset cd57cd70de74e5939870db91c32ecbc813f372af
+manifest 6010b4dc9ad9f8551cae01eb4bed5cba5a9612f0
+extra rebase_source:a72625ddeae2d0004fccdda264e824eaf89cd81a
+files js/src/builtin/SIMD.h
+patch 248,322,

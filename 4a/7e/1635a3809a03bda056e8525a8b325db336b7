@@ -1,0 +1,4 @@
+changeset d6f6bea2147962d0567accb421d385340210af78
+manifest 46ca6d34e4b08ea49a98bc38ac569ca491fe122b
+files js/xpconnect/tests/unit/test_xpcwn_tamperproof.js
+patch 458,459,

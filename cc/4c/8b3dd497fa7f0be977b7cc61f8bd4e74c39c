@@ -1,0 +1,4 @@
+changeset e3874479724b4d67a100d68a5d7d99db09c28f23
+manifest 038ada9dd9893f686f69bc9c5ebbde14b3b2dd24
+files testing/web-platform/mozilla/meta/service-workers/service-worker/fetch-frame-resource.https.html.ini
+patch 272,273,

@@ -1,0 +1,5 @@
+changeset 0963e4f0247107ded32c61eaf889a5b61170303e
+manifest 790253e2c9dddd2f6b1255571a070ef9c854ec9d
+extra rebase_source:ed9e3c478ca4affbfc5079394311ef7671957d75
+files gfx/cairo/cairo/src/cairo-dwrite-font.cpp
+patch 332,406,

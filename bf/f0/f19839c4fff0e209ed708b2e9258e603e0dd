@@ -1,0 +1,5 @@
+changeset 21a7e88e2cc80ba9b6325ebcd7481548554c76e7
+manifest 3193cec0260c94becaf84f78dd918648cc8a6fa2
+extra source:f0ad74c19f64d4f1b72375056fa4994da7262cc2
+files devtools/client/webconsole/test/browser_warn_user_about_replaced_api.js
+patch 339,406,

@@ -1,0 +1,5 @@
+changeset fe9aa9228a900b66b06bdd9639d530538c42a2dc
+manifest 523c0348e2d5814bbc93915f52212a3eefbee246
+extra rebase_source:e3fdce42af7b0cb7f017bc662239751416a9b947
+files toolkit/components/telemetry/schemas/core.schema.json
+patch 280,354,

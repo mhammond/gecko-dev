@@ -1,0 +1,4 @@
+changeset e370634dcb85a041ff91cad8afa5807b19c48a5b
+manifest bf8962038ecbd7dfc5355cd3c1bba5c5e66bf147
+files browser/components/preferences/in-content/tests/browser_privacypane_4.js
+patch 229,230,

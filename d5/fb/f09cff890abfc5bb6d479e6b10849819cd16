@@ -1,0 +1,5 @@
+changeset f717a8b03053e28c44839d8a4b7c35383741227d
+manifest acc10ab05b38b080dba511182ff6682eb1439c8b
+extra commitid:5FACVClo2Xv
+files browser/extensions/loop/run-all-loop-tests.sh
+patch 288,328,

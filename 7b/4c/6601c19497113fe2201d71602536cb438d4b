@@ -1,0 +1,5 @@
+changeset 821e8ecf946f42127cf07477b802859919d4439e
+manifest de30f6a3c651ea4b811c8fd64453cd0c4ac09c3e
+extra rebase_source:88fa75d78d900193a6bbf5e2048d3fc03db05e93
+files browser/themes/shared/readinglist/icons.svg
+patch 268,342,

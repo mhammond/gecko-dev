@@ -1,0 +1,4 @@
+changeset 82dd5f118d14f9f65fb0a930314d8107fd67cad5
+manifest fe724ef8a43696ddbde3b8ad70c7cb84b20c1f4d
+files gfx/thebes/gfxDrawable.cpp
+patch 195,196,

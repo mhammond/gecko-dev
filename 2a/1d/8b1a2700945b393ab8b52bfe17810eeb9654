@@ -1,0 +1,5 @@
+changeset 763ecbe1877e75b853f0bad50d6c224a1645ef3d
+manifest 3f3ce3275694e28e3d368db9e858e66cf94b480d
+extra amend_source:8f34be4a33b8cae396d55a945de05ae57b9d7ea2
+files dom/animation/test/mozilla/test_set-easing.html
+patch 383,456,

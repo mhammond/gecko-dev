@@ -1,0 +1,4 @@
+changeset fbbe708d4b57315a1b00db1ae0d9919d51da92f5
+manifest 2376adf519b75e1eb2765a5c7d86bccfb300be99
+files browser/devtools/styleeditor/test/browser_styleeditor_sourcemap_watching.js
+patch 273,274,

@@ -1,0 +1,4 @@
+changeset e4d6131af17154b3ae92cc185a950d9443f78809
+manifest 760148e107d476f2baee9957ea1b99bd67bb3272
+files testing/web-platform/mozilla/tests/service-workers/service-worker/fetch-request-resources.https.html
+patch 268,269,

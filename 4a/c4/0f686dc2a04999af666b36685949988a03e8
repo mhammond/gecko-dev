@@ -1,0 +1,4 @@
+changeset c32981aa0f19bcd2791a27d0dfa693a056126230
+manifest 627bb6da546db92daa9499d9b0fc968b5d01003d
+files mobile/android/base/java/org/mozilla/gecko/home/BookmarkFolderView.java
+patch 333,334,

@@ -1,0 +1,4 @@
+changeset bfc054a2bf660d111fc19b26d3067464f6482db4
+manifest 7f858ea01650440e0169b3a339d499deda70c23b
+files js/src/vm/EnvironmentObject.cpp
+patch 227,228,

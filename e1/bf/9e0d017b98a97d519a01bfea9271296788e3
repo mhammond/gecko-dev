@@ -1,0 +1,4 @@
+changeset a195dd26ba1bf4477f52cae837870c0f26f39931
+manifest 97f1ac94c2ddacced3df9c17a7be1a710924e2a9
+files devtools/client/preferences/devtools.js
+patch 292,293,

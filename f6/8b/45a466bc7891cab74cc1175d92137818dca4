@@ -1,0 +1,5 @@
+changeset bffafd2720162eaa1abf3963b1d9dabe494276be
+manifest b0d8b0a00e026242fa25daa8580964827855b2bf
+extra source:834a195f712043361ccbf9f72c1e14e901769720
+files dom/html/nsHTMLDNSPrefetch.cpp
+patch 259,326,

@@ -1,0 +1,5 @@
+changeset cf88ba99f9fd27d450b7d713f076968314938b09
+manifest ae5b391b44c281582e41b5d876e4e6b0ae9d1d66
+extra rebase_source:7c94ea0056d2591179515459ebcc8af6c7e87b9c
+files mobile/android/locales/jar.mn
+patch 256,330,

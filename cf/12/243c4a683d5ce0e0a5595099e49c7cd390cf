@@ -1,0 +1,5 @@
+changeset ae0e76aa85b6260addd90544443755ccd5be1f1a
+manifest 1b5f24b6236b68bc7080a648db388154334e7423
+extra rebase_source:f49e3c2e68ed77b11b7c644a10887d8b6cb8532d
+files toolkit/components/passwordmgr/content/passwordManager.xul
+patch 325,399,

@@ -1,0 +1,4 @@
+changeset a8b183936c658ebfdc28aa9751de8f131f014bf6
+manifest f5ca163fb9c79b0f7fd64d4bd445c3ec9172cee9
+files browser/components/loop/ui/fake-mozLoop.js
+patch 254,255,

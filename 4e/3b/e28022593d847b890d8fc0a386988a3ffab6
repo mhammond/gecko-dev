@@ -1,0 +1,4 @@
+changeset c3aa84cd334c17606ff33284a058064eafd67d28
+manifest 79e527653f65d34eb75f1be1cb960cf3507b6658
+files js/src/jit/mips64/SharedICHelpers-mips64.h
+patch 344,345,

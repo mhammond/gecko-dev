@@ -1,0 +1,4 @@
+changeset 61b3d4d0dfd46d91db55c8dbbd41e7652aaa4523
+manifest 7d04d945b0ab60af20e4c7ab6b36ab5f8e485e7f
+files devtools/client/memory/panel.js
+patch 477,478,

@@ -1,0 +1,4 @@
+changeset 437c48d2fb82216f288b3292baefbbfe2a5e09a3
+manifest 22570f061a53c8b626c5f7d7053fbc2ffa5da7a3
+files devtools/client/webconsole/test/browser_webconsole_netlogging.js
+patch 276,277,

@@ -1,0 +1,4 @@
+changeset 313bd77f09009341a35b45bc75866a57f02907b9
+manifest 00d63bc0bc1ef6661e5a5a8c67b143e4e40abb8a
+files dom/gamepad/windows/WindowsGamepad.cpp
+patch 195,196,

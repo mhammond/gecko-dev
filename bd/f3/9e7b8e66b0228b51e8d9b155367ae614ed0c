@@ -1,0 +1,5 @@
+changeset a253b30b7f74473331bfae304a9c2792c33f8b6c
+manifest 6fb45688457e0267bf7c3157c868ece68dbf3be2
+extra rebase_source:5ce4f8270e7299d4a3d32b9d16f1440051c42f0d
+files toolkit/themes/shared/in-content/info-pages.inc.css
+patch 278,352,

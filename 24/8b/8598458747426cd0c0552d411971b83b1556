@@ -1,0 +1,5 @@
+changeset 4456c07d6f1f105dbe839dc647da9280d1c5686c
+manifest 778ef14bd119495f1470d694ac71329208717fd6
+extra rebase_source:3568d2a9826ae4af1ab5e3ac53dcb1e4b7ce9e66
+files mobile/android/base/java/org/mozilla/gecko/home/SimpleCursorLoader.java
+patch 383,457,

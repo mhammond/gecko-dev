@@ -1,0 +1,4 @@
+changeset c213a96385e5bb205d9cacd25b440c30894b5a5b
+manifest 4db1311cde35eb9bfe6104e3aeaa84a5b54e88c2
+files browser/base/content/test/general/browser_tabopen_reflows.js
+patch 241,242,

@@ -1,0 +1,5 @@
+changeset 18a2873bb694e50649eb258cfa957a81bd45841f
+manifest 8659ae28836f7de0ffdf286de10968233454474b
+extra rebase_source:c70ca0c98ef27065ddfacc0a1e84dcfef2ff500a
+files xpcom/ds/nsCheapSets.h
+patch 314,388,

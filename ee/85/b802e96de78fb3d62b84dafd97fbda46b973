@@ -1,0 +1,5 @@
+changeset 0230c3bb24cbdd52b043bcf4d2e250e9870a55aa
+manifest 9eeae99080d085210281cdf4558b15870124e2fd
+extra source:db8a3cda72f921e2c41684f739af0bd6776ca511
+files testing/firefox-ui/tests/functional/sessionstore/manifest.ini
+patch 352,419,

@@ -1,0 +1,5 @@
+changeset a2580fee415c60cc5485b7801423491c52ae679b
+manifest 5cba3ceb69d97667565f5b46d9b9792a65a2071f
+extra rebase_source:96404a98c7f142c3e0449c8084d8944e89fe2397
+files browser/components/loop/manifest.ini
+patch 262,336,

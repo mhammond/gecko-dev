@@ -1,0 +1,5 @@
+changeset a7e793ef71a31643eddd1bf7cb7a80b580cb8284
+manifest 7571de2e237bacbc4d9720a7164cce206361c7ad
+extra rebase_source:d07f9cef1f4dd269597b4bb20f88e587b03963be
+files devtools/client/locales/en-US/sourceeditor.properties
+patch 290,364,

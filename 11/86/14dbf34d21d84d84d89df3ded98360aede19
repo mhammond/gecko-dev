@@ -1,0 +1,5 @@
+changeset 9eab2642989dee91264d169ba613a86a488b02ab
+manifest 5a7d700a26430c2df7d8d03a20f8cce4cae500e3
+extra rebase_source:ff950d1915e5bc7d3448c1ab350af76b25742665
+files browser/config/mozconfigs/macosx64/artifact
+patch 300,374,

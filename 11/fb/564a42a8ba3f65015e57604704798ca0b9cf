@@ -1,0 +1,5 @@
+changeset 96de0b18cace15865b2d013110e9c70aa7d9d6d8
+manifest 51d653e0ec6279a8669e5eacca4718edd31650cb
+extra amend_source:2061b4bab860391463768ea9401bf5ab90a255fd
+files embedding/browser/nsDocShellTreeOwner.cpp
+patch 358,431,

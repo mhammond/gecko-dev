@@ -1,0 +1,4 @@
+changeset dcd113d0102e773bb3ff1806bf4a5c484039c492
+manifest 4d3dca01e690c845e28f4d4129e373683207f981
+files browser/components/loop/content/shared/libs/sdk.js
+patch 205,206,

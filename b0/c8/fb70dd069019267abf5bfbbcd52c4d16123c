@@ -1,0 +1,5 @@
+changeset adfd2110f720a6de1f84dc811bc80b7816a8745e
+manifest 54c51498a5a8935f20d1f4a9e118f47ff538a39f
+extra source:c6a34418d8552d966960bbdd49e9a39b4706c2b8
+files dom/canvas/test/test_offscreencanvas_serviceworker.html
+patch 299,366,

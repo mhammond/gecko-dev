@@ -1,0 +1,4 @@
+changeset 630fc916b83f6ba243d7f6cef688971e8fff103a
+manifest 6a0c01c6d7b3d8fd84f5be07742a0fd676aecf30
+files mozglue/linker/Mappable.cpp
+patch 269,270,

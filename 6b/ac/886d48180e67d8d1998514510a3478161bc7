@@ -1,0 +1,4 @@
+changeset e18c579d29f128f90560e64c6ea1062a51e59fe3
+manifest 99f8aa8ec1255affd3a7a3946f966c283d3a896f
+files testing/mozbase/mozinfo/mozinfo/mozinfo.py
+patch 491,492,

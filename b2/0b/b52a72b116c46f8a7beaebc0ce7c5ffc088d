@@ -1,0 +1,5 @@
+changeset f0077112f013b3b8e92c5aff62638cc65d963437
+manifest 2cc2dc7e01013332035d37057ae6c35c30a78743
+extra rebase_source:76429defd5244dd574e5189fe31b8359b6352b5c
+files dom/media/test/test_streams_autoplay.html
+patch 305,379,

@@ -1,0 +1,4 @@
+changeset f42ce9861f2f8cfb562304a10dd6aba2496de055
+manifest 898271abc645515f2f184890c05c65e92ef8eb77
+files browser/extensions/loop/test/functional/test_1_browser_call.py
+patch 276,277,

@@ -1,0 +1,5 @@
+changeset 09d738f5f284db955d064bea57d180a1665fb746
+manifest c4665d221aa4da1e1814610ee85ad95716abca88
+extra commitid:ko3upKBSCD
+files devtools/client/debugger/debugger-view.js
+patch 233,272,

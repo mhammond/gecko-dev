@@ -1,0 +1,4 @@
+changeset e5c96d2e2f73910e0751d771bef32996ea06fb97
+manifest 77fcf4c7e05404906e528b20efd7e482381a1d43
+files netwerk/protocol/websocket/nsIWebSocketChannel.idl
+patch 238,239,

@@ -1,0 +1,4 @@
+changeset 6f7383e656d67808f4a051cd13dae747f7828e16
+manifest 074ef21b919aa64e48029493d9978e6f8698efe8
+files js/src/vm/Initialization.cpp
+patch 384,385,

@@ -1,0 +1,5 @@
+changeset f4ca19daa701a745fbeb9b7a48d69b326fd501c4
+manifest 0cc637365cd1d88614b05be236998f9fb7537bbb
+extra source:180d4a79ad6f0c041097b49561e20e41054d4f11
+files python/mach/mach/test/test_entry_point.py
+patch 356,423,

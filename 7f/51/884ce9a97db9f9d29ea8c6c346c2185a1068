@@ -1,0 +1,4 @@
+changeset aa8ad4978b155680e76432b0d2c936d53315f37e
+manifest ba9d60ccc6d9ef606b91679e2a92d9d77f5a9a66
+files tools/mercurial/hgsetup/wizard.py
+patch 854,855,

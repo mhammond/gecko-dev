@@ -1,0 +1,5 @@
+changeset 9be81aef870adb32b644dfdf5fd4105f3202b5a8
+manifest 649f3b21f82da70348ccd92b146aa6695a52f1cf
+extra source:311d8b26687a35c8a23f13add380720f6d03bf9d
+files addon-sdk/source/lib/sdk/content/worker-child.js
+patch 320,387,

@@ -1,0 +1,4 @@
+changeset ff478557098fff77c343431da173edafc6c04be4
+manifest 9c08040193b1fb85ffc632b90cb040b4303a1d97
+files toolkit/mozapps/extensions/test/xpcshell/xpcshell-shared.ini
+patch 324,325,

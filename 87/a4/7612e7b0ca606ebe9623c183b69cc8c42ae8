@@ -1,0 +1,4 @@
+changeset bc5cd00a32504ef8f47442b1cb8f82429f18d994
+manifest 060d5aeba847df26ff83f3ebf060c5e12bccda99
+files js/src/tests/ecma_6/Promise/self-resolve.js
+patch 200,201,

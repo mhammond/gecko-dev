@@ -1,0 +1,4 @@
+changeset 356bb4c55f4dde7fae5f814208e1344ed74f20bd
+manifest 8737b737e3e83b8dd522485067513d7e5a048381
+files devtools/client/responsive.html/browser/tunnel.js
+patch 228,229,

@@ -1,0 +1,4 @@
+changeset 0bbbc90a1dc51b12b225fb504c4ddcc9f715e964
+manifest c154d82d348e28918c800a7a50fac10b00f77da3
+files embedding/components/find/nsWebBrowserFind.cpp
+patch 197,198,

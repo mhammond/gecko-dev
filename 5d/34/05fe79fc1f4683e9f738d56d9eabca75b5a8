@@ -1,0 +1,5 @@
+changeset 86a18cc7342ed294fd304f56f7e9f4b2c4e3739f
+manifest 536598863aaf75266e9c7a7070eedac7a4ace807
+extra rebase_source:420a63436f389d9cf2abc29b0d5c2ab3bdaae6f3
+files browser/components/downloads/test/browser/browser_downloads_panel_footer.js
+patch 355,429,

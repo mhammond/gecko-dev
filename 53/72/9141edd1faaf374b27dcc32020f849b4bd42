@@ -1,0 +1,4 @@
+changeset 9506eef27d94449dc131fb08ecf8533f51396330
+manifest 46e208d75b5858cc8556858976887de8d4592440
+files widget/windows/nsTextStore.cpp
+patch 195,196,

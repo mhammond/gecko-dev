@@ -1,0 +1,4 @@
+changeset d57e201a2d38977617b14957ff0ba5ad7752d61f
+manifest 9638297b54dbcb14d304ee8a116d02d0ce91c9fb
+files netwerk/dns/mdns/libmdns/nsDNSServiceInfo.cpp
+patch 221,222,

@@ -1,0 +1,4 @@
+changeset 8a18306d24a82d2c061ebc13e1fc398c63a8775f
+manifest da9e579216fca3d7efc638dc5b4d3e9f41456106
+files devtools/client/memory/components/heap.js
+patch 316,317,

@@ -1,0 +1,4 @@
+changeset 8277d0a1f7b47e4dfd8c7bc6b7ca5a1ac02fd8b6
+manifest 8ecb0982a801db969d818b4ae9ae851e8a8a3e51
+files xpcom/idl-parser/xpidl.py
+patch 220,221,

@@ -1,0 +1,5 @@
+changeset 30c27c9a8365307b596a0d2a79570e9737ca4106
+manifest e251028bcb9fa9141330b3a59ec2582ab881286a
+extra rebase_source:90a352c0bcf8e9d3b14f62a27c76160272cd45bb
+files media/mtransport/third_party/nICEr/src/stun/nr_socket_buffered_stun.c
+patch 321,395,

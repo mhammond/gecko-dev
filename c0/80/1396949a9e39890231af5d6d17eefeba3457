@@ -1,0 +1,4 @@
+changeset d135883195b02cb9cbf17c81500a5f032ab217b6
+manifest 0dd0bbc3548d8926504ce32356619d234de5de9d
+files widget/tests/unit/test_taskbar_jumplistitems.js
+patch 197,198,

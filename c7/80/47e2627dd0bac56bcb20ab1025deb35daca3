@@ -1,0 +1,4 @@
+changeset 91213097831cc9518bd7ff14c61b0ca53052f592
+manifest 65775120beec9e06a114bcca4ff39c91ca36573e
+files js/src/vm/Interpreter.cpp
+patch 181,182,

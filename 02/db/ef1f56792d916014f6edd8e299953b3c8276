@@ -1,0 +1,4 @@
+changeset 44328c5df64d8cb5710772ced8e6fdbcbc9b8ac7
+manifest 8873ec98e3cde400d68aa02e0d35ebab8a4d3bb6
+files netwerk/protocol/http/HttpBaseChannel.cpp
+patch 282,283,

@@ -1,0 +1,5 @@
+changeset f687743cc499b25eeca008639abc506640de3eaf
+manifest a46ab5be0cebfeccf17cff950f89ca83308dcf36
+extra amend_source:253d84d31d87ccc65247031366aa51ce881a9f74
+files image/src/imgRequest.cpp
+patch 287,360,

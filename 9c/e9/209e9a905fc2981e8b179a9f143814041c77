@@ -1,0 +1,5 @@
+changeset 3217b202aab69f4424c0bfaeee56cb9669482d28
+manifest 8b68b224dd1e69c2d36cfbbb48eed698bab3ad21
+extra source:40635a4d3e9b732bc727633a16333fff4c94342e
+files devtools/client/webconsole/test/test-bug-603750-websocket.js
+patch 330,397,

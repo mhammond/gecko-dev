@@ -1,0 +1,5 @@
+changeset 02ad453e3bfc684965c54defd01f310b8f7b93cf
+manifest 94301b12b4288c8deec0cb928fb075fcdfad2f85
+extra rebase_source:36c0ca5704c6f94734bc0796e97cabf776bf42f5
+files testing/puppeteer/firefox/firefox_puppeteer/api/places.py
+patch 469,543,

@@ -1,0 +1,4 @@
+changeset 2504e6659015138b471efa8a4fd0362597fba7c1
+manifest 50d7e7e6d38ea8ef0b6cf1d9e1150c7f5e1b5ec3
+files mobile/android/tests/browser/robocop/src/org/mozilla/gecko/tests/testDistribution.java
+patch 263,264,

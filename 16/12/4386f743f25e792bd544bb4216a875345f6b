@@ -1,0 +1,5 @@
+changeset 595bfede9d26e9dba03495fdcf29d4423a996146
+manifest ace3f29d719f98f949723f5f0826be960cbd31e5
+extra rebase_source:ec06cd026f3aec8cc7a7c032cd1c9a9c5a8e9536
+files security/manager/ssl/tests/mochitest/browser/browser_certViewer.js
+patch 572,646,

@@ -1,0 +1,5 @@
+changeset 1425801ec01227010da11af55220d4e8e562777b
+manifest 9f2c462fe2472a29123b590f029d00925a49af4b
+author dbaron@dbaron.org
+files toolkit/components/remote/nsGTKRemoteService.cpp
+patch 254,255,

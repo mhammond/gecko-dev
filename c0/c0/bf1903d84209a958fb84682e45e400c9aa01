@@ -1,0 +1,5 @@
+changeset 985039d0c6b49ffa99fe8e4e4b3058086a6dbdc5
+manifest 749f7d34dd53858033ecf4455b7ee03f6f671f55
+extra rebase_source:bc585b776f1712333fc841df66700771d6d2af87
+files gfx/thebes/gfxMacFont.cpp
+patch 297,371,

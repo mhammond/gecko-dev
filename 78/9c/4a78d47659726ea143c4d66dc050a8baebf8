@@ -1,0 +1,4 @@
+changeset cd714f1275bedda2307f5ffbcbff99b2550bf180
+manifest a57dcceea71a3891d4b86f729732f41175d94df8
+files js/src/frontend/BytecodeEmitter.h
+patch 219,220,

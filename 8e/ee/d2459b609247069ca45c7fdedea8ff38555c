@@ -1,0 +1,5 @@
+changeset a2d6b8d33e1182e2432608c91de85a5b65b1a72e
+manifest c91f20b9e6831ec6be151639a98a40c33f465e8a
+extra rebase_source:5a26b9382bc68b570feec964a0ec56c52ba75124
+files browser/base/content/test/general/browser_minimize.js
+patch 390,464,

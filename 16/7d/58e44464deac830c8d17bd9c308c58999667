@@ -1,0 +1,5 @@
+changeset b7f833f9fe09f5b0ac3de7c1331b841b24edfaee
+manifest 9d9e732d0a6bdc260b868b64ed977823ef928bec
+extra rebase_source:8e77980eb1ffc41af0bba82f292dc6470a6ceea5
+files layout/generic/nsViewportFrame.cpp
+patch 295,369,

@@ -1,0 +1,4 @@
+changeset 51819c4396b4ce51115785f4fab935880d41ec9f
+manifest e6bd2db4981a6a79bba5d37759ce14838ed02292
+files gfx/angle/src/libGLESv2/ProgramBinary.cpp
+patch 224,225,

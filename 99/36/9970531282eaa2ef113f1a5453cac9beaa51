@@ -1,0 +1,4 @@
+changeset 6ef4eff1c9cb6f11ff7790ba12ca00f0359e9e46
+manifest a3a595f31fddcc0e7e17cc88666032f15ca34429
+files testing/docker/desktop-build/buildprops.json
+patch 347,348,

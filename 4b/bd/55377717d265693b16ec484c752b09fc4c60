@@ -1,0 +1,4 @@
+changeset 83a39ba82222a211847009eb720592bbd07c8918
+manifest 347387b92644c6f39ba50cf7cee892a2a61f8c3e
+files browser/base/content/test/general/browser_fxa_oauth.js
+patch 238,239,

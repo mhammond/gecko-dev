@@ -1,0 +1,5 @@
+changeset f0111f652a9dae7a2b372dbf6595a077b9fb109b
+manifest 32d2f53181b91a285e9cc3bc7d91183be1fee161
+extra source:888c1fb24f815739efe0fb7d7ae4260aaffce746
+files widget/windows/WinUtils.cpp
+patch 246,313,

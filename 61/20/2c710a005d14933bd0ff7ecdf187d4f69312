@@ -1,0 +1,4 @@
+changeset 2a326dd181aa25196bb7182d601be0d8027b93a6
+manifest 3ae10cb2400e88b29e9a805a44c8bb8f1e944361
+files testing/web-platform/tests/service-workers/service-worker/resources/skip-waiting-worker.js
+patch 255,256,

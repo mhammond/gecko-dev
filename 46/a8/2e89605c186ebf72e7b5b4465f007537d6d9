@@ -1,0 +1,5 @@
+changeset 7703f7784afd4a7dfc7d67907abd0840d7a1fb2e
+manifest 93deaea162ccdb9e10415ee647ad38b063aa5358
+extra source:aec72f4f3fa82e6e57da1e16a93d38ff33b659a9
+files mobile/android/base/resources/layout/tracking_protection_prompt.xml
+patch 339,406,

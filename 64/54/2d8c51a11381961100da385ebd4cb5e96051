@@ -1,0 +1,5 @@
+changeset ec7229cceafcb353f5293347aa653f4242219c88
+manifest c9e140dd9fab867c0a7c94eec091d8fc9bca23a5
+author kearwood
+files dom/tests/mochitest/general/test_interfaces.html
+patch 400,401,

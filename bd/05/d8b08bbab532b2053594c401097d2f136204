@@ -1,0 +1,5 @@
+changeset d5403a0e1c779912d79e14f7cd5d22e978653f89
+manifest 3f541828c6a3bc4125afb57ca8c4aa131a826553
+extra rebase_source:15d0c4a3d283924627f1f97a1f99637244c49c08
+files mobile/android/base/java/org/mozilla/gecko/telemetry/stores/TelemetryJSONFilePingStore.java
+patch 491,565,

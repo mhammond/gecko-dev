@@ -1,0 +1,4 @@
+changeset ae2f426b6f25ba07a40f6432175c9ff36712733e
+manifest de25d0f4ece5e2e7f6abf705c99fc094fb2c79e6
+files widget/windows/nsWindowBase.cpp
+patch 267,268,

@@ -1,0 +1,4 @@
+changeset ef23bf8110953349a23ba2e344c20643b392eda0
+manifest 96a4259f4204c46dfb22916a8db074c33bcf40de
+files devtools/client/inspector/rules/views/text-property-editor.js
+patch 263,264,

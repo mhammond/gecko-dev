@@ -1,0 +1,4 @@
+changeset 6048df01bf4719133aef9d31682469f7ffb9e3c6
+manifest 8e9f6a19d4e693648cdb616f2912038425f50eb6
+files toolkit/components/telemetry/tests/unit/test_TelemetryControllerShutdown.js
+patch 303,304,

@@ -1,0 +1,4 @@
+changeset d251ac45a5e25f01583fe8fc6dd51d486e1e75db
+manifest 5834de1740a688934fd6081c0474f91beb0444f4
+files toolkit/components/telemetry/tests/unit/test_TelemetryController.js
+patch 222,223,

@@ -1,0 +1,4 @@
+changeset 08c18065b666b7d7e3506cf988f55ca32d706b0b
+manifest a9c00360c170967ac3697fe3f00a28e64c88cfd8
+files gfx/cairo/libpixman/src/pixman-inlines.h
+patch 276,277,

@@ -1,0 +1,4 @@
+changeset 3c6b62ee308670396c88fe900aa8558ec093caae
+manifest cd8ab76c2920333e61e3e07eecf0acbb79285f2b
+files browser/devtools/inspector/test/browser_inspector_highlighter-keybinding_04.js
+patch 291,292,

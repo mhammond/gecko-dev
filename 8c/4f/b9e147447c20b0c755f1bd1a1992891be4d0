@@ -1,0 +1,5 @@
+changeset e84405d4feea222541b5ac9a08a87309e72b72b7
+manifest e68ff028537186125e7f4170bc964a2a84ababe8
+extra source:659bd1ae3b672329d9fc1e9b655bc02c7ecb8090
+files testing/web-platform/tests/fetch/api/resources/redirect.py
+patch 325,392,

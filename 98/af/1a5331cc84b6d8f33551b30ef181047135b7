@@ -1,0 +1,5 @@
+changeset c93401d022f5843ba19a2b8c6d590a9249cc3dfe
+manifest ea28f4206e0a2f65a2c7654bd4284e869401e129
+extra rebase_source:139652b681a50b3a38c0d3e99578db9ae32b8195
+files gfx/thebes/gfxUserFontSet.cpp
+patch 272,346,

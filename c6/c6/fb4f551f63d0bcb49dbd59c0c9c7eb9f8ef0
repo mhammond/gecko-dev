@@ -1,0 +1,5 @@
+changeset e778474bb471a176436da912302b4c3da3ce1902
+manifest 7236b45accd9d5241ad67990ca601f8b488e7770
+extra amend_source:c57c61267048dae097f7c1e24040aead84a0be55
+files testing/taskcluster/tasks/builds/b2g_emulator_jb_debug.yml
+patch 261,334,

@@ -1,0 +1,5 @@
+changeset 155c58e4fe0e214a7f8930d9d7d7b93eef91d763
+manifest d6edcf67a89b0b916e52c00b5b38e04baa9f6865
+extra source:6e330ab0c5364f167fb1b786c8d904afae53ad01
+files dom/tests/browser/browser_focus_steal_from_chrome.js
+patch 305,372,

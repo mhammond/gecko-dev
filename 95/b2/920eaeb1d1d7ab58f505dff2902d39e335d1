@@ -1,0 +1,4 @@
+changeset 48c08708614a7fe9ae431af6cf81282ffad4e215
+manifest 12ca556264187b813f32fb27b91d99648d743e35
+files testing/mozharness/scripts/gaia_integration.py
+patch 218,219,

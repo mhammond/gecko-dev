@@ -1,0 +1,5 @@
+changeset 8c3dd3e28c79ed168bf04b265a1e9a589f000284
+manifest b4981dd9eba70879d23b166131af30c03abca505
+extra rebase_source:e9a5a16e377e0bb30719019ff9e73bba8945697a
+files testing/mozharness/mozharness/mozilla/storel10n.py
+patch 324,398,

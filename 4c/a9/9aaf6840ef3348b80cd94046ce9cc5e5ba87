@@ -1,0 +1,5 @@
+changeset 4b4bedf4f6bb0e5956684f5890650b105573ef58
+manifest 95134ca2485eaac788d5dddb5c23c338ba5378fb
+extra rebase_source:fcce79c08380fe8807273bda52839a3928b7548b
+files dom/apps/UserCustomizations.jsm
+patch 242,316,

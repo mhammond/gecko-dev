@@ -1,0 +1,5 @@
+changeset 2fe60d27c7805da856f286548e1d20e4413b56ca
+manifest 1ad76238765fce69bd16c77715b16e1921e6c107
+extra rebase_source:b277027ff3850a1629e60b6ba2bbc555e17535b3
+files browser/components/migration/MigrationUtils.jsm
+patch 317,391,

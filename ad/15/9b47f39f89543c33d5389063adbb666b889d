@@ -1,0 +1,4 @@
+changeset aabebacf72a5d96b7c39eee3112aab5775aae6a9
+manifest 5f373e58b62f26c3cf379f232ec6d50f102f2859
+files services/fxaccounts/tests/xpcshell/test_oauth_tokens.js
+patch 269,270,

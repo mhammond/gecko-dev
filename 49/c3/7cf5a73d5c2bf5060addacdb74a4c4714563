@@ -1,0 +1,5 @@
+changeset 3c098dac67aa4bf840dba48d75be86bc8cc74417
+manifest 7e7939b0ff43c9660e5c4d1297804681b685796a
+extra source:0a95ec797d92344f1fbb262c2901a937342a84ef
+files image/test/reftest/downscaling/reftest.list
+patch 344,411,

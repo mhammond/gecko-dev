@@ -1,0 +1,4 @@
+changeset 2a70b4b044c35494a1b2c0d8a51dadc10bade3bf
+manifest 048f70221c44bf83d4dfad95fab533207a56b933
+files devtools/client/webconsole/test/browser_console_click_focus.js
+patch 280,281,

@@ -1,0 +1,6 @@
+changeset bca2e4c24f17403364997638d9356c6a63ffafec
+manifest f708c7cca229796b9ae88b5fd44f406db15413f5
+author Shatur<tushar.saini1285@gmail.com>
+extra amend_source:a7b614717ad08b8468eec0cc84c9b2bc2679e67d
+files mobile/android/base/resources/values/styles.xml
+patch 319,392,

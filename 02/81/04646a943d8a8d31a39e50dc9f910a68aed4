@@ -1,0 +1,4 @@
+changeset 9f5785ece1f2ca1205396525c68408923e0333a4
+manifest 394f762bb33a5afed2bc29afcc4485b5e8e655d7
+files dom/svg/nsSVGViewBox.cpp
+patch 259,260,

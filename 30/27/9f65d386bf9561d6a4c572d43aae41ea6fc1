@@ -1,0 +1,5 @@
+changeset 95869bbbeaba495e6c60c7ad394689ec1a3c8d05
+manifest c668430bef69bd6e562d9cd60aff19e2af693bc5
+extra rebase_source:130bc3d1d8cdc266d28951e7513f6b97bfa8500c
+files browser/devtools/layoutview/view.js
+patch 252,326,

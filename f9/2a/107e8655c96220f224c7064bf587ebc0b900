@@ -1,0 +1,5 @@
+changeset 521b6b0a9b39e4200f7c70484df3cebf889ee29b
+manifest 11791b70f64d66a84017011aae040ad6e9fca5f6
+extra rebase_source:fd0806fcd47b3d060236db00277415a4cf07e9c7
+files ipc/mscom/DynamicallyLinkedFunctionPtr.h
+patch 302,376,

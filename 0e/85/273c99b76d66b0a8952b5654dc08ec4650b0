@@ -1,0 +1,5 @@
+changeset 5109a152a7715ccf704aa06224b6993f1285c4d8
+manifest 646407eee7a96338ba70ca7f137ea9afbfa30ac3
+extra rebase_source:b30973f381bbc627fc133849b76783b4eddffa7e
+files dom/bindings/WebIDLGlobalNameHash.cpp
+patch 329,403,

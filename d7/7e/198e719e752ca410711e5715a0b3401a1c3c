@@ -1,0 +1,5 @@
+changeset f9d7dda432e84d60e6ae46e62d6312b1249965ff
+manifest 538fa292b3d99d0e6ecc247bdaf8e065457b66b3
+extra rebase_source:cae044d5041413658b32fa008c512aceac0fee43
+files dom/webidl/RTCIdentityAssertion.webidl
+patch 254,328,

@@ -1,0 +1,4 @@
+changeset 8cf31b1904af0124e4b6246824014ad0b46b2494
+manifest a8a353f7807fc0a4c9b6f7a330c4ac78e4af1259
+files devtools/client/shared/components/tabs/tabs.js
+patch 241,242,

@@ -1,0 +1,4 @@
+changeset 6a17a3d359fffd1408c068bf03812df8677c29bd
+manifest 318e76150fbbab301dc57cb731d7440e1476db13
+files devtools/client/netmonitor/test/browser_net_streaming-response.js
+patch 328,329,

@@ -1,0 +1,4 @@
+changeset b0ea7f4820e04cdee5221c1c8571550f3ab6b8ca
+manifest 7498bad902e3aff81e4e84c61ea2ecccf782df89
+files toolkit/crashreporter/tools/symbolstore.py
+patch 348,349,

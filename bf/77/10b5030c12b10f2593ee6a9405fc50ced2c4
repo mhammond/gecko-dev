@@ -1,0 +1,5 @@
+changeset 3b3b8835cb2ec3575921be638dac64b6d03c377e
+manifest f2601f437605880c550ffaa220a4edd57d4177b3
+extra rebase_source:ffda1dbcbe46d0c0864b523d09785a4c2a61b6c9
+files intl/strres/nsStringBundle.cpp
+patch 343,417,

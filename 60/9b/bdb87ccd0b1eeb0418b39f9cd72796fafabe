@@ -1,0 +1,5 @@
+changeset 3dae845bd6cb90dab76b604e2af572a92d32230f
+manifest 1789144e098da00d960ba406c2891e4fb633f43e
+extra rebase_source:ef3e5c99e2e062444000027a25f369ed5e0f14fa
+files ipc/chromium/src/third_party/libevent/README.mozilla
+patch 288,362,

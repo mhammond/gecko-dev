@@ -1,0 +1,5 @@
+changeset 12e0bd2ffb918ce19b046fcddc81c665a55e2498
+manifest 7e4fb6577257f9c4e1297997a0d6df3846b7362b
+extra rebase_source:2d8e370f99cbe7c7e6e471f0089ef4e520d5154a
+files mobile/android/base/java/org/mozilla/gecko/favicons/Favicons.java
+patch 313,387,

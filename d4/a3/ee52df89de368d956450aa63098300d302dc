@@ -1,0 +1,5 @@
+changeset 79e3b70f8f6289a2894a19d028a3da24b56f32c2
+manifest 004c6a3b9c09aef5cc35590d121c8e1fc60492bd
+extra source:b5fa754a35da091bb0c2b197317cd5627f6c8486
+files mobile/locales/en-US/searchplugins/qwant.xml
+patch 265,332,

@@ -1,0 +1,4 @@
+changeset 7b5c80d12db9ad42469c251421d6cb7c7cf47b10
+manifest 26d4fa06d5f1016f44be619202ac3a9d0bd51744
+files browser/components/sessionstore/test/browser_586068-apptabs.js
+patch 220,221,

@@ -1,0 +1,4 @@
+changeset 537f4d1d837aa24f1aa08614b0e1e59c72ce41cd
+manifest 16d9bfa4f9f5bbcc1ac07a4db0a9a9dca58a5bdc
+files mfbt/LinuxSignal.h
+patch 1862,1863,

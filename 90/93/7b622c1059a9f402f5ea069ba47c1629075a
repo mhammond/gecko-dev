@@ -1,0 +1,4 @@
+changeset 1ee45f03a97bbff51cb5727d9e6b49ea1c0f3f53
+manifest 9bf47f56053294f5e8f8d161d9493a418be067e6
+files js/src/jit-test/tests/SIMD/bug1241872.js
+patch 223,224,

@@ -1,0 +1,4 @@
+changeset 081e18054575677959eaaf0517c3f172bc999db5
+manifest 84901e8205dac4d27ec9b010729931aaf9f981f2
+files python/mozbuild/mozpack/manifests.py
+patch 185,186,

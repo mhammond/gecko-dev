@@ -1,0 +1,4 @@
+changeset f2792b82919332ebfe1cb74f7eadc0430b79b859
+manifest 476d061b2a333ecc04d63c50fa5677e892fdb345
+files gfx/angle/src/libANGLE/renderer/d3d/VaryingPacking.cpp
+patch 198,199,

@@ -1,0 +1,4 @@
+changeset 35a8ccc134cbd33f772aad47fa3c4c3f121faf68
+manifest ddb49f55864f6f6100d501d0dc4bff25e5939519
+files mobile/android/base/java/org/mozilla/gecko/animation/AnimatorProxy.java
+patch 227,228,

@@ -1,0 +1,5 @@
+changeset b90ebba4306d208d852dce3e621c2672f864236e
+manifest 3b363d278d77cc496558f7211c1f949cc5971e69
+author aus@mozilla.com
+files toolkit/mozapps/update/nsUpdateService.js
+patch 171,172,

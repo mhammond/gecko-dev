@@ -1,0 +1,4 @@
+changeset 17427005e936e25a961058403a8fb43932ed08a3
+manifest f92dec84d0656b6969e1fa1dae1b2212781a2c91
+files gfx/skia/skia/include/core/SkPreConfig.h
+patch 197,198,

@@ -1,0 +1,4 @@
+changeset 357de2a44d10d04ef93cd701ae3dc2a7aed6ec54
+manifest b88823c01e10d861e5e64fe8fbf4795b32a1d1a9
+files js/src/jit/arm/Assembler-arm.cpp
+patch 194,195,

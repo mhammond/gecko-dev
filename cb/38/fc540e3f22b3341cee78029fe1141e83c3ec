@@ -1,0 +1,4 @@
+changeset 24beb0652f868c5f30fc1afa0c3080df339c3e5f
+manifest c0a88a2e6eaac36be1d124774792cee8bbd6acd1
+files browser/modules/RemotePrompt.jsm
+patch 267,268,

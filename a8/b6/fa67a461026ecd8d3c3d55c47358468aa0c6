@@ -1,0 +1,4 @@
+changeset 0e4e550faef2484a8a6b85c5005810872e837a84
+manifest d205764e1d5df0864de03e9a842fe1d108a752be
+files devtools/client/animationinspector/test/browser_animation_ui_updates_when_animation_data_changes.js
+patch 291,292,

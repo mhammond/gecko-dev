@@ -1,0 +1,5 @@
+changeset bd6655e7b879214b7d983ca85c8160a77a653178
+manifest 17b10fcd9a5adf08d226b92221ac02caaed321ac
+extra rebase_source:a89d18e6cf5e06ae7845a8373535b5fda89fbb59
+files mobile/android/base/java/org/mozilla/gecko/home/HomeScreen.java
+patch 341,415,

@@ -1,0 +1,5 @@
+changeset 1ac17eedc75ce78ec2060c0773809e55984e860b
+manifest 554eddeda41f6666c0a1de2a828fd0c3009de133
+extra rebase_source:8403655b284c27441d3a9747ee94304993cb8dbf
+files mobile/android/tests/background/junit4/src/org/mozilla/gecko/background/testhelpers/TestRunner.java
+patch 362,436,

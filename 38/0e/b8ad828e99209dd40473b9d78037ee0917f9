@@ -1,0 +1,4 @@
+changeset 4bc1d001be5c8a8307a1bc7bedc536b47e0d975e
+manifest d65a4a1450dbfce49381ec46b330676026ddd9e4
+files mobile/android/base/java/org/mozilla/gecko/feeds/subscriptions/FeedSubscription.java
+patch 302,303,

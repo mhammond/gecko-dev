@@ -1,0 +1,4 @@
+changeset 5ca4e237b259a78f2328ebc6f39f48524c4c2328
+manifest b0d93c01e8ba91c46324a7bd70bf20f0b3ca2baf
+files js/src/jscompartment.cpp
+patch 212,213,

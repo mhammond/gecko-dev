@@ -1,0 +1,5 @@
+changeset bcdc710161b5152b8f025cc0d3ebd0ba2bc37cac
+manifest a4f3dc22d09e91fc7b1ef6474a190f18c9a08230
+extra commitid:HOPgt9kMKoV
+files python/mozbuild/mozbuild/artifacts.py
+patch 445,485,

@@ -1,0 +1,5 @@
+changeset afb1daac8215569b643f34c7604eb0bd92663e07
+manifest 79262b804c04971530df78e99bec3c748ecf0cc6
+extra commitid:CcqoRKxFoN2
+files testing/mozharness/scripts/desktop_unittest.py
+patch 245,285,

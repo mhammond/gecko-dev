@@ -1,0 +1,4 @@
+changeset 279dfae6682ff32bf6dfdc77546702d2999481db
+manifest 6c98e01f08ca357d4d2593ccfd5ab97a7c1759fc
+files testing/web-platform/tests/fetch/api/request/request-init-003.sub.html
+patch 288,289,

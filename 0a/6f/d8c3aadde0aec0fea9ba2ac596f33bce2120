@@ -1,0 +1,5 @@
+changeset 6d4510cf4a98257a858d02c416ef6111e73bd8e5
+manifest e4960219700a0bd45a365bdc8a0b10351d34e6cd
+extra amend_source:01e97b6599e31ede59bd4cbf49990b49b404806f
+files browser/locales/all-locales
+patch 417,490,

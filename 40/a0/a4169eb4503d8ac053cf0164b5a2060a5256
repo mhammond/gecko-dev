@@ -1,0 +1,4 @@
+changeset 288de67f5a760ebda22df64998402d5e88effa8b
+manifest 2da593a33111ba4586e4d5f3bf90fcc117f1c283
+files security/manager/ssl/src/IntolerantFallbackList.inc
+patch 211,212,

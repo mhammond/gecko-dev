@@ -1,0 +1,5 @@
+changeset c27b65f7a0c7b1b970e1e4b829187e46464314ba
+manifest 135ab7830c46bb376c20cb76ca4733b335120560
+extra rebase_source:f92fa2af36caf6d6cf58b537682a75fd9edf6e04
+files layout/xul/tree/nsTreeStyleCache.cpp
+patch 320,394,

@@ -1,0 +1,6 @@
+changeset 7e2e9a6c0f0fe1f84b55987afcdc01fb16a124a3
+manifest 2eebbae0b09ee863a8bb013a37114f268b8bedc3
+author Alex Johnson <me@alex-johnson.net
+extra commitid:2tSc64476Ta
+files mobile/android/base/java/org/mozilla/gecko/BrowserApp.java
+patch 270,310,

@@ -1,0 +1,5 @@
+changeset eb3dd7f7d487d868ade913f5d4656f52aa61d769
+manifest b447a6e7b8bcc83069510b9230d25d7960eaa480
+extra amend_source:8f0155879ce8e6b6a9029cd217ed3a4fd9726bfc
+files mobile/android/locales/en-US/chrome/aboutPrivateBrowsing.dtd
+patch 368,441,

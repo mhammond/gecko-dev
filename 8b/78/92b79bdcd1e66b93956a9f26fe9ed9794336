@@ -1,0 +1,5 @@
+changeset 2330bfeeff17c5848284f8cb54c17462b12bf7b3
+manifest 7202a85536920f9883c59256c3e04e2168b74e8d
+extra source:6cf80319f8fd653b9c9558fbe9f8a6bd2764dce5
+files js/src/jit/none/MacroAssembler-none.h
+patch 305,372,

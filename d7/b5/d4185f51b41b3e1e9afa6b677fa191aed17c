@@ -1,0 +1,4 @@
+changeset 049ab1f88b133879409e2f565afbe6658f30e0fb
+manifest e2873b04b6a4d1f061be90e8ddf5a45e5aa90c41
+files widget/cocoa/nsAppShell.mm
+patch 219,220,

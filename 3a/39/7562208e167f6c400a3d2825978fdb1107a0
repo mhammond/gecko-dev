@@ -1,0 +1,5 @@
+changeset 7cfb28e22ec2641951d8b7a414fdf6f1bd09ca32
+manifest 5f69e0c075b70374d4d55e3fc82c63b668b32a4c
+extra rebase_source:2248ff01e8c0e9a79b27f4406fdc2f0a4ed98360
+files security/manager/ssl/nsNSSCertificate.cpp
+patch 755,829,

@@ -1,0 +1,5 @@
+changeset 024d2e06a5278e62a52575a9f5dc9fd9a0e78cea
+manifest 570a3e9540cf77da9af341185874ddbf9d3833aa
+extra source:49093f32f8a954b1a3ea7702b18790475a7d4c2d
+files mobile/android/base/resources/values/themes.xml
+patch 298,365,

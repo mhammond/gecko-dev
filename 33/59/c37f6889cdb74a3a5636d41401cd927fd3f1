@@ -1,0 +1,5 @@
+changeset 84ba22179d9775a7b79e78df2a9e099ba18ebaac
+manifest 965a49e5aa0bdb36ec62f02ef32ec607a922ca40
+extra rebase_source:765b67e4925c06e07c5003069bbf002a49343f88
+files js/src/vm/SPSProfiler.cpp
+patch 307,381,

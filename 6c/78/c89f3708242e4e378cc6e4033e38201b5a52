@@ -1,0 +1,4 @@
+changeset f5ed7f38160ed375a0ea04eb2ac847983b1da2f1
+manifest 00a8634bd737922a1d8508b42993451e21d5ffc4
+files taskcluster/ci/desktop-test/tests.yml
+patch 231,232,

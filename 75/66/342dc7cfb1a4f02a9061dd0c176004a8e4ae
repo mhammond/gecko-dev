@@ -1,0 +1,4 @@
+changeset c14157737409a119ef1f256fb1cf5aff0df2c465
+manifest 1f63412b3dac38ffcfa530bc8747621088205c86
+files js/src/jit-test/tests/asm.js/bug1201124-simd-proxy.js
+patch 202,203,

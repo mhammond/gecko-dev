@@ -1,0 +1,5 @@
+changeset 8a5225ddcfa10e2c54b39438b5989ebcb98cb8b5
+manifest 13f27c5b70bfa83e8bf3644529e6cc28ad4d6e7f
+extra rebase_source:ffaa54cb489b474d84d6b3f643be180f1209880d
+files mobile/locales/en-US/searchplugins/bing.xml
+patch 294,368,

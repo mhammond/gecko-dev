@@ -1,0 +1,4 @@
+changeset 53a41d7fbab03dd0de9cab127dd3302cea22360f
+manifest 4fec3423f0fd3e798bde1fb0037738a968fa43d7
+files browser/extensions/loop/chrome/test/mochitest/browser.ini
+patch 248,249,

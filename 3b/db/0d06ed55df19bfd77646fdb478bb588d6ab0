@@ -1,0 +1,4 @@
+changeset a892d303133956d4b7f7c932d88e77a179c27f10
+manifest 3b354dfd8fd52f05bd7634f2ac69f6a185d8eb7e
+files browser/components/uitour/test/browser_UITour_loop.js
+patch 197,198,

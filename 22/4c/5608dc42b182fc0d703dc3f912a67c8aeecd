@@ -1,0 +1,5 @@
+changeset 14bc0b53816b59c450802598e087e89657d68bcc
+manifest f76322a69f58f606d5eda4da4591d28ac2b0ea3e
+extra transplant_source:ÏñX/≈Î»e;Æª≠≥[·ª§‘
+files testing/web-platform/meta/content-security-policy/script-src/script-src-1_2_1.html.ini
+patch 291,383,

@@ -1,0 +1,4 @@
+changeset f78bd45651f8969ddb67213f4a3c7f92ec7ad910
+manifest 2a8a5877798544906c2374596ad0246c8215b31f
+files toolkit/components/url-classifier/LookupCache.cpp
+patch 206,207,

@@ -1,0 +1,4 @@
+changeset 4f911c4f9072420068e2d3a8f7277c8d69d6baf8
+manifest 8baf818ab3db503d18b9858829b5e376e9cd2ab0
+files testing/web-platform/mozilla/meta/service-workers/service-worker/fetch-request-redirect.https.html.ini
+patch 371,372,

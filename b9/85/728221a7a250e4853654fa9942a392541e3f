@@ -1,0 +1,5 @@
+changeset fd1e1d7cfb68529e55bd8e1353e05b8c4b39ccf9
+manifest f8b8434b2bde68d1b2456a275b5edf68a60f4cf9
+extra source:42a797ef36478afa3404ea9374435367ecee5459
+files mobile/android/base/java/org/mozilla/gecko/media/AudioFocusAgent.java
+patch 305,372,

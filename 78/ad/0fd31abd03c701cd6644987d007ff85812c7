@@ -1,0 +1,5 @@
+changeset e412b386433b8c8ba83a28a1df310d9ad0b20285
+manifest 831a74bfe2d4995a4f4fabf534eb940b477dfc5a
+extra rebase_source:8c6e9369c5f5fe9c93be848988195fa2fe7e7ce7
+files devtools/client/performance/components/jit-optimizations-item.js
+patch 307,381,

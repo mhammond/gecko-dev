@@ -1,0 +1,4 @@
+changeset 4fbe8dbf3a35a66a0d392e91411c37c0a148cc81
+manifest 27ff967edc5f6b64669a15b6ab2e6396b747f9f1
+files dom/bluetooth/bluedroid/b2g_bdroid_buildcfg.h
+patch 266,267,

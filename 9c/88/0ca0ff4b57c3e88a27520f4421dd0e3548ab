@@ -1,0 +1,5 @@
+changeset 7cd947b360b89bc46372f58d3c0a3fb8b86b92aa
+manifest 78c6107a40fe1530ae17e3bb76befc3d35f206ac
+extra rebase_source:368942f3f08f305524de8a65c16cc12a702410f4
+files mobile/android/chrome/content/ActionBarHandler.js
+patch 470,544,

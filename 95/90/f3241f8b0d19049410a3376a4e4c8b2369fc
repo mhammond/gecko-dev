@@ -1,0 +1,5 @@
+changeset 5c2e946c182a8b755c8c873bc67101df3ce0913f
+manifest c3296e43071b68f5f45d20b0625caceef1441ac4
+extra rebase_source:adde15b6f061c6ca64021416e7d6b09c35e2b301
+files mobile/android/base/java/org/mozilla/gecko/promotion/ReaderViewBookmarkPromotion.java
+patch 377,451,

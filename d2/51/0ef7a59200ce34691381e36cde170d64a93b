@@ -1,0 +1,5 @@
+changeset 3374795cf41595b25f0ef25c2a70e364cb24c94d
+manifest 809d376ceaaaa10f1de2f25b9cd421e4b011f8e6
+extra source:d2e0a96cfa48756f0e101a089999142a703fa24c
+files mfbt/UniquePtr.h
+patch 273,340,

@@ -1,0 +1,5 @@
+changeset e3d15342ba84ae49b8f8b0350a9d92bcc3c38b5f
+manifest 1dfc8670fe7e39440686670b707bcbcf771becc6
+extra source:488890f462eb7c10de6a715e840ad22619de7bec
+files browser/components/sessionstore/test/browser_819510_perwindowpb.js
+patch 296,363,

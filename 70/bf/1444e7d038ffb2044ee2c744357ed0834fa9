@@ -1,0 +1,5 @@
+changeset 3ca60a4a896a8b8e933ca736dbbc09bb0392222a
+manifest 829f7a5b76d75bd0231d2ded6e4c2a35689f60e5
+extra rebase_source:56e7d9451b0c647b1672dc23e6bc1117c5a20388
+files toolkit/xre/nsSigHandlers.cpp
+patch 278,352,

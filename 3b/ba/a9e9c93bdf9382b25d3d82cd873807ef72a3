@@ -1,0 +1,4 @@
+changeset b2c1e60fa01b8dbc77e648102210c3fa7e08943b
+manifest 4cc61e14edfe6d296f0969347ded643fc9ed932f
+files js/src/jit/MIR.cpp
+patch 192,193,

@@ -1,0 +1,5 @@
+changeset 2938e64f6798d3f20f1869428cc7145f5f52507a
+manifest ef9eb1fc1f4b99f4641e6b5096b1532df813e639
+extra rebase_source:49cd13780c682f8da87c2d3250cde86885331087
+files layout/base/nsCounterManager.cpp
+patch 299,373,

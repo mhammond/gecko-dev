@@ -1,0 +1,4 @@
+changeset 1c60e002f023347feb49fd7b1c08e51b601f2675
+manifest 83dfa3c83f057016dd082533f4a7fe336b995a14
+files toolkit/components/passwordmgr/storage-mozStorage.js
+patch 201,202,

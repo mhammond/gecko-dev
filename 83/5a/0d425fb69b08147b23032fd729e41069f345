@@ -1,0 +1,4 @@
+changeset 81fb57cf94867467c22d525fb66c3cd3b60b4ba3
+manifest ccdf286c8e775ca7a60bbef553a7169284a620ce
+files extensions/spellcheck/tests/chrome/test_add_remove_dictionaries.xul
+patch 273,274,

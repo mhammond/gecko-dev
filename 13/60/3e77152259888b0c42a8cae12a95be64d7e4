@@ -1,0 +1,5 @@
+changeset 7e68af7a1922b2e6968c45786fdcae786cc90f89
+manifest 5a69ae9b30b3e9fad76e353d9173688e48f619e6
+extra amend_source:17ec29e14dbd9b1bb4296a0faed151c073b93599
+files xpcom/io/nsMultiplexInputStream.cpp
+patch 244,317,

@@ -1,0 +1,4 @@
+changeset 6a60cf57f9233ff80f19c68a78eca030a767e04b
+manifest c06c357f695c9ef36921779b87d8edadde33a118
+files media/webrtc/signaling/src/mediapipeline/MediaPipeline.cpp
+patch 227,228,

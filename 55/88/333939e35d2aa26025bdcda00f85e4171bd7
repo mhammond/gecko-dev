@@ -1,0 +1,4 @@
+changeset 4a0676b73f77cd046c4620da0ceecbc4d49e3c9e
+manifest 663d7675b380caa4a427adaa0865c68aeb4ff3b7
+files browser/base/content/test/plugins/head.js
+patch 304,305,

@@ -1,0 +1,4 @@
+changeset c3dceefa3b20d053f51ba11e6e5d8ad28e2c0deb
+manifest 58290ac00981f376ae80c030f37c2efdf941e86a
+files js/src/jit/JitSpewer.h
+patch 198,199,

@@ -1,0 +1,5 @@
+changeset 0e42b1a442c466a7e1574e3b92c7bbf7e3b07dc5
+manifest 0d082c455a9cb8fee716d0018369bfca29ee5b04
+extra rebase_source:6d6d6dc6a368a87b69c29f5338a07f69010d5c3b
+files toolkit/profile/nsProfileLock.cpp
+patch 295,369,

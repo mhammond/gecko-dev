@@ -1,0 +1,4 @@
+changeset 13d2b1ef3c9b114c2b70d1ece8c95d93952e3d54
+manifest 3fefa108f9090448acde53e083ec11051692958a
+files js/src/tests/ecma_6/Expressions/destructuring-array-done.js
+patch 199,200,

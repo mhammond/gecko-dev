@@ -1,0 +1,5 @@
+changeset 89734b85a2ef68ffd6260ba99f601486d2d3f5e5
+manifest 4cb4611e0a4962db73e241573a9c4cb32e6887d6
+extra rebase_source:2450fdd2f70081a2cb216ad0013b40bfccf22b93
+files browser/locales/shipped-locales
+patch 294,368,

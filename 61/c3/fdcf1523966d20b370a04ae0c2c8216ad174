@@ -1,0 +1,5 @@
+changeset 2fd796bc695a87e4eee45e4ad2388e063ac5de3a
+manifest 145fc932998864a5d4c4e1b070e0c15aebe71bce
+extra rebase_source:276f8a6da9e0bb412a99b811f5f74c7524dee587
+files mobile/android/base/java/org/mozilla/gecko/webapp/ApkResources.java
+patch 315,389,

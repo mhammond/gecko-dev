@@ -1,0 +1,4 @@
+changeset e03405f37349a36b8329d63c48e5c9815be20c32
+manifest a1bed1f21f5aff356f561559432a8f6568872565
+files tools/fuzzing/libfuzzer/harness/LibFuzzerRegistry.h
+patch 260,261,

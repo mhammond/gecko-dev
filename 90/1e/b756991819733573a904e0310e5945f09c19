@@ -1,0 +1,5 @@
+changeset 7dfbea429d10d4d4b0f60444cdac3270d69650bb
+manifest 4117dca70be3704d86bbafc711230c48f6b351cd
+extra commitid:9ru0islnTP9
+files testing/docker/phone-builder/build.sh
+patch 317,357,

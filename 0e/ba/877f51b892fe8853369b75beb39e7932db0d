@@ -1,0 +1,4 @@
+changeset 569f5001706570cc73b0aba67d05092175ecc552
+manifest 7d4d8f3a74d7392b29e4db33bbc5d7a7e0dd01eb
+files toolkit/components/reader/ReaderWorker.js
+patch 227,228,

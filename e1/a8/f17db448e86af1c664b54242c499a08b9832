@@ -1,0 +1,5 @@
+changeset 5d6b894490f27d7e8ee098fd8279f2954e89a712
+manifest f319b98972f2f7cdd2758ba58ce5e60de847ebcd
+extra source:009736e264b46b6284ae49f97e6e2b420532537d
+files editor/libeditor/nsHTMLInlineTableEditor.cpp
+patch 266,333,

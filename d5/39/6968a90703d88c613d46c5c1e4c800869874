@@ -1,0 +1,4 @@
+changeset ed627972a4806a23c79dae4a08f53c795becb8fb
+manifest f62be6b40589763c16adfcb20177bc5cf4d57396
+files devtools/client/styleeditor/test/browser_styleeditor_media_sidebar_links.js
+patch 309,310,

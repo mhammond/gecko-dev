@@ -1,0 +1,4 @@
+changeset 3af32770b0f3628c0a4e17ae4518bb2a34b7dd31
+manifest 1da39e951e1290699fd465cffa3c5ee3cc384c13
+files toolkit/components/reader/JSDOMParser.js
+patch 346,347,

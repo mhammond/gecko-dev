@@ -1,0 +1,4 @@
+changeset feef553c3dae9d99b77633da133748c79273233a
+manifest 890d9d07f14d0a9fe74997f9b96d8ae49d44c91c
+files toolkit/mozapps/update/tests/moz.build
+patch 216,217,

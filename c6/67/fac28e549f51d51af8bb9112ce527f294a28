@@ -1,0 +1,5 @@
+changeset 1836352e593204c8f32755553d0c3c7ba1c5f744
+manifest 89fc6fd4b73e2747983f634b34627ff183d43d04
+extra source:b3a1f3f965fb47e1499897348ff9a420fd3579a9
+files mobile/android/base/resources/layout/tab_history_item_row.xml
+patch 372,439,

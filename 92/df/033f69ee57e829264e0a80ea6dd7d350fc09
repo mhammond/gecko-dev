@@ -1,0 +1,4 @@
+changeset 0d81d238adba2407e83f21a424b75621ad2f93c8
+manifest c48353bdd3fa8db7785c3d2c253d2487035f25ef
+files dom/permission/PermissionSettings.js
+patch 222,223,

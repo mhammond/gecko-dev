@@ -1,0 +1,5 @@
+changeset 3e1d7c5d1a58cb1763a2a78de02f96c6bcd2f06d
+manifest 2b5079aa8fe0629be88401ba4ec36bd0f9819ecc
+extra amend_source:8b507bccbaac9350f61a1f2c1b53092a6b76350d
+files toolkit/modules/subprocess/subprocess_shared_win.js
+patch 297,370,

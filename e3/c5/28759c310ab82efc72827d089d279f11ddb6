@@ -1,0 +1,5 @@
+changeset 1faeb0e59cad1c322ea11e7fb6ed7d5d5a920fed
+manifest 0e83c6446c6d5b4ce0783cffcfd587edbc9582cc
+extra rebase_source:0eb895068599d262f9706a94039214a16b5e1189
+files mobile/android/tests/background/junit4/src/org/mozilla/gecko/db/BrowserProviderHighlightsTest.java
+patch 338,412,

@@ -1,0 +1,5 @@
+changeset f9db96226c0c09729de0ea3a8418480c46cf9852
+manifest 5d671758fef1fdcc0993c8caaa6827b2fe75bac7
+extra rebase_source:22f027261538bf1a3e39d8bd02fd93cda61fe693
+files xpcom/base/CycleCollectedJSContext.h
+patch 328,402,

@@ -1,0 +1,4 @@
+changeset a359e9fb56b358e129dada462f5b941bbf58ef5b
+manifest e450e3be90a820ad5f89bdb0baedf58feffc9dd3
+files devtools/client/responsive.html/test/browser/browser.ini
+patch 216,217,

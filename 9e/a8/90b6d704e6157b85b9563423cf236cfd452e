@@ -1,0 +1,5 @@
+changeset bfe605ef525c021963c55b46548be51564dfd99a
+manifest aa5e2d14fe707db3712c7e71bf826a676e126a9f
+extra rebase_source:055dda3713d13e0fa8f4e4d97a5371900df0ff4e
+files dom/security/nsMixedContentBlocker.cpp
+patch 299,373,

@@ -1,0 +1,5 @@
+changeset 9e20e943e58b36cf8a63235a7ac3047be2318843
+manifest 672fad6b2544009ee6b1c413036280d5e12cf610
+extra rebase_source:95004a869b40dd72a643c4dbc0b02e96409fb7d8
+files testing/mozharness/scripts/desktop_partner_repacks.py
+patch 473,547,

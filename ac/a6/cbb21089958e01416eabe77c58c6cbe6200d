@@ -1,0 +1,4 @@
+changeset 572a200405b45407c4c2f358d65fe7309c6442db
+manifest 7e86bc96567e75b79ea2c10253f4e0a67f89db54
+files browser/components/readinglist/test/xpcshell/test_Sync.js
+patch 255,256,

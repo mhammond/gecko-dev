@@ -1,0 +1,5 @@
+changeset 52b9746760176b9bbb9bfd0e7c4cb0a04b9cc25a
+manifest a131501a7e6902fe47c5a3110b38197d0d780cdf
+extra rebase_source:f70e40ddabaed1197f6cddce67832bb112f1969d
+files python/mozbuild/mozbuild/test/configure/common.py
+patch 995,1069,

@@ -1,0 +1,4 @@
+changeset 02c4c1b559ac724ca9cecdde22011a46595ec712
+manifest b70915dc8353d0670170f0ff4e2353070d28e47e
+files security/patches/reverted-bug-1132496.patch
+patch 229,230,

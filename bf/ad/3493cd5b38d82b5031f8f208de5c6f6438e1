@@ -1,0 +1,4 @@
+changeset 492f3868e1b8dba54fac05036eae3a3a0ec0b746
+manifest 27e02ede4984298ee95df66f5d9a70dd89114d61
+files browser/extensions/loop/run-all-loop-tests.sh
+patch 357,358,

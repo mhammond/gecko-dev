@@ -1,0 +1,4 @@
+changeset 120a628d89b841427e56435f521b785d0e5f6ece
+manifest 5444b3d34d5ec8503d9f09d86d378298b6cf9309
+files parser/htmlparser/tests/mochitest/file_bug655682.sjs
+patch 265,266,

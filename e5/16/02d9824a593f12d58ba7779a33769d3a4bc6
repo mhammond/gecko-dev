@@ -1,0 +1,4 @@
+changeset e443d68c6df6602490211c15a4f74c9eaeefb1ef
+manifest ef53be79971f1b1e810ed99b2f20e4e179d67073
+files testing/taskcluster/tasks/tests/mulet_gaia_js_integration_tests.yml
+patch 241,242,

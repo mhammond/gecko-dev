@@ -1,0 +1,5 @@
+changeset c6ede6f30f3dc886543bb1c76fd7c8b5a151786b
+manifest c25f3deac448ef6bc40714bdf9eb8f3d47d17ad3
+extra source:9ccd468f27bd86b7d0267cb975d0e0e8c511422c
+files b2g/config/flame-kk/config.json
+patch 233,300,

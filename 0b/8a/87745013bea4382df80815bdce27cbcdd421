@@ -1,0 +1,4 @@
+changeset ebb60f9e8ffe4b0245516fbd006f0f49d09790ee
+manifest 2940aaf57eea940db4e808391942d3a94a0ab43f
+files browser/components/preferences/cookies.js
+patch 235,236,

@@ -1,0 +1,5 @@
+changeset 3e37ba5e08671794160306b1d8b30cfc7c448fec
+manifest 24448c827934b94ec00dee0ad4e407a16350e29b
+extra source:f3e74826733db6303a374c6878871a347a32120a
+files netwerk/sctp/src/netinet/sctputil.c
+patch 310,377,

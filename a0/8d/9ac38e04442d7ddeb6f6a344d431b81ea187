@@ -1,0 +1,4 @@
+changeset 5540673db52dd68889859af1a66de157219bb8ce
+manifest 5d69fd927d1822dd5375ee48a200526b555a9260
+files js/src/vm/Stopwatch.cpp
+patch 518,519,

@@ -1,0 +1,5 @@
+changeset 39983a1913cf728861972de477eb0254cbeaa412
+manifest 9292748c164d849397364a27e9ad6110046d597b
+extra commitid:1WUhRQd8QZA
+files tools/profiler/core/ProfileEntry.cpp
+patch 244,284,

@@ -1,0 +1,4 @@
+changeset b8682cc6528e3129fbec8400d795faa9ae533730
+manifest 32a369911ca34f05f88b6acd19d35c94572eebb2
+files widget/gonk/nsClipboard.cpp
+patch 280,281,

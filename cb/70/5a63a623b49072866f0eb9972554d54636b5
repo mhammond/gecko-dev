@@ -1,0 +1,4 @@
+changeset 1634149ae629378d586642b2e2ca33e5f80ac7b6
+manifest 62e6085e95301199044dafa5471c181c5dba64ed
+files security/manager/tools/genHPKPStaticPins.js
+patch 623,624,

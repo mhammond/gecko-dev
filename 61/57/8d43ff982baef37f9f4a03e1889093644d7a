@@ -1,0 +1,5 @@
+changeset abb793676e19173051007acd9afb4b480fce9468
+manifest a79fb17758719eb9d3f0c98b3ae5ac0c57146c8e
+extra rebase_source:c6e14220612bc81d03a7a6b0370219e5d24ffd87
+files js/src/vm/TraceLoggingTypes.h
+patch 441,515,

@@ -1,0 +1,5 @@
+changeset 4a3154bf07d79b786d419486ca2b7668f8225cea
+manifest ee12c9dd0f819762dccffaf509fca25ec754ff0f
+extra rebase_source:519fcefd0d5ddf9689f3bb057b5798222dd5332d
+files gfx/tests/mochitest/mochitest.ini
+patch 261,335,

@@ -1,0 +1,4 @@
+changeset e57ce6a27a989b150efcca31d5286729fa385450
+manifest 1790fadbb84580f077e003736c3bf6d9ba3c519a
+files devtools/client/performance/test/browser_perf-refresh.js
+patch 273,274,

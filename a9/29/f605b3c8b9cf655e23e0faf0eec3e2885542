@@ -1,0 +1,5 @@
+changeset 4a8ba94870387a6ebf87c8a1cae6287e4b5012e4
+manifest 8e56f4bccd9523997e766da9506479fbe337f111
+extra source:7aeccc73f1d0e136988b85a470ffe5ff72ded5a4
+files devtools/client/framework/toolbox.js
+patch 311,378,

@@ -1,0 +1,5 @@
+changeset 7e53fb50f0afbde895fcc4bd2b413224862546ae
+manifest 2c350a45e110aaa2f3007087f2f4486caf6f8981
+extra rebase_source:85031e6ca526c212a77028952319fd5401ad5cb0
+files widget/gonk/nsScreenManagerGonk.cpp
+patch 297,371,

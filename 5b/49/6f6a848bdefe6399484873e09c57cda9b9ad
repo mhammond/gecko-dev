@@ -1,0 +1,4 @@
+changeset 7e3fe4f93eab6dae1d493c9246eee1444ac402d0
+manifest 3856e75a28ef2590673f21c6fee83e5152fcf721
+files browser/extensions/pdfjs/test/head.js
+patch 159,160,

@@ -1,0 +1,4 @@
+changeset ebcf7897ef0e99f3bf6c0a26578ce2e4a46bbdbc
+manifest 4068d5259e1542946388ae0a33b72eab52e1ea99
+files devtools/client/inspector/markup/test/browser_markup_css_completion_style_attribute.js
+patch 228,229,

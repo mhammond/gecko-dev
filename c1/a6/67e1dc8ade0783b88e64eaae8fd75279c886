@@ -1,0 +1,4 @@
+changeset 3554eb85676211f0f60f53e7944bbe70a64d6852
+manifest c7a1a5bdc42825dd9eca22f64929c20eb20dc0d3
+files media/webrtc/trunk/tools/gyp/pylib/gyp/__init__.py
+patch 308,309,

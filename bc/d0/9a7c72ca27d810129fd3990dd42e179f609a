@@ -1,0 +1,4 @@
+changeset 8b7b70870fd2a07c82295a2dc6b5c12b55735d4c
+manifest b0437fd74d23f42d5043686f4843b48a92155f87
+files netwerk/base/nsURLHelper.h
+patch 204,205,

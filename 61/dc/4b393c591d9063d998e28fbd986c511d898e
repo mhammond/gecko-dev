@@ -1,0 +1,6 @@
+changeset c2507c070a5590e16b53cb75d211f06b44acfc54
+manifest b12e05dd5b9c312f16d44d657be774c9c1f0e0d8
+author Jorg K
+extra source:acd9850f1f21dd14be319c45fcdcffbffcf09fa8
+files dom/base/nsPlainTextSerializer.cpp
+patch 237,304,

@@ -1,0 +1,4 @@
+changeset f58409e312c8616c975a821de124c45a8ebe2eb4
+manifest 1aa99ce7a97e82096cfcfebfb826e1e7d35915f1
+files content/base/src/contentSecurityPolicy.js
+patch 251,252,

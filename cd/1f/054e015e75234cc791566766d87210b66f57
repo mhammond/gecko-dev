@@ -1,0 +1,4 @@
+changeset 96d9cc0efe6419d51f785f0e944f2290572f2be9
+manifest 9c6f3b086c50534098ae00330a60ce0dad0adf79
+files xpcom/tests/TestAtoms.cpp
+patch 150,151,

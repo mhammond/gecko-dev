@@ -1,0 +1,5 @@
+changeset e846fe0567c111c17ec04e580899c6b10a789763
+manifest 940664f919754fe65a87d0591316423dcad43478
+extra rebase_source:db72548296939dc8e7b6ebf041e656598fcbdba6
+files testing/mozbase/mozprofile/setup.py
+patch 255,329,

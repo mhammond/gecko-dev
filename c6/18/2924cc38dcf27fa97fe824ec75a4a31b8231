@@ -1,0 +1,4 @@
+changeset 5b68de5f1dc9af107c2afd6557c5bee1b5e60142
+manifest d402919d0ea9b061834c81d945848a0c31629b3e
+files js/src/vm/UnboxedObject.cpp
+patch 190,191,

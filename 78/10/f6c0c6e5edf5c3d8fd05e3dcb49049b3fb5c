@@ -1,0 +1,5 @@
+changeset b4efb3f1976f6db138152e5b28fbebec90737b29
+manifest cabef73a9a094b592635d03a77a9c7e29da547b7
+extra rebase_source:09361d2375b5d550cb747638e4d34009dd60f18d
+files toolkit/components/aboutperformance/tests/browser/browser_compartments.js
+patch 314,388,

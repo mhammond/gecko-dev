@@ -1,0 +1,5 @@
+changeset b1f41988e7a53e33c68d0f2a4ff6324f7e355450
+manifest 36535c6f6a10789aa92a107865d68620124de6ab
+extra rebase_source:bbc3101a78e4e2aa8b5eb0f68cd6f3605ba924f6
+files widget/windows/KeyboardLayout.cpp
+patch 504,578,

@@ -1,0 +1,4 @@
+changeset e921b3682fbf3a90c77cfb1093b2ecfb67124bd4
+manifest 374e1276774dafc8f1a6ab9abb9746bec2c33b3e
+files dom/workers/test/serviceworkers/test_serviceworkerinfo.xul
+patch 252,253,

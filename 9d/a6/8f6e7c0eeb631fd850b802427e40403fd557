@@ -1,0 +1,5 @@
+changeset 8e8d8f82f9de64d45ef5faebb8788ea08c6f5d49
+manifest d6802e5abfba99049e6226d5631026afe9ab8407
+extra rebase_source:694b00d0b7c015a25a4480d2c3f0d6d4415ccf0c
+files mobile/android/base/tests/testSettingsMenuItems.java
+patch 300,374,

@@ -1,0 +1,4 @@
+changeset cc7b8d6c1d03467f5884eaf73ad5871b6c8d2568
+manifest 1786a35dbda9aaf7d8ad3923bed6c11cdc01f449
+files browser/base/content/test/newtab/browser_newtab_sponsored_icon_click.js
+patch 237,238,

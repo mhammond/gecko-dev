@@ -1,0 +1,5 @@
+changeset 67506708c20169fc0bbcca637fd55e2615f656f1
+manifest dc714154b59813ea1c95497f4ff7afd2ba0799f4
+extra rebase_source:ce22dcc8417877c2f9ea0fe5b7cb9121fe603d98
+files js/src/vm/CommonPropertyNames.h
+patch 229,303,

@@ -1,0 +1,5 @@
+changeset d07d740a8d9980b8649f19b17a5a98253ff7a550
+manifest 6444013bd281c69d8c9d347b0c593f776b44126d
+extra source:b8e2ef4983a96c39c8c1bf18d3efa6e582e710c7
+files dom/workers/test/serviceworkers/browser_force_refresh.js
+patch 280,347,

@@ -1,0 +1,5 @@
+changeset afc529c199066e9c9d8a88318f24f631a7678d53
+manifest 53e67f698bb42df8eb3a11ce0282a01560aa0106
+extra rebase_source:567fea8c61f8cb7bb01feb4d3e4e3f4a03ef4cfc
+files mobile/android/base/java/org/mozilla/gecko/telemetry/TelemetryDispatcher.java
+patch 335,409,

@@ -1,0 +1,5 @@
+changeset 9696f9aad9be2bbbf02c954a4b3d5cb612c4df48
+manifest f53617c2b0156f397a93efba84a28db4104e7f96
+extra rebase_source:c2b7c01a7511ff87b060fd1a258260029438f3de
+files mobile/android/base/resources/drawable-nodpi/firstrun_urlbar.png
+patch 297,371,

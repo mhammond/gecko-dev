@@ -1,0 +1,4 @@
+changeset a3b30fb7d3e6a4f97889180b6348d7771bd05891
+manifest 180004c915229d5fa826ad8da678f10bb8e52fb1
+files xpcom/tests/gtest/TestObserverService.cpp
+patch 366,367,

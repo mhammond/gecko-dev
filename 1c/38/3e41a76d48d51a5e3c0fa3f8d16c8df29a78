@@ -1,0 +1,4 @@
+changeset 8782b81c1b05f46e140e4eabe1c6f559715291ac
+manifest 5feac8e893b0502e8be6b503416e62cb6d899198
+files taskcluster/scripts/builder/build-sm-package.sh
+patch 203,204,

@@ -1,0 +1,5 @@
+changeset 328c7a2f60405ee5854af0eb96513316dc62cf08
+manifest 6b2a82f0955172a93ea8f73d3bfba1cfe3d90b20
+extra rebase_source:08e8747500def39be8520057f1a7bf7ddfe8a2aa
+files devtools/client/themes/variables.css
+patch 278,352,

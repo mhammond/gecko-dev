@@ -1,0 +1,4 @@
+changeset 0e510b9a2d460348af0ee3b90aad4dbe5c60adeb
+manifest 13b823d0da5f0d32fb25c6a9fe5384e4398a3a64
+files toolkit/crashreporter/google-breakpad/src/third_party/lss/linux_syscall_support.h
+patch 312,313,

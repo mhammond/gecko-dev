@@ -1,0 +1,5 @@
+changeset 5337f17b3c1fd9dc73f6e15956f71e8fb029e1ff
+manifest 62807ab0863b644d884122e1f4cdb726f6f5487e
+extra source:4e16558233f985125db446de2b3fee7055b2b623
+files widget/cocoa/TextInputHandler.mm
+patch 712,779,

@@ -1,0 +1,4 @@
+changeset ecdaffeae76fa7e3ab71830886b1dd5272882d74
+manifest 087f4541677bdea53779a237afa60da4ee58ff65
+files dom/camera/CameraControlImpl.cpp
+patch 230,231,

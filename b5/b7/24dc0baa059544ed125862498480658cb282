@@ -1,0 +1,5 @@
+changeset 108c0f85a2453962485973e9b3f31c48eea38086
+manifest 3e54c5a9b328d02683bd2e841d26237df13a5bf7
+extra source:da29c45e89db3e939affa0bf5c80a1292cc944f0
+files gfx/2d/DrawTargetD2D1.cpp
+patch 322,389,

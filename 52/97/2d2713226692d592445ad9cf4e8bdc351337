@@ -1,0 +1,4 @@
+changeset 753791138b8eedaf90abf046a2b138e0aa37a386
+manifest 89fe085f1449af9e73d21cc8a3893fc142903876
+files js/src/jit-test/tests/basic/function-cloning-2.js
+patch 241,242,

@@ -1,0 +1,4 @@
+changeset f19d55717b0a0f41d6d74dd61a1eb66c4988e6b4
+manifest ca0ecdb98c5b20ce337404eab13e588f117e0e04
+files dom/base/nsContentAreaDragDrop.cpp
+patch 162,163,

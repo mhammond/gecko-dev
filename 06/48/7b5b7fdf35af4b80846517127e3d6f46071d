@@ -1,0 +1,5 @@
+changeset a34e6d5f8e105a49aea3b8f55ac6c74714aedbb8
+manifest 225a9a902d29806c439c0e41c33e615ce11aa8f9
+extra rebase_source:0506c8c7f6e6c0ad3e69c9c98cc36aa1d8c0037a
+files devtools/client/inspector/rules/models/text-property.js
+patch 303,377,

@@ -1,0 +1,5 @@
+changeset c45559c115da22f70d58cec454b7b508af4f03de
+manifest 99cf5129d6246d67d08f46d0a9e8ae4847a4b66d
+extra source:500496dfefccc73d1f87ff912563a8ee1afe8e91
+files devtools/client/animationinspector/test/browser_animation_spacebar_toggles_node_animations.js
+patch 390,457,

@@ -1,0 +1,5 @@
+changeset 3696a22ff7a09bcc27296c0a5648e2e9afd32f67
+manifest 91189e5251170d14967d6e859ec1646b97ad6550
+extra rebase_source:8303da0b4190be136f439868141cb1306e873556
+files toolkit/content/widgets/popup.xml
+patch 298,372,

@@ -1,0 +1,5 @@
+changeset 2867fa5b43d6bc4976a3bbf966c2c16dc6ffbd37
+manifest caa0eb71e698f3d6800719d44269ae8070cb5aff
+extra source:5161d574297a1fbd0fba5fa91fbe14f186e996e4
+files browser/themes/windows/downloads/indicator.css
+patch 270,337,

@@ -1,0 +1,5 @@
+changeset 0e0e1e0151cb78b3d7d6a65469f19e8b0d1ef78d
+manifest 93c056265051dccf649dd4b52cebb38bf3e1ffbd
+extra amend_source:d5acf3dcf7b12af8cefb7efbce8a94b17fe28921
+files xpcom/reflect/xptinfo/nsIInterfaceInfo.idl
+patch 341,414,

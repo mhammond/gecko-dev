@@ -1,0 +1,4 @@
+changeset 3c97d52675d7885be2c55acfe9342f544b244ffc
+manifest f240fa94cf9d4cc9842887d2fc761c63c5e3c220
+files toolkit/mozapps/update/nsUpdateService.js
+patch 243,244,

@@ -1,0 +1,4 @@
+changeset 480b91b38c8027b9a7914cf655e74dcffd20eb8d
+manifest c8c6c9a663ed9207f26815646a89d3fd1b3ffc72
+files browser/locales/en-US/chrome/browser/devtools/debugger.properties
+patch 258,259,

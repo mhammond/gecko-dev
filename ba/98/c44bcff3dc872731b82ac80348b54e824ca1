@@ -1,0 +1,5 @@
+changeset c4809591f9c2b21f56eef454a68e5fbdef25c3ea
+manifest 6c9fe120b777861cfc8c07294be40c78b7a2e7ed
+extra source:52fc6a1fb0a7564e8d9f8bfbb1111e763a18476f
+files browser/themes/shared/notification-icons.inc.css
+patch 299,366,

@@ -1,0 +1,5 @@
+changeset 5b1402a3d3ca0df8fe25edd7d0bdcd6b99aa3b9d
+manifest 7b19339d0cdc2a836e4074db66319f89e5b0e7c6
+extra rebase_source:c98ea332576f244ee29326c44eee3201e99f08ed
+files toolkit/crashreporter/tools/symbolstore.py
+patch 273,347,

@@ -1,0 +1,4 @@
+changeset 3e3f7dd7190fe8e048994a7c90a494f19524f5eb
+manifest d72b34aa4abc5a0a2a81408cdc7add7b1851b846
+files testing/eslint-plugin-mozilla/lib/helpers.js
+patch 222,223,

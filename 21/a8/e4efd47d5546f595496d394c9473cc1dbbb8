@@ -1,0 +1,5 @@
+changeset dfe968527d9b17e118c15881a10325ae54f6295b
+manifest ee181192a0b9cd4bfe7e390d9dab08f75daebbe0
+extra rebase_source:806dcc5ef11a21382b20fadbe3604838a44addff
+files js/src/asmjs/WasmBinaryFormat.cpp
+patch 262,336,

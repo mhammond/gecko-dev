@@ -1,0 +1,4 @@
+changeset 259d7b810268ec4878663870727a42c7cd885e08
+manifest 3b76cdebbaa75b163a0f57ab8b85fd8dda32fc68
+files js/src/jit-test/tests/asm.js/sta-transition.js
+patch 215,216,

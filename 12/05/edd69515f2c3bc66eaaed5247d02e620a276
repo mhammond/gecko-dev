@@ -1,0 +1,5 @@
+changeset 19e3f7722664812216634b38a72874514e57ee7a
+manifest b5632c48ab93e16b09b35cce4eb02b526933271c
+extra rebase_source:e08571724e42a1616d66347f30f46bdc9c626de2
+files toolkit/content/widgets/remote-browser.xml
+patch 308,382,

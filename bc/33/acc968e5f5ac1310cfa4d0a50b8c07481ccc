@@ -1,0 +1,5 @@
+changeset 03d260b11ec9a9a7b75c4a1a721631fddbfe712f
+manifest 6e12e9d92f906171c94fe576cd0fbb199aa152fc
+extra rebase_source:dfb33f4273ae51da58abae516814ffda6be6fcd9
+files mobile/android/base/java/org/mozilla/gecko/db/LocalBrowserDB.java
+patch 365,439,

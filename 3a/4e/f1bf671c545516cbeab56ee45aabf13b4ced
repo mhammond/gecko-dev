@@ -1,0 +1,4 @@
+changeset e0b6dfb1ef4dd954034d1374b248c24511ac9862
+manifest 5f7dccf335b64b593ede77da0c07bacbd7ee8f9f
+files layout/svg/base/src/nsSVGTextPathFrame.cpp
+patch 161,162,

@@ -1,0 +1,4 @@
+changeset 7e35addd4309d83144512aa27eccb15d72ec1291
+manifest 44fd89644058c722b83d67f96bbd7ba359e48657
+files toolkit/components/prompts/test/mochitest.ini
+patch 267,268,

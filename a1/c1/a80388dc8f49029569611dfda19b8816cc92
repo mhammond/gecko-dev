@@ -1,0 +1,5 @@
+changeset 911e01832a4aec58d23b255d99217a64a07dcb23
+manifest e6ddbe743b02d245f2264b5ff6d4a204ea32db28
+extra rebase_source:01d361f432ac4189274da01de61538a99761c225
+files browser/base/content/test/general/readerModeArticle.html
+patch 304,378,

@@ -1,0 +1,4 @@
+changeset 9895a4e1cfb07dbab1dc74516ffac6e87e5cc824
+manifest fc3b28059f0542013e7527b2210f3ebad53bda65
+files docshell/test/navigation/test_bug386782.html
+patch 299,300,

@@ -1,0 +1,5 @@
+changeset f8c2d37d27143661a99cd10f90d198aae18b3536
+manifest d39d3fbcd5dde07a315bf8aba9688e1894734e49
+extra source:1e8d203b0d6b8908461bf4f6fbf1edb94b2a6aa0
+files devtools/client/webconsole/test/browser_webconsole_bug_618078_network_exceptions.js
+patch 383,450,

@@ -1,0 +1,4 @@
+changeset 22c7bbe185f5ed9121c68af3580060c1b955828d
+manifest 39876aedfc460c2fa6d17b499f23be41f55fd670
+files dom/base/nsXMLHttpRequest.cpp
+patch 235,236,

@@ -1,0 +1,5 @@
+changeset 2570cd8ec0bddf821299063db4094dbbaeccea04
+manifest 2cf2c65e3d0db4fe38f42b89b03a74cd8fd33483
+extra rebase_source:a9e9a1e75b36d3e40523b9ca7f16785e0ab5a67f
+files mobile/android/base/java/org/mozilla/gecko/preferences/PanelsPreferenceCategory.java
+patch 390,464,

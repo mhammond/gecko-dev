@@ -1,0 +1,4 @@
+changeset 7fa6baac8f3790a6d217c88c7187e98cf1e22e0f
+manifest 0655a2cdf32e8283aee04a087698fa1296ab5c6d
+files mobile/android/geckoview/src/main/java/org/mozilla/gecko/GeckoEditable.java
+patch 597,598,

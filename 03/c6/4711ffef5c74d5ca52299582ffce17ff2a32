@@ -1,0 +1,5 @@
+changeset 4e21028c661a480f76f8441607e29b849db24def
+manifest df7d965ba505bd69c0a7d7b18db1204a31c32a37
+extra source:592de616971bb481a3d7d15fc75d14d358835aa2
+files devtools/client/responsive.html/docs/browser-swap.md
+patch 290,357,

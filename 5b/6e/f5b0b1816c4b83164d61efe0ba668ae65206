@@ -1,0 +1,5 @@
+changeset c1342bdc08a949c74278e59958dbecbc6f138258
+manifest 84fa3ff9b2a45fc18115051f010367fe18e66a74
+extra source:a21989d264ee66319e274891a12c390482dd9345
+files toolkit/components/alerts/nsIAlertsService.idl
+patch 284,351,

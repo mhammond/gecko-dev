@@ -1,0 +1,5 @@
+changeset 3d45414331aa36f460ace06cefee6b78a895dec2
+manifest 677977a8a90dea1651efb200e80f769faca4eeb1
+extra rebase_source:d8257c5b59d8b986ffd117ebda0a4c1f40330fc6
+files dom/nfc/NfcContentHelper.js
+patch 260,334,

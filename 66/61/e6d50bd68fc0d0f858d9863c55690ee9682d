@@ -1,0 +1,5 @@
+changeset 910c9ac881eeb74726609bc931e4a478cfb21f78
+manifest 0f16992ce9ffc535c0ffb40a4cd9f6e6701d3a6d
+extra source:5a1e75dd9d544b8e00d145813068d6d29b1ef74b
+files gfx/src/DriverCrashGuard.cpp
+patch 285,352,

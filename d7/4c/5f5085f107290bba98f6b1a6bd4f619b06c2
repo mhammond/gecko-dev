@@ -1,0 +1,5 @@
+changeset fb1d26487576a700cd11d31fcb917df5c1aaf792
+manifest 09401e529259826576419521ce25375e21ab0924
+extra amend_source:fb2476b5268f0f1332003aed7a8c4c3c0c2982e3
+files js/src/devtools/automation/variants/msan
+patch 293,366,

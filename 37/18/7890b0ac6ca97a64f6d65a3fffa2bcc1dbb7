@@ -1,0 +1,4 @@
+changeset dbbd4d6ee7ecd2fe1d98b01b78be3749bb0c4bc9
+manifest fe69b2de5dced0f84e3dfa71a07ff7b5c18ddcdf
+files browser/components/feeds/nsFeedSniffer.cpp
+patch 206,207,

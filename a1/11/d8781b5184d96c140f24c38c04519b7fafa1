@@ -1,0 +1,4 @@
+changeset 94987e23aa720af290174d37d94e7bd2dc5c3dbb
+manifest bbca4fc5f4a6d2e2a1273496489a13e89e0ed34a
+files layout/xul/tree/nsTreeBodyFrame.cpp
+patch 290,291,

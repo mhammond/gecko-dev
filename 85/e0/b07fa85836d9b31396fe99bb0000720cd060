@@ -1,0 +1,5 @@
+changeset aac1c5ddc36a746322e12305f68d338d391838ed
+manifest 6251349f3c47c97d8bc11081bc4683089caf4c7c
+author aselagea@mozilla.com
+files testing/mozharness/mozharness/mozilla/proxxy.py
+patch 191,192,

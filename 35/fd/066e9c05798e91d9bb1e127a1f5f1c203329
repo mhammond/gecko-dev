@@ -1,0 +1,5 @@
+changeset 9f5af086dcbbb240aa3dff299230e0096330468e
+manifest 1fe60e7763a1f2798a0c71fa4e41654627b67009
+extra source:1db92044b8deda84d12afcca650587ba94f9a961
+files gfx/layers/opengl/CompositingRenderTargetOGL.cpp
+patch 285,352,

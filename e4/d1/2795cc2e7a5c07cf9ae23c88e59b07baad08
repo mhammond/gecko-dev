@@ -1,0 +1,5 @@
+changeset bc8ea177c0d8303861f04c6009582acf40c692bb
+manifest 65789363e989683806011226103d0149e175f1ad
+extra source:525240afe663152f2b854e6d23417ef76dac9a8c
+files layout/base/FramePropertyTable.h
+patch 298,365,

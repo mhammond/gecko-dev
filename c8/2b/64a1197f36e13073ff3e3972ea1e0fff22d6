@@ -1,0 +1,4 @@
+changeset dadf5ab56adc77bc508c6224d9a4b9e97bf90ecc
+manifest 0eab30611c96d589cea5be5f4fc2a292b1d0d2d3
+files xpcom/threads/nsEventQueue.cpp
+patch 194,195,

@@ -1,0 +1,5 @@
+changeset 04deb2d1c9400e61ba6308382da3a12a26f72f98
+manifest 14073fb477c19666c14a8473f23aab83c454472d
+extra source:be0fb2d8d0368ddfc49a977332f6338ec0110ccb
+files ipc/mscom/EnsureMTA.h
+patch 316,383,

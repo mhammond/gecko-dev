@@ -1,0 +1,5 @@
+changeset d87457c5be3003a7ef52bf0f14bcd593ccf38979
+manifest 1423f52e0ae4d24c1e34541dc031e2bb1386c27d
+extra source:ccac169ecb8651b6a9f598444f228bdf14866f2c
+files layout/tables/nsTableFrame.cpp
+patch 278,345,

@@ -1,0 +1,4 @@
+changeset 7faa4942d230efc15e37305cefb7c4e2a9b71565
+manifest 7c5339eee3aaa98b63724b18f4c6eaa7e7dd599e
+files media/webrtc/signaling/src/media-conduit/WebrtcOMXH264VideoCodec.cpp
+patch 276,277,

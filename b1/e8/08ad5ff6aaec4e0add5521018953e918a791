@@ -1,0 +1,5 @@
+changeset f09b8b1fa4300db896d2c1276dd6a567d45a540a
+manifest 6c1848c981b8a328e615ca707ce6556b3d148fd7
+extra transplant_source:”™L$;gÀñ¶é÷ Õá.<È÷/
+files browser/components/extensions/test/browser/browser_ext_webNavigation_getFrames.js
+patch 352,442,

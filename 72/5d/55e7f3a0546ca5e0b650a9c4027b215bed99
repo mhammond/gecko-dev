@@ -1,0 +1,4 @@
+changeset b9be9afc36096043244ea8a62bdcdb381bb1d74b
+manifest 14510a2e3700f5069837fd7d773690e367f3d8a7
+files dom/system/gonk/NetworkUtils.cpp
+patch 245,246,

@@ -1,0 +1,4 @@
+changeset ad83a9d223b8824c8ac0b90ba2502c2c0d95ba97
+manifest e058d9b05c77b6e01cb91979d272a0bbd6b1b6c3
+files dom/mms/interfaces/nsIWapPushApplication.idl
+patch 214,215,

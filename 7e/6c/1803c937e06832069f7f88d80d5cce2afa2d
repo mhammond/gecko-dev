@@ -1,0 +1,5 @@
+changeset 360c90e4a9cc1f8ad45ff1bed9b44848e0ea0fae
+manifest b2f87943e9c48f4e5d6d7ca7cd084bf597caf936
+extra transplant_source:èØøÒÙÀ²ÈtsŒŠÒ®Qï£
+files dom/security/nsMixedContentBlocker.cpp
+patch 281,373,

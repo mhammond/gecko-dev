@@ -1,0 +1,4 @@
+changeset e802ab9dd60c91efe4d86e4a1d4fd272c34a1ac9
+manifest 84e0a36e312dbb8c8be547920ed42ba50d5fc472
+files js/src/vm/SavedFrame.h
+patch 231,232,

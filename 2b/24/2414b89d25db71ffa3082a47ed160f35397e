@@ -1,0 +1,4 @@
+changeset 6d0825ced35d8bc2a64713bd32143fb0cfbe86d3
+manifest c71706135f454561ee75a0cc5e39d69f8f8e61ea
+files dom/media/webspeech/synth/nsSpeechTask.cpp
+patch 339,340,

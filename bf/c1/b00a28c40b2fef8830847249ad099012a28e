@@ -1,0 +1,4 @@
+changeset 6e3e2cc1988e312b6793b588ac0a5e52f2c08efd
+manifest c8a09479a2b823dd41c5954e372e1393d41f05d8
+files dom/permission/tests/test_permissions_api.html
+patch 200,201,

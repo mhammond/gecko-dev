@@ -1,0 +1,4 @@
+changeset 571789f0b68d70cdbf81477d61aba88272df3a32
+manifest 479b268bab228d6f0b20c45594a48e3ed096d882
+files js/src/tests/ecma_5/extensions/nested-delete-name-in-evalcode.js
+patch 254,255,

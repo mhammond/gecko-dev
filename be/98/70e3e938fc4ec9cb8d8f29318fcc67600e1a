@@ -1,0 +1,5 @@
+changeset d444cb9e676df82f6a793e1e05f2dcec66f679e9
+manifest 65a44be35d06045f8aa9f3b81d44346609909505
+extra rebase_source:2a06282a39549acf09a2a877e147cdc319984f9c
+files mobile/android/base/java/org/mozilla/gecko/home/HomeAdapter.java
+patch 307,381,

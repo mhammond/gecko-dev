@@ -1,0 +1,4 @@
+changeset aa715b19902b4597f9f567f413fe9831719072c8
+manifest edbc2034f1d620867678b9a1fc3e60e39605c680
+files testing/web-platform/tests/service-workers/service-worker/getregistrations.https.html
+patch 303,304,

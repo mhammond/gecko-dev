@@ -1,0 +1,5 @@
+changeset af103a570400af6434e64d6e0f9632abef2ea5cd
+manifest 7be0f99236baf124a49843a1570b999ecbc5f957
+extra source:657753f40cc7628ae7e0cbcee7a4d4955d824e78
+files toolkit/components/osfile/modules/osfile_async_front.jsm
+patch 287,354,

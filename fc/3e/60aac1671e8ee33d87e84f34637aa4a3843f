@@ -1,0 +1,4 @@
+changeset ff494eb6487b2951588d73eade04339278534e8c
+manifest 0bbc01d40b64c644fc7e4402a3c87973b9723c75
+files xpcom/components/nsComponentManager.h
+patch 665,666,

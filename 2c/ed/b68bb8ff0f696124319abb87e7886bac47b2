@@ -1,0 +1,5 @@
+changeset f21e48559ecda2e225953d4dffef3127cd903ba7
+manifest b8d57e56237d5ed141028775e6962d24c1cca9ef
+extra amend_source:eaa4f655f029e7c76b553ce79e95eac65a01f7ca
+files testing/mozharness/configs/builds/releng_sub_mac_configs/64_add-on-devel.py
+patch 322,395,

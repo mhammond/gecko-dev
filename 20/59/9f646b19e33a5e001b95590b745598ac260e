@@ -1,0 +1,4 @@
+changeset 1fd3716e4bd1f07332218e27a341998d295b7625
+manifest 4553f7e291a480bf7ffb662903915350f61dce0e
+files dom/base/nsIGlobalObject.h
+patch 220,221,

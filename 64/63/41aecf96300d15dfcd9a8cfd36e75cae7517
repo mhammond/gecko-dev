@@ -1,0 +1,4 @@
+changeset 6774b72255d4646bf5dd7f18f60f8dd42a4cf91e
+manifest f221b5f2c91220b8dcb5b424f5bd2de2775ebdb9
+files editor/libeditor/nsHTMLDataTransfer.cpp
+patch 204,205,

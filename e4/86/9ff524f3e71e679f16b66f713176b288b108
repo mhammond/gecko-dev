@@ -1,0 +1,4 @@
+changeset 3e7e43113775c7af1076908eb33b8664241c0af9
+manifest e0e0703c3dfce264fe22ce1f53a9ebf9af3b620c
+files browser/components/loop/content/shared/js/loopapi-client.js
+patch 283,284,

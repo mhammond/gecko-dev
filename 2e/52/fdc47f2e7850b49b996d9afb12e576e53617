@@ -1,0 +1,5 @@
+changeset b2721e0ef0ef0fc3398e02d80293321bcd3ebe8f
+manifest 55bae045ac5026eb246183bd6492923ca351eea6
+extra rebase_source:133125d83a2a9a79ec27d6f498c790eaf0ae9f11
+files modules/xz-embedded/moz.build
+patch 277,351,

@@ -1,0 +1,4 @@
+changeset 3999da0ba5c9f821389dd0cba1359c48f4f8eabc
+manifest 5264eccb4bdd6603ebb596515caebc9e94475dd5
+files js/src/jit-test/tests/debug/Memory-tenurePromotionsLog-07.js
+patch 249,250,

@@ -1,0 +1,4 @@
+changeset adac35e4feeb83a99a4476df70bb16766f4ab203
+manifest 27005df206cb6052999c1df88e37743defeffb20
+files rdf/base/nsRDFContentSink.cpp
+patch 185,186,

@@ -1,0 +1,5 @@
+changeset b30ef0b6848b4fdb3757d11959430b5bdc489099
+manifest 1caf4af26527842c58b938aaf5ff14b1c2933bc8
+extra rebase_source:d4ed2e02bb8bfd734e23600e06accf3e34be16cc
+files devtools/client/shared/view-source.js
+patch 1140,1214,

@@ -1,0 +1,4 @@
+changeset bb0db528a2c4fb1d155ea108d30870bba86263c2
+manifest 5f0875920d44602ee1bfd2b73f9de0c150e69046
+files js/src/vm/ScopeObject.h
+patch 165,166,

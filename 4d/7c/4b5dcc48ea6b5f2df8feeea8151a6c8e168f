@@ -1,0 +1,4 @@
+changeset 5550e4079b3147981cf015f01216b409fc9c8fd8
+manifest 3e74378b6609f016d1f6e93363a54c76e3eb64ce
+files media/libspeex_resampler/src/moz.build
+patch 457,458,

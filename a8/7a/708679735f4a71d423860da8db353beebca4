@@ -1,0 +1,4 @@
+changeset 30174397613c621c1488bf0459f83db61e004a5b
+manifest de8ab5b45cac435890cc33b2405097f229323ca4
+files testing/mozbase/mozrunner/mozrunner/devices/emulator.py
+patch 253,254,

@@ -1,0 +1,4 @@
+changeset ec2a1ba41a7a353443218fc7805ba3be8ba02a28
+manifest 8cf9b7f3e050064eee6b9eaf71b3fc8540c970f3
+files widget/gonk/libdisplay/GonkDisplayJB.cpp
+patch 220,221,

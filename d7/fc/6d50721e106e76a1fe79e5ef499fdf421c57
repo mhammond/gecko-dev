@@ -1,0 +1,5 @@
+changeset 675f335b6b44b0a85aa8a8d5066cbeaaf3d1bc64
+manifest fb2fe2781fd9f64e3467afcfe854187866203427
+extra commitid:CCSEyTA3MJp
+files browser/extensions/loop/test/functional/test_1_browser_call.py
+patch 295,335,

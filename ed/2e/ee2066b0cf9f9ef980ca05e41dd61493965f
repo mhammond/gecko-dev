@@ -1,0 +1,5 @@
+changeset 347bf2a3d48d8532e79be39fe685767ecd0f24f9
+manifest e788f6c7629b1fd799161deb67bb7abc7e6c4a26
+extra rebase_source:d8197fdc08c009dedd25f83ef2a7fc68356043a7
+files media/libstagefright/frameworks/av/media/libstagefright/MPEG4Extractor.cpp
+patch 281,355,

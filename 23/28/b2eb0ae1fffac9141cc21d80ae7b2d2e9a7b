@@ -1,0 +1,6 @@
+changeset 4a0feedb97b43e356c4558540394ca447fa7292d
+manifest 52fd329bcda7bf960f8b4a6645b56f03077b3123
+author jlal@mozilla.com
+extra rebase_source:266b9912dfdf69cb16b3558773ca50fb31f31b36
+files testing/taskcluster/scripts/builder/build-b2g-desktop.sh
+patch 241,315,

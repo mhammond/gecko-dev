@@ -1,0 +1,5 @@
+changeset b86104749bea311ea7ef9b46bb48770ff6beeb90
+manifest 2e4901f618b8ff78d48fd32aba2d14167ce30415
+extra histedit_source:87acb77adbc9daf26944fafdfd11ecc1b4f64d57
+files devtools/client/responsive.html/index.css
+patch 295,371,

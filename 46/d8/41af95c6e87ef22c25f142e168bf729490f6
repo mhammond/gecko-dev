@@ -1,0 +1,5 @@
+changeset fdfc5a1808c4d4c3b751779c7f19e770b1215221
+manifest 4c7bfa38b06bd279da308171efc0a5e3a62d640d
+extra commitid:CZIHzxJbzBx
+files toolkit/mozapps/extensions/test/xpcshell/test_undouninstall.js
+patch 268,308,

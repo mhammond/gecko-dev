@@ -1,0 +1,4 @@
+changeset 892d0f1308f87e9ac1ef7810fa6fde9864e550fa
+manifest 968ef3a94393b2173c1712daeec4925f06d6f940
+files mobile/android/base/java/org/mozilla/gecko/tabqueue/TabQueueHelper.java
+patch 677,678,

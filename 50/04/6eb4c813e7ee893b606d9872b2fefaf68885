@@ -1,0 +1,4 @@
+changeset 903d1b7db3f74f07d5747f593f9a031b837cdc9e
+manifest 1550ae58c45f76ac5b17bb616c6a67a431f2315d
+files devtools/shared/Console.jsm
+patch 161,162,

@@ -1,0 +1,4 @@
+changeset 18d1063ae81da0c1376a7fcba82da73bf29d0076
+manifest 09e00b37a30625f5b903d667c1fd13009c8534fe
+files dom/mobileconnection/interfaces/nsIMobileConnectionService.idl
+patch 248,249,

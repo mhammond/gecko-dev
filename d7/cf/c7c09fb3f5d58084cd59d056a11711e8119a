@@ -1,0 +1,4 @@
+changeset 6c379ab6d51ee82ac527a169ac03e17c0ec6a2a5
+manifest 4d43a2dc4a48826d0b119ce1ff5e0d4729aabc08
+files browser/components/customizableui/test/browser_938980_navbar_collapsed.js
+patch 240,241,

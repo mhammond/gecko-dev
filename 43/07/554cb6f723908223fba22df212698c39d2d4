@@ -1,0 +1,4 @@
+changeset f11e199f6e469ad6b0395dd90a77dbc4a4eb8e3f
+manifest ab3247c2ef19fe251cfd5cc67931a42d252032f4
+files dom/workers/WorkerScope.cpp
+patch 283,284,

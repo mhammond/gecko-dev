@@ -1,0 +1,4 @@
+changeset d260fdcb9f8f4e7d9239619a9d953e7cdac01264
+manifest 093ec811592688001581f500e2d3fce4934bb357
+files dom/security/nsCSPParser.cpp
+patch 194,195,

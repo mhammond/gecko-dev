@@ -1,0 +1,4 @@
+changeset a9f9f561127275de84173d0f536e6d74a6000730
+manifest 8e6dcdea706182f3cf941502d0f6e048038048d9
+files devtools/client/shared/widgets/tooltip/Tooltip.js
+patch 264,265,

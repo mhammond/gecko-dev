@@ -1,0 +1,4 @@
+changeset 4737a86a4c0e0a4a9fe1208ecf4de8cdab988329
+manifest d8dfeb54fee85b6f64086535cd1436713a9d0aa0
+files xpcom/glue/nsISupportsImpl.h
+patch 574,575,

@@ -1,0 +1,5 @@
+changeset ff08f85000b57964f04d4421c01784d22e0f6316
+manifest 4c7b918f854690b04185a413425b0301a55a1a9b
+author Fischer Liu<fliu@mozilla.com>
+files dom/apps/OfflineCacheInstaller.jsm
+patch 207,208,

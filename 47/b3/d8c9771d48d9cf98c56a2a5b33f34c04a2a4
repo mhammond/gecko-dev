@@ -1,0 +1,4 @@
+changeset 13883b9ed49d83c2bd5071d91000d0f65b78ed08
+manifest 4edcc37fdb6df95e4749d5ea5ae565679b3aaec7
+files testing/mozharness/configs/releases/bouncer_fennec.py
+patch 206,207,

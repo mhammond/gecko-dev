@@ -1,0 +1,5 @@
+changeset 94cb0c8e7febc61770904fca83ae56c86e5ee43b
+manifest f9dde495a611cf813bfac1cd9b9175e91447a465
+extra rebase_source:6c4eeb1c68c6a1b4e4e7bc232ed2fed7ddddce28
+files js/src/frontend/Parser.h
+patch 297,371,

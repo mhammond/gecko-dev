@@ -1,0 +1,4 @@
+changeset 56a0fc6a78003c56e747f619420b60c79f40d377
+manifest 07856e50b8f68fdd8ce3fe6ce2389e6f0806d748
+files uriloader/exthandler/mac/nsOSHelperAppService.mm
+patch 256,257,

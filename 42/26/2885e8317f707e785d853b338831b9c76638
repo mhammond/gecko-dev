@@ -1,0 +1,4 @@
+changeset 5f6aef3196b6ad2f68eeb556a0ea3a3ceb3d0242
+manifest b789076ac7460f0e64fc2fa20d69ae15f7eb1b81
+files js/src/proxy/BaseProxyHandler.cpp
+patch 239,240,

@@ -1,0 +1,5 @@
+changeset a0085eb5ffe746352ea4cf4f357344443e8ddf90
+manifest 5179aedbea54829ec4461d6fd8e11a5178d2fc0f
+extra rebase_source:6cae700c8986530aeec87391591c5903de8b39b3
+files accessible/atk/moz.build
+patch 268,342,

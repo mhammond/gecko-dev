@@ -1,0 +1,4 @@
+changeset 99dae519223a2e4f6c0df9824b5117726afbd98d
+manifest 05f2c66486ff637c86f0877b8b2a5973bc2ebe8e
+files toolkit/crashreporter/google-breakpad/src/client/linux/handler/exception_handler.cc
+patch 297,298,

@@ -1,0 +1,5 @@
+changeset d70bf74a36d08904e08e4e4798e7442bc70b66ba
+manifest 35fd4e93f9c8901a1dbe2386ef738ee2d4f86f17
+extra rebase_source:d30168d73f9a911aa31773a3ccf3383739125a92
+files media/webrtc/signaling/src/jsep/JsepSessionImpl.cpp
+patch 384,458,

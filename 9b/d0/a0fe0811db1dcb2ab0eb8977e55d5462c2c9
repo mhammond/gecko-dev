@@ -1,0 +1,5 @@
+changeset e3cb485761b8bf33d3493e301b065d06996cd486
+manifest 58235bf9190ab27a60f00514753798936db05f3d
+extra rebase_source:c37727e6672ffe60f100a698ecd9a6a8a21a7cc7
+files js/src/jit-test/tests/SIMD/bug1248503.js
+patch 292,366,

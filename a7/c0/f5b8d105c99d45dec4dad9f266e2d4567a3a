@@ -1,0 +1,4 @@
+changeset aaca2a928eda6417bef2fde8ad5fa5a45c5fc3af
+manifest 8405a28342194fdef538682710a0f614c6e7ac27
+files toolkit/components/narrate/Narrator.jsm
+patch 394,395,

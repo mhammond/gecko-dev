@@ -1,0 +1,5 @@
+changeset 76459a3ecc841b7928939a51b9c9245e71e113b5
+manifest e3b4a412e494e2ec1585a4b67df8415abf97e1e6
+extra source:689e3adb4e510734c460608493be7a475a032e97
+files layout/base/nsCSSRendering.cpp
+patch 291,358,

@@ -1,0 +1,5 @@
+changeset 4c2020735c691fb5bccba2439053da71d6355776
+manifest 439391ab2ba97f985aed362a860e4a82a89a266a
+extra rebase_source:5fc36e95667d42a1c0cdfb9bbbf99a7ea008bf34
+files js/xpconnect/src/XPCMaps.h
+patch 339,413,

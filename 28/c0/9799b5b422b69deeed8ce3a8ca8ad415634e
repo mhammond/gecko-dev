@@ -1,0 +1,5 @@
+changeset bef207d78f05f9b39923c40c69ecbde6b70dd80c
+manifest 40c9bebc215fdab1d750644a76999ba0ffad01a3
+extra source:019bbc497f9ed565fda0de3479d2b6af015f5f83
+files browser/themes/windows/browser-aero.css
+patch 642,709,

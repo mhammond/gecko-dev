@@ -1,0 +1,5 @@
+changeset 6ab8baa0d97b39491d7a08a7c86fab394e7d35f7
+manifest cf949b2b9c3b8d080dcb3858ccb399f33ba6198a
+extra rebase_source:0658dae3991f6839d93aa3a7d4165330307b74a5
+files dom/media/CanvasCaptureMediaStream.cpp
+patch 271,345,

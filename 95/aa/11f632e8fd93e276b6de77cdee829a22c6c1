@@ -1,0 +1,5 @@
+changeset f59cc2c8a18067f8410d267aae8fe3560b744835
+manifest a06bfa981a261c23e0380ca9f96d699b7d461aa1
+extra rebase_source:41bef0443bcb394211bf68187d4fa412a9f23e1d
+files devtools/client/shared/components/reps/attribute.js
+patch 300,374,

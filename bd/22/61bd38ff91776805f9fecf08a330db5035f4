@@ -1,0 +1,4 @@
+changeset ae6fac030deb0b8d2823cb59f87378056320eafb
+manifest 17751ee39f12ded80dd5cfec0eb8d3e4e140ad7e
+files dom/bindings/Configuration.py
+patch 307,308,

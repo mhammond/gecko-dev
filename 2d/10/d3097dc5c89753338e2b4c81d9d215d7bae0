@@ -1,0 +1,5 @@
+changeset 04ed5f3ad61afdef4511a5455198488839c55025
+manifest 62e60c7eddb9ff2de420ac31c89139c9b012bcf9
+extra rebase_source:3cc6155f05fc6bf603209d50b06afca47e2e1ee8
+files mobile/android/base/java/org/mozilla/gecko/Experiments.java
+patch 302,376,

@@ -1,0 +1,4 @@
+changeset 5b00baf5391d9ac2ae2341fa10ac7527c71557cf
+manifest cbf103d7961287e3346bf87b00552cb89d26ad76
+files toolkit/components/places/nsFaviconService.cpp
+patch 239,240,

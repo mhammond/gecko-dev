@@ -1,0 +1,4 @@
+changeset 970df36511268cb5f7cafff94e00f7d485d934d7
+manifest b4e4d22fd70d43190be2b1821718edcc5a3dc653
+files netwerk/sctp/src/moz.build
+patch 345,346,

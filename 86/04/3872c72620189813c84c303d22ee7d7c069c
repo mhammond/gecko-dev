@@ -1,0 +1,4 @@
+changeset bc5a4525f6c291dc0482c750a8addeabdb543ca6
+manifest b2b54ca2f4a2c30c2fb4c1179d8bc66cf83c04aa
+files parser/htmlparser/nsHTMLEntities.cpp
+patch 194,195,

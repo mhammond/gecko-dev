@@ -1,0 +1,5 @@
+changeset 2c04758cf3544a406711b01df129b04dd5376cf3
+manifest 37a4e6812c27a86c79734955216c6d8413c44d83
+extra rebase_source:e1a2b1732d598ee577c0f541d4fc5ceb961dc68f
+files js/xpconnect/src/XPCWrappedNativeScope.cpp
+patch 327,401,

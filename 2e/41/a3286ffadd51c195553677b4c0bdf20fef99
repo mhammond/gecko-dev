@@ -1,0 +1,5 @@
+changeset 42ada9dc0ab3c9e872f56201a0a1c4f7eb685acc
+manifest 6f3b3a280eea72f22c4d925f4329d0d160c78e2c
+extra rebase_source:e53f009535f2d5342681500524f8687812606466
+files devtools/server/actors/webbrowser.js
+patch 312,386,

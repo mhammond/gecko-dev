@@ -1,0 +1,4 @@
+changeset 685e4f30fd465aae04e3ae38c11a51e4efe31ff0
+manifest ae43a850e8386d46db513d4031033eb5355c34c2
+files devtools/client/webconsole/test/browser_webconsole_show_subresource_security_errors.js
+patch 308,309,

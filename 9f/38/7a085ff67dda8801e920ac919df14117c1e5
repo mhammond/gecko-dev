@@ -1,0 +1,5 @@
+changeset 84ef54451749188462d6b97c6b668508893ece47
+manifest 39930333ceadbc9809f6c395cb95d81464c31a8d
+extra source:9fba3876cab0f889bea8f9cc5d9de02fb399b89b
+files toolkit/themes/shared/extensions/extensions.inc.css
+patch 301,368,

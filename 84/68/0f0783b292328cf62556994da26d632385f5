@@ -1,0 +1,4 @@
+changeset d2906d28d9ed99ee4b2b93cc22bef718f3e81de4
+manifest 17e9a0db713a8726408648b68cafb7e798804d6d
+files js/src/jit-test/tests/basic/letLegacyForOfOrInScope.js
+patch 188,189,

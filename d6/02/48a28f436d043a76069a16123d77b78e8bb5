@@ -1,0 +1,4 @@
+changeset 63901344b6b0272dd7f0239cb2ff1ceda80e7e12
+manifest 73315f6d963b740eb857710279bc78f23cd71d2b
+files toolkit/components/addoncompat/tests/addon/bootstrap.js
+patch 194,195,

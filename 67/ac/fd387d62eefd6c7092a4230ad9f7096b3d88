@@ -1,0 +1,4 @@
+changeset 3e70cbb9e087e2f41165956a7243739322e0cb69
+manifest 0691afd818ce17c2c62a711e27584efd5d74c80f
+files toolkit/components/social/test/browser/browser_frameworker.js
+patch 215,216,

@@ -1,0 +1,5 @@
+changeset 824d9caf0aea7fe77a726c8a777168bec2a5c6d8
+manifest a4495c2ad34adddde9142dffc0aa3b86985cefa1
+extra rebase_source:b65758e610753099f73f0b867ec5fa518637230b
+files browser/components/customizableui/test/browser.ini
+patch 403,477,

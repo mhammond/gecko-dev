@@ -1,0 +1,4 @@
+changeset a3eb07c249c423d3ff2ee258665be51480a404be
+manifest aaed259622ebe194c36feac0e7ea25fedb5c4364
+files js/src/jsgc.cpp
+patch 187,188,

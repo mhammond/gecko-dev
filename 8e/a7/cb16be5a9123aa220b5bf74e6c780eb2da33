@@ -1,0 +1,4 @@
+changeset 004350b7a05d12b7c0bfe72b9165a40757d80c4b
+manifest 13c8309108aa8dd1b1ecdf8aed26e209724eb12e
+files dom/events/test/test_bug524674.xul
+patch 226,227,

@@ -1,0 +1,4 @@
+changeset 464b4f52409403bd927e4c978c8a5fc8f7df6631
+manifest cde682ed587c1991feef5d4eef23ad58fa327fe5
+files js/src/jit/arm64/vixl/MacroAssembler-vixl.cpp
+patch 507,508,

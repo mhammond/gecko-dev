@@ -1,0 +1,5 @@
+changeset a7aa5b40eaeaec9d277fdf66709c6765b44d926e
+manifest 89779126f897bd7e9dbd94f9dd966e6b4ff01b1a
+extra source:7666e62d299dda5738c00420284af78ed81c90ff
+files netwerk/cache2/CacheFileChunk.cpp
+patch 271,338,

@@ -1,0 +1,4 @@
+changeset c7f6177f04cfe0c62520ee5ac620b0d79e39e981
+manifest b1ee05fdf5e5709d54a08ba7f5200d2a15cb43da
+files python/mozboot/mozboot/debian.py
+patch 240,241,

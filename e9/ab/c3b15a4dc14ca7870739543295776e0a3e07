@@ -1,0 +1,4 @@
+changeset 422dd7521fa3e2d1712b5b011fc978e7d9e3cddd
+manifest a53bfcbe6358838575eebfc2fa5ce72b7d1d9cdd
+files js/src/jit/mips-shared/MacroAssembler-mips-shared.cpp
+patch 348,349,

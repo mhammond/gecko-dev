@@ -1,0 +1,5 @@
+changeset 4a28831d14d63e3dde9c2c0fd906f0672cdd00e7
+manifest 6ca58d0c96035272651c13f6b681cfb588b693ef
+author Zach Miller <zmiller12@mail.wou.edu> and Kevin Hutt <khutt12@wou.edu>
+files browser/base/content/browser-fullZoom.js
+patch 243,244,

@@ -1,0 +1,4 @@
+changeset ae624035d31e8cb316e8dda8a333693e4eba7f2c
+manifest 2feed0c689c83570bef15c58a8ddf2bd90ef0fad
+files media/libstagefright/binding/update-rust.sh
+patch 333,334,

@@ -1,0 +1,5 @@
+changeset 6ef6ea1d4437d7114b1f0e581ab752d277eac603
+manifest a0ee24e50df8334f5deff623c558130d6f7ffff6
+extra amend_source:40a0c2ba9c07757e5895a822ce3bb8b197674554
+files security/manager/boot/src/PublicKeyPinningService.cpp
+patch 432,505,

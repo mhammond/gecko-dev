@@ -1,0 +1,5 @@
+changeset 49b753c21c0390f00697268bb7f0563f168407c3
+manifest b991a9b15a3ae47581d51dcbb73127be506ba1ca
+extra rebase_source:84ce7e9ce9037379aaac26f1ae4b87315c9fcde9
+files dom/indexedDB/test/browser_perwindow_privateBrowsing.js
+patch 374,448,

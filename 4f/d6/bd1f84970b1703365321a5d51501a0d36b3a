@@ -1,0 +1,4 @@
+changeset 273ba0af084ea84e31da7c3b79ad942f190d63f9
+manifest 60c1fcea8cef3aff0c52bb5eb2f15bae646983b4
+files js/src/builtin/Generator.js
+patch 204,205,

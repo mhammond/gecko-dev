@@ -1,0 +1,4 @@
+changeset fa50c9c02b3ce8c4516b8a5c0e51d62159faafcf
+manifest 669e0cee62da609aae3b51eb59005b1b4585ad75
+files browser/components/preferences/in-content/content.xul
+patch 245,246,

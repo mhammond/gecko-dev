@@ -1,0 +1,5 @@
+changeset a560e8f9999136d20f2b3d6e270fb2e82a1c41d3
+manifest bfe1a2b5284a46ce9b43e6302f9873d62dddb734
+extra commitid:ASx6NewBYHr
+files js/xpconnect/src/XPCWrappedJSClass.cpp
+patch 229,269,

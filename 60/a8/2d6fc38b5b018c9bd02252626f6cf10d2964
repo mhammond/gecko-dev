@@ -1,0 +1,4 @@
+changeset 82fdff82a2d08300ba8d3cb22bd4f25ec7508011
+manifest daf9ba217b03b0cfe71e0e75c0f3999cd6035798
+files netwerk/base/src/ArrayBufferInputStream.h
+patch 181,182,

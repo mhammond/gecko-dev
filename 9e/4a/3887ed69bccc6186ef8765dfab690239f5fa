@@ -1,0 +1,4 @@
+changeset 7a5baf370ad97f1e76c66f6f0c7a6c1806173bfc
+manifest 05c6881213043b2b32de908f53cf7bbb04af9448
+files ipc/chromium/src/base/rand_util_win.cc
+patch 172,173,

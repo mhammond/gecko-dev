@@ -1,0 +1,5 @@
+changeset 32be2fe53fcd2bd834772d62c79d99da389318d3
+manifest 0736f87603e1fb724553f96f89c1023338abf6bb
+extra rebase_source:e18ff21cd0df144b4ecfcccee0bd36f4eae22978
+files media/webrtc/signaling/src/peerconnection/PeerConnectionImpl.h
+patch 343,417,

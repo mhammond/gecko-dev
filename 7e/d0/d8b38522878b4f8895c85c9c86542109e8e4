@@ -1,0 +1,4 @@
+changeset 653925f77eeca14a0fc44472da94fa8be0ed9e1a
+manifest 3804d8f0ae9d1299efadb264c9830ff671240fea
+files devtools/client/shared/AppCacheUtils.jsm
+patch 251,252,

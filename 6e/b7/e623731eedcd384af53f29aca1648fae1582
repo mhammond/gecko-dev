@@ -1,0 +1,5 @@
+changeset ddfcd5c87f76700e388f712ecd4825f1d6170775
+manifest 8ae0b6fbd6c69e1ae0f77438b7c0cc06d25f9319
+author "Anup Allamsetty"
+files dom/system/NetworkGeolocationProvider.js
+patch 183,184,

@@ -1,0 +1,4 @@
+changeset 2fb51f179164d21bc4f2c3952d28225bd2099bfa
+manifest 55818465992ee736c7eb7a5b1b629ffb3a40ae44
+files js/src/jit-test/tests/tracelogger/bug1257194.js
+patch 265,266,

@@ -1,0 +1,5 @@
+changeset 42c6ad3fc6838d781b21ec8671238e473569db45
+manifest 9f3789bdaca21b10da0dbb40da292547732de9e9
+extra rebase_source:6d2419b5495c16621c60dac5501598de72502273
+files toolkit/components/passwordmgr/test/mlogosm.gif
+patch 299,373,

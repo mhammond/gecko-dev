@@ -1,0 +1,4 @@
+changeset 4e0ea7414288b747eefd0eb0dd7e2bf225774b30
+manifest e001fab2af52f891215d0e89cde3c10710c1acc8
+files browser/extensions/pdfjs/content/build/pdf.js
+patch 223,224,

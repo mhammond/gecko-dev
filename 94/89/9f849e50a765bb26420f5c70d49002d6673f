@@ -1,0 +1,4 @@
+changeset 5ee3807b4bb24c5fef5d4262c05749118a98943c
+manifest d1d24dfc69d9a60027a155d424d1c383bca1fe33
+files image/decoders/nsPNGDecoder.cpp
+patch 222,223,

@@ -1,0 +1,5 @@
+changeset 60a7a67cbf5c20038e0ba9b8f95f0355a5690dda
+manifest 9080013f168fb5575dcaad506289553f53b6ec96
+extra source:9e64e9666b4062358e4c81deb3b775b7cb18e84b
+files mobile/android/base/toolbar/BrowserToolbar.java
+patch 283,350,

@@ -1,0 +1,4 @@
+changeset a404231c514af1c61920055f7a004bd09e52b392
+manifest 68c77edce916a08479abc958a394ab43746627d9
+files gfx/layers/apz/util/DoubleTapToZoom.cpp
+patch 257,258,

@@ -1,0 +1,5 @@
+changeset f564985a35521b6fca54950585329f87d60414b2
+manifest d42b3311b55267d02ff8f902c3388390087a8627
+extra rebase_source:7f8a8a3aa5b90be376250fc712ccbbe7ae6d2790
+files testing/mozharness/scripts/push_apk.py
+patch 302,376,

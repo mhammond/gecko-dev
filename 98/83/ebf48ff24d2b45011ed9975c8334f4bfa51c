@@ -1,0 +1,4 @@
+changeset 71c1cea7ff978e2724fe23424d61e6729af25c14
+manifest 67e3bce2b13dc056d17193bdb9795912e54bd29e
+files toolkit/devtools/server/actors/object.js
+patch 194,195,

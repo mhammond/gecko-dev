@@ -1,0 +1,4 @@
+changeset 355a739ac8c47830acfa9dce0cad01c6b6946dae
+manifest aaaffc1f323670a5732b7e5afcad26635cc7ba64
+files tools/profiler/gecko/ThreadResponsiveness.h
+patch 313,314,

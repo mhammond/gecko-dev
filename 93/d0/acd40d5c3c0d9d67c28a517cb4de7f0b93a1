@@ -1,0 +1,4 @@
+changeset 3c4555f38aad95670c2a77826ed0f3106a487ecd
+manifest de43ddad6e7dea88267ff894f75ad3cd21925c0e
+files dom/nfc/gonk/NfcService.cpp
+patch 181,182,

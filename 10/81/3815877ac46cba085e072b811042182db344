@@ -1,0 +1,5 @@
+changeset 68c376956c7527aac587f1589ca2234488e74f14
+manifest a5b168391a3b11ecf1e68c0cb6995037f05b0c4b
+extra source:fcdfc525b830d0ae5af0c91ec941febdd5ff8bfc
+files devtools/client/webconsole/test/browser_webconsole_bug_585956_console_trace.js
+patch 363,430,

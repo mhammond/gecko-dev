@@ -1,0 +1,5 @@
+changeset f46b258468565665bddb428f1d7993c2104d3af8
+manifest 944a1d742071809c6e6ea0b24438d5613f705260
+extra amend_source:a872853f6801635cb695738658d8ffb0ba26d39b
+files toolkit/content/widgets/scrollbox.xml
+patch 326,399,

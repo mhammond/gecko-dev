@@ -1,0 +1,4 @@
+changeset 7d868cd247b56716565f1a37972d18c2494cd947
+manifest ef851d542cea3d927e3f517d892eb4adbfedde51
+files netwerk/base/nsNetUtil.h
+patch 194,195,

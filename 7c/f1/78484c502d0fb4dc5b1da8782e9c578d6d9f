@@ -1,0 +1,5 @@
+changeset 9f720f8aea14dbbb20cec93a5bbe5591cce2e3d8
+manifest 365f9f7850605e53d73e8efcc5052d3b0019d399
+extra rebase_source:ba0b92859105afcc6f2101a95e74b99b5a3f9aae
+files dom/tests/browser/browser_ConsoleAPI_originAttributes.js
+patch 646,720,

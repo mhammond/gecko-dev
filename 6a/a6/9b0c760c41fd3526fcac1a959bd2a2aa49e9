@@ -1,0 +1,5 @@
+changeset 9244d6ffd56a7eb07f6c969e2c354ed1367f60a1
+manifest 74842cb30f2c237c4412e519ed6c256aba4710da
+extra rebase_source:abefc33d441605871800c87856324ce72eb41aad
+files toolkit/modules/InlineSpellChecker.jsm
+patch 234,308,

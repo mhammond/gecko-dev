@@ -1,0 +1,4 @@
+changeset 2aaa6d7fab6ee58250c52e5c1327bf56ede31a41
+manifest 7b7eb0cc69b17343f25689c1e5f90853389ff4fb
+files media/webrtc/signaling/src/peerconnection/WebrtcGlobalInformation.cpp
+patch 251,252,

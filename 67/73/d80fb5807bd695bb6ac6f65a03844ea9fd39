@@ -1,0 +1,4 @@
+changeset 7ea688b10bcc1cdcbc92186f850283261c3a5d18
+manifest d8508b06f5339f301f9063359fe926eac64d3754
+files browser/devtools/performance/modules/widgets/marker-details.js
+patch 218,219,

@@ -1,0 +1,4 @@
+changeset fb8fdc09bd1e0b78a7c19c64d15007a247d40b43
+manifest 6e6e206aebb134365d163e43ba9583c9ac8368db
+files netwerk/base/nsINetUtil.idl
+patch 271,272,

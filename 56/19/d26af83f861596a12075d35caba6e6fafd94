@@ -1,0 +1,5 @@
+changeset 85ce273e1c6b6ce81cd923fe03165e9c45130492
+manifest beafc217ba237c33f86766406d5652971a6bc8b4
+extra rebase_source:07a9a41ab745907306baf420a747423d995ab9d4
+files mobile/android/base/java/org/mozilla/gecko/media/MediaControlService.java
+patch 333,407,

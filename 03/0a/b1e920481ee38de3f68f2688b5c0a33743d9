@@ -1,0 +1,5 @@
+changeset 53fc06a96f27f5a9e9b8870831afaabf5166cbde
+manifest 1400c834e2040e07ebdf7fce5f863eccc4b90f4b
+extra rebase_source:1f80c6b2f9c08d5f943e7a7e11283cc19e5d7730
+files browser/base/content/test/social/browser_social_activation.js
+patch 329,403,

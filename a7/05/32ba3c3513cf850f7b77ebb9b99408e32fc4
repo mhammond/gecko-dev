@@ -1,0 +1,4 @@
+changeset 9559fc45255d977119be95fc5fb896bc41c27adc
+manifest ee1c1b7b5865fe4464586705b4ea0ce8fd67c310
+files netwerk/protocol/http/nsHttpConnectionMgr.cpp
+patch 310,311,

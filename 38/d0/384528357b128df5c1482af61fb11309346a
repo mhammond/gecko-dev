@@ -1,0 +1,5 @@
+changeset 1bf77ab3474c1e81197cb41763037f920aad61a1
+manifest a0b0d3179a96c544f86bd424fc10a9b6b14b72f7
+extra rebase_source:208b4535f8a7d33a81dd0937a4fcbe38ee46335d
+files widget/SystemTimeConverter.h
+patch 481,555,

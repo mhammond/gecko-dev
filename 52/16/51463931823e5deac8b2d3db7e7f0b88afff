@@ -1,0 +1,5 @@
+changeset 2d2e1828198272efcc76d0a62b54cfd146143534
+manifest 22cccaeab31f1dbe4d3aa55e9403614426fb5a6e
+extra source:f090915a20c5d1281cd49a7aa7668ad77f83435a
+files mfbt/XorShift128PlusRNG.h
+patch 258,325,

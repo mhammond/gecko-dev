@@ -1,0 +1,4 @@
+changeset 0db0d77b32a976e085f019168dbc881e30a15b9e
+manifest bfcf8e31efb4f6b2001bc58cf109e76ed92c4d9c
+files testing/mozharness/configs/beetmover/en_us.yml.tmpl
+patch 193,194,

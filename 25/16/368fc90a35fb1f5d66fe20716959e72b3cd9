@@ -1,0 +1,4 @@
+changeset 4e60a3ad8b3948dc40e04ac9e77a8dadc34b6717
+manifest 81cd865587add1d0982fd4e0a50e1574213ed05f
+files netwerk/base/nsURLParsers.cpp
+patch 231,232,

@@ -1,0 +1,5 @@
+changeset 0c264a5558d682b29b86d5f9031670c7643d13ab
+manifest 8c1b4b01591d98e34a7943e99a9a0cdcb8ff6c2e
+extra rebase_source:062079fcb42c4c101ac2fc3669aa7a09d6126324
+files gfx/angle/src/common/angleutils.h
+patch 269,343,

@@ -1,0 +1,5 @@
+changeset 830427b0d451e6fe2bd5b50da44042a6dd106c65
+manifest a4dbfd31011ddceb41a365780122d05fc30575a9
+extra rebase_source:6f33269ad98bfd934f8d474455e6a40586bb4343
+files addon-sdk/source/lib/sdk/windows/firefox.js
+patch 283,357,

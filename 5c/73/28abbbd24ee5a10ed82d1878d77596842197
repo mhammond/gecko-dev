@@ -1,0 +1,5 @@
+changeset 0e40a09d2e9b23075e628f70d1d0575aa2507d2b
+manifest e1c83556b83a5d20017f9c0b1a855043a9e02e2e
+extra rebase_source:cfef0e018eb8ec2d59fc0406f39a78ac2c9e50be
+files xpcom/base/nsStatusReporterManager.cpp
+patch 272,346,

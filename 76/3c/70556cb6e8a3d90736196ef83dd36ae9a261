@@ -1,0 +1,4 @@
+changeset a23e33e1f774f0e4b15dac8baf4f13b498cbc1e0
+manifest f2c8c3c43594c07f79b19dfbc22bed2002c40792
+files browser/devtools/performance/modules/widgets/tree-view.js
+patch 295,296,

@@ -1,0 +1,4 @@
+changeset 178d2dc5f4a290b511cd1bfc8d6c88bbabdb98d7
+manifest 867f323c528eb90af17f416d333f16c25a455f7d
+files testing/web-platform/harness/wptrunner/browsers/firefox.py
+patch 655,656,

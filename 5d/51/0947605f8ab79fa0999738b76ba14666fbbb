@@ -1,0 +1,5 @@
+changeset b031fc40cf45213e29c085292568a22ef9d5621c
+manifest 49c93fdc3e506d96bff30adc6dfe5bf01101bac0
+extra amend_source:62ad87e3137fe799e96aae1e941480ce9313765c
+files browser/components/preferences/in-content/privacy.js
+patch 292,365,

@@ -1,0 +1,5 @@
+changeset a8f9f7aaf2762ab83225cc37a3bcd77fac353c0a
+manifest b83103861bc56d6473228f1465d056ac6db7bce3
+extra rebase_source:a134fed8ef23090eafd7587df1bea73f328a21e2
+files toolkit/modules/GMPInstallManager.jsm
+patch 454,528,

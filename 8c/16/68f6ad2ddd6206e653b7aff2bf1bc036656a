@@ -1,0 +1,4 @@
+changeset 4a8be5bac3533eaf73bbe06d9ab3a3525c8abc23
+manifest 5d1200e75a2954a5e7101129ba880a8cd64b7c22
+files browser/components/newtab/tests/xpcshell/xpcshell.ini
+patch 240,241,

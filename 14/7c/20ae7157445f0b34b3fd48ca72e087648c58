@@ -1,0 +1,4 @@
+changeset 303576fae3933ed817545e5beb3d92128fe6caea
+manifest 2c2f05ec50d6072a14fccdebed48a68e5bf97829
+files mobile/android/base/java/org/mozilla/gecko/favicons/LoadFaviconTask.java
+patch 746,747,

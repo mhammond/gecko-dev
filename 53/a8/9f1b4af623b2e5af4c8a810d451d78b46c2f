@@ -1,0 +1,5 @@
+changeset 2c625c92b5fcb9969b45966e34b266d5cf64e1e1
+manifest a25f3dd7a37549e1e6d6db740514e5d589692f3d
+extra transplant_source:œ®¡bû‰#oËÆ:há'F­ú"šì
+files devtools/client/webconsole/test/browser_bug664688_sandbox_update_after_navigation.js
+patch 780,870,

@@ -1,0 +1,4 @@
+changeset 79aeff6684f60f3871af00609596eebaf426c663
+manifest ccd4797da2782a44b5c0a18bdf035d1b600fe3d6
+files dom/xbl/nsXBLPrototypeHandler.cpp
+patch 314,315,

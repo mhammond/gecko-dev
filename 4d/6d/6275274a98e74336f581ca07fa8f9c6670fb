@@ -1,0 +1,5 @@
+changeset 23db5a21968c1b6b4036dfab7d64b14d366b833b
+manifest bee8f6f57109f749ca120eb94b9fb8d9ef53b026
+extra commitid:7BAzroyoO31
+files gfx/layers/apz/src/AsyncPanZoomController.cpp
+patch 315,355,

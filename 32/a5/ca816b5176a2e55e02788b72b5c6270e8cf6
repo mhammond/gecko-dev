@@ -1,0 +1,5 @@
+changeset 5d761723a89949e567b4e118dcacad5010063c60
+manifest bb941819a735defd0849fde2f0b8593a9fec6c84
+extra rebase_source:770e87ff6d01cc865ecceab0615948b515fae245
+files toolkit/components/passwordmgr/test/unit/test_disabled_hosts.js
+patch 344,418,

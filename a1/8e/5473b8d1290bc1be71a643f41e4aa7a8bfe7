@@ -1,0 +1,4 @@
+changeset f5f52be48ea4036dee41e6bf1f392e3cf781e5c3
+manifest 7219adb0301c22cdbe5d59e4d74cdd82bfac2f87
+files dom/nfc/tests/marionette/manifest.ini
+patch 266,267,

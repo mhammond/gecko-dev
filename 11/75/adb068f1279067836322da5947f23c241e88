@@ -1,0 +1,4 @@
+changeset d86bb3dff4bab20c88bc2f0f298cb2537626ce1b
+manifest 98dc453bdb9aaae031d83aae3540ea23e7f02f19
+files toolkit/components/places/nsNavBookmarks.cpp
+patch 418,419,

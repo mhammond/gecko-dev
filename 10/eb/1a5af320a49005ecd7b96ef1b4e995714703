@@ -1,0 +1,4 @@
+changeset a9609f981f978909be000e7025e84eff5209d05c
+manifest 9bf9b0c41aee296bbc243227618ca0b09f7a5019
+files mfbt/tests/TestSegmentedVector.cpp
+patch 574,575,

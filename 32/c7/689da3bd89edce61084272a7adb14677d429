@@ -1,0 +1,5 @@
+changeset 34a3c2d3359fb3b233a2a46f4e176459ace6b354
+manifest dea1713724b1c3611454384c5e01a000662834b2
+extra rebase_source:a520f88aa2efecad0a7c38237deda24b9c0a9ab6
+files mobile/android/base/resources/drawable/tab_panel_tab_background.xml
+patch 404,478,

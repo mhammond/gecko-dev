@@ -1,0 +1,5 @@
+changeset 8996aca3a0059565159bad5053358df3541c95b1
+manifest dfe4def72c298dc100265269cfb7a18051900a7a
+extra source:ecf81bf18bdf7939aa0e70e698c40dbcb9dcb7b4
+files mobile/android/base/AndroidManifest.xml.in
+patch 953,1020,

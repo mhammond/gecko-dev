@@ -1,0 +1,4 @@
+changeset 6a78b8c67f601060e213cc96f853e258410ba869
+manifest 3ff0bf45282d99a022326409c53f3eee9f51ad2a
+files devtools/client/framework/test/browser_toolbox_tabsswitch_shortcuts.js
+patch 242,243,

@@ -1,0 +1,4 @@
+changeset 776291003f32152403d132e9316765596fcd96c0
+manifest 8ce9de0fb73b6ebdd7d45704a39d9dd5071aaddc
+files toolkit/components/places/tests/queries/test_redirectsMode.js
+patch 266,267,

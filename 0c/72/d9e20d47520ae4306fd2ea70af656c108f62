@@ -1,0 +1,5 @@
+changeset d0a139d1f27c298ec7fc3a250d8f3609ce18609d
+manifest dd48ad82880baee93866386bcb9be2da951e4cfc
+extra rebase_source:391b729d78e5cbeebba09b9a3255bd217169e9cb
+files gfx/layers/AtomicRefCountedWithFinalize.h
+patch 326,400,

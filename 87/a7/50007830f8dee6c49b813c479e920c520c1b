@@ -1,0 +1,5 @@
+changeset 2269f770b2e7a2d103077ca1ada9af1785b648b2
+manifest b66ab98a5d8b551829fa4d963273984a5e7be0de
+extra rebase_source:560e5e1a6711d8f34f12803e5aabf4f09e769706
+files mobile/android/base/java/org/mozilla/gecko/icons/IconRequestExecutor.java
+patch 422,496,

@@ -1,0 +1,4 @@
+changeset 1ae619a566f0de7627a8344cff45fa097b8eb789
+manifest f9c408c0a09c1365ab860e6b58894011a3b8304e
+files xpcom/base/StaticPtr.h
+patch 344,345,

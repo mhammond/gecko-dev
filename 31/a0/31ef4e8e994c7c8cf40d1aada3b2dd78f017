@@ -1,0 +1,5 @@
+changeset 0bede6f91fa308e128cf01bd0c55fb8832621856
+manifest a3f6cd2c3e08ee5ef5d6f2c29c0471c0d38ffb17
+extra rebase_source:2f242ac623dedca03e22a5bb590c4c63076bb707
+files js/src/vm/Debugger.cpp
+patch 279,353,

@@ -1,0 +1,4 @@
+changeset a89bd4876d4d3cbeac2e4b85e99b903a7f9a59c1
+manifest d6845eb3489bc9a0afb34e028efd0d7c70205ffe
+files devtools/client/locales/en-US/debugger.properties
+patch 267,268,

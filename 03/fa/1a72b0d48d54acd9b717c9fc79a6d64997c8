@@ -1,0 +1,4 @@
+changeset ae06aaa4f0cf8e468f79ed9bc44b36fabf419259
+manifest bec1df0ea4c871fb833c13b5474c79b608f4bc81
+files devtools/client/webconsole/test/browser_console_keyboard_accessibility.js
+patch 332,333,

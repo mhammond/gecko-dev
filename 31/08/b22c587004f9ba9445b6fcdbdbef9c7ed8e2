@@ -1,0 +1,5 @@
+changeset 6bac6a4be8107c10f21c8def5711755a5a6188d2
+manifest 805f423532ba562335f65b8bcf0a37a43959ae60
+extra rebase_source:1a611debbb14a1c99e4abb1544de8d477c3906b0
+files browser/devtools/styleeditor/test/head.js
+patch 264,338,

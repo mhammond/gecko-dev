@@ -1,0 +1,4 @@
+changeset 2f9a3a609582d45b1adee9150ff86d3e3711f759
+manifest abc33314485c94d7c0583603584fd038fa837408
+files addon-sdk/source/lib/sdk/event/utils.js
+patch 242,243,

@@ -1,0 +1,5 @@
+changeset 1f862b370ab30e4af43764427ed8ff6ee43e9a37
+manifest 08127e7267145641fd096856ac2a1a66c804e0c0
+extra commitid:BpAqgipPvYN
+files js/xpconnect/src/ExportHelpers.cpp
+patch 225,265,

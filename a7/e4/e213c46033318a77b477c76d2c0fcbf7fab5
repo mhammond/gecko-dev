@@ -1,0 +1,4 @@
+changeset f41a22a14e0db226793f5912caa31548d44aa6ea
+manifest 6710cd15108249265df30aa7cfefc67b8151d733
+files dom/system/nsDeviceSensors.cpp
+patch 196,197,

@@ -1,0 +1,5 @@
+changeset 5b1c0aca5bf674dc29230e8de500942a776345f1
+manifest 2d954876d26b7d3e87b21d0ea93d333dbc7253f7
+extra rebase_source:9d9fe731ef616a9fbcbcd4844412a6886dd940fd
+files dom/media/gstreamer/GStreamerReader.cpp
+patch 261,335,

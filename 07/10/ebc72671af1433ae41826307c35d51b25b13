@@ -1,0 +1,4 @@
+changeset 0470aed61cdbf39314797534b086f39918f8dbc9
+manifest 74e043d6a78940be196ecbc26029a3d75e10d413
+files webapprt/test/chrome/browser_debugger.js
+patch 252,253,

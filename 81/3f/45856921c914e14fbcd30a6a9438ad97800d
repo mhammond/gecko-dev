@@ -1,0 +1,5 @@
+changeset 905fc17095246f78a209bec1579754e37a2c8fbe
+manifest 20e5b38e39271b278cb8cfaacd250066bfdb3a37
+extra rebase_source:db82d3074252c900796bade8822b2158122c39c4
+files browser/confvars.sh
+patch 298,372,

@@ -1,0 +1,4 @@
+changeset 15321131e53b287bf27a4c555d341e02ce1d6248
+manifest 773bee5cbf2a00e841ab24534de010c5b4a1c15b
+files dom/bluetooth/BluetoothSocketObserver.h
+patch 196,197,

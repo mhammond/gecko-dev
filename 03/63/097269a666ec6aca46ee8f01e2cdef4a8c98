@@ -1,0 +1,4 @@
+changeset 7e6c979736eb217a70bb91e5f57eb1344f3e0140
+manifest 1fd34cc3a3cf8cc8363420772921973cf39a8631
+files dom/events/test/test_bug432698.html
+patch 234,235,

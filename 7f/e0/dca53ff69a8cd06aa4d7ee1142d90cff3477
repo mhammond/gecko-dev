@@ -1,0 +1,5 @@
+changeset 4638866dd45512a0dace67c1d7246064914ac255
+manifest 50f5868a2d6cad262a11e0b78d91bba7a59284e4
+extra rebase_source:6d458a3a79f307408668b23397d7ff391b3b2c90
+files browser/modules/DirectoryLinksProvider.jsm
+patch 337,411,

@@ -1,0 +1,5 @@
+changeset 3dc5292ed66afbca801c33bff49c86154b3b3c24
+manifest 9b7984ecdd879adbb7820abf82667d20da1f5d88
+extra rebase_source:25184cff9f5d4f8433ade07bf6f94a80daf46682
+files toolkit/content/tests/mochitest/test_mousecapture.xhtml
+patch 349,423,

@@ -1,0 +1,5 @@
+changeset 934d7c9628f149b21c1270fc7fd0f18d50936140
+manifest 1138247c5dc75418e61352627ef3f849252f803b
+extra histedit_source:b6bb0aeb246e6b304b3379a5a285ab74144a9014
+files xpcom/base/ErrorList.h
+patch 280,356,

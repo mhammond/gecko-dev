@@ -1,0 +1,5 @@
+changeset 3f09847e89d1d34c76aa4b69f7323bf0896a2582
+manifest 3a2e5fadb799b2249176a7e4eaeb136ec39b2df0
+extra source:a5f6e1f0e0e807a615f4f3ce1c395d60b0a1323d
+files widget/gtk/nsPrintSettingsGTK.cpp
+patch 286,353,

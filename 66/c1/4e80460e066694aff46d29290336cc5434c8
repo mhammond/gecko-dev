@@ -1,0 +1,5 @@
+changeset fae12b6114b8fe8a26ef9c69fbc4c09ce7a7f14a
+manifest 1cc8fb59fd289819fc89726d02acb9eea1887616
+extra rebase_source:a76f7c5620c0b7f0030912703b9341e8d34a590b
+files dom/base/contentAreaDropListener.js
+patch 290,364,

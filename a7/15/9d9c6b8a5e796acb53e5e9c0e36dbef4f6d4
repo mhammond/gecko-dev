@@ -1,0 +1,4 @@
+changeset c0fc5f0d1173eed6936196d3e2202d160fb98f02
+manifest 25895f84cb223d2db20fabfd94993eaa58d7fe95
+files js/src/jit/mips64/Assembler-mips64.cpp
+patch 189,190,

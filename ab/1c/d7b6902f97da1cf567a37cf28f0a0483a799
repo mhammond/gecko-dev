@@ -1,0 +1,4 @@
+changeset 0924d8ec4bd78dacd5f01970fb9a2941fbe66cf8
+manifest 8d77386ec73179ed5d0821e4b198893c6b3103fd
+files layout/style/nsTransitionManager.cpp
+patch 536,537,

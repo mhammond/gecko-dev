@@ -1,0 +1,5 @@
+changeset 560000c81653f2781d97b21d07684ada0c46dff0
+manifest 1234d6ea81a3f6b7e08c5eb6dd6298a3013c13a8
+extra rebase_source:f5b3e3d458efe0ff8b32c0bd68f4c3b8cb5112a0
+files testing/puppeteer/firefox/firefox_puppeteer/ui/windows.py
+patch 526,600,

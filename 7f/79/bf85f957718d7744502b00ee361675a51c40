@@ -1,0 +1,5 @@
+changeset 553e9e8548dee0c89f8f8e3359ed7433465c7ac2
+manifest bdbccfd27a78e540088975eb4fe401f4d640182e
+extra rebase_source:0a2a4a7a735866c27328ca30652d399b3895e304
+files browser/base/content/browser-fxaccounts.js
+patch 359,433,

@@ -1,0 +1,5 @@
+changeset c3aeacd9937524a4f7e258c3d0a23c9ee0630689
+manifest 7d9937c4becf00e2d3c14f39eaebfe342e26d5bf
+extra rebase_source:f0d0880a50c0597b10c6e97c13f04ae7cf6cc131
+files testing/mozharness/configs/hazards/common.py
+patch 567,641,

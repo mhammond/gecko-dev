@@ -1,0 +1,5 @@
+changeset 47fa2df291d4a019a4e4dd2ef9c84806da1d72a8
+manifest edfda46a1b570018872e8849da336db32f76e80c
+extra rebase_source:fc390ed0cd902c2195cdaf8c151fcbe69050beb3
+files media/libcubeb/src/cubeb_wasapi.cpp
+patch 292,366,

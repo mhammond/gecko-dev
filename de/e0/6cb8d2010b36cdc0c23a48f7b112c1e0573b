@@ -1,0 +1,4 @@
+changeset 829ee40cf65526c7b1b96b289be9f11d3a9d05f5
+manifest f489b49f542ce854b556d78fa79264d9a8546872
+files dom/base/nsFocusManager.cpp
+patch 187,188,

@@ -1,0 +1,5 @@
+changeset a24bdacce4cc3c5e35c2dd6c873989316284abdb
+manifest 81d064c5a8af69e21b766f40058933418b40b039
+extra source:aa2fa3cb933ba1225bf5d47c05a40fbf699d692e
+files media/libstagefright/binding/DecoderData.cpp
+patch 276,343,

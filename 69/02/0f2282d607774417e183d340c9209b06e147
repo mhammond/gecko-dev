@@ -1,0 +1,4 @@
+changeset 0899b763a06608d2ecab5f2e2b96b437e828de32
+manifest c2fc941fa836fc99de90962f31ac581e4d266a49
+files browser/devtools/shared/LayoutHelpers.jsm
+patch 162,163,

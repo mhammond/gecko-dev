@@ -1,0 +1,4 @@
+changeset 517fcf1b96088de10c60e4a743a739b2c691e123
+manifest cd9c8183d14cbfab738833e7c8e55a9ecbaa271a
+files toolkit/components/telemetry/tests/unit/test_TelemetryReportingPolicy.js
+patch 305,306,

@@ -1,0 +1,5 @@
+changeset f940ea93119c2bcaf1010e58b0bec75c99a10c7b
+manifest cb1d1615fb5b041e9e2bfdc75c3d2ce25f1fb402
+extra rebase_source:eaed669fe31012fe381a0eb67f808be95c3133eb
+files js/src/jit/JitFrameIterator.h
+patch 341,415,

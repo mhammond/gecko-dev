@@ -1,0 +1,5 @@
+changeset 937f3feed15fd1877f4a15d29b5959c188b6933c
+manifest d59ce6b1ea29611e5865aba70667194f31cbb1c8
+extra rebase_source:3ebdf77ffe81c75a4fbd083d7328264b362d5f17
+files js/src/tests/ecma_6/Syntax/let-as-label.js
+patch 271,345,

@@ -1,0 +1,5 @@
+changeset c1ed0cd007f2ad022aa0268ae129bda938d36f8f
+manifest 349a9709e52a645e6aa7f8f97f54d90c133288f2
+extra transplant_source:w@D \0Ðo™1tKi‚³ŒcÅÓý
+files dom/security/nsCORSListenerProxy.cpp
+patch 266,348,

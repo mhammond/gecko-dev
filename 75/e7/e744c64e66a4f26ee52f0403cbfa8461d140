@@ -1,0 +1,4 @@
+changeset 4d973ff565c76b613ca685c4f99335c4343ea70f
+manifest cc6f0b0f13951fa88cff2fbc9c0529eb036f2fb2
+files accessible/base/nsAccessibilityService.cpp
+patch 256,257,

@@ -1,0 +1,5 @@
+changeset 3ed4c1405691d36144387453876a3cd1234b3b13
+manifest 750d7c5a79485df24e6e3f2a1c68e79d68bca343
+extra rebase_source:29b05a98557789a61b91ac27829ac84fe8add760
+files accessible/tests/browser/e10s/events.js
+patch 323,397,

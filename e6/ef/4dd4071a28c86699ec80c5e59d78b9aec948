@@ -1,0 +1,4 @@
+changeset a0610620d6d1bb4b98835ee7597cd7ccb8e84325
+manifest f217fdb2b7e12aaa56290a93b7ad59a95a577f09
+files browser/devtools/tilt/test/browser_tilt_picking_inspector.js
+patch 279,280,

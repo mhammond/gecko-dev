@@ -1,0 +1,4 @@
+changeset 1178c11561bced95d152701ce3865b16c4d6d1ed
+manifest 7dcb5fc3fb0a573d9a14b4267e0f3dd50b502e0a
+files security/sandbox/chromium/sandbox/linux/seccomp-bpf/linux_seccomp.h
+patch 251,252,

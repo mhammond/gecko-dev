@@ -1,0 +1,4 @@
+changeset 55d9f54c1a5845f20802532e9e730f2b5fdf81a9
+manifest 79f5c8294d23f05fa8a98da88777de9e6a63e176
+files security/sandbox/linux/broker/SandboxBrokerCommon.cpp
+patch 267,268,

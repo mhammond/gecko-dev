@@ -1,0 +1,5 @@
+changeset 9cb1ee777a66bce0f353a7527e16ef365371a859
+manifest 23e25376642b792d0e3ae32d49c67e18c261552f
+extra rebase_source:52ebb9cc89be69f6da70d2e5c6962b40e7fd910d
+files mobile/android/base/java/org/mozilla/gecko/feeds/FeedService.java
+patch 350,424,

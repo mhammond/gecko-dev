@@ -1,0 +1,4 @@
+changeset 1dac2ec926e83ac041c0598d0c403a9a12d41f7f
+manifest 3892ce321a641b4061f17590f14958e90c6d97bc
+files js/src/vm/SelfHosting.cpp
+patch 216,217,

@@ -1,0 +1,4 @@
+changeset 0cbbd74d9949e98cac76aaf1119eda68b0db0f97
+manifest ef13c815f955da8ac40ac85f8b1343d9523315d0
+files testing/web-platform/tests/service-workers/service-worker/navigate-window.https.html
+patch 268,269,

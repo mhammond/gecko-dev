@@ -1,0 +1,4 @@
+changeset a80c2504ff2f9a78ab6330d7019ef95e0aca45f4
+manifest 12596224f9c8c249caba187c67b6a16f6ec908e1
+files toolkit/xre/nsAndroidStartup.cpp
+patch 181,182,

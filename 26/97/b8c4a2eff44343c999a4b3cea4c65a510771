@@ -1,0 +1,4 @@
+changeset 15498c6d989510e3c181e959e952486b58efbcdf
+manifest cd1a3febe2a18ba902f40fc05c2bd1764ca87f54
+files xpcom/ds/nsStaticAtom.h
+patch 197,198,

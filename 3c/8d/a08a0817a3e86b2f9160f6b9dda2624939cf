@@ -1,0 +1,4 @@
+changeset aadf22720419511d0ad09cbced4aa085bc7c0385
+manifest e59084c8d6aabdbf741af595ee45c8025b6ed102
+files dom/bluetooth/bluedroid/BluetoothGattManager.cpp
+patch 239,240,

@@ -1,0 +1,4 @@
+changeset 89b4dd71d6a204852532d9bb2d52b744615d74bb
+manifest 65786163f7c299df29a8a66027ba399ac58c9018
+files devtools/client/shared/components/tabs/tabs.css
+patch 224,225,

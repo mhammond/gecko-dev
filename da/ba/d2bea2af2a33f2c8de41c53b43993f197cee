@@ -1,0 +1,5 @@
+changeset 7827e7019cb9308b10faacda143ddb34dd1f7a27
+manifest 8a7fb3851d63c748ecefd74d7a72e6bcee434267
+extra source:330fb1898594a589a4ec3b89635ccb296170885a
+files gfx/cairo/libpixman/src/pixman-bits-image.c
+patch 370,437,

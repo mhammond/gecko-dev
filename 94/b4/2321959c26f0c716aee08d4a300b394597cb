@@ -1,0 +1,4 @@
+changeset 63a11f9dc5d52a8cbe13d800c218dcfd23753d37
+manifest e00baa60521be4d8e7c5eb8758576675f0b5e332
+files mobile/android/base/AppConstants.java.in
+patch 186,187,

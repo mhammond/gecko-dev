@@ -1,0 +1,5 @@
+changeset d53875b32f92957b4531cb550a38377d0d3f1c64
+manifest 5b4aea2da7c02a7c9f2726d44751a826b2ead851
+extra rebase_source:0613f237b0605c5f5021ef73def012f71869a21d
+files browser/themes/shared/UITour.inc.css
+patch 293,367,

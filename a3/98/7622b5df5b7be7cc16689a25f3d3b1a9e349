@@ -1,0 +1,5 @@
+changeset 45d577adc4b0e68d16f7574334b41c58d46cff07
+manifest f7774616079b7b31656621c87d23c25aea2e009f
+extra rebase_source:2119dee77991f5aed2daf29d734330b59aa87430
+files toolkit/content/aboutSupport.js
+patch 322,396,

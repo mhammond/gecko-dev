@@ -1,0 +1,5 @@
+changeset a709f5626f7ce357eee9309fc1baa8184136fbfb
+manifest 4eb490f7f6e215906a19c0cb1b929136d2be764e
+extra rebase_source:ded89a9d1ca25b3fa0d35c552a8fc30cdfc85951
+files toolkit/components/extensions/test/mochitest/test_ext_runtime_connect2.html
+patch 338,412,

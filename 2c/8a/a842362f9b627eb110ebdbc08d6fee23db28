@@ -1,0 +1,4 @@
+changeset bbda4b92523f7e6bb24b53433901ea1d259fc6e4
+manifest 64ea33f2939960be0a55d9af9b4cbcdaef49db63
+files xpcom/reflect/xptinfo/ShimInterfaceInfo.cpp
+patch 1053,1054,

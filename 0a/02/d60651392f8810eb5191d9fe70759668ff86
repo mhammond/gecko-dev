@@ -1,0 +1,5 @@
+changeset bbfc4a235468722cf40f4fe94a2fc058ebe31206
+manifest 1d27f7cfc05cb669298ab014e8e0d3385f851316
+extra rebase_source:dd3cbddfd13488a057e88a023cbe882420b62912
+files toolkit/components/telemetry/docs/environment.rst
+patch 249,323,

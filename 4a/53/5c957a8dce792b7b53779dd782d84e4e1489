@@ -1,0 +1,5 @@
+changeset 7f2f23148b6913355705240df7b12b0e527f88d2
+manifest 5a45d107f8bf1ea5997328bcd6402a7f909cf575
+author Steve Workman <sworkman@mozilla.com>, Valentin Gosu <valentin.gosu@gmail.com>
+files netwerk/dns/GetAddrInfo.cpp
+patch 259,260,

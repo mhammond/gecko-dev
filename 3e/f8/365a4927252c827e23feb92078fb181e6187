@@ -1,0 +1,4 @@
+changeset 0a3440336fa8958a7e4347ecefa68f3266b33bb0
+manifest f108bb472db4da9b2d666d60723d4bb812ffb764
+files dom/xhr/XMLHttpRequestWorker.cpp
+patch 217,218,

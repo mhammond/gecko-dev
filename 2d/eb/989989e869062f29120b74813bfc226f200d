@@ -1,0 +1,4 @@
+changeset ace9c601cf141304fa2467bd8663cb2584d84c41
+manifest 97b383bf2ea9f8ba7e316b31d459c4ff7c5a9eb5
+files dom/requestsync/RequestSyncService.jsm
+patch 265,266,

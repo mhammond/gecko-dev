@@ -1,0 +1,4 @@
+changeset ebbd4386dbd3bfb23dc118fe1a6a63c3f51cf4c3
+manifest 94463e6ca558508dadcfc6800975f44f5cd4f646
+files extensions/cookie/test/unit/xpcshell.ini
+patch 225,226,

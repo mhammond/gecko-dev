@@ -1,0 +1,5 @@
+changeset 808a44ee14bde32c2d12e3c84245b77d9e968fbf
+manifest a08f3fe9d49ba58092c419d5cd7c44b00978fd6e
+extra rebase_source:e4867530905b53d8a35d5283418d5c814a074f0c
+files toolkit/mozapps/extensions/test/xpcshell/test_provider_shutdown.js
+patch 340,414,

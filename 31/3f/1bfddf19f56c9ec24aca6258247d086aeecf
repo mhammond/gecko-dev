@@ -1,0 +1,4 @@
+changeset 14c5fc69fe2f3dfda0228a9a47e60b8b961710e2
+manifest f470e8185ad186cbf29b0c2cbcee9104cd49d65b
+files mozglue/android/NativeCrypto.cpp
+patch 328,329,

@@ -1,0 +1,4 @@
+changeset 724958954a748af43cbc326d881804e67709732b
+manifest d7722692db6f2e62dbb476ba8337b8a510a09bb5
+files b2g/chrome/content/devtools/debugger.js
+patch 194,195,

@@ -1,0 +1,5 @@
+changeset 23da9dd0a0f3cdd10f620d0a19d9eb04080e6575
+manifest bc19ab14aa776d55bcb73d58a9f038b5db564f6d
+extra rebase_source:be5a285ae362ded52b7f9f02c5d3e4fe1fd6ec16
+files devtools/client/shared/components/tabs/tabs.css
+patch 305,379,

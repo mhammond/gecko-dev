@@ -1,0 +1,4 @@
+changeset 05c7a0d5353ed35865937f175e2e6a19fbebdf2b
+manifest 1bdb60d025cf3ad11d02a71ceb3c4b1981a031d6
+files docshell/test/chrome/mozFrameType_window.xul
+patch 291,292,

@@ -1,0 +1,5 @@
+changeset 4cb85604e7d71e3740fa0337da782bbbaf4eddb3
+manifest efb26508251443a0d1a51e023fbf9ae8c62a5188
+extra source:0bc73f0ee72c85847932ae11f57a323ea898f0cb
+files widget/nsPrintOptionsImpl.cpp
+patch 258,325,

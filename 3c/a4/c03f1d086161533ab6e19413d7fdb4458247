@@ -1,0 +1,4 @@
+changeset 5c7d19f4aed921f9ff2dba1206c71669d76bb7f0
+manifest c2416f0b2a1fd41d117b53a02a7fe87f350cbf49
+files xpcom/string/nsStringIterator.h
+patch 528,529,

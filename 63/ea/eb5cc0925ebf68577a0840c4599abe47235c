@@ -1,0 +1,4 @@
+changeset 7db43c31bdb7b4070e2e676022d39e81003c0d4f
+manifest 388d53242ab54c0ebf058e2a7f3f6c78c8ca7777
+files devtools/shared/webconsole/test/unit/test_security-info-certificate.js
+patch 265,266,

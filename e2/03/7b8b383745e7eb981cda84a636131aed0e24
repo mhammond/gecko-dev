@@ -1,0 +1,5 @@
+changeset c6404f3d787c497242d7a5cc2d1ea9796205e991
+manifest f312b8b6c4ec0e0c6eec8299714e87a1fde21712
+extra source:4d35b236cec7651049af00eac2dd38ba868c6cdd
+files gfx/layers/apz/src/TaskThrottler.cpp
+patch 288,355,

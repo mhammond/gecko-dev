@@ -1,0 +1,5 @@
+changeset 0691e88c6ff2ecf4c655eb1b982546d759b07266
+manifest 3a7e4d5493e4c11705c9aecb73d68433e6a0dae8
+extra rebase_source:03226a3e66ee5500c9584b3f52d95d0ab069dd6f
+files devtools/client/responsive.html/test/browser/browser_toolbox_computed_view.js
+patch 376,450,

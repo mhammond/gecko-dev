@@ -1,0 +1,4 @@
+changeset ce2807f90fcb5b9eb81b999fc3c4296950f1df1b
+manifest edff8323c15b1a0b3a9e8558a1437d5e5d3acdde
+files testing/mozharness/configs/firefox_ui_tests/qa_jenkins.py
+patch 356,357,

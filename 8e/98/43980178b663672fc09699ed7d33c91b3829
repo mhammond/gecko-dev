@@ -1,0 +1,5 @@
+changeset 12d5086eebb3f1a5a262249e8b8cd31bdcdd224e
+manifest 27ee177951ed779d920ac5b5922953b2b84262bf
+extra histedit_source:8c6a9382aa4e8fc7f3072e5372872ca6114264e9
+files toolkit/components/viewsource/content/viewSource.js
+patch 266,342,

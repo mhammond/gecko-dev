@@ -1,0 +1,4 @@
+changeset 467e7feeb5461030857e4bf25f48bf0ede5fbf25
+manifest 500ebc91b2a912bc05284edd4ac8b9afb0a00d51
+files dom/plugins/base/nsPluginLogging.h
+patch 359,360,

@@ -1,0 +1,5 @@
+changeset 811084dd7ec0b2d0049e570d7b6eac66a840ab99
+manifest e6ae06eccb8c9b3f1d7036047a935724aea6144a
+extra rebase_source:5e70290492fd442b79b4d40c300a263e322f485b
+files xpcom/base/nsTraceRefcnt.cpp
+patch 860,934,

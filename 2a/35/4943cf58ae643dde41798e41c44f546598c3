@@ -1,0 +1,4 @@
+changeset 639fda5a2910f618bbc4b34d8793eb813987d045
+manifest d21307218b4088bc8cea5b9b87fd91225f6f4e76
+files media/webrtc/trunk/webrtc/modules/audio_coding/codecs/isac/fix/source/transform_neon.S
+patch 412,413,

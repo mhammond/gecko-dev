@@ -1,0 +1,5 @@
+changeset 461be7d30fda2cb8889349aa426e121d4e466f47
+manifest 6cacd94fb63e32c580471be563f7027c25de29e9
+extra rebase_source:2f1822d26743480d2377e343288ae0edd2428330
+files services/fxaccounts/tests/xpcshell/xpcshell.ini
+patch 538,612,

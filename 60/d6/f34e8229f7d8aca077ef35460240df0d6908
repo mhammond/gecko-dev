@@ -1,0 +1,4 @@
+changeset 9e488d6b4dcc8ed47798371148e0cbe69b8d5f91
+manifest cfff62d23b766db327690158c0b66fa8ae4c0d5e
+files js/src/jit/mips32/Lowering-mips32.h
+patch 197,198,

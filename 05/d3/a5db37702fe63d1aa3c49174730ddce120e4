@@ -1,0 +1,5 @@
+changeset 1c46cc184a3b141075167329aa974e0cdfc93f99
+manifest bb62ce83cbb08802a2738856a734392292a46635
+extra source:2c21e96a98ed1dfc49e17cfb6837de9973e84b45
+files mobile/android/base/resources/layout/home_combined_history_panel.xml
+patch 324,391,

@@ -1,0 +1,5 @@
+changeset 5e8bede01474ef2af837a8ad177c0524885d5399
+manifest d3e53438c2f0b879d8683615be4b17464e6a44d6
+extra source:897d2094bec1210aee906b3021b8c52e3f6f460f
+files devtools/client/shared/widgets/filter-widget.css
+patch 315,382,

@@ -1,0 +1,4 @@
+changeset eae3e7c3dbbd7fdd56c29eb26345c26780f2a122
+manifest 0c65ac7195ab21ddaea49bbc81030830d556d6a8
+files dom/bindings/ErrorResult.h
+patch 293,294,

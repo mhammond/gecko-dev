@@ -1,0 +1,4 @@
+changeset eda5f62ab3732c63a8cb03f71351e71b1fd16c12
+manifest 29905aee79f10d4ef8e66b44af5e30c644490b02
+files dom/contacts/fallback/ContactDB.jsm
+patch 196,197,

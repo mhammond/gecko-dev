@@ -1,0 +1,5 @@
+changeset cdf79a0b9a3b9c26741e67df444ce000a0b8baa4
+manifest c8e7bbee4f1c68a8851b817170501d910fa69025
+extra rebase_source:a9375998fcf663bf2b285cc2105778836eedffa8
+files xpcom/tests/windows/TestCOM.cpp
+patch 285,359,

@@ -1,0 +1,5 @@
+changeset 33fc723946aa45248df83c204f256816deafeede
+manifest 3a092faeb0811da1645e5a4cf0bf237b7b130347
+extra commitid:8jrsVMcTydi
+files browser/components/newtab/tests/xpcshell/test_PlacesProvider.js
+patch 203,243,

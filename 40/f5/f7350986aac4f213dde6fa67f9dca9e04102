@@ -1,0 +1,5 @@
+changeset 4ff8b2aeedf817730e30e378e39d036d0cb52f6e
+manifest d859c68b137b71973d42c6bbb6aa86d1396d2b23
+extra rebase_source:6cf3e42ed66ab00d13f103b493ec0f8f9d6b7de6
+files dom/system/gonk/mozstumbler/UploadStumbleRunnable.cpp
+patch 310,384,

@@ -1,0 +1,4 @@
+changeset 3c2597bb3edbdc2ad854919388c49e78e49eb8ee
+manifest 58b2d7944a14d74affe198bfc99b4c823202f3a9
+files xpcom/typelib/xpt/tools/runtests.py
+patch 181,182,

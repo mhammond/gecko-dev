@@ -1,0 +1,4 @@
+changeset 8b8484fb0c391d29c950d1d970d8899eb85ed432
+manifest 4b1c950144adf0b7925b9590027750eb0bcafd0e
+files b2g/simulator/lib/simulator-process.js
+patch 205,206,

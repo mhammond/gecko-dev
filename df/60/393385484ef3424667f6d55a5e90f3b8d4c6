@@ -1,0 +1,4 @@
+changeset 5795b76480b60724e3fc5e703d8f0848a88dad13
+manifest d78d08e2bce213f02463bb72c7faf7af0d859d62
+files layout/generic/nsAbsoluteContainingBlock.cpp
+patch 327,328,

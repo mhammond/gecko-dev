@@ -1,0 +1,5 @@
+changeset b76fcf24a2f7ec833425f7a7171ca3333adfe366
+manifest 60863a741f8df2f072d462bf16bf1e7f8cff9f20
+extra source:3c42cbab1f5087c5411984c69b2f06939b735e93
+files layout/generic/WritingModes.h
+patch 246,313,

@@ -1,0 +1,4 @@
+changeset 874423b7e907931356f9ce6d536c38bf1bc46140
+manifest d15209672b75b8fa6edafd4afb6614238193423d
+files js/src/jsiter.cpp
+patch 186,187,

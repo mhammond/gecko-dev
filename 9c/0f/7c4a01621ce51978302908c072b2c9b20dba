@@ -1,0 +1,4 @@
+changeset 54d08fd41bf0b1d77eb7699d94b07a9e9fd6b03a
+manifest 1a95ce205c0528b8160bbc1837f992e1ea9a7e35
+files toolkit/components/captivedetect/captivedetect.js
+patch 269,270,

@@ -1,0 +1,4 @@
+changeset b67dc49095dcdb6f806cff7c303496e0d7e3efa4
+manifest 3e8192343e747ffd8aff721096ab56f8dbec0275
+files toolkit/components/passwordmgr/content/passwordManager.xul
+patch 248,249,

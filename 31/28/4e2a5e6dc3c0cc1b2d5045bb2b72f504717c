@@ -1,0 +1,4 @@
+changeset 601650ded452dd1705eb30a8abe28cc1cd886876
+manifest eb9480605307faf826c4f761568acae9ddf652c5
+files xpcom/ds/nsPersistentProperties.cpp
+patch 237,238,

@@ -1,0 +1,4 @@
+changeset d8b1e08c2941151fc46a1b1cc98af037cf8274c3
+manifest a6ba43cb63983ceba1da7c678198e8b0b937f731
+files memory/replace/dmd/test/xpcshell.ini
+patch 182,183,

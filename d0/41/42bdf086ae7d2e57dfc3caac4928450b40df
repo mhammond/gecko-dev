@@ -1,0 +1,5 @@
+changeset 70e26b5a64d4c633f9a336bbb07528aa3a1ed11f
+manifest c6d33893d1bb82cc40de4adf8fdcde0b0321adb6
+extra source:d1b0d8428d6dde942c829f1b7fcc1a053f78deb6
+files browser/locales/en-US/searchplugins/google.xml
+patch 257,324,

@@ -1,0 +1,5 @@
+changeset 1ba7f271fd89879b18c14878a9607197aeb742f1
+manifest c040cd6efd8a68429577908fe355e1b2767d2da3
+extra source:9224d883dbb17cef1406ceb4251d3008bbc18302
+files testing/web-platform/tests/service-workers/service-worker/resources/referer-iframe.html
+patch 350,417,

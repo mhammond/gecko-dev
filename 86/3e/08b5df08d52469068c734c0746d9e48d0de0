@@ -1,0 +1,4 @@
+changeset 58344005efca56b77c38459955f4099ad9f68f22
+manifest 0f626e1aa4a924d974d3cda64c8869094f1f19bf
+files toolkit/components/telemetry/shared_telemetry_utils.py
+patch 238,239,

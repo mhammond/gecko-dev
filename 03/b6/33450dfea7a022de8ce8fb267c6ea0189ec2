@@ -1,0 +1,5 @@
+changeset 75452b28001fc0a055166366522c9ee2bd266ad9
+manifest c0ac101806d5f336fdf89ec93dc916bbd2f10343
+extra rebase_source:268874b34c4dd4466eb75376e2860b6940833399
+files security/nss/lib/ssl/sslcert.c
+patch 312,386,

@@ -1,0 +1,4 @@
+changeset a738c83c9f996179484ec7a8cc68f9a8128481c1
+manifest 4ba294e16fcb83e8f6a66283791aa334c080bd8e
+files toolkit/mozapps/update/tests/unit_base_updater/xpcshell.ini
+patch 257,258,

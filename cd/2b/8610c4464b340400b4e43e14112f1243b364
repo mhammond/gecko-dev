@@ -1,0 +1,4 @@
+changeset b9f03bb708ec161d070ad425cbadcc301864cdc5
+manifest 54245545c1c3b6c710becb121e87969deb294827
+files js/src/jit-test/tests/debug/Debugger-allowUnobservedAsmJS-02.js
+patch 190,191,

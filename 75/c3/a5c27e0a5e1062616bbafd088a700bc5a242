@@ -1,0 +1,5 @@
+changeset 35199c26010a90e562177aab032dec68f985aa09
+manifest b47ce0a1053fbd21894217a0967f7189306b0814
+extra rebase_source:1a50c0fa5b7980ad25fb3ed3c1ec2c95f16996b6
+files python/mozbuild/mozbuild/backend/visualstudio.py
+patch 613,687,

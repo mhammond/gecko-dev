@@ -1,0 +1,4 @@
+changeset 3b476e0a4777fc2f0d977e7a9137f3892924ef90
+manifest afbd0d0d453d745cca6bba8bef14c9c01e7b7b61
+files js/src/vm/PosixNSPR.cpp
+patch 263,264,

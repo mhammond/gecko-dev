@@ -1,0 +1,5 @@
+changeset 1bd4e2805bec3d9c665331098b61977aa9f31293
+manifest b6c642ae7c110d71d91c59e9f411c571e7663afa
+extra rebase_source:d370887e1bfbfa05fc3e72433da08c0d3f6ce3f2
+files browser/components/places/content/places.css
+patch 311,385,

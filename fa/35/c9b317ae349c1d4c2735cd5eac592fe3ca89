@@ -1,0 +1,4 @@
+changeset ff1f152d61134da19a73419746d77e339c6c8178
+manifest 4ca17f17264fcfab542f9e332b87b8474cd630be
+files browser/base/content/test/referrer/browser_referrer_open_link_in_container_tab.js
+patch 225,226,

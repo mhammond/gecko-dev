@@ -1,0 +1,5 @@
+changeset b015db3afa462d65b3bd58ab6cc080401f85bafa
+manifest 0bc8169c3e82c84571931cd9b1700f78ffc80deb
+extra rebase_source:d4f22915dfdd65d55b23a09f797402944870f017
+files devtools/client/inspector/rules/test/browser_rules_multiple_properties_02.js
+patch 673,747,

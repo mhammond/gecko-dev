@@ -1,0 +1,5 @@
+changeset 135382fd463d87ddda4224a0c844b588753d5c30
+manifest 9bc026e743a69ff031974b9d567bd2d94b5e9aa8
+extra rebase_source:6ce4e2d3537951054432ce2a9689222a8923f69a
+files security/manager/android_stub.h
+patch 296,370,

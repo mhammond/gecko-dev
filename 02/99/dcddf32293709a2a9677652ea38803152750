@@ -1,0 +1,5 @@
+changeset b5bb7341ad8a75892822ddf527f45fbeddfdf1e4
+manifest 22b7c86d26d58eedbd2d5edc98f920108f9fecc2
+extra rebase_source:0468dc9fe0713a3605db073ee10424cff8482f66
+files devtools/shared/Loader.jsm
+patch 286,360,

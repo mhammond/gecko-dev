@@ -1,0 +1,5 @@
+changeset d09a610855c10923cddfc6334bbfe2a4bec9ba4a
+manifest 799f911e54ce01f38d507eb041e4050b1f0e9d2d
+extra rebase_source:36b026f75613a051463c3b5aa72aceeb83be6afb
+files devtools/client/shared/telemetry.js
+patch 275,349,

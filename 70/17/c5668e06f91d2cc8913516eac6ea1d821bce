@@ -1,0 +1,5 @@
+changeset 81add9b7d0071c3f6c13d4e67c2550717f454dea
+manifest 59043a77517fafb595e8e195cf21d8051f55ab7a
+extra rebase_source:05762c5a1729f89a439842945ad3a013d23ef9ad
+files toolkit/system/osxproxy/ProxyUtils.mm
+patch 288,362,

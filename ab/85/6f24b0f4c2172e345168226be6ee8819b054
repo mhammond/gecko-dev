@@ -1,0 +1,4 @@
+changeset 5a14fde78ca742faa838163b6043e3e0e3217e0e
+manifest c475cbdb6e7889266efc824e6175b1d50f158919
+files widget/gtk/gtk3drawing.c
+patch 233,234,

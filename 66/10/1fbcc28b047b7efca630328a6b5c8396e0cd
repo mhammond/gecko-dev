@@ -1,0 +1,5 @@
+changeset 282711269cd376b3ac828597d80467ecfa2861b8
+manifest bf20cd1226f9e9e6f23229afff2fb083ad8a9fd0
+extra rebase_source:80656af517f874c156597e8d3f8faa5280666f58
+files browser/base/content/browser-places.js
+patch 298,372,

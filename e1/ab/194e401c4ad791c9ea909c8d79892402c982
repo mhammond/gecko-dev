@@ -1,0 +1,5 @@
+changeset 5770dcb3b32a23371cedc9c3e5aefa99b294bdb6
+manifest ddec0e8e458778ef124ff6c81eee52b5a85ac73b
+extra commitid:7ic6jyfVdDV
+files browser/components/migration/tests/unit/test_IE_cookies.js
+patch 281,321,

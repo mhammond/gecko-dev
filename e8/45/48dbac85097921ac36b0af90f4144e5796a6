@@ -1,0 +1,5 @@
+changeset 34a8f0433d13d68f19c527a21af4a3f917a99df3
+manifest eb361352322757372a7140919d37b24c3e5d2a81
+extra source:8d59e338a5bd76338f0fe28ff589726bc4438fdd
+files toolkit/xre/nsNativeAppSupportWin.cpp
+patch 383,450,

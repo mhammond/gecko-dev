@@ -1,0 +1,5 @@
+changeset aa3af24c15258ba985b42ba8b8cd591bd324c010
+manifest 0535557c0ed450a91dee0ea8a1628a89ad0b611a
+extra amend_source:d06c5ef8b64c7ceab32eb2094f33a6e4e6f15680
+files embedding/components/windowwatcher/test/mochitest.ini
+patch 536,609,

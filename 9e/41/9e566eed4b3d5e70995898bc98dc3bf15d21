@@ -1,0 +1,5 @@
+changeset ecb0ccdde0978a5823aa54df23c3a077ae8ed967
+manifest 014a4d5b9a0d91059a2bb0bb9df474bccde9779a
+extra rebase_source:f0e073e8a6ebe9c10e7a71c4e92a937a45aa7069
+files browser/devtools/responsivedesign/responsivedesign-child.js
+patch 293,367,

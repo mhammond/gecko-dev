@@ -1,0 +1,5 @@
+changeset 840468eb2ead80619dda158d92cc9faa5fd5f357
+manifest 139ce91d99d3be30329431e5242aff3a3b599490
+extra source:c45623c0cb55197cd56fdd73833c31e6e55925bb
+files gfx/layers/basic/BasicCompositor.cpp
+patch 308,375,

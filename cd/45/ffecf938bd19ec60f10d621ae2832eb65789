@@ -1,0 +1,4 @@
+changeset aa416d2a76faf1346c1c9e8a2b6fa44a38cd68fc
+manifest 79e37b385d8321b3a7eab7ab23800eae2fba4650
+files browser/components/migration/tests/unit/test_fx_fhr.js
+patch 196,197,

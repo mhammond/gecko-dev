@@ -1,0 +1,4 @@
+changeset ee238b4680f6155429623f847e2145478c86fb52
+manifest 99960f542ffeaf982ba74a8cfb1f9cc415cf8b49
+files image/decoders/nsBMPDecoder.cpp
+patch 208,209,

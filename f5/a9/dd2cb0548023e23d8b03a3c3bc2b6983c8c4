@@ -1,0 +1,4 @@
+changeset cbc961dfee0f0ee7c393710a71ebfb7e7411502d
+manifest 19241a39b84e73106907202a9b616f7d040c4cfb
+files testing/tools/minidumpwriter/moz.build
+patch 196,197,

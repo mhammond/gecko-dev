@@ -1,0 +1,4 @@
+changeset ea64b102f2b55c55ab0aa4b91f0f6c8b88e461e6
+manifest 66d084dc3865539013b97ffbb26d6e355cefac54
+files testing/mozharness/scripts/release/beet_mover.py
+patch 240,241,

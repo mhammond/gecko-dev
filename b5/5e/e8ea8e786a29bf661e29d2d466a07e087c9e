@@ -1,0 +1,4 @@
+changeset 8d8487036f57262d386b8e706cd85774789c722b
+manifest 060c22da5e51a4c4a99c9d1a0c78a4e0325cb020
+files build/clang-plugin/clang-plugin.cpp
+patch 307,308,

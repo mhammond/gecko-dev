@@ -1,0 +1,5 @@
+changeset e97898890d476686262db5d9a870d35fdc4da8b9
+manifest 476f425807e0cdeb0717244e0456204c6998c039
+extra rebase_source:9a9a77d607cf21f7bd11b2359402ad0eb4df882e
+files toolkit/components/social/SocialService.jsm
+patch 300,374,

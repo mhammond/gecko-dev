@@ -1,0 +1,5 @@
+changeset 0bcfe60c2977a6a0c93275aff8382a18677311ae
+manifest 4e8251fe7a9945dd11ed5d5bec853553089b9cd0
+extra rebase_source:ed5bda7e86e8f39ce3ac220f7cfe5d02cf4897a9
+files js/public/TraceableVector.h
+patch 296,370,

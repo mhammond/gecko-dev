@@ -1,0 +1,5 @@
+changeset 0f700af8dbaf5ada6468fbc1713c3cbd8013d8a9
+manifest 84e92d5301d803cf06b8d22721139e7e3d147560
+extra transplant_source:äBÿC*7KXÛæ[nÒ
+files addon-sdk/source/lib/sdk/tabs/utils.js
+patch 374,460,

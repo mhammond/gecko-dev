@@ -1,0 +1,5 @@
+changeset f5080b93ad6faf3f9ebb708c44df303fc1132f89
+manifest 5794ad15c82f42ef3ecd9f5af415e71b9e9b50cf
+extra transplant_source:ÏHY§Wà£OÂŽ^ÔV{³
+files media/webrtc/trunk/webrtc/modules/video_coding/codecs/vp8/vp8_impl.cc
+patch 329,417,

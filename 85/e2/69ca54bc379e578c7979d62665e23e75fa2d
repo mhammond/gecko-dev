@@ -1,0 +1,4 @@
+changeset e149f78d512022a8649a647df4b616531ef8f68b
+manifest f78e3cbb67ae2efbf769364ebe444449a78ef648
+files xpcom/ds/CheckedInt.h
+patch 171,172,

@@ -1,0 +1,5 @@
+changeset e0e09f7f22a3355727f456cb1e19a3a5102280f5
+manifest 0c349291c32b2d5e5adbc26ae96c9b1cd16ebadd
+extra rebase_source:941e27ee1c0864ae6f9da82e8ed49d2defdcf4cf
+files devtools/client/shared/browser-loader.js
+patch 310,384,

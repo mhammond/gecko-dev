@@ -1,0 +1,5 @@
+changeset c2cf3f48bf13825bc6107a63d4baad1911dc6528
+manifest 8fc244664ce577ffdf8710285873ca8d6628891d
+extra source:da8e9461c77e26a913d25f90097baa4da48f9f49
+files gfx/src/nsRegion.h
+patch 258,325,

@@ -1,0 +1,4 @@
+changeset 188f0abba61ab7c296c00028bb627a8296f99237
+manifest eaf7073484d1429f0925c05855bab55a4afa061e
+files testing/web-platform/mozilla/meta/service-workers/service-worker/fetch-request-css-base-url.https.html.ini
+patch 282,283,

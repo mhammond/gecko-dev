@@ -1,0 +1,4 @@
+changeset ef6714622e751e711b11550c31b70a754d622b54
+manifest ac0b2b57ae910d9f7894aad7736299d915865f9f
+files addon-sdk/source/test/test-api-utils.js
+patch 229,230,

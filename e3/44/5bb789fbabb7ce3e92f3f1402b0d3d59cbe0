@@ -1,0 +1,5 @@
+changeset c7aac47b78db0088e2e72f90c35a3e4c495b27d1
+manifest 0936c13fa71125728ced2552bf1704455139c917
+extra rebase_source:36a4a67c8d54d105d18426669c37cfee34b2c3b2
+files b2g/confvars.sh
+patch 273,347,

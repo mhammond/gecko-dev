@@ -1,0 +1,4 @@
+changeset dfc843963851c884874a199a723efe5a9f9380a5
+manifest 77a95b0f8e65bd813b5199076b5a73b9fe8856b2
+files dom/bindings/BindingUtils.h
+patch 388,389,

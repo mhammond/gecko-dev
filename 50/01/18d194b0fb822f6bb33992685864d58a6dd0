@@ -1,0 +1,4 @@
+changeset df507dc13e43a63fd2cf4870e703f31bbde6dde8
+manifest 9149058d46cf7947fec21a2fbac1e071ac6b5b78
+files mobile/android/base/java/org/mozilla/gecko/FindInPageBar.java
+patch 233,234,

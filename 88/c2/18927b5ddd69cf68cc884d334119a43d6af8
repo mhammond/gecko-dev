@@ -1,0 +1,5 @@
+changeset 012638ffaacc09bf5a5bedda2f8bc927fd97641f
+manifest 4f67acba396fb90dff90f6cc32dc3ca27a16a185
+extra rebase_source:3093e8ffb97872b9ff76a5a311d0faaf9f18fbcc
+files js/src/jsutil.h
+patch 240,314,

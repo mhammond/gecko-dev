@@ -1,0 +1,5 @@
+changeset bbd61f93a1642f2d4990d62d995f451fabfb50e5
+manifest c5d014bc867ce7aff904c422ebc832f0acc0ff35
+extra rebase_source:24c37042fb74519dd392515386f0afeec289db4e
+files xpcom/base/nsSystemInfo.cpp
+patch 238,312,

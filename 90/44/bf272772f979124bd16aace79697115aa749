@@ -1,0 +1,4 @@
+changeset a809226369ef416b0e96bd008568df4832c72a2a
+manifest 3e30fd13f0b73d94ac1ede0ecb469105de9f5e7b
+files testing/docker/desktop-build/bin/checkout-script.sh
+patch 235,236,

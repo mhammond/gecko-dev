@@ -1,0 +1,4 @@
+changeset 88be27f821aad089e816d470d4c5de3b111c484b
+manifest 1df984f9a0ce36c436bd84b6d4451ba2deec592b
+files dom/u2f/U2F.cpp
+patch 772,773,

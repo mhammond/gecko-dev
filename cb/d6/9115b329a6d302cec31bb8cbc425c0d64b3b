@@ -1,0 +1,5 @@
+changeset 78565e0dc28ed5b659ea56cb2dd6a1e392176134
+manifest 94e83722a14f9c4216be774d86537e0bbaf0db4a
+extra rebase_source:ff2e82f5ef4919b223d6fb9783596793784942bd
+files mobile/android/services/src/main/res/drawable/sync_pin_background.xml
+patch 323,397,

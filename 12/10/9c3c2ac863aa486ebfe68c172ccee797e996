@@ -1,0 +1,4 @@
+changeset c69a3e313517275a1d6e37a939b5c879bc06371e
+manifest a152eb17460e12f8f581f4789bee51a4f1cd1027
+files toolkit/devtools/gcli/commands/calllog.js
+patch 215,216,

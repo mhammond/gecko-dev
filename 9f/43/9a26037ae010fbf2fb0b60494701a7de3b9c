@@ -1,0 +1,4 @@
+changeset d516d82f29a2636c5834c7f3c932025b8e85a8ad
+manifest 3986cd286652a67e7afe93466aeeb65195eb702c
+files browser/base/content/test/alerts/browser_notification_close.js
+patch 238,239,

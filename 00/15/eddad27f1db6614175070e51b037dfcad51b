@@ -1,0 +1,5 @@
+changeset 45c1bcc538ddeb36e06ad117d0fc09b9cb076e4b
+manifest a770417441a5cb255550484ca3ba691eb773ce75
+extra amend_source:6327754d782d112b67804eb1d094c1a58fccc9f6
+files testing/web-platform/meta/html/browsers/offline/application-cache-api/api_status_idle.html.ini
+patch 331,404,

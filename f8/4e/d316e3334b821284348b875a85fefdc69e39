@@ -1,0 +1,5 @@
+changeset 5916c2111137afbb08437677537348cd73f9c727
+manifest d8ad9e9b178b31cc09de687df110d423d742ab9f
+extra source:6b3dbd15e822280d8197b585e0f6181a01b8a610
+files mobile/android/base/BrowserApp.java
+patch 273,340,

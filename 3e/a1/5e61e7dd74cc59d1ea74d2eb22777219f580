@@ -1,0 +1,5 @@
+changeset 47f503eacabdba2cb85d1406dbf93167dc7d0c4c
+manifest 28ca9c107f5cb67765cb503e62ce3004321e8b0c
+extra rebase_source:bc927eabc4fa62eef23ece7bf5f72fcf04d13159
+files devtools/client/webconsole/test/browser_webconsole_dont_navigate_on_doubleclick.js
+patch 394,468,

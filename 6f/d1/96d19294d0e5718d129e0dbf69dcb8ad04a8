@@ -1,0 +1,5 @@
+changeset e4bdd73813c8ff5b8df56910301b312b9a299b80
+manifest 5d238247454ae96b83d63a2f1d80e505b7b9e2e6
+extra source:43dd0a4dcfa819d10084c1e31d566a41f0cff4b1
+files dom/media/fmp4/apple/AppleVTDecoder.cpp
+patch 406,473,

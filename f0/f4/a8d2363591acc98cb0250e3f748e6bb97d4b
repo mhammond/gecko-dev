@@ -1,0 +1,5 @@
+changeset ad254e2a46f95771a2c4dbc5a62b4c329eb9f658
+manifest 5a7419c82e212f7917ec54551daea79c94daa496
+extra rebase_source:c29c07837f706d763bd4c81ff3cb202ed888f6c2
+files testing/mozharness/configs/single_locale/mozilla-central_android-api-15.py
+patch 342,416,

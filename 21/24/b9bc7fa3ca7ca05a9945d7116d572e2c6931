@@ -1,0 +1,5 @@
+changeset ababaae69ec618ed9740dd898c65be77cb37b8db
+manifest e3cb2cd7423c5a1fbce3fd9d00889b7a37121d70
+extra rebase_source:304f66b4f85714a6d52c9a4f4415066244624207
+files toolkit/mozapps/extensions/test/xpcshell/test_e10s_restartless.js
+patch 362,436,

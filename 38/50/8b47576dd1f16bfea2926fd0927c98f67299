@@ -1,0 +1,6 @@
+changeset 47e94b41aba1fb020f580cbec7d1e0089eb19dc0
+manifest 7a0263f5adeb0cbd46394f4823969fe7c796fe72
+author karel-de-macil@wanadoo.fr
+extra rebase_source:8bff064dbdbc8b28df1292288b089461e76f6b3c
+files extensions/pref/autoconfig/src/prefcalls.js
+patch 256,330,

@@ -1,0 +1,4 @@
+changeset 3c82eabf256ababec98585d409086dc806d59e05
+manifest febafde99740e6f1cdf73aedd385d188429814ab
+files js/src/jit/mips64/Simulator-mips64.cpp
+patch 196,197,

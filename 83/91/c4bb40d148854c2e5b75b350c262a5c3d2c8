@@ -1,0 +1,5 @@
+changeset ea02aab4d4c5bf76bb305a0d4f664f72d1499464
+manifest 5720ff4d120a154b2572ba2ac5d68581a8ff2e12
+extra transplant_source:Ðó2¾Ò^8LÏ|‡vÛT4,¬c
+files config/external/icu/defs.mozbuild
+patch 264,348,

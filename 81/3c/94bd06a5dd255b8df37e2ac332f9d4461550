@@ -1,0 +1,5 @@
+changeset 77e2c8fab108b4804defcc5816e93815ed6cf41b
+manifest 2404da57a2b0c14cbd902b56bdcfdb89b922f9ab
+extra source:021015ed68786537a1f5982997ddaf5673df38f6
+files testing/web-platform/mozilla/tests/service-workers/service-worker/register-closed-window.https.html
+patch 317,384,

@@ -1,0 +1,5 @@
+changeset 961ab2f19835068b8458f7db44ed61d66790b2e6
+manifest bbe35cbecca3b0b5e72a2bf980e67edb24d2fe1f
+extra source:48c9d5ccd61b79caf959f6d6329977888d032fb8
+files gfx/tests/gtest/TestAsyncPanZoomController.cpp
+patch 215,282,

@@ -1,0 +1,5 @@
+changeset ed87cf6c5fedaa0425aec48b48aba2b89ba47f22
+manifest aaf552020f9c70046c1aa8b6cfee82770e29641c
+extra rebase_source:bc60778d7119f9e5a7036e5c9e81f777eef946f1
+files browser/base/content/test/general/browser_readerMode.js
+patch 410,484,

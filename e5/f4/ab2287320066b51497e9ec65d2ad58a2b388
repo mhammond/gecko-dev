@@ -1,0 +1,5 @@
+changeset c67d0eb738ed0ff59fca1cfc63efa46d49fc4d73
+manifest 26428de518bb2add6cad86a20ae4df8c760ce70a
+extra commitid:IZS783zslAZ
+files toolkit/components/telemetry/TelemetrySession.jsm
+patch 260,300,

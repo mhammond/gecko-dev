@@ -1,0 +1,5 @@
+changeset 81b8e2d264739a0477a60d59f9346487e54612b1
+manifest 029593aebf5051cce0cd808103c08f132ccf4400
+extra rebase_source:bc7849aa54f110afedb3dcff6ef1bb9197eacbdb
+files dom/xbl/nsXBLDocumentInfo.cpp
+patch 297,371,

@@ -1,0 +1,5 @@
+changeset da754eb43be35889ac0a7cc641a36c1c4841229b
+manifest 4a6ed8eab82df4d1fe8a9d268ea4f272804c6857
+extra rebase_source:6de72071601086732b1822e7e08a01b1ae8f447b
+files browser/base/content/test/general/browser_tab_dragdrop.js
+patch 284,358,

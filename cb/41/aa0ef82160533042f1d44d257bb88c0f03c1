@@ -1,0 +1,5 @@
+changeset acd74a4affe15d3dada12918d184e1045cf714e7
+manifest 994aacaf9a144ec032a2a0295be9f7ff480cf069
+extra rebase_source:61e2f10036c8862028ca22d9c5ba6a13bed1fa53
+files toolkit/components/extensions/ExtensionStorageSync.jsm
+patch 312,386,

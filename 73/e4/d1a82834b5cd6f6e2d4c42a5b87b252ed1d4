@@ -1,0 +1,5 @@
+changeset 7bc2c36d07d4aaac8cbc5384f50b3beb4f27c66e
+manifest 08d9e5a7f38680120bf6065d8e59d16845621a42
+extra rebase_source:5da6ac9455f6f69fc8137674568c8a90092b6f2d
+files accessible/windows/ia2/ia2Accessible.cpp
+patch 505,579,

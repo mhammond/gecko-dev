@@ -1,0 +1,4 @@
+changeset 2c8c35258999b32422bea205da5c5cecee7961a6
+manifest cf8b2b95730a8a56098f02a32e247418f4c59cef
+files js/src/tests/ecma_6/Array/sort_proxy.js
+patch 221,222,

@@ -1,0 +1,4 @@
+changeset 553e7909bae1db74320ba23134bdcda6a9de6864
+manifest 7d42dec14edf3372e7a2768f843db115e84236a8
+files js/src/jit/JitFrames.cpp
+patch 232,233,

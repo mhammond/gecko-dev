@@ -1,0 +1,5 @@
+changeset 8046e825980ac4080619527b72292b8e9ac1f56d
+manifest 3162a0722f11acf1069b79422c55d8684f791c8b
+extra rebase_source:e975e57148850c41cfae4d9748809d1f6672aa84
+files devtools/client/inspector/rules/test/browser_rules_add-rule_05.js
+patch 602,676,

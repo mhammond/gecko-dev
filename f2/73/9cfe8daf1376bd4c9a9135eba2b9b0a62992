@@ -1,0 +1,5 @@
+changeset fe2f3a5598cca874793c0169a8f3f2bc1bdf1ccb
+manifest e911bb0897e56478e3c8590a24b352121e2b50e2
+extra rebase_source:10e39c2be69471c2e4c9df14cfc067c8e78c227f
+files xpcom/io/Base64.cpp
+patch 308,382,

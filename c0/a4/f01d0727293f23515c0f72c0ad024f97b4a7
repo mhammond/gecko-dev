@@ -1,0 +1,5 @@
+changeset 9fddd3fdc22a8d82af84ac9b081585d2bea65b04
+manifest ced256f65fead019031804add2362331284fd816
+extra amend_source:66a4cc84b21f8af8a26f21ae7aebbbcacf3c1356
+files build/moz.configure/old.configure
+patch 239,312,

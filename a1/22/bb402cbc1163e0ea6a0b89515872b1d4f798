@@ -1,0 +1,5 @@
+changeset 98b61e7948cf64dc3411c148d710b80bcc643519
+manifest e58bf481d1b8bce0583312fc1c2660cfd53f9ca9
+extra rebase_source:3bc89688488a8b0f4c22dd10a7c2a24babd07733
+files xpcom/ds/nsObserverService.cpp
+patch 253,327,

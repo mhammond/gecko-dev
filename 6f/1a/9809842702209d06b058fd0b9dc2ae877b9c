@@ -1,0 +1,4 @@
+changeset 7fe81c61fe030cda78ff58dcaaab51e58811919c
+manifest a190bb47a9029c52943cefa7929a7a4f4d229700
+files mobile/android/tests/browser/robocop/helpers/WaitHelper.java
+patch 238,239,

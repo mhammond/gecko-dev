@@ -1,0 +1,5 @@
+changeset 2cf0a592901ab9e495e277edc251c580173ebcf9
+manifest 6224dd521952891fbb0609aa663ec219699aeb48
+extra rebase_source:0c4ba3a1345ab4c0165b69b28591e4cedf8249ff
+files ipc/glue/MessageChannel.h
+patch 297,371,

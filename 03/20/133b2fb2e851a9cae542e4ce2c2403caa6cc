@@ -1,0 +1,4 @@
+changeset 4c6c361ba8c270f2cbae2fa7fa5b4147e14c0e9a
+manifest 48994271a592b1c7783dcdb6b3d87f1b8f51613a
+files devtools/client/webconsole/test/browser_webconsole_bug_737873_mixedcontent.js
+patch 313,314,

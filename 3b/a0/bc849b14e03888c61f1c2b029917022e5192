@@ -1,0 +1,5 @@
+changeset aa52fb6664b5eead467e1b9d27ac8b52a05e9b55
+manifest dc5e04f02a10a01e44344e3c5c87e6c08a86927c
+extra source:f5df71ccaebb6aa84edc8414b2b2e4d5e2903b69
+files media/webrtc/trunk/build/filename_rules.gypi
+patch 312,379,

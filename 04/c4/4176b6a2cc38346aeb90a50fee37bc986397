@@ -1,0 +1,4 @@
+changeset 71e521c11c8bf1a9198f79b0b265d77bbf347e7c
+manifest edff44975a6496f2f0c74fd80aefaffa74e90846
+files dom/plugins/test/mochitest/test_hidden_plugin.html
+patch 251,252,

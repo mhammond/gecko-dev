@@ -1,0 +1,4 @@
+changeset 7ad3c6ebc11a59ab33982345281b47ce54193dd3
+manifest 4aa5735268f92948ae57b20c57b9439e4ac593e1
+files dom/interfaces/html/nsIDOMMediaError.idl
+patch 166,167,

@@ -1,0 +1,4 @@
+changeset 5efa08dc7765cdbc209ec67bfbe0ca85935892c6
+manifest 32e93d3c66165eb981f5b265445ffd7130f04a01
+files gfx/layers/opengl/GrallocTextureHost.cpp
+patch 276,277,

@@ -1,0 +1,4 @@
+changeset 22db49def94feed25a75eec644369993fd1912b1
+manifest f4b67ea07523f3f085e4f54598aaf520b404606b
+files browser/devtools/styleinspector/rule-view.js
+patch 256,257,

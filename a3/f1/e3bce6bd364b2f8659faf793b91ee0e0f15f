@@ -1,0 +1,5 @@
+changeset 27a4c68860fd1a25a85751b0b01352b9cba5ee05
+manifest bb484b85dafc14b19ff1fa72ee2aa32f05652dd7
+extra rebase_source:c1a6c51bcdd4e1a882f371e7beba4f88d5c059a4
+files intl/unicharutil/util/internal/moz.build
+patch 761,835,

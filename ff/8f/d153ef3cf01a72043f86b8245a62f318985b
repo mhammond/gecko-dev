@@ -1,0 +1,4 @@
+changeset 2f0a99d19d091b1011bb4bc4c1f23522bb42bb3f
+manifest a19f5548a984dfca0cca8949f0c11c0da10b8edd
+files js/src/jit/Lowering.cpp
+patch 159,160,

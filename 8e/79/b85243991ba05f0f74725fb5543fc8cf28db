@@ -1,0 +1,5 @@
+changeset 1ca9873003510a6586c83722edb58a14e6fff0f2
+manifest db08964541189ff5a1e4cdd63c0783c49563d1bd
+extra commitid:H0L3jaedtme
+files devtools/client/shared/test/test-actor-registry.js
+patch 786,826,

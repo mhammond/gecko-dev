@@ -1,0 +1,5 @@
+changeset 6711f5d1f7b694dbea7b831073556beebae52d4e
+manifest 946b1b9c7ac49858f1dfc7d604f95c88e14a6533
+extra rebase_source:443f65aeaf9487599a619eb103b9671200a5c649
+files taskcluster/taskgraph/task/nightly_fennec.py
+patch 377,451,

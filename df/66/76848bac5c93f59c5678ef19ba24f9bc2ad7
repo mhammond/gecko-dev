@@ -1,0 +1,5 @@
+changeset 628b9ef7bd8177b55e4c533018127d3834484ce3
+manifest f252493b0d08e4b974acbf509dece386831e27ed
+extra source:1fab94ad196c2df18a96e966140b4ba572bdf9e9
+files b2g/components/AlertsHelper.jsm
+patch 293,360,

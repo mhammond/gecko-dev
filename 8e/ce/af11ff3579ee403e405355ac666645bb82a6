@@ -1,0 +1,4 @@
+changeset 599e67dd8b26a24d1e59a8b50e999d4e40ff0059
+manifest b9413477dfdc260f5489e5df0738d2984b570ab9
+files browser/components/readinglist/test/xpcshell/test_ReadingList.js
+patch 249,250,

@@ -1,0 +1,4 @@
+changeset a6f7b9ce387c1779754c10f68d89a23cf7f2e84e
+manifest c7351e6c94e44b6deeb4de8eebb5cdff354d75dd
+files browser/devtools/styleeditor/test/browser_styleeditor_bug_740541_iframes.js
+patch 262,263,

@@ -1,0 +1,4 @@
+changeset e762153577ab3d4e622c71e648536bc2d814ecf4
+manifest de58351418705cfc198ae9ad8cdeed54b28ecfc1
+files gfx/layers/client/TextureClient.cpp
+patch 273,274,

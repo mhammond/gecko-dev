@@ -1,0 +1,4 @@
+changeset 34d22581dab4cb0ec9fad15b8a4430b3ec8b4e21
+manifest ca2f713bf86d13c0078b126c5e9325483ab515a7
+files mobile/android/base/mozglue/generatorannotations/WrapElementForJNI.java
+patch 201,202,

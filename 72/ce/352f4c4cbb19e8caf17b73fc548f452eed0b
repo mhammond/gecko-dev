@@ -1,0 +1,4 @@
+changeset 24331faa33f966d58b41ab9dda253b75d88529ab
+manifest f8e7d7a388f2e79d4ed8cf480750ea27f53162d0
+files dom/bluetooth/BluetoothOppManager.cpp
+patch 507,508,

@@ -1,0 +1,4 @@
+changeset d754fa307c59bb3b182044c8d96006f715ac8656
+manifest bd8c6eed836fa027bdb328e3e6a93e5bbe34dcab
+files image/src/imgRequestProxy.cpp
+patch 187,188,

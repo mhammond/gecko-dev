@@ -1,0 +1,4 @@
+changeset 2796037318bb78006b014c5f0d6db52cc2214364
+manifest c67d69c8fcba56a8952d647264f073635e34fd32
+files browser/base/content/test/urlbar/browser_bug1025195_switchToTabHavingURI_aOpenParams.js
+patch 310,311,

@@ -1,0 +1,5 @@
+changeset 5369bff4fd97e66e62a33aa2d6aea84e3c9a0498
+manifest 24397ba0e3bb91ce76ba76185f3f66fc5bbd926c
+extra source:9f0d24c5330d484bc6c5d2903d754684f087b2fd
+files testing/firefox-ui/tests/puppeteer/manifest.ini
+patch 309,376,

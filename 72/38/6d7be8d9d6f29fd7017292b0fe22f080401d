@@ -1,0 +1,4 @@
+changeset 1525e3aaf3d1342684e735df7de16f5d009b65dd
+manifest ede37755e1bfcbc48cd9ca49ddb76576715975a1
+files toolkit/mozapps/extensions/test/browser/browser_select_confirm.js
+patch 234,235,

@@ -1,0 +1,5 @@
+changeset ac0df3cacb3bf8356a9c9ca15c803b512b7de12e
+manifest 283c9bd6a51a9902d129b157aac860b6a77dd391
+extra rebase_source:8e5125c2eb99d66f731d58590a377b8238a81e70
+files extensions/spellcheck/src/mozEnglishWordUtils.cpp
+patch 329,403,

@@ -1,0 +1,4 @@
+changeset 836ea4dba005e9bbc9675891134f6d57d663357f
+manifest 93db6a7dbbd2b986b06f47e12384e7d6db5190e6
+files testing/marionette/client/marionette/touch/synthetic_gestures.js
+patch 233,234,

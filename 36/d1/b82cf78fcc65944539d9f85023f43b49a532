@@ -1,0 +1,4 @@
+changeset bac182c6a35717e7e3d63f837713262da8726b71
+manifest 4d8dee4bf23315dacf44ba0303d9d20fb8282d20
+files devtools/client/inspector/layout/test/browser.ini
+patch 180,181,

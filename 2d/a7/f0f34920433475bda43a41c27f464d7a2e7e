@@ -1,0 +1,5 @@
+changeset 7c429d5fab4b0dea0510064957abd1b1f9cb249e
+manifest 641b05b67a62f38ac0d2d1fd97124d6c8d3fd4ed
+extra source:86f37704bbf8198780fcfe45f2087459c0d22383
+files gfx/2d/Factory.cpp
+patch 308,375,

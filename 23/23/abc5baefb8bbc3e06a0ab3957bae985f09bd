@@ -1,0 +1,5 @@
+changeset 7343618cc119583da60413858db0b7e327761e9f
+manifest cc657d9b0433533e825d95f2f5b6c28391b18d08
+extra amend_source:eb9fe5944451e09f352dd9fb958fd547a743712f
+files dom/events/test/test_clickevent_on_input.html
+patch 258,331,

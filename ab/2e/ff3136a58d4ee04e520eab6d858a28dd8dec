@@ -1,0 +1,5 @@
+changeset 666b8f65e279ffb0a2b4c02c702beba3ecdfca4b
+manifest 3758432c9c71f5247f0853d519943199823c7572
+extra rebase_source:16ce3e36dd6dd76eb1acdfcf9c5b72369297ab3d
+files devtools/client/responsive.html/test/browser/browser_toolbox_swap_browsers.js
+patch 335,409,

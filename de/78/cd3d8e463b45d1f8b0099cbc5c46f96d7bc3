@@ -1,0 +1,4 @@
+changeset 47235d46727da52da2158adc2f5a2a3e66b46a45
+manifest 5818556be081262270b6ca81ffa3a1b2ae2caea6
+files docshell/shistory/nsSHistory.cpp
+patch 203,204,

@@ -1,0 +1,4 @@
+changeset 14663c45b49b8998e61c22c489357424948cfe6d
+manifest 9d2efddee25763bc769e65992c425d744090b18b
+files testing/mozbase/mozdebug/mozdebug/mozdebug.py
+patch 504,505,

@@ -1,0 +1,5 @@
+changeset 22ea5c03abbc822e3f05f34ac5e177923aabfb52
+manifest 29ca48e0a82b85101250da8232e20bc87dc9762c
+extra source:efa3b654aa77bcb9b3dd7fc5a52efb6b5afc34d6
+files devtools/client/webconsole/test/browser_webconsole_bug_599725_response_headers.js
+patch 384,451,

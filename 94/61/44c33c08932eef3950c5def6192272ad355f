@@ -1,0 +1,4 @@
+changeset 541e2c3f465f826f1e1e66d204e86f2d9cf10c69
+manifest cd540019eacc0f4bb1ab5ed89a9e2ff05d0456a5
+files browser/base/content/searchSuggestionUI.js
+patch 328,329,

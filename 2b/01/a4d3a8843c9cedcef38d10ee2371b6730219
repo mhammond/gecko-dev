@@ -1,0 +1,5 @@
+changeset e2f5a7c70b47be82f2a8f85cac59482c8f77550a
+manifest 609e270dd4341b8b4fe0f48242b5411ac980078b
+extra amend_source:9313c62fdb3c157b2f2dae37911cfe5fab3cfe58
+files testing/firefox-ui/tests/functional/security/test_mixed_script_content_blocking.py
+patch 330,403,

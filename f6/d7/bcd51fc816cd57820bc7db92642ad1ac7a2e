@@ -1,0 +1,5 @@
+changeset 1d71ae72c8778ba9bd6bedc211e38e7e362fff89
+manifest fdea32b599d0712d07ea204226d9176420a9eabc
+extra commitid:ASIZjL4hNoT
+files devtools/client/sourceeditor/codemirror/addon/search/search.js
+patch 258,298,

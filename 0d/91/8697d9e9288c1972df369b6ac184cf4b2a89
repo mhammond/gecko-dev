@@ -1,0 +1,4 @@
+changeset 645fc5aa6a49054eecb4a074f0df73e22f29d5dc
+manifest fe845cacd8bb7622b4936a4016454a5302e9b39c
+files mobile/android/stumbler/java/org/mozilla/mozstumbler/service/uploadthread/UploadAlarmReceiver.java
+patch 267,268,

@@ -1,0 +1,5 @@
+changeset 5ae4ff32b87e6b3162436432dcbdbcd8b6de6bb8
+manifest 5a8a15c2ace2630b64f61e1ea0289f6f2bde4d88
+extra source:8dcebf7d880c56b629be773ba2767eef29a743c2
+files mobile/android/base/resources/xml-v11/preferences_general_tablet.xml
+patch 330,397,

@@ -1,0 +1,5 @@
+changeset 9988eb8e8964ae3b0cb20581c004af3cb7f3a967
+manifest af31638482234d3e7f9ea86a28aa37a470d65f76
+extra source:ab551bd86c29cd984e08b2eddd6cf84001db03da
+files mobile/android/base/java/org/mozilla/gecko/GeckoProfile.java
+patch 539,606,

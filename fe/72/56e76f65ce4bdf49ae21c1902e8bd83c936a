@@ -1,0 +1,5 @@
+changeset 7da15f62b358dd0937849303cab6ce35b9c0e0cf
+manifest debe62e4eb92303b3b53b7a1ac64eb78f541f4a5
+extra rebase_source:5fa4372e9241c4b73825135973ac111f84cf7480
+files testing/taskcluster/taskcluster_graph/image_builder.py
+patch 300,374,

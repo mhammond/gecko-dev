@@ -1,0 +1,4 @@
+changeset e4460a5913c3e325d79ff3eb35a719d14b6e0d15
+manifest 03389f523320d8164869ae42664cd637ae3425bc
+files xpcom/threads/MainThreadIdlePeriod.cpp
+patch 276,277,

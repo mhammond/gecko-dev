@@ -1,0 +1,4 @@
+changeset b1cbd40927beeb38a6917918e76a1e681ab6301c
+manifest 487bc2af73fdfd69bdeaf6c43d8a69ec86a55d59
+files js/src/irregexp/RegExpEngine.cpp
+patch 187,188,

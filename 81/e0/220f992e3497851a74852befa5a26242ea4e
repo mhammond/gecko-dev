@@ -1,0 +1,4 @@
+changeset 893bfa57607ec629c0a762d16d9e0e098fdb558e
+manifest a57c26fd51036dc2239cc5fc32dc6175dfdd14ae
+files mobile/android/base/java/org/mozilla/gecko/mozglue/NativeZip.java
+patch 251,252,

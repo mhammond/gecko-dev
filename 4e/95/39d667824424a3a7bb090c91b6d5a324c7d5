@@ -1,0 +1,4 @@
+changeset 20e5b802c5b31c98d5c47d5030ac38f67cde4621
+manifest 9513ecab35e4cf141266106c2536c015a1403a71
+files media/pocketsphinx/src/dict.c
+patch 208,209,

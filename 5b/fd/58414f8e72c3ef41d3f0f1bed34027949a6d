@@ -1,0 +1,5 @@
+changeset fb5e610a218a5955307658401b20872f5bd7eb96
+manifest 7dc9823323a45e7d72f15c788abb483085016b8b
+extra source:0012027267e6860f46d81f5e7880580392d84dde
+files modules/brotli/moz.build
+patch 242,309,

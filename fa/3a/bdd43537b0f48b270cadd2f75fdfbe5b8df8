@@ -1,0 +1,4 @@
+changeset b5eb49f785a261055ffeb563aa77b2417ad12a6c
+manifest 05c89fb10b813fbcfaeb61fab70165d44cac6aa1
+files netwerk/base/nsPACMan.h
+patch 177,178,

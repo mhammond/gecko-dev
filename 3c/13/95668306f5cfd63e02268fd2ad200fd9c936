@@ -1,0 +1,5 @@
+changeset 54a9185653591ba1ddd4f7c5c16fb4b8d9649d90
+manifest 9a718c4a41b4ef38caec2fda636501883df4b67c
+extra rebase_source:3665bded4589341fcc4ee6674aa4379cca997b83
+files mobile/android/base/widget/ActivityChooserModel.java
+patch 579,653,

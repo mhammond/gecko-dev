@@ -1,0 +1,4 @@
+changeset cc70dae5693b38d6f5756141f2a45429ea8ffd1f
+manifest 00b0c6356110ffb5e95b611f1c466268aa1f30b0
+files mozglue/build/moz.build
+patch 263,264,

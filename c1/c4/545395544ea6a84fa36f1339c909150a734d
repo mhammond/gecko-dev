@@ -1,0 +1,4 @@
+changeset ed53e2df9157a07b3e56aa0f794c4639c72a3834
+manifest 4235a664e07ed40ae2e1bfebb1f70a7e97b3c80f
+files modules/libjar/nsZipArchive.cpp
+patch 181,182,

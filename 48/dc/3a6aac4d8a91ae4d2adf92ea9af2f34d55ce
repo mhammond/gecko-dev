@@ -1,0 +1,4 @@
+changeset ff56abc1768b5d50177b69e8edb43dd6cf5ac998
+manifest 5341941a5df42ee14b4eea6a4847cb147ca1ca6e
+files devtools/client/debugger/test/mochitest/browser_dbg_variables-view-frame-parameters-02.js
+patch 225,226,

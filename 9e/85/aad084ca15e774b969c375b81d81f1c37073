@@ -1,0 +1,5 @@
+changeset ea865d0587762a8b2dd02ea95661745ae00d9c47
+manifest c471b1040b5985ef8bc737a3233209ed90f3b98a
+extra rebase_source:85513135d4f2f922dc0cbcf76b0d83955536dcdc
+files browser/base/content/browser-addons.js
+patch 298,372,

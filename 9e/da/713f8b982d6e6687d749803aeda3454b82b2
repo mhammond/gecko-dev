@@ -1,0 +1,4 @@
+changeset e55086409f41d720799814e4ce3b6f274cfcb1b0
+manifest 914d18bc73115b1314051c567f9f683e30449d67
+files xpcom/ds/nsStaticNameTable.cpp
+patch 421,422,

@@ -1,0 +1,4 @@
+changeset db07f0b48a2d87cc721b4b84cf8a29cb8f2f3c63
+manifest 5e3139603ae512a74fe433732ac1c0f6006bdd82
+files toolkit/mozapps/update/tests/TestAUSHelper.cpp
+patch 235,236,

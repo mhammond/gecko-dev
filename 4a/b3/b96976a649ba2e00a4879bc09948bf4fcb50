@@ -1,0 +1,4 @@
+changeset 8376124b6a0c3d1473f050444a6f30de747afde8
+manifest 0fc2551e85ef7aa7735d353cd7221566559dcd8e
+files build/annotationProcessors/CodeGenerator.java
+patch 846,847,

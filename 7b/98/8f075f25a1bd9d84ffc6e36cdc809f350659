@@ -1,0 +1,5 @@
+changeset 7081fe7c40a05ea4e9ee165fb93502f5e2eec368
+manifest fcc92c73e271f318e5b021cadaae2f5609fe7d26
+extra rebase_source:a9c38fa2e5cdf2c7e12d214e24651131aebe01be
+files gfx/gl/GLContextProviderWGL.cpp
+patch 303,377,

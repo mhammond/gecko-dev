@@ -1,0 +1,5 @@
+changeset 2fc79743f58e1b73655879551448e0152a122d19
+manifest 46567572a20360afc1c474b423003099aafb4fa6
+extra rebase_source:8a37f8a2e3f369ce83f08954856aeec2c72fd7de
+files js/src/tests/lib/jittests.py
+patch 292,366,

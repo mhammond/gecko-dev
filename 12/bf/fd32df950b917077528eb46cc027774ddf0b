@@ -1,0 +1,5 @@
+changeset c04872f21efe23b79cc9e1f4aa9a2e798fbb94a3
+manifest 4a8389be2d47eccabfa6ecd8f17991bd69c58c3d
+extra rebase_source:95646dff9a89a65da8249338c5f7b37c4fa09ad8
+files netwerk/base/nsPACMan.cpp
+patch 300,374,

@@ -1,0 +1,4 @@
+changeset f16a5cda04e52531a5bff0e350582fd433cfbcb9
+manifest db7dd08abbff7e1c200f98395430857e1409e5cc
+files dom/browser-element/BrowserElementPanning.js
+patch 238,239,

@@ -1,0 +1,5 @@
+changeset a73f74f718e7464d40c17df3f4228c96d5819d1a
+manifest 8e18121e8d249b979ee228a8c40adf77f40d1937
+extra rebase_source:4843a0d61884022398457ba788bb4f03d5bc8846
+files js/src/devtools/rootAnalysis/annotations.js
+patch 293,367,

@@ -1,0 +1,4 @@
+changeset 73b33302591ea833fc6c4ba49ccd2e23f139b296
+manifest 5bd5919bb9b194d06064d42a44da3968ca10226d
+files devtools/client/webconsole/test/browser_console_error_source_click.js
+patch 255,256,

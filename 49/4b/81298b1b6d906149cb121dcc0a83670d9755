@@ -1,0 +1,4 @@
+changeset 13c4aa8c19961e77387f138161824f18062b8665
+manifest f20262dfe631810a9fe33ab2a33c2d19719fd3af
+files mobile/android/base/AndroidManifest.xml.in
+patch 258,259,

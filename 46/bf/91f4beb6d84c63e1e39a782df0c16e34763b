@@ -1,0 +1,4 @@
+changeset 7e4e5e971d95f0ecfe2c721b6db0743b6ba7076b
+manifest 74ca12fac7f66f2c83ced64f1f2d5c0a715f55ab
+files xpcom/base/nscore.h
+patch 369,370,

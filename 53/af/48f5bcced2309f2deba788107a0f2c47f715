@@ -1,0 +1,5 @@
+changeset d6ffc9db53461550f8965e3587244b5b9d68eab6
+manifest 93e7951107e4f07dd74558d706d0ecd07df270c5
+extra rebase_source:1f6bf158adea0d586ad17b7b00d5668e873f8f2f
+files browser/components/sessionstore/test/browser_windowStateContainer.js
+patch 368,442,

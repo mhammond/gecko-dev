@@ -1,0 +1,5 @@
+changeset 273d39c4aa2082e04f7c96b7b549dcbff12abe22
+manifest 6e7d9d48d2ed55d816c8dac6a0b48a1c426fe72c
+extra branch:GECKO380_2015050320_RELBRANCH
+files mobile/android/stumbler/java/org/mozilla/mozstumbler/service/uploadthread/AsyncUploader.java
+patch 322,370,

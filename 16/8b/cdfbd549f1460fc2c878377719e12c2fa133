@@ -1,0 +1,4 @@
+changeset 10343f89ef92524b621fdd5a919e84903a47667c
+manifest efbc57f85dec031189e4712ff537e7eb0e0ec170
+files media/libvpx/vpx_ports/vpx_once.h
+patch 260,261,

@@ -1,0 +1,5 @@
+changeset 346623206d14008a0877ee57f3a2a4e396386da6
+manifest 48c0294e80cff97c99750f40a1ca63f6e3c557f9
+extra transplant_source:ég¶/%Ùd Bà]v¸)»CO
+files mobile/android/services/src/main/java/org/mozilla/gecko/background/fxa/FxAccountClient20.java
+patch 353,437,

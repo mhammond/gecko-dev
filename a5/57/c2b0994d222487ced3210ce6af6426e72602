@@ -1,0 +1,4 @@
+changeset f43c3c900fd72163fb8083601c2719a5c0246ed4
+manifest d5f674ed6eab7d00214018d46c1412c2750b5832
+files js/src/tests/ecma_7/AsyncFunctions/yield.js
+patch 243,244,

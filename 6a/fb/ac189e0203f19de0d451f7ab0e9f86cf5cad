@@ -1,0 +1,5 @@
+changeset 9982e9c96463d0862088e84d7960581eb040513e
+manifest 18b209a80ca01d1385845c9ca68bfdc77400087c
+extra source:8ca77a9ae536d9593fbb7899b2ba5eaa13abf0a7
+files testing/mozharness/scripts/release/postrelease_mark_as_shipped.py
+patch 330,397,

@@ -1,0 +1,5 @@
+changeset 9b232ee6823a5dfbac8aa2d7c627ccfe1fcafff7
+manifest 7418bd982ae9371687cf001a4caa1bbb0bbc387a
+extra source:fb9e0b43f99bd1165c40d0b7f6c516d9c36bad0b
+files addon-sdk/source/lib/sdk/window/events.js
+patch 269,336,

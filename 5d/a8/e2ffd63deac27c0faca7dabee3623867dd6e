@@ -1,0 +1,4 @@
+changeset 772f5b18522c7351c5897ae12087a0319a1c0ac6
+manifest cee64e31c241806f9c8beda5f6e93d426bc262ab
+files dom/plugins/ipc/PluginInterposeOSX.mm
+patch 219,220,

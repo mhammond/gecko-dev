@@ -1,0 +1,4 @@
+changeset 6f355c6e9e17ebcf1d349f058e46d59767e3e1a7
+manifest 4cfbf2fdcba34fd04bafce944e20d1f97c2590a6
+files browser/components/loop/test/shared/activeRoomStore_test.js
+patch 286,287,

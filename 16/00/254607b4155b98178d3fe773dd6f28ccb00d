@@ -1,0 +1,5 @@
+changeset ca0d04ce03040d726cd96d112761e79317587c18
+manifest 99cab08eba601022b0911b5100271644d55c38ad
+extra amend_source:616c26abebfed46a5a195a78999876170a148d18
+files devtools/client/shared/webgl-utils.js
+patch 266,339,

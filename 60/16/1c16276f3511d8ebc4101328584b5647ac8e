@@ -1,0 +1,4 @@
+changeset 197ab0f25829cb1e0c1679abdce00b8bc1eb290a
+manifest c8a2790cfda67f1ccdf0971b3919bd4fb0997b6f
+files testing/web-platform/mozilla/tests/service-workers/service-worker/uncontrolled-page.https.html
+patch 243,244,

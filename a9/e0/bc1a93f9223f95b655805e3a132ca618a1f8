@@ -1,0 +1,4 @@
+changeset a005f1452f41bdc9e6c28923ccab1ec4cc74593a
+manifest 1a80f1b72311a14ab9e399dc504720bcc755bced
+files services/fxaccounts/tests/xpcshell/test_manager.js
+patch 287,288,

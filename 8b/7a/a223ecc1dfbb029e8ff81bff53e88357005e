@@ -1,0 +1,5 @@
+changeset f02665b3a963a6df9a598875a0edf29f776e4d0d
+manifest 7fc37ea5ec614f2aeda4e4762b46248e2996367d
+extra rebase_source:3b731f95b7a58fe9e3b4cecc18a240ad49352448
+files js/src/dtoa.c
+patch 719,793,

@@ -1,0 +1,4 @@
+changeset 560eceda7ba08bd104379c631772a8a23345b8e3
+manifest 9cc8985715ade90b1722f00c8d62b944d89fef98
+files devtools/client/fontinspector/test/browser_fontinspector.js
+patch 216,217,

@@ -1,0 +1,4 @@
+changeset 82d973155d8b38f9a7e0c9586b54b4b1fcd61358
+manifest 780d0074fffd38323fda5fabc7ddf3c0080f7173
+files js/src/jit/ScalarReplacement.cpp
+patch 233,234,

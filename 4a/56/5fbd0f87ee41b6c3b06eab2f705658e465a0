@@ -1,0 +1,4 @@
+changeset 870cd04b8bfd29a6471a8db68eafadaf8765a833
+manifest a4d2adbacdfec224270e563a978984adad4004b7
+files browser/metro/shell/commandexecutehandler/CommandExecuteHandler.cpp
+patch 268,269,

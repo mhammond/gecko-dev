@@ -1,0 +1,4 @@
+changeset 9260b1dbb96d8ebfa560824ba9b4cde1639501ba
+manifest 199a09e9dd95ee2f18b2b58550327dd8846eecd2
+files security/manager/pki/src/nsNSSDialogHelper.cpp
+patch 220,221,

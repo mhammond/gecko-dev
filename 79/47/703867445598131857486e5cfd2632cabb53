@@ -1,0 +1,4 @@
+changeset fa63bc4130b978dfd5e2d3dbf575475cd1993467
+manifest 702f019b97b28420027f54e3cc6d96aecc584ac7
+files dom/media/webaudio/PannerNode.cpp
+patch 188,189,

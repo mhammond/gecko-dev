@@ -1,0 +1,5 @@
+changeset 5543c966eef3a3f4cf58f788b6eb6552fc5dc5c3
+manifest 459b8e00e92a2d48fb80ea88898159c2990f40c2
+extra source:4da317d99508fee4175f6fc22f074b7433250ed2
+files dom/html/test/test_fullscreen-api-race.html
+patch 288,355,

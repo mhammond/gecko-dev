@@ -1,0 +1,4 @@
+changeset 4a0e851f83e43e05bf0ab7ebe555d6641357bf57
+manifest 54e5cf1ab90e67805690b60e6123b3337b2f7127
+files toolkit/mozapps/update/common/updatelogging.cpp
+patch 255,256,

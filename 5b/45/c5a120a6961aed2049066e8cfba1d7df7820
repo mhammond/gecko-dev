@@ -1,0 +1,5 @@
+changeset d0a3a42979e805db3b896ca786ed61ba85d9a6a7
+manifest 0c909db0eeb270b145c7d501753ad6027a0fc69a
+extra rebase_source:f3de6198a2616315358e3e3be1441df0713b442f
+files python/mozlint/mozlint/roller.py
+patch 318,392,

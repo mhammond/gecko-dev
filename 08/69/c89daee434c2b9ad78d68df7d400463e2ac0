@@ -1,0 +1,4 @@
+changeset 4a4b5cc7433b42a16b7bb73026161c6ead1fe3b9
+manifest beb56e56c3b88f6fe4cbf0e440974f4c8ac43d8a
+files xpcom/reflect/xptcall/xptcprivate.h
+patch 213,214,

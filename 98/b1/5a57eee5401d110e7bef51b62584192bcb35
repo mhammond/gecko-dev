@@ -1,0 +1,4 @@
+changeset 1db2ae4b7124adfe80788f655de3fcab175279fe
+manifest b665f223f8ae2f97532482ba06bdbd11eee8fb23
+files devtools/client/shared/test/browser.ini
+patch 284,285,

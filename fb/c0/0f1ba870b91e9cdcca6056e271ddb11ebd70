@@ -1,0 +1,4 @@
+changeset f1e8e805a17027b625aaa5b306be1cbcbab5d6fb
+manifest e918d8236a049cd2901b314c34bb557e9e4963b5
+files js/src/jit-test/tests/basic/exception-column-number.js
+patch 272,273,

@@ -1,0 +1,4 @@
+changeset 8c6fa8b34a0f0f72f07075fc84916d1e63ec9b6f
+manifest d514140af9977bbb7c6bcf9b949d77cede107ee7
+files devtools/client/shared/test/browser_css_color.js
+patch 188,189,

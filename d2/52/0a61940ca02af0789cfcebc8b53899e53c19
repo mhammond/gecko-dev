@@ -1,0 +1,4 @@
+changeset fd675d2d541ff39a81c1a7224bd27d520c14fcef
+manifest 65854d10f1860b14bfa60e8a738d1ceb9b8297ca
+files browser/extensions/pdfjs/components/PdfRedirector.js
+patch 228,229,

@@ -1,0 +1,4 @@
+changeset e78d0947c0f65766b01ac34883680d9370380692
+manifest b1929774d0e7891c5db131bffeddb16a7d5a8951
+files browser/devtools/styleinspector/utils.js
+patch 228,229,

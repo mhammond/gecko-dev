@@ -1,0 +1,5 @@
+changeset ec25edc09a602ae0abf6b957d603018598e3ef7b
+manifest 17caa5743312d95ead57748623c641dfd80cf0a0
+extra transplant_source:Ô™MÎ¢(Dj>A‘‚¯†Q¢j
+files mobile/android/services/src/main/java/org/mozilla/gecko/sync/net/MozResponse.java
+patch 319,405,

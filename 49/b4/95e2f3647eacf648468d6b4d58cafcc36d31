@@ -1,0 +1,4 @@
+changeset f9efa46b30ba2d4b837ec0b0e45c233714824bb1
+manifest 8ccd5bbcff4e2f44d0d47c7b05f12108b5128786
+files devtools/client/webide/test/chrome.ini
+patch 245,246,

@@ -1,0 +1,5 @@
+changeset 273d52aff2adeff1058e398c9bae1204b7fb9e5a
+manifest 12509d218af636e3f8b3d74d6c6a64687c97b6cc
+extra rebase_source:93496db608a2f9480e521c526e30a25646583997
+files testing/mozharness/mozharness/base/vcs/mercurial.py
+patch 525,599,

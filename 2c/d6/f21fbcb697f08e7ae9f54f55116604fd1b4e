@@ -1,0 +1,4 @@
+changeset 32728e9ccaf636a87d5d54070d51509aaf39c2e9
+manifest 821aaa6254eb40d270c247e64c7082d67d8c7a64
+files security/manager/ssl/src/nsSmartCardMonitor.cpp
+patch 275,276,

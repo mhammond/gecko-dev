@@ -1,0 +1,5 @@
+changeset ab12d34f31451576d5891b2262270dc758b3607f
+manifest 1eea8084eaec435673d7af52a10b2b9c0fab99dd
+extra rebase_source:194e4c54064a485793acbbdc48fbc21a4a8bd01f
+files toolkit/components/telemetry/nsITelemetry.idl
+patch 308,382,

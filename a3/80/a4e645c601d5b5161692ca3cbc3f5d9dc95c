@@ -1,0 +1,4 @@
+changeset e43800b15d2d209b5ba1ded8a18d6841decf83d3
+manifest 7cd8924e1841797af47fc719130cf31b181b78e1
+files security/pkix/include/pkix/stdkeywords.h
+patch 178,179,

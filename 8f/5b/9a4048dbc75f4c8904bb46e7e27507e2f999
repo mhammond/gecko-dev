@@ -1,0 +1,4 @@
+changeset fc409d9244ce5b34fd484f52b2d81ceb300cbd9c
+manifest 41437937e381ee5ecc85cffb42ff60afc41a0575
+files widget/TextEventDispatcher.cpp
+patch 273,274,

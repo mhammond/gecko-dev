@@ -1,0 +1,4 @@
+changeset d595d115797b1c4d86e9999d408c6cdf5daba8da
+manifest e397518e16d8b62f3b73d66984ecaaabe75d26c9
+files media/webrtc/trunk/webrtc/video_engine/vie_encoder.cc
+patch 208,209,

@@ -1,0 +1,4 @@
+changeset 30332bf91baf9ccdfe7d11620a6eb9cb4f0e149c
+manifest f4c4bb0d31f71981910779bc54d7ca4087669905
+files image/decoders/icon/gtk/nsIconChannel.cpp
+patch 264,265,

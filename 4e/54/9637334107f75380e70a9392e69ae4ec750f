@@ -1,0 +1,5 @@
+changeset d048e177ab2685617f4cadad190314c2452d324e
+manifest 1210376129e7077a4f24cce63ca66e09293bce7d
+extra transplant_source:rWEÍØ§‡<•µE>EÇO\rö
+files security/manager/ssl/nsNSSU2FToken.cpp
+patch 477,563,

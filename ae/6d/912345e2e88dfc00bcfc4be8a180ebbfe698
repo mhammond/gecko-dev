@@ -1,0 +1,5 @@
+changeset b2ef50220539eaee044d838de747e1e38fd1f1d2
+manifest 9fdc805570eca01a3110b651cf8f84878f507f35
+extra source:3ccb3bbe75fa1bbc248285900284646bfdaf56b4
+files netwerk/sctp/src/usrsctp.h
+patch 265,332,

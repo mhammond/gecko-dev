@@ -1,0 +1,4 @@
+changeset 47e690b422fabcdbb3c06cab9032692fc717ae4c
+manifest e2017ea69250d60bddb58dc7b2e4dea77bb384bc
+files js/src/jit/arm64/AtomicOperations-arm64.h
+patch 188,189,

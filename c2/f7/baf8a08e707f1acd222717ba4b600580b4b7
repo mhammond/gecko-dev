@@ -1,0 +1,4 @@
+changeset c22ad1335d55c58e3ea1311617900dd81fd11160
+manifest efa91b460edc8a2fa57ca4bfea3da4b59334e2e6
+files toolkit/mozapps/update/tests/unit_aus_update/urlConstruction.js
+patch 236,237,

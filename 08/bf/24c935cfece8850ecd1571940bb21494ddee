@@ -1,0 +1,4 @@
+changeset 316b764ae6c01ed1b91dc9f1690572b6d5364658
+manifest 0596fa8b97974f69c28e5a4e12b2cdc1464c093c
+files build/stdc++compat.cpp
+patch 195,196,

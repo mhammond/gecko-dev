@@ -1,0 +1,5 @@
+changeset a8254e91e0fed9395c238d5b60867c7907fa261a
+manifest 711753334cebad0c6b3fe6b3ca8c2d4c26aa919d
+extra rebase_source:edced643e07b519bc8ddf189df995e8771c8e260
+files taskcluster/ci/l10n/kind.yml
+patch 265,339,

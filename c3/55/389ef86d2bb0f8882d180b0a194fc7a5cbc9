@@ -1,0 +1,5 @@
+changeset 6963c6f6caacf104ac52b99dc68a0e9b89eaacba
+manifest 705c103eb40b95cec708fe90a343de149b375742
+extra amend_source:9534ba07b0a40234374a0813c9404a64ceea5ed4
+files toolkit/content/tests/chrome/test_mousescroll.xul
+patch 308,381,

@@ -1,0 +1,4 @@
+changeset b0a16998b5b0fe2ac348a2829984e3e34bdaacc6
+manifest 9ef8f350dac229cd94c96b0796ba1a4947abc174
+files dom/base/nsAttrAndChildArray.cpp
+patch 176,177,

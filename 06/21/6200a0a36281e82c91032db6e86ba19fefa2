@@ -1,0 +1,5 @@
+changeset f17a4df0e8172720d053418e6d064348b3da3fa4
+manifest 9ad77ac4a223ed9e071a21f163a26f14fbf9f1f1
+extra source:9c7b4822185326e62ddde4b4db3019ea9a4a5502
+files toolkit/mozapps/downloads/DownloadUtils.jsm
+patch 251,318,

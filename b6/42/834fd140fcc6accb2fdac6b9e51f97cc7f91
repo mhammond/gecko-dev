@@ -1,0 +1,4 @@
+changeset 8e6cd43760b3b7d78db25a82bb704b4bc9ab132f
+manifest 45b3f92904753ac849a4faa2b7e8e156cda4b7d7
+files toolkit/components/passwordmgr/test/browser/browser.ini
+patch 240,241,

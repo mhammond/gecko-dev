@@ -1,0 +1,5 @@
+changeset 5c4db3f21e9f35e0410580f420725b5f2be4ec80
+manifest bb4f9fd410832b5592ccef7a92c88d99bd063007
+extra rebase_source:646cb9c8fbb8e850a4a8857264b56b4379f94370
+files browser/base/content/test/plugins/browser_pluginCrashReportNonDeterminism.js
+patch 375,449,

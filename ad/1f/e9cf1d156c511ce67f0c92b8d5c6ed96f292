@@ -1,0 +1,4 @@
+changeset 4a81d45f61991925e01dda62c6ac0cefbcd9fb6d
+manifest 64c934e396955fd1f1e92ac534148ce7664dacb8
+files toolkit/devtools/webconsole/test/test_page_errors.html
+patch 259,260,

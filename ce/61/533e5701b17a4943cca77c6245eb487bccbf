@@ -1,0 +1,5 @@
+changeset 8fefcb8ca48c45eab3f1a951183779cb0f120828
+manifest 92b6efa1e2b57060193fae2d4107e95f0b8bf511
+extra source:d087ef333c9a794fcc851e4b74c5f111c5958770
+files media/libstagefright/frameworks/av/media/libstagefright/Utils.cpp
+patch 302,369,

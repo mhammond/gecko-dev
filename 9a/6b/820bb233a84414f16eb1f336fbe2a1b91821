@@ -1,0 +1,5 @@
+changeset 2ac1c5fdaef5e92a9c3e766947ba48bf44f09b2b
+manifest 415cd122700f460c808bd39a224cf2de6f3ad312
+extra source:f205f28cbcf3723aee0e302ea2ce7b71a00f4210
+files dom/canvas/CanvasRenderingContext2D.cpp
+patch 238,305,

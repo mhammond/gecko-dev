@@ -1,0 +1,4 @@
+changeset 4303d7265007b3bd17e7c3de71fc350d3167b03b
+manifest d8e4260d48afa8c7c644823cda1cd860b70fc26c
+files browser/base/content/test/social/browser_social_window.js
+patch 214,215,

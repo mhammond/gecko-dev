@@ -1,0 +1,4 @@
+changeset 44f718bb2282512003fa09eb9a796ff4b580c957
+manifest caf6035b5714b6e67c5612a22ac0849066161b30
+files devtools/client/shared/widgets/ViewHelpers.jsm
+patch 180,181,

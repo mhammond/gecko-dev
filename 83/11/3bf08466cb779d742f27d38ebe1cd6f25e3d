@@ -1,0 +1,5 @@
+changeset 2d337dda7dd1e2b3b490466e130239602de87c51
+manifest a52fdae250cafbc019cf3cc9d3d68eb91fe3565a
+extra rebase_source:a58f8c0c2fb7f11cb13b6816827a7768fbbfd2a2
+files widget/android/AndroidBridge.cpp
+patch 296,370,

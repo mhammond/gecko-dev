@@ -1,0 +1,4 @@
+changeset 0ffec562285bd20c6d35dfde7c2ff1a2db4323a4
+manifest 4b6e019de997e2dac98e8f7350a82e890a737062
+files gfx/skia/skia/src/opts/SkOpts_sse2.cpp
+patch 209,210,

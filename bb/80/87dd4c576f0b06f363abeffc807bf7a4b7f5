@@ -1,0 +1,5 @@
+changeset 087ba64d44edebd9fe5021384c006ce281f0b0d8
+manifest a3c3ce890f08f3308d97700f80a2acfc7d548278
+extra rebase_source:d7ca03797406cf836c7eee59328e21847d3d927b
+files mozglue/build/moz.build
+patch 255,329,

@@ -1,0 +1,5 @@
+changeset 29ad4236e0cea93b4b6d2bd6cbef9e6f2ffecea1
+manifest eb989206b9a2c0d8796515a880205142348bedb8
+extra rebase_source:87f985a43bf2c48ecad143fb2c1973a87966c931
+files python/mozbuild/mozbuild/backend/recursivemake.py
+patch 296,370,

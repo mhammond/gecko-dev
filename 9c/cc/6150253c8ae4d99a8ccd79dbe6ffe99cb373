@@ -1,0 +1,5 @@
+changeset 81c452fd0a01dae174f8981907467791d06f6af7
+manifest ad779ee9599287cbf249d01e981302fd99266e07
+author Eddy Bruel <ejpbruel@mozilla.com
+files devtools/shared/fronts/emulation.js
+patch 185,186,

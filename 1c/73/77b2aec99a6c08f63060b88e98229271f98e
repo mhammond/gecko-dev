@@ -1,0 +1,4 @@
+changeset 51c543f667954764ad85a2bdb2093e50d60190cb
+manifest 836e2059e91cde796743322789bb8a3f12da007f
+files media/webrtc/trunk/webrtc/modules/desktop_capture/mouse_cursor_monitor_x11.cc
+patch 258,259,

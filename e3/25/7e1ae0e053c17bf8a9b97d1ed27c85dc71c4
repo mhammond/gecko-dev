@@ -1,0 +1,5 @@
+changeset a1eaa7d45f0c941547551cefedb11e8ac120e7fc
+manifest 41f3f4add0cff5ecb82e27cca3639afa9d8b6c3b
+extra rebase_source:715e1fb09b589d510b72c2264889fe67fe6fb72b
+files layout/xul/test/chrome.ini
+patch 300,374,

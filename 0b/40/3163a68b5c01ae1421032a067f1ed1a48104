@@ -1,0 +1,4 @@
+changeset 91532055b0e91b75c4b4434f53bca5e789174def
+manifest 5fb6345f8d59d3e1af2460258016779ef634ea00
+files testing/taskcluster/tasks/builds/sm_variant_base.yml
+patch 271,272,

@@ -1,0 +1,5 @@
+changeset 2824acfb199277acc6e130ab66a07801c8aa10ca
+manifest d2288c437a3d988e447ab79ab7b120cb42656fca
+extra rebase_source:8d0e362e38167e38de07d921eb16d6952f766a4f
+files browser/components/originattributes/test/browser/browser_cache.js
+patch 286,360,

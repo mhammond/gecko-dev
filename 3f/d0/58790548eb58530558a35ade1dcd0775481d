@@ -1,0 +1,4 @@
+changeset 9943bdffe5045968571f18ba6a283cbb5df894e0
+manifest cccc0a26c38e812949e7b6a83f505b741c2d687a
+files js/src/irregexp/RegExpStack.cpp
+patch 196,197,

@@ -1,0 +1,5 @@
+changeset 10c5ec23f0a96af0581dbf81ae4fb0377d996605
+manifest b02998a1a62c26fcd32389858b31d540f2b57003
+extra source:d4a0d8bebf11874ccf7d3c203b8f1650ae2248ec
+files devtools/client/webconsole/test/browser_repeated_messages_accuracy.js
+patch 348,415,

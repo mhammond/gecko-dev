@@ -1,0 +1,4 @@
+changeset c82893fb1eacf89b1a35268ad6ec6c5025d30ce2
+manifest dbf55805f9ef7bcf0ae7f4a13e7cd91281dda77d
+files js/src/jit-test/tests/basic/destructuring-iterator.js
+patch 193,194,

@@ -1,0 +1,5 @@
+changeset 95c5d3617db2355aed67724a9d8180d9c6cd0467
+manifest 53a0c77797e0cd02a351fc955bbe51f3f874ba6b
+extra rebase_source:1f9461868c1d7ba251f16119cb616c95a1825b69
+files mobile/android/services/src/main/java/org/mozilla/gecko/sync/setup/activities/WebURLFinder.java
+patch 402,476,

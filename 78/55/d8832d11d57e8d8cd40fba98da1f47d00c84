@@ -1,0 +1,4 @@
+changeset 96ee325b5bc065512524a3ec53abe560df5d81e9
+manifest 747e0ca3fbad88a06824b841859f81132b21de25
+files xpcom/base/nsIDebug.idl
+patch 159,160,

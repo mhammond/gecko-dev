@@ -1,0 +1,5 @@
+changeset 3e77fa27460469242dbb09c19270303e84ac844f
+manifest 69147a512030c9d97bf9c909fe65c99e7264a585
+extra source:4ad4e4652aa8a21ed83e7e63d29fe7e1229f1848
+files mobile/android/modules/FxAccountsWebChannel.jsm
+patch 297,364,

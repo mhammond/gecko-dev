@@ -1,0 +1,5 @@
+changeset 3e36c1367ba2453e8325fbd1f9487255f345bd1f
+manifest 04b34fcd12990d21f91c1b82ee44161961e4a8f5
+extra rebase_source:a19e7cf192a2dabb22499bcb501ae08efdf74b9f
+files dom/media/platforms/agnostic/VorbisDecoder.cpp
+patch 306,380,

@@ -1,0 +1,5 @@
+changeset d2b817bfed7cda483903914bff356dc1e73ff05d
+manifest 3cf61bbbeea5bbed54009d9299904505bb32c7c6
+extra rebase_source:85aec8adfdaacac7062827e273cf697c09167d63
+files mobile/android/base/resources/values/dimens.xml
+patch 1668,1742,

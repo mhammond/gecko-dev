@@ -1,0 +1,4 @@
+changeset 590b7775ce8431ec98136a86b2400ee1d2fc90a7
+manifest 2fb53aefd560c2a97a2356d78e49997882befe9a
+files browser/devtools/performance/test/browser_perf-compatibility-05.js
+patch 232,233,

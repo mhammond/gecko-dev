@@ -1,0 +1,4 @@
+changeset f9f4be5e803694031f1d23ebf8a3b41173f5e0c1
+manifest 779220a8a304f116ac220854e57524a3d28bdd4a
+files dom/base/nsPIDOMWindow.h
+patch 199,200,

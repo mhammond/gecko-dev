@@ -1,0 +1,5 @@
+changeset 8de4fc84e7cfec86cbfcb8b71db9cb7715219f9b
+manifest 61d200dc0b9c81c321166d179b1243295e5e823e
+extra rebase_source:3677dabef9dc7b0ab9fcb98d58614e3f512d9024
+files browser/base/content/test/general/browser_tabs_close_beforeunload.js
+patch 358,432,

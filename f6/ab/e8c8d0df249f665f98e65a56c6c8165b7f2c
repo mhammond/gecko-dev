@@ -1,0 +1,5 @@
+changeset 7ebc6fb05d557f0c16834cb7b9bfc3b6824431a9
+manifest 0c8e54a41e905e825e9885c9927c5abd647fc555
+extra rebase_source:e08ee8eba2d2905f7194269b7425c8f0856830ae
+files gfx/layers/LayerScope.cpp
+patch 274,348,

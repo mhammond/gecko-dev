@@ -1,0 +1,4 @@
+changeset 763336d4cbb2529ac72395ce166fcf297a1b01b6
+manifest f392f8c0c64500c973e069de9e46abd6a2e567e5
+files tools/update-packaging/Makefile.in
+patch 187,188,

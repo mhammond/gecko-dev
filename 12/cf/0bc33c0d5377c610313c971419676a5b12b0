@@ -1,0 +1,5 @@
+changeset 42550d2fd6711cc42eb955bb794f556b5a73a237
+manifest 09a457e9d519e22d6595409a8df6247e21520b5a
+extra rebase_source:12e0f930a6b1770f20a014591f2d4377b5ed95bb
+files dom/media/webrtc/MediaEngineCameraVideoSource.cpp
+patch 310,384,

@@ -1,0 +1,4 @@
+changeset 8f80e6e64a015c1b112765bd39a208c962f46824
+manifest 485d04b709040695e96a0e75fb32fde11e552486
+files devtools/client/inspector/shared/style-inspector-overlays.js
+patch 292,293,

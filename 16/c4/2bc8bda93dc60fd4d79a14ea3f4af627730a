@@ -1,0 +1,4 @@
+changeset 6a9b7f40f54da4e105228e2c77d7efd881b09062
+manifest 39bfdb9159b442743506a810ff2639bbfa500188
+files devtools/client/inspector/test/browser_inspector_highlighter-inline.js
+patch 242,243,

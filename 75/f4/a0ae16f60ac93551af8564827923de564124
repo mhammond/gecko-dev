@@ -1,0 +1,4 @@
+changeset 582fcb5a63d3ba0624968177b96de3ae27880d83
+manifest 660fef375f8d4b6af3bdb55e5795fdf508039df8
+files toolkit/components/asyncshutdown/AsyncShutdown.jsm
+patch 223,224,

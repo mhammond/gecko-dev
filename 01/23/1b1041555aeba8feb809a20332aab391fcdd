@@ -1,0 +1,5 @@
+changeset 2b7c421063ad7e30b6491d62ed8480ca333b628a
+manifest f3165c5408980611f54c709c06bbee9af4fc374c
+extra source:b498e6f7c6b03c7ea7217e8cec7edb178bd0ea07
+files testing/talos/talos/xtalos/xperf_whitelist.json
+patch 316,383,

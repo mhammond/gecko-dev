@@ -1,0 +1,4 @@
+changeset 59db3b0781908d9e2145477ff8dc5a85729e25bf
+manifest ec99ae6f8a3caa9d8b2067246fbc144fa5ceb51f
+files devtools/client/inspector/inspector-panel.js
+patch 186,187,

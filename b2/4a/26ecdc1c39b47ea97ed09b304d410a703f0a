@@ -1,0 +1,5 @@
+changeset 4ef26dba9e6fa224a687e94d080768ace4268542
+manifest 5c89629c545f69c346b9be6f6cb6a3e4568b6615
+extra histedit_source:63ddf50ccbd79eb320c52aa47959f76a8b247e21
+files security/manager/ssl/src/nsNSSCertificateDB.cpp
+patch 286,362,

@@ -1,0 +1,5 @@
+changeset 1e7cc5ec688657e6d3711c1be1ca8d5db5119329
+manifest a25ee18e677a3d825a5cbd6f3395a0acefb5b830
+extra amend_source:ca81e5183943fc92e6c82f35ab67e5c45142c587
+files js/src/jit/x86-shared/AtomicOperations-x86-shared.h
+patch 256,329,

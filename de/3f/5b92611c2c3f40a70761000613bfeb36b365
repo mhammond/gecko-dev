@@ -1,0 +1,5 @@
+changeset 62620131e03767e04753f5c26053af0759492e12
+manifest 7dcfe63a4d1f4fcadaa255382bc076d807d1b8cc
+extra rebase_source:d7543edbcbbb091e393b2f6e6234d2e71c4facf2
+files mobile/android/base/locales/en-US/android_strings.dtd
+patch 333,407,

@@ -1,0 +1,4 @@
+changeset 6ceb8eadcf7e163c85b57f8803e812a3f8f3a0cc
+manifest 10105010f82e2d17ac8d80375385885920fa303e
+files media/libsoundtouch/src/moz.build
+patch 565,566,

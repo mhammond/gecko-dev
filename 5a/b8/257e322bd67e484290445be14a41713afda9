@@ -1,0 +1,5 @@
+changeset 827f28a6ff64f6930588689ab120a99a84a61131
+manifest 29211d57e37535ed405d8b5af8a89344fe74c561
+extra rebase_source:dff8c9fc7cb8d40ba2788d76b8cd6988a3357896
+files toolkit/components/passwordmgr/content/passwordManager.js
+patch 337,411,

@@ -1,0 +1,5 @@
+changeset b8bcbc25809bc7f4449825ea8caf1c1688105e0d
+manifest b1dd6703f8dfed862332f33f8a16529f2d4d2ae7
+extra source:1a465b2ef02515d57d98d25babab144a7ac56057
+files browser/devtools/shared/test/browser.ini
+patch 316,383,

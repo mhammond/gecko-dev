@@ -1,0 +1,5 @@
+changeset ca49906a64092545890cfa4c704bab6c34c48fd5
+manifest 01941b63cb9bbed7b308fceceddc6572b282e9cd
+extra rebase_source:546d7b28d16d8e670b7607aa5400055b7afa03ee
+files media/webrtc/signaling/src/sipcc/core/common/resource_manager.h
+patch 291,365,

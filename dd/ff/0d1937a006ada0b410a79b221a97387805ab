@@ -1,0 +1,5 @@
+changeset fcffcba77426e82348646e633abfec2b0b1c7637
+manifest b7784738dcb980945b24f51a3859b3fceb880084
+extra rebase_source:fdc4555785ce734e59a1d49f03513b2f74599a16
+files toolkit/components/passwordmgr/test/mochitest.ini
+patch 320,394,

@@ -1,0 +1,4 @@
+changeset fc5233e55fec8b05f8284d407f5e1ff4be6795d0
+manifest d27922fb756d1a656bd462d12d9e5e3a29a0ab0d
+files dom/base/nsScreen.cpp
+patch 265,266,

@@ -1,0 +1,4 @@
+changeset 5af01b6d16b732db6558f40339f77fe33d17c345
+manifest b5857140a543d74aed879034c1509271f48fe534
+files browser/base/content/test/plugins/browser_pluginnotification.js
+patch 306,307,

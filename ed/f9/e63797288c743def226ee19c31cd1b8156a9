@@ -1,0 +1,4 @@
+changeset fc99ddeac1ce700423a63866ed906fc77a7be17c
+manifest 8a15cd2a5176291045e9481b7a57a643cf35a773
+files js/src/jit/CompileInfo.h
+patch 226,227,

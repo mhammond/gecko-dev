@@ -1,0 +1,5 @@
+changeset dce17109ad1a949f83904e40d322febdd4fabe6f
+manifest 92c4592a573e09233919902e2691c630fb64df21
+extra histedit_source:25cb2191229277368e9744fbbc13c899fc33f585
+files dom/canvas/test/crossorigin/mochitest.ini
+patch 260,336,

@@ -1,0 +1,5 @@
+changeset 487d71a5923c637e7cf51b6f15a9b858bd4638e5
+manifest 5407f383996c321b19609695b01595b34a5974ef
+extra rebase_source:2d86b123bce3c635379f91a95cb3f0b772c769db
+files gfx/layers/client/TextureClientPool.cpp
+patch 277,351,

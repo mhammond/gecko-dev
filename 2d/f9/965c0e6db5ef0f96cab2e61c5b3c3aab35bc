@@ -1,0 +1,4 @@
+changeset f94ad4babe1d8828071e1b5b976739b7f633ad1e
+manifest 06005e8cfc7cdbe009b4b6664db45844ca4c9782
+files dom/workers/XMLHttpRequest.cpp
+patch 655,656,

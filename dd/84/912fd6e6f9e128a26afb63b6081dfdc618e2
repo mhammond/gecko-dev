@@ -1,0 +1,4 @@
+changeset 3575f06c6dd18d7cd45826c5d91922aef1a367b4
+manifest e6b9aabe846ade31ce3d43afff4b96c809767f09
+files widget/nsClipboardProxy.cpp
+patch 658,659,

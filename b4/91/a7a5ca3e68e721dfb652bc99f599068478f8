@@ -1,0 +1,5 @@
+changeset c6c3985e15fadfe6997bc371cac8914c6ca315fb
+manifest 38b1f68ceb5a3f0621b1c40a0c27d5d14c9e5799
+extra rebase_source:c80820cf5cadcbcb55b98d8be4e82689d54881c0
+files browser/components/downloads/content/downloads.css
+patch 318,392,

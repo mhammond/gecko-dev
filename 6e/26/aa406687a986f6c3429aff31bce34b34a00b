@@ -1,0 +1,5 @@
+changeset 60d0080b95fe9f06636427dfd0eaebc258d0e9bc
+manifest 7d6de3ea685b073f78cbf475d461b7be085d0b2d
+extra rebase_source:9f8270e6e89bc1819279cc6d4ecde53a458d96ec
+files browser/base/content/browser-devedition.js
+patch 322,396,

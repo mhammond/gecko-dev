@@ -1,0 +1,4 @@
+changeset 6251d574735fd599558529fc2f3b24091b8aff39
+manifest fff5ef21490a0e3535dcbf21baa428a1ba6b10ca
+files media/webrtc/trunk/webrtc/common_audio/wav_file.cc
+patch 241,242,

@@ -1,0 +1,5 @@
+changeset 438e73cdb24252ce6f89201d133756958b37480c
+manifest 440833cbffc676796b968c4ab1d233e819c5b8d6
+extra rebase_source:8c063e91bfc99b25cfc230d4b78000e98c6c8e53
+files toolkit/components/passwordmgr/LoginHelper.jsm
+patch 295,369,

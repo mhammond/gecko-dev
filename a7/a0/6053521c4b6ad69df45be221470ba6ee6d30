@@ -1,0 +1,4 @@
+changeset 0b8286662a04cb6b71054a4926b6d0642da75c0d
+manifest 54114eb2e5ac75a20976685718ca48fece602103
+files widget/windows/nsScreenWin.cpp
+patch 307,308,

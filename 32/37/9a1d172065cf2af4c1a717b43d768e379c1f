@@ -1,0 +1,5 @@
+changeset 1e4f5a991728ebf5ba435300406958792d2982d1
+manifest 3c39d543b598006ee1716c594fde5c419f50a14c
+extra rebase_source:054cb98cddf279f38a4fbea034f8643f3f53e417
+files mobile/android/geckoview/src/main/java/org/mozilla/gecko/gfx/DynamicToolbarAnimator.java
+patch 420,494,

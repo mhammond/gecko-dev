@@ -1,0 +1,5 @@
+changeset 0fab91664636d9fbd597f59df17602aaa940a614
+manifest 405b181ffa1f4d962df49f5690e6c2add0846a8c
+extra source:a005f1e07f203bf6a4848ba5e6d75cf53bf9acd4
+files js/xpconnect/src/nsScriptErrorWithStack.cpp
+patch 292,359,

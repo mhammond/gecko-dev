@@ -1,0 +1,5 @@
+changeset 4a6f6c64ae89d18931c50286076f8a0030c75095
+manifest 925909d53e49412a27e199e71198711cf5d26da6
+extra rebase_source:3699745305f52472c30e4c77edfc34a4727741aa
+files browser/base/content/test/popupNotifications/browser_popupNotification_checkbox.js
+patch 381,455,

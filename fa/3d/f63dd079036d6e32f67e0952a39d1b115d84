@@ -1,0 +1,4 @@
+changeset bc13e689699b1957464db27b7e311b26f0856aef
+manifest 2d9c5f3b7a1453de3c5f02242c4a5f4e510444aa
+files docshell/base/nsIDocShell.idl
+patch 225,226,

@@ -1,0 +1,5 @@
+changeset 9daee31e3b9955740070a346c35a59b1fef5fd9e
+manifest f859e47a8f84566e692e0cff5585581d88593c43
+extra source:49e416beae3c398890d13eb8690b9fa90ed79135
+files dom/base/nsIDocument.h
+patch 234,301,

@@ -1,0 +1,4 @@
+changeset 76673f4686dd577f7bf39a2a3b7c5bb598672a94
+manifest 502cf37ee7d46f8ee994f4565429edf3c756309d
+files layout/style/nsLayoutStylesheetCache.cpp
+patch 216,217,

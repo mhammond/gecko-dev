@@ -1,0 +1,5 @@
+changeset 16d38eb3a7546b02cf64618f81d0aadf200b919c
+manifest fc7691ab5689f096a54a152945da239c211a43e2
+extra rebase_source:f163281cd729b80153fe3fd199c9dd489dab27a3
+files toolkit/components/downloads/nsDownloadManager.h
+patch 261,335,

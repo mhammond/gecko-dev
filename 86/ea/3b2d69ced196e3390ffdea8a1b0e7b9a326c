@@ -1,0 +1,5 @@
+changeset 7d8ed1ceafd7cddb5ba8ef3de7582fc9a0df9600
+manifest 96725cc903510a9a5f0a655907d297dbdf12774e
+extra rebase_source:d76de7bae28520e266f1f928e8474837260925c9
+files ipc/chromium/src/chrome/common/ipc_channel_posix.cc
+patch 280,354,

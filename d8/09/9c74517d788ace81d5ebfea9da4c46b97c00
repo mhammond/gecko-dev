@@ -1,0 +1,4 @@
+changeset e5e4114404d05d341781e10c71333ffd838285cb
+manifest e6e8656daf6cabf5911b4508ad6cc3503284f3f0
+files devtools/client/webconsole/test/browser_webconsole_block_mixedcontent_securityerrors.js
+patch 360,361,

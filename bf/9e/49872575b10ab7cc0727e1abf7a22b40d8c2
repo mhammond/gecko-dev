@@ -1,0 +1,5 @@
+changeset f845bbcc52235ff384bd591488fb6d8dcbfe788e
+manifest 8e1995eb5b2db69814673fc0fc5f95472fe6f92f
+extra rebase_source:d1874694e249237973f05883ebf5ff566e5ebb87
+files taskcluster/ci/docker-image/image.yml
+patch 280,354,

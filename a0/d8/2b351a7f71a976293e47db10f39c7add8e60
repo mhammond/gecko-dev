@@ -1,0 +1,5 @@
+changeset cbb01e669859484e50edeff7047bbb1dfe87e6b0
+manifest 25ac38f89ce1fb066f901447fe4caa87282d5666
+extra rebase_source:0befa16b3701b8f52026a49f39f9aa7c69861482
+files js/src/jit/LoopUnroller.cpp
+patch 295,369,

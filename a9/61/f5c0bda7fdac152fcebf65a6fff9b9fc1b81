@@ -1,0 +1,5 @@
+changeset 05db990f8787e761f12418ec2da0f7d4a7cc04fe
+manifest 6dbdf9d15199582e9d1d1594b7fc42c04f5a6c9d
+extra rebase_source:b3969b8d574598a5e9b54dbfcdd7d1ef95242503
+files browser/installer/windows/nsis/uninstaller.nsi
+patch 287,361,

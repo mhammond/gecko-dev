@@ -1,0 +1,4 @@
+changeset 2d457db23476fecab9e6e66a737c6723d0d2767c
+manifest 1b5f840af2f4ecc515a33f4c47f25c7024c81615
+files devtools/client/webconsole/hudservice.js
+patch 166,167,

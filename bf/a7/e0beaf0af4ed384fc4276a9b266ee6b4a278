@@ -1,0 +1,5 @@
+changeset 297e38fbff063b5d7f1289be4af164b8642d727b
+manifest eff2ccb41f60f65841435ec2f692706adc22751c
+extra histedit_source:962af09fc4dffa7974f94941e442b884ad4d6f62
+files js/src/threading/ExclusiveData.h
+patch 698,774,

@@ -1,0 +1,5 @@
+changeset 636ae3d5c7f0981faf97a8b4fa411e53221c169a
+manifest 34fdeed20cd189acc5669074aa04a76a65eb02ac
+extra commitid:Gx2cAnfw4bl
+files devtools/client/webconsole/test/browser_webconsole_bug_585237_line_limit.js
+patch 290,330,

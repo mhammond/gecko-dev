@@ -1,0 +1,5 @@
+changeset 7a77ab4d41c7d15cf7cf868f750cbef06ddc1fb3
+manifest fe94da35dbae610a018a2b9ee231dae1b7d6e232
+extra source:b052acfa6f28fead5644e41f5fb8795f7cdc3683
+files dom/canvas/WebGLContextValidate.cpp
+patch 266,333,

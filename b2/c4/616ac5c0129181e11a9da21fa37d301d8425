@@ -1,0 +1,5 @@
+changeset 4d031de3816579a8324024de86c6d3bae0d333ee
+manifest 297f969fe743997c01d09b5e0ce9c52ef6d405f5
+extra rebase_source:23835aa735d7ee4fbed6d4c6c0404db8f6fcc9b4
+files browser/themes/shared/identity-block/icons.inc.css
+patch 230,304,

@@ -1,0 +1,5 @@
+changeset fd3f20e6f1cfa387629b6f91814bcbb482c80be7
+manifest 6a4bd7611695cc4e05f467deb6db00f54eb3c460
+extra rebase_source:729150e24d68dedd23751ea04c42dee8246df037
+files js/src/jit/AsmJS.cpp
+patch 193,267,

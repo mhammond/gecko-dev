@@ -1,0 +1,4 @@
+changeset e45f85c2dc59426b1746fbae824d202a5eb09573
+manifest 094d4312bea2f3d90a2c8a3be112314e6ced81ca
+files js/src/nanojit/Assembler.h
+patch 187,188,

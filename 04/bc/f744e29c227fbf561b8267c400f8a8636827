@@ -1,0 +1,5 @@
+changeset cc0945ec65c682d140c9a6945fe623358817c935
+manifest f398ebd09e7d1f39dc66dd38dce6f4335b8588e1
+extra rebase_source:a530c11dfa3ec7b7f079bf75a20e512b16879543
+files js/src/jit-test/lib/prologue.js
+patch 301,375,

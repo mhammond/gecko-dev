@@ -1,0 +1,4 @@
+changeset f75717d3eba012a76cabe0a5aa512320b9f8f6d8
+manifest 79f5d7900aa0b74743a6d467762f1c98d8abc0da
+files xpcom/glue/nsProxyRelease.h
+patch 176,177,

@@ -1,0 +1,4 @@
+changeset 029c36687f2fb6d6568ced20042b22933f026561
+manifest f1ae9cdbefba10d148fa13c3e4221e436691b524
+files js/src/vm/SavedStacks.cpp
+patch 267,268,

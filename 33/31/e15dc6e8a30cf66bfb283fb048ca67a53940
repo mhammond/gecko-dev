@@ -1,0 +1,5 @@
+changeset 3b7d7efc65023b83443bf14abfd25ac5a78258df
+manifest 8ad3438adb829cccaa0c0282aa0017d1328dde5f
+extra source:509ad050bea4d5758c60e4c88540738dbca3e243
+files toolkit/components/microformats/test/marionette/microformats_tester.py
+patch 332,399,

@@ -1,0 +1,5 @@
+changeset bc225865b5e26e77ee247988054e7a60d5bde08e
+manifest 00f892b1ef8076351894fe7bc9b8861e1903ec7b
+extra commitid:IY3EVB3qfcE
+files toolkit/components/extensions/ExtensionUtils.jsm
+patch 191,231,

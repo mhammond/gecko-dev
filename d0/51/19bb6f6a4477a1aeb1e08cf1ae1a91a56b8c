@@ -1,0 +1,5 @@
+changeset 6031d730c46ae3b3db353a8d35c99e82117f6479
+manifest a5ab303fa0fa1db21d76296c37a75ba217e06dad
+extra source:b8671328337d3d8197190561aeb36cf34055442c
+files browser/components/about/AboutRedirector.cpp
+patch 466,533,

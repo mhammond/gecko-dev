@@ -1,0 +1,4 @@
+changeset eaadcd59e65a5b8d98c54e8b84c2bf281c4c6245
+manifest 013fc41716c39f678c4dffcab4c228bdc6fe553e
+files toolkit/components/crashes/tests/xpcshell/xpcshell.ini
+patch 237,238,

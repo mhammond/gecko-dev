@@ -1,0 +1,4 @@
+changeset 4f5e73a7285b2fc6c791f41d10a5dbbd7c12c8aa
+manifest 3206a1de87070aca261d3218952a094ca44481e1
+files js/src/asmjs/WasmTextUtils.h
+patch 156,157,

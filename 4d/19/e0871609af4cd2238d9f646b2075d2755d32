@@ -1,0 +1,5 @@
+changeset 4846d5a3eec9305f3f256b69d04479dd868a9870
+manifest d3fbbab65cce0a84b5ba35d1ecabccc3173fec6a
+extra source:b0392b1184e2ab066399e6f38e06212ef1c53c18
+files layout/generic/nsRubyTextContainerFrame.cpp
+patch 288,355,

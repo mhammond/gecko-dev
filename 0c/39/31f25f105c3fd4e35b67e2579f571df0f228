@@ -1,0 +1,4 @@
+changeset 57805a2e66274c9644f2f8779e7bea5681187977
+manifest 87f006d052c2bc53c20c7eb99ec6bae760b39a3f
+files testing/mozharness/scripts/fx_desktop_build.py
+patch 195,196,

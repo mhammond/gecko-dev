@@ -1,0 +1,4 @@
+changeset d944a4e95bc3f8dbd33a4243bcb667baf6b23b9b
+manifest 3ec7fa3151926a3cb3fe7d58c634fb2c34194a35
+files xpcom/build/Omnijar.cpp
+patch 253,254,

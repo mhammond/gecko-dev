@@ -1,0 +1,5 @@
+changeset 7120b9fe3f8386a05a1359868355eb9700e669ae
+manifest 6373a05c3496fc2723b083eaf519481657d20f5f
+extra amend_source:cb86227ea41fbde115fc74cc175996a3ee8433a7
+files browser/base/content/browser-eme.js
+patch 312,385,

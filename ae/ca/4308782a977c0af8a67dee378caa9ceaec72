@@ -1,0 +1,4 @@
+changeset 3c8b8dfae9423d85eb753245977d43aa9f5f2673
+manifest d72f376daded22be05360498268766a81720d2c8
+files toolkit/mozapps/installer/package-name.mk
+patch 278,279,

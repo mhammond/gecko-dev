@@ -1,0 +1,4 @@
+changeset e7a5e293d017da42bbdcb14718213de24b2bc731
+manifest 506da2660efecce9549bcf7d16e7efddb1ed2cf0
+files dom/events/EventStateManager.cpp
+patch 387,388,

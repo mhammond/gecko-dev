@@ -1,0 +1,5 @@
+changeset 8c218f4870cf81cfdd4f8764fb31657483fc90b6
+manifest 62fc66792fc37b3f9dea91d06a968af8b14c6e88
+extra rebase_source:5417415eae819aae75cf9f1557fa542c17173ca5
+files media/libstagefright/gtest/TestParser.cpp
+patch 297,371,

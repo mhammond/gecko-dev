@@ -1,0 +1,4 @@
+changeset 36abb9d306015a9b67235d72b3d68b38a898b916
+manifest 24ecfc1b3ed94954cb3de466620c12a8a39697fe
+files toolkit/devtools/server/actors/inspector.js
+patch 231,232,

@@ -1,0 +1,4 @@
+changeset 060cd82010b939db80598c580c20e0d2d0e16acc
+manifest 906048f249938959c7c6bad9ef3fe115649a5150
+files xpcom/tests/gtest/TestStrings.cpp
+patch 174,175,

@@ -1,0 +1,5 @@
+changeset 971309aa7df1443f1c5980339194bb79cfecec8e
+manifest b76cb4982daa84c1cfe2c396a24e2697b7053185
+extra rebase_source:e7a9e190ede67b87f9a45174573bc97d2e93d1f3
+files devtools/client/shared/widgets/Tooltip.js
+patch 299,373,

@@ -1,0 +1,5 @@
+changeset a524e8ce1debeed49614072256e6057205baea3d
+manifest 08f19e43156a734231d0a0120a7e7e6db5c80727
+extra transplant_source:ìè“¢áoİ5 Ô4ÑªEOpáÈ
+files media/libcubeb/src/cubeb_wasapi.cpp
+patch 268,354,

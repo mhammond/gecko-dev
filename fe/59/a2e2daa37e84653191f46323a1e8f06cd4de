@@ -1,0 +1,4 @@
+changeset 494ea9227b697328a7c47ca6e118588bcf30bafb
+manifest 6cd2048183e9463e2277ac4209a9c0d38d09f281
+files devtools/client/shared/test/browser_telemetry_toolboxtabs_storage.js
+patch 281,282,

@@ -1,0 +1,5 @@
+changeset 0ab0c9391d64c031ca360f011cfb535d44829056
+manifest c4ef65e597e6bc7ad33e83b3f66d1c5291048c50
+extra rebase_source:d7d560477249a8e20a162d49faea85d4a49fe113
+files tools/docs/conf.py
+patch 384,458,

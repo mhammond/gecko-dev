@@ -1,0 +1,4 @@
+changeset fa545ffdf0a569c248a486709faa437002f0f5ef
+manifest a16ed6feb99f29cc4cbac5e43f042ae74aaca393
+files dom/phonenumberutils/PhoneNumberMetaData.jsm
+patch 198,199,

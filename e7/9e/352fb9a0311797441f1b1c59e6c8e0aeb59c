@@ -1,0 +1,5 @@
+changeset 772dbb329a151adf98805a3b0cd5c713f5733e08
+manifest bd8213a0959f2ec08109b09d491bd4b97ad3b5b1
+extra rebase_source:de70c2a79787bfd3e3660c7d9682f28f32e4569c
+files js/src/jsscript.h
+patch 226,300,

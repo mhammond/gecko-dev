@@ -1,0 +1,4 @@
+changeset a7ef4e7277b4f9d3a1fdf96a5c62c07745c06e73
+manifest cb1af012d9d18ded04450f34783de51b4e76e395
+files browser/components/extensions/test/browser/browser_ext_popup_corners.js
+patch 271,272,

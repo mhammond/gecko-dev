@@ -1,0 +1,4 @@
+changeset fbe36b282024d49c78a5699d8e9e2824ef03c85a
+manifest 9f7d551e462ea419c0cc110a76ae011eec8b1b58
+files layout/base/nsLayoutUtils.cpp
+patch 266,267,

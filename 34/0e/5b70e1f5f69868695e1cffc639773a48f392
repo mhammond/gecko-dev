@@ -1,0 +1,4 @@
+changeset ede6c5f1dfc2c00a8d562dacf0b4567ef1bab24e
+manifest f2296cd1c6572b381bce94234d87f3e0a99f83a6
+files netwerk/protocol/http/HttpChannelParent.cpp
+patch 239,240,

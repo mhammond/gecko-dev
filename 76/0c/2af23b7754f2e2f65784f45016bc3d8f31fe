@@ -1,0 +1,4 @@
+changeset acdd7908ca0ff345c509dd9e2c0395bb00277289
+manifest e57e2746a1404e5689c3111ec5f5b6edebf70bca
+files mozglue/misc/StackWalk.cpp
+patch 488,489,

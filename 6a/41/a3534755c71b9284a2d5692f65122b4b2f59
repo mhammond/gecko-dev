@@ -1,0 +1,4 @@
+changeset 77c21ffcbd8183c7a4ea71dd281b38ad5fb755b8
+manifest 3171eea4b226dc8cb1a73e4b200c971c6624ddba
+files devtools/client/memory/actions/snapshot.js
+patch 196,197,

@@ -1,0 +1,5 @@
+changeset 963e0aa6c03081bf0c7178da39c64e76d5182f55
+manifest 2ee3e3d49a1291fb294ac68df6b7f6f7bcb36e71
+extra rebase_source:c66bd111a3a57b08095dbbbe043806cc2caf8c13
+files ipc/chromium/src/chrome/common/child_thread.cc
+patch 371,445,

@@ -1,0 +1,5 @@
+changeset 3a2973be8bbdd9d15fc9f932a942fe9c4c724d5e
+manifest f63f851ceb99cc49206c2d3d1eb7602589a74289
+extra rebase_source:720964966bc2f5f61da34c378f4faeabd4f3dd57
+files widget/gtk/moz.build
+patch 275,349,

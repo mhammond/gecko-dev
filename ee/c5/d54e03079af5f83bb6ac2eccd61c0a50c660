@@ -1,0 +1,4 @@
+changeset 4dc3b7ec47d032204949ed8362f871c4d28d940a
+manifest 5e383bda90bf987f23820fd10adf7fe2f319c462
+files widget/gonk/libdisplay/BootAnimation.cpp
+patch 186,187,

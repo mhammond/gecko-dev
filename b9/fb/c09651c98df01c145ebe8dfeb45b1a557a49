@@ -1,0 +1,5 @@
+changeset 36bd53d339e68ef345ae92dbacfa749c67dcc2d0
+manifest 8cb0dc46ac69f1230bdb2c861e7b6f9bf3e54196
+extra rebase_source:7c2445645a123c00c79e3ca8829632d71dee0079
+files devtools/shared/layout/utils.js
+patch 292,366,

@@ -1,0 +1,5 @@
+changeset 663a083774f4fe879fc4270774205cdde074918a
+manifest f1070f60110a61e186d3743312f5067277f67370
+extra rebase_source:fc625ab23eeb41b8147b2d9da1ee4514f24ad6ff
+files toolkit/forgetaboutsite/ForgetAboutSite.jsm
+patch 288,362,

@@ -1,0 +1,4 @@
+changeset 4054f6ba3ad92520283448d0f48c43907f23a487
+manifest cfbab3f993d269f71e006cb22f9bb7dd9da9b790
+files xpcom/io/nsStorageStream.cpp
+patch 262,263,

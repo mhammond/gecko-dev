@@ -1,0 +1,5 @@
+changeset e0e742e16f21710ee206082af74d953926f3c67c
+manifest 2495754406043039cb427d6a4173f1e6714e0460
+extra source:86ea08134f3797823dd6c2892d07a8ce80938e0b
+files mobile/android/base/java/org/mozilla/gecko/GeckoScreenOrientation.java
+patch 315,382,

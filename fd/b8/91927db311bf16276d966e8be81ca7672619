@@ -1,0 +1,4 @@
+changeset d370d22aacd56a22f45190490d08ead2a6b944d3
+manifest 4ad88f393ce5240b619f34b0a2f4f558ede92085
+files services/cloudsync/tests/mochitest/browser_tabEvents.js
+patch 194,195,

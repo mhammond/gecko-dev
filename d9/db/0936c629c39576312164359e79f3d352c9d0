@@ -1,0 +1,5 @@
+changeset 29cc3589446f5686c03a4d4aa028d37fe8515367
+manifest f7f531a1ea45a5585e8f03a3000f913085da32f5
+extra rebase_source:909cf7fb351f9a7d27e806616e48592f169dae12
+files browser/components/newtab/tests/browser/browser_newtabwebchannel.js
+patch 429,503,

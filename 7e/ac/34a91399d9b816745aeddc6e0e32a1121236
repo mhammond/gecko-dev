@@ -1,0 +1,4 @@
+changeset 8e8b4d74e547cb0146fd9778efb2de07bcd06279
+manifest f35f06963d436c203555cb012bd5b6140c0c30c7
+files devtools/client/webconsole/test/browser_webconsole_bug_646025_console_file_location.js
+patch 327,328,

@@ -1,0 +1,4 @@
+changeset 91a78f4ce6fa709366cc84ee43e0c21a788042fa
+manifest f1197e1da7e1848fb4fdbfb9e5bc8d3434c20641
+files devtools/client/webconsole/test/browser_webconsole_bug_600183_charset.js
+patch 288,289,

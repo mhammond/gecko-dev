@@ -1,0 +1,5 @@
+changeset 3356000cec59f979f5d4aa384854343a8d184484
+manifest 39056d130cb5c78c56d7f2c860e7b84d8cb19688
+extra rebase_source:d21bd6f743f363fdd183bda9b9f308fcf100186b
+files build/autoconf/arch.m4
+patch 427,501,

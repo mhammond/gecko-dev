@@ -1,0 +1,5 @@
+changeset 9052882b93309fdf08cc8329047e2cd2d2775683
+manifest 3f22a162dc684a61e9c05c9351cf679345dedaa1
+extra rebase_source:07f40be887154af524ad5c8288122aa549507a58
+files layout/base/nsPresContext.h
+patch 262,336,

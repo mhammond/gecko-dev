@@ -1,0 +1,5 @@
+changeset 360e42b792975d1303223b6c7ca24ecc41ae9cf9
+manifest a7b0a72723f38a78f0a15f25460e97f4e0f6efe0
+extra rebase_source:7d8d3e38e2f706324bb4563f65a4d85b1af8866b
+files security/manager/ssl/tests/unit/test_hmac.js
+patch 277,351,

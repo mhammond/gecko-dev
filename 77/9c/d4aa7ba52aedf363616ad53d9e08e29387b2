@@ -1,0 +1,5 @@
+changeset 08b0f38ce6991cea24c93b011a636fbc450ee17b
+manifest 3ff78eb9b240afca26b8bbc617a09271b95d5be1
+extra rebase_source:8606947287574826c455c25336c1a42d77ce6dcc
+files xpcom/threads/TaskDispatcher.h
+patch 346,420,

@@ -1,0 +1,5 @@
+changeset 766c8d6d4198c7612a457137b8fc5944a63e1270
+manifest e10a308ac3e26f6c9abb0e55e818a334d8747785
+extra rebase_source:cdfa6282b9df2c971215ed4516247a2b04033d9d
+files mobile/android/base/java/org/mozilla/gecko/ActionModeCompat.java
+patch 326,400,

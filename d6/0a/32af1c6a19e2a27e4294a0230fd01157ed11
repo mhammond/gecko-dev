@@ -1,0 +1,5 @@
+changeset 2c7950c98ec428487cc12c0c5c982e4529cddf0d
+manifest 6a25da2b4665995fa505ff2bfc19021ef4bd35c6
+extra source:106456a09909fed6a7b1cc17645262d1b30e2698
+files accessible/windows/msaa/AccessibleWrap.cpp
+patch 303,370,

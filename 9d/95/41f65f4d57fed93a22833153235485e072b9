@@ -1,0 +1,4 @@
+changeset 05b0e3cb50a4503265a92879693f1c492628d7ef
+manifest 631e3ec4ff3d255046ee084ca175b41a7f092036
+files dom/canvas/WebGLContextGL.cpp
+patch 362,363,

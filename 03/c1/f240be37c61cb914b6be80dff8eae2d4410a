@@ -1,0 +1,4 @@
+changeset 4078b7e294ef0b56c3de9c070551834a4a4fc107
+manifest 5126a6a1566b421f73de16addffe492564b0188e
+files widget/android/jni/Accessors.h
+patch 217,218,

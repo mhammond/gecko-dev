@@ -1,0 +1,4 @@
+changeset 0aed01897af112a29cad6d33bddd77d80f149d1e
+manifest c62f4c35ea835a3063058d4e6c8657dc42a090c0
+files browser/devtools/shared/moz.build
+patch 177,178,

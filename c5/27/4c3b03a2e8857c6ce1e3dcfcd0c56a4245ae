@@ -1,0 +1,4 @@
+changeset 5c6ab008844a8799e18e372a662c5d2c46b7327c
+manifest 3d2d55373f3c3dd7798930add2bef2cc0ca5f35a
+files netwerk/system/qt/nsQtNetworkLinkService.h
+patch 215,216,

@@ -1,0 +1,5 @@
+changeset 75ff11d338b2eb7e236362f5da84fc51d3d84cb1
+manifest 7f37bb2121bba7f85f04b39cd35d39c578abb3d8
+extra source:dad211727cb3a1f110fe977d8f0b35f6416aea68
+files devtools/shared/css/generated/properties-db.js
+patch 290,357,

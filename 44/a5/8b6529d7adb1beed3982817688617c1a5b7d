@@ -1,0 +1,4 @@
+changeset 471bf0db284398af3ac4c83615e56ad22a0e2fe8
+manifest 786f07b89ead95e8047ba767e17411d49fe262a8
+files python/mozbuild/mozbuild/test/configure/test_toolchain_helpers.py
+patch 311,312,

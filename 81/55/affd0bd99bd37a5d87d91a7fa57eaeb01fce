@@ -1,0 +1,5 @@
+changeset 816ee7cab76bbbbdc925b03380d2ec8fff6e35e8
+manifest 3b3232d4af41ebab25afc5b699e209e439ac75ed
+extra rebase_source:e2eec74a7a730b03f3b1c5bd6afb9d4086956262
+files editor/composer/test/test_bug1205983.html
+patch 267,341,

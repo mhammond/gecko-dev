@@ -1,0 +1,5 @@
+changeset 0ac120171cecdd3b347e84156fab9d2f49a204d9
+manifest 9363bc5410a314c2bea29dd090fc99480bf328ed
+extra rebase_source:430f929b965766230e28ffb534a0879ecda4b31a
+files dom/base/nsDOMMutationObserver.cpp
+patch 292,366,

@@ -1,0 +1,5 @@
+changeset 2cebb2efe185a3a7593a738af84b7d70e327de77
+manifest 786a3541597b2138ce25f9afa6b642f0286e6819
+extra source:79b6448ad73100b359e644325260b19f29a066ea
+files browser/extensions/pocket/content/pktApi.jsm
+patch 271,338,

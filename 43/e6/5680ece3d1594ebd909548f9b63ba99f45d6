@@ -1,0 +1,5 @@
+changeset 110b4a6848ab577836faf87a58ebe13458b32d7f
+manifest ac8355e5f847dd59708137c861aba45384797b9f
+extra commitid:DFj5lMIzzax
+files browser/devtools/markupview/markup-view.js
+patch 245,285,

@@ -1,0 +1,4 @@
+changeset 8e6738db2f923fceb4357c36784593e4d172d9ec
+manifest bd770a8aefb633be9a54f663e73bb0ff6f8e3b8c
+files mobile/android/base/java/org/mozilla/gecko/notifications/NotificationClient.java
+patch 324,325,

@@ -1,0 +1,5 @@
+changeset d5bb596f28cd35ca5ef2a6ea8a7ee6351f01929a
+manifest 939d33e66e566ae72ed38b10325516f76ad83650
+extra branch:MOBILE430b1_2015110305_RELBRANCH
+files testing/mozharness/scripts/release/generate-checksums.py
+patch 253,304,

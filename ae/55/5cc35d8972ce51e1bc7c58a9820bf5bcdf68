@@ -1,0 +1,4 @@
+changeset 48cca0d90707e725f4fd89d835cf18783cdee0bb
+manifest 7178148b386830426c4a0493db999c23efeff534
+files mobile/android/base/java/org/mozilla/gecko/search/SearchEngineManager.java
+patch 320,321,

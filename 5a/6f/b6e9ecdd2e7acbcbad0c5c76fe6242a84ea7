@@ -1,0 +1,4 @@
+changeset b966ababca8d78c565c28214483e10a679f6c44e
+manifest 1fd9d942ca84bbf9d94ef3e04dcf2dbfa21e66d8
+files gfx/layers/PersistentBufferProvider.cpp
+patch 234,235,

@@ -1,0 +1,4 @@
+changeset 8efba00e40e4899ab7ddd94d210f270b4f972739
+manifest 9a3933b067ea4fa92d4c3a86fa41b87debbfb6cd
+files gfx/angle/src/libANGLE/Framebuffer.cpp
+patch 196,197,

@@ -1,0 +1,5 @@
+changeset f6bafacee6583f5e671cfeeb13717bd692a3311c
+manifest 5417d850a28695971ea39c3252b9df895d1f2fae
+extra rebase_source:2bcf99667c0acd3d3163a0703950a4ec49a347f8
+files hal/Hal.cpp
+patch 298,372,

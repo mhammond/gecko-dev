@@ -1,0 +1,5 @@
+changeset 869fcf93ccfe140e6098842937a135dd754c3123
+manifest 710fdf7f504decfa86e99f8e031fbe1e98eb9c9a
+extra source:caa8c095cf3fb9bdbac868cc1d95dfdfc679002e
+files dom/media/tests/mochitest/test_getUserMedia_loadedmetadata.html
+patch 320,387,

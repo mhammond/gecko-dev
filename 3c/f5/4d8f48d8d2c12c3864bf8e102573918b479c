@@ -1,0 +1,5 @@
+changeset fd0c612048b76cb2ed1cfaa03e9f22b3ab6eb4d0
+manifest 3f8b21d663fd6fca81a45e40be53d947f1c3fb16
+extra rebase_source:5e8912d87f18bdcf9af48ba07e9dfe121a82c92f
+files mobile/android/base/java/org/mozilla/gecko/icons/IconTask.java
+patch 305,379,

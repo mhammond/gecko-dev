@@ -1,0 +1,4 @@
+changeset 848fe007da648ac24effd4504cf388f5ff5607d8
+manifest c23e420e9cbcab06d2bc1c2750fcb4546fde15b4
+files ipc/chromium/src/base/stack_container.h
+patch 246,247,

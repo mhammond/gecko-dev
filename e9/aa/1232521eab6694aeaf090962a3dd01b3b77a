@@ -1,0 +1,4 @@
+changeset 265abaf02b32d780112d84810b58091a35dd8858
+manifest 669bee6d77fc695182dc9ba52e1061b3041c632f
+files dom/base/nsINode.h
+patch 243,244,

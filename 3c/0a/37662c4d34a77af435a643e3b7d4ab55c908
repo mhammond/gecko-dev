@@ -1,0 +1,4 @@
+changeset 1264e01362f3c5b49899fe826038029b125782e3
+manifest f92e9dcd67c7ae6e2fed7212718c7ebc6ec70719
+files browser/components/loop/standalone/package.json
+patch 241,242,

@@ -1,0 +1,4 @@
+changeset 7df895f807accf0eab9f38822a661d45adbe3bff
+manifest 96383695f9e7536f4157c9cdc57003edb7d15e35
+files uriloader/exthandler/nsIExternalHelperAppService.idl
+patch 259,260,

@@ -1,0 +1,5 @@
+changeset 3b0ec072cd212b1449050cc87c5cbed862f30809
+manifest 4dc845ccc4adaeb8696779676f2a6b4c5b8cc4b9
+extra rebase_source:b3d595ae962d70afc208b34afe616b6ef88133a8
+files security/manager/pki/resources/content/pippki.js
+patch 292,366,

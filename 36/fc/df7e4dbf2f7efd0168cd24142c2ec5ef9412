@@ -1,0 +1,4 @@
+changeset 22868e71c8614659fc10edfcf732c04adc91afb1
+manifest b3ccf2fc09a26c27f43b399377416ea7601afa93
+files dom/plugins/base/nsJSNPRuntime.cpp
+patch 237,238,

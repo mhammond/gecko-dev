@@ -1,0 +1,5 @@
+changeset 24b1342fe710a067ba90b5a2eca5eb3e2b0bf6c1
+manifest 775c79297634b8194b64a50acea3a57d085353d5
+extra rebase_source:24e4ccb3615896b9f97aaa45b1833a9fc679393a
+files gfx/angle/src/compiler/translator/IntermNode.cpp
+patch 268,342,

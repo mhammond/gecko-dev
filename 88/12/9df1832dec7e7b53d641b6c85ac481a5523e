@@ -1,0 +1,5 @@
+changeset 3229f5a133e3777a7280a37e6ca047f9f4e34657
+manifest 41355692e6e07138c1083f089672ff925b3c1de8
+extra source:d450d458432da079988b4e57fd5da9fb1087a6a6
+files browser/themes/shared/privatebrowsing/aboutPrivateBrowsing.css
+patch 340,407,

@@ -1,0 +1,5 @@
+changeset 544795f12d67364e940cf522933dddd1d6a1c48d
+manifest b1b052d81f053e28e9ec886880813d0e81712bf4
+extra rebase_source:ff6f4d1eb71b9dbee0a13055e82411c1e970a536
+files dom/media/webvtt/vtt.jsm
+patch 266,340,

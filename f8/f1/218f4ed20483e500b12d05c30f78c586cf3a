@@ -1,0 +1,4 @@
+changeset bd5c9cfed83db345be921735e61a8bdd63070841
+manifest 297d04f925e9f96b36dcfa2173e0dc7fac633d70
+files ipc/chromium/src/chrome/common/ipc_channel.h
+patch 349,350,

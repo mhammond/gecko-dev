@@ -1,0 +1,5 @@
+changeset 7214ce01cee5b52f854957c123f540e3ca813158
+manifest e1a8ae83d80d33d5d8c5506217d0d41185987c28
+extra rebase_source:e92667f777151476adfc5692daf9a783d7ebf1db
+files accessible/mac/mozAccessible.mm
+patch 308,382,

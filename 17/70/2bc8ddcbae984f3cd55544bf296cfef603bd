@@ -1,0 +1,4 @@
+changeset e208dfe24c94f7c3cddbc27df9e49d7fadc2acaf
+manifest cecd481fa53ac248b824486808a430c193458d6f
+files xpcom/string/nsTStringComparator.cpp
+patch 366,367,

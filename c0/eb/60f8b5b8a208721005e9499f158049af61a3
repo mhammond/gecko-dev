@@ -1,0 +1,5 @@
+changeset f0c07fbbb4b5135ff5827fc35f98bb9897424210
+manifest 656d619714cb91740ab6e57ab873e9117b265e93
+extra rebase_source:6b03479ec027fece08bcd69d4c637e85b750b1cc
+files testing/firefox-ui/tests/functional/security/manifest.ini
+patch 351,425,

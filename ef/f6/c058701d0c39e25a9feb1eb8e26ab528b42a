@@ -1,0 +1,4 @@
+changeset 77303df92debade87a0c412fbf3eeb8b372d5a32
+manifest 786c8e1cb37f2a8acee5206bb667d28a26f56844
+files browser/devtools/framework/sidebar.js
+patch 245,246,

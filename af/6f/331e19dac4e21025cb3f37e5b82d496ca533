@@ -1,0 +1,5 @@
+changeset c1af4f3c15704b3a59ee373c05bdd561beaaa177
+manifest 06d6773c0cc24c6c79efd834f4ee69a85dfd813a
+extra source:7a02a813a179bcd9a1e0640c0177377aa565e2e7
+files gfx/layers/composite/LayerManagerComposite.cpp
+patch 506,573,

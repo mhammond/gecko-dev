@@ -1,0 +1,4 @@
+changeset 732640286a2082c6ed685879ca9c1cda35c3d9ed
+manifest 4363a2e0240a0a48e0c1d3a89c42f126767410a1
+files browser/components/sessionstore/TabStateCache.jsm
+patch 243,244,

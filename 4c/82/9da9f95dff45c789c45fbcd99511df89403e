@@ -1,0 +1,5 @@
+changeset 8db55ffda4388d727dca5323fecd96eff357df7a
+manifest 3af89f367446566558f77e938af91cc4a82c7007
+extra rebase_source:2aa8108ca27cb084e0c49472022c02fee965f605
+files toolkit/components/build/nsToolkitCompsModule.cpp
+patch 329,403,

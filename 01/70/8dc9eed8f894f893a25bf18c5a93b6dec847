@@ -1,0 +1,4 @@
+changeset 5e030b84782c322e23c6d79134fcdf68ead926d2
+manifest b3e8ccf0084cdcc082bb6117125e8b8339d8a169
+files js/xpconnect/src/dictionary_helper_gen.py
+patch 243,244,

@@ -1,0 +1,4 @@
+changeset 4c13220915e1ec96fc3ed1444ff77a8f45fd0764
+manifest d8ead3ac4bad317ee6d2fa3915ef3199b306196f
+files image/src/ShutdownTracker.h
+patch 245,246,

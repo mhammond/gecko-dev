@@ -1,0 +1,5 @@
+changeset f78f4abd2f03c1a781a136528f31dbed7b45bb04
+manifest fb195c35e8817abaa1bdc8cca4f5bbd603d98e3c
+extra commitid:IreoD3cFtB
+files browser/base/content/test/general/browser_urlbarSearchSuggestionsNotification.js
+patch 310,349,

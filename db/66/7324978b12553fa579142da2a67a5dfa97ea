@@ -1,0 +1,4 @@
+changeset ae1f4d470fd1e3f8480f04186d86b66fa656233b
+manifest bb8bf53c0c0ff148c04aa3b57c9194dc7b50386f
+files extensions/spellcheck/hunspell/src/hashmgr.cpp
+patch 516,517,

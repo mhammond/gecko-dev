@@ -1,0 +1,5 @@
+changeset bcd5a603eeafc69fe2323f478d227ca12c2d8285
+manifest 76eafe29577033046a0c3d6f64cacf5548841dd4
+author benjamin@smedbergs.us
+files browser/app/Makefile.in
+patch 205,206,

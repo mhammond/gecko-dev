@@ -1,0 +1,4 @@
+changeset b50652d71510d898b7e1f94d8f8d4330b7d1a486
+manifest 6de4473e3272e4cdb29ad9fb1e61d9efac7f88db
+files mobile/android/tests/background/junit4/src/org/mozilla/gecko/sync/repositories/android/VisitsHelperTest.java
+patch 324,325,

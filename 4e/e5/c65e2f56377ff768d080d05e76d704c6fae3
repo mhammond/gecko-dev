@@ -1,0 +1,4 @@
+changeset b6dfce2d61cd878920e442e3d0d14be8dfa90eac
+manifest 5063cc8ecaacf34dec97c899727414889bc04aa8
+files media/webrtc/trunk/webrtc/modules/video_capture/android/java/org/webrtc/videoengine/VideoCaptureAndroid.java
+patch 299,300,

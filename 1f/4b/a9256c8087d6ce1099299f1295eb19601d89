@@ -1,0 +1,5 @@
+changeset 45fa8083c4fc6e4279125fedbcec061657b64107
+manifest 7d246b58109077e3038caa6c25041a45c380379b
+extra rebase_source:e063a7965c9daabd7191cdbcadaaf7838032feb5
+files media/webrtc/signaling/src/jsep/JsepTrack.cpp
+patch 295,369,

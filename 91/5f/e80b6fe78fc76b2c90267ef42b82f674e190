@@ -1,0 +1,5 @@
+changeset fd6cde155f4bedb673c467b52b49cfe51a25777d
+manifest dc74099dd70543a4dde02cddb32c26a5c7d14977
+extra rebase_source:ac7a753daf9c56a9362eaccde00b4a15d5e0dacc
+files js/src/jit-test/tests/basic/destructuring-default.js
+patch 236,310,

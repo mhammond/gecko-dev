@@ -1,0 +1,4 @@
+changeset 4f36d5aff5cfc854164e9ff58680a29e596eed1a
+manifest 18c9d9691cbaf232ad1c8c15443288104ef0cb8d
+files browser/devtools/styleeditor/test/browser_styleeditor_fetch-from-cache.js
+patch 227,228,

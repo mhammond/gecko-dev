@@ -1,0 +1,4 @@
+changeset dba826158f7093ef611e095bc72615ba6f5d2e4b
+manifest 067ac657fa359c9b79a84b5b099dd57af6652369
+files browser/devtools/performance/modules/logic/front.js
+patch 244,245,

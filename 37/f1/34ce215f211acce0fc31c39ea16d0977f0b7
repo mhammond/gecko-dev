@@ -1,0 +1,5 @@
+changeset 6800629ce1b1bf46220a6b215631869935750545
+manifest 2bc68a5396d8b5d591a03f124bea125a0a09b4ee
+author Parth Bakshi<parthbakshi@gmail.com>
+files testing/mozbase/mozinstall/mozinstall/mozinstall.py
+patch 272,273,

@@ -1,0 +1,5 @@
+changeset 4e9bd4063b1519f3cda6083da97fcc6d34dc480a
+manifest 27d448e02228adbe7d0fdf542a9549f2f7e64b98
+extra rebase_source:022eb1a856d33e98d707cd12b42b73a9ddcf05ae
+files dom/svg/test/mochitest.ini
+patch 304,378,

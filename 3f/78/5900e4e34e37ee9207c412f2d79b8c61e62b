@@ -1,0 +1,5 @@
+changeset 394726989b1cd941c3926f8d18a47d4741b7096c
+manifest 2171c95961ef627ee974d5a70150b34d5f231826
+extra rebase_source:8d2b841eca69c47b2e5dc38641b432300fc540d4
+files browser/locales/filter.py
+patch 254,328,

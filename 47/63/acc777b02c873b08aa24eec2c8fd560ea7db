@@ -1,0 +1,5 @@
+changeset 61910fcb5817ba05d826aabcaa8502125ba0091e
+manifest d3682248ce0ceede492c98def73de98c1355d67f
+author Jorg K
+files extensions/spellcheck/locales/en-US/hunspell/en-US.dic
+patch 212,213,

@@ -1,0 +1,4 @@
+changeset a19ec232440df19a9149fc494da9e3207f1410eb
+manifest bebaf128510dbfb1a65c648de9653c702d711f5b
+files js/src/jit-test/tests/atomics/basic-tests.js
+patch 221,222,

@@ -1,0 +1,4 @@
+changeset e1adfa4a39c0c5d196603372386c44b321aaf5a4
+manifest ba45d6664833746c35dfd0edce5fd5e0bb49e3a1
+files mobile/android/tests/browser/robocop/src/org/mozilla/gecko/tests/testBookmarklets.java
+patch 242,243,

@@ -1,0 +1,5 @@
+changeset 22fffeb30cac33f5e2ab5fdb6270ac874374a1ee
+manifest 1eb9d52f4910c95191c93edaab30495b72bf7ab3
+extra rebase_source:239a9bcf573f231cc0df80302e87f4a302f152e2
+files js/src/jit/mips32/MacroAssembler-mips32.cpp
+patch 263,337,

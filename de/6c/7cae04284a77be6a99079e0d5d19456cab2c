@@ -1,0 +1,4 @@
+changeset 15a5993ebd8ea35ba5689eae8eecb507658e11e4
+manifest 7bbe017bef7f68fc9757a41a16a5e967d402d78b
+files mobile/android/stumbler/java/org/mozilla/mozstumbler/service/Prefs.java
+patch 258,259,

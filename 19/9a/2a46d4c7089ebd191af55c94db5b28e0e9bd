@@ -1,0 +1,5 @@
+changeset 3449dfc7c64ad45109b7491a6d6cee354dca74a5
+manifest 58d9328959c107eb90e4e7c985c88715748d06e3
+extra rebase_source:1b3b8e11a96984af52d677a0268ace051efaec54
+files testing/mochitest/jetpack-addon-harness.js
+patch 283,357,

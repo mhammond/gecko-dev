@@ -1,0 +1,4 @@
+changeset f012923cfd8b903bc342910ec81cff508624906a
+manifest 04e658517b502d889e9ec4de207dcfe03ced7e83
+files xpcom/tests/TestCOMPtr.cpp
+patch 266,267,

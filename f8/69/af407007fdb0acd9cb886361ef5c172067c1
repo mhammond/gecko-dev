@@ -1,0 +1,5 @@
+changeset 373a497c69ca735e9054793c215e97abe54db61b
+manifest c852c1735dde6bcacc67f35b77b3b004cc36be22
+extra source:a19123ae6fbf203b2c3f38fa6f18674843141ac6
+files browser/components/customizableui/test/browser_885052_customize_mode_observers_disabed.js
+patch 310,377,

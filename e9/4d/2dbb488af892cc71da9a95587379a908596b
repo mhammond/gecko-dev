@@ -1,0 +1,5 @@
+changeset 638fe12b9861161d1a6f8cb5bff68b956dd4048c
+manifest 812a9738f777c7b3d97d672e2f9d6f89e0bbc20a
+extra commitid:JYFsbeU2Qhm
+files js/src/vm/Opcodes.h
+patch 211,251,

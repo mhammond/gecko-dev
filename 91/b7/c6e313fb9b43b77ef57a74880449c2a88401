@@ -1,0 +1,5 @@
+changeset d456cd95c7bd5e0dc3bfacec7ef2e3b028dec152
+manifest f8985b59aed2e4454be0dc69c18919fd2c2a9a2e
+extra rebase_source:044ab18d5e26e56179bebe1721f19125f6167b3d
+files layout/style/nsTransitionManager.cpp
+patch 270,344,

@@ -1,0 +1,4 @@
+changeset 4197354b76bf2e975e21b6db03df124860b681d5
+manifest d64f36508a87c00c2a07f56dc976e72aa6da50ca
+files toolkit/devtools/server/actors/device.js
+patch 177,178,

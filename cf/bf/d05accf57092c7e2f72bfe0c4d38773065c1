@@ -1,0 +1,4 @@
+changeset 57f1a125b6ff581fe0ad6ef50cc75cf83fc1b102
+manifest 0237fa4370a44ea7815d55d1307952f79c423903
+files devtools/client/performance/test/browser_perf-details-06.js
+patch 218,219,

@@ -1,0 +1,5 @@
+changeset 905195e0c4a8ec32a381a2d8bbf1f8aed662c73f
+manifest a7ee89affdc5df73b977f6b3178ca0019aa8f782
+extra rebase_source:7ae04213ef0f6c1babe0dd8fd5c5e85578058d1e
+files toolkit/components/narrate/VoiceSelect.jsm
+patch 303,377,

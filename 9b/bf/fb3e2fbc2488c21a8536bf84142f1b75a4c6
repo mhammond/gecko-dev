@@ -1,0 +1,4 @@
+changeset b31dfcfb60a5fa6042b04aa96480171f09bd137c
+manifest 24196f55a4bc41413d8ae2abb1def2ea6bb4f0d3
+files editor/libeditor/nsHTMLEditor.cpp
+patch 190,191,

@@ -1,0 +1,5 @@
+changeset 52ce999aa5949dfce9992f5c7d6e4c1ea27fc793
+manifest cbe35d031a8e924ae8cba06691adcd648ba568b7
+extra source:5d34ee345e18a3664c73c48428bbe7b5e121fa54
+files testing/marionette/browser.js
+patch 340,407,

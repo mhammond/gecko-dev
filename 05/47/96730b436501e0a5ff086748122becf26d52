@@ -1,0 +1,4 @@
+changeset 22b685186a10600851a8a6f1d05608eb13e68baf
+manifest 132cf120de60816441323937190511cc4e54521d
+files layout/xul/nsTextBoxFrame.cpp
+patch 258,259,

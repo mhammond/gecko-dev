@@ -1,0 +1,4 @@
+changeset 601a549ff293fe0f13e9685c229cef680ca7e571
+manifest 0d35bf286a71f2c9e9a1b43347fae0bbfe724cda
+files netwerk/protocol/http/InterceptedChannel.cpp
+patch 223,224,

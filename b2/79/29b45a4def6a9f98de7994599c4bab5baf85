@@ -1,0 +1,6 @@
+changeset 41e63b2fce67a8511cccfbf3d387a15cef1fff07
+manifest 45b249a4360429b8ee096525674be352537d8ed2
+author jlal@mozilla.com
+extra rebase_source:bf9cf00d1b1fc736404dbdefbd1de17f0a495da4
+files testing/taskcluster/tasks/tests/b2g_gaia_ui_test_functional.yml
+patch 255,329,

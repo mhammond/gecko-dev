@@ -1,0 +1,5 @@
+changeset f9714d4cc47aed816908aac4ce03371ea388edd4
+manifest 4ba17e2d2fb5d35a82202fbf9fa8f5036a6f10db
+extra rebase_source:738b1ca57df0aee86376dc5dd7ebef5ee9e9fa8c
+files toolkit/components/extensions/test/mochitest/test_chrome_ext_native_messaging.html
+patch 329,403,

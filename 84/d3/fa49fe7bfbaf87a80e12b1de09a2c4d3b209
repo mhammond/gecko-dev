@@ -1,0 +1,5 @@
+changeset 8828d3da388f3a3361ef19cd4fc6576c00c9838d
+manifest ca7f92bcce600f783548f38e252408edfa13cbcc
+extra commitid:8MlF9vIlTGZ
+files netwerk/dns/mdns/libmdns/MDNSResponderReply.cpp
+patch 251,291,

@@ -1,0 +1,5 @@
+changeset 04f89d19556d18323bdb581d0734bacebb13c2c9
+manifest 9ee43b0d0a0b46c1314aef5cbc2f92e3619834cb
+extra branch:GECKO430b7_2015112614_RELBRANCH
+files browser/components/nsBrowserGlue.js
+patch 283,333,

@@ -1,0 +1,5 @@
+changeset 7cecb4e23fcf3bd8693e7b421abe29abb07ce01e
+manifest 0364a7fcd6c5f2535dde4eeb5e77ea98cad357fc
+extra rebase_source:f3e93144abcb2b9350b6271d54377d39417157df
+files toolkit/crashreporter/test/unit/test_event_files.js
+patch 337,411,

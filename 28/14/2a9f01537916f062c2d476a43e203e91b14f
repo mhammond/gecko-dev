@@ -1,0 +1,5 @@
+changeset 8155fcf40b60ed96b93a55c033406ea06e3baf71
+manifest 8d424d19696e9ffd873cb030f2fd902240cc8884
+extra rebase_source:24a034a1e5fb45eeeb2c7c463e0e4d08bf9ff23e
+files js/src/asmjs/AsmJSValidate.cpp
+patch 255,329,

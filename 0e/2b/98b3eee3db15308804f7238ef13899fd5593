@@ -1,0 +1,4 @@
+changeset 543165802342386390638d588a992dde0fbc7a6a
+manifest 12e86bc07b47fbd9b6df421710270c0177bf2114
+files docshell/shistory/src/nsSHEntry.cpp
+patch 199,200,

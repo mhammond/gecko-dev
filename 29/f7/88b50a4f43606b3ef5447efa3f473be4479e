@@ -1,0 +1,4 @@
+changeset 2997c593fd63ec748e8d224129bac1a87fd07e05
+manifest 24b6118025d785b2b6df5d9e9b49f378c5cd1f32
+files python/mozbuild/mozbuild/frontend/context.py
+patch 532,533,

@@ -1,0 +1,5 @@
+changeset f0d9ab6ffd64bd61e90dc2a13120df985c91c823
+manifest 5cc15d359a84c53e4063ec677eb6e9559d9fdf2a
+extra rebase_source:f782a7c830aed605cdcc18df9f3cd63605dfcc3b
+files mobile/android/base/java/org/mozilla/gecko/db/DBUtils.java
+patch 743,817,

@@ -1,0 +1,4 @@
+changeset ae33441d7f863eec8258466951a5b6f7ffca8522
+manifest 59d406309bc3c5335307e8a9e0e2ff67bbf92f7a
+files js/src/proxy/ScriptedDirectProxyHandler.cpp
+patch 291,292,

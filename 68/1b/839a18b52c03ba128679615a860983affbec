@@ -1,0 +1,4 @@
+changeset a01667dab7c5c3f43e143b3656b13cd89a71ee92
+manifest ba01c202428de5293ff47c099d055a03f509cb8e
+files js/src/jit-test/tests/asm.js/testBasic.js
+patch 222,223,

@@ -1,0 +1,5 @@
+changeset 3180877d4e44b6d49305f0e1204e72f0ec8465e4
+manifest b7d749b28191c9be7e754f1e5cb34d938285acc5
+extra amend_source:0140674e52ada1086baf25f7a5c15a25fe665da8
+files browser/devtools/performance/performance.xul
+patch 262,335,

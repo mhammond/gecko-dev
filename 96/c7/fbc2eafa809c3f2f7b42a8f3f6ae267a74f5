@@ -1,0 +1,4 @@
+changeset e042b0dba45525afea60180c2851bee4785a1855
+manifest 959468f0f3913b46edcbdfe5c20c6a71abd08f55
+files js/src/jit-test/lib/syntax.js
+patch 256,257,

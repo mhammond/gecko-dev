@@ -1,0 +1,4 @@
+changeset 099a5d6975133485b15310baaae09582ee009bbd
+manifest 64c6356d9a1a35417ca2f875d110a16500d96320
+files python/mozbuild/mozpack/packager/unpack.py
+patch 311,312,

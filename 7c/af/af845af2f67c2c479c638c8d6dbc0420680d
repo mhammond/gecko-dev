@@ -1,0 +1,5 @@
+changeset 9110bc88a18e327747fb711289c7c12c1ee74ff1
+manifest 0b66303ac14dce4924b658838f61d31bf2596973
+author Eddy Bruel <ejpbruel@mozilla.com
+files devtools/client/shared/test/test-actor.js
+patch 204,205,

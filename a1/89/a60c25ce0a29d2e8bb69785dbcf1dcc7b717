@@ -1,0 +1,5 @@
+changeset 9798c03e390991fd2d2e50f089d90bd78b7ceeae
+manifest 7ce2a042dae63841a12b6a88696836ea9424270e
+extra rebase_source:bf97d39dce40b83fc7495badd9feea65f0a8bcf5
+files layout/style/nsCSSRuleProcessor.h
+patch 215,289,

@@ -1,0 +1,5 @@
+changeset bb547a13e6230a742054af026048571b8686687d
+manifest 7a659ce6f5169e090909e7360237440b06c9c731
+extra source:8db356a0d5b5e3af4aeba8fc20baf45289acca92
+files browser/base/content/test/urlbar/browser.ini
+patch 303,370,

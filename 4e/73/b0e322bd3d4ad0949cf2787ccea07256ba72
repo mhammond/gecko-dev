@@ -1,0 +1,4 @@
+changeset 35ea4766a62d131d5bdf6ec033c812b5e1b62470
+manifest b827b37c4cb4d6526d6b2c55e0b27a21d519de16
+files js/src/jit-test/lib/jitopts.js
+patch 389,390,

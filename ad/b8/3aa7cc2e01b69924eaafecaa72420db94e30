@@ -1,0 +1,4 @@
+changeset e510a704c1b08889ccd9d311b1e1065c8f3cb12e
+manifest a98100c1e5749d4eda8462a191bf179c8ca670c9
+files dom/canvas/test/webgl-conf/checkout/conformance/resources/tex-image-and-sub-image-2d-with-video.js
+patch 281,282,

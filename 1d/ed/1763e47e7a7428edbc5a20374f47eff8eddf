@@ -1,0 +1,4 @@
+changeset 7eb40c545894888263c099243b2986e9fce0839f
+manifest ffc5529a5a733dabcf11f65fb140b5175bf41966
+files dom/tests/mochitest/beacon/test_beaconRedirect.html
+patch 288,289,

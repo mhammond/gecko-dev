@@ -1,0 +1,5 @@
+changeset a1ea2703d9e81330c261846575016399e01ba893
+manifest 71b59fc992bf2964d7060952debbacf317bdd779
+extra rebase_source:0aa5a06369e3083027e3d6576270433955632360
+files toolkit/mozapps/downloads/nsHelperAppDlg.js
+patch 314,388,

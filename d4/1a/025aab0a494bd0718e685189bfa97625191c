@@ -1,0 +1,5 @@
+changeset a82374ae5a010df726e88f4de948de0de3b57fe1
+manifest dc68c9a1a2d331bbe7196e60981ff32b631a778a
+extra rebase_source:a3f210cf6d07e7930ce5ea4d1f9d2262c733d282
+files js/src/asmjs/WasmBinaryIterator.h
+patch 313,387,

@@ -1,0 +1,5 @@
+changeset fe000d2b968fddcc4f5be7ddee4c05d83ce5fd5f
+manifest 77960afdb9d463f09ce09a7a64fcc6171d77c83c
+extra transplant_source:UlO~åD©l ·Áw§VF×Œ
+files uriloader/prefetch/nsOfflineCacheUpdate.cpp
+patch 275,357,

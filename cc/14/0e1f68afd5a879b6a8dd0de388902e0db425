@@ -1,0 +1,5 @@
+changeset a00bd4772feb80835569ff24a8f1434175953935
+manifest 8c537c90838dca6c1d9788d388b2816b08c84a87
+extra source:f478cabf6ecf04a8c9035b774f0e87d768f99c41
+files testing/web-platform/meta/html/the-xhtml-syntax/parsing-xhtml-documents/xhtml-mathml-dtd-entity-support.htm.ini
+patch 405,472,

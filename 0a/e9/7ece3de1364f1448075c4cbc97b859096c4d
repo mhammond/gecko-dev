@@ -1,0 +1,5 @@
+changeset ea17d4edd453337325be6140c4e9e8b1dbfd31fd
+manifest 87b80592a5fd7894104f8be69224af00b79f7f3f
+extra rebase_source:f88a51a6fbe3ffc4ce5ebb19903e9d0e97763976
+files browser/modules/PluginContent.jsm
+patch 999,1073,

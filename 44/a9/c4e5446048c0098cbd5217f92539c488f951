@@ -1,0 +1,4 @@
+changeset abfac0d05b79b49597d5fa8d4ce87caf4caaff8e
+manifest 057684cf34f592e8c738ca32b58d4fff67aa3243
+files devtools/client/webconsole/test/browser.ini
+patch 247,248,

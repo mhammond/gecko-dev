@@ -1,0 +1,4 @@
+changeset fac81f5dab0e11c317fc978db706dcdf6e4d4e77
+manifest 1776f07738dc8e77770fa6c0c1c1d63a7c88fa19
+files browser/locales/en-US/chrome/browser/devtools/gclicommands.properties
+patch 235,236,

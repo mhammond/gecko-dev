@@ -1,0 +1,5 @@
+changeset 339fd895d83b1dc567b03c5a0a9556804296e51d
+manifest b8a52417b1609c733126930e629a19e7f4c35f7c
+author Dragana Damjanovic dd.mozilla@gmail.com
+files netwerk/base/nsIOService.cpp
+patch 178,179,

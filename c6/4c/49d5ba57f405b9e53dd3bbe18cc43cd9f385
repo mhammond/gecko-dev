@@ -1,0 +1,5 @@
+changeset 0737c6bd21e634dccceb7e13fee30e972d7c7835
+manifest d6b1fd65aa76d7f9bfc682559b145dfafb2e4314
+extra rebase_source:6376a65b8d8145d68bad9b795b6abd6f4becefbd
+files python/mozbuild/mozbuild/compilation/warnings.py
+patch 729,803,

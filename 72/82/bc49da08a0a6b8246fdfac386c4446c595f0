@@ -1,0 +1,6 @@
+changeset 964f93dfc4bad4eb3540ca1bafe523da32d2920d
+manifest f11e71f25b862e488e15a41cc9cff5241e8b7761
+author ffxbld
+extra branch:GECKO380_2015050320_RELBRANCH
+files mobile/android/confvars.sh
+patch 220,268,

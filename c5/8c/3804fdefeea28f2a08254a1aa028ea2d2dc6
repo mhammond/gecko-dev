@@ -1,0 +1,5 @@
+changeset 233a3b2d3b36257042f3a7f5fdff87464e5fe346
+manifest 32487164906f410c7b0ba7bca7fa257a660569db
+extra rebase_source:9f3f20ef9208a2e0aa881c18da4dae6117b8f62b
+files js/src/jit-test/lib/bullet.js
+patch 242,316,

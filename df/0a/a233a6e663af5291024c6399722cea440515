@@ -1,0 +1,4 @@
+changeset 196c6575593d6e8997402fb458bf8ed2f954fa4a
+manifest d90e374bfcc47037620f857b277ec72477bec932
+files browser/base/content/test/general/browser_offlineQuotaNotification.js
+patch 282,283,

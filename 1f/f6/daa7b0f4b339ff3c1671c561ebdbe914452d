@@ -1,0 +1,4 @@
+changeset 461be9599b399a91ea36eb1f42d14901df39661c
+manifest 5aa5c36b9b7f08c3f1b577f9900ca4f35dd66cb5
+files devtools/client/webconsole/test/browser_console_error_source_click.js
+patch 265,266,

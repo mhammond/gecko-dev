@@ -1,0 +1,4 @@
+changeset 60a6dc930d0a6d7737a7de11f59e2536d052efb6
+manifest 2f3f38518edfe31df64bff787caa3c1565ea8287
+files devtools/client/webaudioeditor/test/browser.ini
+patch 262,263,

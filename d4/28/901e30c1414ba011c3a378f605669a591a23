@@ -1,0 +1,4 @@
+changeset 6a32c1e67f222930df2fc7f0b1806c365af3187b
+manifest 5271f55bdb8c08c886481ba1e3f5bc5fecee1f67
+files addon-sdk/source/lib/sdk/content/l10n-html.js
+patch 190,191,

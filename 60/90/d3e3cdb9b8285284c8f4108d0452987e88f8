@@ -1,0 +1,4 @@
+changeset b5abe23a4ea5934d7cb1e75e86c5b79eeb5e9f22
+manifest 33b1018dab9b5291de5ecb45371e4ff08e971c92
+files testing/web-platform/meta/content-security-policy/style-src/style-src-3_4.html.ini
+patch 287,288,

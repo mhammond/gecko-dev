@@ -1,0 +1,4 @@
+changeset b6da326356fb42ddeef4becd000a06a5619c8456
+manifest 98da2eb540464970b77adacb8ba7c1caf213261b
+files security/manager/ssl/src/TransportSecurityInfo.cpp
+patch 227,228,

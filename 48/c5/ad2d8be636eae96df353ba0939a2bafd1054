@@ -1,0 +1,4 @@
+changeset bf1119f4a7c20fb1513a7c18e17d59b8bc2a056b
+manifest 1006757eaf8593914f66efe0dd3046f07c25d798
+files js/src/jit-test/tests/for-of/string-iterator-surfaces.js
+patch 247,248,

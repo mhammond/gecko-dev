@@ -1,0 +1,5 @@
+changeset 29d9fb1f4cec7e3ea43520fdc4b6b1d8e7d43213
+manifest 728ceec11c6be4751c193b92f41159a16f9ea140
+extra rebase_source:e0500aa623a3ca8a988a25043ab2a2b00293160d
+files layout/style/nsCSSPropList.h
+patch 313,387,

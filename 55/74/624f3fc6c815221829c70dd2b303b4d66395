@@ -1,0 +1,4 @@
+changeset 32d2e4645dde3cdbdaec76721f733b95c8bf7ef5
+manifest acebf8cf2804a07bf35fae22eaf3da133bf1efb1
+files toolkit/components/extensions/test/mochitest/test_ext_extension.html
+patch 321,322,

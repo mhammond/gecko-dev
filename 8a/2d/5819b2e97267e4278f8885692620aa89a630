@@ -1,0 +1,4 @@
+changeset eac59a4ec3f68914ff02d0db9c6dab24686edaa6
+manifest ee74bba5cf7104d9afaf87b80c1a62beec49f2c2
+files toolkit/devtools/server/tests/unit/test_profiler_events-02.js
+patch 187,188,

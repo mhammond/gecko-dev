@@ -1,0 +1,4 @@
+changeset 5ebdd39f878955a2a8de6b9c4acf2bebeb233663
+manifest f3bcfa36964669d3246e7a49de45b1bcac919b13
+files extensions/spellcheck/src/mozPersonalDictionary.cpp
+patch 241,242,

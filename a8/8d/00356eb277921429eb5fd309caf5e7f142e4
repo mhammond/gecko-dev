@@ -1,0 +1,5 @@
+changeset 3406e5f7e3d0900bb7757ad574c9311e85e520ee
+manifest 22f62c96619b1dfb8e07127093e744f04f895a3d
+extra commitid:L5TCttMQM61
+files browser/base/content/test/general/browser_urlbarDelete.js
+patch 291,331,

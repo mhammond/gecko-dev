@@ -1,0 +1,4 @@
+changeset 0a1d5cfa22fa115905170fa9ceba8ff3aaba9739
+manifest 842f2fca8f4cc9e0e89a495f74c8f44a144ac0a8
+files js/src/gc/Barrier.h
+patch 189,190,

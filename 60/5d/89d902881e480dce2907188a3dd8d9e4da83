@@ -1,0 +1,5 @@
+changeset 8f8472c61480570eae3beeb4cb2ecaf61fa7ab80
+manifest b208a6f55647a94dd731556968381c010fa80a79
+extra rebase_source:185871e093d11b8d9fe24b1c0dfc952314fd874b
+files widget/tests/window_wheeltransaction.xul
+patch 283,357,

@@ -1,0 +1,5 @@
+changeset 46457432906da83d11a15ce0beed90548bff0111
+manifest 44e1007093b865543430f060d0aa91040af8177c
+extra commitid:5eSuUmwUSK6
+files devtools/client/sourceeditor/codemirror/mode/htmlmixed.js
+patch 263,303,

@@ -1,0 +1,5 @@
+changeset b5cfe78829739a8daeb4916e5302ba8f80a75356
+manifest b514cf8165d514a4857c7d2bf821b57b006bd1fb
+extra commitid:6O3mskCBcnU
+files dom/canvas/WebGLFramebuffer.cpp
+patch 227,267,

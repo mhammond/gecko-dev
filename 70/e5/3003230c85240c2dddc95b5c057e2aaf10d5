@@ -1,0 +1,4 @@
+changeset ad7d3f3e62b283e3067310801ba9036fbc892e38
+manifest 9a03aa49cccc9364804489d210ab3ee2721c329e
+files dom/wifi/test/marionette/test_wifi_auto_connect.js
+patch 724,725,

@@ -1,0 +1,4 @@
+changeset 3cd482f4d7fe1e0a40bb27ce3557fe10068154bd
+manifest ef5cd2fc58a30805daf4480a99f4473aea038fc3
+files devtools/client/responsive.html/devices.js
+patch 184,185,

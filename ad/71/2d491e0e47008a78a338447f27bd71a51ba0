@@ -1,0 +1,5 @@
+changeset c1c4f1f646dc8a56c813131206e3b4e32ea4f5d4
+manifest eb8791934421eabf288be00e2d5e99e2ba28b4c3
+extra rebase_source:b30dea0109cef5a03d36ff8179a13f835e63c6e3
+files js/src/vm/CharacterEncoding.cpp
+patch 281,355,

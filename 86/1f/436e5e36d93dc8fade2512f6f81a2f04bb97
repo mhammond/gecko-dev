@@ -1,0 +1,4 @@
+changeset f0cc92be4cd8cb1a55f2a029a102ec2d079eafef
+manifest f18a0ec0245b7e7c5cae5a5dff63a532483d524c
+files media/libvpx/vp8/common/loopfilter.c
+patch 759,760,

@@ -1,0 +1,4 @@
+changeset cde800606777dbdbcf36b91cbcd86ab93e92d1bd
+manifest 0704551b3ca08036a7eeb5f860bbc782997fcde5
+files security/manager/boot/src/StaticHPKPins.h
+patch 254,255,

@@ -1,0 +1,4 @@
+changeset 4b576200b148d2f02afed6df6c013b7fb2fdd1e1
+manifest 55c6983354e020002146448593e72c26ce629602
+files testing/web-platform/meta/2dcontext/drawing-paths-to-the-canvas/drawFocusIfNeeded_001.html.ini
+patch 332,333,

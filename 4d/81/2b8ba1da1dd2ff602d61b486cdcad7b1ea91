@@ -1,0 +1,4 @@
+changeset 77950beb90dd5636e0d3929638bdd11c899c9bd8
+manifest cb6d6148ee70168bac76298c039ff5181caf8895
+files xpcom/glue/nsClassHashtable.h
+patch 333,334,

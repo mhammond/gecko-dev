@@ -1,0 +1,4 @@
+changeset 1a309a682f19420bfbd04d219dbb3e1d95bfdda0
+manifest 436e24c7a68839687d10bf275f09b18910966aa1
+files ipc/chromium/src/base/buffer.cc
+patch 248,249,

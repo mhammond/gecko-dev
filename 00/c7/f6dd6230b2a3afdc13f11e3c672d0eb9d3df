@@ -1,0 +1,4 @@
+changeset cd0957de64a0186a148f5f781044456b94d231c6
+manifest 2ea6c42009b89408c442159c6bebfb85934a4dec
+files devtools/client/netmonitor/test/browser_net_footer-summary.js
+patch 187,188,

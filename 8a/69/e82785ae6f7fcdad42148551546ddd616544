@@ -1,0 +1,4 @@
+changeset 5044b1c6392283847231f9361beab291aa26a4b4
+manifest f271e3ee543eefddaf900177b54ed15decf956fd
+files dom/contacts/ContactManager.js
+patch 216,217,

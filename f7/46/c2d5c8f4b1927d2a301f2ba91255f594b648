@@ -1,0 +1,5 @@
+changeset 627b01cda561566049d1497f47c8d789948496aa
+manifest 81f10ccb47e281c9e8cf9e01439cae5628cd3cc3
+extra commitid:BESuP0CLna1
+files testing/mozharness/mozharness/mozilla/testing/testbase.py
+patch 1029,1069,

@@ -1,0 +1,4 @@
+changeset d94ec89a241fa3faecb3b04c5f7709b8b5fdfb88
+manifest f29e25c9a1dfc865ad14256d9235b898a80cd3a5
+files toolkit/components/downloads/nsDownloadManager.cpp
+patch 291,292,

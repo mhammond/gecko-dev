@@ -1,0 +1,4 @@
+changeset 86c124e3b2a93892ead6de3cbe260810a9999d22
+manifest 65b51e7510ceb165b0cded65616bb47928ea1079
+files toolkit/devtools/server/actors/framerate.js
+patch 278,279,

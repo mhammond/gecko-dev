@@ -1,0 +1,5 @@
+changeset 17f792799636c637c96229e877a2f1b93edcd147
+manifest ee85dbce965fb0cdf77a6d7999ad24b47e6dbe90
+extra rebase_source:78634f90e09695bcf64148858be91ab89d639085
+files devtools/client/framework/toolbox-process-window.js
+patch 326,400,

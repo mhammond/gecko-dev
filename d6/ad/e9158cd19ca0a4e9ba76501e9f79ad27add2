@@ -1,0 +1,5 @@
+changeset e8d4a3fe4645ea50c2fa5618541c1ae8bd52086a
+manifest 5167c4a640827a4e1551ff0261e24daecd4bd504
+extra source:df3d8c8316968efc61946c02c438d387a8bbddfc
+files mobile/android/base/resources/values-v11/fxaccount_styles.xml
+patch 332,399,

@@ -1,0 +1,4 @@
+changeset f8a5cf33d130898034df67b677b0d1db604f7885
+manifest 62da999ad30afce1957c069b9fbccf2dfd883d33
+files dom/apps/src/Webapps.jsm
+patch 227,228,

@@ -1,0 +1,4 @@
+changeset b32116534dc236a0668e70eed226bf51f0f88608
+manifest 989da093c284c0921ae9a8bbb947a124b4a1f2b8
+files mobile/android/base/ui/PanZoomController.java
+patch 229,230,

@@ -1,0 +1,5 @@
+changeset ae9f8a99c11ecb61fdebc9e5bf85bd3ea639c0d0
+manifest 8175b26d875b4c477f42b31b8209a139e3193195
+extra source:bc6e8eb75949f36b116abceb33e3281d675396b5
+files browser/components/sessionstore/SessionFile.jsm
+patch 1016,1083,

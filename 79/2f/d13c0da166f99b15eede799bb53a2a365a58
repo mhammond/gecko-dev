@@ -1,0 +1,5 @@
+changeset 854e74094d8cf43e8a00f953e09a3068a2c18e25
+manifest 2a2405e3cb48a79d8b0c3798ab6aa9d0fd897916
+extra rebase_source:25ad0813f51ba3c97439080c662504ea6f355891
+files gfx/cairo/libpixman/src/pixman-image.c
+patch 295,369,

@@ -1,0 +1,5 @@
+changeset 402f6265001b844eef9c3dde4abdb331c99e5fb9
+manifest 30aa97f5de43448794c0427074c47b954d2493ba
+extra rebase_source:075dcc430a215cdeecb9c2695abd03a02950778e
+files toolkit/content/widgets/editor.xml
+patch 260,334,

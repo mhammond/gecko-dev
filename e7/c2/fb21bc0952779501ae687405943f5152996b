@@ -1,0 +1,5 @@
+changeset d06f0960937f338ffe4924cb49b4488146aa37d4
+manifest 19ff55bdbc6d5a4ff5fa72ada8a269c61fe42c42
+extra rebase_source:33771d266d6ae16d13b26c1e1cbbd794d5b4e6a3
+files dom/canvas/test/webgl-mochitest/test_capture.html
+patch 310,384,

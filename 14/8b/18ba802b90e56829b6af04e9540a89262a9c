@@ -1,0 +1,4 @@
+changeset ffbd5f5f46f132958d61c009b772ade55e1e0b30
+manifest 06ccd9049ed97a2e19a3eda50b17f7fabf79bb16
+files memory/build/mozjemalloc_compat.c
+patch 293,294,

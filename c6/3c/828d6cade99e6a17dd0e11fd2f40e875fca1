@@ -1,0 +1,4 @@
+changeset 349ec1e6b2471ad1905b68c18b19a760cf7b21f2
+manifest c3312a41a5803342af9cb30fbb2092508e223934
+files browser/components/migration/IEProfileMigrator.js
+patch 226,227,

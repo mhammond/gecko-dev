@@ -1,0 +1,4 @@
+changeset 104899f933cb87f49cb7a5e0deb0d4bb952c7700
+manifest 3bddeec9b2d07f2fc949119e587c2dd7fdd1d586
+files js/src/gc/Barrier.cpp
+patch 176,177,

@@ -1,0 +1,5 @@
+changeset d06f6869e5fc1f013fb2f0d334bc0e6d006e7fae
+manifest c0ee7bd7413a08ed1a03dd892e5ee93d08491334
+extra rebase_source:d68d8deee6c9f45459900ec14b3424a3770d3caf
+files devtools/client/animationinspector/test/browser_animation_animated_properties_displayed.js
+patch 351,425,

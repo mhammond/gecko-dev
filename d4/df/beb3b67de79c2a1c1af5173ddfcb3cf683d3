@@ -1,0 +1,5 @@
+changeset 648ed13cecacb7ea511d019e02c6dddc7649b94e
+manifest 47f6958695a1d8f46de5811841a6313d4c05b4bb
+author Dragana Damjanovic dd.mozilla@gmail.com
+files netwerk/base/nsSocketTransport2.cpp
+patch 216,217,

@@ -1,0 +1,5 @@
+changeset 9300568c634b2f76eb5893b3630e1efe76c7f49d
+manifest 4586906aa93efe913530fe400846e79a53fa232e
+extra commitid:5lXvHlDYIna
+files browser/tools/mozscreenshots/mozscreenshots/extension/TestRunner.jsm
+patch 419,459,

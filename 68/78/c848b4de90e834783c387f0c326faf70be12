@@ -1,0 +1,4 @@
+changeset 25365989efaf2c526c8d7e8346b70bbf27a769e5
+manifest 75bbe78dbdffb117a3625cd38b5708c179905778
+files python/mozbuild/mozbuild/test/configure/test_checks_configure.py
+patch 307,308,

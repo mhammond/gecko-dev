@@ -1,0 +1,4 @@
+changeset 7a64eaf8d6888668816fafd0ccd4761905e31dcf
+manifest b15377bbd0b58b50d2e1e716471b9e16733f0e53
+files build/autoconf/compiler-opts.m4
+patch 372,373,

@@ -1,0 +1,4 @@
+changeset 9fd0ce9fbf2bb74c2d922c59150ec49ba0e6f627
+manifest 21e4918b5412bca974f9bbd71dade42021970990
+files js/src/jit-test/tests/ctypes/conversion-native-function.js
+patch 251,252,

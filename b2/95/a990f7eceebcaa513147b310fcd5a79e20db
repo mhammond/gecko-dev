@@ -1,0 +1,4 @@
+changeset bafa23fb5915566196a90faae0a921446e6394f7
+manifest 2ab4c2b7512fc9b0a766f882810a38ca89ed5f4b
+files testing/web-platform/tests/service-workers/cache-storage/script-tests/cache-add.js
+patch 261,262,

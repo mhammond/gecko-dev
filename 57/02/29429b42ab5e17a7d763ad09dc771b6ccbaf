@@ -1,0 +1,4 @@
+changeset c2fa32f6f29c4a881f015f837d4e646878707c06
+manifest 49f41f861e2cc0ad87f8144097f3969cc5f3069c
+files toolkit/components/places/tests/browser/browser_favicon_setAndFetchFaviconForPage.js
+patch 297,298,

@@ -1,0 +1,5 @@
+changeset 6b78ee24c923dfe6008db3ab58ab975ccfa3bef4
+manifest adf7f6d665299f0154adf71281828dac9927e2da
+extra commitid:5JOyeQ0xZLq
+files gfx/layers/apz/util/APZCCallbackHelper.cpp
+patch 277,317,

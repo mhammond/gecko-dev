@@ -1,0 +1,4 @@
+changeset adbc210cb42be58e892f462901fd701d1c90a6b0
+manifest dd7093ea6c0fc1fb612a86d0ce54a7a13eccecaa
+files browser/locales/en-US/chrome/browser/newTab.properties
+patch 225,226,

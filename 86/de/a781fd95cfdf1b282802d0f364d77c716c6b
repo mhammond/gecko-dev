@@ -1,0 +1,4 @@
+changeset a5578b2096e47710def4c46fdab638c1603ffb48
+manifest a2c381985c29d9a643f0a7766564e310801ca9cc
+files js/src/jit/Registers.h
+patch 218,219,

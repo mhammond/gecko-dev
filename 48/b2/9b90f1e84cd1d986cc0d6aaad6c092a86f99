@@ -1,0 +1,5 @@
+changeset be1febf57b657d541ca86a73f07389f1b2b24384
+manifest ae65b9ee4a0ee835cd0965d05fc4b18d54bba89d
+extra rebase_source:84564e6d561d4456bbc029aac8c3728c00e0e5d7
+files mobile/android/config/proguard/proguard.cfg
+patch 367,441,

@@ -1,0 +1,5 @@
+changeset c103cfed74e6a139d6e183fba9487e776534d54e
+manifest 26c92ebe66288d3480afce71f6857281cf515646
+extra amend_source:2bdb534d74515384d09a3d49726e100d858fec05
+files toolkit/themes/windows/global/aboutReader.css
+patch 306,379,

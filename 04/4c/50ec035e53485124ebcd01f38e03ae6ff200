@@ -1,0 +1,4 @@
+changeset 6a6bd45b795c3815735ddcd313d943e880f71c7c
+manifest d00ceef07996527cc06dd1db1484a743a42463fd
+files gfx/layers/ipc/ShadowLayerUtilsGralloc.cpp
+patch 168,169,

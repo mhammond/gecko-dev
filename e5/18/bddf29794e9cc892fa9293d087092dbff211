@@ -1,0 +1,5 @@
+changeset 7b9c723526fff7835105a1155387fd5b0b96d6a1
+manifest d604797ea641086afd824549225ef24627753f6f
+extra rebase_source:1f2b0352351e098f379c1b072f76f9ecb40c4d31
+files mobile/android/services/src/main/res/layout/homescreen_prompt.xml
+patch 338,412,

@@ -1,0 +1,4 @@
+changeset 7faa8f366cab968958b7ba7083ac29ccb2e7b26d
+manifest 2d9a5a997fe91021057be42939b0fe16c3e5d194
+files browser/devtools/shared/widgets/SideMenuWidget.jsm
+patch 207,208,

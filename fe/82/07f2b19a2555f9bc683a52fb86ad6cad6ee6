@@ -1,0 +1,5 @@
+changeset 577396a6287e61572fcef25b255144d1199465f5
+manifest 6d33967723c5190f76ea3c328ec649db0c4ca71b
+extra rebase_source:08147418a911616ac41b0fa62b33a8f39513fcff
+files view/nsView.cpp
+patch 272,346,

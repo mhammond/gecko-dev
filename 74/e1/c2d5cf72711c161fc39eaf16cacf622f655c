@@ -1,0 +1,5 @@
+changeset 52d03258c7446174ae3f47d1ab9d687acdb4eee3
+manifest 25447f3ecc7bf76a67d7007f53d48f0d90df2644
+extra source:3885c33f201313e6c6034ddafd5f965d46d7b600
+files testing/mozbase/mozleak/mozleak/leaklog.py
+patch 292,359,

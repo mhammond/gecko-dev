@@ -1,0 +1,4 @@
+changeset 6502eda903ea9389cabea8d645e76e1c52be3b5c
+manifest 56fb4d824c6aec326adae3c7cc5fa98b2d94d399
+files build/annotationProcessors/SDKProcessor.java
+patch 500,501,

@@ -1,0 +1,4 @@
+changeset 053f499b510f246de5348a21ff227705174c62fc
+manifest 2d884f0dac21c4e657dc1804ae694d1a2566a469
+files browser/devtools/webconsole/test/browser_webconsole_bug_601667_filter_buttons.js
+patch 214,215,

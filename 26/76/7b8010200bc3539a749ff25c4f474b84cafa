@@ -1,0 +1,4 @@
+changeset 3f1686cbca54bb830163dd7fbb0fb9048916ea8f
+manifest 5d708e0968163af52f6d057df303c1bb5df6d304
+files browser/components/extensions/test/browser/browser_ext_tabs_zoom.js
+patch 292,293,

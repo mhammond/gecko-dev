@@ -1,0 +1,5 @@
+changeset e87ece3044148dd4ad136a82fe8eff22839daf12
+manifest 00b141e98c85c2ff1e00dab3fe3c802f1ce52d2d
+extra rebase_source:867c492d7114bad15414c6b671888f0ad263e478
+files js/src/jscompartment.h
+patch 280,354,

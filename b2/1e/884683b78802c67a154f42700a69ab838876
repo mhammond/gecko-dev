@@ -1,0 +1,5 @@
+changeset 5f567a7cba864efa075b7cbd3698b93b97b170d7
+manifest 81b7e4a7c95d70a17a6bbe144b96b8191797f555
+author Dragana Damjanovic dd.mozilla@gmail.com
+files netwerk/protocol/http/HttpChannelChild.cpp
+patch 233,234,

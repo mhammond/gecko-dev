@@ -1,0 +1,6 @@
+changeset 03fbf7556c94ab5d41340a0b8edc6684d9a34b99
+manifest e59f2b5260335537e335bd16ca264f394c2d6dbe
+author ffxbld
+extra branch:MOBILE410b2_2015081719_RELBRANCH
+files browser/config/version_display.txt
+patch 231,282,

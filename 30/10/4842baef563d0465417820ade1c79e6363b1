@@ -1,0 +1,4 @@
+changeset 5e797718340b90b81a00bf1862c030ff78278f61
+manifest 629fe5be05ddf8cfa04b78cbe9eec1d9fe1a54e3
+files browser/components/loop/test/mochitest/browser_mozLoop_sharingListeners.js
+patch 292,293,

@@ -1,0 +1,5 @@
+changeset 9274f4f0ebdca3552c5cf860cfc2b95f86907ccc
+manifest b1a228f3736652dc211d19672ea12061c96854b5
+extra rebase_source:dc653f7dc85135b799d0da3e784913cdd9a3f973
+files mobile/android/geckoview/src/main/java/org/mozilla/gecko/util/DrawableUtil.java
+patch 639,713,

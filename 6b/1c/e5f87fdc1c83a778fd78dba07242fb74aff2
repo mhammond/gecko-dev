@@ -1,0 +1,5 @@
+changeset 506eacf36f935c80636b68363f69e7e87d1ee52a
+manifest 2824269486ce2fedeea7dcdbd8de3de2797486cf
+extra rebase_source:e5586cbb9d71005181671f362583a5b3b9006a4d
+files mfbt/Poison.h
+patch 265,339,

@@ -1,0 +1,5 @@
+changeset de10fb9ec9e53855b1770530c184fc4be3ad03de
+manifest c82863ef95a1c18935a31353cdfbf4295b646d6c
+extra histedit_source:8556b2b422c8d12143be256e3150aad5017c314a
+files js/src/shell/js.cpp
+patch 284,360,

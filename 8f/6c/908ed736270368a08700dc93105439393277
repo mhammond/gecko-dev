@@ -1,0 +1,5 @@
+changeset 0facd655bce5f6e95f296b2599c2284049b06531
+manifest 148fb77476a95653644e1e9c1f2a3c5110a5d6ba
+extra rebase_source:02f9db11cd27f70ecd644a734e6ff03583067d1f
+files dom/workers/XMLHttpRequest.cpp
+patch 203,277,

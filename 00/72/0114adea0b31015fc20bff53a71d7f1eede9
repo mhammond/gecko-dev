@@ -1,0 +1,5 @@
+changeset cc0a07b00e380d7cee9ef378c2c38f93c691a991
+manifest 796720e6f2a4918c6317586b5de1a2c12fbe388f
+extra source:5fcd5742e51897a469773c538098d9edb4dd4c57
+files layout/base/nsBidi.cpp
+patch 241,308,

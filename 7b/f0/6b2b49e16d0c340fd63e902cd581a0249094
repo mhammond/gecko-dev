@@ -1,0 +1,4 @@
+changeset 6dae07b5e0bc8984663d11fab56590e52a3be1df
+manifest ffdfa4ec5065d20e8d6953c83619c20a306e2dbe
+files browser/devtools/shared/widgets/CubicBezierWidget.js
+patch 251,252,

@@ -1,0 +1,5 @@
+changeset bafa697bd981d359c3e9c08f7aeffaf4568b3b38
+manifest ce6804a2fb136d5cda78adcd4576fe9b42eb1944
+extra rebase_source:252d8f50085ccc57294a71c31f3b8b37c9cf2a90
+files security/manager/locales/en-US/chrome/pipnss/nsserrors.properties
+patch 378,452,

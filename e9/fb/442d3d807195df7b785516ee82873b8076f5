@@ -1,0 +1,4 @@
+changeset 5fdfe83cadc1db6d0940409e90cd70a62ab4122b
+manifest ff4c09a92b0d21daa3aaba62338ebc15f5c71578
+files security/manager/ssl/tests/unit/test_weak_crypto.js
+patch 233,234,

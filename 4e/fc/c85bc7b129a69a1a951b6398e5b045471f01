@@ -1,0 +1,5 @@
+changeset 6c3893afbb49689920d3189e1c5320867d3b3c97
+manifest dcbd0d5fbe7d8415fbb246e58497f43ed2137cfa
+author stefanh@inbox.com
+files widget/cocoa/VibrancyManager.mm
+patch 201,202,

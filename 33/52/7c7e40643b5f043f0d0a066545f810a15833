@@ -1,0 +1,4 @@
+changeset 2db4b0ef03a75b055358c0a8c505fb1ff12f919b
+manifest f28c23108d59f837c764403589fc8d6a07b17f7a
+files media/libvpx/moz.build
+patch 686,687,

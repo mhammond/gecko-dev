@@ -1,0 +1,5 @@
+changeset f943477f8ad2fa9536d6077af9cc608fe391aa66
+manifest 5ab8f9dbc8e558ef528f1c062301f4544085f407
+extra rebase_source:e2cca16b146e99cb613573fea6b97524395c986c
+files xpfe/appshell/test/chrome.ini
+patch 304,378,

@@ -1,0 +1,4 @@
+changeset fad6d48e70f19d36638950d1709b02a227f341be
+manifest e23bed99bd437e451c165a1533ede8a219c0b20c
+files devtools/client/webconsole/test/browser_console_addonsdk_loader_exception.js
+patch 333,334,

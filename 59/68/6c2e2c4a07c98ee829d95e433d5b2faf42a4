@@ -1,0 +1,4 @@
+changeset 5c890ed2dc6c5080c5e895969759aa434784cf7a
+manifest a032cf37840d2bdf9a1e5c2dfc1f391bf6355dc0
+files media/webrtc/signaling/src/jsep/JsepCodecDescription.h
+patch 242,243,

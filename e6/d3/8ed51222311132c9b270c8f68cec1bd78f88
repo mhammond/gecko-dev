@@ -1,0 +1,5 @@
+changeset 8ee1bce84ad842d8b536e1f259ad1a8be89a0ea6
+manifest 3dd22907bed403ab14587e97959488d1bcdd745d
+extra rebase_source:1d05ed737cf8d37b3a4f7d71f95492b41f0b8f87
+files js/src/vm/UnboxedObject-inl.h
+patch 319,393,

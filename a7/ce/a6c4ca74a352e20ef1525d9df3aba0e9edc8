@@ -1,0 +1,5 @@
+changeset f99c3a999e81a017ca3f6026b1e75fe4ec31a50a
+manifest 63921f2ec1b1341d2298c84e1b8d59b93510d7a2
+extra source:1c43a08d519f145437fa3aaef825fa44a8c54782
+files layout/base/nsPresShell.h
+patch 297,364,

@@ -1,0 +1,5 @@
+changeset aca75f4ef930df34569d6d79b377a8d3186a5c24
+manifest c1038d2949dc723aa3d780347fc2067a3b809c81
+extra rebase_source:705510958ffa4703d06d7f86e3120602cf71ddc9
+files media/webrtc/signaling/src/sdp/SdpAttribute.h
+patch 275,349,

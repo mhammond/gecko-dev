@@ -1,0 +1,5 @@
+changeset cbff6b4623dbbfe76e4739ed02b35129245228db
+manifest 530fff694a52730aa1671359ccc4f01d5c634a33
+extra rebase_source:093a58d6ee3789cc053458717ba21670f90ed6de
+files js/src/jit/mips/Architecture-mips.h
+patch 315,389,

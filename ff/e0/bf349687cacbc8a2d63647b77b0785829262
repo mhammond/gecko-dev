@@ -1,0 +1,4 @@
+changeset ead4c5f8ae5767903780f9270134c82806d23169
+manifest 80f3a6855ece1e90f21a368363772bf0464d0a12
+files xpcom/build/nsXULAppAPI.h
+patch 188,189,

@@ -1,0 +1,5 @@
+changeset c30ece891309179bafa47ac645a7937a1b38e400
+manifest d4c2f8e0b4839e3efe2995214cbfbe835266e64a
+extra commitid:GkN2wL0LdG9
+files mobile/android/tests/browser/robocop/src/org/mozilla/gecko/tests/MotionEventHelper.java
+patch 551,591,

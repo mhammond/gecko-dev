@@ -1,0 +1,4 @@
+changeset 132bb5e7c5b8a80c3c3bc51e865a9562f857f1c7
+manifest 5aa5bec4b601adc745c954bd80bbfe27d549b6f4
+files netwerk/protocol/http/nsHttpChannelAuthProvider.cpp
+patch 260,261,

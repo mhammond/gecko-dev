@@ -1,0 +1,5 @@
+changeset dd53d96466ce63b4b3b480ae48693b5a651a1eac
+manifest 56ce0d44a202c2f6c4ab79729b2ac9be4e893f3b
+extra rebase_source:d453f866d36cdfb5733041c9019b2fc9fa3fd122
+files browser/components/readinglist/Sync.jsm
+patch 279,353,

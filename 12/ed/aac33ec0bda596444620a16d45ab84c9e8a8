@@ -1,0 +1,4 @@
+changeset 791cc18c90be2f6ecb12de64a344feb86b34f191
+manifest 7ca732c63add155d40496852278a79704411c192
+files taskcluster/ci/android-test/tests.yml
+patch 189,190,

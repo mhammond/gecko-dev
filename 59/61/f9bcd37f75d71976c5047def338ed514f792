@@ -1,0 +1,4 @@
+changeset 060770ae1170b44a4a55f601bbca0016fe4b87d1
+manifest 2a89c0aaa0fc54dfcb9ba94ee66bd20e56534d13
+files toolkit/devtools/server/actors/promises.js
+patch 210,211,

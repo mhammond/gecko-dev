@@ -1,0 +1,5 @@
+changeset 917d8e07d42b23177e5cdf6a79dbd5a16513e34e
+manifest 974358fe99b0f8b682cfcb8d1dee3fe94680b99a
+extra transplant_source:^6>„¶aÒ1zGc½á€ïµð
+files modules/libjar/nsZipArchive.cpp
+patch 265,351,

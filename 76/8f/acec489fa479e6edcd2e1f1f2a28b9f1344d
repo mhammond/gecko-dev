@@ -1,0 +1,5 @@
+changeset 7b296a71b115a246a49a47fe8cfbf7172dd43a7f
+manifest d5769b5baaf6ff49b2d1184e787235f7659bbff4
+extra histedit_source:f2682480eed59700a313e50696a3177612e778fb
+files build/mozconfig.common
+patch 277,353,

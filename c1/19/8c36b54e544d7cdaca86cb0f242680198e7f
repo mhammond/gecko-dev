@@ -1,0 +1,4 @@
+changeset 20696a216fbc93329a7da336c9aed5d800347e2b
+manifest 189b630d558f806c1c69895c551b7a078bb36cab
+files toolkit/components/thumbnails/test/browser_thumbnails_bug727765.js
+patch 212,213,

@@ -1,0 +1,5 @@
+changeset e41c7813495a582eaaa2d9135433c71cf5d97fa6
+manifest 5fea036f060cfebc8d16db59cc5ccb61414641a7
+extra rebase_source:c85d0c6b92c82c32b5e194143358956479a477b9
+files tools/power/mach_commands.py
+patch 280,354,

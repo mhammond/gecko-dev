@@ -1,0 +1,5 @@
+changeset e2009551c1be2a121ad6baf1241973c3a15c5461
+manifest bc5e7795402d2995d30d64d4a43479332af958ef
+extra rebase_source:f6ca2ca980ae4c99d04baed3a3b7c1ab593ab31a
+files media/mtransport/third_party/nICEr/src/stun/stun_msg.c
+patch 322,396,

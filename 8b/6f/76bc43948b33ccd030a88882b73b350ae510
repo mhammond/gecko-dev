@@ -1,0 +1,5 @@
+changeset 7378c226537699f13ef6a2d62bdc4f4e128b48a8
+manifest 55483985f6bb139acdd6acbb9cd4efc7abb9881d
+extra rebase_source:3d8bfc8200bbb722689ed80fb87a96e4886a56ed
+files devtools/client/inspector/inspector-panel.js
+patch 244,318,

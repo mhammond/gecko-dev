@@ -1,0 +1,5 @@
+changeset bbc13c4c59289416fe99a38a1d379fb9feafe15c
+manifest fde9c713905e15ee63b7deb812eda97d17c7493d
+extra rebase_source:a5ed1c403bd92650fa4ae4f55640e97936121499
+files dom/webidl/moz.build
+patch 298,372,

@@ -1,0 +1,4 @@
+changeset 673dcdb03f73dade7dd7f50420c8bc032bb25c55
+manifest caf77cdeb8822626e78e403c07b70f0d9ff055ab
+files services/sync/modules/resource.js
+patch 211,212,

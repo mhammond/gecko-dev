@@ -1,0 +1,4 @@
+changeset cc9713988f7ad2af3741e2f6bd296504636fd26b
+manifest eef736d945ff4a3d792db4a88a0d08e4ae7e779b
+files python/mozbuild/mozbuild/configure/__init__.py
+patch 306,307,

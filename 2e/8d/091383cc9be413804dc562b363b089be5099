@@ -1,0 +1,4 @@
+changeset 77d5a7ca90c5b41830bcf60157a15c3154cd21e2
+manifest efdc3e88f6ee88a86be52b690756f326ebf7f8a6
+files build/moz-automation.mk
+patch 170,171,

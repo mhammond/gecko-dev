@@ -1,0 +1,5 @@
+changeset df0e14b3f743afbc85a4c75a9e95789aedcf5c9a
+manifest a5d4ace412b0452486c5199133a2cd3ad919054a
+extra source:987d4f3854dabeb33f7070b7d13392d321067b6f
+files netwerk/base/nsBaseChannel.cpp
+patch 287,354,

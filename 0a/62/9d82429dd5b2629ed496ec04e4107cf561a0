@@ -1,0 +1,5 @@
+changeset addb5b05538307ed1d2c75497ed469e393e6791d
+manifest 9692a21c7e04d91611172fb20a696bf938ffa921
+extra source:ca970199a7f1ee9adc11019a65ef8eba1f2a491e
+files mfbt/IntegerRange.h
+patch 259,326,

@@ -1,0 +1,5 @@
+changeset 06ca7be5f7e4d61ff1b3e787fe886869805ac7c6
+manifest 4da942b8864b50996d0f23448714453006159043
+extra rebase_source:e83fdea488fe24c38a81a98ab8a9e800212a167c
+files testing/marionette/harness/marionette/tests/unit/test_screen_orientation.py
+patch 424,498,

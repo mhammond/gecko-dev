@@ -1,0 +1,5 @@
+changeset 493d0d1db532328146aea8f6ecce8e71eac93a60
+manifest 671a768e6f301a84fe10107dd5118c7c00f5b45b
+extra rebase_source:48c61804618c76dc0b69abf94421b7e45f4ddfb0
+files testing/marionette/client/marionette_driver/geckoinstance.py
+patch 974,1048,

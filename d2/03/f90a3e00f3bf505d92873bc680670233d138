@@ -1,0 +1,4 @@
+changeset 4b301ec04c21b339af87dd31b9e298a40c90f80e
+manifest 201525742da5553960ba3ba012fc3b08952c7fea
+files widget/android/nsScreenManagerAndroid.cpp
+patch 293,294,

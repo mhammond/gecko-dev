@@ -1,0 +1,5 @@
+changeset b1151fef26d49e5cf1ced478b4b87e117e221ba1
+manifest afde8c644b441faa7296ef37de16eb419a7147c6
+extra commitid:5eDsAagG9Ws
+files browser/base/content/test/general/browser_bug590206.js
+patch 248,288,

@@ -1,0 +1,4 @@
+changeset 2e433f344747ee102aef9dfebdf39b0379572f7b
+manifest 746c6ddfcce7cf0a08ef7ff6dbf61bd5aedeba94
+files xpcom/glue/nsHashKeys.h
+patch 217,218,

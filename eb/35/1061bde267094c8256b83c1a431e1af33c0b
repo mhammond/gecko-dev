@@ -1,0 +1,5 @@
+changeset 3664dcef3c8b63fdd54c406500a90707ec30326f
+manifest 58d0218e00b8da64903b6a471010f969c75d5a3e
+extra source:13253d32800323622862166a373ed95974999131
+files mobile/android/base/firstrun/WelcomePanel.java
+patch 257,324,

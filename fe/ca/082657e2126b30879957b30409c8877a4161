@@ -1,0 +1,4 @@
+changeset 35fc1b57c578dce0539f4dbcca9802f986164682
+manifest 22af98fdbdd171297459da028c472936382f9d57
+files toolkit/mozapps/update/updater/updater-xpcshell/Makefile.in
+patch 270,271,

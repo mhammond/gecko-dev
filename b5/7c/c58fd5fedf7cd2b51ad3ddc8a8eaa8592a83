@@ -1,0 +1,5 @@
+changeset 03dc02bff03d0fb1adce26aaba120f26b4068fb7
+manifest 2bb21c2dcb9d143c792e0981370236cc8de44bb1
+extra source:b421e073d61ed9ebede3c9eb280c2b4adb1d120f
+files browser/components/uitour/test/browser.ini
+patch 277,344,

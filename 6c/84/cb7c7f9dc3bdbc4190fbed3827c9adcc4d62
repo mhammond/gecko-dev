@@ -1,0 +1,5 @@
+changeset 9f8472060b5eaad0bc976f07b932981366a938dd
+manifest 91d184af9c126a78f4e5aa4f842de5416c94ae76
+extra source:13e73ff5d5d4e7e8141fae1024767a9ad34093a1
+files testing/web-platform/tests/XMLHttpRequest/responsexml-document-properties.htm
+patch 317,384,

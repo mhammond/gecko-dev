@@ -1,0 +1,4 @@
+changeset ea0fbe4ec5d915ca515670de8b99594bcdf4f7ed
+manifest 0f564ceb777333e15878041b162c031eff7f29bd
+files browser/installer/package-manifest.in
+patch 194,195,

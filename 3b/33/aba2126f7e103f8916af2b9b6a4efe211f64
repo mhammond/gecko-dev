@@ -1,0 +1,4 @@
+changeset 472989ca7f7ffb38e8af882839a539ae0e2da87c
+manifest ba105d9aaafb6fd765e3575126499bdc61cdac74
+files browser/base/content/test/general/browser_bug710878.js
+patch 246,247,

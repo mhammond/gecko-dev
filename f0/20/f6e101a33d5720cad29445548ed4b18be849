@@ -1,0 +1,4 @@
+changeset e9dd199eb1856a648c7c5bb42bd4d34d72f5bfe8
+manifest 19e10d6f9fea0d82759d5a7e47d826d71e7322f1
+files tools/profiler/core/platform-win32.cc
+patch 258,259,

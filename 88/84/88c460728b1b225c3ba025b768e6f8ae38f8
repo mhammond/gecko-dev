@@ -1,0 +1,5 @@
+changeset 691b2d09dd096065630e18a89a91d18d8ada0264
+manifest 5239ec3d0f2c9ff1aeb473a95b1fe9b99261caa5
+extra rebase_source:5c61769dc35221219043530df2d1395162dfa297
+files toolkit/themes/shared/icons/input-clear.svg
+patch 264,338,

@@ -1,0 +1,4 @@
+changeset 4f746ff87cefd9cefd2d827868a278559a3a0655
+manifest faa99c717a0f3fa6540fcf6359943292e01c263e
+files browser/extensions/loop/chrome/content/preferences/prefs.js
+patch 219,220,

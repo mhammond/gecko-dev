@@ -1,0 +1,4 @@
+changeset 68e9726e41eb5f896a2a377d6c9e772d5732e1bf
+manifest c98ad8b6bb914161510fae3eefc75214661da5ad
+files taskcluster/taskgraph/util/legacy_commit_parser.py
+patch 296,297,

@@ -1,0 +1,4 @@
+changeset 6801dfbc6119e9f24b28603d2b3122283a6dc3cd
+manifest 0f3e366b65c1725dd12b7fc507ebf9c6de7c582d
+files netwerk/protocol/http/nsHttpAuthCache.cpp
+patch 255,256,

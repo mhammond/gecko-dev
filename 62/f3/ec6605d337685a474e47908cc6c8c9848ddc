@@ -1,0 +1,5 @@
+changeset 8a0d5df41cfb7a120127970f748ace31848d6add
+manifest 0170e1bd6aadf68ef061f2b6da7c5c8d2ee0d1e6
+extra rebase_source:806449975140c30fca612d647605b953b3511e00
+files layout/style/test/chrome/hover_helper.html
+patch 338,412,

@@ -1,0 +1,4 @@
+changeset 773e4e7c28cf1941f0ffd87afb36854aa0e5696f
+manifest 2fd8f25098300410d23ff23d96c14781bdf0c40a
+files browser/modules/test/browser_UsageTelemetry.js
+patch 230,231,

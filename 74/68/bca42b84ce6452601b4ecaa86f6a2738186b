@@ -1,0 +1,4 @@
+changeset 0c18c0a80c81cfc78512776ed7998e017bf171bb
+manifest 8378d1071d20b8e23f49a9c5fe106d297ad622a2
+files testing/web-platform/mozilla/meta/service-workers/service-worker/ServiceWorkerGlobalScope/__dir__.ini
+patch 273,274,

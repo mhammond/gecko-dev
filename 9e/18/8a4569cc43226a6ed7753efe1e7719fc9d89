@@ -1,0 +1,4 @@
+changeset 6df8e622a79d2dad2608b42eab6d243f6400d7cf
+manifest f3c7427304cabd68a567fe64c454c728681bd9de
+files dom/media/webspeech/synth/windows/SapiService.cpp
+patch 238,239,

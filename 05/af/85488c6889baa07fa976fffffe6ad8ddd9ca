@@ -1,0 +1,5 @@
+changeset 00fdf59663db3f4391d5d0aeecf90469ba56d1ed
+manifest d5b9d327011d9d7cf545e2842247d08174d02bf7
+extra rebase_source:4a35a9a112cdc5c30d224c02a7cb56d339bb301a
+files testing/mochitest/manifests/autophone-webrtc.ini
+patch 302,376,

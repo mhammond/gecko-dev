@@ -1,0 +1,4 @@
+changeset e8112fba80d64c7c6615c9019178e68f60b5d718
+manifest 2b622564bb77162d6d0b82b635ef3e460586d4c5
+files browser/components/places/tests/browser/browser_views_liveupdate.js
+patch 239,240,

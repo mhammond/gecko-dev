@@ -1,0 +1,5 @@
+changeset 83348c0ea47bcc4e0d91150c2cb45c295bcaca50
+manifest 8097ccfcec8a8620700702d0ebae67c3b4ccd3ef
+extra commitid:Lot3zEkpim2
+files testing/docker/phone-builder/bin/validate_task.py
+patch 255,295,

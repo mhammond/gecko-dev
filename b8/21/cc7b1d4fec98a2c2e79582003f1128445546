@@ -1,0 +1,5 @@
+changeset 42a574257cf3e61878f028fdbd731be82cd37928
+manifest 69049776bf3e2fb6df0de3272ba21d24d63ac4d6
+extra source:011a51e21bbbb73b83918c798756376cd62601e7
+files dom/jsurl/nsJSProtocolHandler.cpp
+patch 267,334,

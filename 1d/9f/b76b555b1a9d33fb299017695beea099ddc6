@@ -1,0 +1,5 @@
+changeset 7827bb5b1a728293031353f23db33e06f58887bd
+manifest e7d7f32ef0a197caa5e2e0c12ae204ae06c6bdf7
+extra source:0ade12fd1cf7ebcde76fe7c61556ca5e5f636bba
+files python/mozboot/mozboot/freebsd.py
+patch 313,380,

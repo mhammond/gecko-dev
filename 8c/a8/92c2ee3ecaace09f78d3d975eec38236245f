@@ -1,0 +1,4 @@
+changeset 779d75b98fc5b19a8e45a82ad357f0ecbedcdcd9
+manifest 39b713f091891069a870e949131490a8ddea3794
+files python/mozbuild/mozbuild/frontend/data.py
+patch 380,381,

@@ -1,0 +1,5 @@
+changeset c007817dac6cfde2f650a67e74dfa3fc78a2d276
+manifest 222f5226c329af03cbaef0363863f4d3187340e8
+extra source:525acdb20f3ae457cd7d05e2a4c4fafa63dab73d
+files mobile/android/base/java/org/mozilla/gecko/gfx/LayerView.java
+patch 335,402,

@@ -1,0 +1,5 @@
+changeset 2ec3819327182c9c4d3de7f4d55f11057afae127
+manifest db288e0c079d5e522480625337e7e8bf9abb2d92
+extra source:6dd44f67ecd78c8413526304cb65fa7aa30e0b16
+files browser/base/content/test/general/browser_visibleFindSelection.js
+patch 310,377,

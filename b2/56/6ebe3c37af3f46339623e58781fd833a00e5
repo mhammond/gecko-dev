@@ -1,0 +1,4 @@
+changeset 9ee7ce257f57157c207a510556ea4588e9ac453f
+manifest ef86f7540fd9552cc466eb46fe1547ac93588cb1
+files browser/base/content/browser-syncui.js
+patch 244,245,

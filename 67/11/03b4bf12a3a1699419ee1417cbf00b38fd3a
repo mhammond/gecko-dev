@@ -1,0 +1,5 @@
+changeset 38c9ddd81b65f9141b1471266fc3d71ebc4e47c9
+manifest ee8e4b8b91299a598a1aada61043d8accae1baf8
+extra source:73ec477449bc70445a316b9c39d3a699e71820dd
+files testing/web-platform/meta/html/browsers/the-window-object/apis-for-creating-and-navigating-browsing-contexts-by-name/close_script_defer.html.ini
+patch 407,474,

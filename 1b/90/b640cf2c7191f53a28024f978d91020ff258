@@ -1,0 +1,5 @@
+changeset 704c14625c6fdf3ff00962c03dd6350a25a6b11a
+manifest 7ee58fd49763e89467ff50a9bfc61d49758bb2f4
+extra source:fe2e8267ba216845a7146adac817bb0761725893
+files docshell/test/browser/browser_tab_touch_events.js
+patch 318,385,

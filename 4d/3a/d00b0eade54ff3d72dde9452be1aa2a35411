@@ -1,0 +1,5 @@
+changeset b576d7c8bf12f2f4539b74dd152fb38a3d8a680c
+manifest 5698c56ae98a0ed139acc2662feea796aedbc6b8
+extra rebase_source:ac10cf1b3fae96ae91e7b5dd9b5a54797cec6e6d
+files mfbt/RefPtr.h
+patch 259,333,

@@ -1,0 +1,4 @@
+changeset d1554e11453eaf57bd6a90ed7fabf311c6376ddd
+manifest cd63332aa4af2e0fdf8892f7f13b7bd91d5dc6a4
+files testing/web-platform/tests/service-workers/service-worker/extendable-event-waituntil.https.html
+patch 242,243,

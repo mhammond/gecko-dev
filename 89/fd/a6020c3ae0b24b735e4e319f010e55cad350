@@ -1,0 +1,5 @@
+changeset 5a9d52dfc0646ada65dd4ec6cd6d03f3973d9414
+manifest 080f42d839f9168946ea1a713285eb48171638c6
+extra rebase_source:44429619287b9b8551c46ea1a91bc6da5618ef73
+files browser/base/content/newtab/newTab.css
+patch 271,345,

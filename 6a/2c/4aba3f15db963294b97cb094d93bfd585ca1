@@ -1,0 +1,5 @@
+changeset 6ab9ac65553587b61da5d187796c1a59e1631762
+manifest b7dcdba37c10822ffd8890d549a269b1fcf3e1a9
+extra commitid:L4ISIeLBArl
+files toolkit/xre/nsAppRunner.cpp
+patch 267,307,

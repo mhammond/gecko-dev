@@ -1,0 +1,4 @@
+changeset 3ec632e7abe59aea06d037758ed90fbcd23d22a9
+manifest ba5fa1536266ca3a033741bab1779c6b5f8bf2b7
+files devtools/client/aboutdebugging/test/browser_service_workers_start.js
+patch 289,290,

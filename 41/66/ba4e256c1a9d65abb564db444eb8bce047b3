@@ -1,0 +1,6 @@
+changeset 0762576b4db9bfa4ced5c26264df5fe61b24463b
+manifest 1a6d3a87a3f0964e3e95b841a97b2d3ff49450e5
+author ffxbld
+extra branch:GECKO2460esr_2014060920_RELBRANCH
+files browser/config/version.txt
+patch 228,280,

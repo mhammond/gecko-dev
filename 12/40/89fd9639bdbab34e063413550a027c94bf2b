@@ -1,0 +1,4 @@
+changeset 2b23ccfe78d8925760497a552fa461b0bc9a6bab
+manifest 4425515e38b30c5767ad2eea7b1882d0520122f7
+files netwerk/base/ClosingService.cpp
+patch 279,280,

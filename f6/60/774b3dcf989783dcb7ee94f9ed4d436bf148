@@ -1,0 +1,4 @@
+changeset 65e1219ade067fe89e47818e088881bf21391de7
+manifest abaa745ad3ffa36306992f17f5a9026b0a1e46d5
+files dom/canvas/test/imagebitmap_extensions.js
+patch 213,214,

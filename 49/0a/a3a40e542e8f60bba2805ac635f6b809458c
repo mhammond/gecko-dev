@@ -1,0 +1,4 @@
+changeset d3f501cfed0a06fdfc48de76dbc5f1e41cb64d37
+manifest ba9ca4fc880373309017a67cb1470ca690ad4497
+files devtools/shared/apps/Simulator.jsm
+patch 245,246,

@@ -1,0 +1,5 @@
+changeset 9fff773417e172fee6f4386ec746a3e653bae68c
+manifest 8eb9da8737f28fd2a29cc8cb21a912872db280d0
+extra rebase_source:99350ace0116216061f115652799f42acc5cfc79
+files netwerk/base/nsIClassOfService.idl
+patch 248,322,

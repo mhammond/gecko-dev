@@ -1,0 +1,5 @@
+changeset bad247df4aecc6303cd5423fa02861c31e1e4ea3
+manifest 716b4ba1a380564dbcf5be87682f5c132c3a61a2
+extra rebase_source:24b83c4c3c7e8a7fd9fe4823ca0cf66404cca57b
+files toolkit/content/widgets/notification.xml
+patch 269,343,

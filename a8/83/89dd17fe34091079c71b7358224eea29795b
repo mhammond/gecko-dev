@@ -1,0 +1,5 @@
+changeset 2f556e07e5361186a01cd02baa13ab3f1b9e657d
+manifest 31538d0c6e48767ad638365bb6552c956dbe355d
+extra commitid:1z3iqVOs8dB
+files testing/mozharness/mozharness/mozilla/building/buildb2gbase.py
+patch 274,314,

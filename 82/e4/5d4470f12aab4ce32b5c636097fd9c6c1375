@@ -1,0 +1,5 @@
+changeset cf603475c4e7ccb7f2c713114eeb41b9ffd17509
+manifest f4cb160b4a83f6d1e9f0243c85e1ace3658b9ab0
+extra rebase_source:8321f9df764f5e2faddcaaae9597e0ac35e99020
+files devtools/client/shared/inplace-editor.js
+patch 298,372,

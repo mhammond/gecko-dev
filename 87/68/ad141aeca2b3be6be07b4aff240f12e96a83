@@ -1,0 +1,4 @@
+changeset 0856d57811d57e60984159bec0f32090bebffcc3
+manifest 4922105072a1170e465c4c0879c400c79c7b92d6
+files js/xpconnect/src/xpcObjectHelper.h
+patch 215,216,

@@ -1,0 +1,4 @@
+changeset a116d0cd69bc3c55eb3d2c8b8653d82eed434453
+manifest faac34fc9edbea8b3521ed0e21bde37de20b6f6d
+files xpcom/tests/TestHashtables.cpp
+patch 211,212,

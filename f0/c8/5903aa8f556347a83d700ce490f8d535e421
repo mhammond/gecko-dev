@@ -1,0 +1,4 @@
+changeset b3f844d18e01946b098ea0fa184abc98c0d41b8b
+manifest 3b0d8fc38375c10df37328382730a30c0d8eb210
+files devtools/client/shared/test/browser_theme.js
+patch 193,194,

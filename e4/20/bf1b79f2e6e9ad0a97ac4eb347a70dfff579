@@ -1,0 +1,5 @@
+changeset f5d7c57cdfd7574361db3a1b555db546c4ccaf22
+manifest 56d960e4b2643b17c1380c2c5a1d0fee75b0c2cd
+extra transplant_source:¨gØV=¸İ5 êút²¾}İ
+files addon-sdk/source/lib/sdk/preferences/native-options.js
+patch 283,373,

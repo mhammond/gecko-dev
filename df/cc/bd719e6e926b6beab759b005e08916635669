@@ -1,0 +1,5 @@
+changeset 3da0d30d73b0c04d91656e3ec27c851960e6dce2
+manifest 7f3be46b84e6201d523e506dd9b3cbee4b93b2e5
+extra transplant_source:¹<U}P¸œÊQÇËýöÐyÌÒh?™
+files toolkit/components/telemetry/tests/unit/head.js
+patch 286,374,

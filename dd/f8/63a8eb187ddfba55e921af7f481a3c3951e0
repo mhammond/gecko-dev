@@ -1,0 +1,4 @@
+changeset 0a3739987192c32ca45a1d1375745c99ca42d918
+manifest 5a5a321637575ee70731b441122fe367560f33f5
+files devtools/client/webconsole/new-console-output/utils/variables-view.js
+patch 290,291,

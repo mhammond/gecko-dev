@@ -1,0 +1,4 @@
+changeset 9d8c4abf0417ac64b8cb83d6ce5d05cd24aeb22e
+manifest 2514ab49849a0841bb390f3338f8f98271defd28
+files widget/cocoa/nsCocoaDebugUtils.mm
+patch 224,225,

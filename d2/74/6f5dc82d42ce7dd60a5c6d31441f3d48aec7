@@ -1,0 +1,4 @@
+changeset b72f1f574abadf0ff5c64cb8814a6b52c31d2940
+manifest 2522f3bfc8c62237402a69d0f9cee63c2239b7c7
+files testing/modules/CoverageUtils.jsm
+patch 348,349,

@@ -1,0 +1,5 @@
+changeset b56b37f0f4d7e1a89cde7199d04ea55fde021bb0
+manifest 13a39397230f6f05a42a65917d2e2f3fea68b62e
+extra rebase_source:7e9794dd3b44a1e2f3dcdd4ffe998c2536e307a6
+files toolkit/components/terminator/nsTerminator.cpp
+patch 332,406,

@@ -1,0 +1,5 @@
+changeset 7b25880b56ef79ab414d111178befab2cf795253
+manifest 27ba344aa180ccc2ee9cf1aaef5b9e6471a1a0a0
+extra histedit_source:12efa730c59113dbc0db338124e9e6dd99c63f6c
+files browser/extensions/pocket/install.rdf.in
+patch 250,326,

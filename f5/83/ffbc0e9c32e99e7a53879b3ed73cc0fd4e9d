@@ -1,0 +1,5 @@
+changeset 5abd0e13a583180602f8318f88f240bfda3c002d
+manifest 2a280f697711b7c3709aff96331e4fa4deabb4fb
+extra rebase_source:4bd7b70151e4593391b91e41eeb5c9f8532feef1
+files mobile/android/base/java/org/mozilla/gecko/gfx/GeckoLayerClient.java
+patch 314,388,

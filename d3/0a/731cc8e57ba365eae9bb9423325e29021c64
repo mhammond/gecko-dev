@@ -1,0 +1,4 @@
+changeset 7b5690dc117cb8f5cf973a8a737d8dfddbcbf6bb
+manifest 9e705d54e36e09c6954190c43c5423f5ffd9d06c
+files browser/components/extensions/test/browser/browser_ext_tabs_query.js
+patch 287,288,

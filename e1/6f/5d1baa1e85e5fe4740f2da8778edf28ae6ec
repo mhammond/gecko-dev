@@ -1,0 +1,5 @@
+changeset f7f3a7bff29c65efe0274815741531c166c8f21d
+manifest 85255f23e2ef25c1d0e2d8f1c11dd74af9e7fb55
+extra rebase_source:767d8ff5b48d7e75ab8fe72b18145446a38d439a
+files testing/mozbase/mozsystemmonitor/mozsystemmonitor/resourcemonitor.py
+patch 535,609,

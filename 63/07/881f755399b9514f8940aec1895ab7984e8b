@@ -1,0 +1,5 @@
+changeset 5e9072e171051204bb5558290d914553c9b5c1df
+manifest b069e482f8d3ef39250d41bdbe0dcd2cc93dc738
+extra rebase_source:2b47a273aa9a4276aa24ae6ee10cb003b04417ba
+files testing/web-platform/meta/presentation-api/controlling-ua/getAvailability.html.ini
+patch 341,415,

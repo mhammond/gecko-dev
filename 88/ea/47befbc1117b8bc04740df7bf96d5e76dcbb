@@ -1,0 +1,4 @@
+changeset 8e3fffc152304e12aca457e92cbc30f09223af0c
+manifest d9d3a728959afaba3e79b9c41dacb77e5b5af356
+files testing/mochitest/runtestsremote.py
+patch 234,235,

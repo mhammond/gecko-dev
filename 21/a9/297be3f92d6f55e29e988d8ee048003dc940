@@ -1,0 +1,5 @@
+changeset 6d97fe2db56061d7c8f73d317c9e9da56f58bdfe
+manifest adc65e2c1c33d8a97cada4ac4200340419c53366
+author aselagea@mozilla.com
+files testing/taskcluster/tasks/branches/autoland/job_flags.yml
+patch 215,216,

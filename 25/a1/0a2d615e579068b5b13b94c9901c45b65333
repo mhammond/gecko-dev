@@ -1,0 +1,5 @@
+changeset 44538bccb87ca1d7b3b3f70eeeaa193bc4b62a8a
+manifest c2c5894096e0473957b7d26edc87ef914ae16080
+extra rebase_source:b0d1328a7d2c363447360b207cef7754ebc9c9ba
+files gfx/layers/apz/test/mochitest/test_basic_pan.html
+patch 571,645,

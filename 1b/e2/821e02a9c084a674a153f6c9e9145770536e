@@ -1,0 +1,4 @@
+changeset 67ad669ce0ad2a7325f836c69d6ce357db58b7d1
+manifest 0354baa33e80c2f6fd258db9a5b86b85d55ce2a8
+files testing/web-platform/meta/mixed-content/blockable/http-csp/same-host-http/picture-tag/top-level/no-redirect/opt-in-blocks.https.html.ini
+patch 308,309,

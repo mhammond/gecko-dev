@@ -1,0 +1,5 @@
+changeset 2475145b53b60a5294a5a624982004bf02132f90
+manifest 9103f69a4fc238ead73a9b0788493ab215996ef7
+extra rebase_source:c7c6fd63ea50330958ef794dc28cc8890ef59bbe
+files mfbt/Variant.h
+patch 230,304,

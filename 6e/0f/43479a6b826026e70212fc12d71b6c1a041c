@@ -1,0 +1,4 @@
+changeset 445343f13c1bd1935e1d941cc4936d9c148fa0ca
+manifest 23f3cf4029c48a2535bc1681f241dd744be9da48
+files image/src/RasterImage.cpp
+patch 171,172,

@@ -1,0 +1,4 @@
+changeset d9ce0a0617634b3d5d8fec265a394e4128df84c2
+manifest 666e8022577f22bd6f972242f364269e3a350dfa
+files browser/extensions/aushelper/bootstrap.js
+patch 271,272,

@@ -1,0 +1,5 @@
+changeset 2cd8ae6771b2585a8abcdb4e5f930acca1e8a2e1
+manifest fbeac1c283c67ccced00daff0fcb844f0ae8d432
+extra rebase_source:7ae0bcf4772702cef6007fb47419fdc815e25036
+files browser/components/sessionstore/RecentlyClosedTabsAndWindowsMenuUtils.jsm
+patch 350,424,

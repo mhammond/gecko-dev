@@ -1,0 +1,4 @@
+changeset 085f96014278d0cbef9e3a372146cc3ed406224e
+manifest 2557ab4688f2d7e3ba592cec877bab11620b6ae0
+files js/src/tests/js1_8/extensions/regress-476427.js
+patch 201,202,

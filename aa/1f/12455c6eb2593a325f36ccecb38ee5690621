@@ -1,0 +1,4 @@
+changeset 9e20e6e53428e544810f60b8222b60d3c2f52459
+manifest f042706809e6093ea19ba5d69a7a89c87745657b
+files addon-sdk/source/lib/sdk/deprecated/window-utils.js
+patch 220,221,

@@ -1,0 +1,4 @@
+changeset 5bf38499c80134dd2db494cc997eb75e27c87951
+manifest 240d06de72248ae0ecadc9be45d28f5aeff98c5a
+files testing/docker/phone-builder/bin/build-phone.sh
+patch 177,178,

@@ -1,0 +1,4 @@
+changeset f27d6bedb1c6242adfce06346460aa4f991e72aa
+manifest 759732454a71fc25ef90b4eca5b631ec3b898a8b
+files dom/mobileconnection/gonk/MobileConnectionService.js
+patch 234,235,

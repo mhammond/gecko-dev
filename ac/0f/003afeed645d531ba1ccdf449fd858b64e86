@@ -1,0 +1,4 @@
+changeset 7b85cdce3ea685b1eb42df911eeadf169874d0c5
+manifest be893e41adc99973285bcd336abe685b376a3fda
+files browser/components/sessionstore/test/browser/Makefile.in
+patch 179,180,

@@ -1,0 +1,4 @@
+changeset c38424a542eb0e9149d4adabfe1db57bd390f398
+manifest 815d26580e31ba433496b3646e94bff81269d5a8
+files services/fxaccounts/FxAccountsWebChannel.jsm
+patch 227,228,

@@ -1,0 +1,4 @@
+changeset a5657c5416cec71c7d589a7d67a2b7ceb2bad635
+manifest 978efee474a7d592854b03aee422fcb1230104e1
+files toolkit/components/prompts/src/CommonDialog.jsm
+patch 221,222,

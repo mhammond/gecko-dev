@@ -1,0 +1,5 @@
+changeset 9688cac5afbe215406ac95aa1a7972960666ca1c
+manifest 60efbaa8ae13a4c3d484306e49ee1b0a84114faa
+extra rebase_source:27a8f7942918bf4d5dd8f4734c548786f6603d9f
+files devtools/client/themes/tooltips.css
+patch 310,384,

@@ -1,0 +1,5 @@
+changeset 34cc5d6aeefdc89d7af24648430ef6659566f686
+manifest d3957f831ca71b81f776e5ed982a18914204e56d
+extra rebase_source:3e69a3191d6c9242db4a04b0db823acb8be9c894
+files config/external/nss/nss.def
+patch 242,316,

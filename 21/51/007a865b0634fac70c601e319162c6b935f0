@@ -1,0 +1,4 @@
+changeset fd162c41b68476a58c114f5db1fff97fa71e96cf
+manifest 5590b861f78e1238c5d8bc3ba17ce4ce04f59454
+files netwerk/socket/nsSOCKSIOLayer.cpp
+patch 224,225,

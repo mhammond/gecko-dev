@@ -1,0 +1,4 @@
+changeset 79432e5c931a15f9a8c13e4621142dcff481459e
+manifest 8535790a20f8c00817485ebf0260734ddfc54d1c
+files dom/bluetooth/BluetoothRilListener.cpp
+patch 187,188,

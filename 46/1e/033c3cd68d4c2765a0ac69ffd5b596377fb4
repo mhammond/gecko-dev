@@ -1,0 +1,4 @@
+changeset 78d7bfaf3fc1ab14810e2d94e830890c42e5a2e1
+manifest 3b4a8450f297f52310aafcfad899b44d1c305567
+files dom/base/nsIMutationObserver.h
+patch 256,257,

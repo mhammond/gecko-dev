@@ -1,0 +1,5 @@
+changeset d43d971b4b9e2d2dbaba7152f64a2b60c55cfe22
+manifest 2e584a3a706e5c543b170dfd5dadb349aa44f3f4
+extra rebase_source:37d467b24c2c2f112ae4925cc03eaf2b0d2a9720
+files b2g/components/test/unit/test_logcapture_gonk.js
+patch 397,471,

@@ -1,0 +1,5 @@
+changeset 9d67cecd4689f592c3eaea6e68c86ec458d30f9a
+manifest e436217b0aab44fb81942f941adb1e2a8deb95f0
+author ffxbld
+files mobile/android/confvars.sh
+patch 183,184,

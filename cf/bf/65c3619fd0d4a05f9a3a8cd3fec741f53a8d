@@ -1,0 +1,4 @@
+changeset 8e40c9f2da349b10ba366ebb132b6a8695fa26e1
+manifest 56a614bc3701a006dff82cc7d4a204cb5c242e34
+files js/src/devtools/automation/autospider.sh
+patch 222,223,

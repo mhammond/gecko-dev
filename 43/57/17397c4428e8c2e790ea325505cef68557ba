@@ -1,0 +1,5 @@
+changeset 0f07f975526f3abda2f997bbb2feb0a25f771227
+manifest 7895c05980384d55db36315f99913e0e21cecde8
+extra rebase_source:e09afad472c24fa112615383f57b3e176cda5a42
+files devtools/client/inspector/rules/test/browser_rules_completion-new-property_multiline.js
+patch 367,441,

@@ -1,0 +1,4 @@
+changeset 82da00d42c41c5bb5386524b13d0a253e9eccd61
+manifest 29d5b50958a54d548e537d1373db011b55170e82
+files browser/components/newtab/NewTabURL.jsm
+patch 229,230,

@@ -1,0 +1,5 @@
+changeset 23f7d90263fbda76ad0e287784ed9b0f3c5d82d2
+manifest 182ea33677187820ba7540591198c07a3aba587a
+extra source:c90ac54a37d34a3f4221607bf106dfc8821f73a3
+files mobile/android/base/mdns/MulticastDNSManager.java
+patch 280,347,

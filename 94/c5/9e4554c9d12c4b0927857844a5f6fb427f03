@@ -1,0 +1,4 @@
+changeset a372dfd44aadb5b41fb526f5b960d98f79eb9f40
+manifest ffc688ad3e2c0576be0db7a4b81a26607ee17c45
+files js/src/asmjs/AsmJS.cpp
+patch 437,438,

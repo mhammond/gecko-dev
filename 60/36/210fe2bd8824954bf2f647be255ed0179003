@@ -1,0 +1,4 @@
+changeset 1d15f75f55aae8e83b6585db89880240201e7c8f
+manifest 1d52293b83f3baf27f7e1d16204886910306bc14
+files media/webrtc/trunk/webrtc/common_video/libyuv/webrtc_libyuv.cc
+patch 242,243,

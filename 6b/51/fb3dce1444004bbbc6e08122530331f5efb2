@@ -1,0 +1,4 @@
+changeset ec97adea519ba55ac05a2af28534e0594b97f80e
+manifest f2a7874747b33187cfbf7f6b06d76f773826d00f
+files devtools/client/webconsole/test/browser_console_private_browsing.js
+patch 321,322,

@@ -1,0 +1,5 @@
+changeset c944b51c50d78b17e575d83a71f7d01df11e98a7
+manifest ca52e899daf320f656d6299e1a8d63f32e06e91c
+extra rebase_source:4eb60f8c9978fa97e2257a4153ea3f1974983d45
+files dom/camera/CameraPreviewMediaStream.cpp
+patch 253,327,

@@ -1,0 +1,4 @@
+changeset a0d0344ed47a65f5c36802b61b25c0520cec421f
+manifest 0a5125f2cb3bc0f8081d797c9838e6e854be5f1f
+files testing/mozharness/external_tools/purge_builds.py
+patch 166,167,

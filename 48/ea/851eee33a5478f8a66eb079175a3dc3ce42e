@@ -1,0 +1,4 @@
+changeset 16aed898b1ef23ed3d7652d1f95b04fe9cf4af9f
+manifest 59f7d6eebc9cf936358125d052969e8d7e0414de
+files browser/devtools/styleeditor/test/browser_styleeditor_pretty.js
+patch 225,226,

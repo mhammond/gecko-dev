@@ -1,0 +1,4 @@
+changeset 3f17d8a0a2018d70ff8e0b24a2d322bf58841dbf
+manifest 37e158fd8bdc9c9fa9e0621520d69b9ad61117b3
+files browser/components/extensions/test/browser/browser_ext_browserAction_icon.js
+patch 218,219,

@@ -1,0 +1,5 @@
+changeset 450e5d0b3df0b8e5ab94653fca7f0275cf2f05a9
+manifest 966e19856b7a96d986a14895256fe46680c9abb5
+extra rebase_source:de088015cd4f4dfffbd44c944b73e724e815eefc
+files browser/themes/linux/searchbar.css
+patch 303,377,

@@ -1,0 +1,5 @@
+changeset 4f9464b013a53f9830d4db4c83bb642bbab8187c
+manifest 2f0d9341bd8881954b9d3a7c6d6f2b3953384d09
+extra source:4069c4e3a0da07534acd4d6a82fd365aa43723f4
+files netwerk/protocol/http/HttpBaseChannel.cpp
+patch 329,396,

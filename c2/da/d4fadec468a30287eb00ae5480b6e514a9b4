@@ -1,0 +1,4 @@
+changeset bf6c3bf152230d073c35f2493b47e900cbb438f4
+manifest 1ab219932270193f102927ad47cfaa27fd3c341f
+files dom/system/gonk/GonkGPSGeolocationProvider.cpp
+patch 186,187,

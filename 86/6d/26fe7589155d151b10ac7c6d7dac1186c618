@@ -1,0 +1,4 @@
+changeset 1b10997a06c6c1dfd512bd147a3fb24328810bd8
+manifest 16739bd6022713cbd34f706cb442eb7d802ea937
+files testing/web-platform/mozilla/meta/service-workers/service-worker/unregister-then-register-new-script.https.html.ini
+patch 285,286,

@@ -1,0 +1,5 @@
+changeset 56bdc151e79f27ada574302f004261888db99144
+manifest b660d59fb165c23a5bc9ceede29487e8705688b4
+extra transplant_source:sq:@àÿÏ};‰‡Ö\n¶èG`Òc£
+files browser/components/nsBrowserContentHandler.js
+patch 259,349,

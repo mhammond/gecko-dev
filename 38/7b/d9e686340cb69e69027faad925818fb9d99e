@@ -1,0 +1,4 @@
+changeset a956dc9f9398e1b1a2f9b42aae624bca5ed407c5
+manifest 27ccd64eef4d395f281799d56f6f50dac45d0dd9
+files dom/security/test/csp/browser_test_web_manifest.js
+patch 215,216,

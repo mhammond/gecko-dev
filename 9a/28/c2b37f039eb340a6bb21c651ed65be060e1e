@@ -1,0 +1,5 @@
+changeset 35f1e2eeab310bddceae79015b536aee4037ae06
+manifest e6a56bc5389077b3f2ceaf47c34a5da79f003843
+extra source:f8689bbe3b5f819302c43ecf24ea5ff15c57b8c5
+files devtools/client/webconsole/test/browser_console_navigation_marker.js
+patch 384,451,

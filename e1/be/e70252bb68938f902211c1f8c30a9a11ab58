@@ -1,0 +1,4 @@
+changeset 4f819766df6d00a2ccfd56505028edb03f39832b
+manifest 7bd43f1c355ff6f9088be96cadce9eea1a2e89e4
+files toolkit/components/url-classifier/nsUrlClassifierLib.js
+patch 223,224,

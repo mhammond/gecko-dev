@@ -1,0 +1,5 @@
+changeset 11e3aa6fb74dcb652b3ccdfc457780a5a0b70237
+manifest 6c31cc48e9e2cd568cd8df4f3e68bf8118c437c8
+extra rebase_source:705e0e821163e8f49d591d77ad306e317884d1c9
+files media/webrtc/signaling/src/common/EncodingConstraints.h
+patch 309,383,

@@ -1,0 +1,4 @@
+changeset 6f2f0028e8d56e3ebda4658ccc00c3765e40209c
+manifest fb5d2de28c4430deb6c65c466efaf6f355fe64dd
+files browser/components/contextualidentity/test/browser/browser_forgetaboutsite.js
+patch 275,276,

@@ -1,0 +1,5 @@
+changeset a4845199b1bbe3391d6d2bf6925cdb368cb09345
+manifest 6cbfeba024114dbdaca8cdcb045baf9262a5cb63
+extra histedit_source:1258cfc50d32c10f0de90ba1e863e21ae3ebf0f8
+files dom/security/nsCSPUtils.h
+patch 288,364,

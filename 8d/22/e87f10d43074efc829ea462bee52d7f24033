@@ -1,0 +1,4 @@
+changeset c945358004817607fd8f3e2022b7cd09661a8f4a
+manifest 9cf79647c0ffd53c842fa753ab2ed68023d3563d
+files mobile/android/tests/browser/robocop/src/org/mozilla/gecko/tests/components/AppMenuComponent.java
+patch 272,273,

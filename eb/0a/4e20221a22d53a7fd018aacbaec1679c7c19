@@ -1,0 +1,4 @@
+changeset ba7fd2ff5fa098f0fd2a9c7d806d8f77e425a235
+manifest f35fb925575ef543546b3b2fa4ac5395de962d28
+files build/gabi++/moz.build
+patch 175,176,

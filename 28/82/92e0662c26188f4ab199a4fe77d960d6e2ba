@@ -1,0 +1,4 @@
+changeset 3e0d70a6e8096bb12e585790cb3c2f4ed34ca0f0
+manifest add5f0e5d4fae6b342577e7febc03bc46be3a775
+files widget/windows/IMMHandler.cpp
+patch 252,253,

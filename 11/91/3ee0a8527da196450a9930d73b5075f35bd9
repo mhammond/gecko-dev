@@ -1,0 +1,4 @@
+changeset d0deaae22a870e4cdd3167b52ed8777335ddf700
+manifest deb2127ed405442f14a4d23f609a89266fee44d5
+files addon-sdk/source/lib/sdk/window/events.js
+patch 216,217,

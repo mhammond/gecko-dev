@@ -1,0 +1,5 @@
+changeset 26a04a373ecc17ff288ac9a63d4cf4a293c6ec65
+manifest c2d6d49dd4e8d1cef45a9b3a00132bbb040bb657
+extra amend_source:901edc75c301857b2eaa094920cf410f336003a0
+files xpcom/tests/unit/xpcshell.ini
+patch 246,319,

@@ -1,0 +1,4 @@
+changeset 3bdd64ed0fd58cbae51d969f0054d347de301036
+manifest 957e57ec835424d664ac632582c87067cb618864
+files dom/svg/DOMSVGPointList.cpp
+patch 174,175,

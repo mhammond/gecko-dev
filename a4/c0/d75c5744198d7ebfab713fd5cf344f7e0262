@@ -1,0 +1,4 @@
+changeset 5baaa4ee1c0831188b794edc29410b10dab4c407
+manifest 6fdf5cc92aef024aa348949e9e61e178c125b712
+files toolkit/modules/tests/browser/browser_AddonWatcher.js
+patch 240,241,

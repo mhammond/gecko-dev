@@ -1,0 +1,4 @@
+changeset 37073e486aca054d969f7390985b14ef24cfedc7
+manifest 8fcb8ab13e71d2bdbc787d1565574557e431ec09
+files widget/gtk/WakeLockListener.cpp
+patch 247,248,

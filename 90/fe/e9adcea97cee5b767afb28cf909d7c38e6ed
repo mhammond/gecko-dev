@@ -1,0 +1,4 @@
+changeset dc7fa51079ad659350332e63cb44e4d6d8d402b8
+manifest 314291a0d3289c2a80e4f30be02efc2174dd3743
+files dom/security/nsCORSListenerProxy.cpp
+patch 240,241,

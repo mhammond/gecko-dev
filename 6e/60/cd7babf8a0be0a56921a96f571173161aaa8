@@ -1,0 +1,4 @@
+changeset 7ae3e5c9de7fbe12b94e1549b7c66714dc7dec07
+manifest 5269cc9cbc653636ba34b89adba31c3dcbf5c130
+files devtools/client/animationinspector/test/browser_animation_playerWidgets_target_nodes.js
+patch 328,329,

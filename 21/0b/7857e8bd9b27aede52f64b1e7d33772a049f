@@ -1,0 +1,5 @@
+changeset d9e2afd7c146d16a70fc8c5deb09160b6c1725c3
+manifest a7b1ad8f34dce57316bb4df8780e0ec14475e81c
+extra rebase_source:7c6c8cc606bfdca24b34c906e799b0bdceb2a198
+files layout/base/nsCaret.cpp
+patch 244,318,

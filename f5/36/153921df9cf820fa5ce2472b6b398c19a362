@@ -1,0 +1,5 @@
+changeset 4ebcaac67beca24762f953654a187c1e21e3f8eb
+manifest 4017ec05350eb4a1b8f2e53644b29dcb476ddb81
+extra source:ab0d0603172ee9da0246c15c023df9bab39b88b6
+files browser/components/originattributes/test/browser/test.html
+patch 290,357,

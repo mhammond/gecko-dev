@@ -1,0 +1,4 @@
+changeset d3e4ad7074009f1361a26369c677d2a7242f32f8
+manifest f989a184edcc84a273495dab47549596c1eb3f4d
+files browser/components/loop/test/functional/config.py
+patch 232,233,

@@ -1,0 +1,5 @@
+changeset bd00715b29e3c230f40adb8546efa2ebf934a5ed
+manifest 0bfd7a55ba5959c7712aabfe92981ca0f3fa0512
+extra source:34254ffcdb6fe9e053449210556fb2333f7a205a
+files media/gmp-clearkey/0.1/gtest/TestClearKeyUtils.cpp
+patch 555,622,

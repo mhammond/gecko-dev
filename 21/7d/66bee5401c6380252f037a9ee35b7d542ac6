@@ -1,0 +1,4 @@
+changeset 74396dd3bb27afdbbb4d6eca8c46665531d2712e
+manifest fcc2151b09774ea8d0a7bddcc3225a61dc988547
+files dom/base/nsDOMClassInfo.cpp
+patch 209,210,

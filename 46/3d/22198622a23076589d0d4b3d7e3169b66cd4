@@ -1,0 +1,4 @@
+changeset f271e67bc7f42c2684ac0406dc7c8ddcb8b09bb1
+manifest e0e386b8a9f6514f15b2ec165a3da9e59241784f
+files testing/mozharness/configs/builds/releng_sub_linux_configs/64_artifact.py
+patch 296,297,

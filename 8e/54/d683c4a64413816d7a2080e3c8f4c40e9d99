@@ -1,0 +1,5 @@
+changeset 592f4f716fe794fc96a733b9ac47ec5dae32311e
+manifest 3f45d679451e84f4f5123f2279c6a96bdb73edf4
+extra rebase_source:e35aa11872b47cb3949d9fdf74e876dcbff1c6cb
+files dom/base/nsDOMClassInfo.cpp
+patch 265,339,

@@ -1,0 +1,5 @@
+changeset 312e332479c7d636e4fbc8e9e73665e15504191d
+manifest 365fcb42da5287c95fa671a79e7f9ce174b35501
+extra rebase_source:ad4b75f2903dd1c9b5d78306f57d1740a665df92
+files testing/mozbase/mozcrash/setup.py
+patch 258,332,

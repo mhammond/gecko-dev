@@ -1,0 +1,5 @@
+changeset 0af6b5ef33ff1b3bf550bc5efebb2bccc17c8c6f
+manifest 21aa4874769981dc2ebfad1f1590b83318b6a68d
+extra transplant_source: ÂòÕ³!VœçµÓ¯e=ÏàB‘
+files toolkit/components/viewsource/content/viewSourceUtils.js
+patch 273,365,

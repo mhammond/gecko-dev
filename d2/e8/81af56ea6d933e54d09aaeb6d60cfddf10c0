@@ -1,0 +1,4 @@
+changeset 5fb2d9aa3f3b8a1f474589145db1c91eebf0cf76
+manifest 1ab9cc523fadaf9804cd753da6c5f2942de6c04f
+files toolkit/devtools/server/actors/highlighter.js
+patch 236,237,

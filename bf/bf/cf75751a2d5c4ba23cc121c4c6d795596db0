@@ -1,0 +1,4 @@
+changeset 888bce768ee85c035353d18d09d046e4de2d02fe
+manifest aeb42eabf548c7f967013ec8b837b9fd5b5deddb
+files mfbt/InitializerList.h
+patch 374,375,

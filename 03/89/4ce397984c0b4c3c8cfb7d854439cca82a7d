@@ -1,0 +1,4 @@
+changeset 7806da9c73f6e33063e1141be6f5c411df23dfd1
+manifest 7a88e5c7b14c7dc3b0f9c5ce81ed0b157bcabb5e
+files dom/icc/tests/marionette/test_stk_display_text.js
+patch 244,245,

@@ -1,0 +1,5 @@
+changeset a14ca8dbcc4b3e9475273f9327c4826e6b3a9130
+manifest 2f5d767287b05dfdaf6c05601253dc4b5e5478c7
+extra rebase_source:8a028993f19999789a0d470e7fbe284a58c5c718
+files mobile/android/base/java/org/mozilla/gecko/preferences/SyncPreference.java
+patch 337,411,

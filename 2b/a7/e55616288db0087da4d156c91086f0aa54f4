@@ -1,0 +1,4 @@
+changeset d035a4e34c7bbc6b504e578050e9abe9c4727589
+manifest 462f65f6247302a1d7ef70212da9eb608d4178be
+files js/src/vm/SharedImmutableStringsCache.h
+patch 233,234,

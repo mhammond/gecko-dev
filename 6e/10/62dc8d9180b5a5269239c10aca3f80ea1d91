@@ -1,0 +1,5 @@
+changeset 4b325d34d8663df0656ec66fed2a15237d423139
+manifest c47bd1b1e539b9d9eea4572eddbf4d65620ca784
+extra source:991c721d2e551357d8f7213a4c484b3bcba53736
+files ipc/chromium/src/base/pickle.cc
+patch 283,350,

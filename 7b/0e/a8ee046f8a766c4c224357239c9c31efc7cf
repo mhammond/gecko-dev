@@ -1,0 +1,4 @@
+changeset 7d8a664fd55b6d1faf6b088c90706d5c2e4a59ec
+manifest 92dec371a23520449a82716eb292dd8a971007a3
+files security/manager/ssl/nsSecureBrowserUIImpl.cpp
+patch 268,269,

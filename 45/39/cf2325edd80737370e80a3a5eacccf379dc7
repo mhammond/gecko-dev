@@ -1,0 +1,5 @@
+changeset b7555f8057213063aa9bc17a3548e9f67b74af75
+manifest 705c86cffc72c43cb2c0927b4edd290f3b6e5b2d
+extra rebase_source:c7dde488e62527b18af2823623a92fb515598248
+files services/sync/modules/telemetry.js
+patch 292,366,

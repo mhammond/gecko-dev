@@ -1,0 +1,5 @@
+changeset a640fd9a849c11d32686a340c5b15d27c2ac7174
+manifest 305a7d4c6231117ffea0493f3a1c10032398f388
+extra rebase_source:ec2176a6db0e82bf3512467f44ce54d33a7401ea
+files devtools/client/responsivedesign/test/touch.html
+patch 333,407,

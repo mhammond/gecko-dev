@@ -1,0 +1,4 @@
+changeset 24248dc22c89f5c56ee36afb7085f0a4082e8604
+manifest c5b7bedc859f12c7d707dff71488bad6f10dbef3
+files testing/marionette/client/marionette/tests/unit/test_chrome_element_css.py
+patch 301,302,

@@ -1,0 +1,5 @@
+changeset 65c479a6077561d33f89ae8808bbcd3615c28176
+manifest 2240fb49ab0deb76b6688e19832a8fc91ea46cf4
+extra rebase_source:7992753cd178dc652fa76b2fa3d4877e4104b0eb
+files layout/reftests/details-summary/reftest.list
+patch 392,466,

@@ -1,0 +1,4 @@
+changeset 39742e742b69087a03366c396d365e03e5df997d
+manifest 7e7247ce14a91c3e5822c646cc7744a8019db222
+files browser/components/sessionstore/SessionSaver.jsm
+patch 234,235,

@@ -1,0 +1,4 @@
+changeset 9d68879590cf2b37ed78a539706a4ec74b548332
+manifest b1885749ce373f2d2bbb854a7cb85df47cd8038a
+files xpcom/glue/nsStringAPI.h
+patch 234,235,

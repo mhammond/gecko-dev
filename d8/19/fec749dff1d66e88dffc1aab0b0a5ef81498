@@ -1,0 +1,4 @@
+changeset 4cb0e2f32f8f938051bdb228f87a7e5e85231529
+manifest 78f3c60b5f3930c072cc6a6ad5e82a8c2196a54e
+files mobile/android/b2gdroid/app/src/main/java/org/mozilla/b2gdroid/Launcher.java
+patch 243,244,

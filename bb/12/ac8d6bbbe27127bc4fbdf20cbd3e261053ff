@@ -1,0 +1,5 @@
+changeset 97f55b49a6d74b9e871a4cc0a8b3d793a5e9a27e
+manifest e6985fd2837fc427cf33c4723ce3c3a952d5663e
+extra source:fa0b586fa39d99daac1d1950ee8ad35cc901c091
+files gfx/thebes/gfxPrefs.h
+patch 259,326,

@@ -1,0 +1,4 @@
+changeset d39a9103cfb1cfc4ee8dbc62ef5adaaadb7058c3
+manifest 19e3d76441d8fe9ba193aaa83c52e0722fdaf6aa
+files browser/devtools/styleinspector/style-inspector-menu.js
+patch 241,242,

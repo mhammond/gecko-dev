@@ -1,0 +1,4 @@
+changeset 83082fcebedc934a8e78a5fca6dc4e858194be84
+manifest 08957888c30f35a8414e7b99acb60be345b862f0
+files js/src/jsapi-tests/testChromeBuffer.cpp
+patch 187,188,

@@ -1,0 +1,5 @@
+changeset 4ba2da490d03d1c2e80c8c3c0416ef8e39e53f9f
+manifest f8255851b8ca35d99dbde9b5570b756065e26ffe
+extra amend_source:d3a7c601c4aac55ff0defe47c3fd9d2a1fadcef4
+files testing/web-platform/mozilla/meta/service-workers/service-worker/__dir__.ini
+patch 300,373,

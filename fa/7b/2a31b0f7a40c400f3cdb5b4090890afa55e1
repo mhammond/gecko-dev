@@ -1,0 +1,4 @@
+changeset 88dd551a1ef105d4f0b2312ea05e4eab0679f294
+manifest f7a3cfcfc4e2a892e1fdff258ecc63fe108196f8
+files js/src/jit-test/lib/simd.js
+patch 201,202,

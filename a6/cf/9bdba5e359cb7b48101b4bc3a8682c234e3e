@@ -1,0 +1,4 @@
+changeset 8ba00818a9fa6341a7e6bb393f90569762feb5d6
+manifest 5e579f8b64ab43590cc2101b742638ff5d53512f
+files toolkit/mozapps/update/updater/progressui_win.cpp
+patch 310,311,

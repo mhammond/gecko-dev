@@ -1,0 +1,4 @@
+changeset c82bd0fbe6b6f46e3a0600e4ac835cfbabff9aaf
+manifest 5678f65780d72a5e0d8f84a76f4ef032c18d37d3
+files modules/libjar/nsZipArchive.h
+patch 599,600,

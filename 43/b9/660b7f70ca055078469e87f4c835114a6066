@@ -1,0 +1,5 @@
+changeset f7fe9d1a41f3ae291e4926de88559411ea0f0cd1
+manifest 0ae96a3530099b9b64ff71f3d8898209e30e5550
+extra rebase_source:295551f9a9a82bab3ca0afbc500478c81f2eecb3
+files js/src/jit-test/tests/atomics/store-does-not-truncate-returnval.js
+patch 278,352,

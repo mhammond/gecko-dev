@@ -1,0 +1,4 @@
+changeset ab085ff970043a43053b77da031b73553d76a864
+manifest 367f6eb7115515ca69d03142392078069c23423a
+files mozglue/android/Makefile.in
+patch 181,182,

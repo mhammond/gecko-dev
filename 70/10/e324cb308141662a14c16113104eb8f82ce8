@@ -1,0 +1,4 @@
+changeset 41440b20a0382870f87cdb2149ee84d7fcd1fd54
+manifest 9602b01369474c319a91701f6f41c4ad0f2e0249
+files devtools/client/markupview/test/browser_markupview_anonymous_02.js
+patch 233,234,

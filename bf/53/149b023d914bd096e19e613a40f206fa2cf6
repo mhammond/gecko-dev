@@ -1,0 +1,4 @@
+changeset 35f90f41182e2b384788ac29d0be0e0d362b86fa
+manifest 7b4cd1559692eb6934f4c5d0a6788295b20b2657
+files browser/components/syncedtabs/TabListView.js
+patch 218,219,

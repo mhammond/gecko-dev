@@ -1,0 +1,4 @@
+changeset 8c2d5ed2d654162cf1b1d67e127f36ef2bcd3b92
+manifest c244ab1eefc5e4baa33e024391ef8a1a3cdffe2b
+files browser/devtools/webconsole/test/browser_console_hide_jsterm_when_devtools_chrome_enabled_false.js
+patch 535,536,

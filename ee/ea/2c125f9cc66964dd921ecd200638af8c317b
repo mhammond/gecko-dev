@@ -1,0 +1,4 @@
+changeset be44e59b0011543aad14bd75ed30dc9b6fd738eb
+manifest 6e2f1b02465ceb4fa5297c9331d93f96d03a7f7f
+files browser/components/contextualidentity/test/browser/browser_broadcastchannel.js
+patch 268,269,

@@ -1,0 +1,5 @@
+changeset 983493507fe4645be2cb0410fdb357ecc18661c9
+manifest 7fe0930827b19a7d31313ac0c9ed1cdf3dbaba64
+extra rebase_source:7cb508b3a32cba6be999df91e75daf7596eddf10
+files browser/base/content/browser-loop.js
+patch 221,295,

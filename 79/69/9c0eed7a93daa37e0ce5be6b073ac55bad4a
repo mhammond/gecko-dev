@@ -1,0 +1,4 @@
+changeset 28161d563685be3cafcc1a47dc08aed4dec67cdc
+manifest 0f1c444b35a4b3bb7a2df6d698737c0ac69b5c3b
+files dom/promise/Promise.cpp
+patch 275,276,

@@ -1,0 +1,4 @@
+changeset cf459cec404b72140102a05d567a3b76a52fa5f8
+manifest ab59a12324373be690060eb29318390a2f2f8ce7
+files browser/components/readinglist/Sync.jsm
+patch 247,248,

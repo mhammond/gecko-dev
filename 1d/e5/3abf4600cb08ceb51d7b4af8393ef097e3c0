@@ -1,0 +1,4 @@
+changeset 420fa39a00953598780365a65c9c0f4261e34276
+manifest 255f7503de873720856c126d01e7e1b44ab91f2b
+files gfx/layers/opengl/CompositorOGL.cpp
+patch 246,247,

@@ -1,0 +1,4 @@
+changeset 9ad4faa7625508a8066e633a4e5a6298188035c3
+manifest ea6c066f7957ba0bd0c81a615015cf3a7d0ba921
+files browser/devtools/webconsole/webconsole.js
+patch 294,295,

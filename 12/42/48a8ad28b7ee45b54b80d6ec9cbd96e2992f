@@ -1,0 +1,4 @@
+changeset 90cf17107095730ad9e836b49f62b73bbc28644c
+manifest 4deea65be62084e164e65713f0f844af0bdb6285
+files storage/mozStoragePrivateHelpers.h
+patch 216,217,

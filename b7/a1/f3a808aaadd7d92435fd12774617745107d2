@@ -1,0 +1,4 @@
+changeset a8648997af907afeee827f47a24303d6269d1982
+manifest bf224379bb10e0014ad6166758b43eff7f3a92f9
+files media/libstagefright/binding/MP4Metadata.cpp
+patch 196,197,

@@ -1,0 +1,5 @@
+changeset 09efa4960b229036ad249e1fdcf47b468a7a416a
+manifest ca26212b6b9230a0a09d21c38edc9c9db90b1d75
+extra rebase_source:fa92fb3b160e099edaffd2523dc5605b57b9771c
+files mobile/android/base/resources/layout/activity_stream_main_toppanel.xml
+patch 345,419,

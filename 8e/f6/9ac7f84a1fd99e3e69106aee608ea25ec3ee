@@ -1,0 +1,4 @@
+changeset e577673efe22f98618789a3ed2e0f0b83817fca4
+manifest 2a0b47b6737d7e38445c99b8d5e80c7c17c61133
+files gfx/layers/Compositor.cpp
+patch 237,238,

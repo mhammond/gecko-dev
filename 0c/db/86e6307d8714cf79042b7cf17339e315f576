@@ -1,0 +1,4 @@
+changeset 62cd40885e9362dc726f681675b64aa9577982aa
+manifest d8f69b0ecbc201e2b846dc838aaf2bf78648711f
+files browser/devtools/styleinspector/test/browser_ruleview_override.js
+patch 191,192,

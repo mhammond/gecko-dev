@@ -1,0 +1,4 @@
+changeset 15bbe7c7bb3c03b6da28b893ba6f35bf7bf8fed5
+manifest d0c0bb33a44e9df9c29b76c6c62ec42d034f41cf
+files security/manager/ssl/nsSecurityHeaderParser.h
+patch 308,309,

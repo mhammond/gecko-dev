@@ -1,0 +1,5 @@
+changeset 916c47f534c20427eecbb988453fe2e32004d4c4
+manifest c111f200b9c439cb5c3f71d444ba37e7ba19f5ec
+extra rebase_source:e3b8db6a790eba45ebc4f1db46682e45702554c3
+files toolkit/components/extensions/test/xpcshell/head_native_messaging.js
+patch 332,406,

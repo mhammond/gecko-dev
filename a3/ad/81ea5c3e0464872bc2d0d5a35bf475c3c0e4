@@ -1,0 +1,5 @@
+changeset 3b4965bb11c0649ce8e0757c708b6c13d5f1e854
+manifest f7568b38ac6329f0d4bac690e1f0c15f3c9ce9f6
+extra rebase_source:59d8d5029df84017b825309c7422799c518d0397
+files addon-sdk/source/test/test-tab.js
+patch 307,381,

@@ -1,0 +1,4 @@
+changeset c524d0bd4c8f5f9676fc947e00679fac5ff6fb41
+manifest 46ba61eadc72378e2dbd6d95b98e784f5972167d
+files dom/base/nsSandboxFlags.h
+patch 249,250,

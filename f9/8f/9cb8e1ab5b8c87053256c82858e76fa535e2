@@ -1,0 +1,5 @@
+changeset e814e3864b70fb24eda019e4fd18a93e15f1ecb8
+manifest 4f74291510232ac1490e1203efa0b633aa619a2d
+author stefanh@inbox.com
+files widget/cocoa/nsNativeThemeCocoa.mm
+patch 275,276,

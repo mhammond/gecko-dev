@@ -1,0 +1,6 @@
+changeset 0e58a4abd21afff5b78602dda09f362d4c21a7e2
+manifest ffebc64d5114644d831f596fc6eb87c8a499e29c
+author Dragana Damjanovic dd.mozilla@gmail.com
+extra rebase_source:43e7e5437728986c5c4c90c859b343467813b7b6
+files netwerk/base/PollableEvent.cpp
+patch 249,323,

@@ -1,0 +1,5 @@
+changeset f7a0080dfd6b262062d13abfef3943f695ac25b4
+manifest 99cb3ea1d193c7f2653dfd6dbdc87c63a939756a
+extra commitid:5xR5ZLc8wOl
+files config/tests/test_mozbuild_reading.py
+patch 313,353,

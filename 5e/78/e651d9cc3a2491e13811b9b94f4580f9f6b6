@@ -1,0 +1,5 @@
+changeset 39e8d596872992f8088e78b07ebcb272380c648c
+manifest 3c56e4e1e2288acfec3226331e52aacad5256a45
+extra rebase_source:1f2da9db5ffac5c9d9a93bd98d40cf445306d9e7
+files devtools/client/inspector/markup/test/browser_markup_html_edit_03.js
+patch 369,443,

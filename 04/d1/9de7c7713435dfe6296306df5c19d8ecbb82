@@ -1,0 +1,4 @@
+changeset 9ba6a55ec905ca1798a6504e59aff91000b0034d
+manifest cfa1913416e00cc8280d2b8cdbf3810880b2a5ad
+files modules/libjar/nsJARChannel.cpp
+patch 281,282,

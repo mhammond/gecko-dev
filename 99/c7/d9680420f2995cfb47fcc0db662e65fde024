@@ -1,0 +1,4 @@
+changeset 3fc77a3172823ddddf2646c8bb4325f9063cb346
+manifest ce29d0fb0e1209804e6e49a1650749e7f23a7b34
+files mobile/android/base/java/org/mozilla/gecko/GeckoThread.java
+patch 328,329,

@@ -1,0 +1,4 @@
+changeset 217b441ef860497f6770a27fa2ba988060ae00ed
+manifest 55bfe28093dee50f954dbef6898a225430eac284
+files devtools/client/debugger/content/actions/breakpoints.js
+patch 221,222,

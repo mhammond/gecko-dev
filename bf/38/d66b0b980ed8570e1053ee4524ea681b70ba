@@ -1,0 +1,5 @@
+changeset bc0196fd88e544ad61579688f1420a7d6e8b6545
+manifest c476acb9ad0b16a9af72b2e7b7191a5bbd729336
+extra rebase_source:b398098fc5d6586d015dc3844e6f559cc105380b
+files dom/webidl/Navigator.webidl
+patch 299,373,

@@ -1,0 +1,5 @@
+changeset d6d1d04e3dbdecaefc54b3623f28226133aef722
+manifest 4f92f679988232ca24365f70ee3f04ff21382cae
+extra source:d7ccace9b11cc71f14bbe5313ad6536849d68daf
+files mobile/android/base/java/org/mozilla/gecko/menu/GeckoMenu.java
+patch 418,485,

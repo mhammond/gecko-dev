@@ -1,0 +1,5 @@
+changeset bf002e13d8072fe5c81289e02c8344455d6ce406
+manifest 344fe960f8a6e0256f294f7d12ae280b55f1f5aa
+extra rebase_source:a7a67023162f51600e27ff7136fe779d903ed1a5
+files devtools/client/inspector/markup/markup.xhtml
+patch 327,401,

@@ -1,0 +1,5 @@
+changeset c008ecf88273d3965b84e34e6c33d085c69c319c
+manifest ddb746933b8e9fd4664aa3efa85a8c47efb1ef54
+extra rebase_source:d922d3f6ccca83a3bef66aa5b139d01d3e1ed9c7
+files browser/components/extensions/ext-bookmarks.js
+patch 285,359,

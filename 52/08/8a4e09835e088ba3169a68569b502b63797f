@@ -1,0 +1,4 @@
+changeset 441bc43054900d751b43870a3d0f6f7ccab4317e
+manifest cdd863c1c636f0e7e147a1b9635f06dc58f66064
+files testing/web-platform/meta/fetch/api/policies/referrer-origin-worker.html.ini
+patch 268,269,

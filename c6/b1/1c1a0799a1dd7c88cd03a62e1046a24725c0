@@ -1,0 +1,5 @@
+changeset 0ed718887e5fbed81eff7fb430068f0daff2115a
+manifest 38a08fc4a9d6a7f79c64b1c65275eb1f1f119b9a
+extra rebase_source:53d84145e19573d2e7b25b530a40dabcbe953e47
+files taskcluster/docs/yaml-templates.rst
+patch 268,342,

@@ -1,0 +1,5 @@
+changeset 8b9d08e61f231e3bfcbf1faf78add773585b126b
+manifest ac04cca7b24ad069a9e14fe0520ce1b4a3badfbf
+extra source:901b6248af7d34012dc519cef40ec38c034f1c39
+files js/src/jit/Recover.h
+patch 247,314,

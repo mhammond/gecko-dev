@@ -1,0 +1,4 @@
+changeset 7a5be08b02e02607fb8168536f7d9d49962f7572
+manifest b259fae45f906d8995adaef8ab3ab4baf5fa4ff6
+files browser/components/places/tests/browser/browser_bookmarksProperties.js
+patch 299,300,

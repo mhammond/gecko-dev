@@ -1,0 +1,4 @@
+changeset c063c543ebc23056e1f248df7d2af87c7874a5cb
+manifest 34a7a7952a9a224e3b830f01f04f094097febea7
+files toolkit/components/telemetry/TelemetrySend.jsm
+patch 232,233,

@@ -1,0 +1,4 @@
+changeset a4700f2b25fca71e6e35a0e4c1c09897b8ad5ad8
+manifest d67b00be2c6041a4d878ca23f73395d39d8ae3e4
+files xpcom/tests/gtest/TestThreadPool.cpp
+patch 203,204,

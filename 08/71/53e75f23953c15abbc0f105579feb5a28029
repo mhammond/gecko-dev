@@ -1,0 +1,4 @@
+changeset b81315ca0fd8a8698299cdb5524c1d8a3df2a26d
+manifest c2b2617ab007bb2fe2b46ee4e5d44bc274962f70
+files js/xpconnect/public/nsAutoJSValHolder.h
+patch 217,218,

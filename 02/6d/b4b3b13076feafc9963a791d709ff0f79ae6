@@ -1,0 +1,4 @@
+changeset bb5689113c1de1d286162e7bd134951cc313f8f6
+manifest c282c334b0b9a7f5f98ab44de58aec2cac574c52
+files extensions/cookie/test/unit_ipc/test_child.js
+patch 287,288,

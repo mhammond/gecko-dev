@@ -1,0 +1,4 @@
+changeset ccf84879a46170a322dbd90aeabc0c53ce10c78f
+manifest a040ed939ea04d779ccee1aed1512790c3b2807f
+files xpcom/string/nsTSubstring.cpp
+patch 228,229,

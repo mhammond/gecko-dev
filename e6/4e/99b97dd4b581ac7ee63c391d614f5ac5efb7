@@ -1,0 +1,4 @@
+changeset cf713bf395eeca1fa3063f2a0ecf42260b5e85bf
+manifest 69ec6b7a8b049a669b2555f427e42cb43877e69b
+files security/manager/ssl/src/SSLServerCertVerification.cpp
+patch 260,261,

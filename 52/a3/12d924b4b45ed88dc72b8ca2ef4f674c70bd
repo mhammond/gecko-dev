@@ -1,0 +1,4 @@
+changeset 80c7b6c14033dfc4a33ba9409fc17e25096650c7
+manifest 466e47a9b67e2c2f960e05b73704d542ad534ff8
+files gfx/thebes/SoftwareVsyncSource.cpp
+patch 212,213,

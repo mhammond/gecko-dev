@@ -1,0 +1,5 @@
+changeset 2c678f1b42074db95dcd7f94e6504be4aacf3ede
+manifest f45a69620748ce0fd25e5421932f4203d97306e6
+extra rebase_source:19822b437e9d871dc6ea734ee11e43a77f5c94a0
+files b2g/components/RecoveryService.js
+patch 241,315,

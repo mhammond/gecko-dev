@@ -1,0 +1,4 @@
+changeset e812696516917d8e3d276935d7ff94afbb67d340
+manifest e9ffb18445db6112a76e6066da5de7daa2474d65
+files build/automation.py.in
+patch 197,198,

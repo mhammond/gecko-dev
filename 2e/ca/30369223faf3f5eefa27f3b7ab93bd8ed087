@@ -1,0 +1,4 @@
+changeset fd8149e51d07d03df0fe34825dcb03dc04135d9b
+manifest ac0c811f8489f5993da9c2ef3712dffee84a80c5
+files js/src/jit/x64/Assembler-x64.cpp
+patch 197,198,

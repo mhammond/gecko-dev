@@ -1,0 +1,4 @@
+changeset b0139b57d0ccf65b95b7a3c60a693a0422c232dd
+manifest 22f23875a1df27897e9fbfee0c00ad58a807c0ad
+files gfx/gl/AndroidNativeWindow.cpp
+patch 315,316,

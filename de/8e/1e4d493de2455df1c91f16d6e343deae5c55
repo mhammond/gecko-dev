@@ -1,0 +1,5 @@
+changeset a080e742ef9aa126006b75291be9b8e17e7c3ae4
+manifest 3a3bfc8a57c8e179c9c4fbc6d160ba3cd79a715e
+extra source:fe97a239ab5a2c8111712ca86a9ed3fdb5f4e942
+files dom/base/test/browser_use_counters.js
+patch 678,745,

@@ -1,0 +1,4 @@
+changeset c4ad3f0a514349daca322894e51eda237efaf137
+manifest 517f98ce6dc4cfefa9498db44e9c65877bbd7185
+files toolkit/components/search/SearchSuggestionController.jsm
+patch 237,238,

@@ -1,0 +1,5 @@
+changeset b6b2fc1bbac7b625c6020f8733923f76559e0aef
+manifest 6e1590fa7acf1a3a159cf71436be710050d5bbb2
+extra rebase_source:65508407de45d28440184d765ba74ea33330071e
+files netwerk/dns/moz.build
+patch 767,841,

@@ -1,0 +1,5 @@
+changeset ebfe1808a42d152c40b2ad7bb2198bdf706e0686
+manifest 8d7e5c506f5a50c8f2316e0d1039e09246ed8b37
+extra amend_source:9cb142bc481169d64bcf81fe18e05da5d367c614
+files toolkit/components/extensions/schemas/notifications.json
+patch 305,378,

@@ -1,0 +1,5 @@
+changeset 7229e6a595aff6282882646fc7db2fb766e91818
+manifest c4c335e55599efc1c757103dc9aa2b5285809424
+extra source:9f957b27ddff5694eeff157eb9790f147cd7f471
+files js/src/jsgcinlines.h
+patch 252,319,

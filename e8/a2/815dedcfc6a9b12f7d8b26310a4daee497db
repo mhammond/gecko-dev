@@ -1,0 +1,5 @@
+changeset 7535abf9e298beec1d0de5c40f02377f2504f3d2
+manifest 46d14321056f37d184dadb6b8f74737a6a030303
+extra rebase_source:ab58c9d091b51235566e97b139de365873e41aaa
+files taskcluster/taskgraph/transforms/tests/make_task_description.py
+patch 303,377,

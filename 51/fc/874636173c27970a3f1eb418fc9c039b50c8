@@ -1,0 +1,5 @@
+changeset 59fa797ab43876d3c44e63bba2b30e30293c3494
+manifest a17b168f88663d68fe5d30dafed2c15eb10470df
+extra rebase_source:c452e9ea0fc01670b49cd76e17fb782aef3a5c20
+files editor/composer/nsEditingSession.cpp
+patch 1219,1293,

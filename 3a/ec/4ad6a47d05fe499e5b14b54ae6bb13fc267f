@@ -1,0 +1,4 @@
+changeset 60bf2d08cebbd05b4445612e7ef722e736141fc6
+manifest 8200abe5159ba5226502a6f3b56df9e4c181b30e
+files dom/requestsync/RequestSyncService.jsm
+patch 242,243,

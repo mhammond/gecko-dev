@@ -1,0 +1,5 @@
+changeset 7df6fed09fb8eef71fea5ba16b58e5724e808d8c
+manifest 37113c2de74ba876fb5f6aefc4c24bf0b4219e0c
+author stefanh@inbox.com
+files browser/app/macbuild/Contents/Info.plist.in
+patch 198,199,

@@ -1,0 +1,5 @@
+changeset 311d8b26687a35c8a23f13add380720f6d03bf9d
+manifest f4e9e0a2cab4fc09f96e194b9de20d8b549d3e32
+extra transplant_source:qS6+YrCJ )iöi¿÷f≤
+files addon-sdk/source/lib/sdk/content/worker-child.js
+patch 299,377,

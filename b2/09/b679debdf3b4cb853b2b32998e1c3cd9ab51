@@ -1,0 +1,4 @@
+changeset 8a9f596c062d1df7b76e1cbc41363ee48f719c7f
+manifest 51cff4642007ae8193a7eb46bdaa4bbcc5cec37d
+files dom/tests/mochitest/general/test_vibrator.html
+patch 263,264,

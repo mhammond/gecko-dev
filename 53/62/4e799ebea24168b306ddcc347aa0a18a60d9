@@ -1,0 +1,5 @@
+changeset 9872ab4aa51149d870ee97be5c090d7b12d279fe
+manifest c34f2641160c531fc1d069e4759b4b0d4d4f3a8e
+extra source:a41fe0bb1161a3917cc04e8e4d6d4789459faad1
+files devtools/client/shared/doorhanger.js
+patch 271,338,

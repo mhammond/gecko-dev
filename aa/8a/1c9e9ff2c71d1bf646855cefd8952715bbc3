@@ -1,0 +1,5 @@
+changeset a787c9daa1b9cbcf4bded8bda36e06c520218f4f
+manifest c8645e90b1b76cb8a60baf9ea18a9d90f78ee743
+extra histedit_source:09a211adeb54a1c36d2895f3d5b35c96baf964a2
+files browser/themes/windows/browser.css
+patch 298,374,

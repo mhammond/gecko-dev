@@ -1,0 +1,5 @@
+changeset b66ce05465c32ef71dc65604f6174f9cecbc1800
+manifest c240f2e51f3596e953788935a89b7e5795f8410c
+extra rebase_source:5c26f019ba4ccff839408a624fa1df0b5346eb3f
+files js/src/jit/StackSlotAllocator.h
+patch 297,371,

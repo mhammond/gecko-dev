@@ -1,0 +1,4 @@
+changeset 7a3357ffc0e5aa966f34e4b715697975322caa9f
+manifest cdcde17a70db00c4a9334b35ec2efc02915b8625
+files addon-sdk/source/lib/sdk/page-mod.js
+patch 222,223,

@@ -1,0 +1,4 @@
+changeset 4b3698309e6c0f26aac9f67e5538ecfd59b1fe76
+manifest 925f72a630f21d8ae6df55bb3fdbc66d7dfd1245
+files toolkit/mozapps/extensions/test/browser/browser_webapi_install.js
+patch 250,251,

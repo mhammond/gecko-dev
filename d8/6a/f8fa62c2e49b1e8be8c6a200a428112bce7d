@@ -1,0 +1,4 @@
+changeset 10ccea0e18fb082fbcd6fc1c5843d841d779ea18
+manifest 7dba1889a992ffc4b8b7f0e08a5bf1965e8f00a7
+files js/src/tests/ecma_5/strict/primitive-assignment.js
+patch 228,229,

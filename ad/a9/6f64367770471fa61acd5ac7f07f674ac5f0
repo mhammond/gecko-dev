@@ -1,0 +1,4 @@
+changeset ed57eb1fa5f6f84ee1bab2595de5fc419fba251d
+manifest a2d341d630913832f1a5082e1c08cd04809784d1
+files toolkit/components/url-classifier/nsUrlClassifierUtils.h
+patch 212,213,

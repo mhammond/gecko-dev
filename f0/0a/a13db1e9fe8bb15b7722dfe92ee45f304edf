@@ -1,0 +1,5 @@
+changeset c13b55898a6ae7c078a2d0fee162f60ee1a90b83
+manifest b706313bf5b878649dfb1b0c8101782ab136a110
+extra rebase_source:a45405f383e7c1858d99c753814f0395cb273581
+files devtools/client/inspector/markup/test/browser.ini
+patch 350,424,

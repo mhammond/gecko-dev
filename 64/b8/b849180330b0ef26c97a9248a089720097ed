@@ -1,0 +1,5 @@
+changeset d4648fee1cca7575e8b8c69576ff84773cc57440
+manifest e70ef8d44c4b25ec7bc1590186f92103e5bcce91
+extra amend_source:8bd8aa0ce210a891b84ef4c9133c59cf111f0d7f
+files toolkit/mozapps/preferences/changemp.xul
+patch 278,351,

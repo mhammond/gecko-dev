@@ -1,0 +1,4 @@
+changeset 8d1b225b7a5a25d2dd8a72b56d7bcdf263ede7fe
+manifest 5768297c838c40b01c999edc6b8d6a21d277fb17
+files js/src/tests/ecma_6/extensions/array-isArray-proxy-recursion.js
+patch 265,266,

@@ -1,0 +1,5 @@
+changeset 7aaba7598abbdb64c0f0e48f3ba26c1a659008e4
+manifest 79ba52dd991e40cb8816395c99cf94754c48152e
+extra rebase_source:11995c31fb4c9238777348e0c13b07888dd3ab0c
+files devtools/shared/l10n.js
+patch 339,413,

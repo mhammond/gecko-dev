@@ -1,0 +1,5 @@
+changeset 695415714a5d857e20f6b80b50a814ba353ff95f
+manifest d62b7b975190f83bf0beca32d580fb8793e47f37
+extra rebase_source:ca458065f7097b3a097af90799398791b9ed340a
+files devtools/client/jsonview/css/main.css
+patch 289,363,

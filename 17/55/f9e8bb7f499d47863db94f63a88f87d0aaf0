@@ -1,0 +1,4 @@
+changeset 89fff7bb133efc4cdaea0cdbf605c6c6b78a3780
+manifest 6eea6d7e291e218fd771dfe4d8698ff308f2d12a
+files xpcom/io/nsStreamUtils.cpp
+patch 239,240,

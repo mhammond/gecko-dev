@@ -1,0 +1,4 @@
+changeset a57ce02b70bf9660cbd65cb52405d2498c4281ec
+manifest aafb171c88a2b78d64b5f668241dfa8f517ccb09
+files browser/app/moz.build
+patch 276,277,

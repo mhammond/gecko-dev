@@ -1,0 +1,5 @@
+changeset 6d7a8e19086c69e2f01d497e6d95dcabc0fa2c5f
+manifest 6ac1c408f93489e74d24d4a4974cba3acff1ff13
+extra rebase_source:515c582e158620057f0eab4d46d462cec5eb4cc3
+files modules/libjar/nsZipArchive.cpp
+patch 299,373,

@@ -1,0 +1,4 @@
+changeset 0a5dacb5bf9f745a333ce008415658b92bb8f63e
+manifest 0f2cbda9d35d96380b5ceb0c221c197167c99c3e
+files js/src/builtin/ModuleObject.cpp
+patch 196,197,

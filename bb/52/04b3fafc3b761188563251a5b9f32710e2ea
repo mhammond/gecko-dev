@@ -1,0 +1,5 @@
+changeset 519a0762202133fc42f7b7b0838d6fb33cb3d498
+manifest c208a1a03d72a9d040047204177eef31245e69fc
+extra rebase_source:01abaa53ce46878b1015bec57c9173dad7d8d136
+files browser/components/privatebrowsing/content/aboutPrivateBrowsing.js
+patch 401,475,

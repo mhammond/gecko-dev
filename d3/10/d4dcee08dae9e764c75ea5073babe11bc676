@@ -1,0 +1,4 @@
+changeset 89e7caeaad61edb3ff63eaafc7fd2a1cfa1fffcb
+manifest 60a7b4901ef1ab5cf034b00aad0f4f67a9370529
+files security/manager/ssl/nsCertPicker.cpp
+patch 183,184,

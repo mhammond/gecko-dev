@@ -1,0 +1,4 @@
+changeset b14d437728aaf5f232830d8e10de80caa62b22e0
+manifest ffae9049574c16a4d61149d1e3104ce5d02b39b5
+files browser/components/migration/nsEdgeReadingListExtractor.cpp
+patch 207,208,

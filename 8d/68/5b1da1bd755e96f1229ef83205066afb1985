@@ -1,0 +1,5 @@
+changeset d6580e1fcc08a9e1ce7cd1f07a2fdb99f8a087f1
+manifest a071105cfa3dcfb195e3021a1a5481f54f6bb956
+extra source:c669673b4192490d93d7a3120301ba93fabbf623
+files netwerk/protocol/http/AlternateServices.cpp
+patch 276,343,

@@ -1,0 +1,4 @@
+changeset 016d82db1c6b20bdefeb8093e6320bc10b8c0f37
+manifest 6297fa3b82d46abffce825b85f157a2ab524cd5f
+files js/src/tests/ecma_6/Math/log2-approx.js
+patch 205,206,

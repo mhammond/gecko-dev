@@ -1,0 +1,5 @@
+changeset d606bc66663f0dc6564cab9812d075272fd72c3a
+manifest e41e39b5d660c465ca8fedf4daac477b0c4fabfc
+extra rebase_source:75c86975abf138491dd1478302e8403a22532055
+files testing/mochitest/browser-harness.xul
+patch 277,351,

@@ -1,0 +1,4 @@
+changeset 1731f65999158a9272aaaa92dcad0be4ec5fefb3
+manifest ce55fc1756baa501490fc84fe25d43be1f1690df
+files toolkit/mozapps/extensions/test/xpcshell/test_gfxBlacklist_Version.js
+patch 306,307,

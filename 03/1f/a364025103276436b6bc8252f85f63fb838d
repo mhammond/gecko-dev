@@ -1,0 +1,4 @@
+changeset f11f0772cab86a4f8633077523849ad81456cba3
+manifest 937ce99e2628c227a71aa2248a39a2f921d165fd
+files toolkit/devtools/debugger/tests/unit/xpcshell.ini
+patch 267,268,

@@ -1,0 +1,5 @@
+changeset bb8fca801fc8a71e975ce5afce317e0694827475
+manifest af3ad8329227df762149f59d5faecba24e9c1946
+extra rebase_source:335cb7962dbd5e8f2900ca7984c24e327924d9ec
+files media/webrtc/trunk/webrtc/video_engine/vie_input_manager.cc
+patch 329,403,

@@ -1,0 +1,4 @@
+changeset 51d5fba7bada46a0c67f21e53ecbff45953c29a3
+manifest f13334beab4bdaac1f6d9f9ee152b6363d8fd850
+files devtools/client/animationinspector/test/browser_animation_refresh_on_added_animation.js
+patch 328,329,

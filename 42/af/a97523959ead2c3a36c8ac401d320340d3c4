@@ -1,0 +1,4 @@
+changeset 2b1e7c1466c562c917d02f2b8df9c6fa79dbe15a
+manifest 2dfddfc2a56ec636ca9ef63543be4559eb1d8f15
+files xpcom/tests/TestDeque.cpp
+patch 191,192,

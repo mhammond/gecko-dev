@@ -1,0 +1,5 @@
+changeset 4b10acdea6f0ae57fcd5dd6a23db54832b3bd481
+manifest b2dbed56f0875bd652eee922a7dab66b7875737a
+extra transplant_source:Ó«yäcëÏhÇèÖZs~Öe|^I
+files media/libstagefright/binding/BufferStream.cpp
+patch 345,429,

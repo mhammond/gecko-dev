@@ -1,0 +1,5 @@
+changeset 5a8c26a2a8b165a7539123b834f4dabf8764adf7
+manifest 5c241d8e71b4ed564ce660e768f1aa123acab979
+extra rebase_source:4e570cbcf67927b60cc053fbebc3508842ec0cfd
+files dom/base/nsDOMAttributeMap.cpp
+patch 393,467,

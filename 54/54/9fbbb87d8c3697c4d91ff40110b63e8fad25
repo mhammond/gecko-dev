@@ -1,0 +1,4 @@
+changeset cad23e55d6137ed89fa1d8aea4c13d8748a8b257
+manifest 5c33028f0f237fc3428d31d29beb39ecceba6d0b
+files dom/network/interfaces/nsIDOMMobileConnection.idl
+patch 269,270,

@@ -1,0 +1,4 @@
+changeset 8ddf32953b652e5fc5dd85cd45b0d0ae8280ad15
+manifest 8f443e39daa07952d49fd446cf07c15a87f3dd2f
+files devtools/client/memory/components/tree-item.js
+patch 188,189,

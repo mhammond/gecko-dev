@@ -1,0 +1,4 @@
+changeset ca1fbb8218da27833878ac481b194b7ddf865a67
+manifest 4a159943ba3bae7426478f56bcf0360342cfbb44
+files widget/android/bindings/Makefile.in
+patch 371,372,

@@ -1,0 +1,5 @@
+changeset ca4f94f75f894ad83c0a47624347194a044876ad
+manifest f5a11eaba3b4cd31c663b33d99af8181a86bfd35
+extra amend_source:f8fef74bda372d619f5bfde4fe60a31df5f04eba
+files mobile/android/base/java/org/mozilla/gecko/updater/PostUpdateHandler.java
+patch 309,382,

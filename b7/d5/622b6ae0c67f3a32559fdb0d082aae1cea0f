@@ -1,0 +1,5 @@
+changeset d0d4d65f2dafac16d25961a2a9645204bc6a5865
+manifest 8239a2125241f06f241a90c80ec895752d6ee31c
+extra source:5c7523cabf470da3aa4b1a6434b9dbc7521c85f4
+files layout/generic/nsTextFrame.cpp
+patch 264,331,

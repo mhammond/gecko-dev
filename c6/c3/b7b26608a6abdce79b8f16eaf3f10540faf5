@@ -1,0 +1,4 @@
+changeset 96766f088fd33489b6b8011cc685eb09fabb0d19
+manifest a9c429611ea5f85f854d20e42a80e098d474407d
+files dom/events/moz.build
+patch 323,324,

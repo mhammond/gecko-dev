@@ -1,0 +1,4 @@
+changeset 0b53d7dbaaf2cabfee92e5208beb3f5e15e927ce
+manifest fbfc206baf71de2b8f4cb476e06fd3e8d252f3b0
+files dom/security/test/csp/file_child-src_service_worker.html
+patch 242,243,

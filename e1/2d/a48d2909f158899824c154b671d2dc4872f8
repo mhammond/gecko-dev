@@ -1,0 +1,5 @@
+changeset 051cb67813e3fba2b9a62e27b3bad7b6d0362d62
+manifest 0a055e8de2c48817497c9bc78c437f68521beeea
+extra rebase_source:6e89a0f024b225a343e567f1a8f9311900ccb063
+files toolkit/devtools/gcli/commands/cookie.js
+patch 291,365,

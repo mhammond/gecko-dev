@@ -1,0 +1,4 @@
+changeset 2bbe0a6427f51948ba7d67c755fd266df81610a7
+manifest 72f1dabe2dbb0f0a2c35eade092593b9ba1bf1e2
+files browser/components/preferences/in-content/search.js
+patch 268,269,

@@ -1,0 +1,4 @@
+changeset f95d5fb76b4694a4e921ec276e080da559c35be8
+manifest 29c3134e98dcea445fb6b94d1823c05ffbfeb2ec
+files js/src/tests/ecma_6/Expressions/destructuring-array-lexical.js
+patch 267,268,

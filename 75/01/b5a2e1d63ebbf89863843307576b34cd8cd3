@@ -1,0 +1,5 @@
+changeset 9a9f0e7dcb9f85966d961545f16d8d5923d851a7
+manifest ffed0753c2836d5936eb84c3a8a827aa2e8caf6c
+extra source:8b401c37431d5c774c4a2cf1b60e63f2faa6d82a
+files browser/extensions/pocket/skin/windows/pocket.css
+patch 284,351,

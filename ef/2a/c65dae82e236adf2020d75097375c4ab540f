@@ -1,0 +1,5 @@
+changeset 41936f46f3cba6b70197297851df8b6695753068
+manifest 7adf5d379d76f0a529ed63ac335707cbf98806c8
+extra rebase_source:14c19e5a975ef1917eaf6385ff7336b041f89690
+files gfx/thebes/gfxWindowsPlatform.cpp
+patch 307,381,

@@ -1,0 +1,4 @@
+changeset 70b81490e30468ccdd2c1c92a1cdd61e0bcde105
+manifest 8b953f3e60d2d1088e7ccc169876c54d1530eeb4
+files dom/system/gonk/NetworkManager.js
+patch 227,228,

@@ -1,0 +1,5 @@
+changeset 369c340650cc3d0f40f0c78142289c323572db65
+manifest 4f7c8a36bf1431d0075e1a1f78e5ed5e1aa9248c
+extra source:b4a33a9b8c218f3c1bd3ce83c8178f67396b9296
+files extensions/pref/autoconfig/src/nsJSConfigTriggers.cpp
+patch 291,358,

@@ -1,0 +1,5 @@
+changeset a667fecb761344c6e840c3190c8f933750ea9f79
+manifest 5eafe0b91245b278407638b8c4ed0e328f1e551d
+extra rebase_source:6b19c737d28bff500878946776d017c59af84c01
+files browser/themes/shared/glyphs.svg
+patch 293,367,

@@ -1,0 +1,4 @@
+changeset d3d05b94bc1bd2cb443109cd8b5700cefaf41f09
+manifest 5624ea22fe8e5bddca5f690bcc2da1e618d107a9
+files browser/base/content/test/general/browser_permissions.js
+patch 281,282,

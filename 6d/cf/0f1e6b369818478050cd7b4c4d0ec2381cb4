@@ -1,0 +1,4 @@
+changeset a91156574be3fc32621235ddd4c7c99aeff43838
+manifest 1875f78e1414b46dfd1aa05ca62f23ee2af882d8
+files js/src/vm/Debugger.h
+patch 196,197,

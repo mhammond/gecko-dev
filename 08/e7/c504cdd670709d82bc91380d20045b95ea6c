@@ -1,0 +1,4 @@
+changeset 826db47272a393a4943302f9bbc10698bc8fdbc3
+manifest 636de27ba495e22f32d50219fae2598c2de50562
+files devtools/client/webide/modules/app-manager.js
+patch 275,276,

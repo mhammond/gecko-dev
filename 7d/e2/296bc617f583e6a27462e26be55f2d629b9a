@@ -1,0 +1,5 @@
+changeset 3b3feadddcbf83ed107de506cd1ca1c0f78dc9c3
+manifest fe3a8ce879c94703375b94a7f54ced96549ac221
+author ffxbld
+files security/manager/boot/src/StaticHPKPins.h
+patch 197,198,

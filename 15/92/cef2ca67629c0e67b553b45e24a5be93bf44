@@ -1,0 +1,5 @@
+changeset 77123d898d4cfbfe891eec605fb0a8a0394b02b2
+manifest 5a8d40014768c349f23666f96ab9b912304d4ccf
+extra histedit_source:6211351697cd2f28c03a6cf1e899bb55e8864581
+files dom/apps/Webapps.js
+patch 267,343,

@@ -1,0 +1,4 @@
+changeset a31f4c38280b78b7363c6fddc0c6fb406ed96ccd
+manifest 8a5eccdc9984cb21baf9c917f1c3c6e2d12d7b75
+files xpcom/glue/nsTArray.h
+patch 303,304,

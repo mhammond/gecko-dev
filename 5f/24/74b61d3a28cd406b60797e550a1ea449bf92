@@ -1,0 +1,4 @@
+changeset 5db3a2eefc7007e1eb3d3477c60a75c8bfbea2d3
+manifest e81b49b919b1546d7237d843a68db1efcaf32ef7
+files js/xpconnect/loader/mozJSComponentLoader.cpp
+patch 225,226,

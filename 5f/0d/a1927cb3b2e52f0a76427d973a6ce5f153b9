@@ -1,0 +1,5 @@
+changeset 03343ba4f57317cc78de05d7908a907b0dbfac9d
+manifest ace81cf33c56137f7908caa18a4d31f052bebb3b
+extra rebase_source:ecc499269264ece6413ef8e05658cf2c9a1e4e5b
+files mobile/android/base/java/org/mozilla/gecko/GlobalHistory.java
+patch 353,427,

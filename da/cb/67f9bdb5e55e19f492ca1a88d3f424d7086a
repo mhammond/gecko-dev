@@ -1,0 +1,4 @@
+changeset db20ce0ea851d630d2975bbfb9adb10a40a0b054
+manifest 0ea0753413c24e41add2eb2053a6374b16909b7a
+files toolkit/components/telemetry/tests/unit/test_TelemetrySession.js
+patch 219,220,

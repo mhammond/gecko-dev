@@ -1,0 +1,4 @@
+changeset 3859539ac71539e9d5df12666c083ffd54da8674
+manifest f121dc82808956933debc7f642f7e4d240897a1d
+files browser/devtools/scratchpad/test/browser_scratchpad_contexts.js
+patch 298,299,

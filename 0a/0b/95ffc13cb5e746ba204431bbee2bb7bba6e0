@@ -1,0 +1,5 @@
+changeset 0e90c6048f3f5567ac135751c2849932a6641ac9
+manifest 66dece942f291226116f586c12bab8f9e685dd4f
+extra rebase_source:e52e606e681dfbace0682cb263c04455d6a212e7
+files browser/themes/shared/identity-block/identity-block.inc.css
+patch 365,439,

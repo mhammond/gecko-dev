@@ -1,0 +1,4 @@
+changeset e0b9c25b6125957a4148891a34cdd0c574dd9b35
+manifest e45a415d002a0fdfc27eb309b62c6881039b7a15
+files dom/workers/ServiceWorkerManager.cpp
+patch 232,233,

@@ -1,0 +1,4 @@
+changeset 3fdb67f309bd4c618fd74b1f39e303bd0d7176e8
+manifest d345de3da7caa6974acb13c905e8bda88c1a86bb
+files browser/extensions/e10srollout/install.rdf.in
+patch 226,227,

@@ -1,0 +1,4 @@
+changeset 48d6e2969e6a393722c4c7b953f8c35d25d85d69
+manifest e33d440d2b324b10d642253f80f0a9b80f29464a
+files js/src/jit/mips-shared/SharedICHelpers-mips-shared.h
+patch 344,345,

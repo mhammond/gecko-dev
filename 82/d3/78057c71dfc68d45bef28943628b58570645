@@ -1,0 +1,5 @@
+changeset 9f230c122faa73093db8b4f39e8b9eb37ce68c40
+manifest 91117199470946c85cb5b0b8a85c6bde5c306d8a
+extra rebase_source:b15da92ba6d4083eefe86e2cabaeb033ba9c1adb
+files services/sync/modules/addonsreconciler.js
+patch 304,378,

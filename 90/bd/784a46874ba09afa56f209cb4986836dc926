@@ -1,0 +1,5 @@
+changeset 1632aad24b80fdb2c77d5b416ca96490d7c7f993
+manifest 022b2a14d365bf508dc7e11caccf5cf6774ab229
+extra source:2aef09a9b7f9ef1f928823ade13378e900ef1bb7
+files dom/media/tests/mochitest/test_getUserMedia_mediaElementCapture_tracks.html
+patch 360,427,

@@ -1,0 +1,4 @@
+changeset e7c1e9e8d6b31a985d836aa31efcc89eb19d8f94
+manifest 764997fa7a33ad58b16ea779b31aff6b4fe63f30
+files media/webrtc/signaling/test/standalone/moz.build
+patch 240,241,

@@ -1,0 +1,4 @@
+changeset 600e4f0568c49c7bedde455e7171892f01fd88b0
+manifest f299e21832bd854784ddefdade654b77af5aa6e6
+files gfx/layers/apz/util/ChromeProcessController.cpp
+patch 256,257,

@@ -1,0 +1,5 @@
+changeset 0e8d761ff9468f924a372008333ddf803444ba6c
+manifest aec2f4fe7dfee4fa2f36da255322af9986dfb08a
+extra rebase_source:a3dafe685d15213202c254328f7f54bc90427d0a
+files js/src/jsdtoa.cpp
+patch 317,391,

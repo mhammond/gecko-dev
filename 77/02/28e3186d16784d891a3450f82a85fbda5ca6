@@ -1,0 +1,4 @@
+changeset 3cd0368b06eda7647fab1805854f98c78fcec0c1
+manifest 3aa5eea29ed14870e400674a25386ce59e52dfab
+files toolkit/crashreporter/update-breakpad.sh
+patch 247,248,

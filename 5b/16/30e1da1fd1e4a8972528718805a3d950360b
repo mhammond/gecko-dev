@@ -1,0 +1,4 @@
+changeset 18a5781a6b93190d103867948be84227a9895da6
+manifest 5787999a3f04956cd51c5cc033faae2bc438d1cc
+files browser/devtools/debugger/debugger-controller.js
+patch 346,347,

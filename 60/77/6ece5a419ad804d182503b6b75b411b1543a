@@ -1,0 +1,4 @@
+changeset 7f7bbcd316e84a56e7314b116a89992439847e11
+manifest b11c5e1cde798c0a142e8fae0b78cbe2a97bd60d
+files xpcom/base/nsQueryObject.h
+patch 209,210,

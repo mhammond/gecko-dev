@@ -1,0 +1,4 @@
+changeset c8eeee0000a406b7d14279d7107e38449d89373c
+manifest 87691ddcd11b64fdd9352f0fb4560ecf4321b131
+files devtools/client/fontinspector/test/browser_fontinspector_theme-change.js
+patch 242,243,

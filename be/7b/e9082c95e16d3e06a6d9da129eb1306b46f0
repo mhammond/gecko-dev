@@ -1,0 +1,5 @@
+changeset 9918e78e635e95d27650cdb11deb3a6136fa19d8
+manifest b094e63a8884b6ab48f9fea9ba7581aae1a3f052
+extra rebase_source:dd3bba519119c1ea7d4a6162deeb24d1365996b7
+files testing/puppeteer/firefox/docs/index.rst
+patch 305,379,

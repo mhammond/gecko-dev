@@ -1,0 +1,4 @@
+changeset 88dcf18989b0443de680ab6c37cc9b30b7ad5663
+manifest 11a61363477b6ce9e84e91355ac59e145ba93dea
+files browser/extensions/pdfjs/content/build/pdf.worker.js
+patch 488,489,

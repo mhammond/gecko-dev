@@ -1,0 +1,5 @@
+changeset e81cbf6ee940b7cb3bd1fab044f3db091bf943d4
+manifest 637abcfef37e2927c93602d84312b4f3fb14be6d
+extra amend_source:1fa1c2f7a22afabd4b2e252a268b2f492238966c
+files taskcluster/taskgraph/transforms/job/hazard.py
+patch 583,656,

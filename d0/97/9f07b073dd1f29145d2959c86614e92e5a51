@@ -1,0 +1,4 @@
+changeset 9dbd4fd0de1f6c4d75f61ec802de432ac0b60496
+manifest 585b577fe9cd0f8fb8c000cdd1aff398bb7eb32b
+files js/src/jit/ExecutableAllocatorWin.cpp
+patch 192,193,

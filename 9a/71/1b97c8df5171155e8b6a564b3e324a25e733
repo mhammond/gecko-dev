@@ -1,0 +1,4 @@
+changeset aaaa2de0ae8848b047629b952d83c9838f98fa60
+manifest c85357f7ba7cbbcfb0966ef1ab60193569b752b3
+files dom/mobilemessage/src/MmsMessage.cpp
+patch 229,230,

@@ -1,0 +1,5 @@
+changeset e87f635d35406ee6c723e4bf8a47640233476104
+manifest cc318de61f542dd0fc02c91ecd0f4bc2f0b8aa4b
+extra rebase_source:1b5ee9f13e396508c07f4b5b68be487f6b16209d
+files browser/modules/ContentWebRTC.jsm
+patch 246,320,

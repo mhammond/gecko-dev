@@ -1,0 +1,4 @@
+changeset 4dde206c314715e407fdea6c9f363fc292d80428
+manifest 57f1c9f788d79f59992196255c624dfc23d1e09b
+files js/src/ctypes/libffi/msvcc.sh
+patch 413,414,

@@ -1,0 +1,4 @@
+changeset 8cac575f41b8322fc664fc6ec649322894e88ad1
+manifest 845b30db0e43862d15200d28fb860e116867ea34
+files gfx/gl/GLContextProviderGLX.cpp
+patch 296,297,

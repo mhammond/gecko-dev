@@ -1,0 +1,4 @@
+changeset d3d035fb133313351087c876821239c6525b461a
+manifest ff2b5cb0219a88b9afcc9df9b2bb849522f62fc7
+files devtools/client/webconsole/test/browser_console_clear_method.js
+patch 189,190,

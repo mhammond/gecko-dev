@@ -1,0 +1,4 @@
+changeset b2369a8b959f992f0c3c6fb6a3475fcb52f218e2
+manifest 582f0c0ef55555a61da44088bd291d8402b38d2a
+files gfx/layers/client/SingleTiledContentClient.h
+patch 262,263,

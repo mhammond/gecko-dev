@@ -1,0 +1,4 @@
+changeset 024b3a422b760196a5e1d3078027f543d3b30654
+manifest fdf884e27e77c08e26504b43885701853019d24f
+files testing/puppeteer/firefox/firefox_puppeteer/testcases/update.py
+patch 232,233,

@@ -1,0 +1,4 @@
+changeset 4c66e0814004e1226362e63581d10c941961cc4c
+manifest b33ec46a68a6ba3d4bb60840204d3278aa559aef
+files toolkit/crashreporter/test/unit/test_crash_rust_panic.js
+patch 178,179,

@@ -1,0 +1,4 @@
+changeset 74d81af73f5d04036b4e57fa2b600200e4e02622
+manifest ba07bb87cc7763ed1fabe60380899e09d38cbe8c
+files dom/mobilemessage/src/ril/MmsService.js
+patch 232,233,

@@ -1,0 +1,5 @@
+changeset 96980e16feb05947338c2cfdbaaeb918fd92da8b
+manifest be1983772ec92fec6abfcd75581f77a33d38d123
+extra source:8c1e280e0bb545391c3ac9c8e29c1504a2593b06
+files gfx/2d/SourceSurfaceD2DTarget.cpp
+patch 238,305,

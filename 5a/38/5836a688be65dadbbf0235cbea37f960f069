@@ -1,0 +1,5 @@
+changeset 4b64468e4abcc7a57ca3b9085bb1ec849730834d
+manifest 91a0953598ee9dbaa22b5dd1536f5dd32a6309c7
+extra rebase_source:d20ca07e9055a54c00d65f177056013dd527df6f
+files toolkit/content/widgets/notification.xml
+patch 283,357,

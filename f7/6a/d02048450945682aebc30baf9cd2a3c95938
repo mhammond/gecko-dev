@@ -1,0 +1,4 @@
+changeset a141cb00c7deef08035c09de9ebd720fd74ff7a7
+manifest e53d4aeab3c3a5dcd61210d1c3ecd87989c5855e
+files js/src/tests/ecma_7/AsyncFunctions/constructor.js
+patch 253,254,

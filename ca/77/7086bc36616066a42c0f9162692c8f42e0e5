@@ -1,0 +1,5 @@
+changeset 309157e8ac25ba4d59c19b03c9476f08e14ad5e3
+manifest 323e8e399e72475f5a4b46f1dd05d8d3e6c5d68d
+extra rebase_source:1a474e3506c180e6c7403a377594203a96b41675
+files mobile/android/docs/adjust.rst
+patch 312,386,

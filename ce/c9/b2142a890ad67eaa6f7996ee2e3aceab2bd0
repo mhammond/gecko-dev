@@ -1,0 +1,4 @@
+changeset 2f18ac5ee440f50252ae94dce4dec54a4bed2ae2
+manifest a16c4ed451365e95e946c0d3cba6481e5b3b4f45
+files toolkit/components/places/nsMaybeWeakPtr.h
+patch 227,228,

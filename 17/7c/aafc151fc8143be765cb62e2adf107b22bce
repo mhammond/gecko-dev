@@ -1,0 +1,5 @@
+changeset 6afaaa5cf43b2729a342bb7a7f51c5bbb7a4f41b
+manifest 6a31e11539323de2b02b340f67c7fb9ff5899a5b
+extra rebase_source:98902d97e0495d132be3eaffb6ba36a2a7a8a10b
+files mobile/android/base/java/org/mozilla/gecko/reader/SavedReaderViewHelper.java
+patch 332,406,

@@ -1,0 +1,4 @@
+changeset 436669d713654d69bd58e63b7a73d88a477bd264
+manifest bb522c0084b76141eee6996415ca1f0ca3c2b322
+files python/mozbuild/mozbuild/backend/configenvironment.py
+patch 220,221,

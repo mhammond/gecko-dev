@@ -1,0 +1,4 @@
+changeset b1fcedd62b5514dcb7dcdd821e6612d6397452d1
+manifest 5cd27ebd5a63b18834f8befa4c998592fbb781c7
+files testing/eslint-plugin-mozilla/lib/rules/no-cpows-in-tests.js
+patch 275,276,

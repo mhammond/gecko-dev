@@ -1,0 +1,4 @@
+changeset 2155a7daa8d1e514539a00b802575e87f8941bee
+manifest 94deb06003a51f5006ac00cafc685aa8155d8a1c
+files js/src/jsapi-tests/testDefinePropertyIgnoredAttributes.cpp
+patch 225,226,

@@ -1,0 +1,5 @@
+changeset 315d7872e8293e86fabe878834f99fd1f7e1c83a
+manifest 60b493c8e6a68f7b6d709e6230b5c2ee9682ff4e
+extra rebase_source:9136eeda4f9f8cb44c4a9a3e09e4368a47647f6a
+files browser/extensions/webcompat/install.rdf.in
+patch 324,398,

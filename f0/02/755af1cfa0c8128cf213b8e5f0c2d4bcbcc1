@@ -1,0 +1,5 @@
+changeset 35ec20235d2421ec7563053d1d6234aabb2f9212
+manifest bd20411a8c56ab6305b1ef879cb7951431ca1f06
+extra source:1e0af75b4c44da3271e51941561b582b42709a77
+files mobile/android/base/java/org/mozilla/gecko/db/URLMetadataTable.java
+patch 336,403,

@@ -1,0 +1,4 @@
+changeset 889ea0524ad25292cb76297b3af20fee5cf8683e
+manifest d8b50a3eec5ac7be2521900a69c9753f5518d5fb
+files js/src/jit-test/tests/gc/bug-1259306.js
+patch 212,213,

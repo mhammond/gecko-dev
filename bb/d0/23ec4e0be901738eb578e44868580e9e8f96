@@ -1,0 +1,5 @@
+changeset cc01fa41cf9a83083b41fa80aa2934d3cccf963d
+manifest 9851fc03b0ac41d87196e865b7d2e8a44149660a
+extra rebase_source:418fd84af35150ea06522d475802ca445c77ef03
+files testing/mozbase/moznetwork/setup.py
+patch 293,367,

@@ -1,0 +1,4 @@
+changeset ea2efffe5e6f1ca80f523fc1812d2f03f5975203
+manifest bce9528108d7e7d9da3858cc7016afa7b401c79e
+files dom/security/test/mixedcontentblocker/test_bug803225.html
+patch 375,376,

@@ -1,0 +1,4 @@
+changeset 92e23c584ac55846611c4fbd00be8f2085fa780d
+manifest 7396bccf44302a0b81bfbd50d0aaf20d9dc84c29
+files webapprt/test/chrome/browser_webperm.js
+patch 242,243,

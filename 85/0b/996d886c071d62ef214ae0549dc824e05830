@@ -1,0 +1,5 @@
+changeset 81b4b0e222b579f67bda5fe1fcddda6601f3508b
+manifest b7647ac8ea6cb81a9c1581d70d4532bcc43fc436
+extra rebase_source:4a7f90a95361fd5c9b7dad8978c7ed3c3204839b
+files js/src/doc/Debugger/Debugger.Memory.md
+patch 289,363,

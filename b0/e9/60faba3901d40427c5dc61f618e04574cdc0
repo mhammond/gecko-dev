@@ -1,0 +1,4 @@
+changeset 8fcad873936d1182eb27c883d58f4dde8460f61f
+manifest 2c6a3db05904bf3b7903b0cefc1cd8b206422c9d
+files xpcom/idl-parser/xpidl/runtests.py
+patch 312,313,

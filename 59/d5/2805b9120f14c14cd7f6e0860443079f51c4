@@ -1,0 +1,5 @@
+changeset bf23ff06c7cdcc66eb1a4d4a4db4637a3d7bd94f
+manifest a314e2f44887419f443b15055494a75870b1da88
+extra rebase_source:0d15a8ae8479a0994d955d3ff6830a9198982009
+files browser/tools/mozscreenshots/mozscreenshots/extension/configurations/Preferences.jsm
+patch 386,460,

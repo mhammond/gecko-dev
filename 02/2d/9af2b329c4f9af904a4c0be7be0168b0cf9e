@@ -1,0 +1,4 @@
+changeset fbaa8f469f5a80230e567b7517e0aa0a83ccaf65
+manifest 09101524a03b91d605d0edb2fde0f9c88fd63e88
+files dom/security/test/csp/test_allow_https_schemes.html
+patch 253,254,

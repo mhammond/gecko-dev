@@ -1,0 +1,4 @@
+changeset 67ac7c9e74fb7e9ad33e09ab83c5d2d742f625ed
+manifest 1f05632cfa94935ea1a895cec231c761759f2bdc
+files security/manager/ssl/src/JARSignatureVerification.cpp
+patch 255,256,

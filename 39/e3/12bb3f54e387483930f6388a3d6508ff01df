@@ -1,0 +1,4 @@
+changeset 9ef73cc7ef3da0fd8b6640c2986f6efa27f41492
+manifest 25e00d1266ac7b332956a01ad2aa7578364c64f2
+files js/src/jsobjinlines.h
+patch 184,185,

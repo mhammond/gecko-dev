@@ -1,0 +1,4 @@
+changeset acb05a7c5ee7183ac013196c91106c5b6b246930
+manifest 6da8545b3bc8592ccba0ec4a8b318eadd9d85eed
+files dom/security/nsCSPContext.cpp
+patch 210,211,

@@ -1,0 +1,4 @@
+changeset 10e00e3565768b4dc1c16bea95f07da185eea1c7
+manifest b6a9d640d992a120c1213e843d5cca051ff173ba
+files widget/gonk/nsWindow.cpp
+patch 374,375,

@@ -1,0 +1,4 @@
+changeset c0fa17b1195d11c2f94fc04c48bbbebb1667c80d
+manifest b117009958ad737d2e9766c21aa93ab399e333e8
+files testing/firefox-ui/tests/puppeteer/test_page_info_window.py
+patch 339,340,

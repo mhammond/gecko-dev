@@ -1,0 +1,5 @@
+changeset ef5f9a2a41a47d4f61ee7c8c5fcce6ea5784ed39
+manifest 2853028e5ff9967db33577b50a632670ee1c54e5
+extra source:0141a42290a3856e9871da275903caf1a3314b93
+files dom/devicestorage/DeviceStorageRequestParent.h
+patch 296,363,

@@ -1,0 +1,5 @@
+changeset a8a6133b6eebcc6fb7216ef75d8726eecfc65e29
+manifest d1b45ae1dd6f82e3d0610e26e27d5d5ad2da3b3e
+author sayre@gmail.com
+files netwerk/base/nsFileStreams.cpp
+patch 160,161,

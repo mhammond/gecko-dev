@@ -1,0 +1,4 @@
+changeset 69a3deeebc3306991a47fd7309ebd5545ae1be63
+manifest 3470369700c0ae28d8aabce9321ee64345486c0d
+files toolkit/mozapps/installer/packager.py
+patch 258,259,

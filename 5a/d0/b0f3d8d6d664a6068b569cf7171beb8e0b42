@@ -1,0 +1,5 @@
+changeset 6173757aa33a0adb8ce3239e97eb3281eb6a4c9a
+manifest b2b43d1dd18844c1aea5ea7ee90a1c6744e2ac16
+extra rebase_source:9166647b3e502eb8686946e9592db4167a00c16c
+files js/src/jit/RematerializedFrame.h
+patch 315,389,

@@ -1,0 +1,5 @@
+changeset 0e366a3e90d2f87c8466dd9edf19581029023659
+manifest 24d2ea0ddf780b8df6e50f1e176cf5f87f9bc3fc
+extra amend_source:4b870064639a2721616d69fa4ffc5499cbdf1984
+files js/src/tests/ecma_6/Promise/iterator-primitive.js
+patch 278,351,

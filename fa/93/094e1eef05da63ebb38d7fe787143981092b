@@ -1,0 +1,4 @@
+changeset a3667f0527adaf730a8c406368e5f85a665d9be4
+manifest 81f19d5cc1688a68af305bddf8645ea614b5beb6
+files media/libyuv/include/libyuv/basic_types.h
+patch 181,182,

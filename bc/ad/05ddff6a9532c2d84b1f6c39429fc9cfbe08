@@ -1,0 +1,5 @@
+changeset 55eb13faa8e016818d8fd96e6e30e3fb89dd0af7
+manifest 4dc78b4869091dc409d04e23764f295a8dfb06db
+extra amend_source:963759b6f8cd4f13ecbde08eb8863d5b5ae06481
+files dom/media/webaudio/AudioContext.cpp
+patch 279,352,

@@ -1,0 +1,4 @@
+changeset f25ab8909c71f67759a0f1abc80e22d3d126c261
+manifest ae75a9906ff4e1cb0b1b51d74b975321feecfc15
+files toolkit/devtools/gcli/commands/screenshot.js
+patch 251,252,

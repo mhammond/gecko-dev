@@ -1,0 +1,5 @@
+changeset 7190c35c9e14fc0e7f642e26ef1e8aa4becd8983
+manifest d7fc5dc4a9f552353d3e6425a6418caef221ef5d
+extra transplant_source:§fß,Ñ_™P³õ`ú¤•
+files js/src/vm/GeneratorObject.cpp
+patch 257,349,

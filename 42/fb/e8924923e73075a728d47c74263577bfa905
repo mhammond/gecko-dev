@@ -1,0 +1,5 @@
+changeset 217fc8589ae30080f749ca23cc7e52a195ff88a5
+manifest 383cc61591450e54bfcc19a9af2e0cdba4475b2f
+extra rebase_source:71f2323804778a6ff2406cb90146dfb1a095ecd9
+files js/src/jit-test/tests/wasm/basic-integer.js
+patch 299,373,

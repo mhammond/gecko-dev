@@ -1,0 +1,5 @@
+changeset 8d6ba080209029b58c62d7bb64787327bf6b10d3
+manifest b8cdf9539c16df7d0fadfbee1b9600efedfed2e0
+extra rebase_source:4b922cc86caddcd5c92310d9220fcf06e7d734f2
+files mobile/android/base/java/org/mozilla/gecko/telemetry/pingbuilders/TelemetryCorePingBuilder.java
+patch 373,447,

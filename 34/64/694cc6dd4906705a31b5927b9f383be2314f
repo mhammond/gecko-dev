@@ -1,0 +1,4 @@
+changeset 09bb8f0316e9e328f1a9e2da0d84706f5ed309f6
+manifest 026e1681e1b39282243df5616783a102bfe78d7c
+files parser/htmlparser/src/nsParser.cpp
+patch 186,187,

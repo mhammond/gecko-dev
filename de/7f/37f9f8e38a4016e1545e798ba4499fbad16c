@@ -1,0 +1,5 @@
+changeset 6c8b58266aef1e921662344ebe1a639fc8eb6082
+manifest fa02fac78e3b687a8aa02881267b350c44717a2a
+extra source:d3362879b8b1865812f2ec8c062d7ddd264bf8ac
+files image/OrientedImage.cpp
+patch 518,585,

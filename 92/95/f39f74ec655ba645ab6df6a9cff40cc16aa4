@@ -1,0 +1,4 @@
+changeset 38de81ccdf0b5c4b0618a6a24af8a819adda9d0e
+manifest 25b6fe249aff432beba327e6f45f3db8336cd41e
+files js/xpconnect/tests/chrome/test_bug932906.xul
+patch 214,215,

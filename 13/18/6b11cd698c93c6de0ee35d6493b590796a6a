@@ -1,0 +1,5 @@
+changeset 216a745230ddfb20fb292a2c212b5c1653657b12
+manifest b12931997e8d111bc1d182807a898ebfdf6c465c
+extra source:860c5decce249dfb052b79990417bd95a0c9f94a
+files accessible/mac/mozAccessible.mm
+patch 275,342,

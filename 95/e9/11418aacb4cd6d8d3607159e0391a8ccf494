@@ -1,0 +1,5 @@
+changeset 6db8a54fb215eaf8821e829eb1885a2311817fcc
+manifest d6ab6e7b3fd0fba2b2b88065733c5f5e52531b06
+extra amend_source:abd0231d8514a9bbe9d8ad21ed2de7dba68bbc91
+files mobile/android/base/java/org/mozilla/gecko/GeckoBatteryManager.java
+patch 618,691,

@@ -1,0 +1,5 @@
+changeset a4df9ee747c39bbb79a17ef999fc64eb5c2c19c2
+manifest 815b8e75fe9c3419c8db5b68fa6fa6cb227e8761
+extra rebase_source:bfbb5402401d8602fe54a8869a813ab85422def2
+files build/moz.configure/compilers-util.configure
+patch 320,394,

@@ -1,0 +1,5 @@
+changeset 695f43695c1756cddedd26c272976af756dc741c
+manifest 92a65d61d0130f393bfdad468696a692d7ecd1c1
+extra amend_source:759bee0572fdc77bb6f78fe91d14c68e6c7eb2eb
+files layout/generic/RubyUtils.cpp
+patch 273,346,

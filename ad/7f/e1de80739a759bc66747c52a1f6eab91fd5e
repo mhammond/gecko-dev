@@ -1,0 +1,5 @@
+changeset 044a0f3fca16758615429e346dd4a54ce2a0ef5a
+manifest 2a8b912572a6b19be949809329bbfd6cd82bde48
+extra commitid:7CaCvL6RWec
+files mobile/android/base/java/org/mozilla/gecko/restrictions/RestrictedProfileConfiguration.java
+patch 297,337,

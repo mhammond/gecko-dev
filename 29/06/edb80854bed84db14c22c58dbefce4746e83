@@ -1,0 +1,5 @@
+changeset 254be11071c8f03ee598aeae055309863103223e
+manifest feef0933568d97000c123ba0f42d28105a53b8b9
+extra rebase_source:4debf9b1902e26babe7e9ddaee8142a14674d393
+files tools/docs/conf.py
+patch 548,622,

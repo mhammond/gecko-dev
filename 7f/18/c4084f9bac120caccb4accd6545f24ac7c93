@@ -1,0 +1,5 @@
+changeset 9e9998f9df0263f8607bf1fcdb2d375c47b1ba9e
+manifest 1d0b67b47bc7cbbc405dd23dfff966a33240f89c
+extra rebase_source:45c1935d03eb07b24a72208397a3c35261f7d1aa
+files addon-sdk/source/lib/sdk/lang/weak-set.js
+patch 287,361,

@@ -1,0 +1,5 @@
+changeset adb10dab93579229275803c7cd29192d96025ba5
+manifest c56c4e5567dcbeca977a81916e471f54a73ce3c5
+extra rebase_source:de3a3c17d6427449272c3535fc8b756e0c0caf98
+files toolkit/crashreporter/client/crashreporter_win.cpp
+patch 283,357,

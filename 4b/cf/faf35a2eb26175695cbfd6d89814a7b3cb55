@@ -1,0 +1,4 @@
+changeset 7cd48e5cb14c647f86faa98628301959b86393cb
+manifest 836df3431421d840796d38bba644b4bd56f2049c
+files taskcluster/ci/legacy/tasks/windows_build.yml
+patch 243,244,

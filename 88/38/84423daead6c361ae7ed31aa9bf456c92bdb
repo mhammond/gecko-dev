@@ -1,0 +1,5 @@
+changeset 4e97dee28c6941a78f5ec342fbe95ce5e6a012b1
+manifest 6deb085a1971fa0ee8bdb0fb9e8092cd25ece419
+extra amend_source:bfb6a3cf495bfa9178c20df0a751ded54db20ec9
+files dom/canvas/WebGLSampler.cpp
+patch 279,352,

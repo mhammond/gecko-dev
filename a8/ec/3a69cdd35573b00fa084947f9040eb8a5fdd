@@ -1,0 +1,5 @@
+changeset bd3b3a2b32a25600139b756f031bd5166aea9bf7
+manifest ef5df3c263a8e4ba5b2f2c1609de24b5ea495c18
+extra commitid:D7g4GX6VLuC
+files testing/mozbase/manifestparser/manifestparser/manifestparser.py
+patch 773,813,

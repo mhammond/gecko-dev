@@ -1,0 +1,4 @@
+changeset eed652d8223d291bd38ed8f6193a21d338ecc4be
+manifest 5f5d817a8727a6d1d64b06bc4c65cc57b22fc2c4
+files mobile/android/base/java/org/mozilla/gecko/customtabs/CustomTabsActivity.java
+patch 254,255,

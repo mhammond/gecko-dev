@@ -1,0 +1,4 @@
+changeset 5935b7839e2b62ca5e7112efce0b020c6bc98825
+manifest 4c3bde242d3396d3b0adc85bb531b34f6167df74
+files js/src/asmjs/WasmTextToBinary.cpp
+patch 392,393,

@@ -1,0 +1,5 @@
+changeset c2115d200aebfcf50507302c26e6ffc3c9ba12ec
+manifest 07679114f77b24e6008c10bfbe2b79a4c5beee87
+extra rebase_source:d984d9ecaed765126600c8d85847a82585ab3e67
+files python/mozbuild/mozbuild/mozinfo.py
+patch 340,414,

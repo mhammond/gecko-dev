@@ -1,0 +1,4 @@
+changeset 3cd0d76851a3f093ead4b3c6ea20b133ec1c7000
+manifest 96c0f568884fd27ed89fecfa17681c1f8f09fee8
+files testing/mozharness/configs/b2g/taskcluster-phone-blobfree.py
+patch 206,207,

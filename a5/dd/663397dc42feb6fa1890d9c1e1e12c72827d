@@ -1,0 +1,4 @@
+changeset 6d96ac92a4fa039b3db2ed6f7b6e9230dfa0c8d8
+manifest 2b3d57fe076e4b383452e8f7b4c82597ee56153d
+files browser/base/content/test/social/browser_social_multiworker.js
+patch 284,285,

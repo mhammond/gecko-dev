@@ -1,0 +1,4 @@
+changeset 1c1effae71466d6da3bd3c22baa34910973ce52c
+manifest 247ad0cfbcd5b94c5e331c643faa1a07250bedf7
+files dom/events/EventListenerManager.cpp
+patch 282,283,

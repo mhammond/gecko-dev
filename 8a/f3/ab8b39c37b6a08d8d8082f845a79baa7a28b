@@ -1,0 +1,5 @@
+changeset 7b6d88d72c72ac20a8b9dc0178229a54a88d6c60
+manifest 3ed4f60295da7cdc9d073b6466d6b884964ea869
+extra source:f960cf576fabd6347a513a8c38f27d4150b416a9
+files media/libav/libavcommon.mozbuild
+patch 226,293,

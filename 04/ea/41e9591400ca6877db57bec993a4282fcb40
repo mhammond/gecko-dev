@@ -1,0 +1,4 @@
+changeset d0d93b548779304d88f99b4b0b0789fa38e8cea5
+manifest ae36110ab440c945b6c6a1a03aecf8bab392f92e
+files js/src/jsapi-tests/testSavedStacks.cpp
+patch 192,193,

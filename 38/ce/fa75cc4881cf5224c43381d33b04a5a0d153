@@ -1,0 +1,5 @@
+changeset 5fab6691182aa08ecb295d0247e7edf734b97223
+manifest c1ff23df5988fec301e891767f533cba39620754
+extra source:9d576d2aab809f3ad1648c2e9e864cb3804dd52f
+files mobile/android/base/java/org/mozilla/gecko/delegates/OfflineTabStatusDelegate.java
+patch 351,418,

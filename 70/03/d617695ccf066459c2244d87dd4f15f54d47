@@ -1,0 +1,4 @@
+changeset 52610ced75b05755c6b00499ba64ed83961a1e08
+manifest b42435e78692df7c210d8339f6598e88cc5d5f61
+files layout/xul/test/browser_bug685470.js
+patch 187,188,

@@ -1,0 +1,5 @@
+changeset 297bb754e23135fefc9683024bd33b7503427ee8
+manifest 0df5dd12ef77c9c311c5aa7e818a6dbb361b7ff1
+extra amend_source:66bb299060caef75a2c04d8a18c56ee2ef6393e4
+files devtools/server/actors/storage.js
+patch 275,348,

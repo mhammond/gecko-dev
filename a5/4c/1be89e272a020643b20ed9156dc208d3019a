@@ -1,0 +1,5 @@
+changeset 8a5885fca6ae8cbf5610549150a5a3f559504ba4
+manifest 5aa77c23214d6523a2aff8aa6a884a70ef469b58
+extra rebase_source:38524f93d54bbb4df3c9447847291b345319b600
+files js/src/jit-test/tests/asm.js/testSIMD.js
+patch 239,313,

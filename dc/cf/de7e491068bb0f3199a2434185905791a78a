@@ -1,0 +1,4 @@
+changeset 8c6bea55eca2c7652d6511e97526f55afc564445
+manifest 3382fb07277771d1bf696c7860c0ad512b314293
+files testing/marionette/client/marionette/tests/unit/test_multi_finger.py
+patch 231,232,

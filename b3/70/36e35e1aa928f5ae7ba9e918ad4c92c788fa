@@ -1,0 +1,5 @@
+changeset 75f910f4dcbff91bd2de579c8061ade1aa6ea027
+manifest 9737754c119df8f9a74a81c2e32a57287e5f54f3
+extra source:3cf6f6e8022b9759ed2d914ad16f5a754de00366
+files mobile/android/base/java/org/mozilla/gecko/home/TopSitesPanel.java
+patch 373,440,

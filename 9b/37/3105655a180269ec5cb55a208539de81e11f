@@ -1,0 +1,5 @@
+changeset 22565d35ed35cc2b0a3e11472fc38dd02f2db19a
+manifest 732b3971e1a4081f5007ed80aaf34f5d933daf86
+extra rebase_source:33abf20c2c68d46c565bd4833dc1f4153c8136c0
+files devtools/client/locales/en-US/storage.properties
+patch 309,383,

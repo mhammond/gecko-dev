@@ -1,0 +1,5 @@
+changeset 87fdc70ec48b8e83b4051f75584d890729cbc7c8
+manifest 20fb153528b6594e44605e903c8b5cfcbfabe32a
+extra rebase_source:e7f5a4327eb8aa6245b31e38f9acbe6f7deb1318
+files mobile/android/locales/maemo-locales
+patch 277,351,

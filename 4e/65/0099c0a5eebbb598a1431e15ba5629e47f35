@@ -1,0 +1,4 @@
+changeset 7f8adbc3897aebfb7832e45bbf0d975c78cd7756
+manifest d973f3f806804b025349795ca38a2724b0722830
+files testing/mozbase/mozfile/mozfile/mozfile.py
+patch 211,212,

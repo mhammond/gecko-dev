@@ -1,0 +1,4 @@
+changeset 13082cd9855755a47677a031502bba1f074fa2b5
+manifest 4482a787c36bfd939ba8891ad23de03065417b45
+files netwerk/base/nsURIChecker.cpp
+patch 233,234,

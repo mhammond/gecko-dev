@@ -1,0 +1,4 @@
+changeset bf3b9c728f937be9e6ee8af44d173c8244c756e1
+manifest c1baff3a4b80f08585c2e618e4f2cad1ae5c73a3
+files browser/base/content/test/newtab/browser_newtab_drag_drop_ext.js
+patch 288,289,

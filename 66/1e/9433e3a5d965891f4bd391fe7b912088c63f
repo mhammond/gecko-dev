@@ -1,0 +1,5 @@
+changeset 5058ad56af493c51b0135ac2d7b34df0b829b76d
+manifest 3c797c5d0c5f35be41b1be8307f410077ea38cec
+extra rebase_source:ef4201e381f5f268d02f73854bd78d86c26aeb59
+files toolkit/modules/ClientID.jsm
+patch 308,382,

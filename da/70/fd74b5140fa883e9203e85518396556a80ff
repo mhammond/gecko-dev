@@ -1,0 +1,4 @@
+changeset 18c149301a73a69205c3fb6a07db51d42f78e07b
+manifest 7576ff4002dc9d468b02ba0aadc07f39a3c5243d
+files build/mozconfig.clang-cl
+patch 267,268,

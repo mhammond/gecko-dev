@@ -1,0 +1,4 @@
+changeset f78134a84572a22477fd1be3b49ef3cd741b3c60
+manifest 76efb3c59bd733cb7aa0711541e40cbba2826955
+files xpcom/glue/nsTObserverArray.h
+patch 242,243,

@@ -1,0 +1,4 @@
+changeset eb93c3dfc36d226e14e6eb910855ba17ab3be5e9
+manifest 7d6842a0f14136e10a8a3b2a9626f3fce4be6046
+files media/webrtc/signaling/src/sipcc/core/sipstack/sip_platform_task.c
+patch 219,220,

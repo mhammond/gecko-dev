@@ -1,0 +1,5 @@
+changeset 90b37013db55e2fd143fe1f905d7e7dd96f393b8
+manifest 0780e86ae1825baea75d4571b16af406d1ff05ae
+extra source:56574112f5c1694d3c7c8356991df8b0eec7fe5e
+files dom/canvas/WebGLContextBuffers.cpp
+patch 434,501,

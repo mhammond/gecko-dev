@@ -1,0 +1,4 @@
+changeset 07189ee916253fe9692528551ad1b96bc6c1bccc
+manifest 882bae75e03402d5cd3f007374a9d650488c118f
+files toolkit/mozapps/update/tests/data/xpcshellUtilsAUS.js
+patch 241,242,

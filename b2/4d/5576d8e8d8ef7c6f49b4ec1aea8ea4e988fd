@@ -1,0 +1,4 @@
+changeset 17fd65ac53326996071a16fa2f72b364df2f3fdb
+manifest 6222acedcdfd7c26c83e0749400c4d5bca9d6f34
+files mobile/android/base/java/org/mozilla/gecko/distribution/DistributionStoreCallback.java
+patch 287,288,

@@ -1,0 +1,5 @@
+changeset 7c9841d60ddc320941fa4e330ec5b56031693354
+manifest 1b17b6d992e992efe72a94d8d29c80fe8bce2292
+extra rebase_source:c3b5d44c04b41dc4133e9f3f50a0394c964ac673
+files xpcom/build/nsWindowsDllInterceptor.h
+patch 279,353,

@@ -1,0 +1,4 @@
+changeset b4867459589df246d85972669074233b8d2e23b8
+manifest 395bcd2c11314497a8f45d2c0e6228aea1e0bec5
+files gfx/thebes/gfxPlatformGtk.cpp
+patch 299,300,

@@ -1,0 +1,5 @@
+changeset 5440c6019b43abcdc1d28304314b692a76106e10
+manifest 60e7a046c54622d20f67fa042de5c2c56881529f
+extra source:1179307c56b30ad11c82c81d42e879cb8aa7d235
+files mobile/android/base/java/org/mozilla/gecko/DynamicToolbar.java
+patch 349,416,

@@ -1,0 +1,4 @@
+changeset 71bbe23c3516aa7923c453eef9d98b8599eaa19a
+manifest e465db09074ed41e6e1be4ea3e7c78fcd061b58a
+files browser/base/content/test/general/browser_e10s_switchbrowser.js
+patch 225,226,

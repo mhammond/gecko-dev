@@ -1,0 +1,4 @@
+changeset cd49cae74a81362ffca63066f65a6bc345dbd2b3
+manifest a549decbf470f0714a4db1fd739efc488d512392
+files netwerk/protocol/res/nsResProtocolHandler.h
+patch 344,345,

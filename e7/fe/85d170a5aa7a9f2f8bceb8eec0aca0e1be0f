@@ -1,0 +1,5 @@
+changeset 82c0daba6032b5cd3fae7ffcae0fce4776e6a860
+manifest 3dab1d8de583fcb0c7afddc41317190d22ad3346
+extra commitid:Lcw6EWjP7DD
+files python/mozbuild/mozbuild/android_version_code.py
+patch 229,269,

@@ -1,0 +1,4 @@
+changeset 40789c025b4b68f5a9a8d8e1828ab3056c217fa8
+manifest 08106eb5aa9cb5f60ca4b920a5290b0aab2d2d96
+files toolkit/devtools/shared/tests/browser/browser_async_storage.js
+patch 226,227,

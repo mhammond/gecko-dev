@@ -1,0 +1,5 @@
+changeset b9e0e84444f8da4f7c9604b0278ec150a35b98a7
+manifest 6e998ad7d3f3782573211197f5fce3995c05e59e
+extra rebase_source:19be8113f1f76fa4c86b354dfd142b6b390f9ea4
+files browser/base/content/sanitize.js
+patch 326,400,

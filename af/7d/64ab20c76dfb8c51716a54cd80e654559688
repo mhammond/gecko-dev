@@ -1,0 +1,4 @@
+changeset 220a883ee884ff1bb94d4a38eb67fe1dbd22fe79
+manifest d388e95bccfcd3528e7259cdd400cace28dd4cff
+files extensions/spellcheck/src/mozInlineSpellWordUtil.h
+patch 193,194,

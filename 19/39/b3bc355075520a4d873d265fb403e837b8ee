@@ -1,0 +1,5 @@
+changeset eaf5b9ddb33ff66c6bbac6f56bc843cef293cf3b
+manifest fc974dead1d10850717171b23095856624a9d642
+extra source:e8d3a286f70ed10ad64ca62287115e55fe26c674
+files mobile/android/base/resources/layout/two_line_folder_row.xml
+patch 871,938,

@@ -1,0 +1,4 @@
+changeset 132a82aecdb37f9c1f325839d5c585e0c1df25e1
+manifest 3eec4a51d29b661b511ee7b9beb5204f0a2ee7e2
+files security/manager/ssl/src/nsNSSComponent.h
+patch 201,202,

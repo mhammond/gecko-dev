@@ -1,0 +1,4 @@
+changeset 80b01ead9803b251a97eed873fbb096b469a77c2
+manifest 62fb0d453b6b2f36af65f2f948f42adb37e02b3b
+files toolkit/components/prompts/content/commonDialog.xul
+patch 247,248,

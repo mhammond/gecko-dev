@@ -1,0 +1,4 @@
+changeset 06deb7bd6e66b4deb4ea4e9f9e20ff0b9ca9a415
+manifest abe6e1976c74446a2a36a242dcd1f90d3a15f3b5
+files toolkit/mozapps/extensions/internal/E10SAddonsRollout.jsm
+patch 246,247,

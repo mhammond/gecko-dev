@@ -1,0 +1,4 @@
+changeset a4a7d5ed6da1bfed15153f1ae975c633c975d72d
+manifest 152395e9a38378e1aaf77615141bc49413323f53
+files dom/canvas/test/webgl-mochitest/test_fuzzing_bugs.html
+patch 230,231,

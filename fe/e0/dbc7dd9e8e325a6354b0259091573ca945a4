@@ -1,0 +1,4 @@
+changeset 43b36e2a795100c375bb90ac474174e45e1b3c28
+manifest 1f99622d50e53640f8a0834b6406a03c0e2272e5
+files testing/mozharness/configs/b2g_bumper/v2.0.py
+patch 171,172,

@@ -1,0 +1,4 @@
+changeset ce2352df996ecdec5111a302648a179cf7390ed4
+manifest 619437d8f56882a906d927b3efcff1e6625290ca
+files dom/tests/mochitest/general/test_interfaces.html
+patch 281,282,

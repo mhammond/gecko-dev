@@ -1,0 +1,5 @@
+changeset 4b4d0a07ebbe03c70ac3363a60ec6506f1a3dc76
+manifest f69c9a2aea9e84d36c7b566ae18675b317383852
+extra rebase_source:b5213a23c7ff096924ad7a560b564fabbb0d01c5
+files toolkit/components/perfmonitoring/AddonWatcher.jsm
+patch 261,335,

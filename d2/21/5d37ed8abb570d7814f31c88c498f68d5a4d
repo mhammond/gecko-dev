@@ -1,0 +1,4 @@
+changeset bfd71b12fa01426b6d94d98cad60c2caec830269
+manifest acfd9c17f9d067effd5a29b4eb531f114d403431
+files netwerk/cookie/CookieServiceParent.cpp
+patch 183,184,

@@ -1,0 +1,4 @@
+changeset fb237e4cf9a22195ee505114136515dbab1626e1
+manifest f444af52e61fc02ee629df9406bcd029c0ef8581
+files js/src/builtin/SelfHostingDefines.h
+patch 217,218,

@@ -1,0 +1,5 @@
+changeset eadaa06966fefa5ea284da51a8d58ef2423edf47
+manifest 44241e792f1571a9827a16eadb9c58ed8df9579d
+extra transplant_source:*UFŠÅæ öWéëÚçf]
+files security/sandbox/linux/SandboxFilter.cpp
+patch 1102,1192,

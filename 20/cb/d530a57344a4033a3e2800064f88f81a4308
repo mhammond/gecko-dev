@@ -1,0 +1,5 @@
+changeset 8f25a6b0d8028424de401c2060a07ddc92737298
+manifest c3f1ffc1efb0b5a5792344ae5243fa39fc44e682
+extra rebase_source:e528a25426b61bea710337a02448e93c2ad2bde6
+files browser/base/content/socialchat.xml
+patch 309,383,

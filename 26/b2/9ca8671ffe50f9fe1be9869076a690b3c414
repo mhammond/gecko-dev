@@ -1,0 +1,5 @@
+changeset 918df3a0bc1c4d07299e4f66274a7da923534577
+manifest 1b0843775748d90aa8749037fa0d4d2ea43e3d49
+extra commitid:KVRr2YdF27V
+files devtools/client/inspector/test/browser_inspector_scrolling.js
+patch 208,248,

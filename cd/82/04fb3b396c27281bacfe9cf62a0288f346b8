@@ -1,0 +1,5 @@
+changeset 9e9ba7b85410185a32eb2448508439b756325091
+manifest 156ceb744fecb7bf26215a06ba3605e43f42b33b
+extra rebase_source:4dcd94c19f0b7f68787658e8937b2535fe37b39f
+files js/xpconnect/src/XPCConvert.cpp
+patch 324,398,

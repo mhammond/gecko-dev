@@ -1,0 +1,4 @@
+changeset b29a450986304336b987572c2aba383ff59929f7
+manifest bc93eebcb68c778e2a3c599b3abb09c3c31f63f1
+files browser/extensions/pdfjs/test/browser_pdfjs_navigation.js
+patch 520,521,

@@ -1,0 +1,4 @@
+changeset a6c0fe89e4b9d8e1ca4053bf614e6c2d11bd60bf
+manifest 8b5651c85ff1e9d459396a49a8f1d573f2e3ff69
+files mobile/android/tests/browser/chrome/chrome.ini
+patch 295,296,

@@ -1,0 +1,5 @@
+changeset 3dba6bf0b663a6ba2a3b79d74ab193e2d8c96a81
+manifest e2632f7751377298682d33d5ac60d19c090052cf
+extra source:9966dd2e2ccba8c2958e023abbf4a17972ae7cea
+files browser/components/originattributes/test/browser/browser_imageCacheIsolation.js
+patch 311,378,

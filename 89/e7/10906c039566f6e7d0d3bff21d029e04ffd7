@@ -1,0 +1,4 @@
+changeset 81134eb682a1a3064762c8edc34872fed3953cea
+manifest ec66ba001c0b17aca2db7cfa7373ece7c6a62cc4
+files xpcom/base/nsRefPtr.h
+patch 162,163,

@@ -1,0 +1,5 @@
+changeset 002e71897e08600cbf7fd8c71e2ea2d46c71d28f
+manifest bf6e5ff9a794d885b58939011e1ee70ba0676ac2
+extra source:c4fdd2f8e16795724da43434dc6a61e314005c93
+files devtools/client/commandline/test/browser_cmd_screenshot.js
+patch 331,398,

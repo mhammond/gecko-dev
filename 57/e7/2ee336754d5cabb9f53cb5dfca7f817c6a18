@@ -1,0 +1,5 @@
+changeset bbd6316e775c989ec9c594fa26419cc8df0953b0
+manifest 23025cbab93d8fb91058bf172a92c4f8d02347af
+extra rebase_source:c4cf829231757b3dc2c5ca821c7248dc3fb0d763
+files python/virtualenv/virtualenv.py
+patch 495,569,

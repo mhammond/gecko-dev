@@ -1,0 +1,4 @@
+changeset 2fd415490d4b314e4b21a46576e63fb466eed7d3
+manifest cb96111442d62e9ef9a77beac8a47101a8ce8eda
+files gfx/layers/client/ClientTiledPaintedLayer.cpp
+patch 291,292,

@@ -1,0 +1,4 @@
+changeset cc04ff0cdededd04de5ccefc35c98565ddf94f90
+manifest 792d355b03ca7722c5cfd809de9c5feb66ba7950
+files storage/mozStoragePrivateHelpers.cpp
+patch 366,367,

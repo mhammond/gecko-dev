@@ -1,0 +1,4 @@
+changeset 40bfe842058c5be36ce78871d845dcfdb081134f
+manifest e9bd673b5b4facb87238e9761ddbcfdfc7ca9baa
+files devtools/client/scratchpad/scratchpad.js
+patch 219,220,

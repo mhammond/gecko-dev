@@ -1,0 +1,5 @@
+changeset 4267a799727e687e28579f0f15661b80f6a882aa
+manifest 0c8976352542cb867d22052b3dd36b57e08b7045
+extra histedit_source:a07bc6793d299d036b9bbce8d420327ac7698f59
+files mobile/android/base/java/org/mozilla/gecko/home/activitystream/StreamItem.java
+patch 323,399,

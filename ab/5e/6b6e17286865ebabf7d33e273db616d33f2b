@@ -1,0 +1,5 @@
+changeset b15e1923f8e20627d28507a8e081c9df132a1c05
+manifest 5ec130d687dff8da825156ce93f3fe7335c0c93b
+extra rebase_source:b1c404789cb4afaa31b0da676ed66ad7cdbed7b4
+files python/mozbuild/mozbuild/artifacts.py
+patch 329,403,

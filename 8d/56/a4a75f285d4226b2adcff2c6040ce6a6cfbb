@@ -1,0 +1,4 @@
+changeset 7396fca9a6bf99b531ed12ca20311acbe9a39d2f
+manifest c2f6c5a235de8f6d838afa0e7c3ad0e27214d611
+files build/autoconf/clang-plugin.m4
+patch 368,369,

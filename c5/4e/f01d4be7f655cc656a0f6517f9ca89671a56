@@ -1,0 +1,5 @@
+changeset 4c066c1941b29cb81101867211f68fc6c75a2176
+manifest cbc8b23b79484a47c442b692654b262871e58203
+extra amend_source:b7c12c050a34bfc0cd867c7619a2be73e766bbfb
+files taskcluster/ci/legacy/tasks/builds/android_api_15_debug.yml
+patch 348,421,

@@ -1,0 +1,4 @@
+changeset efe4e96122a315acf68287bd597c00966631cd84
+manifest 4dde8bb24134aa36b653009e897a7f702e35b7f1
+files mozglue/linker/CustomElf.h
+patch 345,346,

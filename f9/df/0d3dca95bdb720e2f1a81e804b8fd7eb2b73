@@ -1,0 +1,5 @@
+changeset 6d227c4f173d3cf8365e1563a1ad7c3c64e93379
+manifest d84f9db9355c7ee8d932a1284b59afce6ffd4967
+extra rebase_source:fa580b69d1d96dc0631b626512273302647126f7
+files old-configure.in
+patch 362,436,

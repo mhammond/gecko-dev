@@ -1,0 +1,5 @@
+changeset 9ee862a030f350e481e3fa3a09d6dc28d4dbf591
+manifest f3db6a02a2352a0c58e4a7f4136b7cc129b77b11
+extra rebase_source:769e84bcaf45442af5a4ed14e249d8454b62198c
+files toolkit/components/prompts/content/tabprompts.css
+patch 305,379,

@@ -1,0 +1,4 @@
+changeset 2fc32f9ae54daaea040fe17d1c0ac453f2519c89
+manifest f4af49fb170dafb5e81199fe205776ecbbd1b9e8
+files rdf/base/nsRDFXMLDataSource.cpp
+patch 234,235,

@@ -1,0 +1,4 @@
+changeset 4657e5ff51866abc10d665dd4b2f676ab7cc14ed
+manifest b9bad7d1d3899c0b616afb18c474176cbbace799
+files dom/base/nsContentPolicyUtils.h
+patch 195,196,

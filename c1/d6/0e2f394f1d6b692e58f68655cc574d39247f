@@ -1,0 +1,4 @@
+changeset 2fc9cdda3a7db8fa9a7beb76125822d330fdb89e
+manifest 378413fdfb1b4d814fe2fd6a1e3f9ff5125be6a4
+files js/src/builtin/TypedObject.cpp
+patch 200,201,

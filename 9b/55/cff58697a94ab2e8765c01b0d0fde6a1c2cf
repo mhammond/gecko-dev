@@ -1,0 +1,4 @@
+changeset aa490cced7ba5e346a3f7144957dec2313af9ac6
+manifest c2b9ff90de1ac9ebb3299c11e9e51f9a0ffe90c4
+files js/xpconnect/src/Sandbox.cpp
+patch 205,206,

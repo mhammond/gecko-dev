@@ -1,0 +1,5 @@
+changeset 077edfcb00d45574f8aa47800e7620e3a51f0921
+manifest 2dc9ce41f97f856925ad6033d73e0a5edce07636
+extra rebase_source:90faea2c1b2ec357f71efa36c864e6819f407140
+files browser/components/newtab/NewTabRemoteResources.jsm
+patch 300,374,

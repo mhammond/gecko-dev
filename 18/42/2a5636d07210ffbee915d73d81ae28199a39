@@ -1,0 +1,4 @@
+changeset 528efd62f1c453b1739cadcc187be91d4fac07d0
+manifest 3718f388bf645f316006087b93aa1dd3f5809a39
+files addon-sdk/source/lib/sdk/content/worker.js
+patch 199,200,

@@ -1,0 +1,4 @@
+changeset 997d52fead8757b443d080c4c97b1d24984646df
+manifest c55623d09d1d2de0b692034cd759273f84cb0758
+files browser/components/sessionstore/test/browser_586068-browser_state_interrupted.js
+patch 296,297,

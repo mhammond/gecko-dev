@@ -1,0 +1,5 @@
+changeset 1167c42d21e42678418e3f303c5b31f4b6e8e098
+manifest 03e09e988d582fbe86302fdd70e25a7858617a5a
+extra source:0e1fd61689c689197d5a2b78634c0a64729d2599
+files browser/themes/windows/customizableui/panelUIOverlay.css
+patch 313,380,

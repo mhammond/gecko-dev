@@ -1,0 +1,5 @@
+changeset 82fb632252de2b13ac47500bc16f43d12e19eb17
+manifest b578f59ed17234752edc08d553fd6bc1747b8595
+extra rebase_source:a57d4e93b9334b5c571b05e0ef52f637a45432dd
+files testing/mozharness/external_tools/performance-artifact-schema.json
+patch 542,616,

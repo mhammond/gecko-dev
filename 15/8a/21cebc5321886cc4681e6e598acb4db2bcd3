@@ -1,0 +1,5 @@
+changeset 636655e9507907508fa1b4edd197a56c211acc4a
+manifest faeddc3087126c6e16dd55e2447b19b8e75ef7d0
+extra source:5bc06c379df71070a0eec512b8cc24fe8f733db1
+files dom/media/gmp/widevine-adapter/WidevineAdapter.cpp
+patch 484,551,

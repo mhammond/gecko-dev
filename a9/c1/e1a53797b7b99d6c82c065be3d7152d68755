@@ -1,0 +1,4 @@
+changeset 1f6f47627dbd8ad7533f6ad86b5b305015af740a
+manifest 8782894e888695ca6ced429a5b41c0b96b3a78cd
+files netwerk/dns/mdns/libmdns/MDNSResponderOperator.cpp
+patch 219,220,

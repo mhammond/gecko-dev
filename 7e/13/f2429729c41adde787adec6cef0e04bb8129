@@ -1,0 +1,4 @@
+changeset 575d3aa376b1c8e7507d94833f7b74bf963127cb
+manifest 9ce061c589cbdeddc6f0f5849b0bb795f59ac2f0
+files media/webrtc/trunk/webrtc/modules/rtp_rtcp/source/rtp_utility.cc
+patch 229,230,

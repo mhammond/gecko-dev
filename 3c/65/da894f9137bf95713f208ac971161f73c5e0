@@ -1,0 +1,5 @@
+changeset 3e95203b4cab68e55bc906c60f00f39d883d813d
+manifest eb32312437b95743232f2e22591ad86d363be03e
+extra source:16ee80b5d72716421a9aa088c942efee19b0109e
+files testing/firefox-ui/tests/functional/security/test_security_notification.py
+patch 349,416,

@@ -1,0 +1,4 @@
+changeset 2bbb24c27ad8a9cc8c6b1de1a09bfb3ebfb167c2
+manifest 4a4c98048d3d80d1d14bbdb40fd22127ea1a5046
+files dom/tests/browser/browser_test_new_window_from_content.js
+patch 241,242,

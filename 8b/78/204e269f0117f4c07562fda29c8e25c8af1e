@@ -1,0 +1,4 @@
+changeset eaee1c55f99c7e4910719aab51097ab29b7addfe
+manifest c61293e92591063300a505be37e03735aaa1ea3b
+files browser/devtools/styleeditor/test/browser_styleeditor_import_rule.js
+patch 247,248,

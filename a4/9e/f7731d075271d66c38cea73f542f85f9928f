@@ -1,0 +1,5 @@
+changeset 617559427df014717596246d8b0bc65ca81d6265
+manifest 5ddac884e84a8e42bb54637099f3dc014db26a71
+extra rebase_source:0aed7716ae70808ffa03980c318bf37dd93a987f
+files mobile/android/services/src/main/java/org/mozilla/gecko/sync/repositories/uploaders/RecordUploadRunnable.java
+patch 354,428,

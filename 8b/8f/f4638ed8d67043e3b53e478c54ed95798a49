@@ -1,0 +1,4 @@
+changeset efcc25c8a97f5abd653ebe4a7c8b177e3644de0d
+manifest 305c8d5c541573a7e7a5f8999b001165e0258184
+files js/src/jsfun.cpp
+patch 224,225,

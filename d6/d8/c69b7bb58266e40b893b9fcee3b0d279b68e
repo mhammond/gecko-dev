@@ -1,0 +1,4 @@
+changeset 0aa57628af27b14d6bba905d087498f2907302dc
+manifest 86e89a0955093e0f15cb4d539addb316556c3536
+files browser/modules/BrowserUITelemetry.jsm
+patch 173,174,

@@ -1,0 +1,5 @@
+changeset df062c00654d9e96407c7704bff9c4de5674d595
+manifest cc9a72629c94d50f4b6eca1ea79d4b23678f0cea
+extra rebase_source:eabbea6aa54d1637b8baba8b6ac4959a1e6025b6
+files dom/animation/EffectCompositor.cpp
+patch 510,584,

@@ -1,0 +1,5 @@
+changeset 4dfd7fba615739498c6246993ee40fd7f0ff6470
+manifest 23b4ae9e97ded5187c947b0df264796c6fdcaf6f
+extra rebase_source:797851f4f805ea0f34a72a838a9096b39e193e3a
+files toolkit/mozapps/extensions/test/xpcshell/test_webextension_install.js
+patch 357,431,

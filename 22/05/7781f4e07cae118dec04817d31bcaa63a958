@@ -1,0 +1,5 @@
+changeset b8c12e07420d6e92e58fc735593f0cb3bfd51dcb
+manifest 40e12e42df395238438d6b08e328c49ee4b5cf98
+extra rebase_source:d80ac46094c55281490659d622a4cdd8c2a95c86
+files dom/plugins/base/nsPluginHost.cpp
+patch 374,448,

@@ -1,0 +1,4 @@
+changeset f360053442df32d18cc105704272a10f70c2796a
+manifest 79d67f16bc30f63909a1d2555995323b6a2f404b
+files gfx/cairo/cairo/src/cairo-rectangle.c
+patch 218,219,

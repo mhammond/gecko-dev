@@ -1,0 +1,4 @@
+changeset 7b21c60c5eacc1b72303c9d631b07ce6aadd5880
+manifest d1ff862dc41bc96b95a892738b5c0ffe333be40d
+files mobile/android/base/GeckoNetworkManager.java
+patch 236,237,

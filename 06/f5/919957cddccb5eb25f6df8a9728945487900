@@ -1,0 +1,4 @@
+changeset 20611af1c1a43519f686ba76424d0a7a07ba1f72
+manifest 9bc714e47fbb23a29ba35b05ed302db0094dbace
+files widget/gonk/GeckoTouchDispatcher.cpp
+patch 203,204,

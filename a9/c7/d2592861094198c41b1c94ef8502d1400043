@@ -1,0 +1,4 @@
+changeset 2e601ce0f78e6d0ede50ffdfef93abb2b32525bd
+manifest 87b906642d160efb5e7ea871cc68a605fbd76bb2
+files memory/replace/dmd/DMD.h
+patch 232,233,

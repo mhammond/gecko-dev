@@ -1,0 +1,5 @@
+changeset 6d43a3e2a2c83cfeba17ee0562fa888a4b4405ed
+manifest 25aedea579898e81f7fa1d1d4783d4bf81929284
+extra rebase_source:e06ab164cdb3b1eb2cf94b8b0edac14084866970
+files xpcom/glue/nsTWeakRef.h
+patch 245,319,

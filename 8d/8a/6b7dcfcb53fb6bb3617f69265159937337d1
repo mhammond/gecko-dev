@@ -1,0 +1,5 @@
+changeset 50bc61f63b4ab17507f20ac20c6f6b8eb19d618e
+manifest 1ec53f1a1083a48c16ec685c63525fa80a972af3
+extra source:7f8b3ffa2ec5f205b778b5902abe47138066a7e3
+files uriloader/exthandler/tests/mochitest/browser_web_protocol_handlers.js
+patch 415,482,

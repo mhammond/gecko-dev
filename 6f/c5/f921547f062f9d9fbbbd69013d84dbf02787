@@ -1,0 +1,5 @@
+changeset 77d10212aea2fd3273f15ef015654a74f424d2dc
+manifest db860eb202677e1c3226d5bfb0c28d020c9a907c
+extra rebase_source:35498bf3202fb98863b5c44967ea28841ddf3f6c
+files dom/base/nsAttrValue.cpp
+patch 287,361,

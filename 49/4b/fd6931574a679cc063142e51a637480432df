@@ -1,0 +1,4 @@
+changeset 091ecddce6741f198b1b7eb0d72c9fd3c792d72e
+manifest afd5b36d109a1b4a42a3f03a11fc0be43d343cd3
+files gfx/thebes/gfxQuartzNativeDrawing.cpp
+patch 156,157,

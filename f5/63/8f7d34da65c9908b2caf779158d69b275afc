@@ -1,0 +1,5 @@
+changeset 775845e46f69aef00224deae6abfd39683ce93ea
+manifest 13d4e42066b217c1efbe801af07f7d56e1aff10c
+extra rebase_source:00f0eca38e1b27ef2529a0c4ec8a8538bc02cca1
+files mobile/android/base/resources/layout/activity_stream_card_history_item.xml
+patch 337,411,

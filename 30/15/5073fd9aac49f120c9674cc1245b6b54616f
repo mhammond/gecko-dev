@@ -1,0 +1,5 @@
+changeset c0a227502cb4297c7fecbb9eff3f3c9e769fab95
+manifest 18437f0169c2a443f9b9bdfd468c9b45ec21eed3
+extra source:d7218029d78d41639f23c32ebb8f75cd5a4173f5
+files devtools/client/netmonitor/netmonitor-view.js
+patch 336,403,

@@ -1,0 +1,4 @@
+changeset 35c796ac53bcb21fe5fe33c861d647439447f143
+manifest 9aaf93664e08cf277087b40ccd4b1e3d194d6290
+files dom/apps/src/PermissionsInstaller.jsm
+patch 226,227,

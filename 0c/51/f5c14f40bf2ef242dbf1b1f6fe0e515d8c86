@@ -1,0 +1,5 @@
+changeset ed3daedff60095e9616569bcfcfe69e78359d90c
+manifest 5fad2fc82bf1aa6ef6e279fa36f9cbc473e213d1
+extra source:7eda5d8e2da47a0ff4f15e6a4d20f1ca108e5931
+files xpcom/threads/nsThreadSyncDispatch.h
+patch 293,360,

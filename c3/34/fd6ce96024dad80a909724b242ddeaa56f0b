@@ -1,0 +1,5 @@
+changeset f728394b92ce7648e1c36498ef5793f28039dc21
+manifest b2127cf2ff74171cfd895e82bcfea565fedc7ca3
+extra rebase_source:76615b6f4cfab29220ffd0bf7fbdf2c5aafb3669
+files browser/locales/en-US/chrome/browser/migration/migration.properties
+patch 289,363,

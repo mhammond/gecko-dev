@@ -1,0 +1,5 @@
+changeset 86463ff0610badf08515ad5bc8540f2c1ff68a4e
+manifest a646b9ba919f1339f34b09e9d00fc776bc8e101f
+extra source:5a88d105f01b26b03504a9a05122a95965355989
+files media/mtransport/test_nr_socket.cpp
+patch 284,351,

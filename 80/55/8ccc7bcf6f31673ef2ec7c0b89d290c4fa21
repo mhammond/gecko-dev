@@ -1,0 +1,5 @@
+changeset ed0f8f33f1de959fd1d62495f42d98c2e217821d
+manifest fab431b8ddb72dedd012cc92b2036699412ee5a1
+extra source:e836cda145ecbbed58500735270f4518ced828de
+files browser/components/contextualidentity/test/browser/browser.ini
+patch 322,389,

@@ -1,0 +1,5 @@
+changeset 6b6a11198e59337a07ad7d548d0dcf421ddd46f8
+manifest 37f00935ec36aed53e6b306f3fa6c206ed6e28f3
+author stefanh@inbox.com
+files widget/cocoa/nsAppShell.mm
+patch 177,178,

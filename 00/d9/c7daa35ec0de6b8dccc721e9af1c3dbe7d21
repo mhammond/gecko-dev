@@ -1,0 +1,4 @@
+changeset 416257a77854f00da2c5938c724f2bbf6f3f6476
+manifest 0e4d68b1e0c5558f6503d911a56aff0bbdbdcc73
+files netwerk/cache/nsDiskCacheBinding.cpp
+patch 236,237,

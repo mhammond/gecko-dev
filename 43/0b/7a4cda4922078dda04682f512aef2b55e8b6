@@ -1,0 +1,4 @@
+changeset f614daf98a6ef7bba56af59c963b844741b55f3a
+manifest 072fb4fc8374f04c319f2f808e75d0679d0023b2
+files db/sqlite3/src/sqlite3.c
+patch 191,192,

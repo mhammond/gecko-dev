@@ -1,0 +1,5 @@
+changeset 12e1787d70fdf66525d8f8cfbcbb2bc4c5d82f55
+manifest 86b3be6c33abb7a056d41b5eb5a08cba1d402dc7
+extra rebase_source:4ef007395dc7eeae2287ef6ab119cadc3e896f20
+files gfx/thebes/gfxPlatformGtk.cpp
+patch 319,393,

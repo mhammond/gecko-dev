@@ -1,0 +1,4 @@
+changeset cdda1e9c607daea0717287db445484bf9593fca5
+manifest 7fabfaa888e7049f08c497368161f6dfe5b4e26f
+files browser/components/readinglist/ReadingList.jsm
+patch 216,217,

@@ -1,0 +1,4 @@
+changeset 7278397ba6dc99a35470f9792d60241098488162
+manifest e0d2b39cce656c92ef11fcf96c234320e947a4ac
+files browser/devtools/markupview/markup-view.js
+patch 202,203,

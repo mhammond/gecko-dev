@@ -1,0 +1,4 @@
+changeset 96ac19c0594f6632082b2e106ebac28ffd319d5b
+manifest a97efad1d3d12f1fc7daa93cf654df6d88fa516c
+files devtools/client/framework/ToolboxProcess.jsm
+patch 197,198,

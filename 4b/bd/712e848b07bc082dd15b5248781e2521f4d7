@@ -1,0 +1,5 @@
+changeset 0262393b42771cc570b55e5b6f31ef437cc6ea4f
+manifest 1aef06023d4f7b0e30291958ca1b0c251c98dd0e
+extra rebase_source:a7440dd14bb406afcd6ac1ec514bf0b188b5b2b7
+files mobile/android/base/java/org/mozilla/gecko/util/IntentUtils.java
+patch 593,667,

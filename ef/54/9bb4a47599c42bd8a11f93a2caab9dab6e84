@@ -1,0 +1,6 @@
+changeset da588e8f684e20265ec235132a8eb622ebb2fedc
+manifest f2c286888d30b49a2ece342cb87f03cb963299dc
+author jlal@mozilla.com
+extra rebase_source:6965712131b6672948dc279779b0e2f796a22cb8
+files testing/taskcluster/tasks/tests/b2g_gaia_js_integration_tests.yml
+patch 257,331,

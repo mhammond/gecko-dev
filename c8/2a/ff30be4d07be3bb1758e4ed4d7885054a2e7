@@ -1,0 +1,4 @@
+changeset e00b84844187e03a064d1f1f359fab02cbf841fb
+manifest e5d001be08400733c343ff3654e9e32c03881751
+files browser/components/extensions/test/browser/browser_ext_tabs_duplicate.js
+patch 358,359,

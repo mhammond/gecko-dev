@@ -1,0 +1,4 @@
+changeset 4b3a929c9249504adb088b24cc37ae7be06ba4ea
+manifest 92faa7ef6b04578bfb07abb1c3c5790c6d9c0365
+files browser/components/extensions/test/browser/browser_ext_windows_create_tabId.js
+patch 256,257,

@@ -1,0 +1,4 @@
+changeset 18fb8b26eb9b56ae67354a61098a9ad307a402c7
+manifest 65a830baf1ffb1b2a4b06d2c62f38d02e9fce69e
+files testing/config/mozharness/mac_config.py
+patch 267,268,

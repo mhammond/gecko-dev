@@ -1,0 +1,4 @@
+changeset db04c6b7a8231d62749b50e7a8821a36ab2635f8
+manifest ae23ee098aae6f4a1ccd71a628d32733e83ee391
+files js/src/jsworkers.cpp
+patch 162,163,

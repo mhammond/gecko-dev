@@ -1,0 +1,4 @@
+changeset 4a0dca1cb72d7b22a702a7e6188283bb0f99a6df
+manifest d647508886cee108cc9505f63a4bac10b34d4797
+files netwerk/protocol/http/AlternateServices.h
+patch 277,278,

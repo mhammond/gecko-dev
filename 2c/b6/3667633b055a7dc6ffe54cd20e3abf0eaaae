@@ -1,0 +1,4 @@
+changeset 35b1110960cb46b74d81462b3d06fb62b8234c93
+manifest 8cb88a97b68735dcc093a4dd8f37969fc8222be5
+files toolkit/devtools/server/actors/storage.js
+patch 223,224,

@@ -1,0 +1,4 @@
+changeset 8a2d680cecc382a2b03bcc6640bcfcdfef36b366
+manifest 1d6fe4e05afa5f85711af5d809e956f9dc2a91f0
+files gfx/skia/skia/src/ports/SkOSFile_stdio.cpp
+patch 204,205,

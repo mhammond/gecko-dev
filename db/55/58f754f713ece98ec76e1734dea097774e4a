@@ -1,0 +1,4 @@
+changeset 54b69944747bef315d444cabaa18a0f2a3d4f2ae
+manifest 05f0eba8250859ce7caa0e695c35d16d05cdcc51
+files testing/mozharness/configs/builds/releng_sub_windows_configs/32_stat_and_debug.py
+patch 340,341,

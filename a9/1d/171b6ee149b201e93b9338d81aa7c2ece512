@@ -1,0 +1,5 @@
+changeset 87bc0dcc8318f904e9ab853efd6b8f6783b920ee
+manifest 974e2469f92bdf4ceb9253187e88bab12c5b9831
+extra rebase_source:0c85e71ff12dad567bee4e64ddb147d6eb1399d4
+files toolkit/mozapps/extensions/test/browser/browser_list.js
+patch 383,457,

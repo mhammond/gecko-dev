@@ -1,0 +1,4 @@
+changeset 8dd58892051aba607be70663273a464a491f8f90
+manifest 8f5b4790a8034b6cee86d62dabdd665dd2a26421
+files testing/web-platform/meta/custom-elements/custom-element-lifecycle/types-of-callbacks/attached-callback-move-element-test.html.ini
+patch 348,349,

@@ -1,0 +1,4 @@
+changeset be2d231bcff3b1a8586f92b963a2d5be75424172
+manifest 75acca845c7c091658e580aa3f96a5c1cc60e0db
+files netwerk/protocol/ftp/nsFtpConnectionThread.cpp
+patch 242,243,

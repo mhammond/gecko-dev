@@ -1,0 +1,5 @@
+changeset e939b4e29de371cf1440dc24cafe16c8f060ac09
+manifest e03a58d492c7b96dc078a08e98ea499c232d9f5f
+extra rebase_source:af38f1c056e1bba147ca3d73a83230d697103d30
+files devtools/client/debugger/new/index.html
+patch 268,342,

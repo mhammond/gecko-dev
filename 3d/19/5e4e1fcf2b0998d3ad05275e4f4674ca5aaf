@@ -1,0 +1,5 @@
+changeset a1823d3e691960016d156ed062eb416d2d135707
+manifest 5852af255c33fcf60d3dab0f3a3bd39114f01715
+extra amend_source:798700a320878d440bac4a6af7a5438601f3fe36
+files mobile/android/base/java/org/mozilla/gecko/home/RecentTabsPanel.java
+patch 554,627,

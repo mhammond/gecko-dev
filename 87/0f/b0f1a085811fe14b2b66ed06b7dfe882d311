@@ -1,0 +1,5 @@
+changeset f210e5d1a38d3ce9fb0be640a86c7119fb34c94a
+manifest a37885007a7850dab84627fbfb21cd92ef202893
+extra source:9ed9514f571d2e3e8457641fce001a9da6181b65
+files dom/base/nsContentPolicy.cpp
+patch 256,323,

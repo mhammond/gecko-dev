@@ -1,0 +1,5 @@
+changeset 89d9fb5f381b6476267f2a79f889c63a4d9992ec
+manifest d0b3136409615054b8918cec931a91a46c85c791
+extra rebase_source:07acb80148409cc1d2918900a56e5d0210c157e1
+files python/mozboot/mozboot/centosfedora.py
+patch 416,490,

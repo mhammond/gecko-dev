@@ -1,0 +1,4 @@
+changeset dfe0380c25b72abc39623de2b01701d54b9c4827
+manifest a5149f85d0adefd854018c331690e9eab2c2cd62
+files browser/base/content/test/newtab/browser_newtab_reportLinkAction.js
+patch 229,230,

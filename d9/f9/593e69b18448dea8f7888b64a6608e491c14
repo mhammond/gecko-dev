@@ -1,0 +1,4 @@
+changeset d7f2811943d1d9ad929a77eb44d64ccd5a0c160e
+manifest 8b939212364a5571a91b87cd0bc61768fdd33346
+files security/manager/boot/src/nsSTSPreloadList.inc
+patch 200,201,

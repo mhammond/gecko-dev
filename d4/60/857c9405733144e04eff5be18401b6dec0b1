@@ -1,0 +1,5 @@
+changeset 5351257556f06ab75c88796b165d42347d54e61c
+manifest bd39f84fffa0b094a1053aa3087748bf3276dd6c
+extra rebase_source:495ec764ff035ec24a7c554469cb3837d8027570
+files gfx/vr/gfxVR.h
+patch 252,326,

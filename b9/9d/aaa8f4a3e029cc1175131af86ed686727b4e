@@ -1,0 +1,4 @@
+changeset 34428badfa6ab71c19948929dc436486192fa0dc
+manifest e3b639cb6682e7ade0bc59206db597f1bc47fb40
+files mobile/android/base/UpdateService.java
+patch 196,197,

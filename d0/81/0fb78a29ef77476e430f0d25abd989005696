@@ -1,0 +1,5 @@
+changeset 972342ec6e59fb73d589776cdddb53aa8d714c83
+manifest 7992f657ccef86bf11882e2eea7ae07e99b6215e
+extra amend_source:b31edd24d80921c6ad2da25f203dd2a373a5aeee
+files testing/taskcluster/scripts/phone-builder/build-phone-nightly.sh
+patch 436,509,

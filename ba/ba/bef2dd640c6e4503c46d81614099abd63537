@@ -1,0 +1,5 @@
+changeset c5c0de78a445cdd0875b723ed8849b9d087c3407
+manifest 5e373200d176725e33db8ad47154d9ea9de2be39
+extra rebase_source:4e93b0aca605427fa8adfe9a179bd93884a9a7c8
+files mobile/android/base/java/org/mozilla/gecko/home/RecentTabsAdapter.java
+patch 303,377,

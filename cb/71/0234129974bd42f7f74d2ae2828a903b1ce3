@@ -1,0 +1,4 @@
+changeset 28e7e3d470f1ad002bafc32526c1673508730104
+manifest e3a0895241fd7d8cd159b310bd56bfc51d6fa09a
+files python/mozbuild/mozbuild/test/action/test_generate_browsersearch.py
+patch 313,314,

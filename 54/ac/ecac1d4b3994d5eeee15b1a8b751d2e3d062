@@ -1,0 +1,5 @@
+changeset 5512762e8f132e0b16748ace9303165880c48c97
+manifest be924817a9cb02008dfce487472673100693a905
+author stefanh@inbox.com
+files widget/cocoa/nsLookAndFeel.h
+patch 186,187,

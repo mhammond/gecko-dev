@@ -1,0 +1,5 @@
+changeset 27b876dbafbb4a53558016b62473084be2e105da
+manifest ea078f87e2156d2e53af21fe65e8e27db469c7c9
+extra rebase_source:4d34a3a74f80d557458ca1f448cf15bf93fce190
+files mobile/android/base/java/org/mozilla/gecko/db/BrowserContract.java
+patch 307,381,

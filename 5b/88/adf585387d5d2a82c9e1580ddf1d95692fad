@@ -1,0 +1,5 @@
+changeset 760b6569fd2f7be03649ea9c32aebaae36665bb2
+manifest 1311bb5daf5b436e821d893f50921e8645aef24a
+extra rebase_source:61e7f5b8e5fa96376f55dafb7ef348e6692b57ba
+files browser/components/preferences/in-content/tests/browser_change_app_handler.js
+patch 359,433,

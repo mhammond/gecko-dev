@@ -1,0 +1,5 @@
+changeset 854c7d1e9d9406afe9d7c29cca838ba45239ddf6
+manifest 826401809d80c52ced6eddda97757c33d8139430
+extra rebase_source:b7626d635bc31e43332fd5b8af1967ba7f820731
+files devtools/client/netmonitor/netmonitor.xul
+patch 318,392,

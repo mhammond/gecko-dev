@@ -1,0 +1,4 @@
+changeset 757ec9880c5bd139fe29a376a75b3bba389bec3a
+manifest 799fd4349107580a2ab908befa2d60f24399bfe8
+files browser/devtools/shared/profiler/frame-utils.js
+patch 258,259,

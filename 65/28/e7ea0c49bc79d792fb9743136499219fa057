@@ -1,0 +1,4 @@
+changeset e29a4ef1fef040c318cf61247dd745f9ebf98e3f
+manifest e84e72c8aeac7fcacead227750a6220d40c0a553
+files js/src/jit/CompileWrappers.cpp
+patch 180,181,

@@ -1,0 +1,5 @@
+changeset 8d34a8fc28237b2c93e3ca57dcade68bfb9967c3
+manifest 7aed7c9f4f6cfc0dbe7dfee5cf32e27102b53817
+extra source:7b81b08f1899ccbe80e5146c8cbd00625c110f4a
+files toolkit/components/telemetry/docs/heartbeat-ping.rst
+patch 306,373,

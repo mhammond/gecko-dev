@@ -1,0 +1,5 @@
+changeset 355c1c918d74ab525046098887968650e0cf72a2
+manifest 02697b5612948eddc154b1a268cdf136bf0e4129
+extra rebase_source:22eefdc5ba28d36142b663c03f376045fcc542fd
+files mobile/android/base/java/org/mozilla/gecko/icons/IconResponse.java
+patch 463,537,

@@ -1,0 +1,4 @@
+changeset 9acdf39431fc0034073c9d9889b959ae3878daa4
+manifest 587aa4a0aa8a4995811016efb4445e67a9968b47
+files dom/bindings/SimpleGlobalObject.cpp
+patch 241,242,

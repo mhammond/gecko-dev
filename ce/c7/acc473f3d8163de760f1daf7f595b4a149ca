@@ -1,0 +1,4 @@
+changeset 83909aa7f4facafed634205b51b60d411695de3c
+manifest 3b33bb9048468796c139949102bbbe9d828b88e7
+files toolkit/mozapps/extensions/test/browser/browser_gmpProvider.js
+patch 238,239,

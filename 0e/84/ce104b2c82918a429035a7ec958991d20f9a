@@ -1,0 +1,5 @@
+changeset dbfd89fca407512297dc4140ce383edf73b6b776
+manifest 4ebd0377f541571b2e91126f9bdd39003316a1f1
+extra source:9ce4a72010fa5012941c19d91138659e24864470
+files toolkit/mozapps/extensions/test/xpinstall/browser_bug611242.js
+patch 309,376,

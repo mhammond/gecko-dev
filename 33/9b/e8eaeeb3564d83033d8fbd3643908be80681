@@ -1,0 +1,4 @@
+changeset 9e78d56f4c517b0c84bbee8d2540d629f4340255
+manifest 0e43a7f90555ce6ef4c6e992cfd4bc76a18b149d
+files browser/components/sessionstore/test/browser_sessionStoreContainer.js
+patch 415,416,

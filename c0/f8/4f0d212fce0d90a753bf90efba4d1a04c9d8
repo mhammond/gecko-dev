@@ -1,0 +1,5 @@
+changeset 4a470b936bf334846a980ecc3303b1cd8bcc3509
+manifest d1424754f7147c5c3a3860bc9903a46e0d6b942e
+extra amend_source:617498450c82cdafcfbd466f5287e840929a0dc6
+files dom/base/gen-usecounters.py
+patch 259,332,

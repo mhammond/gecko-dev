@@ -1,0 +1,4 @@
+changeset ae2217c25ceee746befcc7a1abeb0acb94bbd089
+manifest 9468d1ab079d582c216fd74bcdd696b1f0c2a725
+files caps/nsScriptSecurityManager.cpp
+patch 218,219,

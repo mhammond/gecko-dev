@@ -1,0 +1,4 @@
+changeset 1c97354afddb401db14c5c4a0bbd74c43b476370
+manifest addc5fe93e29ca67cc4e9cde9ee911d3c709654c
+files devtools/client/webconsole/new-console-output/test/components/page-error.test.js
+patch 271,272,

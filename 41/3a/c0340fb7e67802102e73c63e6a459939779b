@@ -1,0 +1,5 @@
+changeset f9278a331057d291c6163d80d352fa2f3bdd0976
+manifest bb5c6670332ae733e3856e3d744996bf45334e16
+extra rebase_source:692b8fa1b13cafc6db8f4e9de1b96ae7707bf663
+files browser/config/mozconfigs/whitelist
+patch 264,338,

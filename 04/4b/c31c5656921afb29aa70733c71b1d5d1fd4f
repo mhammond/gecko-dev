@@ -1,0 +1,4 @@
+changeset 4bb32ec5b75b10f528020a84cb2bcda21af4402a
+manifest a0d82192ba2e5affeb8c1f551d056dec0c37a0e4
+files js/src/vm/TraceLoggingTypes.h
+patch 230,231,

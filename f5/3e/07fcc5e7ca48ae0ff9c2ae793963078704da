@@ -1,0 +1,5 @@
+changeset 3c5e7423e4ebb0ad189aa07acb4427ea43e47ce4
+manifest 5ace5d0edc22b66d8b0bc17a9af5fcf1fc16e9a7
+extra rebase_source:76ad3993d50cb3dccca6b56652eec9568f5e5abb
+files testing/mozharness/mozharness/mozilla/taskcluster_helper.py
+patch 527,601,

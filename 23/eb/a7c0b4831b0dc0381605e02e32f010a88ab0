@@ -1,0 +1,6 @@
+changeset 823040191adc78b25f1c8ec6d0523c209b97598f
+manifest edd3bc0a4314be07cf747e7eb04cda0e0aa8dba3
+author Jorg K
+extra rebase_source:c937d52c3621b8323ae8275cfb8197dc260dcb7b
+files editor/libeditor/nsHTMLEditRules.cpp
+patch 218,292,

@@ -1,0 +1,5 @@
+changeset b01744f2d97d0d3c6bb5a53dc58c789a8baf00b0
+manifest f7d66ba38facdd2c4f6fcb5f808f294f0ad4e63c
+extra rebase_source:ce34dc3dbcfbb9463022f3019f167a58cb396ef3
+files testing/mozharness/external_tools/purgelong.py
+patch 638,712,

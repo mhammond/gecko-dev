@@ -1,0 +1,5 @@
+changeset c59c4d8fd67dcf4a489a27deeb7a111dcf91316d
+manifest fad7135db66a33c313325cb13eb4e28d0745f9f4
+extra commitid:5yH1rYnZLpS
+files devtools/client/animationinspector/test/browser_animation_timeline_takes_rate_into_account.js
+patch 335,375,

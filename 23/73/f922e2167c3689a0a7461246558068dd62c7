@@ -1,0 +1,5 @@
+changeset 4a9fe0c6168f83240416f0df1109f22486d94fdc
+manifest 87d786744a13ba7ef2b8bcd83f72ba2660699b89
+extra rebase_source:ad7cd6a3eb7ac84ad64b8589d9c81c8a08676150
+files devtools/client/locales/en-US/inspector.properties
+patch 324,398,

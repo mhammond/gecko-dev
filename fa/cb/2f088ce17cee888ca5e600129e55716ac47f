@@ -1,0 +1,5 @@
+changeset 65542739603b47543b728b90f6625ce37cab0b78
+manifest d883b52c877cba78ae6fcebd2e33c5260fb5dff8
+extra rebase_source:d0acf2ae074020fc8b1ffc1d51f80058b7f92c99
+files widget/nsTransferable.cpp
+patch 291,365,

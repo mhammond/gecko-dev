@@ -1,0 +1,5 @@
+changeset 21ba3bb55cb04f7b0feed36e5e4d90972ffd707b
+manifest cf93763c9b64d7cac9627dee839c74d1016e1908
+extra source:f4c2f277aeae7bf8b05c6b01d1e140cd51b693b4
+files dom/svg/SVGPathSegListSMILType.cpp
+patch 254,321,

@@ -1,0 +1,4 @@
+changeset 7c3a439aee1c9e5a35fe96d9864c0f741ccb6207
+manifest fe689c71c21db11703f9fbc4f2a8cf4d68fa7c71
+files build/autoconf/ffi.m4
+patch 341,342,

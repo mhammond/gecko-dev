@@ -1,0 +1,4 @@
+changeset 3d6fdabaf0610707d9a6578f49ff9a1340f71b77
+manifest 776be73edbaddd207d427b42b89d203e38f04264
+files devtools/client/animationinspector/test/browser_animation_refresh_when_active.js
+patch 314,315,

@@ -1,0 +1,4 @@
+changeset d59488b53753709f86b8f72d57b4a74eb67a58cb
+manifest 3662a201bb54f40a4f703b2fcd7bc7b16a37a20e
+files dom/bluetooth/linux/BluetoothDBusService.cpp
+patch 714,715,

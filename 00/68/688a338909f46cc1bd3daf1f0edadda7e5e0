@@ -1,0 +1,5 @@
+changeset cf7ac0a043f9d45fc4c852e26d1d59e4d1ee7468
+manifest 83193f4ad3c1ded17101afdcd748d3ea7034fab0
+extra rebase_source:26464185d98b7b616b4bb819f4c13f49d66e5d2f
+files widget/nsDragServiceProxy.cpp
+patch 244,318,

@@ -1,0 +1,4 @@
+changeset 20cf73b4c8f5f2c458bfcd1d06127f99f699b7a7
+manifest e232e4de8dc8bb91a2280168144e5a39af765893
+files dom/canvas/WebGLContextLossHandler.cpp
+patch 236,237,

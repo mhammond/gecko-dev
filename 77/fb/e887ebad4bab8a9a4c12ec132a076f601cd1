@@ -1,0 +1,4 @@
+changeset e7a439abc3b9b1bbf3b2da7e7ccd17c360f7eedc
+manifest 533a4553d3b3ac50de3001a978c536748e0030b7
+files dom/base/nsObjectLoadingContent.cpp
+patch 259,260,

@@ -1,0 +1,4 @@
+changeset e5bda2ebf1e444d4a608242f254ba82bf404e561
+manifest 39ca5b3579295d9ff5f7aa4da4a870c4b8dbb0de
+files toolkit/components/console/hudservice/HUDService.jsm
+patch 255,256,

@@ -1,0 +1,4 @@
+changeset 0437702044317bce21795031d42d5a8e2edff807
+manifest 8d32045dc405777143ee21dbcfe1f45a5f25a6c8
+files testing/web-platform/tests/fetch/api/request/request-cache.html
+patch 354,355,

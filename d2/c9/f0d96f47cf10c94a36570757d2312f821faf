@@ -1,0 +1,5 @@
+changeset 03553484a062c5361a8eed0a3c38ba8a3ed5f404
+manifest e79f410a8ee1c12dba0bca3c973dafcc972b8d5a
+extra histedit_source:cd7e8e1f7528a38a068e7ab5276aeda040075d74
+files browser/base/content/browser-media.js
+patch 569,645,

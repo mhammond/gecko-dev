@@ -1,0 +1,4 @@
+changeset a431f828cac9cb60705c8462529d760b5189617b
+manifest 8693d516a1d1881913ebadc2fab022f1089a8264
+files js/src/jit/mips/Architecture-mips.h
+patch 199,200,

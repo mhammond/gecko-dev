@@ -1,0 +1,5 @@
+changeset b07b3ad62e31cad6ece15192d2d61965c0ac186d
+manifest 64e7d2d84430deadbef85bd0115f7ca524a935b0
+extra rebase_source:6ab304eab2c306106b5383726fbdf73775c5060a
+files toolkit/components/extensions/test/xpcshell/test_ext_management_uninstall_self.js
+patch 578,652,

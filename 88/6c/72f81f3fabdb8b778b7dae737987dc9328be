@@ -1,0 +1,4 @@
+changeset 6847cbf4180aba4ece3fca0f1b719007ae598f5d
+manifest 17b2a876bc23b9f6cbb82e4fd51700f2370a0bc0
+files security/manager/ssl/nsIWeakCryptoOverride.idl
+patch 228,229,

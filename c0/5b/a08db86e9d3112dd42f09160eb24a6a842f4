@@ -1,0 +1,4 @@
+changeset 7d8cf5a0e17f36ba8c252deb2317f0827ef0b79a
+manifest b24ae3932b09912611c101f011a870976cadfb41
+files webapprt/test/chrome/browser_noperm.js
+patch 252,253,

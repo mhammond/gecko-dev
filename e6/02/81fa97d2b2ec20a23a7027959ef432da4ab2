@@ -1,0 +1,4 @@
+changeset 4423ce67bfb77ef8085afbb1f5159e4e0732d566
+manifest eafdf4280f8ab3b4635b680566a5dd8c28111e87
+files gfx/gl/ScopedGLHelpers.cpp
+patch 279,280,

@@ -1,0 +1,4 @@
+changeset 757bedb296720e765b867d885938d6c7f4d67195
+manifest 57a3663f73ae4c2259387784bdc8f29d9e13262c
+files js/src/builtin/TypedObject.js
+patch 223,224,

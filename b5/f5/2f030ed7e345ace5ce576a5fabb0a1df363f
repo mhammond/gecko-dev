@@ -1,0 +1,5 @@
+changeset 9bcb23d1e05ff8f67edafe4b124daaf3b261aeed
+manifest 604e01e4111f81c0356b697257dc8f9c5632a592
+extra rebase_source:c54c07a4e1d1d6933cfe5899d84a7f11ae4f99fa
+files dom/plugins/base/nsPluginDirServiceProvider.cpp
+patch 512,586,

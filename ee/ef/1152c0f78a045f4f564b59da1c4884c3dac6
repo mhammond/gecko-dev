@@ -1,0 +1,4 @@
+changeset afd29752788807ef5cb8917ba033eb7f00631039
+manifest c012165cdb3bc58b31742675af4d695a7d31183c
+files testing/web-platform/tests/service-workers/service-worker/fetch-event.https.html
+patch 252,253,

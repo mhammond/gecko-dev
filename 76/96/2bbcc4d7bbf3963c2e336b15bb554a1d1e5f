@@ -1,0 +1,5 @@
+changeset 87bd1283a5f442355f2ecb8fde5f29e4f4fe7ea6
+manifest ecf416879fce13c5c7ba02f11aed9955d21f95e2
+extra rebase_source:3128846af783b92848e69c6c840f652513cdf6ea
+files testing/mozharness/configs/builds/releng_base_android_64_builds.py
+patch 313,387,

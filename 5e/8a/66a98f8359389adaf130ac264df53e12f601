@@ -1,0 +1,4 @@
+changeset edd1c18b5a5b78ab1d0a32fd5d195f321c7e03fe
+manifest 289d2ae501ba9ba9bc2252c86607e99470f4cf14
+files js/src/tests/ecma_6/Class/extendBuiltinConstructors.js
+patch 229,230,

@@ -1,0 +1,5 @@
+changeset 3cc4a98864ad31001292b38c97df30962b9e94d0
+manifest 5e4ce9f00e46ad4959ee86652d76f1eb23be2047
+extra source:1ece2881d7b68ad3119803f1db6d66a4e403c5c7
+files dom/xbl/builtin/android/platformHTMLBindings.xml
+patch 442,509,

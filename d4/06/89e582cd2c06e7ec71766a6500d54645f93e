@@ -1,0 +1,5 @@
+changeset 62da552138459e86a7c25b1f2836e410454c5e5c
+manifest db73b6ecdf69bec5dc181d9c6756d94cf74aeb7f
+author ffxbld
+files browser/app/blocklist.xml
+patch 178,179,

@@ -1,0 +1,5 @@
+changeset c788233efce1cc3cfecb47e342d254ae6070f095
+manifest fb95f9737fab2aa628b419a56ec79874313a60a9
+extra rebase_source:cf3958ed6bb1c2eadf0aec8ed11e7564f3fbd04e
+files devtools/client/themes/images/emojis/emoji-tool-dom.svg
+patch 259,333,

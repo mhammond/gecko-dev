@@ -1,0 +1,5 @@
+changeset b2dd209a43df1379f9f7e7272032ec4b94585b32
+manifest 0617acd38d255a01e473f0de0efa05ff2e18ec71
+extra transplant_source:§ÛWzPCš=zHbBWBya
+files js/xpconnect/src/nsScriptError.cpp
+patch 686,760,

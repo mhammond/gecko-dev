@@ -1,0 +1,5 @@
+changeset 4d16f6389b493807621e5359c4a07b909f2c749f
+manifest ccdab23feab60414fb785a2eb4a0610aa8700010
+extra rebase_source:d23c2d2d2392be9ae6e9fdaf8d560d5af07f387d
+files mobile/android/base/java/org/mozilla/gecko/toolbar/ToolbarDisplayLayout.java
+patch 546,620,

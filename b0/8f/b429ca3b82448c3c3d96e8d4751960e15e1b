@@ -1,0 +1,5 @@
+changeset 67a206fb7107626477e8d7acc73dace82bbf8925
+manifest efc87f409245a89eb534ebc7ea7b6e3a5640b3c3
+extra source:0d6ceca760064871246118cf0b6f9a9bcb9b37d3
+files mobile/android/base/RestrictedProfiles.java
+patch 320,387,

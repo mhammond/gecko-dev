@@ -1,0 +1,5 @@
+changeset 28efbb818caab2aa5b3c5b2650204658c216e1a6
+manifest a790a624a8ffbef66afa874461fcd724ec31f020
+extra source:a7a050a4ec474c59cd861b3291aa2e30285050bf
+files mobile/android/search/java/org/mozilla/search/PostSearchFragment.java
+patch 286,353,

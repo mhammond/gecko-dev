@@ -1,0 +1,4 @@
+changeset f20718aff21591372d40a336c34bd8181dde950f
+manifest 07226d1e8d5b20381e1e0616f85a83c2793f6f25
+files dom/bindings/mozwebidlcodegen/__init__.py
+patch 262,263,

@@ -1,0 +1,4 @@
+changeset a8070e98b84cb555d2fd7a178ed09797b950b468
+manifest edfc528ed450799fcfcefd219f84aef472fd509a
+files js/src/jit/mips32/Assembler-mips32.cpp
+patch 220,221,

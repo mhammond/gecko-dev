@@ -1,0 +1,4 @@
+changeset db599457058b23ffdc6c29c17881e09772020d41
+manifest 3fd4867196b9ace889fb2dfa77d876d72685cefd
+files devtools/client/webconsole/test/browser_webconsole_bug_587617_output_copy.js
+patch 288,289,

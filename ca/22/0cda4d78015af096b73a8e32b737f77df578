@@ -1,0 +1,5 @@
+changeset a7ba739d20a99e0808eed568175aa9404f2b4929
+manifest 0b5b5ff85117d9bcfdff3074caf1c22e6dab7b69
+extra rebase_source:4cc04928bee921db2088af358439958d5d2fd6f5
+files accessible/base/nsAccCache.h
+patch 297,371,

@@ -1,0 +1,5 @@
+changeset e2a194964fa2ca4e44a6903511f69b4dbe3e3eb8
+manifest 3c493ad9a52c3d8328fcfbd61cd31cf6f495ede3
+author Russ Nicoletti rnicoletti@mozilla.com
+files b2g/chrome/content/devtools/hud.js
+patch 217,218,

@@ -1,0 +1,4 @@
+changeset 3008255b6821add3a7c732e0a5a7fe5cd4d12d1a
+manifest 229cd29a2cecda1ee4bb168380bae03166f18059
+files devtools/client/jsonview/components/text-panel.js
+patch 207,208,

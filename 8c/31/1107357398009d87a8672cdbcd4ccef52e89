@@ -1,0 +1,4 @@
+changeset c61a116595bf614cdd7f60a198d0b8aca6832eed
+manifest b34ea9d0744b10d3dd14c33f25c9a3013f9c41dd
+files mobile/android/base/java/org/mozilla/gecko/ThumbnailHelper.java
+patch 248,249,

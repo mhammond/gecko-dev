@@ -1,0 +1,4 @@
+changeset e261861b0270793790c798636324f55ee1a2aece
+manifest 505c460b00a3ee821f3a73e9c4d26c2fd4bc2213
+files dom/camera/DOMCameraPreview.cpp
+patch 241,242,

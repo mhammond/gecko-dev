@@ -1,0 +1,5 @@
+changeset 9f8fd7e733820fb04befc988fc3c7aa3ee359870
+manifest 58a28362b46db6b5bf5c9144a6093cc70f27bbb3
+extra rebase_source:226602edf823155fcf0596cfabf96e9842a2c212
+files browser/locales/en-US/chrome/browser/preferences/blocklists.dtd
+patch 350,424,

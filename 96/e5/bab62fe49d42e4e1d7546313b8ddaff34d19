@@ -1,0 +1,5 @@
+changeset 41b93aa0daecec1286d46f8b80f37d569ce7ad3e
+manifest e7be53d4742c3a02f19a861dec8500859cdabf24
+extra amend_source:f351b0b9b4a410254e969f645b18bf00446e9ba9
+files gfx/thebes/gfxBlur.cpp
+patch 254,327,

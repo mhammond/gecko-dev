@@ -1,0 +1,4 @@
+changeset 1f1002478462a57dd6c04fe49f67f99399932ec8
+manifest d0df9ac9e988066e6041fd444a86aed97947c833
+files js/src/tests/ecma_6/LexicalEnvironment/eval-has-lexical-environment.js
+patch 190,191,

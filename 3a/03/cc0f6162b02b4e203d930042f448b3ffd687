@@ -1,0 +1,4 @@
+changeset f4449c8ce9a82a4be98b0ab4b6be7c23c82f82c2
+manifest 317731e9c491ee9faf8d4adbff3667c9abf70421
+files mobile/android/base/java/org/mozilla/gecko/home/HomeConfigPrefsBackend.java
+patch 224,225,

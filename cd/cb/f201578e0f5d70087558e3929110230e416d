@@ -1,0 +1,5 @@
+changeset 182ac56399c47c0b5df657596db53064b107594d
+manifest 06a6a28313d4555bbbaffa777a946fb9e787f060
+extra commitid:HBFkFrdYLoe
+files testing/xpcshell/selftest.py
+patch 232,272,

@@ -1,0 +1,5 @@
+changeset cf2d25af848d9a290da06a8820809f036f5cfade
+manifest 440f30e69097458bfd6053f578b0fb6ee3f5fc28
+extra rebase_source:3ad5264175b1cc0532eb800224dd34ff75b885d4
+files toolkit/mozapps/extensions/test/xpcshell/test_system_update.js
+patch 563,637,

@@ -1,0 +1,4 @@
+changeset f21fac50a8cca34cf708d6acffca39e1d4d4e6d8
+manifest 6c9529072a04c8637681f00f5568801b38b7cba5
+files dom/mobileconnection/tests/marionette/test_call_barring_get_option.js
+patch 199,200,

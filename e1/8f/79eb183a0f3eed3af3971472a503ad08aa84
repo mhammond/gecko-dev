@@ -1,0 +1,4 @@
+changeset af72e3cf941f708a58ec68d1a4ba5dfe669e35c0
+manifest 79fe669329bcc711bf5a602e8a025e96e0dde50a
+files dom/tests/mochitest/geolocation/test_handlerSpinsEventLoop.html
+patch 332,333,

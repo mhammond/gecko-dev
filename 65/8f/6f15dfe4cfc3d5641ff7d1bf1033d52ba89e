@@ -1,0 +1,4 @@
+changeset b0b832ae931a785b9d2ea47e4154991737cdc51d
+manifest d76de252e1b44d092bdc225e5b515be80f55e459
+files browser/devtools/markupview/test/browser_markupview_keybindings_04.js
+patch 276,277,

@@ -1,0 +1,4 @@
+changeset 9286619fafa0907c79c0f4ac712ca09d10ddc4b5
+manifest 6a20fdd649c8d307708c13be4412b5a00888b871
+files js/src/tests/ecma_6/Generators/iterator-next-non-object.js
+patch 256,257,

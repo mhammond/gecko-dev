@@ -1,0 +1,4 @@
+changeset 93c07c3aeab9caa629df7039e07779632c97581b
+manifest e7487845165aab824ce8836bb63383f398204c9b
+files testing/web-platform/mozilla/meta/service-workers/service-worker/navigation-redirect.https.html.ini
+patch 266,267,

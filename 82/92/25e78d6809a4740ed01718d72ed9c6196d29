@@ -1,0 +1,5 @@
+changeset ae2bafad2ec2e5a2de35bce1b5e8939e8d26cff5
+manifest 790c8f4a789ed3a3eaa0ef82282ab04a98df8a74
+extra rebase_source:24968e6bc5f12c3aa5d53711ebbb7f849c4501c3
+files xpcom/glue/nsTextFormatter.cpp
+patch 313,387,

@@ -1,0 +1,4 @@
+changeset 6702685a691946eedbfdecc414c1d17f5768c57e
+manifest 24ff6db21d18ea726bdfec607ac67b869d586184
+files devtools/client/animationinspector/test/browser_animation_timeline_pause_button.js
+patch 253,254,

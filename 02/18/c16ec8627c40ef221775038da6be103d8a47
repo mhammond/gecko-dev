@@ -1,0 +1,4 @@
+changeset 3804df2cb8767956ca3f788589678aa012fd6ef2
+manifest 7efcd0e7c1dbea76d20de493855665adacb598b8
+files python/mozbuild/mozbuild/frontend/reader.py
+patch 305,306,

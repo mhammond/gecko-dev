@@ -1,0 +1,5 @@
+changeset db67e1188e8dd1d3a798d1bb9dae43c8a5e41abc
+manifest 299d43fac35261cf60ad81270064282323ece8d3
+extra rebase_source:e5062f184eb3032372417dcc21ecf1a8ce95c9bd
+files mobile/android/base/java/org/mozilla/gecko/home/CombinedHistoryAdapter.java
+patch 350,424,

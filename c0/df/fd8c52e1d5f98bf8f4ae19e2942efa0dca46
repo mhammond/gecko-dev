@@ -1,0 +1,4 @@
+changeset 83e1422aecc8b79316839b5bcbd16b859c2f0426
+manifest e2cde67bedb54aed4f858487c8c6079aa8f24014
+files docshell/base/nsAboutRedirector.cpp
+patch 830,831,

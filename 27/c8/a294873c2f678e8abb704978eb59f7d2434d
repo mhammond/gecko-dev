@@ -1,0 +1,5 @@
+changeset 7807b2f2c9e66575ba014db1dbfd604fd156408f
+manifest ba94e8f3093ef1175f0be02f8284f25c2b3d6569
+extra rebase_source:fe05c077c281578373504be753c81c686236e80d
+files mobile/android/components/LoginManagerPrompter.js
+patch 259,333,

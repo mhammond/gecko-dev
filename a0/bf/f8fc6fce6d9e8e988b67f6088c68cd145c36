@@ -1,0 +1,4 @@
+changeset f2f0e5491de5472f1ec4f1a744e48bbc946ab2d8
+manifest cdcb2a4500e70b938c5d47172d625b15b9fac9a9
+files devtools/client/styleinspector/test/browser_ruleview_authored.js
+patch 311,312,

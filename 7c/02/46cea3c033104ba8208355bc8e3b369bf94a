@@ -1,0 +1,4 @@
+changeset 33c62431dd8bfe268ee02c3c4fb4a6114c33b475
+manifest 5ab4317854ab246a3bbd1e38064bfcfa05aa7433
+files browser/components/customizableui/test/browser_880164_customization_context_menus.js
+patch 323,324,

@@ -1,0 +1,4 @@
+changeset a618e1216a024fc93bb851d5da516503d930856a
+manifest 5d78674795d2ba54cd3e1f9e8e30b449932cbd3f
+files b2g/components/RecoveryService.js
+patch 249,250,

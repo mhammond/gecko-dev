@@ -1,0 +1,5 @@
+changeset c06be43a960f65d518b5f26cab3275c52f4fe23b
+manifest 895482d7f421112c3a873026a6ffefa5e08724e6
+extra source:8ef4a877d2befeb88e96415a5d50466139d00c39
+files testing/marionette/event.js
+patch 296,363,

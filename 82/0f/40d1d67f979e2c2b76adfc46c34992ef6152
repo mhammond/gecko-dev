@@ -1,0 +1,5 @@
+changeset 37a28e758b41ed01d3bb11f7f2442b564c94f0af
+manifest 808b0d27e138277534428548fad8f68ddb88c8e8
+extra rebase_source:0a32fafb585dd84c3a84e1865ee06088832b2d0a
+files js/src/jit/RegisterAllocator.cpp
+patch 272,346,

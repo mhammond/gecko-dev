@@ -1,0 +1,5 @@
+changeset 94caa265bd0b720d6d69338f5e394cd85454a4ab
+manifest b5f7c4d206683d29c3eafeff17fd5a2473b68254
+extra source:2d5d44ba3a86cbe3ddd5fd52255c3c400019c211
+files browser/themes/windows/devedition.css
+patch 283,350,

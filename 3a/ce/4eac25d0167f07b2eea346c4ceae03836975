@@ -1,0 +1,4 @@
+changeset 72341fb355fa66c054b6a60ba35b2f87cbf65dfe
+manifest c83ba0d4adf60e07167cc8c405cec3886111077f
+files js/src/jit-test/tests/ion/scalar-replacement-bug1138693.js
+patch 234,235,

@@ -1,0 +1,4 @@
+changeset eb722868c67f2f1a6204e72a6246cf919475219d
+manifest 3eec2316319ef1f8b93f08f2730e4fe65c54455b
+files browser/base/content/test/social/browser_blocklist.js
+patch 231,232,

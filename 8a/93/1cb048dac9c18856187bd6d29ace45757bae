@@ -1,0 +1,5 @@
+changeset 3370d5a24a152c674e8c854cd5c6fcb0654128a2
+manifest 9ab9fcb50448808bec9a91ea247fff16298d27c0
+extra rebase_source:6a59a8e4082e668f639998e12be0d06be6690158
+files devtools/client/shared/shim/test/test_service_prefs.html
+patch 306,380,

@@ -1,0 +1,5 @@
+changeset 3831045422d68db23095872305a304be175e8f1e
+manifest 53178591dcdfa2c0e411b39de88baec7a76489ce
+extra rebase_source:ec8465f6b4e1f02879b8aad8db46d794e110771a
+files netwerk/dns/nsDNSService2.cpp
+patch 242,316,

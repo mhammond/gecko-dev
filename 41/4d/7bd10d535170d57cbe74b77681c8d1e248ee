@@ -1,0 +1,5 @@
+changeset 3aca4d524d15d368e38aa03131842974aa00cecf
+manifest a7e8bb1d44d26eeb5465cd7d4e4ef35022460197
+extra source:9f1d90aba921ee9dd7aab50faf299f319070b135
+files security/manager/ssl/tests/unit/test_signed_apps/nss_ctypes.py
+patch 283,350,

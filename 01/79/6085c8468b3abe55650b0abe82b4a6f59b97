@@ -1,0 +1,5 @@
+changeset a1cda9db9b8e3764438cf5d0bc07e9f9ef87552f
+manifest 6f0fe02f4c22fb5efe6d5be34a7ebc0f96f5655b
+extra rebase_source:b32f0ad1c82792fea0bf8284b723b3575fb4a950
+files toolkit/content/aboutSupport.js
+patch 257,331,

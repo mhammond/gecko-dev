@@ -1,0 +1,4 @@
+changeset 4c79e93a6da8b708c909cac3a5d8bc68bbd555b6
+manifest 6ccb6d918d1463ee892b4b2d9e55331223cdd671
+files js/src/threading/windows/Thread.cpp
+patch 172,173,

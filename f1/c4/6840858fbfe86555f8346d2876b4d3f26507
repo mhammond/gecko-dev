@@ -1,0 +1,4 @@
+changeset f50e5e0434602466ed1680193c02b4f9d95f8237
+manifest 347748366e10d2ec1fa6d0b6c8f96f5cb99f3a27
+files extensions/cookie/test/test_app_uninstall_cookies.html
+patch 256,257,

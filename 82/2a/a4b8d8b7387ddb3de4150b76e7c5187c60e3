@@ -1,0 +1,4 @@
+changeset cca249d09ef600650e6127c18be438a37e9d4587
+manifest 30e7bc84bcc2b3532d63fbd785a0894e53bcfb56
+files xpcom/components/Module.h
+patch 620,621,

@@ -1,0 +1,5 @@
+changeset ed1bcfdd4a7c07224cc8f9d153488489c688936d
+manifest ad31e92e2dcb73d7e57ba5c985f6265742aef371
+extra rebase_source:40dc0b4141079cd2fc66ae3e39e66e5fde1ae10c
+files netwerk/base/nsIRedirectHistory.idl
+patch 224,298,

@@ -1,0 +1,5 @@
+changeset 57647be72e76cb9c8b8ea6069c6d53362c9892d9
+manifest 7d4d140d7bf424b90665001ff0a7a62d767147f6
+extra rebase_source:f7c9bd97aa2ab17847844c2a4a24ffed6b450c3d
+files media/mtransport/nr_socket_prsock.cpp
+patch 291,365,

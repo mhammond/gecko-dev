@@ -1,0 +1,5 @@
+changeset 05bd2af568e227f30bd4104a00f9939e8927140e
+manifest 5cd7a2de84ae26fe4a19b1181998d70d824759ce
+extra rebase_source:d4c6d8d9a1faabbc690377397e2b1ab3efa1768b
+files dom/bindings/DOMJSClass.h
+patch 259,333,

@@ -1,0 +1,5 @@
+changeset 4f4c042c6d3a6d393b6b26f789fb087648a2cdcd
+manifest 35909d110047ac93827cceee2452dea616cd1467
+extra rebase_source:ca4d914285e651fe4fec1cd032e3106c8fc3a5b3
+files security/manager/pki/nsASN1Tree.cpp
+patch 289,363,

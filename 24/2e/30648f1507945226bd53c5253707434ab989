@@ -1,0 +1,4 @@
+changeset 0ef9688da1b6dfb9b56fd8bf4aef557681e3f4e6
+manifest d1843f5c82d7bf87a44e882b246f3beb0a72f511
+files toolkit/mozapps/update/updater/automounter_gonk.cpp
+patch 245,246,

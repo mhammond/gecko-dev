@@ -1,0 +1,4 @@
+changeset cf4a9671af2cf5149dacd8cb9f9d087c8fb106d0
+manifest cbfc6656f0261fc51ed41cf285dc129df0831106
+files testing/docker/desktop-build/Dockerfile
+patch 337,338,

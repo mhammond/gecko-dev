@@ -1,0 +1,5 @@
+changeset 8d34b61fbfb395d6816c45dcc1f45901e627c478
+manifest 1760ba74296b8665b8ffb1e300a9ae5d1d8144c6
+extra rebase_source:ef4a22423721d4ae2bc6449c56a4d5a4a0b465c0
+files browser/base/content/test/general/browser_bug495058.js
+patch 358,432,

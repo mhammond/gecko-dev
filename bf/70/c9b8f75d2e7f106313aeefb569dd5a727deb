@@ -1,0 +1,4 @@
+changeset f7fd4165f57668b6fff6fc024957e357362ac83a
+manifest 6c0e847feff63062afe3a11b198e502ee8b892e9
+files devtools/client/responsive.html/test/browser/browser_resize_cmd.js
+patch 324,325,

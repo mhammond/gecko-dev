@@ -1,0 +1,4 @@
+changeset 86d816333f8f38e21c134ca7e55bcedd2aba2314
+manifest ea6e6a2ab7b21a988a3a78c255075feac857537f
+files js/src/jit/mips-shared/AtomicOperations-mips-shared.h
+patch 303,304,

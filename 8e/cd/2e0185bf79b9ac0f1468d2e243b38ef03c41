@@ -1,0 +1,5 @@
+changeset 2387bdf529370634478acd4b91cb778cf1552f92
+manifest bd73b83fbc8dc06aad821746b24d257fdf43e962
+extra commitid:8QYBTLrwK4f
+files testing/mozharness/mozharness/base/python.py
+patch 533,573,

@@ -1,0 +1,4 @@
+changeset 738e72f8b1ec4c627cbc622731d44cdc4608fc52
+manifest f9949aa566d12e25cb253fc6a8b3fe6a0a5460c4
+files browser/components/readinglist/ServerClient.jsm
+patch 266,267,

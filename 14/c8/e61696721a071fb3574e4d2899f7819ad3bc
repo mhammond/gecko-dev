@@ -1,0 +1,5 @@
+changeset 589a089f902c56305a9c1b2865b3c1ce37311325
+manifest d14aeb3c822b8f3e7f31e9d6fc5afbd3f36fe48a
+extra rebase_source:706671be294f2a216d2932d09507abcbafcc2419
+files mobile/android/base/java/org/mozilla/gecko/icons/storage/DiskStorage.java
+patch 344,418,

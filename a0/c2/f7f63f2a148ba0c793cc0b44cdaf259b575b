@@ -1,0 +1,5 @@
+changeset cc1f8d92df306ae0cb9bd2cdf272037419b4ad66
+manifest f4a074b9610371ed9c786f6242b29bfd6b820b13
+extra source:6e61bbb4c032837e3874f9f6bbe60381b7e6ce34
+files browser/themes/shared/aboutNetError.css
+patch 284,351,

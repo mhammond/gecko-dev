@@ -1,0 +1,5 @@
+changeset 1bbfacda02d2fc715ef47f46724e48733f0db357
+manifest cc993f5be860a23b44dab88dedea17ea9628014e
+extra source:0bbbc90a1dc51b12b225fb504c4ddcc9f715e964
+files embedding/components/find/nsWebBrowserFind.cpp
+patch 253,320,

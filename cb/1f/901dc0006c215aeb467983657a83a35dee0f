@@ -1,0 +1,5 @@
+changeset f859157882d6d3e9a4eaa8ee2e0d8ab3f6d9d5a7
+manifest 975f55a8bd67dc909a07de7ce745520cd990a5d3
+extra rebase_source:21b0515c238752734706939f653e9637ce8d5e48
+files mobile/android/base/java/org/mozilla/gecko/ScreenshotObserver.java
+patch 325,399,

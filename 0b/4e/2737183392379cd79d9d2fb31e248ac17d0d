@@ -1,0 +1,5 @@
+changeset 02d2f37a90ccdaa228dce857803a4cf3c04b2f2b
+manifest 187694cf2363fadbf14c518be0b61b14f97d5812
+extra rebase_source:4ddd8c73f34e5ae00982a6a238955ddcf081af63
+files layout/forms/nsImageControlFrame.cpp
+patch 281,355,

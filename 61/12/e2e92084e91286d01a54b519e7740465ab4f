@@ -1,0 +1,5 @@
+changeset cab241354c10ab5e220082e80bf52505969fe6cb
+manifest 58648260ed9c91228fbf65c82dd4dc8801e7ef0d
+extra branch:GECKO4501esr_2016031518_RELBRANCH
+files tools/update-packaging/common.sh
+patch 287,339,

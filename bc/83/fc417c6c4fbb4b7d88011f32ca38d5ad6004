@@ -1,0 +1,4 @@
+changeset 688e27618992945b5d09d2590d6ad6e8346f6181
+manifest a1435bef7692222e54ca3ce0f5a6e251b398de23
+files gfx/layers/d3d9/CompositorD3D9.cpp
+patch 325,326,

@@ -1,0 +1,4 @@
+changeset fd962b9ed5705fdaf618a3f4a24d02580548c771
+manifest 2ac09279edf1bef3dc47529dd3b533968e61c53e
+files browser/components/loop/content/shared/libs/jquery-2.1.0.js
+patch 183,184,

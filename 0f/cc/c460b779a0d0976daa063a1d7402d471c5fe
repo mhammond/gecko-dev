@@ -1,0 +1,5 @@
+changeset f48fbe4116507315b13ddf3e1861d74c15d72550
+manifest 5d2318712db333f61c1195b94b4d9832a2416f35
+extra rebase_source:3394613dbaf1b49bf9dc16086d0bd0ae870d89b9
+files browser/components/feeds/FeedConverter.js
+patch 250,324,

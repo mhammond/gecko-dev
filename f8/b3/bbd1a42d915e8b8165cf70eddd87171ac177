@@ -1,0 +1,5 @@
+changeset 35fd9a50d358b5144efeb9e9dab94dc3eb757b42
+manifest 7873f773de30ada6b7a0bd4373b09e55cd484de8
+extra rebase_source:82587d7c2f1798f1ceb5dab708740e2bdfb62af3
+files browser/config/tooltool-manifests/win32/releng.manifest
+patch 671,745,

@@ -1,0 +1,4 @@
+changeset 94fd0d06da835ad2ae26514c44883861f2f62be3
+manifest acd897d9e2bfafbca64043e9dee1756b90810eaf
+files browser/components/uitour/test/browser_no_tabs.js
+patch 247,248,

@@ -1,0 +1,4 @@
+changeset b9e59028b304ff8f2d765d0659f2bc988a6c8f35
+manifest 0e3b7690797650d308dbece9768996fe0d0c9e02
+files testing/mozharness/scripts/desktop_l10n.py
+patch 236,237,

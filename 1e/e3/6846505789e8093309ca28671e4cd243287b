@@ -1,0 +1,5 @@
+changeset 7e8989ae11c663f1b47c8586ba4b29903a5095fd
+manifest 77ac4aa225dce8b9df93819798a04cbdcc80a10e
+extra rebase_source:7fc23a88cb46eefd373a08898fbedfaa40c346fb
+files layout/svg/nsSVGPaintServerFrame.h
+patch 281,355,

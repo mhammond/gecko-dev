@@ -1,0 +1,4 @@
+changeset ea80b6e8293b6031a3a3f233c3c97d0fa845e6fb
+manifest 2ea8c483367b35c82faa6c88fdc8e7f85a5c75b2
+files gfx/layers/opengl/ImageLayerOGL.cpp
+patch 219,220,

@@ -1,0 +1,5 @@
+changeset 85992f47a30eacf8c8a1ed80775ce71195fd63b8
+manifest 68edb214238c70fd6b0acefaec1755cd58bf7ad4
+extra rebase_source:2e7844e88e759586e1d45c4baad45511bfe8a469
+files testing/marionette/modal.js
+patch 273,347,

@@ -1,0 +1,4 @@
+changeset 39ed3ebef3861dba33fa5cd6ddfbabf4d220f7cc
+manifest 47ef07c50e820549ec7f5784504f364bec98e87c
+files browser/base/content/test/general/browser_relatedTabs.js
+patch 280,281,

@@ -1,0 +1,4 @@
+changeset 5d7db5bac978cd9097c5bd65c718e362e29bf122
+manifest f37e4a84c54eb67f2584d6d930b492cbec5fe0ca
+files browser/components/preferences/in-content/privacy.js
+patch 306,307,

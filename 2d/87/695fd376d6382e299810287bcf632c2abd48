@@ -1,0 +1,4 @@
+changeset 07585bbe0c8fb528e6103ca46b0b243019bf61c0
+manifest 47b2004f5820577fb1e1392fc04fac01b9d59603
+files devtools/client/webconsole/new-console-output/test/fixtures/stub-generators/stub-snippets.js
+patch 271,272,

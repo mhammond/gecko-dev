@@ -1,0 +1,4 @@
+changeset af8f2955805c64fb6990262e8eba8165e185a0e5
+manifest 9d154c3deeab7edf3cfeaf5a437cb8e312288e69
+files dom/telephony/TelephonyDialCallback.cpp
+patch 189,190,

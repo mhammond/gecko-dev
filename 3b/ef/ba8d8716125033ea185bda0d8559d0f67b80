@@ -1,0 +1,5 @@
+changeset 0b4c10ce8f3ddd30f5c7676ae72632e97160c005
+manifest e4cc06bdbdd3276f8d33bf7d1a4499d9dc4259db
+extra rebase_source:4434b1df5585b650c2c5285e18aeace98c80e0ab
+files dom/browser-element/BrowserElementChild.js
+patch 295,369,

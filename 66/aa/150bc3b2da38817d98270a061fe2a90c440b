@@ -1,0 +1,5 @@
+changeset ab04f30a87328cfa9a1305712454809e5c34f59d
+manifest 30c84b4eb4517cfda624398877d857bf664c7216
+extra amend_source:0acea47a18c3a40be6e7fe50db1c71bc9dd91b3a
+files dom/security/test/csp/test_child-src_worker.html
+patch 318,391,

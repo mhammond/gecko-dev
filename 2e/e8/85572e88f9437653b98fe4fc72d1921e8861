@@ -1,0 +1,4 @@
+changeset 9056b43dc7b12acb9a1bf9178561f28b3ffccf51
+manifest 41ff238de16cb9372bffbe5534545e6e07062ba0
+files build/moz.configure/checks.configure
+patch 281,282,

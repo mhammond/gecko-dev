@@ -1,0 +1,5 @@
+changeset 0c771aa45448454de73152774798cf9bad406f27
+manifest 047e9a995dddc9caeeef93c3fe19c3ff099520c8
+extra rebase_source:98941b1dfe531083866a853fcdcc39679f2bc87e
+files js/src/jit/none/Architecture-none.h
+patch 241,315,

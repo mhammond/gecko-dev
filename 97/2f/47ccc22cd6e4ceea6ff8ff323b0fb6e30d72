@@ -1,0 +1,5 @@
+changeset 7fb240e0de42aa35bb051a39a5d6f937438920db
+manifest c8f38689a9ba6c77c5a81cefcad0fe33feba893b
+extra source:61b7d2351dd2ed50789df8aed472ee0af1e06829
+files browser/themes/osx/devedition.css
+patch 296,363,

@@ -1,0 +1,5 @@
+changeset 30883d70b037646afbba598111dc7b48d066155f
+manifest 78d3d76647793a7e9e2c047249cb529a5bd4a0af
+extra source:f29d0f7b017e6647f93c6980e14f57c546ec6c33
+files browser/extensions/loop/bootstrap.js
+patch 289,356,

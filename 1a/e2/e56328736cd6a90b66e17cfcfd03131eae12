@@ -1,0 +1,4 @@
+changeset 41520f8116c0ce5a80efc51e04f1af749205e648
+manifest e17c90a03fdabeefb571a84bb0b16d730b866cb7
+files testing/mozbase/setup_development.py
+patch 213,214,

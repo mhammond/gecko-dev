@@ -1,0 +1,4 @@
+changeset ec99404c8d3d18a68114987356bf0cd640dd963c
+manifest 9541aea80066f3d615a93985ed5a0aa9b442bbb4
+files xpcom/threads/nsEventQueue.h
+patch 477,478,

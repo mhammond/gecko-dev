@@ -1,0 +1,5 @@
+changeset 90854a5e168707ba2d5958ddcb5f34eb3fb2cedd
+manifest 2455fa1e2767cdebaef07384cf4ce369bc007751
+extra rebase_source:95c8b75f832c76dad942c4d594ae3855250cd88b
+files browser/components/extensions/test/browser/browser_ext_commands_onCommand.js
+patch 323,397,

@@ -1,0 +1,5 @@
+changeset 824355c9efe23d83f7e67a4b2c9e0e837f7c7771
+manifest c050d831581457ad191d31165f2ef053d1e90d72
+extra rebase_source:e969bc1ad46120509deec31066ea63ebbb7de9c9
+files devtools/client/webconsole/test/browser_webconsole_bug_597136_network_requests_from_chrome.js
+patch 652,726,

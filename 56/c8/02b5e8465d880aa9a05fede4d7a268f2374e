@@ -1,0 +1,4 @@
+changeset 764c86198573e102dd4fdc2c48a6e760dcdfe882
+manifest f9c4f675446f01684667d00af487a985481cba0a
+files browser/components/extensions/test/browser/browser_ext_tabs_onHighlighted.js
+patch 295,296,

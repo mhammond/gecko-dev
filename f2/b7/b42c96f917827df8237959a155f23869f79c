@@ -1,0 +1,4 @@
+changeset bafd3cf3970490e029351e6befa56667f568f85f
+manifest 13f2632d6dc23fff0570e6d0804d9ea6f8b80d64
+files devtools/shared/webconsole/network-monitor.js
+patch 617,618,

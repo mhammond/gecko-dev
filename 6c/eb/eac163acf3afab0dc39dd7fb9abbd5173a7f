@@ -1,0 +1,4 @@
+changeset acdcbd858ac363bd6feca72022d4cc8c370a604f
+manifest fde3e78d251354a38f16badfb98c309b9b73e98d
+files dom/battery/BatteryManager.cpp
+patch 286,287,

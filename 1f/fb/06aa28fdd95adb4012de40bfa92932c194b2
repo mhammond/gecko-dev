@@ -1,0 +1,5 @@
+changeset 3f2af35fb884b1b50ca9d6d2a418a9f3e194f00e
+manifest f99cdcbf923feceb2e6fd4d361a00433991348fc
+extra rebase_source:2a522a3a2dd8e9c5e8ab53900ff2312084d7bacf
+files mobile/android/search/java/org/mozilla/search/autocomplete/SearchBar.java
+patch 439,513,

@@ -1,0 +1,4 @@
+changeset b398efe8d73ae1e4592539bd0b48cafb538c73a5
+manifest 26008028e4a4e59c42c94dbf6ee757c3d14bfc32
+files editor/libeditor/SetDocumentTitleTransaction.cpp
+patch 294,295,

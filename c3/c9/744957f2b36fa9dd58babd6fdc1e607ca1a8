@@ -1,0 +1,5 @@
+changeset daf166cb192a1d04c7a2703d89b5c626f356c070
+manifest 5aaf1b735f6cd521da5f4a0f9a8998216f3d7874
+extra rebase_source:6ba7923359786c4ccd7f4d29664a8567e253e0cd
+files toolkit/mozapps/extensions/test/xpcshell/test_delay_update_webextension.js
+patch 592,666,

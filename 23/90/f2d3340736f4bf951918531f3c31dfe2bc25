@@ -1,0 +1,4 @@
+changeset 9432c30af5bdcdf78947610c2b371c4b5e71c835
+manifest 611e3af7243d3621e517b0ae3518d34b3bf2462d
+files browser/devtools/markupview/test/browser_markupview_navigation.js
+patch 289,290,

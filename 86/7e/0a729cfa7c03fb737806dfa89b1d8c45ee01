@@ -1,0 +1,5 @@
+changeset f59d1f7941b0b7358d6fa28179d60280ac2844b9
+manifest 8929adf9ee2f375b1accf88f88c6b35f7bc4ced0
+extra commitid:HWAUxtgFGto
+files testing/mozharness/mozharness/mozilla/l10n/locales.py
+patch 250,290,

@@ -1,0 +1,5 @@
+changeset 08001161f0d1ce3bd8f9cbeba4a256659a5866e7
+manifest 374e5df80a4ec2b94474b219a8b98af116c38395
+extra source:791cc18c90be2f6ecb12de64a344feb86b34f191
+files taskcluster/ci/android-test/tests.yml
+patch 244,311,

@@ -1,0 +1,5 @@
+changeset de45c37454922316fb452f90b11f3b24ef6956dc
+manifest 93958566f9e465d0faa85be077b7206d904f0034
+extra commitid:4MmsATsPR5X
+files dom/security/nsCSPContext.cpp
+patch 172,212,

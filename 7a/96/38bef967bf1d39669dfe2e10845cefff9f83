@@ -1,0 +1,5 @@
+changeset eaff251cdd9d2fbc11cdc39f4c01962c00095854
+manifest c6e51683d47e78314e73f80793fa7bcb9cf4238a
+extra rebase_source:b655bc3c2928c18ab8ed3fb170926ea8213a122b
+files media/webrtc/trunk/webrtc/modules/audio_device/linux/audio_device_alsa_linux.cc
+patch 308,382,

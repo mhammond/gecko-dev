@@ -1,0 +1,4 @@
+changeset d03852230a32f2eaba331655823c3c814bdac179
+manifest 47ab8c03b9cdd4fbfc094fcc059f5b157e5137e3
+files toolkit/components/osfile/modules/moz.build
+patch 239,240,

@@ -1,0 +1,6 @@
+changeset 242b569273dca496bf1232d1d2e075e6ed45cebe
+manifest cc8dbb68f272aa50f92cc409441899a949d81449
+author jlal@mozilla.com
+extra histedit_source:1dc17e260324f651ae71af10af6eb30ee6659feb
+files testing/taskcluster/scripts/builder/build-b2g-desktop.sh
+patch 248,324,

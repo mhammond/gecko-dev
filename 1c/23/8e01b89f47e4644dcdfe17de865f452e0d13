@@ -1,0 +1,5 @@
+changeset 802e790c6687d1c5910f3fb2fe131570620547f7
+manifest 3da9bc71b813039e15613a92cffe60cf0263ca91
+extra rebase_source:c6ce947b40a53a26fb6f37a52801ab4d454cdde3
+files testing/web-platform/meta/content-security-policy/script-src/script-src-1_2_1.html.ini
+patch 307,381,

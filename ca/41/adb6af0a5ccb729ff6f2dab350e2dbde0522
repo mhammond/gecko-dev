@@ -1,0 +1,4 @@
+changeset ec890000d297a49f755c8761a6e508e519dee267
+manifest daac2ccb47cd8fce2d18cd1d794f21a18120866f
+files js/src/jit/mips32/CodeGenerator-mips32.cpp
+patch 205,206,

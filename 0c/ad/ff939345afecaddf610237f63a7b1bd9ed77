@@ -1,0 +1,4 @@
+changeset 835eee39bb16b33dbdb26271be170c65f8df7761
+manifest 0d48f78ca35a7962eb3e4f838d0ccdd8e1d51d64
+files js/src/jit-test/tests/ion/dce-with-rinstructions.js
+patch 223,224,

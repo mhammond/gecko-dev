@@ -1,0 +1,4 @@
+changeset bee38e8d9c9d71c0e54213f5de2de2f1bf1a703a
+manifest 46a6e46c7b31be2a92e9aaa23e7c131bf38ec414
+files dom/canvas/WebGL2ContextMRTs.cpp
+patch 299,300,

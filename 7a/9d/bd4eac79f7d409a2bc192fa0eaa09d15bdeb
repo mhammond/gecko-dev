@@ -1,0 +1,4 @@
+changeset ba5ff277a3cd1a7f655f8e02a130a395e8f2a225
+manifest 15fc8909f507a87e225389141bcf75dbd7c0612b
+files toolkit/modules/sessionstore/XPathGenerator.jsm
+patch 196,197,

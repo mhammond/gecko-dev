@@ -1,0 +1,4 @@
+changeset 4688537106cec7ab8f380108c1271be32920fb24
+manifest da2ad55c637f0ac6ca28b04d391e2ee6371c0bf1
+files dom/canvas/test/webgl-conf/checkout/conformance/textures/tex-image-canvas-corruption.html
+patch 271,272,

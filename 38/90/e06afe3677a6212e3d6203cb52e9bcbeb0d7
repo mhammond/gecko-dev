@@ -1,0 +1,5 @@
+changeset d1c3952c299da44bbb1215d73a5c34118f92279e
+manifest 10f068cf07073e27fb97d90e4561d00fb9864970
+extra amend_source:c68226d47b43485891894e56e04e7ceb6a3c56bb
+files mobile/android/base/java/org/mozilla/gecko/dlc/SyncAction.java
+patch 299,372,

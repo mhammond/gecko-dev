@@ -1,0 +1,5 @@
+changeset ddf942646f48c404b64833d07b0a9cc3595c489d
+manifest 37312126cc32e0090551e679bc14aeb0c3043c42
+extra rebase_source:c6b3fff013cb5635fd8e453aa37006948345b0ca
+files testing/web-platform/meta/websockets/interfaces/WebSocket/close/close-multiple.html.ini
+patch 291,365,

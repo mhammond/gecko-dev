@@ -1,0 +1,5 @@
+changeset f0f90206af121f493eb4bca2d8ee3e03ffe4b46f
+manifest 0ec2d5f3448770c137f52586e5ecfec736fce161
+extra rebase_source:38ccc6667aec9adce7cefd3d9b2308133fc0aacc
+files browser/components/preferences/in-content/tests/subdialog.xul
+patch 323,397,

@@ -1,0 +1,4 @@
+changeset ab2a3c581f58d862797bc0ee1faeb55d2040b482
+manifest 99a7a11700ff1e29a26fca74e022963f7b99a2fa
+files browser/components/loop/test/mochitest/browser_LoopRooms_channel.js
+patch 321,322,

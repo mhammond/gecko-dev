@@ -1,0 +1,4 @@
+changeset 4e3add620296f637023fe27e67d33d983f78a9ad
+manifest ad6c02be1c6f24111d838fdbf4c1ccfde9e86e2e
+files testing/mozbase/mozdevice/mozdevice/adb.py
+patch 217,218,

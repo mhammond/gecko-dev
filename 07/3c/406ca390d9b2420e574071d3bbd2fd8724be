@@ -1,0 +1,4 @@
+changeset db60203ceb0c197abf7766c88a8f393254f939a9
+manifest 59200f96c370076b6891443d1acb6329a8fbaaf8
+files caps/tests/mochitest/test_extensionURL.html
+patch 233,234,

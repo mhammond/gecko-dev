@@ -1,0 +1,5 @@
+changeset 865e3879982dce9bb015cfd28fb5d00a8d3cd2f6
+manifest 7de6996d553fc26a27befab46e338c20abd267c6
+extra source:227e3bec8d13a0d8bb01702960536e3f0621ef24
+files browser/devtools/markupview/markup-view.js
+patch 261,328,

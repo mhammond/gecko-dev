@@ -1,0 +1,4 @@
+changeset 84625e254651aa453ef3275dd097d356817a51b2
+manifest d27b0ba3b95a3fa3e9a9622f52dd2bbecf742bd1
+files testing/mozharness/configs/balrog/production.py
+patch 231,232,

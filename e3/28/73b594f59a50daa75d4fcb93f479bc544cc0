@@ -1,0 +1,4 @@
+changeset d28c3add8df3697aa2d115a4bfa91a3c2c1ea1b5
+manifest f1f26844703c0299482d689000d286f37f8879e6
+files toolkit/xre/nsAppRunner.cpp
+patch 392,393,

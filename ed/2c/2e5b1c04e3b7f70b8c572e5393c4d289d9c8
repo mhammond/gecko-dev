@@ -1,0 +1,5 @@
+changeset 3b624179e13b38ead88d6b3b06ff5703e1f2b4c3
+manifest c1550d75ca38a8b0a9a1a653603a63b57a7a31af
+extra commitid:I7bHvJCe68o
+files widget/android/nsAppShell.cpp
+patch 310,350,

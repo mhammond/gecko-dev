@@ -1,0 +1,4 @@
+changeset 74e3f0993a0653429f898d8aef40dfffca185fed
+manifest 51e0a84eca7f35cbc09648f48bed80e72ca6d3ed
+files browser/base/content/test/general/browser_testOpenNewRemoteTabsFromNonRemoteBrowsers.js
+patch 273,274,

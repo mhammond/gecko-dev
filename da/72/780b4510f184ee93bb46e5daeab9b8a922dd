@@ -1,0 +1,4 @@
+changeset 67b2c40bbaef3ddc62fcdcaed454253a82a8f93b
+manifest 58b8014c13f9a368d5d5ec5e201996e056858083
+files widget/android/AndroidBridge.cpp
+patch 244,245,

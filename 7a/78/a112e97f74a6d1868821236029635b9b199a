@@ -1,0 +1,4 @@
+changeset b98b299f05eddd9fbd05568b7cda368ebde227a0
+manifest 6db5bd5b5f5ad84e73a74556b94cf7af20f259d9
+files devtools/client/performance/test/browser_perf-options-enable-framerate.js
+patch 307,308,

@@ -1,0 +1,5 @@
+changeset b54aa19a214e828357cfbbd98999df32ef0bb6df
+manifest ec20664958bc42de494a09505325423a10b737de
+extra rebase_source:9796bc0e3f2b42a8497bb71830666779891426c4
+files mobile/android/base/java/org/mozilla/gecko/home/SearchEngineRow.java
+patch 305,379,

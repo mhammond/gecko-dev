@@ -1,0 +1,5 @@
+changeset 7a3a4f2cd15ac522e45c387d5b0101b5386070cb
+manifest d350e50024c7245fb5cddfdb68c5544584b7e51a
+extra source:a9f4fde4d66e6a1ca932fa42142ca48589ff3b4c
+files devtools/client/inspector/computed/test/browser_computed_refresh-on-style-change_01.js
+patch 397,464,

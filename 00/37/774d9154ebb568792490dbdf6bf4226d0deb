@@ -1,0 +1,4 @@
+changeset adf8fb3e8d48a4704bde59394c6c51a6ff7e40be
+manifest 226a94aa72258b747a04acc64522f4db05d0e7f9
+files python/mozbuild/mozbuild/shellutil.py
+patch 282,283,

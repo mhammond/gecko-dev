@@ -1,0 +1,4 @@
+changeset 2dbae52b1ab8e0caac12fcc233de8828ff810b73
+manifest 13be8efd6a9dad4782bfa8c5ac6e90dcff712478
+files browser/components/places/PlacesUIUtils.jsm
+patch 217,218,

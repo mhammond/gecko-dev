@@ -1,0 +1,4 @@
+changeset 3f7826efc5de1d854c2ce21370133b97032c01ff
+manifest 9e7e5760c1ed88aeae5112263f6ac903d012d6e0
+files testing/mochitest/tests/browser/browser_waitForFocus.js
+patch 219,220,

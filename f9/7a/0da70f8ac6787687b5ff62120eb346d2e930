@@ -1,0 +1,5 @@
+changeset 349d3d8a41d9ef387919f02d82174ae50ce7c3bd
+manifest 14f22bf6bc0d1d2ee495b62b0676105c578922bb
+extra commitid:3CT7BxZtjsu
+files testing/mozharness/configs/developer_config.py
+patch 272,312,

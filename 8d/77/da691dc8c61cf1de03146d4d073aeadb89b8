@@ -1,0 +1,4 @@
+changeset 456df967efef1a9c621c9ededd6bf5530baedd7f
+manifest e9f6b9abf022dc9b263a81ba6203800b2ee1f1ab
+files dom/bindings/DOMJSClass.h
+patch 243,244,

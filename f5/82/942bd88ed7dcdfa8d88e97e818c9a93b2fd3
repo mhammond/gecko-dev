@@ -1,0 +1,4 @@
+changeset 9727e102e54bdb646af7731ec3ef0db7cc6d5687
+manifest ebd6cb8118fb81feb3c155ee7c21f04a51e80dc2
+files netwerk/test/unit/test_auth_dialog_permission.js
+patch 249,250,

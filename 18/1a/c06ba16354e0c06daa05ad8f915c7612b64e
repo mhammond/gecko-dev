@@ -1,0 +1,5 @@
+changeset 828e9a557da41456e19186491dc9f0d46edb23a4
+manifest 728bb99b1d07b30cc951be3c01e8610e028b3eeb
+extra rebase_source:4e108616730c9f34f69ccc0897ffc278e2240404
+files dom/html/HTMLCanvasElement.cpp
+patch 287,361,

@@ -1,0 +1,4 @@
+changeset c71907f31ba8765474fa5aab076f71caaa4523f7
+manifest 4819212580a66205dc6ee357de2258e87f373eb2
+files testing/web-platform/tests/websockets/interfaces/WebSocket/close/close-multiple.html
+patch 329,330,

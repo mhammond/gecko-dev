@@ -1,0 +1,5 @@
+changeset 6376e51185e8a31331eabe49408e477d57029e5c
+manifest abaa3ad45849efdbac1567b216f14b2df5870dc6
+extra commitid:2i02cOq3Jzv
+files python/mozbuild/mozbuild/mozinfo.py
+patch 236,276,

@@ -1,0 +1,5 @@
+changeset d8b83ff870a3cf4a173609e3631004d5781d91d5
+manifest 3d0724cabd32f2ade29345747451cde80709da38
+extra rebase_source:daf9309e706a13751b277707b782ac03aca662d6
+files gfx/tests/mochitest/test_acceleration.html
+patch 290,364,

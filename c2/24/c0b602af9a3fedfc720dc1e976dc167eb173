@@ -1,0 +1,5 @@
+changeset 7ab8959cbd32e70fa4f889ccabc2585ac22659fa
+manifest bae77365c1145f718d86c9bd905cb9d96c2f2f21
+extra source:5962dad680d46f59733ecd4d085ec9a0af389d86
+files mobile/android/tests/browser/robocop/src/org/mozilla/gecko/tests/StringHelper.java
+patch 350,417,

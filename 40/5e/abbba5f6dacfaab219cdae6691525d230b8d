@@ -1,0 +1,4 @@
+changeset de8f3fa1bf8685b001d8059adfa6f50264d4fc4d
+manifest 20c4d70d2a866a20032bf57b61d4e49818ab1117
+files chrome/test/unit/test_no_remote_registration.js
+patch 269,270,

@@ -1,0 +1,4 @@
+changeset 86b36f82fce6b46f84ee1aa78419380aca764baa
+manifest a29a46f33c09e6d3da47e4da4977337ac901cae8
+files xpcom/ds/nsSupportsArray.h
+patch 165,166,

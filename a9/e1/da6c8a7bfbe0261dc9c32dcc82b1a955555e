@@ -1,0 +1,4 @@
+changeset 6a4d4bfb868bee78c16508da1381bb8a08ba218d
+manifest 745dc4828b01e2bcfd849f97d06611db0e38f125
+files js/xpconnect/src/xpcpublic.h
+patch 267,268,

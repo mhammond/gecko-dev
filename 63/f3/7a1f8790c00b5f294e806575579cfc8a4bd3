@@ -1,0 +1,4 @@
+changeset 83552c5bb31de8da251a22012e875710961bfbca
+manifest dd5351b6236e4e1b0d4c1e2cbfb565a08ceead64
+files browser/devtools/webconsole/test/browser_console_server_logging.js
+patch 232,233,

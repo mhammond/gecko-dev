@@ -1,0 +1,4 @@
+changeset 7302bd0ff82e1c1053867c21b02c5d8286cf4e56
+manifest 649227987953a849527b209511b7675ec34f3a30
+files js/src/jsobj.cpp
+patch 243,244,

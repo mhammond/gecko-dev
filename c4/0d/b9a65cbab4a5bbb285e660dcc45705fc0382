@@ -1,0 +1,5 @@
+changeset ea1a774d53d5f3b82179b97788c244d607cc026f
+manifest c336bd293f5f1fb0a1e4784ef4fcc91ceb5a0840
+extra rebase_source:6c67c12f768c4f5e9df84a7ab982d08095ba29ae
+files security/manager/ssl/nsICertOverrideService.idl
+patch 287,361,

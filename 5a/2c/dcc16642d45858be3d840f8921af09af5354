@@ -1,0 +1,5 @@
+changeset 504fe62668365dd7697f598d2de49ce1fb7632c8
+manifest 6e206e99dfc23b71b5534842b34a67c15f16ad70
+extra source:d8a41d4c6215cb13f2a62675486f97c140d96deb
+files security/manager/ssl/nsNSSComponent.cpp
+patch 462,529,

@@ -1,0 +1,5 @@
+changeset 5d04ed8cec6c1ce929dc8a19804eb8a80d5ff2e8
+manifest eafc38e9d047fc5aacedeff0d4ea5d7589e6224e
+extra amend_source:6a5df2642ea9434b48e169193195a92932947209
+files browser/extensions/pocket/install.rdf.in
+patch 243,316,

@@ -1,0 +1,4 @@
+changeset 04b6f94fbe8aa09125271dbf752a8bef1bc93793
+manifest 675a4b0fe881d1468ac5fe3a6dde8d8737666c4b
+files gfx/layers/AsyncCanvasRenderer.cpp
+patch 214,215,

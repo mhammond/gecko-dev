@@ -1,0 +1,5 @@
+changeset ff1bde52cb38807453757f8b36ff03b5da968b16
+manifest 4b683238524e5481bef6c4c205e526e076315b16
+extra source:b593a1ede43e42e1b6cf45c454ac28418e0632d1
+files toolkit/components/places/nsNavHistory.cpp
+patch 302,369,

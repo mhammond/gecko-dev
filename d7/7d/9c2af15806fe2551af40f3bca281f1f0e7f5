@@ -1,0 +1,5 @@
+changeset 737316e9f6a2d254fea4913ea07f1d637710e3bf
+manifest 814d9bfc66781ad9a1ea73124fe2a7cf5cb514c5
+extra rebase_source:fce3dd4732d313337cdf210770233d54457ddac7
+files docshell/base/nsDefaultURIFixup.cpp
+patch 302,376,

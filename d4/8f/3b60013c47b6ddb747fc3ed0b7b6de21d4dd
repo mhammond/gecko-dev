@@ -1,0 +1,4 @@
+changeset 0012027267e6860f46d81f5e7880580392d84dde
+manifest 3ade621091e9031cc334deb57913718322520d81
+files modules/brotli/moz.build
+patch 180,181,

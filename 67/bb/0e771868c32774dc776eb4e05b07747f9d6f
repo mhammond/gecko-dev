@@ -1,0 +1,5 @@
+changeset 59a51b51fe1de9a9b4a4344c16b002affe35ea7f
+manifest 9741b1f8501c15af4b50c82bc2bf649e52c2dd4f
+extra histedit_source:086474c20d955cad480a32c3b9db8df983c7cf03,0e8aa6e693c9327103b4120f5d2be597b03ac393
+files dom/indexedDB/IndexedDatabaseManager.cpp
+patch 284,403,

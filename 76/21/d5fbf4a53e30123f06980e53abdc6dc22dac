@@ -1,0 +1,4 @@
+changeset 22a307cc8cf9951e9bd3b9ff8fe848b398cefabc
+manifest bb330b7f4b32dee736b918c80d68a4d8302300a7
+files mobile/android/base/java/org/mozilla/gecko/dlc/DownloadContentService.java
+patch 250,251,

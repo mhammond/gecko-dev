@@ -1,0 +1,5 @@
+changeset 76b4de2ccd6ca11a8121d17558aee62caf943c9a
+manifest 3a78104abc8a76302147703678a212575059d7ac
+extra rebase_source:8797fa501ae6a3cb408b8d10479b31bfb77d6b32
+files testing/mozharness/configs/unittests/thunderbird_extra.py
+patch 275,349,

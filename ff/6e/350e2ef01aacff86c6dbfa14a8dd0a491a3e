@@ -1,0 +1,4 @@
+changeset da6890d34fd30dd5259d889203d6a55b29a7243c
+manifest 304a52506bcbc8ef56f9c508ed8ae34e43a6de27
+files testing/web-platform/meta/XMLHttpRequest/send-redirect-bogus.htm.ini
+patch 288,289,

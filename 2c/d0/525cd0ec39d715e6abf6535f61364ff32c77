@@ -1,0 +1,4 @@
+changeset 29560af167772e3d19a47cf2b538368d18ce1ea1
+manifest a9169460bccee796e95a33c44e951c4ecb2f3178
+files browser/devtools/shared/DeveloperToolbar.jsm
+patch 281,282,

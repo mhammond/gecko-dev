@@ -1,0 +1,5 @@
+changeset 0948b9cc4d82c3bf94abff04fecfaf06217fbeda
+manifest 121773bb028790bebd4c21abc4d007559573793f
+extra rebase_source:2f678d52978bfdc9533a67932133af3794cec171
+files toolkit/components/url-classifier/nsUrlClassifierUtils.cpp
+patch 302,376,

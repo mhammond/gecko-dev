@@ -1,0 +1,5 @@
+changeset 68533b8aca1f2f3c094ecec818140f2ca9cab0a8
+manifest a8155cbd65ebccce6dc54eb4dbf2dfeead2a129a
+extra source:1249782e3771430f4328851c1e8d198c204a4cd0
+files browser/components/downloads/content/allDownloadsViewOverlay.js
+patch 332,399,

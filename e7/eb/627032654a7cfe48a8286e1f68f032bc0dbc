@@ -1,0 +1,5 @@
+changeset 6662dc9666803dc09cbb9ba9e1ccc9c7b06ceb6d
+manifest c5cf09c3c2871f2a59ea7c867cd520f11fcb6814
+extra source:a7aa35707f3125b1a0ce1c8c284fb411c4b5c255
+files gfx/layers/PersistentBufferProvider.h
+patch 292,359,

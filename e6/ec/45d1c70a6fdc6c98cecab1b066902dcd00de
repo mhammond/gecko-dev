@@ -1,0 +1,5 @@
+changeset 913b09d31edc40bb3590ba10b1b11a4dd4443939
+manifest 9d89f81e4a35331eb59be85ed6e03769656fe01f
+extra rebase_source:c48b59af91081a88cda07faded823f79de5f38ba
+files browser/themes/osx/customizableui/panelUIOverlay.css
+patch 308,382,

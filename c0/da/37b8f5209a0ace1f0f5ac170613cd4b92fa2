@@ -1,0 +1,4 @@
+changeset e930a107b964a14d2dc5d8f847b39e2c51cf5f87
+manifest 8f03db3be7052a92d82a1530a29334af61e2c1e2
+files mobile/android/chrome/content/WebcompatReporter.js
+patch 287,288,

@@ -1,0 +1,4 @@
+changeset 303161721b21490770e43bccbd31333485bbe9d1
+manifest 46ff8f6946faca538b39d73a89ed8d89e74e151f
+files testing/taskcluster/tasks/tests/b2g_gaia_js_integration_tests.yml
+patch 250,251,

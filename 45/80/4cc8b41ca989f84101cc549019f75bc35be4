@@ -1,0 +1,5 @@
+changeset 575ecfc06a1b54eedb0deccec64a9ea4e130c210
+manifest 425ee2f3cf1383dee0e11e44c5da3ba10e592dd4
+extra commitid:42f60EQEbl8
+files testing/mozharness/configs/b2g/taskcluster-phone-ota.py
+patch 309,349,

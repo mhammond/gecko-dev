@@ -1,0 +1,5 @@
+changeset 521c3eb713749c37aeb0ec58646751f6893594c7
+manifest f6b58dc35897be22b63ace32b278867cefb35de6
+extra rebase_source:711e8af15b1ca505aca699ea6f1ad437a6ef4ed5
+files mobile/android/base/resources/layout/overlay_share_dialog.xml
+patch 529,603,

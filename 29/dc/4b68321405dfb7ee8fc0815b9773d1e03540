@@ -1,0 +1,5 @@
+changeset 039d63d5fef77d7b77c0a7f9724ec9e6347be09a
+manifest 5fd7eabe537c19e949bda4c7d37f4b2fecd3878f
+extra rebase_source:cd7a75188b2776436ae11fa4b9c922d0d5fbb759
+files toolkit/components/extensions/ext-backgroundPage.js
+patch 338,412,

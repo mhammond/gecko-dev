@@ -1,0 +1,5 @@
+changeset a0c433d64e16dd90875ccc9d644619cd669e81c0
+manifest 309afa50ead28f7e9f1c7a0c08a78e6add65408a
+extra rebase_source:0d8878c00d165250a25a6be0fd9c965539a077ce
+files xpcom/base/ErrorList.h
+patch 271,345,

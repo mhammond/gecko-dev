@@ -1,0 +1,4 @@
+changeset 5192768092c0be5c40869959e9632e176410cc58
+manifest 0302b51ba9d26ea38cb0ee4ec6a95ed769e21671
+files netwerk/base/nsProtocolProxyService.cpp
+patch 222,223,

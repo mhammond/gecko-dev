@@ -1,0 +1,4 @@
+changeset 9643098c3d8468e9fd60981ea207fa8a3d03c1ec
+manifest b9e9fc8f25a29fa23d6e2fbd209ac684b3647e06
+files testing/mochitest/tests/Harness_sanity/test_SpecialPowersLoadChromeScript_function.html
+patch 310,311,

@@ -1,0 +1,5 @@
+changeset fc2edbb6fa21393bd674d71fe314df4c83ce7339
+manifest d620f11279c89b9090d7d1acf833dbe34ca0b318
+extra rebase_source:f45c2f7429b192926f3ed528c401b7d0fae6f977
+files intl/locale/moz.build
+patch 285,359,

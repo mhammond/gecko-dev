@@ -1,0 +1,5 @@
+changeset bef9528b79b692e0ef72600dc5bb201a7218f5dc
+manifest 0a237e068b5eaf1257c2be26b7ddabf6a8499509
+extra rebase_source:3a961b643e5a96b6e13bf54c05e057f50156a037
+files image/RasterImage.h
+patch 277,351,

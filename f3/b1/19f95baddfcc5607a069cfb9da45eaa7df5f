@@ -1,0 +1,5 @@
+changeset b373151148d63f2365436dc676cf741ebd51fc36
+manifest c486f80a7fed356c6c45aa554683bd2812300601
+extra rebase_source:0adb7ffe42319f0c008c322ee0fffa6553025c87
+files dom/smil/nsSMILCompositor.cpp
+patch 318,392,

@@ -1,0 +1,4 @@
+changeset 2a0e43caef9b8edbf03fc20d1a220c63f0164f5d
+manifest c1776210cc97078c173f452801d720cfacbb9bbf
+files build/clang-plugin/tests/TestGlobalClass.cpp
+patch 235,236,

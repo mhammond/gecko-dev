@@ -1,0 +1,5 @@
+changeset b890e55e9355bd8fcb964c3997f0566b954fb6ef
+manifest b2d6080fbbf31118b1c9917873700d72a1d3db2e
+extra rebase_source:d692e4cb85cba2c6c253382b16a9617713cac238
+files toolkit/devtools/server/tests/unit/test_dbgsocket.js
+patch 296,370,

@@ -1,0 +1,5 @@
+changeset fba03e606eea677ce996475c41e0e7007eb4ab13
+manifest 8d75bf0e7f36d278870532a2971e1f9c85566f2c
+extra rebase_source:728b5a137b3a42239f8c638d4c5dde84c44c6c27
+files testing/docker/tester-device/REGISTRY
+patch 236,310,

@@ -1,0 +1,5 @@
+changeset dffde8b2633a98fc27292967123f20b68ae6471b
+manifest 297a0a27394c9b53b9304aa67bce14d653f4e2ca
+extra rebase_source:f18e2a6792f396e26f992bf3dbee70a52b8c1d9d
+files config/external/nss/Makefile.in
+patch 241,315,

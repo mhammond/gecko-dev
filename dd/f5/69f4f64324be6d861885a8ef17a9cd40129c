@@ -1,0 +1,4 @@
+changeset fe8939c91205cfdbf34c7ab8d010e7d129f17edc
+manifest 7308016a9cce438808356676575ef71f7e491c46
+files extensions/gio/nsGIOProtocolHandler.cpp
+patch 235,236,

@@ -1,0 +1,5 @@
+changeset ec87c9ff42b6583d3d2496d156a0849a8974540c
+manifest e28f3a7932ce91b6796e0153b26506a6cf50ed88
+extra source:9087f64571ad8718cd59d90d9e9dc2d742d6fa0f
+files devtools/client/eyedropper/eyedropper.xul
+patch 403,470,

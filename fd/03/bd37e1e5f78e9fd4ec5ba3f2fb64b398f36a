@@ -1,0 +1,5 @@
+changeset 448e4062cba4aecd5ce8c5e09b6b4f98f67e0dee
+manifest 823e394f9c17a5acd82efb663acb811c2fd1cbf3
+extra rebase_source:03ab3017694774589376502fef13b0bd90ed4ff1
+files accessible/atk/nsMaiHyperlink.cpp
+patch 295,369,

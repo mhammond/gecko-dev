@@ -1,0 +1,4 @@
+changeset c7dc3452011020f709905a8abc387804825f0608
+manifest 13133f2696498242ed7da9697d57411e538dc1c8
+files build/autoconf/rust.m4
+patch 799,800,

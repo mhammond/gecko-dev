@@ -1,0 +1,5 @@
+changeset cb5a01dc56fb199aed6ff627d17ced5bc25342ce
+manifest 469239ea7ede11d9daa119fa2c837d097c01ac4a
+extra rebase_source:55c85facadd02ffe237c0a9ba65f7523708bdc2f
+files python/mozbuild/mozbuild/action/process_install_manifest.py
+patch 270,344,

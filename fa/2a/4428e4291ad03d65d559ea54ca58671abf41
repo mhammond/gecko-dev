@@ -1,0 +1,4 @@
+changeset da0b85937f77e77da38d1f4e74c0ba607e40f8c3
+manifest fde3eec04d30e1dd4c121e597e2050400ab9ba95
+files testing/marionette/driver/marionette_driver/geckoinstance.py
+patch 287,288,

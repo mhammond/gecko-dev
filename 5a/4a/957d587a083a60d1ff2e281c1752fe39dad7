@@ -1,0 +1,4 @@
+changeset e2d0fd2b8d177b3ede37702a2d22ce7cb33f336a
+manifest 25509ae9a852330a5f6896c4ec028e79e275b1ff
+files widget/gonk/libdisplay/GonkDisplayICS.cpp
+patch 205,206,

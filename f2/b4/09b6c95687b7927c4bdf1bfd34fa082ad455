@@ -1,0 +1,4 @@
+changeset 0e72dc40607b38c075c9e0773d05a68308d0ea0e
+manifest bbc2c21bffbc2b19c5b806b1919abaa4f75c7243
+files netwerk/base/nsUDPSocket.h
+patch 210,211,

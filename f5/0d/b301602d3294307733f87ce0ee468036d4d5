@@ -1,0 +1,4 @@
+changeset 364cbb21094ec56e7de1c0f52202ad85f28acd83
+manifest 6c69a78f4e20817e42029488663fae2eca5e93fb
+files testing/mochitest/b2g_start_script.js
+patch 192,193,

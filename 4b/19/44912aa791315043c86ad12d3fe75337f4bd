@@ -1,0 +1,4 @@
+changeset 946a0d000fbea75c7f38d418a891fade118f9d57
+manifest abfc83262098e5e9402ca3b30ce6fc1e453b543c
+files js/src/vm/ArgumentsObject.cpp
+patch 196,197,

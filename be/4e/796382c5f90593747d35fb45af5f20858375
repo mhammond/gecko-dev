@@ -1,0 +1,4 @@
+changeset 3ffdf460b44a89e84406d3c199837620099f157f
+manifest eba3bcb21ac31864c6ca68a8c4f2367a55704aad
+files browser/components/privatebrowsing/test/browser/browser.ini
+patch 244,245,

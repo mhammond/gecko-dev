@@ -1,0 +1,4 @@
+changeset aeb69f71885ceb792487ca12d9e19795f5057c7e
+manifest 96dd3bb3041d5ae2719dcf8e4fb165717e6df2fa
+files security/sandbox/chromium/base/containers/hash_tables.h
+patch 336,337,

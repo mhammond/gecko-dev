@@ -1,0 +1,5 @@
+changeset a60e63852496804ca582500634dced89b1b47017
+manifest d7c22dca09bc17ec0391e02ded9b69954047fb4d
+extra rebase_source:bea03df0b9aa2b97c7cfc83ad2979e18f30cabe1
+files js/src/tests/lib/manifest.py
+patch 245,319,

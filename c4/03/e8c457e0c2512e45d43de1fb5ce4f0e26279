@@ -1,0 +1,5 @@
+changeset 6ad2696e1878da89486c58e353cd7734deba0d65
+manifest 3a78986072134334ee30764130fe00a3178073e7
+extra rebase_source:8e6bb32cf2b901155ceb770feac24b700f9dfa2a
+files toolkit/components/telemetry/docs/core-ping.rst
+patch 313,387,

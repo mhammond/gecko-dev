@@ -1,0 +1,5 @@
+changeset 771f58704ac96b3797dc2f32e287ab70fc2edeb7
+manifest 8ee00f32b79ed18a16ea48dfb45bbf3b59b596fd
+extra rebase_source:719225aef25dbf1b4bb7561391224b3c5f8793a5
+files js/src/jit/shared/IonAssemblerBufferWithConstantPools.h
+patch 1887,1961,

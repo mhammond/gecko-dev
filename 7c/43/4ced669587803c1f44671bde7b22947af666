@@ -1,0 +1,5 @@
+changeset fd9990a554a2120bb0f9fe59f575562a808323c4
+manifest 8f3ae9daadc883186d5926f21914a49c72a4fcf3
+extra source:9bcdab8d416f0ae3db1bef533f778d08d797f5dd
+files testing/mozharness/configs/builds/branch_specifics.py
+patch 784,851,

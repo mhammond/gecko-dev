@@ -1,0 +1,5 @@
+changeset 9b6ff1fc5e7a4a46e1d81a4aa277ff02b234136f
+manifest ae5b4b384cbbbbef146ab50eb42f23cc3b00a62d
+extra rebase_source:ad4306d8a9a0c20fc803db3a057de822f52076ef
+files gfx/ipc/SharedDIBWin.cpp
+patch 448,522,

@@ -1,0 +1,5 @@
+changeset 262d65accc6788901e363ca03e2a3f00d5a25f48
+manifest b38696ea90bfc117bafcfe702640b0ad7f715231
+extra rebase_source:50b24b970f57190defb6bea23da5a8b04aef45a5
+files toolkit/components/downloads/ApplicationReputation.cpp
+patch 371,445,

@@ -1,0 +1,5 @@
+changeset 1418ec10eda28b22a3edc60b82222d72bc741816
+manifest ff892478737658ab8070677acd172b0d3ea488d1
+extra rebase_source:5fa15dcf89bedea2b4e6ff52f6d06461fe5e208d
+files testing/mozharness/mozharness/mozilla/testing/testbase.py
+patch 597,671,

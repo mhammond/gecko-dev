@@ -1,0 +1,5 @@
+changeset c2290db3206955e6f95360833c5b1368e6ceba62
+manifest 13e897ecf306c46ce6a1f20fe925f7e21b006e59
+extra rebase_source:c193442d7018355914f731d94dba587e480443bf
+files layout/generic/nsFrameStateBits.h
+patch 296,370,

@@ -1,0 +1,5 @@
+changeset 8dc067c112dc12941188a5a5ba68565102b40ea5
+manifest d372a5b18c86f965eefd924fc2270b098262a56b
+extra source:f354f556b59136bc052e5b2c57d7d28e7242de37
+files browser/base/content/social-content.js
+patch 263,330,

@@ -1,0 +1,4 @@
+changeset d8f624689c04e88d8ba78a4c1ec0d9f165fdbd6f
+manifest 28a1b7f38c4be1486aa5de1e57edc6ae1786b0ff
+files dom/bindings/Exceptions.cpp
+patch 244,245,

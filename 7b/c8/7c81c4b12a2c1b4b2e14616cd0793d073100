@@ -1,0 +1,4 @@
+changeset 02b002977b46df0249540aed40854f0905340bd4
+manifest c96aef116fc94f60e7c16acdc7c0a8b5b993799c
+files addon-sdk/source/lib/sdk/event/dom.js
+patch 208,209,

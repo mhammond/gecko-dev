@@ -1,0 +1,4 @@
+changeset 4f43f0626dd804df944fe4a15bbb9997809387d3
+manifest ee3fa924bae8097c98ffe69ef0eb9cf6a1e14660
+files testing/mozharness/scripts/release/antivirus.py
+patch 233,234,

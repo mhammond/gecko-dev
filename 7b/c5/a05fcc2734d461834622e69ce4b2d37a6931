@@ -1,0 +1,5 @@
+changeset 971c1817df4c69ac35e12d12aac6a7cfa4066103
+manifest ce6a25b9de4e00b8fd66dcc2081d0ed31dfc5db4
+extra rebase_source:952e83cc28a4a218f7b88f7bd7bb3b132aa1bc37
+files devtools/client/inspector/layout/layout.js
+patch 451,525,

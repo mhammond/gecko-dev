@@ -1,0 +1,4 @@
+changeset 54def3592f85cd6707f267dd88421917874f3d0c
+manifest cd9da646fc581b8d2d0fe5f09f1d90efb86aa0d9
+files devtools/client/jsonview/viewer-config.js
+patch 296,297,

@@ -1,0 +1,4 @@
+changeset b2fdef69c4d2314c030c935657840fbda4a4c5ce
+manifest 08f4e5a73d05aa2384f5cb191567ef58b5c75465
+files dom/tests/mochitest/beacon/chrome.ini
+patch 177,178,

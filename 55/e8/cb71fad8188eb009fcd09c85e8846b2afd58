@@ -1,0 +1,4 @@
+changeset bba43e5b3633a1e30aece33ded6c6e3fc87647ce
+manifest 7b24c22829ed542ad0a3ba73bb3fbdffa4e06fb2
+files netwerk/protocol/http/Http2Compression.h
+patch 319,320,

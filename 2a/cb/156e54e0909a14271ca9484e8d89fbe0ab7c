@@ -1,0 +1,4 @@
+changeset 3064e760178c7e6152eaea97eef19767cd7fc0b3
+manifest 12960fa65325defc0bcf2d5c6c8a76f47197f890
+files browser/devtools/webconsole/test/browser_webconsole_bug_595350_multiple_windows_and_tabs.js
+patch 355,356,

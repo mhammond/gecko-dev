@@ -1,0 +1,4 @@
+changeset 0f9cdb5ebfa8260ed9eb0c86a010b7dbc7b7df59
+manifest 192c074c0460d7e0cf26b8ad14784ff642f9fa39
+files layout/forms/nsNumberControlFrame.cpp
+patch 229,230,

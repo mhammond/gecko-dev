@@ -1,0 +1,5 @@
+changeset b295ee49d52ebb1b0e20bcf4d111b6b6294a85ca
+manifest 25d96b6865263060be1f7a955de4fe25807ace3b
+extra rebase_source:e6ad625ab44475845969d29cfed2e1251d75d837
+files browser/modules/PluginContent.jsm
+patch 274,348,

@@ -1,0 +1,5 @@
+changeset 424e3fa0b282b076767bbf13d61db59f1b03acae
+manifest b7b736f038380ee1f8a5b45ddd1512c7fadc7ea8
+extra rebase_source:12ffc9c2d545723b012b6c5dcf216e7ef34e1790
+files browser/components/extensions/test/browser/browser_ext_windows_update.js
+patch 630,704,

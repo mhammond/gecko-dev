@@ -1,0 +1,5 @@
+changeset 6bb14eb443255685083793fdf88617fd01a52aaa
+manifest 89328ab04c5cf2bf7b1562a7f7595a17afa4458d
+extra source:7763028fb25b3358b82da2ac5dd2c642e8847322
+files testing/mozharness/mozharness/mozilla/vcstools.py
+patch 305,372,

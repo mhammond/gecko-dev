@@ -1,0 +1,4 @@
+changeset a648afebfadf15489dd2cdcc24e7daa13389ece1
+manifest a60be7ea338b298af59a7529b8280685bdaecea2
+files security/sandbox/linux/common/SandboxInfo.cpp
+patch 412,413,

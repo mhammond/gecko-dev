@@ -1,0 +1,5 @@
+changeset 5422a0e67377b03b79b3a71ec1a20a8b8f4c248a
+manifest 7da2d462c3af59e0ebc4300a7c4baaeb0c0922db
+extra rebase_source:936c62a12a40542aa0c12fc1c20e3cf4480ff6f8
+files widget/nsBaseDragService.cpp
+patch 256,330,

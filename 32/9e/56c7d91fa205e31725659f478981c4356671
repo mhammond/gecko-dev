@@ -1,0 +1,5 @@
+changeset 02cc4b849623d4b28dc497ccc97cfbab9b951311
+manifest e74f08e5204ed4e73dc20a44b845be6e469ac0fc
+extra source:1bb61a26fb376b8b8fc08ee686eaaa46c7e32469
+files browser/components/migration/AutoMigrate.jsm
+patch 311,378,

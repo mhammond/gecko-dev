@@ -1,0 +1,4 @@
+changeset 656644f126e86b666e76acaa605774eedf07c24d
+manifest d0940d82c9f31bee3131005117ce9c850fec6441
+files browser/devtools/styleeditor/test/browser_styleeditor_sv_resize.js
+patch 277,278,

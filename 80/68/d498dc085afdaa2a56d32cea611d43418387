@@ -1,0 +1,5 @@
+changeset 70e457189e30e11a8d059a27fbb0a442554a93aa
+manifest 187785b6b9565dc7594913e4a9fef34e4ba63f3c
+extra rebase_source:a1953e903d30fe2debf29283884929e2193174e0
+files testing/talos/talos/cmanager_win32.py
+patch 330,404,

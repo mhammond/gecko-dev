@@ -1,0 +1,4 @@
+changeset 7600e2f05b9709ed88f150def0f4df259fc95e54
+manifest f6f9af9381006be71cb2de465b405cb727057718
+files browser/components/newtab/tests/browser/newtabmessages_preview.html
+patch 374,375,

@@ -1,0 +1,4 @@
+changeset 4d17ab529fbdb3c68c287c26225f1f28fc7c6763
+manifest 67255d1c287e63e146bbb56676510dfe846d2264
+files testing/docker/recipes/run-task
+patch 195,196,

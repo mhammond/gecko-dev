@@ -1,0 +1,4 @@
+changeset 1a417f2084e103614da87ca4f25bc0d2eb106bcf
+manifest b6d8567ae57edf09a099cbd0a7c9f0f735af6a5e
+files devtools/server/tests/mochitest/test_inspector-resize.html
+patch 278,279,

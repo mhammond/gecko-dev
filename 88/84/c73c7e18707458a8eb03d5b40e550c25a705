@@ -1,0 +1,4 @@
+changeset ce119faadbc5999895c73ecbdab003d761ce296e
+manifest 324c724a7f95528284be8d26d11b1432ef64d7ac
+files dom/base/nsScriptNameSpaceManager.cpp
+patch 236,237,

@@ -1,0 +1,5 @@
+changeset 9a49926c3edbf1bad4424cd206f3bd30424784b4
+manifest 4abdbcc711ea04a2d5de5454d18d5947c30a7822
+extra rebase_source:5fe3d6ad40939bfe5e842d075c1b0abc1226ac10
+files mobile/android/base/java/org/mozilla/gecko/feeds/action/CheckForUpdatesAction.java
+patch 472,546,

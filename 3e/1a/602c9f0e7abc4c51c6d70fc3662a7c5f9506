@@ -1,0 +1,4 @@
+changeset f6d251d7b4f7e58299effdbea37e555843bb3ca8
+manifest bd6b41000d842e1c6f7b5dbebbfbd9cb6d2a33b8
+files js/src/irregexp/NativeRegExpMacroAssembler.cpp
+patch 302,303,

@@ -1,0 +1,4 @@
+changeset 6529d63e0a43370b6e18d42c26eee52c300b0613
+manifest d2964192ce79e1e1abddbe32f5430d26352fa5d3
+files toolkit/modules/BrowserUtils.jsm
+patch 179,180,

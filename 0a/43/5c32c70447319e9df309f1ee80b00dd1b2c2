@@ -1,0 +1,4 @@
+changeset c3c230a896320099bc14a1ef4b78e41ecc657b1f
+manifest 18fbf9f3748f51d51c8207cc0fedefa4fdcf96f4
+files browser/modules/test/browser_ProcessHangNotifications.js
+patch 337,338,

@@ -1,0 +1,5 @@
+changeset 2321811e03543dd5c492d560375db13f3290210e
+manifest da8c63e9261d8ca7de8bbc879bcb694bbf120da3
+extra rebase_source:6c2c3144d4413017b4861443c945aeb0d6d995ef
+files editor/libeditor/HTMLEditorDataTransfer.cpp
+patch 491,565,

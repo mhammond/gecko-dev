@@ -1,0 +1,5 @@
+changeset 10501352b0eef4ecf19dd4d5b1d307ebb212cf5e
+manifest 08e523bf1b14c9ebadddb720f45f4b222c02f0d1
+extra source:f2cd195ea3898c9c46e7f58bbcaa3292a2793554
+files toolkit/mozapps/extensions/amWebAPI.js
+patch 920,987,

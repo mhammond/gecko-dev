@@ -1,0 +1,5 @@
+changeset 8dd444c92c4d1bfe0a4f89102aefe4d56d7bffa2
+manifest 7d323355b066fa00bbe5fd3f082603e58405e97f
+extra rebase_source:987712aa0aa3a053536566b5c1edb729b3dba2d4
+files gfx/qcms/transform-sse1.c
+patch 273,347,

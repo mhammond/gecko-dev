@@ -1,0 +1,4 @@
+changeset ea945385ee9def401d9d92f1b70d19364cd2727b
+manifest 8d5e5c7dbf9201810217fa1b903ef69c0c3674a4
+files dom/bluetooth/common/webapi/BluetoothAdapter.cpp
+patch 235,236,

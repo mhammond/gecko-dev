@@ -1,0 +1,5 @@
+changeset d85e5cf40e60f4a137e05fc6332bbd4aa9be0fa1
+manifest e448b89ef48a2b59231054d863e032b638c83c8e
+extra histedit_source:af9fd222ff684a06952f5f4ba896694cbb8006fe
+files dom/apps/OperatorApps.jsm
+patch 240,316,

@@ -1,0 +1,4 @@
+changeset 367dbfe0a898a8cc51f11264ac5fabe5309da57d
+manifest f7f06416ece34f74f0e822f75c17b393b13ceca1
+files toolkit/mozapps/update/tests/unit_aus_update/updateManagerXML.js
+patch 260,261,

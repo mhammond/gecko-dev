@@ -1,0 +1,4 @@
+changeset ba608bc3588e7446b2bd01c2fed58a8cee33b78e
+manifest e0e1c69fcf0e50090ff64ba2cd6369f2644244d2
+files browser/components/sessionstore/src/SessionStore.jsm
+patch 248,249,

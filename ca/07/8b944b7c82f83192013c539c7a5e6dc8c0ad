@@ -1,0 +1,5 @@
+changeset 2c50fe940f4e5c070adaf56029579546c5ebbbd5
+manifest 38c9dd8bf230efd28162b8a2d834ade88bcc8628
+extra rebase_source:4f184a8fd806d7d6a422bd4ff87f55f1e1749f43
+files gfx/2d/ssse3-scaler.c
+patch 287,361,

@@ -1,0 +1,5 @@
+changeset bed0a37b59a689c7db3d035f04707e11cad6f9c4
+manifest 8c5c3b22bdfddc68125975b20e791931121a3f6e
+extra rebase_source:0159eb258808ab1aa804a0fcfca26435d96fc296
+files js/src/frontend/BytecodeEmitter.cpp
+patch 303,377,

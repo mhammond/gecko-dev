@@ -1,0 +1,4 @@
+changeset cb25e0475da5439af5d39cfd82fe81342ea86669
+manifest 773876098e91860ed9dccc9e8b140dac65a7b00a
+files js/src/jit/arm/Architecture-arm.h
+patch 214,215,

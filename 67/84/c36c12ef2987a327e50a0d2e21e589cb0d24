@@ -1,0 +1,5 @@
+changeset df988596221433d7fb4fe6056dbde284f71ce08a
+manifest 265ca628cc4b84ea892d1df436551dcf57908e43
+extra rebase_source:0e3e455a31081c73f5c053f1e8a3a7609759da9d
+files browser/base/content/test/general/browser_tab_detach_restore.js
+patch 297,371,

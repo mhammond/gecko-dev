@@ -1,0 +1,5 @@
+changeset 646cc46e3cfc57fde0a898635a866bb7341750aa
+manifest 961f478408e93ff336d8575d54634260ae0c30c5
+extra rebase_source:bf83a412e950fcad9c2240a49511ff359717794d
+files devtools/client/debugger/content/views/sources-view.js
+patch 285,359,

@@ -1,0 +1,4 @@
+changeset 724aad1423e6aa0f705b0d3daf7e07adc1e139f4
+manifest bc97fb955f4a184c92cd9bde414e7af9aceab8ba
+files testing/mozharness/scripts/release/push-candidate-to-releases.py
+patch 229,230,

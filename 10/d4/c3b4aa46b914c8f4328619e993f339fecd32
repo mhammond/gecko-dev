@@ -1,0 +1,4 @@
+changeset a788c06e448a1082edc1818552953422a61a8ba2
+manifest fbe3d37e39d47f9463a6a4bd9797416df79cf503
+files config/faster/rules.mk
+patch 378,379,

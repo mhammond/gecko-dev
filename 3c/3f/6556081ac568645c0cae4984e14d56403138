@@ -1,0 +1,4 @@
+changeset 4bcefd153a9e515ddbde1961d9b26126ba689f04
+manifest 71d57486d68ffa544885af1c5d718abddb16c3fa
+files dom/tests/browser/browser_bug1004814.js
+patch 279,280,

@@ -1,0 +1,4 @@
+changeset 36cd98d7f222d2e4177dc43eb55e0b1f655b55dd
+manifest f53455349642cd29dee9da1f4f45a409a1a34916
+files widget/gtk/gtk2drawing.c
+patch 190,191,

@@ -1,0 +1,5 @@
+changeset 8476b951e74f9e0f4f6e324d2ff8d7ceb79d17f0
+manifest 68a7305d040344f11e0e642b70cf4f0fc5fbfd47
+extra rebase_source:a1f5e58d7489e70291598fb130e27a007d4dfd78
+files dom/push/PushServiceWebSocket.jsm
+patch 318,392,

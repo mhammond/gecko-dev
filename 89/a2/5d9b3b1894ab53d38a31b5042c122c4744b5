@@ -1,0 +1,5 @@
+changeset bd6a9044d4bf00c5f4710e6104f611620dd7bc74
+manifest c6e3534d77b5075c9a4ecd0efa3a9f0f16f51abc
+extra rebase_source:bfdbeaafcac4a16cce8bc86cf8a07ca36d225c05
+files devtools/client/framework/toolbox.xul
+patch 281,355,

@@ -1,0 +1,5 @@
+changeset 6fecf538bfcbe22d77d70cf6500b5721a0863419
+manifest 349f9853ec0ce49b885839f4c62be5f36a878188
+author samuel.gallacier@innes.fr
+files gfx/layers/ipc/CompositorParent.cpp
+patch 215,216,

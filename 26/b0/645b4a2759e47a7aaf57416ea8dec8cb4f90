@@ -1,0 +1,4 @@
+changeset 7d4292757e625c9d0621ad40d2457b32d3127263
+manifest ff2d9f583194b5f8d5058de1a2ed10e1b0fde2ed
+files dom/base/nsDOMMutationObserver.h
+patch 174,175,

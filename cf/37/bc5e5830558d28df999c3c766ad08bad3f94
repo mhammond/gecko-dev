@@ -1,0 +1,4 @@
+changeset b5c1c15e0a74879178f610a6e663271a52ed2adc
+manifest 5b54c9acdb2b3092c77b40312812634b6f93d5d3
+files widget/nsBaseWidget.cpp
+patch 269,270,

@@ -1,0 +1,4 @@
+changeset dc354a5dfca39f6d7cea1cbc9560d5df1898f4b8
+manifest e47b3ba2ef408991f39bd2d71561be9f1c8e1b8d
+files browser/devtools/styleeditor/test/head.js
+patch 217,218,

@@ -1,0 +1,4 @@
+changeset c92eb84dfd39b1f317a9aca36d0b613467accb8d
+manifest 0bf1834215e0be9361cc1044ca882fc7f1123d2b
+files widget/gonk/GonkPermission.cpp
+patch 225,226,

@@ -1,0 +1,5 @@
+changeset 9d0ffc202a0ae9daf48feed74cb9e0300dce0b5e
+manifest 7af57e580954ebec651d2d2c2ebac94bf07385d1
+extra rebase_source:8f4716d2ddb308f37450c400cdfdd5fdf018e6e9
+files gfx/thebes/gfxDWriteFonts.cpp
+patch 281,355,

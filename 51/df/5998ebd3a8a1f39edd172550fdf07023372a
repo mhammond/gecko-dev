@@ -1,0 +1,4 @@
+changeset 71960acb863331d7b80fbf3408d4f9c2c70944bd
+manifest 19d24b7c47c2a78a86792e2849127532e7e48ceb
+files dom/system/gonk/TetheringService.js
+patch 208,209,

@@ -1,0 +1,5 @@
+changeset 7b05c837111439b78a93c4d0ad42da68a4b72d08
+manifest 3a8c5333676d3bf3e5e7135438910331c502f55f
+extra rebase_source:cd18b225a54b183654462ec716b07154b939f410
+files browser/base/content/test/newtab/browser.ini
+patch 323,397,

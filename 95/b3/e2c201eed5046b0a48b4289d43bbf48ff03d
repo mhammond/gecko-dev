@@ -1,0 +1,5 @@
+changeset ed55a27201428ba878a695a0c79deceb02c26d6b
+manifest 7fd1dde382047802aa17b41c61303214cc9f892c
+extra rebase_source:e6889caf908e6cd3cdd06ca883a0da9fbbcbd384
+files testing/specialpowers/content/specialpowersAPI.js
+patch 277,351,

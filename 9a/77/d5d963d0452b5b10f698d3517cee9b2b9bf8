@@ -1,0 +1,5 @@
+changeset 5ffa912ed83eff4d64a0cec2154816a3c25ce475
+manifest c82b308124f86c1fd347b384e3da1280a42c1473
+extra source:b15d2346d864cee95cf6bb56e3eaf58b1f595135
+files dom/html/ImageDocument.cpp
+patch 763,830,

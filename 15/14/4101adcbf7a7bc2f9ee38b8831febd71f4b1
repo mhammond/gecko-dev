@@ -1,0 +1,4 @@
+changeset 86ccec2b9888195807bb2f9a880d76a32ea78b59
+manifest 487677a3657007d1d0a90c7418208c6ff1a49f8e
+files xpcom/components/nsCategoryManager.cpp
+patch 185,186,

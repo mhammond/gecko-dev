@@ -1,0 +1,4 @@
+changeset 2a14359213efbbe5b8ea31cbba0cd8ba8fa16550
+manifest d669b368fedb392349e9fe3e38544aac75fb728a
+files devtools/client/webconsole/new-console-output/test/chrome/chrome.ini
+patch 266,267,

@@ -1,0 +1,4 @@
+changeset add63b27b7ba7e248f9903ed9e569d75d7d10e03
+manifest 38a0692cd520bf261c406f56e05e0f9a6241c188
+files dom/webidl/ServiceWorkerGlobalScope.webidl
+patch 297,298,

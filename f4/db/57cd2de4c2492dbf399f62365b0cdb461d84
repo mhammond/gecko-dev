@@ -1,0 +1,4 @@
+changeset 2b6108c94b2eeeaa2edd28625badd8b224d938b6
+manifest 21871041559ebab31e1dbe0389dda04e7cef9c92
+files testing/marionette/client/setup.py
+patch 244,245,

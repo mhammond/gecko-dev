@@ -1,0 +1,4 @@
+changeset 906d018dd35818ee9fbf89d423cf67b9994bd871
+manifest 2dc83c7b7297282cf7e446fa100c0f926f2826a4
+files js/src/jit-test/tests/gc/oomInGetJumpLabelForBranch.js
+patch 219,220,

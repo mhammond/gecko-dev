@@ -1,0 +1,4 @@
+changeset 4e3b9f88ef1a80c037e50d1ebf89f33452d514a9
+manifest db8fd507697522d793d684c65402d0f7ad1ddc0b
+files js/src/asmjs/WasmModule.cpp
+patch 235,236,

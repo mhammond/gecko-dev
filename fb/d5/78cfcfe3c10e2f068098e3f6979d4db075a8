@@ -1,0 +1,5 @@
+changeset d985d574aea68b484d057e7a80a2172750b5db45
+manifest ceefedcda09918bf5074909ee7042f3b2c8a5446
+extra rebase_source:487c88d626df7184502226b9ce02410adc504f12
+files security/manager/pki/resources/content/certDump.xul
+patch 667,741,

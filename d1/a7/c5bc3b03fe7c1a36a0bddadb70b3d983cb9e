@@ -1,0 +1,5 @@
+changeset e8e3aef9b935721c1b527aea0dfa8c531806af73
+manifest 69c464385d8a5f5f86cb89adb5c348b748006e7f
+extra source:d931b333d2263e19921a1e1ab331403321c21c26
+files layout/style/generate-stylestructlist.py
+patch 242,309,

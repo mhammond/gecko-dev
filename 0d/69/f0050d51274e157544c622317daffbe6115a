@@ -1,0 +1,4 @@
+changeset d3892088d89ba8913f89e40e97fca5c1ff8ba49f
+manifest 929b7c5856d908075425ed33edde6400396f3396
+files toolkit/components/telemetry/histogram-whitelists.json
+patch 267,268,

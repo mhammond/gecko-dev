@@ -1,0 +1,5 @@
+changeset 4fb9118e1f62fb16d7e747b647b744db23718468
+manifest 913a214a49e291fdd88e7c6c9ad6409350a1fcdb
+extra rebase_source:1f21c99c407ac7f3e6ffe9d64366639810a75447
+files js/src/gc/RootMarking.cpp
+patch 261,335,

@@ -1,0 +1,5 @@
+changeset 9f6559ebb5932cdf9e0bd24bf91700f2bfa1a1a4
+manifest 268b06b16dd2c7bb81d630f696dc1485d10e1ed5
+extra amend_source:b6672cca44a5d18d141d3458a64ebb09e98903ed
+files build/autoconf/subconfigure.m4
+patch 266,339,

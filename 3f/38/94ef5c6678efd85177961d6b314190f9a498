@@ -1,0 +1,5 @@
+changeset f11bd297cbb34486d90c3e91407bfa662fed5e90
+manifest dd699ce3e225aad960a981a093fa288279a4ad0d
+author aselagea
+files taskcluster/ci/desktop-test/tests.yml
+patch 149,150,

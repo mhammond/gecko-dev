@@ -1,0 +1,5 @@
+changeset 201882b9e76226bc970f38abd2d99a0e231669a4
+manifest 7bdc4b4bd7092981df24d95795027738358700fd
+extra rebase_source:bcf5862333beed3b473867b5a8817649afc46cdd
+files browser/base/content/test/social/browser.ini
+patch 310,384,

@@ -1,0 +1,4 @@
+changeset a37ac3dbec9f5aa33d4e3990e49ce0d92a9cdaa5
+manifest 63458f683d86dc65910ac931fb323ade328e7f1e
+files gfx/skia/skia/src/effects/gradients/SkLinearGradient.cpp
+patch 247,248,

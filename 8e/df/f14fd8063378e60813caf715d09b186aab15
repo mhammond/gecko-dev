@@ -1,0 +1,5 @@
+changeset 455af65081f54070206a8e38a512033311205282
+manifest 33efab7d6dbb51b4bb97838a9efa5960a88aeb7f
+extra amend_source:6ca2be5cd5d58ff0f47734889eb6cea99d8d4c4d
+files browser/locales/en-US/chrome/browser/loop/loop.properties
+patch 296,369,

@@ -1,0 +1,4 @@
+changeset ef0680dc3d4feb015a07b3edefe0b9d2a095bdec
+manifest 0b63ed61acdbfcf3140442c303f4d26d1606ad8b
+files testing/web-platform/meta/html/semantics/embedded-content/the-iframe-element/iframe-allowfullscreen.html.ini
+patch 338,339,

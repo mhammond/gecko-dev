@@ -1,0 +1,4 @@
+changeset fe6a13755fa3e401a785f7466644387f5d5a8ba4
+manifest 2372191dc9a18d0e5b4a9936f7066600cf39afc2
+files uriloader/prefetch/nsPrefetchService.cpp
+patch 171,172,

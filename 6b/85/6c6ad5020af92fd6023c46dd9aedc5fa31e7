@@ -1,0 +1,4 @@
+changeset e4c17383beba8962b2eea2c2392d40c6e487b8e4
+manifest 875a0156d8f745577547503a31dc8f7830870bf8
+files dom/workers/test/test_bug1132395.html
+patch 196,197,

@@ -1,0 +1,4 @@
+changeset 25a2511b2c5ae3746eda72b4623ee71c83d73299
+manifest 1ea1c3ae5efd6c16c66fef4b13016faecae10000
+files browser/components/migration/nsIEHistoryEnumerator.cpp
+patch 370,371,

@@ -1,0 +1,5 @@
+changeset 55585709276f4b9c00375a1ec8075198e6d8960f
+manifest 1d3130194182b41c867ccd96224f8c2a05c74642
+extra commitid:1CwK1XzJye
+files testing/mochitest/tests/SimpleTest/ExtensionTestUtils.js
+patch 282,321,

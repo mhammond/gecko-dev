@@ -1,0 +1,4 @@
+changeset fdb02f71f91dcc89d23f3e6bc760377aa3bd2947
+manifest 971e6aa32f36422cfb60e2040dbb88cb7a085b6d
+files toolkit/devtools/server/actors/actor-registry.js
+patch 225,226,

@@ -1,0 +1,4 @@
+changeset 331c4166a3a2df2d3a037107addef5d85cdc31b5
+manifest f1e7b8debb7529aee5fbec5a40097981d518b8a1
+files devtools/client/jsonview/components/headers.js
+patch 300,301,

@@ -1,0 +1,5 @@
+changeset 961fe9c61047a58001dbcb217f78b2dbfffb09f6
+manifest ab69f4a7e9b4893664f2050cd178f31e84102875
+extra rebase_source:593d1f1dfc46822a71691369899d51300bcc32f4
+files dom/webidl/Apps.webidl
+patch 251,325,

@@ -1,0 +1,5 @@
+changeset 392a3bd6c8faf0788703f8442eecf9e4eb1591e1
+manifest b243d8008b4ac0b3b9a14a95d38e74cc3a23d050
+extra histedit_source:9332418f3c9177d55897cc07a5cdcd0f7d6bdb9c
+files devtools/client/netmonitor/test/browser.ini
+patch 267,343,

@@ -1,0 +1,4 @@
+changeset ffde34f25611ae50fdbe9aeb3fdee6b7931a059f
+manifest 5cb071c5a0c14a9e7e26032012a11bb04dd27879
+files gfx/layers/ipc/ImageBridgeChild.cpp
+patch 245,246,

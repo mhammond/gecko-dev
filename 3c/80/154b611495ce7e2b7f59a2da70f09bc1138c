@@ -1,0 +1,4 @@
+changeset 530d3160f8e775af4efde14aa9985cfe31333c6d
+manifest 4ba3f9b1a9bf1b8288c56804b9da0faedf5b21d5
+files toolkit/components/places/tests/browser/browser_redirect.js
+patch 202,203,

@@ -1,0 +1,5 @@
+changeset 6484e936f2c297f7c3c00b98ccf79fbdebef7686
+manifest 270866c1350a99cc1d2d6c681c8da06d7efc161d
+extra source:ba5ff277a3cd1a7f655f8e02a130a395e8f2a225
+files toolkit/modules/sessionstore/XPathGenerator.jsm
+patch 254,321,

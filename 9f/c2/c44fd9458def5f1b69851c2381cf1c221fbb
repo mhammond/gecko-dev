@@ -1,0 +1,5 @@
+changeset a6163cb891f8211b7810983813cf3107d1549e00
+manifest 82677ca5e386e5ca2890e1e7a5baab1a50ad8ca0
+extra amend_source:14c4e9a96bbce764812b6ed8ceae5d55d5b3ed3f
+files js/src/jit/arm/CodeGenerator-arm.cpp
+patch 248,321,

@@ -1,0 +1,5 @@
+changeset 6c23fee0a201374ff4f214d96719d43d3ab1685a
+manifest be29d6cfdcd831de0b9bd36c8f03dbc6496d7f64
+extra rebase_source:9592e1e95454ff0ab48107b95d2c7304417479db
+files dom/canvas/test/captureStream_common.js
+patch 298,372,

@@ -1,0 +1,4 @@
+changeset 595dcfef6e65e9c3e6d305b3e0b5a0e10ae9a46a
+manifest 09cf1aa22ef86afd0faca880bcdd92948c83e580
+files browser/base/content/test/general/browser_ssl_error_reports.js
+patch 289,290,

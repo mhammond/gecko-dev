@@ -1,0 +1,4 @@
+changeset 11ce13afa92b3ef821864875d9fdea2a0c608fce
+manifest c75394ba663c4ed5b02946078d477586aaec83cb
+files hal/linux/LinuxPower.cpp
+patch 211,212,

@@ -1,0 +1,5 @@
+changeset f2b2fdf5b0b26000131a0743a2edcb707981f606
+manifest 78ee42121f1166d4ed43427ee9a19d504c5bdf29
+extra rebase_source:1b6c79ad740cb90d19c69ec9ed64a9a9789b27f7
+files mfbt/decimal/update.sh
+patch 304,378,

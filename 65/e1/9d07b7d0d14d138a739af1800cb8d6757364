@@ -1,0 +1,5 @@
+changeset c1b0512e0b7b7260df1dd37d6607aefaec450c60
+manifest df7baed36b36658e1cbbc65d92f62b731914bb36
+extra rebase_source:a17b80527d576c8d706b1ca73673c75b1737f571
+files taskcluster/taskgraph/transforms/tests/desktop_test.py
+patch 317,391,

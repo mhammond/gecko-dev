@@ -1,0 +1,5 @@
+changeset 39e581da7b37bddffd5b4aa6d3daabe58e603a28
+manifest 4031abcd93b109ddf87d37e6a8886e8049384906
+extra rebase_source:8eef835f2e9d0a1b40b54ee0b2a14f8dfc37e726
+files gfx/thebes/gfxCoreTextShaper.cpp
+patch 311,385,

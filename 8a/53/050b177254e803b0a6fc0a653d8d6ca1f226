@@ -1,0 +1,4 @@
+changeset e8a2d4389e8fda88a630bebd7dbb9fb180443341
+manifest 6ed3863da3879b2d3fe6efe11b8b64697462bb18
+files build/mobile/devicemanagerADB.py
+patch 211,212,

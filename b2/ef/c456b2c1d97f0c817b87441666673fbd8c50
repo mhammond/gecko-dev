@@ -1,0 +1,4 @@
+changeset 7b864c2babb2453b4ef7be106da6fcfbe1ece2ef
+manifest 8b4a7557848895f30604a83adb5ca09219a96a2e
+files toolkit/components/places/tests/mochitest/test_bug_461710_perwindowpb.html
+patch 260,261,

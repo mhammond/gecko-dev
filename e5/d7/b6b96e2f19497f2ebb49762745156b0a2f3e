@@ -1,0 +1,4 @@
+changeset 56e62aba9d13beea18e587157d34b028f18f632d
+manifest 369d543889f1e74696376e47d6906e532fa33520
+files mobile/android/base/overlays/service/sharemethods/ParcelableClientRecord.java
+patch 207,208,

@@ -1,0 +1,4 @@
+changeset 7bc1a0226b9c67ba55ba043e9a4a99546ff8f20e
+manifest 6e49f37afcd34ca32ae078526ad03b53fe6dec5f
+files devtools/client/inspector/layout/types.js
+patch 231,232,

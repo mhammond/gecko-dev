@@ -1,0 +1,5 @@
+changeset 10a01f31d4325b74361405ac9e1009d2353e5f07
+manifest f89f4e2244dd2bf8d634592f59e122c34b654082
+extra rebase_source:adcd21e84342db9786caaf73da23ad4b1f3a4c4e
+files security/manager/ssl/moz.build
+patch 265,339,

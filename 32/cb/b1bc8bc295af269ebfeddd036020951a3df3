@@ -1,0 +1,5 @@
+changeset 27ab916e0e666c36597999325cc159a10e807dd1
+manifest 481c0ee01d91ac5c32bb3aea2844c99cacacf4a5
+extra histedit_source:1ba9b75a05b7b97059c035f8dbf2247f8f551fc3
+files dom/events/test/test_clickevent_on_input.html
+patch 252,328,

@@ -1,0 +1,4 @@
+changeset 040014a28b11a0c3aec7f7dfa69e0c1f4125141d
+manifest 7e357aa7efa33801d9993228d0fe935aa2e0000d
+files config/external/nss/Makefile.in
+patch 494,495,

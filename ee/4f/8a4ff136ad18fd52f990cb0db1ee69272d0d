@@ -1,0 +1,4 @@
+changeset b2a7cf1f8f467495d0a3d1f06935ee76d147b466
+manifest 581504551640f498e27999d3f13a080616548179
+files devtools/client/inspector/rules/test/browser_rules_edit-property-increments.js
+patch 319,320,

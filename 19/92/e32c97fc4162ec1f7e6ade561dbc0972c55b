@@ -1,0 +1,4 @@
+changeset 7cb5da22dd49e2dde129b29e308649d245562b6a
+manifest 8e46d3d0091712ff8643978a8d5f831e046bfd25
+files layout/base/tests/marionette/test_selectioncarets.py
+patch 228,229,

@@ -1,0 +1,4 @@
+changeset 99814e9730de09eaeb0a3dc2d7ce5deeefaae5db
+manifest 64a4c6ec6d62effc971e5b0ea6ece721070a2ce5
+files extensions/spellcheck/hunspell/src/patches/10-983817.diff
+patch 303,304,

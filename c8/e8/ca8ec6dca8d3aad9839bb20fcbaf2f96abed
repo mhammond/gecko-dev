@@ -1,0 +1,4 @@
+changeset e2571657336cb57bf0965b55988a1ee90cc44187
+manifest 0f4e1a3d74433e801cca13c9de74d91771ccc4c3
+files dom/bluetooth/bluedroid/BluetoothAvrcpManager.cpp
+patch 415,416,

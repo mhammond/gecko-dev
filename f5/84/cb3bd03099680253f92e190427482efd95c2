@@ -1,0 +1,5 @@
+changeset f94d743ff7406677f3be229e8406661d073b2ec7
+manifest 0f08e20d2e9bd73ab4f533c7cce71676af58f493
+extra rebase_source:b1824f0a022389aeb02d925c4d788e5a671bf782
+files xpcom/glue/nsID.h
+patch 336,410,

@@ -1,0 +1,4 @@
+changeset 21566d28e4740b320fae3e56df6803568728902f
+manifest 80ee61e17b0498406bd90692dbd13c6a910e19e4
+files media/webrtc/trunk/webrtc/modules/video_coding/main/source/jitter_buffer.cc
+patch 239,240,

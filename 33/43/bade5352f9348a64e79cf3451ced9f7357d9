@@ -1,0 +1,4 @@
+changeset be72540c9e57cdc7f272daed185069eb06c2101e
+manifest 6ce8f480b89ccef515bf7fa0c2b8e3f489489a1c
+files toolkit/components/extensions/ext-webRequest.js
+patch 263,264,

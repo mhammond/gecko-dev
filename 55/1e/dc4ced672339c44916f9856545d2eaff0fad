@@ -1,0 +1,5 @@
+changeset f57f5762e4f74cc8369f78f3942f465f6baefff3
+manifest f569421bfae16a3b8a700c0c9d3539baaed15c6b
+extra rebase_source:822069c5ffe676d1abd6a5d6b07c79a14ae6794a
+files mobile/android/base/java/org/mozilla/gecko/db/AbstractTransactionalProvider.java
+patch 360,434,

@@ -1,0 +1,4 @@
+changeset 5a3eabb1237d0f5ebd5528ca35fbcc9a394cbf52
+manifest eae5611667abf15c50d64ec975bc1e8ca6e4644e
+files testing/marionette/client/marionette/geckoinstance.py
+patch 230,231,

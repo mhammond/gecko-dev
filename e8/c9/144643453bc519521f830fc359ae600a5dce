@@ -1,0 +1,5 @@
+changeset dc210e2babbe095577acd60b90be407955396972
+manifest 9cfa79b06a997330bf8c4c6acaaf405050a11f15
+extra rebase_source:f1fb035d5588fd4db09393e3403aee21e0c04f7d
+files widget/cocoa/nsNativeThemeColors.h
+patch 278,352,

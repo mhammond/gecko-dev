@@ -1,0 +1,4 @@
+changeset d60ded82663580e8d06ab904a3b673ee7f0af117
+manifest 48c6755c7ab7d1edaa9db840381869b063df36dd
+files testing/mozharness/scripts/b2g_build.py
+patch 195,196,

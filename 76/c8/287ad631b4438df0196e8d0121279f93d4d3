@@ -1,0 +1,4 @@
+changeset d2518d6b0592dce706c8a7ebf663077674496c81
+manifest 4e56b02e2fe0ba7b899a805e2228b93c73f5f710
+files devtools/shared/gcli/commands/cookie.js
+patch 293,294,

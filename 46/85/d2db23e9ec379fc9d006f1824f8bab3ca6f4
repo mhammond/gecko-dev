@@ -1,0 +1,4 @@
+changeset aa3e75261064c860d29583974df3fef7fd90a15a
+manifest c7c31922608c4cf3be50357a460d36750cfafcfe
+files dom/ipc/BrowserConfiguration.ipdlh
+patch 156,157,

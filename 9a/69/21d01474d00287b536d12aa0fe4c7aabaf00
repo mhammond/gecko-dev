@@ -1,0 +1,5 @@
+changeset 87e1e46c6708fb8df9f9cfb585fc5cab961ffec5
+manifest 5d8c0d9da2148820ec6372c512c424ccd374e5ea
+extra rebase_source:1a9e856099c0ba51a1e2e67670d82b0ed55e6603
+files devtools/client/debugger/test/mochitest/browser_dbg_on-pause-raise.js
+patch 391,465,

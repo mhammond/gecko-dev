@@ -1,0 +1,4 @@
+changeset 55f940d8b0f287f43fa87d0cfbd567227991b84f
+manifest 7913ff4617f43c3e98bf80dc0cb5b6369aeb6f5f
+files tools/profiler/core/GeckoSampler.cpp
+patch 291,292,

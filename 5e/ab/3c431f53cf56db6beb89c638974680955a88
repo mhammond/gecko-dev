@@ -1,0 +1,5 @@
+changeset 84020ba5861cdb30d7af23a3482324b92b77451a
+manifest 6f595bebaed8e0b0981c95b9672151a4936d0e38
+extra source:46d964768cf63cd67a5e4eae37f54725042bb2ba
+files devtools/client/shared/widgets/FlameGraph.js
+patch 268,335,

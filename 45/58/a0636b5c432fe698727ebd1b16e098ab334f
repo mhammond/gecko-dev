@@ -1,0 +1,5 @@
+changeset 408319d87eacb28848efeab0346eb815440adade
+manifest ca3070d477c5c5e2d4027c8d06b01d3c71cdd7b7
+extra rebase_source:1164621e00e2b917b5462d5ba310e0cc94d23bd9
+files moz.configure
+patch 737,811,

@@ -1,0 +1,4 @@
+changeset aff31c38715020c8fb3c878bee84a5fa0c3e4cec
+manifest ff7a2bac50ddc6ecd4a14b998a5c5746792f604a
+files dom/security/nsContentSecurityManager.cpp
+patch 255,256,

@@ -1,0 +1,4 @@
+changeset bfa847fd5f532ad4b2d95e565aedd7bd54051a01
+manifest 03ed862470a0e653d4e79236e579d7820abfef7a
+files testing/web-platform/meta/html/semantics/embedded-content/the-img-element/sizes/parse-a-sizes-attribute.html.ini
+patch 339,340,

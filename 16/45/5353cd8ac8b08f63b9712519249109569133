@@ -1,0 +1,5 @@
+changeset ee34a0965c04f8e3f3853d18a63cb4c6a2846811
+manifest cee9fd2c62cdf92d2090338412c5b774eb679a17
+extra source:bc2c76086aefc8f03c0cbec1eeb9d290415fec72
+files dom/media/mediasink/VideoSink.cpp
+patch 300,367,

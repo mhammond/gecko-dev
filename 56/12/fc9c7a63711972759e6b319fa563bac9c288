@@ -1,0 +1,4 @@
+changeset 303a47b92ecdfca56d93fa3de097d4503fcbcb41
+manifest 77420f38e8e36013a34e8b599eab84a6517f0de2
+files dom/messages/SystemMessagePermissionsChecker.jsm
+patch 177,178,

@@ -1,0 +1,4 @@
+changeset 55bfb62edc00fca7b952680a1d979d79e046e10a
+manifest dee1175019ba2dc1c355e337270e010d96dc57be
+files browser/devtools/markupview/test/browser_markupview_html_edit_02.js
+patch 296,297,

@@ -1,0 +1,5 @@
+changeset 252686d8c6e5fae00cc0ee68470df6f8387919d5
+manifest fd2cd8236c4a7c9e4a48c5e28cf961a5787c25dc
+extra rebase_source:d7a5e7be5a85144573a43970848c1f2337a8c470
+files js/src/gc/GCRuntime.h
+patch 243,317,

@@ -1,0 +1,4 @@
+changeset 09f33ee98374870f4619c9c6c8e6ac90c7db5a99
+manifest b15369a311410389140a241255bd5bd3ab0f8f98
+files netwerk/base/NetUtil.jsm
+patch 260,261,

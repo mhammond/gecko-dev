@@ -1,0 +1,5 @@
+changeset 238352c7301568bedf11558c22bbd268d30edee0
+manifest b19f26627557a67f7a621832ef64f155da07a583
+extra rebase_source:c0fbc7c138db85fc4f79edb198192d55ffbe4689
+files browser/base/content/test/plugins/browser_globalplugin_crashinfobar.js
+patch 313,387,

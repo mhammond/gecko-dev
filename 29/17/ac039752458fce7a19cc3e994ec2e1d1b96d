@@ -1,0 +1,5 @@
+changeset caefe89148b3e7e9c2f5b05d9d1ab6231a6fbe35
+manifest 4f9393482d49d2384adaf10c3025f7aef65d7b74
+extra rebase_source:5fb34704b5b8de1f7bb4ddfd3c42c780af1190b4
+files dom/base/nsFrameMessageManager.cpp
+patch 258,332,

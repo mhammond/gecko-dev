@@ -1,0 +1,5 @@
+changeset 1a5b75c9e522cf6f647701ac550d3d5f1ebfecce
+manifest abad3cd7278b8acf181a6d697fce473082f81490
+extra rebase_source:a914b1a598b003662c406f3536986d0a6d41e7da
+files mobile/android/base/java/org/mozilla/gecko/menu/GeckoMenuInflater.java
+patch 305,379,

@@ -1,0 +1,5 @@
+changeset 56b2ee9b6429a2bf935f012d7e75d3e38a1ed747
+manifest 8d2d03e9db82bffa5812cf64e2477c932f98305c
+extra rebase_source:7e5d8a741980bbdadb7bdee6aae6977d8cf1dc2c
+files mobile/android/chrome/content/ZoomHelper.js
+patch 285,359,

@@ -1,0 +1,5 @@
+changeset 6b67eefb3797459fb4fceb3b9914c583c3589bd1
+manifest 4ca9e5694bda4eb482ceefa91035324515bafda1
+extra rebase_source:231cdb29e7ba9e59d29a0591fb63fd0601c99bec
+files browser/base/content/test/urlbar/browser_autocomplete_autoselect.js
+patch 377,451,

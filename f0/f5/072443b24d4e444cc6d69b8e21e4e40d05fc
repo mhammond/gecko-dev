@@ -1,0 +1,5 @@
+changeset 75361a6c9ddf553c4802bd42e061b0195c75e56d
+manifest c23625700f39eea5f000e1ce79c1bbd915046314
+extra rebase_source:8190a51fde8434ac346a4e23db5ed4703762778c
+files xpcom/io/nsNativeCharsetUtils.cpp
+patch 412,486,

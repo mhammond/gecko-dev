@@ -1,0 +1,5 @@
+changeset b61aa3192cffe9bfa9ac22c7fcfcc95385b47ea5
+manifest 4fc02fb0aba056b6086bd3687f7ed590f1454bdc
+extra rebase_source:8d1f6846e65e378f5c5132f57349b7204a86bc7f
+files dom/canvas/test/webgl-conf/mochitest-errata.ini
+patch 311,385,

@@ -1,0 +1,5 @@
+changeset 636964569c3b6d732424366fc03d29541ce90481
+manifest bf3c282e9f48f6be6c5aba20a5e6a917707e31a3
+extra source:7511231503fbee1ad7f1a936e531192f25efa262
+files build/autoconf/rust.m4
+patch 266,333,

@@ -1,0 +1,4 @@
+changeset 39305ec41209417c931ae15af6086d50acda7c7e
+manifest c350ee395f9be30672a30230803bc3c44f96c585
+files js/src/jit/x86/SharedICHelpers-x86.h
+patch 206,207,

@@ -1,0 +1,5 @@
+changeset 3e21107d9b43d2b902ff266ef4b55cef35fe8859
+manifest 563eae304d56f1f7450df6252fb4e515ed5f2430
+extra rebase_source:d9a809faae8a8ea160b91f2a92e94f8a12b930b0
+files js/src/vm/ObjectGroup.cpp
+patch 240,314,

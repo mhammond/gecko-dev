@@ -1,0 +1,5 @@
+changeset 52691dffa0262aa63a83aa201fef8dc6f505504b
+manifest 052b4f5802e4fa57b6525ee134f6c0a8a05ffffc
+extra rebase_source:6b2725238f604688f884f6463e14da9eb67f0847
+files toolkit/components/aboutperformance/tests/xpcshell/test_compartments.js
+patch 392,466,

@@ -1,0 +1,4 @@
+changeset 7cc2aaf55e9559992dc2b54fa837bb434167b08e
+manifest a2b8e0bc03c585350cfbbff414d2dba062318d0f
+files browser/components/loop/test/mochitest/browser_mozLoop_context.js
+patch 213,214,

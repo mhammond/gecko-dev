@@ -1,0 +1,4 @@
+changeset a6a0bf1b749c71f0bf3f60278e66c0451cefdaea
+manifest 419a749989d87a22a56bb0f2d82a1c45004e1c2b
+files js/src/tests/js1_8_5/reflect-parse/classes.js
+patch 241,242,

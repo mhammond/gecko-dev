@@ -1,0 +1,4 @@
+changeset 2f1e4ecb55d8435bbe281bbfff1ad48d732f2cfd
+manifest 5a530e2f1e065a7fe83498518d737c45b86372f4
+files xpcom/idl-parser/header.py
+patch 208,209,

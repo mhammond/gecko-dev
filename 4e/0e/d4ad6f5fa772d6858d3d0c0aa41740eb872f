@@ -1,0 +1,5 @@
+changeset d07d8b4240508b3729ac79544f63dc7dc6fdf32c
+manifest a429fae538f9e28759700af8c9676405b93f3e9b
+extra source:c0b423fd5a1f81eae504b3da0ada945779f424ed
+files gfx/thebes/gfxContext.cpp
+patch 276,343,

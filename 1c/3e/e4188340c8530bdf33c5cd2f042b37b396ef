@@ -1,0 +1,4 @@
+changeset ca13c2892cc0676ffc1af559696536e06e4b0b1c
+manifest cf43639e2d8542fecad34e90a8bfbae6d88188ad
+files browser/devtools/sourceeditor/codemirror/mozilla.css
+patch 236,237,

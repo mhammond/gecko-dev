@@ -1,0 +1,5 @@
+changeset 311cd751719712c09e564d493adba55d2a06d575
+manifest 11b620e44a974d68a00757b5bd1bbf0ff5676afc
+extra rebase_source:79af65583a432570e2d9474fd6b89bf51b920d94
+files layout/xul/test/browser.ini
+patch 255,329,

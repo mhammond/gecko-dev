@@ -1,0 +1,4 @@
+changeset bc44cbe933101c8a3b8e0cc5afc56131e4b384b8
+manifest 8e270f8a639bcdcad3fe2862920bd3e1d5a9ba09
+files tools/profiler/core/platform.h
+patch 193,194,

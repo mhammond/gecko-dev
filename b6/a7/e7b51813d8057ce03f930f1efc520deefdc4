@@ -1,0 +1,4 @@
+changeset 306382512096564f06aa175ddddeef59a90f36f0
+manifest d36e3824d265a09e93d63dfbb69a776b18008b0f
+files devtools/client/inspector/layout/test/browser_layout_editablemodel_bluronclick.js
+patch 322,323,

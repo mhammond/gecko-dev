@@ -1,0 +1,4 @@
+changeset 2321901d8d220b9e2f8e4f0e34803b04fe3b7282
+manifest 3b465cc4dc358e4962e647b79f5bd40447f6853a
+files modules/libmar/verify/MacVerifyCrypto.cpp
+patch 248,249,

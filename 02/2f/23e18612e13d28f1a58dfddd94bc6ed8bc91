@@ -1,0 +1,5 @@
+changeset 5b34433693cf6fbee0835b49855c66d65c1c16f6
+manifest 363c7efc0ac672405e0c00f52f305b87b3957418
+extra source:cce94588e7222ab3bc4decec7b6f23afcf2978a2
+files testing/puppeteer/firefox/firefox_puppeteer/ui/pageinfo/window.py
+patch 323,390,

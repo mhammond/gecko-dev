@@ -1,0 +1,5 @@
+changeset bcf1d6fa8fee4a885d7c5d5393b0560ace064bd6
+manifest 1df34e735f141d3d91aded437c3cdd181f9cded9
+extra source:7084bd828e4c688daf6078a710d2f267bb52591a
+files mobile/android/base/java/org/mozilla/gecko/promotion/SimpleHelperUI.java
+patch 500,567,

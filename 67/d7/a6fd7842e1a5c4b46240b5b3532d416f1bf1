@@ -1,0 +1,4 @@
+changeset b4b85729bcf386afc83f206ba7b1bbcbc7dc9489
+manifest 44bf000814c85c39a9d17b4449126a12967a6971
+files browser/base/content/test/plugins/browser_private_clicktoplay.js
+patch 390,391,

@@ -1,0 +1,5 @@
+changeset b03c8edfddf75c795710b474cd190dec08e372a4
+manifest fbfe367a7188d9e185ace9ef19da889221a9aa6e
+author ffxbld
+files security/manager/boot/src/nsSTSPreloadList.inc
+patch 202,203,

@@ -1,0 +1,5 @@
+changeset 96c3ed67980c9160033a3cb35b10f9a4b0107a1e
+manifest 01a475c535055d315f11a1d6c7893101e7178a68
+extra rebase_source:7c71f099f8a138de9a9bedf2fc57d84209bee434
+files mobile/android/components/build/nsAndroidHistory.cpp
+patch 321,395,

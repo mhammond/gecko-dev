@@ -1,0 +1,4 @@
+changeset 8ff7083db0ea1bae54c3de676a90e688e428eab3
+manifest a66edcd63ff06de40f2c7c643aac099e9d98ef09
+files browser/components/migration/tests/unit/test_Chrome_cookies.js
+patch 247,248,

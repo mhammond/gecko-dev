@@ -1,0 +1,5 @@
+changeset 57421ca272a282339566707a1b49ad11a870e095
+manifest 8b4f22cf6fa46d31b8fdedbbd4a23d9bd2b8e31d
+extra rebase_source:0f8533f8a97082262800398cf81fd820c58e59e5
+files testing/docker/android-gradle-build/bin/after.sh
+patch 316,390,

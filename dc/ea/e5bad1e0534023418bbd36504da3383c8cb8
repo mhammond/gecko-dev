@@ -1,0 +1,5 @@
+changeset f88a13f533e0bcadf9d5e9ca9f696f92acbf1428
+manifest c8541834fffd9f6605776c4fd716e2e18e5b6549
+extra source:46f84dd5c793ca20efa23c7bd727050004ab1f7d
+files layout/xul/nsMenuPopupFrame.cpp
+patch 242,309,

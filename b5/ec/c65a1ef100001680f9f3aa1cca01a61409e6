@@ -1,0 +1,4 @@
+changeset 4e0a66f7b693d055ef52c5b17d55cb117d6296b0
+manifest 2bc77a0064748c4cdce78f8c279823bb07de0b23
+files chrome/nsChromeRegistryChrome.cpp
+patch 246,247,

@@ -1,0 +1,5 @@
+changeset 8fe577bafb7837433a3d88515baf0c4155dadf90
+manifest c72a5a8d28e0b185b4d9ecb6e93a343aef3971e1
+extra rebase_source:7c7ccd688b8d40ad614663ee33723e24eae922a1
+files devtools/client/shared/widgets/FilterWidget.js
+patch 345,419,

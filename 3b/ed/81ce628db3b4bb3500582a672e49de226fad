@@ -1,0 +1,4 @@
+changeset bfba8196af9d7a9ecded212d1136da56b6e7759d
+manifest 52ff8972d79aa453eaa062bb5f7dcdaca275d43a
+files dom/bluetooth/nsIDOMBluetoothAdapter.idl
+patch 189,190,

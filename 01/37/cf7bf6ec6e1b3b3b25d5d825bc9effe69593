@@ -1,0 +1,5 @@
+changeset 84c7d65efcbd3b7c742c81f16fad81b17a9b05e9
+manifest 8d5807eb2bf37af8acbbd1dd7d6844d862891e3d
+extra rebase_source:4dd1b257b075eb32328f628edac3cbcc1cbf6210
+files widget/windows/WinMouseScrollHandler.cpp
+patch 453,527,

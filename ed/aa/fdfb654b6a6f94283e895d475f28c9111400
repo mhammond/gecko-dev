@@ -1,0 +1,4 @@
+changeset 3864de2e79477e1e522f87850d4fd3c1d707022c
+manifest 33054eaca6a095e9aac2f2eedb957ba008b8c069
+files js/src/jit/mips-shared/Assembler-mips-shared.h
+patch 293,294,

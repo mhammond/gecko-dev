@@ -1,0 +1,5 @@
+changeset 1daa36fd1395c78c182743f3fbcea8a515e727f1
+manifest 62b1667bc486ac87e774d586c43db024c1fb34a9
+extra transplant_source:“æ%ÉÂï–âég\nÊ¹zoª
+files mobile/android/services/src/main/java/org/mozilla/gecko/sync/repositories/android/AndroidBrowserRepositorySession.java
+patch 340,432,

@@ -1,0 +1,4 @@
+changeset b626a918b9e45014578c65b4087b4285c357b37f
+manifest 68bb0354b44b0a1807287bb777642840dc22710f
+files b2g/components/ContentPermissionPrompt.js
+patch 274,275,

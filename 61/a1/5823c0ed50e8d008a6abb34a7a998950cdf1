@@ -1,0 +1,5 @@
+changeset db5ef4601d3ae827a644c05d53aa3bb60d63bffa
+manifest 187ee0f0d9528eaf7c2e4ef025ef94e7dfff041f
+extra rebase_source:5577ef1ee92591a58d1812130f2ad29e8ec18d32
+files layout/base/SelectionCarets.cpp
+patch 405,479,

@@ -1,0 +1,4 @@
+changeset 5226e698dd5f12a9a684ff1b507b0b46f5b584f3
+manifest 3279d4462b40c5bb5a878df5b3de24513b0bbb5b
+files dom/media/mediasource/test/test_HaveMetadataUnbufferedSeek.html
+patch 316,317,

@@ -1,0 +1,5 @@
+changeset 7873f4c1940b9d9ee390ae29e4687172073b4e97
+manifest 791da813ce89a2acfa22f22acef5ba4553f30181
+extra rebase_source:5d4f44479ade51e365628d133e261b3c6d025129
+files mobile/android/locales/all-locales
+patch 278,352,

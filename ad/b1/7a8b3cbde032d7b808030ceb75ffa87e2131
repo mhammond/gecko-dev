@@ -1,0 +1,5 @@
+changeset 847f3b9f3a36145fba2b2cbe5c1b0d4e866a6506
+manifest acd8c51e0eb5f39b84f66e3ef3a8658884e3f83e
+extra rebase_source:27df6c8715bfef8370ec033f68ef854de193a760
+files testing/firefox-ui/tests/functional/private_browsing/test_about_private_browsing.py
+patch 355,429,

@@ -1,0 +1,4 @@
+changeset 3b2440744e32220a4340185c8c523f7769b953a6
+manifest af999e93fd9a6b4f0316426fc4adc4461e91ee85
+files netwerk/protocol/res/moz.build
+patch 269,270,

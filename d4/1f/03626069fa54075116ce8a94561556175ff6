@@ -1,0 +1,5 @@
+changeset 6f1c0c2af6b0639f4f60ccef3babf9085f86caf8
+manifest 87d0b02c9c9dde2a3eda451887898d9627aced13
+extra rebase_source:0d5ee321716bfa74cfb0083a61b7cf23ea45e24b
+files db/sqlite3/src/moz.build
+patch 274,348,

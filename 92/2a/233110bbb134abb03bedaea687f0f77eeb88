@@ -1,0 +1,4 @@
+changeset 0ac674ec465dcde9ec42bbed20ea6b22eb694296
+manifest 8397d3ab175b1a8e90069050e961752d058a85f4
+files testing/web-platform/tests/fetch/nosniff/resources/image.py
+patch 268,269,

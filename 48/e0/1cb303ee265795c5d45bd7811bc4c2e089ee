@@ -1,0 +1,4 @@
+changeset c80a34a1597e9c81fd9dad99dc4873665387512a
+manifest 248bb709d59d5d195a9d041bbc3230e6dfd83d8b
+files dom/security/test/cors/test_CrossSiteXHR_cache.html
+patch 239,240,

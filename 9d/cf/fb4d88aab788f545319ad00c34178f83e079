@@ -1,0 +1,4 @@
+changeset a5e39700fd44ee8c373b0089ccc39d396d583197
+manifest e6cd592e5d2daa3ffaa40fb62426af74f80e1ea1
+files mobile/android/base/java/org/mozilla/gecko/widget/DefaultDoorHanger.java
+patch 296,297,

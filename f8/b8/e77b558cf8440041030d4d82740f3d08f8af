@@ -1,0 +1,4 @@
+changeset 7fd9619376872691295a9ed787c281e77be3481a
+manifest 0fc67530646566960daef190b96f993dac08597b
+files xpcom/glue/nsDeque.cpp
+patch 189,190,

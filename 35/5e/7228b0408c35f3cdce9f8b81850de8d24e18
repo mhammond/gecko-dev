@@ -1,0 +1,5 @@
+changeset f72147bcacddbe095fbb83e659010e29d4fd1b01
+manifest 023c3cb0c7ed4539aec9b9081abbeaaf0a669850
+extra histedit_source:112b550aa3259489d820a442b99157d90a18f6e0
+files b2g/components/PaymentProviderStrategy.js
+patch 250,326,

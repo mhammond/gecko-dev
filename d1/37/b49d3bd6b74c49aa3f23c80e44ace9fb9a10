@@ -1,0 +1,5 @@
+changeset 4457d1e15ac841d5918381f188f055193b82cf42
+manifest 00a29cbd1e26e942a763fc7474da5bc3d206e2c6
+extra rebase_source:2f5cea9a361072fbd1955ffc349f74f1e53d9a1c
+files netwerk/protocol/http/PackagedAppVerifier.cpp
+patch 330,404,

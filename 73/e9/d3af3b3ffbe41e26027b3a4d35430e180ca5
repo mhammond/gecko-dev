@@ -1,0 +1,5 @@
+changeset 0a899ed1487bc0b3c29a447d738bc73b96c1a406
+manifest 8c885aed47c522b4d0d5ef814d3a359b0a1176d6
+extra rebase_source:7349a6c89d5a2fbfca4aef693b1bf3a94b8e9d01
+files browser/devtools/projecteditor/lib/plugins/rename/rename.js
+patch 283,357,

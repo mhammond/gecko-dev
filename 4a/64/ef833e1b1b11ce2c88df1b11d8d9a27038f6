@@ -1,0 +1,4 @@
+changeset 12c94a351403a56c89bf76a0e361116d34ab8458
+manifest 720a1845f437e8af3734beada394359f729146c8
+files dom/permission/Permissions.cpp
+patch 329,330,

@@ -1,0 +1,4 @@
+changeset f33305d70ab2690425df9b1ccfd6861a748843fd
+manifest dfe2e748b7ee9212e6e9568911b38999244fcbbb
+files browser/devtools/styleeditor/test/browser_styleeditor_bug_851132_middle_click.js
+patch 261,262,

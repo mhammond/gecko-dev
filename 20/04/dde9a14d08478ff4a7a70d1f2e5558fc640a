@@ -1,0 +1,5 @@
+changeset f4cfd1e29e8a25daa24ea3966b38dce6b2bb39e4
+manifest 769faa96de59313f76cfecb0806edb0eaf03c43c
+extra rebase_source:1a4233cc2046285f7303d36c0bde21e19a19636d
+files toolkit/components/reader/AboutReader.jsm
+patch 312,386,

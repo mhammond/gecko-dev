@@ -1,0 +1,4 @@
+changeset 5db0dc925186ab903bd7adb5dd3a47919f914f82
+manifest b0c34cef25b04879edd13db87c5d192064efba75
+files config/external/nss/nss.symbols
+patch 489,490,

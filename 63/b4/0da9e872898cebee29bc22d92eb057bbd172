@@ -1,0 +1,5 @@
+changeset d74ec3052a66f61cb3b30b7a47b30a09c24319a0
+manifest 33e1580332edc10eaf73d35757122e1fb299fb17
+extra amend_source:1c64ae13097a13d4e3cf34ddf9c2c0d1a8353c34
+files js/src/js-config.h.in
+patch 263,336,

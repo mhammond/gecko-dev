@@ -1,0 +1,4 @@
+changeset 2346b4e5b5bba5cf596fa303254a628967d56e1d
+manifest b68a0631c2f2dfb9989b7ab1775ccdae50ea84f6
+files browser/devtools/shared/timeline/waterfall.js
+patch 226,227,

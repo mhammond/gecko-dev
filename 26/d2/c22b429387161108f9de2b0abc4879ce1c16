@@ -1,0 +1,4 @@
+changeset 0c92aae1b559ac241054553b21f509f1a0fcdb17
+manifest 95d1f217729dece762160d259cb84eb6b31b8cf9
+files mobile/android/stumbler/java/org/mozilla/mozstumbler/service/stumblerthread/scanners/cellscanner/CellScannerImplementation.java
+patch 297,298,

@@ -1,0 +1,5 @@
+changeset 19ae43f8f7cafc9ac294ab214dc6c1c9a9d9de73
+manifest cdb8c0440bf5420a51fbb6840e2b972012400d94
+extra rebase_source:5c6ce02ad98aaeccbd8bdda37b0c86916bfb6b7a
+files js/src/jit/JitCompartment.h
+patch 259,333,

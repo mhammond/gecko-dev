@@ -1,0 +1,4 @@
+changeset 047d1e5ffaa3245555142fed47fc7cb8d2f5eef3
+manifest 5ccfbdeadf8ab6d6cc98877daaa243f7a1488176
+files toolkit/components/telemetry/TelemetrySession.jsm
+patch 237,238,

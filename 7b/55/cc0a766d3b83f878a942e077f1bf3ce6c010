@@ -1,0 +1,5 @@
+changeset 692ec0a78180cd77c61b4766d57147df7949d960
+manifest bc17df9499ed6a801a5e4e005971b8028429b487
+extra rebase_source:02710e8e3368e445f9841945cd905d7726d395d8
+files addon-sdk/source/examples/debug-client/data/client.js
+patch 250,324,

@@ -1,0 +1,5 @@
+changeset 9b5b1229a5c4e5d5bc0c5ee902bb0f3236d678b6
+manifest eed65f1d3d20d0a513e2c9a091d1c5711e263539
+extra rebase_source:9a71b987e0cd23145e77f9cb28aa40e14b8e0a52
+files embedding/components/windowwatcher/nsWindowWatcher.cpp
+patch 278,352,

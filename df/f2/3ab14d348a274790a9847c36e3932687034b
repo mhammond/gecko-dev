@@ -1,0 +1,4 @@
+changeset 08617429d7c1cff7476b223bfa0e99fa22e9ab85
+manifest ec9e5db9fa1d1bda3c15c50fa4e562ca7cc20645
+files toolkit/components/addoncompat/tests/browser/browser_addonShims.js
+patch 279,280,

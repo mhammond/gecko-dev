@@ -1,0 +1,4 @@
+changeset 4fed2969228466303141ed72f29cba5d123ea079
+manifest ccc9a561f2091999155eddde3974ddc68800c379
+files js/src/jit/VMFunctions.cpp
+patch 234,235,

@@ -1,0 +1,5 @@
+changeset 2c5773f47093c093bfffd2ad2ca67ae222ba5f21
+manifest 11339a694618ff3473e7a5a41c975a70d830b266
+extra rebase_source:21f2341ae260309bbf99dbdd97f130baf77972aa
+files toolkit/modules/RemoteFinder.jsm
+patch 359,433,

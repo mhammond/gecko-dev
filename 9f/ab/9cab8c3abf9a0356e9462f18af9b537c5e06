@@ -1,0 +1,5 @@
+changeset 1b327a9974987a532deeccf0cc6603d3a22a4add
+manifest c1a370d014066de86ed9d17a43c7ba26fee36bf1
+extra rebase_source:5cd14c68d7bbd54e4c1b9e8aef3621057a9588b8
+files widget/x11/keysym2ucs.c
+patch 271,345,

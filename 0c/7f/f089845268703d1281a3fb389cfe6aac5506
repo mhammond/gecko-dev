@@ -1,0 +1,4 @@
+changeset 10e77092a656b4800876c0233e2a188cf6f9eb6a
+manifest 57a84b95343c713b57a796b260f937f7fc0d52e2
+files widget/gtk/nsFilePicker.cpp
+patch 191,192,

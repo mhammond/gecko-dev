@@ -1,0 +1,5 @@
+changeset a603afa65ee7c4f1bd01f3fcfaf1dfa90836eb02
+manifest 0f9c13f996f121a6ca7412caf8aca2c0c92c538f
+extra rebase_source:3935444f69be9171aa60a8f4b3e5db29035ecb6c
+files mobile/android/base/java/org/mozilla/gecko/GeckoNetworkManager.java
+patch 817,891,

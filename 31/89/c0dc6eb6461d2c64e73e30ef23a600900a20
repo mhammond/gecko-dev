@@ -1,0 +1,4 @@
+changeset 4dea18c871d36b4e8a05994a3a0cbe93dbc377e2
+manifest f8b1f45f18595bb2c71ea58657b0ba68276dc139
+files editor/libeditor/nsHTMLCSSUtils.cpp
+patch 227,228,

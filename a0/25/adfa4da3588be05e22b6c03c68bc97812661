@@ -1,0 +1,5 @@
+changeset 204765519a9aaaefd604e6f526a0b62fe2df73e9
+manifest 37856835c97cd9d0c064758d17afc9c862a0fb78
+extra rebase_source:fd1d4c57dc2f282d87cd1776f5850a8200429283
+files devtools/shared/fronts/css-properties.js
+patch 307,381,

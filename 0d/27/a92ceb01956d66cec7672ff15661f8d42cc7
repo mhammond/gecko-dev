@@ -1,0 +1,4 @@
+changeset 977e775db17eb654e0bb8ba8b9998a6e2e81d801
+manifest 6ec4bfc6e6f57cd2f98407cd77e80f6089e4e76c
+files dom/html/test/test_bug1260704.html
+patch 241,242,

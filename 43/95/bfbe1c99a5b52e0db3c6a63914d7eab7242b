@@ -1,0 +1,5 @@
+changeset 803ef95bed16d06f67681902e8a8a7fc659b202e
+manifest bfbe189422fc69c264105c37206fce23f4d0719f
+extra rebase_source:b0a9c8e79e290f51bf433d0f94b1de7db99e933a
+files image/SVGDocumentWrapper.cpp
+patch 304,378,

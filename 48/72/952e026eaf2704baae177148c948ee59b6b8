@@ -1,0 +1,4 @@
+changeset a73c2b09380d2c708c5c6aebef59eaa394343477
+manifest 4a8f2d03fe9d0d2a4b37063575fa4647a8da7b2c
+files testing/xpcshell/selftest.py
+patch 388,389,

@@ -1,0 +1,5 @@
+changeset 467c3250de1cf49a5904a4f3b5e9763f5dde69a6
+manifest 8bf50261938f4afbab150de4d341ca02e255141b
+extra rebase_source:c8e709d7afcb53e23fdea919fade857a7fd3fea4
+files security/manager/ssl/nsSDR.cpp
+patch 366,440,

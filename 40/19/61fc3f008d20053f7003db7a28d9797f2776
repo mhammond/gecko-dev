@@ -1,0 +1,4 @@
+changeset bf602396ce6676ebeb1c351810ecab7208036591
+manifest 488c80b5755c95c401cc8dbb21b88ccd7c9de85e
+files toolkit/components/osfile/osfileutils.cpp
+patch 182,183,

@@ -1,0 +1,4 @@
+changeset 952640eb7c568ae5794667cd78c6b9a080d3baee
+manifest 7bd4b089d18cde7fc690f257895f712314c2960e
+files dom/base/nsDataDocumentContentPolicy.cpp
+patch 256,257,

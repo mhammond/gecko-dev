@@ -1,0 +1,5 @@
+changeset 7cf9bfcf9033afb9bbf7752a4ba2c64b7790d8f8
+manifest 07828646ade50fafb7c26b35c147e6ba948effa1
+author Shatur<tushar.saini1285@gmail.com>
+files mobile/android/tests/browser/robocop/src/org/mozilla/gecko/tests/components/AppMenuComponent.java
+patch 278,279,

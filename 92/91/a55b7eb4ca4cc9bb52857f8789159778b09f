@@ -1,0 +1,5 @@
+changeset b20b321eadc97051334170c43288c266153d50ae
+manifest 78539eee7b9e14e5cf44749eaa53c68073417ae3
+extra rebase_source:108e7737e8979e545f4721ef3fa310b481de9963
+files toolkit/mozapps/extensions/internal/moz.build
+patch 293,367,

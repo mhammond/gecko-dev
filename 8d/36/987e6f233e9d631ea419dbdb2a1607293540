@@ -1,0 +1,5 @@
+changeset 2caaf35f549ba8b2931ecbbe0d1f07fddf2cdcd9
+manifest efb8448e645c32efe3303f702ae364926777252a
+extra rebase_source:56548450c404702c66e213e327e2083495577382
+files xpcom/io/CocoaFileUtils.mm
+patch 305,379,

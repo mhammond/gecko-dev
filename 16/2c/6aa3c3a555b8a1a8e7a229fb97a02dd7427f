@@ -1,0 +1,4 @@
+changeset f1f24546c26c78893a15f6a5989e5491944f7827
+manifest 1414edf2175852d9829a4b0b2b2de0194ab4f740
+files browser/components/extensions/test/browser/browser_ext_commands_execute_browser_action.js
+patch 228,229,

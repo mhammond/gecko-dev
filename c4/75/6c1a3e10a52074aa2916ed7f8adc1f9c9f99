@@ -1,0 +1,4 @@
+changeset 3ac7e12ebbeb448a690e9ba56dceebaad6e68f5c
+manifest d0b08782a196f6097254fa283834fc5fa6a1efc8
+files testing/mozharness/configs/android/androidarm_4_3.py
+patch 228,229,

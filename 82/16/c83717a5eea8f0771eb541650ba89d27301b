@@ -1,0 +1,5 @@
+changeset d5adc9e191d75af92cf89e9a22ce586601761939
+manifest 492116bdefe48179eec44b86162a98e0f7421f7d
+extra source:786b34f9ddd05286ff4cf89bd8a735c82cf3d7b5
+files b2g/confvars.sh
+patch 237,304,

@@ -1,0 +1,5 @@
+changeset f1fd76f552fa7ec4985107becf8b408f7e401d70
+manifest 9387ce571cb3ea454d658c96f05a778a4592585b
+extra rebase_source:5a0c14df3a6b98c492164d36ff4455de4e9466da
+files layout/generic/nsLineBox.cpp
+patch 317,391,

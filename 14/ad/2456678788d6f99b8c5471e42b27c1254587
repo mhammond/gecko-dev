@@ -1,0 +1,5 @@
+changeset aa3410416e053853eea1edf71f3df26c55fc9f91
+manifest 790ab9b468f1812c575b2aa3106512f3ab6cc962
+extra rebase_source:47cb3dab0d08e8793ff9d76bb27ce8ea49e8254d
+files toolkit/components/extensions/schemas/web_navigation.json
+patch 715,789,

@@ -1,0 +1,4 @@
+changeset f7f9ed4d698450254ed5c79798392bb75a43d325
+manifest 8c872eac92ebb4a4439be6400affd1e94d61d0ac
+files dom/base/nsDOMMutationObserver.cpp
+patch 360,361,

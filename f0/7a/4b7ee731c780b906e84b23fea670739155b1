@@ -1,0 +1,4 @@
+changeset f00201c126c93a8c27f99d11790d0b98d76fcaf7
+manifest c0e5f4fd6aefb81a21116e49793bb94fea7a0bab
+files security/nss/lib/ckfw/builtins/nssckbi.h
+patch 286,287,

@@ -1,0 +1,4 @@
+changeset 5677ef82f274118fa36f2a869e85de298a6c504e
+manifest bae2c1e60cd8d73c8ee2344d0179452019854fbf
+files security/manager/ssl/nsIBufEntropyCollector.idl
+patch 324,325,

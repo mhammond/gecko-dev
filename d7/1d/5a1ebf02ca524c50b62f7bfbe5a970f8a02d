@@ -1,0 +1,5 @@
+changeset f54739d04518ee77334df32feb0fda12d8ab8c36
+manifest c9dc366ac80a78638f056af30bd81b5ed8b93354
+extra amend_source:66224a8b39e576030e9d20f1fbbe4a7dfa80b4b4
+files accessible/tests/mochitest/states/a11y.ini
+patch 293,366,

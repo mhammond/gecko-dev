@@ -1,0 +1,5 @@
+changeset b1b49f499ae681068166585cacad4597c555d7de
+manifest a05c3ac747f657f6a7d2d6d94a53e98298796cd7
+extra rebase_source:06cfc19ce026cfc033fff0a6b0c6a455c78e0cdf
+files browser/base/content/browser-tabsintitlebar.js
+patch 414,488,

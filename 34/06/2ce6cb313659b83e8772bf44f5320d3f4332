@@ -1,0 +1,5 @@
+changeset 66ab1149f1514f72e8ff5a2ea9df8a96f8e38a6c
+manifest 7f99b1d6adbc1338f8a8ce4f6170764d2357f9a8
+extra rebase_source:68c1f05fb51ff1ef24fabb3d4ff1ec080c889a81
+files browser/themes/shared/menuPanel.svg
+patch 279,353,

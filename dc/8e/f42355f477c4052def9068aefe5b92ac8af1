@@ -1,0 +1,4 @@
+changeset 7fe79f07189f81c71fc37bb4e67df8d18bb4550b
+manifest 7ed17fdf49e0237457e9cdf66d7794702f545278
+files layout/base/nsPresShell.cpp
+patch 253,254,

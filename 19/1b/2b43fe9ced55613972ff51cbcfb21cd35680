@@ -1,0 +1,6 @@
+changeset fb6ec758ed2c7574b971c33b4b26a62f4d8e1a17
+manifest 97a04f833fa1ffceff6dbf99eb704ea8cecc7eb6
+author ffxbld
+extra branch:GECKO430b9_2015120319_RELBRANCH
+files browser/config/version_display.txt
+patch 231,281,

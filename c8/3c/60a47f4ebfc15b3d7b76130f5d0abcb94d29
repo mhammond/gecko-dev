@@ -1,0 +1,4 @@
+changeset 35b1653bdf2bea9ea6474023493300be27b08cb0
+manifest df275fc014d2b38891ac3366772a513f393580f2
+files testing/mozbase/mozdevice/tests/sut_logcat.py
+patch 193,194,

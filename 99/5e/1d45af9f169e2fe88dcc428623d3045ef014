@@ -1,0 +1,5 @@
+changeset 0320069de38918b92e27ea489cb4ff1782d444a1
+manifest 81ce02bbc7dd5e31f61d7772e94835e94918a4fd
+extra rebase_source:5a8056d4d61002a0de899539276a7f44dafcbee0
+files mobile/android/base/resources/layout/home_smartfolder.xml
+patch 325,399,

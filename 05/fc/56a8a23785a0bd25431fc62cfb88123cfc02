@@ -1,0 +1,4 @@
+changeset cc3c25bf13e2ea026e336e3eab941f18348d8208
+manifest b1969539bccc5e98eaf0702d3da1ec9bb7e63555
+files toolkit/devtools/server/tests/mochitest/test_framerate_06.html
+patch 253,254,

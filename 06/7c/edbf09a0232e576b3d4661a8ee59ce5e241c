@@ -1,0 +1,5 @@
+changeset 0c06981308ba9fd497a31ec18c5e117d8b701f93
+manifest 7b31d7afc48978146655d7b5ebb2a46e1e24bdd5
+extra rebase_source:14c505797a74de16a7e9bec1f791c0b4659d2932
+files python/mozboot/mozboot/rust.py
+patch 700,774,

@@ -1,0 +1,5 @@
+changeset 0b586ba959b254e235cae639b0bbdded387d9253
+manifest 0570dfbffa1b18541cb494e7955f45f4d5dcd1f7
+extra rebase_source:984a06e3228614fcd25561e15d54c5c3bda836e6
+files media/libstagefright/system/core/include/cutils/properties.h
+patch 301,375,

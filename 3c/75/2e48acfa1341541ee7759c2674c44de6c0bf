@@ -1,0 +1,4 @@
+changeset 6156c8d856a2718f1296be11ac9d4f7fb7e00280
+manifest 822e3f13850525d9f504fc523c0c1eeb1f7d2bcc
+files toolkit/modules/AppConstants.jsm
+patch 257,258,

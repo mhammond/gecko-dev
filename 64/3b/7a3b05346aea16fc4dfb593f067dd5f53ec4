@@ -1,0 +1,4 @@
+changeset ec9aa7541e4a28185074d3376da5d5e46f45e81c
+manifest 98cfc494e122b0df3150fb6dbfa4937e7ecda5d5
+files browser/devtools/.eslintrc
+patch 177,178,

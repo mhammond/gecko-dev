@@ -1,0 +1,4 @@
+changeset d09321cd16a698bbc11369187a514225aa24f968
+manifest ab5159e954aa5f07c7cfd671092a7d1990ddf7f9
+files xpcom/glue/nsINIParser.cpp
+patch 192,193,

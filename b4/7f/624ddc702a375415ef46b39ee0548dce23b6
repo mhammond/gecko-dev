@@ -1,0 +1,5 @@
+changeset 05dcd4a98b9725c8d93f35abf48d2b014c420626
+manifest 641602f898718631478066934cefdfa803806a02
+extra rebase_source:468e7af0dc2208962892610c4cf2f8033d39fc60
+files gfx/layers/d3d11/CompositorD3D11.cpp
+patch 255,329,

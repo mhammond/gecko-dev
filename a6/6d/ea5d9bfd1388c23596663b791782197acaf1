@@ -1,0 +1,5 @@
+changeset 3a9993173926cfede3e45e1a97c0b9aefd35acb5
+manifest 51e7dd0947008746c2e433f567b155105bb9ac4c
+extra rebase_source:867d7c5a206efa805d8b4cf9eba1afe335f044d4
+files toolkit/mozapps/extensions/internal/AddonLogging.jsm
+patch 311,385,

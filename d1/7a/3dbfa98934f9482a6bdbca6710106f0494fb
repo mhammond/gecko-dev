@@ -1,0 +1,5 @@
+changeset a4999a2b771d06451ace2ed67447f336b8d42c84
+manifest c68d74c6216fa00a377571c81d7ba5209f306e43
+extra rebase_source:45d20a714a05425b9010b2f390cd417617243682
+files widget/windows/nsPrintSettingsWin.cpp
+patch 389,463,

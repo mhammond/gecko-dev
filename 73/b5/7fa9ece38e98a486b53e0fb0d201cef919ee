@@ -1,0 +1,4 @@
+changeset 03eeae95700809d6bbbee9120ff1f31ef9b1751d
+manifest b16d3e943b746a84a27901732b2bdfc0f73d1884
+files hal/cocoa/CocoaGamepad.cpp
+patch 176,177,

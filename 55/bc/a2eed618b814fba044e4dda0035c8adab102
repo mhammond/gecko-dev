@@ -1,0 +1,5 @@
+changeset 2edb5ec1f8c2dcc63c26334bbb6b2bdfcbd01833
+manifest e5d0a09da1d14d076e70aea65e93b30098ade9e3
+extra amend_source:6fe6839cff3763fd35b64c1a1814a3c81bc0f3d8
+files mobile/android/modules/Home.jsm
+patch 254,327,

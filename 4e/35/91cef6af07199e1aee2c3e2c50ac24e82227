@@ -1,0 +1,5 @@
+changeset 01cb22fe59d45e02d1c559a21cd913701c0bf7fd
+manifest 11221f2ffe890dfe4033d9a8857dc21ad7bf196b
+extra transplant_source: \0N-\n?ğìçãÄÄª?‘
+files browser/components/migration/360seProfileMigrator.js
+patch 270,364,

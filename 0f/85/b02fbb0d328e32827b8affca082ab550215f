@@ -1,0 +1,4 @@
+changeset 7871c4b94e6df085ac216ba7a9bd02d9b8281b70
+manifest 7f86d5ac0ec320be55a09c435991d961adc4584b
+files js/src/jit/BaselineJIT.cpp
+patch 193,194,

@@ -1,0 +1,5 @@
+changeset 42f5e31cf04007274689a612149d6ddd87b2bc8f
+manifest 69a6446996045a1fa0d97e9be2b605c92913dd0a
+extra rebase_source:49f4b4afab6f08e6da6fc0f530306b6db63e4699
+files toolkit/components/passwordmgr/test/mochitest/test_prompt_promptAuth_proxy.html
+patch 364,438,

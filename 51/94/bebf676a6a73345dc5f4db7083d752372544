@@ -1,0 +1,5 @@
+changeset 27acc82b653f1ed90a124c63761d84feb7d3b898
+manifest 087184bb139725504f42d263a0ac8a12de51f7f5
+extra branch:GECKO3150esr_2015021713_RELBRANCH
+files js/src/jit/AsmJS.cpp
+patch 182,234,

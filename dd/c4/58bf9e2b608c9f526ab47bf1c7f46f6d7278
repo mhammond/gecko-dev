@@ -1,0 +1,4 @@
+changeset ed58e94694a84ed9b8a88fdf8e07a51aa96d39ff
+manifest 8fedd6df2701c37a33708c02f3c50098882df747
+files xpcom/glue/PLDHashTable.cpp
+patch 327,328,

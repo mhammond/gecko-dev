@@ -1,0 +1,4 @@
+changeset 672ac24c9269ee7b2c496c4f98b66256c7903749
+manifest 5a52d6a3ea853d7dfe3be4a17de2b8491f896f84
+files browser/devtools/styleeditor/StyleSheetEditor.jsm
+patch 254,255,

@@ -1,0 +1,4 @@
+changeset 5fc4df62fcfe01f6b9f2f20197d0254928fc94bb
+manifest 8ab9407083cf0fdb7664d083f71cd50931a1c002
+files dom/tests/mochitest/chrome/MozDomFullscreen_chrome.xul
+patch 244,245,

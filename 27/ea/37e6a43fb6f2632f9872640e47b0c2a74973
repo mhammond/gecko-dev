@@ -1,0 +1,4 @@
+changeset df2609b5415a448f1a6af276b9d96fe0ea8529bf
+manifest b9f2b803d128312537c0c0ae31b95f827097c543
+files browser/devtools/styleeditor/test/browser_styleeditor_bug_870339.js
+patch 271,272,

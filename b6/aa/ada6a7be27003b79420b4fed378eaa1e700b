@@ -1,0 +1,5 @@
+changeset 44db9d762d0e81dbcf2495b7940c8a15483e0f2f
+manifest 1d0b38e5493878536a64dd07b8df25d725779bbf
+extra source:4f4f6726f274d8b37872960571b48c53a4b2fde5
+files dom/bindings/GenerateCSS2PropertiesWebIDL.py
+patch 352,419,

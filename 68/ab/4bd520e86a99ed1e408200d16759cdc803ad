@@ -1,0 +1,5 @@
+changeset b3087c375b1f7f5be8e5f9438d7957ff9fff350c
+manifest 1b207269519af6bca25bc4e9ca72ec98a3917614
+extra rebase_source:c1da5ed5e79f9a7f78d920943dabad719cb7abc7
+files dom/animation/test/chrome/test_restyles.html
+patch 496,570,

@@ -1,0 +1,5 @@
+changeset 878008bf7bec5df6244a9b9b7693821abea44dba
+manifest d9c73fd95ccd2796b47e467b372531b03b68c8bd
+extra rebase_source:6671657d2463fa43bb2ab757e3e1b76db100d1d2
+files gfx/vr/ovr_capi_dynamic.h
+patch 366,440,

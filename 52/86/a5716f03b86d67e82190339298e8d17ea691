@@ -1,0 +1,4 @@
+changeset 652302739d75794829cfaa4a96920e97568d67fc
+manifest 9a48e36a3f03d2deacb9f8df7bd716293eca59ac
+files browser/devtools/webide/modules/project-list.js
+patch 246,247,

@@ -1,0 +1,5 @@
+changeset d1626e5f33af2964a7b860fdf6f95f8d2dedb9ef
+manifest b783f404392f54019af0224de3de2c823c2bfcf9
+extra rebase_source:fcfdf361a00ee27edfd8e2bb2fdc01a116a2b2d4
+files browser/modules/test/browser_BrowserUITelemetry_defaults.js
+patch 294,368,

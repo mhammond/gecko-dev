@@ -1,0 +1,4 @@
+changeset 3cc6bb7fb81eaa8e47183a04f5662114a3113242
+manifest a9bb3f3347a3f545edc75b55cdf8a32c4e01c21c
+files browser/components/extensions/test/browser/browser_ext_tabs_captureVisibleTab.js
+patch 262,263,

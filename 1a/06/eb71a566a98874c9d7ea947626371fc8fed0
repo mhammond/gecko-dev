@@ -1,0 +1,5 @@
+changeset d4cbfda135b508820dabc0f7dd0f7d58468dff0c
+manifest a0e1d578397831f1efd4ec3d85bba9ad91918235
+extra source:ca925530409a23a33fe6bc35e6cbed8a71016cff
+files toolkit/components/places/SQLFunctions.cpp
+patch 249,316,

@@ -1,0 +1,4 @@
+changeset bca5bb68ec7384f71531eb8ba14e498811ed9b68
+manifest 53be10ffd11e358bccb3c5f410da1e7587067b49
+files devtools/client/animationinspector/test/browser_animation_toggle_button_resets_on_navigate.js
+patch 340,341,

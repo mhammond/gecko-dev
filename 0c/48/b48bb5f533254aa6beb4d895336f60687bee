@@ -1,0 +1,5 @@
+changeset 5115d7a4ff786a07d82f16733c3aa7a4ece12318
+manifest eb97e9f8960aed2eb467b848deea1ff56a270039
+extra rebase_source:c2d924e95f91720e5f1718787450a55a742096c4
+files toolkit/components/passwordmgr/test/browser/browser_capture_doorhanger.js
+patch 318,392,

@@ -1,0 +1,5 @@
+changeset a7fb2505cf58f21395df3d33974511158909f818
+manifest ad3e8353a80dc0c1bdcea8d6f3c60fa1bcded8a3
+extra rebase_source:92faf09c52452089b32cc430c04568b81e677f74
+files js/xpconnect/src/XPCMaps.h
+patch 458,532,

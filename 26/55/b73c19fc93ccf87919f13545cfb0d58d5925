@@ -1,0 +1,5 @@
+changeset a6c12ea824d635e7607a8567d02ecbcc3d448aff
+manifest ec2c4da9b89c3dce181e08f1dc7667510a0c376d
+extra rebase_source:0a7c3cdcd8e66eb33c56b143fe96b4f5dfd3bfc5
+files browser/components/uitour/test/browser_closeTab.js
+patch 405,479,

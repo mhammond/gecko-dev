@@ -1,0 +1,4 @@
+changeset f6c99ce0e2a7cfe63ca21f534529f4f5b8ff6b56
+manifest 485a6cc333f07ce188cba3b78f0c8a07a6b47101
+files toolkit/components/passwordmgr/test/browser/browser_capture_doorhanger.js
+patch 272,273,

@@ -1,0 +1,4 @@
+changeset e6d24d95226fd8f43f61149ee00ea0654efee760
+manifest 379753bee8bf61f99988853b0157b740c6bda1c9
+files js/src/jit-test/tests/ion/bug1106171-sink.js
+patch 188,189,

@@ -1,0 +1,4 @@
+changeset cdcb00107c17acde193472e28c2e1f480a2c7cda
+manifest 720aef119fcf8fd7e97ce3b5007c301c2e89bc21
+files browser/base/content/test/general/browser_tabs_isActive.js
+patch 205,206,

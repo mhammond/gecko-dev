@@ -1,0 +1,5 @@
+changeset 87fe724cfc905f34bca637ae088a1414a1aede7b
+manifest 33337ffcacfdd0f301870e01abc166755bea2fc9
+extra rebase_source:ec382626f96f4f863b9ed44c5aec529d541815b9
+files toolkit/modules/UpdateUtils.jsm
+patch 448,522,

@@ -1,0 +1,5 @@
+changeset 3ccb3bbe75fa1bbc248285900284646bfdaf56b4
+manifest e29a70c0f088322acc1e552930163f668d4ebb02
+extra transplant_source:B\0ÚØO\rPÈW$•ª™äÁ÷
+files netwerk/sctp/src/usrsctp.h
+patch 248,338,

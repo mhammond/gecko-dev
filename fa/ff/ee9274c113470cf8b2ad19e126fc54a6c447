@@ -1,0 +1,5 @@
+changeset 83ada9133617fc8abb2d9a670ac1ecc63b4f1053
+manifest a16bc66f72ca75279378c60f8304a412ca8fa151
+extra rebase_source:af3739cf852a93a7f9c8a6435dd3cd79a77407f5
+files testing/web-platform/meta/2dcontext/drawing-images-to-the-canvas/drawimage_canvas_8.html.ini
+patch 368,442,

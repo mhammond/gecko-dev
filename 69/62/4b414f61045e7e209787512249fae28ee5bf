@@ -1,0 +1,5 @@
+changeset a47a4d3877eb3a732d7578d77ade1142b1b941e7
+manifest 7de2a05f84597df3c69f63d1bfdc94ddd59d888a
+extra rebase_source:1252ab8e944f0cc17052e3ff4f5ed2cb29fa614e
+files devtools/client/inspector/breadcrumbs.js
+patch 331,405,

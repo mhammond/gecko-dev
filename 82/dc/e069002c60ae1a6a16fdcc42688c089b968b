@@ -1,0 +1,4 @@
+changeset 0c0937c32c0e03ecf551f3f2c48180466d27933d
+manifest 740d2d82cee68e98c707d3d50f4a3454080af21b
+files browser/devtools/webconsole/test/browser_webconsole_chrome.js
+patch 292,293,

@@ -1,0 +1,4 @@
+changeset 5de2c664c0febc57484c6ea5f40ceebed786c0ad
+manifest 8677b2b8e0032766a527bc05986caeae211f31d8
+files browser/components/sessionstore/test/browser_global_store.js
+patch 178,179,

@@ -1,0 +1,4 @@
+changeset 8aecc34a2838ed2bd8f2a5a077262321e674c710
+manifest 24521753bdc4526fc9a1949e8343b27a39327956
+files devtools/client/markupview/test/browser_markupview_events_jquery_2.1.1.js
+patch 247,248,

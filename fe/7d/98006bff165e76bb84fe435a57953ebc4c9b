@@ -1,0 +1,5 @@
+changeset a90a1d791c7d6bd46d81c19bc6505a0fda0bf9f2
+manifest d3b98fc552492f68104fba122eed98fcfb530106
+extra source:69e91ad4fb9f64f27e76e51bcaa5d899d53681b9
+files devtools/client/framework/options-panel.css
+patch 299,366,

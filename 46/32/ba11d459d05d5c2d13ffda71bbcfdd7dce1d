@@ -1,0 +1,5 @@
+changeset c2866818dd8e767a7d6ab4813a640ced59313215
+manifest d8e437c598e365498d828fa2c0aac73b02d8ca89
+extra rebase_source:fda6856cc72e1c23860119f5ecb6a07657d144be
+files testing/mozharness/scripts/update_apk_description.py
+patch 349,423,

@@ -1,0 +1,4 @@
+changeset 4bb616c2f9125789a708c7c1c7fb94222cf72271
+manifest f27aac82e9ad7dca7f24df16a94f79261b51275c
+files js/src/vm/Debugger.cpp
+patch 233,234,

@@ -1,0 +1,4 @@
+changeset 532c363394cb334c22b3ea4e908e727fc12dba36
+manifest 2d2be89eb6ebd2f4c0434dde64b65e2d06f4032f
+files toolkit/devtools/debugger/server/dbg-server.jsm
+patch 203,204,

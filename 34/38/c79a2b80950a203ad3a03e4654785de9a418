@@ -1,0 +1,5 @@
+changeset d7170bf8704fc5ccac487b52963f3a801f5663f8
+manifest 790d7b087892c54210da67e93051614dcd5750ce
+extra source:712becb16698cd231ec5c1835215b96a8657941d
+files devtools/client/performance/views/details-waterfall.js
+patch 278,345,

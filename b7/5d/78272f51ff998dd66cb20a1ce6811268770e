@@ -1,0 +1,4 @@
+changeset ab6dd1b9f840b104523fb5c777ca4d728fd31728
+manifest 3d12517623f1da3970af8280097194277dbe659e
+files xpcom/io/nsIAsyncOutputStream.idl
+patch 201,202,

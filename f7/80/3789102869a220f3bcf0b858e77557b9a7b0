@@ -1,0 +1,4 @@
+changeset 5a110cddee4db7d80632ab07649f76e1d38fcbb1
+manifest 3902e3e05a2601f0f9bdb31472cdf708d5bf45b3
+files xpcom/base/Logging.h
+patch 186,187,

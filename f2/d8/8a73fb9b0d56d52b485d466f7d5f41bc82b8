@@ -1,0 +1,4 @@
+changeset d613a9152175a77dd29fd75ef115a27b37553a39
+manifest 0e57441a6be6fe392640f9ffebc6124b616b1a4a
+files js/src/jit/x86-shared/BaseAssembler-x86-shared.h
+patch 194,195,

@@ -1,0 +1,4 @@
+changeset 829561e0df63f17eaf43ad4c03a1720c7b230507
+manifest 4d108f055c80d1e817d22651dbe9b22b4790e0e8
+files testing/web-platform/mozilla/tests/service-workers/service-worker/resources/fetch-access-control.py
+patch 273,274,

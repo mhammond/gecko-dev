@@ -1,0 +1,4 @@
+changeset 4e66e8583e922d4bb4a5502f145a2f03aff3ef73
+manifest 16c01ab7e3c6c8e9ce44f4c4d494753175752442
+files dom/bluetooth/bluedroid/BluetoothServiceBluedroid.cpp
+patch 236,237,

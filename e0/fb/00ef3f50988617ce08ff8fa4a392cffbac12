@@ -1,0 +1,5 @@
+changeset 15a81c85b9aec2df2a3fd354dee54234dd4f6b1b
+manifest cde99ef773ef50825cc4e11ba08203076b1a2b78
+extra amend_source:18514684b3ad0e10e6e1aaaade4bc8435166c6d8
+files mobile/android/base/resources/layout/readinglistpanel_gone_fragment.xml
+patch 515,588,

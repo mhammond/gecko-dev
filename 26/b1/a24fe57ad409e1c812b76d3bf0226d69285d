@@ -1,0 +1,5 @@
+changeset 52661b02eaad68b3f8b4ad272a14c70d451766a7
+manifest cc9b3464560168b65a06045ce28829b797cdea9a
+extra rebase_source:109dfea3be7cd8333a82aad72fce588e3267a133
+files dom/media/omx/MediaCodecReader.cpp
+patch 323,397,

@@ -1,0 +1,4 @@
+changeset 76fd7dbb20d5387fe43dd30337b12f8ccb0bd30c
+manifest 50d024d20de1c6916a7bf11ea7486a60392f51a5
+files devtools/client/shared/widgets/view-helpers.js
+patch 290,291,

@@ -1,0 +1,5 @@
+changeset 8252fe02a82702c9b0dd3abf02bb5b45f20cb67d
+manifest fec2dc979efea69275249751098c17bddbb46947
+extra amend_source:6ac52aecbd62efa885e574b53194e66c2c4d3584
+files browser/themes/shared/controlcenter/panel.inc.css
+patch 320,393,

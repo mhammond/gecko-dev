@@ -1,0 +1,5 @@
+changeset 382894f45be68e2e133db8d8e4ef88a0a5598856
+manifest 4888d8b6c13ec86fa6661b0017fb8764947116b9
+extra rebase_source:5c0a4d18d2fd4c6e615a975573d194344bba832c
+files toolkit/components/url-classifier/tests/mochitest/classifierCommon.js
+patch 317,391,

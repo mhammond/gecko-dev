@@ -1,0 +1,4 @@
+changeset c08fefe2594fed6384557541dde10fdea36888ac
+manifest 12b0b490aca24b99cfc0829b96d0801a27b9b4e8
+files browser/components/migration/FirefoxProfileMigrator.js
+patch 246,247,

@@ -1,0 +1,4 @@
+changeset e682130bece76629eb0ca95908f8cc14b30d0f91
+manifest cbd8071c038f81dbf7cf08a1b8f3461a65925cac
+files devtools/client/aboutdebugging/components/target-list.js
+patch 289,290,

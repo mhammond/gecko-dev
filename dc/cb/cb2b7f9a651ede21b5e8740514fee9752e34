@@ -1,0 +1,4 @@
+changeset 68d8bca34e9953731f4d59366a1f025bbecd9634
+manifest f0ffbbefb86d21dd2f38ed0df49ba7a4243bf30a
+files b2g/components/FxAccountsMgmtService.jsm
+patch 218,219,

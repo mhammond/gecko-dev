@@ -1,0 +1,4 @@
+changeset f18ea9dcbb13f2cce5c823619fb89511c892e6dd
+manifest c2bdd051fbb50d8e5b28d579d0185b8499de20ff
+files testing/web-platform/meta/html/semantics/selectors/pseudo-classes/focus-autofocus.html.ini
+patch 262,263,

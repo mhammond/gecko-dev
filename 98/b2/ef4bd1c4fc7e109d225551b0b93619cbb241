@@ -1,0 +1,5 @@
+changeset 5a41909266e50725e012eb3fba6eaad07e42280b
+manifest b68e282040965fe442ac3365ed15d86560a6c66b
+extra branch:GECKO390_2015063018_RELBRANCH
+files docshell/base/nsDocShell.cpp
+patch 227,275,

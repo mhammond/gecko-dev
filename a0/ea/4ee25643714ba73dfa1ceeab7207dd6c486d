@@ -1,0 +1,5 @@
+changeset 32a8c6a3be186bbc1f39da147eb09b087ed322e3
+manifest 4f5f74ef9946d28421a548e33f3947fa6b568524
+extra transplant_source:©VÑ{’AÊgÆ¦„Xe+”´Âl
+files python/mozbuild/mozbuild/action/test_archive.py
+patch 266,352,

@@ -1,0 +1,4 @@
+changeset f88e60f3954c5dc0729a4a5e4f16c382726c5e2c
+manifest f33f13f1c9b554912d3c9d01caa9c5be7a92aabb
+files js/src/jit/BaselineBailouts.cpp
+patch 193,194,

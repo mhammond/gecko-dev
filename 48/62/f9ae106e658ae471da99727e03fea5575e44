@@ -1,0 +1,5 @@
+changeset d19f35d6ae9803f456f89eff3c951dcb0dfdd6fe
+manifest 7df3a6ddc65bd3f3ef0ef5441be1a4ed1c539139
+extra rebase_source:19e1af74c2736ea37bd1dfb8e344f15d307d9367
+files testing/web-platform/meta/html/semantics/embedded-content/the-img-element/relevant-mutations.html.ini
+patch 311,385,

@@ -1,0 +1,4 @@
+changeset 3558dbf6f998834768f57c7c5c57a6472923a3a8
+manifest 2dc39bd3a23a2f988a02cc42d7198fa71b4d163b
+files netwerk/cookie/nsCookie.h
+patch 263,264,

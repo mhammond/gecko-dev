@@ -1,0 +1,5 @@
+changeset 41c11b33eedb73985d93e3ca63a3bb5c20a8d8ab
+manifest 181c16e64629e71c9857dfac53d2fc9e8ae6fef4
+extra rebase_source:46db647654a5dcb9d2388e6856c7cb9bef1c25b4
+files mobile/android/base/java/org/mozilla/gecko/GeckoAccessibility.java
+patch 350,424,

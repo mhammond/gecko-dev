@@ -1,0 +1,4 @@
+changeset 2c7ba40559c6d8e0b2e30abcee5c225fe5b57577
+manifest 77bc223262a36fd28fa5bda2a95d50e7d186b88d
+files gfx/cairo/libpixman/src/pixman-image.c
+patch 264,265,

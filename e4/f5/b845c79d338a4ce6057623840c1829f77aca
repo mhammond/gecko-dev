@@ -1,0 +1,5 @@
+changeset 6f26a6f2bc8b0d0ff9acf837b6372c62a57e847d
+manifest 519188938fd65d9fc853bf0f1fc4f4e639db0c70
+extra source:fbd597046674eae52e0dcfefb725070794682858
+files toolkit/mozapps/extensions/test/xpinstall/browser_localfile2.js
+patch 310,377,

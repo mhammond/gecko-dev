@@ -1,0 +1,5 @@
+changeset 853ce442353a8cbd1cccb6969d94dc5cf0d4dafc
+manifest c0d7a22c998317b92af8cb89e12098c98bbf5e46
+extra source:a7cb56d86cb73a56ffba2b819266dc1fd5a3852c
+files dom/base/DOMIntersectionObserver.h
+patch 281,348,

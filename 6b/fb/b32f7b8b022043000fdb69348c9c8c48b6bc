@@ -1,0 +1,4 @@
+changeset 81bcb343ea20ddd9ba04c8a4feb45881560df385
+manifest 62544031209135daefa71aa70b0d0f9d774e3b0a
+files devtools/client/animationinspector/test/browser_animation_same_nb_of_playerWidgets_and_playerFronts.js
+patch 358,359,

@@ -1,0 +1,4 @@
+changeset 598cb986c19724cb959ad34e9326970a17dcf9ce
+manifest 696d1fb996d258a246607e810b70d2064c768abf
+files security/manager/ssl/CertBlocklist.cpp
+patch 202,203,

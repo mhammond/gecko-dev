@@ -1,0 +1,4 @@
+changeset 1f4f80d459cea87f7f70c188f349449967f42ee2
+manifest 8da394cf80975b72e5ebb67af2d7ddbe65c87d71
+files js/src/tests/ecma_6/Array/splice_length_overflow_throws.js
+patch 188,189,

@@ -1,0 +1,4 @@
+changeset 2a22eca82a2d4dd6562acd700d588834df6780ce
+manifest 06e014d997fba2b93a7a7f4b86baab7a3ab86f6a
+files extensions/cookie/nsPermissionManager.cpp
+patch 230,231,

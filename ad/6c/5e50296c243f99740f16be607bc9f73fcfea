@@ -1,0 +1,5 @@
+changeset f24a684e69724a76f8159f73faa761497a5c98f5
+manifest 7d004f42e7428482061b38c5d0d12c82d92e963c
+extra rebase_source:e4e8a02bab6c8807dd1a010beed0a32c4f063ca7
+files js/src/frontend/FoldConstants.cpp
+patch 251,325,

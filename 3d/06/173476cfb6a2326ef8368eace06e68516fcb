@@ -1,0 +1,5 @@
+changeset c6dd528dba68d2dc8a6289d28ee03a78f58211f7
+manifest 6a5f48d184ef1cf2fd2083e2fe58f79594fc5fe0
+extra transplant_source:HBB¶•<Ð1jKiÿyØÐ»|
+files dom/plugins/base/nsNPAPIPluginStreamListener.cpp
+patch 282,364,

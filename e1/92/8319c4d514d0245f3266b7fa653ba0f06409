@@ -1,0 +1,4 @@
+changeset fb2ed37447b7445070d251072459de8a9e9983c0
+manifest 1f2cb411270193badbab4f9bb8d735c3e915776d
+files toolkit/components/jsdownloads/src/DownloadLegacy.js
+patch 272,273,

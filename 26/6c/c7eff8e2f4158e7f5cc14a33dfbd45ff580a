@@ -1,0 +1,4 @@
+changeset bcb2a29ee460a790e11ee9178dd62ceddf7f79fe
+manifest e534631be63838f772afdf9f8d382992a9d6424d
+files dom/tests/mochitest/gamepad/test_gamepad_connect_events.html
+patch 254,255,

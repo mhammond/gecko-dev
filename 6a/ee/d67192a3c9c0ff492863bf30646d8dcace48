@@ -1,0 +1,4 @@
+changeset cdc1cbc3ce548df6cde15976ed42f63c06867bd6
+manifest 4efd318246391011aece1fbc2532dd0e344ec9fd
+files js/src/jit-test/tests/basic/latin1.js
+patch 171,172,

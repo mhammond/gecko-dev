@@ -1,0 +1,4 @@
+changeset 6a355b46c68b43c0df96978a25b36b661dd98737
+manifest 1c6228b5c57875437d8e88368c8aa8eb666bdd9f
+files services/sync/modules/SyncedTabs.jsm
+patch 258,259,

@@ -1,0 +1,4 @@
+changeset 584e6e436e27ad8e1be258845d821c1c2cda2198
+manifest cc0b1bcac670937193451095cb0b30a400e3e249
+files js/src/vm/GeneratorObject.cpp
+patch 208,209,

@@ -1,0 +1,4 @@
+changeset d50e07c0922718534d194656da3e6dae7dafaeb6
+manifest 3c28326d180c61e97052ee80f9af1f692dc96bee
+files config/msvc-stl-wrapper.template.h
+patch 200,201,

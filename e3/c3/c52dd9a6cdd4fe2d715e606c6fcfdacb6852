@@ -1,0 +1,4 @@
+changeset 504865992b1ac5bbebf364c37aadf4d14575c73b
+manifest 49cf3c3fa825f31d6a82fd9ac25abdf676148088
+files browser/extensions/loop/moz.build
+patch 278,279,

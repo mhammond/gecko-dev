@@ -1,0 +1,5 @@
+changeset 7bc185ff4e8b66536bf314f9cf8b03f7d7f0b9b8
+manifest 137c69f5475a24295a1ed62e9e3b4e01e46670d5
+extra source:e62579becf83fb7b8524bba995af9c94b20c4ec9
+files ipc/glue/IPCStreamUtils.cpp
+patch 257,324,

@@ -1,0 +1,5 @@
+changeset 35c0866ffc481759d86b6219793764eba5d9bdd7
+manifest 4bfb713d44c80e3f231eede968aec9471dd571ec
+extra histedit_source:e811e200a1b736542cecb7d1bd007e3a096b0f2e
+files dom/phonenumberutils/PhoneNumberUtils.jsm
+patch 260,336,

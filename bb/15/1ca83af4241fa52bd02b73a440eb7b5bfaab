@@ -1,0 +1,4 @@
+changeset ce1997b5e10dfaf141d884e58fc5a0ec7964885c
+manifest 4f15608083d6af0f1650fd0c65a86806e0273623
+files js/src/jit/mips64/Architecture-mips64.h
+patch 275,276,

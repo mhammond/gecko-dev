@@ -1,0 +1,4 @@
+changeset 395a7a3e63f2564fa2b92d573f036aedf1e327f5
+manifest 55d5e8dfdc2ed079d5f9726ade25c9bcecc7ca21
+files uriloader/exthandler/nsExternalProtocolHandler.cpp
+patch 224,225,

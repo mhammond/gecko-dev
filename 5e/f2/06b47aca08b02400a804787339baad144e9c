@@ -1,0 +1,4 @@
+changeset 932176dec8d15e2129750bb3eafc428f173edbb5
+manifest ef2d35983b3a451e3da13aac05a86d815ff3485f
+files toolkit/mozapps/installer/windows/nsis/common.nsh
+patch 258,259,

@@ -1,0 +1,4 @@
+changeset a35738e12eb382c6181c530b00b814d72c7a1b7b
+manifest 0441df7489806eaac48910bf13639c4fd2610763
+files devtools/client/webconsole/test/browser_webconsole_bug_599725_response_headers.js
+patch 332,333,

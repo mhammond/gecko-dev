@@ -1,0 +1,4 @@
+changeset c7942b0606ada54b06f6c241e1431e9c677a443f
+manifest 93e1cb46a853cdd054eb716dea2018433e37527a
+files devtools/client/webconsole/test/browser_webconsole_hpkp_invalid-headers.js
+patch 293,294,

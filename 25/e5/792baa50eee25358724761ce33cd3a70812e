@@ -1,0 +1,5 @@
+changeset 4b1f7a028b0edd2901b77725e3dc7d3807af86f8
+manifest d35df85593d6705f2514fc6bb8c2bd387e931f12
+extra rebase_source:1b31d2fc6ba095a2944e51901471baad5c2bcbb8
+files toolkit/mozapps/extensions/docs/SystemAddons.rst
+patch 309,383,

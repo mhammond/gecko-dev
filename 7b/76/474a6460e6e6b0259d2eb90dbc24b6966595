@@ -1,0 +1,5 @@
+changeset 99b2cfda036e2b5d8576c6bd700982a88504ddbd
+manifest d8926a9f0de467c7c706487dd8ba8a48073d0ad3
+extra rebase_source:066e6eaf756a9f3cc6d04a81dcd4873773942cd3
+files devtools/server/actors/highlighters/simple-outline.js
+patch 338,412,

@@ -1,0 +1,4 @@
+changeset 1e006c7b5eda3864a980561e5c9a61b95bc7bbf9
+manifest c9a3fae7a1e88f303279ea586288b743f3edb8d3
+files dom/geolocation/nsGeolocation.cpp
+patch 327,328,

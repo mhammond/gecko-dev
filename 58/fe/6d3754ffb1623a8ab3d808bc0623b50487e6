@@ -1,0 +1,4 @@
+changeset 7dc9b4f0a84f795e9e50fde363add0dd1a9801fd
+manifest ea11793b78ead8589cebc5df8962ed957766264f
+files dom/base/ScriptSettings.cpp
+patch 277,278,

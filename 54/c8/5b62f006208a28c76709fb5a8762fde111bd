@@ -1,0 +1,4 @@
+changeset 2faa834147d6295a34aef179c6d779b3ad10a5a1
+manifest e62727c6d736a1f8f4b37a31ca54ba3b129e3b0e
+files js/src/jit-test/tests/xdr/async-lazy.js
+patch 193,194,

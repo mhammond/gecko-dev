@@ -1,0 +1,4 @@
+changeset adb200c2f02bd05704e5747a857d77b7dfc2064c
+manifest 9130c87a6181f3a8bb99b478861a722d3a0149b6
+files editor/libeditor/nsHTMLDataTransfer.cpp
+patch 221,222,

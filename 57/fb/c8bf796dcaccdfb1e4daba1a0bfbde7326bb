@@ -1,0 +1,4 @@
+changeset 7ba11aec86212a27e63830ca0a2e839f6e6d6feb
+manifest 2d233a1f1b40e57f561491624b942d65571175ba
+files dom/telephony/gonk/TelephonyProvider.js
+patch 217,218,

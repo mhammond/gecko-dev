@@ -1,0 +1,4 @@
+changeset daf2ce357d237ba0047d7defedfc790e6aefdd6d
+manifest 83efde3ff8a3e99f6a70d3db9e77c91b006443fb
+files dom/bluetooth/bluetooth2/BluetoothDevice.cpp
+patch 238,239,

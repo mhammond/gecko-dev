@@ -1,0 +1,5 @@
+changeset 8be8deb10e4f4b3705aa3ffd62cd38f0fae209f3
+manifest cd0a49a1c8c6db64a376eb47958a902a2ffeec55
+extra amend_source:2b90a78c060fcc6c613b2dc63b036e31e6471224
+files accessible/tests/mochitest/focus/a11y.ini
+patch 249,322,

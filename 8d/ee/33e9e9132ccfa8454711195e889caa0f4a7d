@@ -1,0 +1,5 @@
+changeset 3ff74bec4cc8e09bcc0b20c1a9a60a875336ff4a
+manifest 7613c25ec77eb9beebc9240f8499f5955fcbf92d
+extra source:e13e5ddca69f284c514fb46e5225b8f73210e208
+files image/decoders/nsIconDecoder.cpp
+patch 288,355,

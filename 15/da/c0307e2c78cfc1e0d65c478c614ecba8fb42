@@ -1,0 +1,5 @@
+changeset ce21333d6f8f9f681c9fa36845424b8b841eff32
+manifest e5d7a94d341056d4bac0c5a7294e1d9f5294a75e
+extra rebase_source:aba56bef09c05e94b55ce2153d48b502f586e3c5
+files devtools/client/inspector/rules/test/browser_rules_authored_color.js
+patch 562,636,

@@ -1,0 +1,4 @@
+changeset 2582d2b8f75f9f8028f5e838dcfcdc537d1bbf26
+manifest c41945e1de787f732242669a539be831a9df33a8
+files ipc/hal/DaemonRunnables.h
+patch 174,175,

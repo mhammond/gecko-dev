@@ -1,0 +1,5 @@
+changeset 91714307a799b978b0a94911cd99ee75a1de0ac5
+manifest ede0442448d4023c1c987658567f8c76f1c004b3
+extra rebase_source:ad28ba459bac7c7fd3e9f32bc6c372220a552573
+files mobile/android/locales/en-US/chrome/browser.properties
+patch 320,394,

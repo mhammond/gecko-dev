@@ -1,0 +1,4 @@
+changeset db14395dc391abf60fcb652b35d3f6029cb773b4
+manifest 51d37010fad1601c7bad7eb151cca53f27dfedec
+files gfx/skia/skia/src/core/SkPixmap.cpp
+patch 242,243,

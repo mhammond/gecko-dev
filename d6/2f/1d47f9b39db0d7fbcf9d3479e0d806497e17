@@ -1,0 +1,4 @@
+changeset 630095ca2f1fd401066e6d5bf7d5bc9826460f85
+manifest 015cfe24f0e531a292a10f5ae2dc6f1acfd6f7ad
+files browser/base/content/newtab/dropTargetShim.js
+patch 219,220,

@@ -1,0 +1,5 @@
+changeset b923a7b09924857de0a2b653c63876bc9f4bd5d6
+manifest 1a3d557f5e2e0d9778158c4fd8088396a222899e
+extra commitid:KtfuXgafAvI
+files mobile/android/base/java/org/mozilla/gecko/telemetry/TelemetryPingGenerator.java
+patch 313,353,

@@ -1,0 +1,4 @@
+changeset cb9fe5f0fd6cabbe9165cfa182396c1e90f37c01
+manifest 4d6c2687df9e506f317d6d054df8e7c6bf662930
+files dom/xul/nsXULPrototypeCache.cpp
+patch 199,200,

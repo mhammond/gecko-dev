@@ -1,0 +1,5 @@
+changeset 5eb1ff9a349034ae4217b56cf9f226258b177fc9
+manifest a585b9d6396e0b44d69c7760c4a932e9aacfdcab
+extra rebase_source:d4f1b9a772e78254d170786a52497e51aa279215
+files mobile/android/branding/aurora/configure.sh
+patch 302,376,

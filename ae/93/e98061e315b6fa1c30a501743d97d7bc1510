@@ -1,0 +1,4 @@
+changeset 26dad64fe595aee4558b842f7fa6915c0f8f7c92
+manifest 9c7efdbadb82242a6e2091de82aebae681825740
+files toolkit/devtools/worker-loader.js
+patch 206,207,

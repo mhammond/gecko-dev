@@ -1,0 +1,4 @@
+changeset 9f7d265848fd128eb02302425e34e08366d86676
+manifest f2b2be9ec5c2f5b32be304ced3ad23b428bdab3b
+files tools/profiler/core/platform-linux.cc
+patch 599,600,

@@ -1,0 +1,4 @@
+changeset 49b6aed6b2e2333bed0f5063b232c87fee4b1fb7
+manifest 32b0251c3741c97120c5e014596527f85ab09bf5
+files toolkit/mozapps/extensions/test/browser/browser_bug679604.js
+patch 227,228,

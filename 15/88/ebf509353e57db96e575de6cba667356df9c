@@ -1,0 +1,4 @@
+changeset 0c47d80a49e1d7d68fdc8fc5c0cfb142eb1f10e1
+manifest 448bc290176c87d1b9234551a8cc2248985c02ee
+files dom/nfc/gonk/Nfc.js
+patch 193,194,

@@ -1,0 +1,4 @@
+changeset 3dbe68e9fe8143df965456add9a9b0ec50ff2da8
+manifest ffc848f039b825a8b2817c8159a750c9b6fd1610
+files editor/libeditor/CompositionTransaction.cpp
+patch 703,704,

@@ -1,0 +1,5 @@
+changeset 42cf34aa81a00f432c0b8ab4775414bd1e4f2aeb
+manifest 46cd6523ed701650e76d11d7ceeb827e09570f4a
+extra rebase_source:54652ac8baf62f5d385f634016e58910af095a77
+files b2g/config/nexus-5-l/config.json
+patch 312,386,

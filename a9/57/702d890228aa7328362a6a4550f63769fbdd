@@ -1,0 +1,5 @@
+changeset ebef91ed1cf0b4d9525ea33fda5d51d96a5c6d4d
+manifest af1de3c7444287861503c1ef49b2799ec8670685
+extra amend_source:32aedac981aed488b144e67b74d41f5c89fa2218
+files mobile/android/services/src/main/java/org/mozilla/gecko/fxa/activities/FxAccountStatusActivity.java
+patch 408,481,

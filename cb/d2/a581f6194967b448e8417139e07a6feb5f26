@@ -1,0 +1,5 @@
+changeset 620e1894c6d59e2d00c6d8ad0ec5501a56722251
+manifest 37e6ed09b2694f98deac56b8e51214bd2a1e4a12
+extra rebase_source:a4f4cf9a1d48194a00aff060c199426f3872a1ce
+files browser/components/extensions/test/browser/browser_ext_browserAction_pageAction_icon_permissions.js
+patch 393,467,

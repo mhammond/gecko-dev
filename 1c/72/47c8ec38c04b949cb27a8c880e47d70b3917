@@ -1,0 +1,5 @@
+changeset 97af68bc45d5f462243ee3ed29ca9d9765e3c384
+manifest 9448f76ca86682983808fba64d89a0e593945ed3
+extra rebase_source:fa4250573111a76573f9f46821678b60f31e07f1
+files mobile/android/base/ReadingListHelper.java
+patch 320,394,

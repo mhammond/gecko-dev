@@ -1,0 +1,5 @@
+changeset f1ff46a78fa5f30b208b33269b48ba4ba367b34f
+manifest 41c44fec028816a9555640ea4fd2a2cd9b87fbfb
+extra rebase_source:2a5e39cc7bfeb458c44cc225f833ca65fa03aa80
+files devtools/client/aboutdebugging/components/aboutdebugging.js
+patch 344,418,

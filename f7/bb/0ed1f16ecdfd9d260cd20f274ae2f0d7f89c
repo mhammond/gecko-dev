@@ -1,0 +1,4 @@
+changeset 2b1a1c9bdea3ee9ecfb24f9c678aa6fb2de82937
+manifest fc053998b335fd8ec158e21d4e83c29f633e2ec8
+files toolkit/components/places/tests/browser/browser_bug399606.js
+patch 204,205,

@@ -1,0 +1,5 @@
+changeset 353afeed8cf2893f6f0a7a4321524ecbba840d0b
+manifest 04885d55fe69dc2987aa0569f522c0af68aba56f
+extra rebase_source:f17054b616a47a70194a083d749c0858fe299864
+files toolkit/components/reader/ReaderMode.jsm
+patch 251,325,

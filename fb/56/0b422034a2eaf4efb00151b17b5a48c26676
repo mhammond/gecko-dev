@@ -1,0 +1,5 @@
+changeset 3f0e7a49441f1b53187a254d839cef5ce3111b3d
+manifest 7f238e683c3425c28d872c0a7ef467f8c53e5703
+extra rebase_source:d096117b65edf49a51d4fa6230cf8d61b6852b83
+files docshell/test/browser/browser_ua_emulation.js
+patch 296,370,

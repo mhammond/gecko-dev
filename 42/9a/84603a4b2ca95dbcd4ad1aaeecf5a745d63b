@@ -1,0 +1,4 @@
+changeset 1b2fddb62fcc4d1038f2e57b619a56c4f1837507
+manifest 3385bc45d5554642ed1108c21d6766532969fd4b
+files browser/components/syncedtabs/SyncedTabsListStore.js
+patch 248,249,

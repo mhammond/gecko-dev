@@ -1,0 +1,4 @@
+changeset 36177c582fd956bdfd380e16f2396cb88821b9c2
+manifest 2f05bac1bb662aebe74f444774b2a04316d816ed
+files toolkit/components/perfmonitoring/tests/browser/browser_AddonWatcher.js
+patch 288,289,

@@ -1,0 +1,5 @@
+changeset 2837103f30fb2cb9c9c8ad114fba941c1b1a7c53
+manifest d9042e41df1a5d7ee48066c2d14c24989342d216
+extra rebase_source:3fc5300f6f67274162f4d65fd83eb9c18b4bf716
+files security/sandbox/staticruntime/moz.build
+patch 550,624,

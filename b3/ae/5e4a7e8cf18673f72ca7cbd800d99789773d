@@ -1,0 +1,5 @@
+changeset 9d5dacb658d2e7100b82500a6813ad1a4ebd68c5
+manifest a66010e1430be88c1b99e3ec615c59bf29ffa7d2
+extra source:d924e3a25a7da65bb192924070d2d453bf710a90
+files testing/mozharness/configs/beetmover/l10n_changesets.tmpl
+patch 364,431,

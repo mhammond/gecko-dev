@@ -1,0 +1,5 @@
+changeset 481d21350b1aa558ad8b2f28c33f9d30478cdd30
+manifest b6ca87aedb53ad78d30ef67840e36f50a1eedd31
+extra rebase_source:c1e8acb39f863b3ff62492cf70e74748cb74e795
+files media/webrtc/trunk/peerconnection.gyp
+patch 379,453,

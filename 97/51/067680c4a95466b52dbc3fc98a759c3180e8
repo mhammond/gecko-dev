@@ -1,0 +1,5 @@
+changeset 88b6fcb46b5eb3b08ca9afdc1e53d276d758d73a
+manifest 4d9c3f17f2623d8a6eb89835fc0c3ff07401f14d
+extra source:5c090f5998284c23b296e6c933211f8161dcd11e
+files dom/base/nsINode.cpp
+patch 253,320,

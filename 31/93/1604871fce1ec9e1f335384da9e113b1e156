@@ -1,0 +1,4 @@
+changeset 54f344e2ec98056995e6b685ef738db8164d0347
+manifest 01694e139db9e2ac33ca01c3bc62f0861052d438
+files tools/power/rapl.cpp
+patch 602,603,

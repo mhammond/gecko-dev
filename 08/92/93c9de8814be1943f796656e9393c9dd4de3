@@ -1,0 +1,4 @@
+changeset 5c097cbce381a5c03c01149e9d9eeefcf6fa4dae
+manifest 35fe51f562659f09365baa3aa59f8fb910c0729a
+files layout/xul/base/src/nsBoxObject.cpp
+patch 160,161,

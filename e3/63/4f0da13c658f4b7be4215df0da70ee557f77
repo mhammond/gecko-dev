@@ -1,0 +1,5 @@
+changeset b8f2d6428e38806fb1ce5898ed2a16d3b7e77d3c
+manifest 7a86a31cf7cabc5b8414c7048f4b53e88cb5e960
+extra rebase_source:e1e3f2b967d72b37995d78a00aa9abb215e3eacf
+files media/webrtc/trunk/webrtc/video_engine/desktop_capture_impl.cc
+patch 357,431,

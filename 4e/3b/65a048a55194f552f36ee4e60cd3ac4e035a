@@ -1,0 +1,5 @@
+changeset 33ed4bcf2853c8f8724a4f53ff822ae7946e4c68
+manifest bb94a41f2c29b3c23308ee120b3f61a80d777ccd
+extra rebase_source:4490dbe0779f35e79ec25e593eb5ae687cc42dd8
+files js/src/vm/DebuggerMemory.cpp
+patch 254,328,

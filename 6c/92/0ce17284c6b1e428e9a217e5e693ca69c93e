@@ -1,0 +1,5 @@
+changeset d728a7fdade20d7fbfd8c18e46974abd7fd150e6
+manifest 798669304349de527b61acb9af0c1f5ae69d7565
+extra rebase_source:32775cafe45d7f98ba85f91502a4d3f343fdbd14
+files browser/locales/en-US/chrome/overrides/netError.dtd
+patch 337,411,

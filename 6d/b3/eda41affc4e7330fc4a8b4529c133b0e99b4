@@ -1,0 +1,4 @@
+changeset e725cf00b32e304c50e4df8614cf01dfb49c095d
+manifest 02ca7f50b6f80e1df2d5d5753055dde8c658aacf
+files js/src/jit-test/tests/parser/redeclaration-message.js
+patch 221,222,

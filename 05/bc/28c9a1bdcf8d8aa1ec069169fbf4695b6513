@@ -1,0 +1,4 @@
+changeset e283da610b05190190d77fc6573895e12c78b05e
+manifest ce1c73d41616f53a43712deb77a5a762384887cb
+files dom/media/platforms/wmf/DXVA2Manager.cpp
+patch 247,248,

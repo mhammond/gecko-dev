@@ -1,0 +1,5 @@
+changeset 2af19b7c731b363ff93fed151aee22979f8f44c9
+manifest a00fc1efee8ed0c72170c2f625921c84707ddc3e
+extra rebase_source:04dd083f827ce59dcb9b25ba5dd55dc37b6f503f
+files js/src/jsiter.cpp
+patch 231,305,

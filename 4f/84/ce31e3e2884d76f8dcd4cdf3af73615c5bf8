@@ -1,0 +1,4 @@
+changeset bca5e885e26d23d0f4b40bc55cac7235644d911b
+manifest f1182e30a89da0085c88b6e7afa1783abbe4ba1d
+files testing/mozbase/mozlog/mozlog/formatters/process.py
+patch 282,283,

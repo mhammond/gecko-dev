@@ -1,0 +1,5 @@
+changeset 593e3e011fc7f1fb7b5a4810475776f419715bba
+manifest 8291b023f5c00f375fe6aee1106ed8b044c5b040
+extra rebase_source:1dbceece2aef7bf0743baac185a793a8c4bc6bd7
+files toolkit/mozapps/extensions/test/xpcshell/head_addons.js
+patch 309,383,

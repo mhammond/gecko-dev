@@ -1,0 +1,4 @@
+changeset 61e89b6101b69128dd6b76991499610b82eb95d9
+manifest 1014a6c5f2a75a561054980a3867a7ea606938f3
+files security/manager/tools/getHSTSPreloadList.js
+patch 256,257,

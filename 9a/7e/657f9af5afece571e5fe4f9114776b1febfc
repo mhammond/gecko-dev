@@ -1,0 +1,4 @@
+changeset 3e9a161f0645d3aeb19669185852c6a1be190ccf
+manifest 1716aab81cafde022a668c484009e393399c28f6
+files dom/power/PowerManagerService.cpp
+patch 242,243,

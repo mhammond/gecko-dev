@@ -1,0 +1,5 @@
+changeset 170d7f1c6661c703ec4012cd49fea5d979ebd993
+manifest 94b51ba52b8d592c66c5ea8570a281f55d99fbf2
+extra source:4266dca3ab7df795abc8865beb0aacc5884ffbfc
+files toolkit/components/narrate/test/browser_narrate.js
+patch 315,382,

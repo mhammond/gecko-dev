@@ -1,0 +1,4 @@
+changeset 70f6fa801977779676eb46ee9531022c491b8089
+manifest 5579ca37d12629cad017d3d1a8f400ff73e96499
+files toolkit/mozapps/extensions/test/xpcshell/test_cache_certdb.js
+patch 234,235,

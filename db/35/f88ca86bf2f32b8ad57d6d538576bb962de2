@@ -1,0 +1,5 @@
+changeset d36ad40cf9910c695a20eff674aa18dc89d3b269
+manifest 7c7579b41f191eb8d1d8d4d8225f580ae64b57a5
+extra source:8b3660dd50322d312da157895f20169255d23658
+files layout/generic/nsLineLayout.h
+patch 276,343,

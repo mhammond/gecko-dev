@@ -1,0 +1,5 @@
+changeset b36320f441745dc3d78842c9575cd44f0afdaa0d
+manifest 27dddb3231ff7a476567f82a7b6a98b9231734e2
+extra source:b0c2f52f52f18ca1c47a07083b7ad7ef22bc2645
+files gfx/layers/client/ImageClient.cpp
+patch 256,323,

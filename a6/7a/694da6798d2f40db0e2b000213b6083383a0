@@ -1,0 +1,5 @@
+changeset 0cc13c78c887e81079de7adb13bc19a357c8b66a
+manifest 7d43e39ff0c006f7f743a5a9d9079ce1c99df9d6
+extra commitid:Fu9ou1sASL4
+files devtools/client/webconsole/test/browser_webconsole_bug_1006027_message_timestamps_incorrect.js
+patch 443,483,

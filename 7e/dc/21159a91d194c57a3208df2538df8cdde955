@@ -1,0 +1,4 @@
+changeset 4f51ad2ba462dae3bba8b7814d331b20880a99a7
+manifest 69e6fdbe77b4ef6a7e29257dc00aaf972ce15e43
+files build/build-clang/build-clang.py
+patch 589,590,

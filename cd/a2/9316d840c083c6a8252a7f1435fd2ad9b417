@@ -1,0 +1,5 @@
+changeset cb2f99b42d57881879554d9badc1680e2774ddcb
+manifest f90a31c3b67f2ec0029f15d5ee32dcadf4e134f4
+extra amend_source:68000631ca959f6ac64d1ed9d01fe091f933370a
+files tools/profiler/lul/LulElf.cpp
+patch 255,328,

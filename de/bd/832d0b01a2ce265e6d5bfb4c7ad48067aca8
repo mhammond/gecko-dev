@@ -1,0 +1,5 @@
+changeset 5948b8a5a64080044225ae5f7254fc33d202173e
+manifest 5913dbe5acb3afa9ed88ef9c0fe9ff297783ae29
+extra source:d7c52ceb05b612f0a36ee5d8f942530c1cac9cbc
+files mobile/android/config/proguard/adjust-keeps.cfg
+patch 279,346,

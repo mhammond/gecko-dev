@@ -1,0 +1,5 @@
+changeset d2a087cdfb007a8a1aa919fcea061af9970fed72
+manifest dd9781709670f3e129102910af067b44afd39248
+extra rebase_source:041cffe0cb19d6860edda0e9d36d55a4b0d36f4c
+files devtools/client/debugger/test/mochitest/addon3.xpi
+patch 332,406,

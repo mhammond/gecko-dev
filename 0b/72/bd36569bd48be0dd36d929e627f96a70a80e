@@ -1,0 +1,4 @@
+changeset 18ecbe8d086e7546f8d02b85d44194ba1ad3d968
+manifest df77dedfe0527295dab8222c7f78db4a40ec6587
+files dom/bluetooth/BluetoothProfileManagerBase.h
+patch 580,581,

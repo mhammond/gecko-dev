@@ -1,0 +1,5 @@
+changeset 0de4101e6ef67cad22e471f0ca8145160a4b2cc7
+manifest fff834a449e7cf56e2df86cc9e0bc72506e49267
+extra source:557fb171e6562816f16a317c0d45f688609361c7
+files mobile/android/base/java/org/mozilla/gecko/home/BrowserSearch.java
+patch 657,724,

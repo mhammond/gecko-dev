@@ -1,0 +1,5 @@
+changeset 6a35c7a791a6a317204c9d144eac4ed902de3f86
+manifest 2411317008f4388c9ce00398aa12cde7054bdf95
+extra rebase_source:21c8447deae4c7fee221ecfb7cc73076f88f0c26
+files mobile/android/base/java/org/mozilla/gecko/widget/GeckoActionProvider.java
+patch 340,414,

@@ -1,0 +1,5 @@
+changeset 09f5cb57521ff5deef03b5a27b56f5471b1e4715
+manifest 6b5d07c1bcc93f0102df9cbc8ab3fc7d5a682842
+extra rebase_source:1d2e01161e0ad900bfcd667da729d0a0bfef19e0
+files mobile/android/base/java/org/mozilla/gecko/firstrun/FirstrunPager.java
+patch 353,427,

@@ -1,0 +1,5 @@
+changeset d0611e12d2cbc96c28669a21dbcbcc26bc48bd15
+manifest eebce04584107f1745c7b6519bf1b123f6837a5b
+extra rebase_source:d42a02cd1d62475cead3816947a76fffa826132e
+files js/src/asmjs/WasmBinary.h
+patch 272,346,

@@ -1,0 +1,5 @@
+changeset ac8d77d02adab1c253eb6eabb47307edd419ac16
+manifest c5b11738c4c02839894c17a180be5824dbcbad03
+extra rebase_source:1b6096ade66f81e3a3e7517881b6c122df59e6ec
+files js/src/jsmath.cpp
+patch 245,319,

@@ -1,0 +1,4 @@
+changeset 32e01c144cd4f486bec4ccf6de0c0fa58567b4d3
+manifest 12eb7f3e67756e51a2ffddddc60e50d3c06740d7
+files dom/events/test/test_bug602962.xul
+patch 255,256,

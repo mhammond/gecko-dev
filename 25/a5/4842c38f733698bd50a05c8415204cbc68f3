@@ -1,0 +1,4 @@
+changeset 526f72b839de022ad2e7f49951c72f841c4945d0
+manifest 6da07ba50061916ad386e43b60db3403c250fe68
+files js/src/proxy/Wrapper.cpp
+patch 202,203,

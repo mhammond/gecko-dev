@@ -1,0 +1,5 @@
+changeset 44ed86477ea22dc8fb35ead22571cfbdfd8e8f31
+manifest f8127dc89070f28618e60aba39b00dc9650223a6
+extra source:2b373308181710e3b8667a0215a612335b73cc92
+files mobile/android/themes/core/aboutLogins.css
+patch 285,352,

@@ -1,0 +1,5 @@
+changeset cdea1598a698b6ba2024ad8c77a093800a6d80ae
+manifest 3484bd50af474c6d967c11b28c561a651184cddf
+extra rebase_source:76126361de678729344b0e9eaeac1d523f88ebb4
+files xpcom/io/moz.build
+patch 629,703,

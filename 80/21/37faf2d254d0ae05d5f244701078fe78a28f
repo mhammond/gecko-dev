@@ -1,0 +1,5 @@
+changeset bef08c5c1348ef495e25ec2aa434c3c8629a1b82
+manifest e4c05b04a91f4063f1e3c1e1ccace4e4ff2b0dc1
+extra rebase_source:90c238dffada71a4ea6434230251b0f84ed67293
+files testing/mozharness/scripts/marionette.py
+patch 328,402,

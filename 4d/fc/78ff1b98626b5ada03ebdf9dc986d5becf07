@@ -1,0 +1,5 @@
+changeset 4c067cb416a5a5eb1e489caf61fbdbc2ece5e592
+manifest 025484b88ebb409c5e775c05208415b4d7c89c75
+extra commitid:7pKmvUnksuS
+files js/src/jit/TypePolicy.cpp
+patch 186,226,

@@ -1,0 +1,5 @@
+changeset ca0d623725cdc00338d83d5413658531505b04d9
+manifest 414648d9f54be68b4fe96b00a98845b9d91b06e1
+extra rebase_source:7c52062dfa7e2b2d92b2a0e57fc32c2fef01cff2
+files testing/mozharness/configs/single_locale/tc_linux32.py
+patch 305,379,

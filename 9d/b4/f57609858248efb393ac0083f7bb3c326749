@@ -1,0 +1,5 @@
+changeset 3d18af0cc52663e03e7c81d3646cc3baf8d2b3f1
+manifest 78df4d5cad3f01616cf2bbb073e957e7928ddd38
+extra rebase_source:b0d1310f867040f1f7d14b94a95ba364e3902f88
+files browser/components/extensions/test/browser/browser_ext_tabs_getCurrent.js
+patch 484,558,

@@ -1,0 +1,5 @@
+changeset ea5f22cee4e9144cc6fa918c889d19a08bbb87a4
+manifest 4514b97c7b75e84e72e0ee3347ca35b3ee1e6c6c
+extra rebase_source:77582b007ebb9a87925543f044d9af06a5f7c2fa
+files widget/MouseEvents.h
+patch 287,361,

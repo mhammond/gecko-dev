@@ -1,0 +1,5 @@
+changeset 7564ca26020e7c23b43d56b8ee68ef03c7e38dd6
+manifest 7564e1167486b657c45cdcb9e051421f522f81c0
+extra source:a05befbd1d5c1a09b70fca4cac5ce20692bd7c2d
+files dom/canvas/test/webgl-mochitest/ensure-exts/test_EXT_disjoint_timer_query.html
+patch 341,408,

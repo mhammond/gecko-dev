@@ -1,0 +1,5 @@
+changeset ad3c62c42039ebc7997b4e92250b14c8689b1bf2
+manifest 85e36981195954ed60d2dbdaf440e9a539da83ad
+extra amend_source:fb7a11b75b874aec7658aca0a6978363279bce80
+files layout/style/nsIStyleRule.h
+patch 244,317,

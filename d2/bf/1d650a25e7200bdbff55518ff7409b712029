@@ -1,0 +1,5 @@
+changeset 4c0092cbaf251d6253a07f103cabf8b2b1fbb9fc
+manifest e2a36b08e926c4a45dff6c1d2d43f7a8fe428145
+extra rebase_source:239b8d8c09a427ce72efafaedc0d6089289dcb0c
+files mobile/android/base/java/org/mozilla/gecko/PrivateTab.java
+patch 310,384,

@@ -1,0 +1,5 @@
+changeset e4cf5dc1ab2c3c51a39655039ee0865303acdb1c
+manifest a52beeddd35142d73d704b1406407aed0063d399
+extra rebase_source:d1dd8a228a23520a23e77e29ae3d5040e6505eb8
+files dom/media/webaudio/AnalyserNode.cpp
+patch 499,573,

@@ -1,0 +1,5 @@
+changeset 7d90c11e66415b9e9919d17bf91a7e72375cb46c
+manifest 3155c6aca3a108bf15c6a8c82d322df70a197ee9
+extra rebase_source:c381840b23587277a64e19ba9811e0dd2664542e
+files browser/devtools/performance/test/browser.ini
+patch 289,363,

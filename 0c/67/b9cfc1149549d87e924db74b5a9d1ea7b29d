@@ -1,0 +1,5 @@
+changeset 3d3218e55f22306ba55bdd6aa7693a23369f5492
+manifest 3402b22d4f5928b5b98f7f37d3baff08c23795d3
+extra source:e5c8ba7cabaad7382c9b7f6b54fa10b268e1e1cc
+files devtools/client/themes/images/clear.svg
+patch 293,360,

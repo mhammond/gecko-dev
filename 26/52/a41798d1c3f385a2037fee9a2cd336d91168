@@ -1,0 +1,5 @@
+changeset cdc56a9e357c608f6a3dc060608cc3e685020db1
+manifest bfeabc3e072b7ec5a67c790a5bbe1b5c8db235ec
+extra transplant_source:Py:QÔr“uÉ¿¿EUg
+files browser/base/content/nsContextMenu.js
+patch 291,373,

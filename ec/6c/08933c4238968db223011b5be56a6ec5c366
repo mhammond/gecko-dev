@@ -1,0 +1,5 @@
+changeset ed7bcd03dcca372eb371a6fa78fe5155b2ca9b05
+manifest d2a81f9c8bdc8a2f66afcf83e881f5548219fba2
+extra rebase_source:797659beefff13194af3eb997f6fbd246b991ab6
+files testing/docker/ubuntu32-build/Dockerfile
+patch 251,325,

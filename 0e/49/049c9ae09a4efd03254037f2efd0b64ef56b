@@ -1,0 +1,4 @@
+changeset 0fd6d83f2dc2dc51382bf2551b0a38ce0fdca9de
+manifest 7bf68f471149a99f98b199939c82a04d30530d51
+files gfx/layers/composite/ImageHost.cpp
+patch 341,342,

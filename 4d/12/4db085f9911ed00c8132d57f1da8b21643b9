@@ -1,0 +1,4 @@
+changeset 878e54671aea2d422d124ba76da873936089fe92
+manifest 6567f0ce4f980c777e962ce4fdd0e3749c97dec7
+files devtools/client/framework/test/browser_toolbox_tool_remote_reopen.js
+patch 338,339,

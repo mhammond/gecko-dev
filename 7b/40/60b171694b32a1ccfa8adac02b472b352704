@@ -1,0 +1,5 @@
+changeset 56f3f15ac01c864f3fce28314675c28f4fc353d0
+manifest 23671ab202c04cd5d95ea4b928e76631a3d28bd7
+extra rebase_source:6df65d0a64526bc85a7ac5adcb43e5319e18cf28
+files js/src/devtools/automation/variants/generational
+patch 254,328,

@@ -1,0 +1,5 @@
+changeset 3820efc791553122908ff5b2f209d90bc305b527
+manifest 2bbff0114b2b5c52a486b251e5e17cfad76fc0f5
+extra rebase_source:c2bc212e5a2c836576db316cb3bddc06b9f631e9
+files intl/locale/unix/nsUNIXCharset.cpp
+patch 286,360,

@@ -1,0 +1,5 @@
+changeset 142737374b1c9f955981bba3e2c2b00d0d026558
+manifest 2c24d95dec2e6af560530c74babefac9bbe6a1b1
+extra rebase_source:02a2e46f75db29f9333e1d36e462903e95d4c49b
+files media/webrtc/trunk/webrtc/voice_engine/voe_external_media_impl.cc
+patch 389,463,

@@ -1,0 +1,5 @@
+changeset c89874eb124ba5673eb943779176370ec00aacf7
+manifest ac3f1c7dee920bf29e8393619916c7f2534f849b
+extra source:25805491cfe83f5750156a4447ae71456c2983d0
+files dom/security/test/csp/test_upgrade_insecure.html
+patch 314,381,

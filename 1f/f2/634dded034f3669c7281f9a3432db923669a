@@ -1,0 +1,5 @@
+changeset f2f176ef9b45115ba655b78f3562d3e447513d85
+manifest 6d7c0120b60d1ffd52b2fc9700e4fe6f6f794f4e
+extra amend_source:4b683874a5a228853b61e6df6cdb9b3c89165210
+files testing/mozharness/scripts/release/antivirus.py
+patch 271,344,

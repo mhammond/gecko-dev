@@ -1,0 +1,5 @@
+changeset f8c2fc36527e0be6624d53d2c1339f4a23eb36f5
+manifest 78fdb0b377e9bf5cfecd91a7229f6fb60b50c535
+extra source:47952b802aab648f692bb89678d2b695a04b53ab
+files js/src/jit/ValueNumbering.cpp
+patch 294,361,

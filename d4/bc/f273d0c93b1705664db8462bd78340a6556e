@@ -1,0 +1,5 @@
+changeset ba45f827d74b3103f151eb75827713eab8f9368b
+manifest 7257089285e5bbe0683b42a47c40626df5f02052
+extra rebase_source:1ac50c03c4d6b14e22f3d55aca026fce15565f5c
+files mozglue/misc/StackWalk.cpp
+patch 497,571,

@@ -1,0 +1,4 @@
+changeset c32116f21ebcb1c4f4c960bb378f5dc50f5eaee5
+manifest b5094b7fa31f12adb295b8b88b8f7903081a6bf8
+files b2g/components/test/unit/test_logshake_gonk.js
+patch 261,262,

@@ -1,0 +1,4 @@
+changeset c539b6f091fca8fa30af0074363c783da80b20f1
+manifest cf30f0d157d6c2ee1830bf33e0f90a46e1470186
+files b2g/chrome/content/devtools/hud.js
+patch 191,192,

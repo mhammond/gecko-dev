@@ -1,0 +1,5 @@
+changeset 88c3789d70cb83d0c582d17bca151b808089ed26
+manifest 3ff1ecce1d9fb268c5781290a5e90e2dca4b857b
+extra rebase_source:30cdee7bf9a2a43e3d3dbbfdb18cae38f5550bd5
+files image/ImageLogging.h
+patch 248,322,

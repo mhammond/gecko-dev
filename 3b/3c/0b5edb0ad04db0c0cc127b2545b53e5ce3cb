@@ -1,0 +1,5 @@
+changeset 596ee431b3d25c957fa8389a75f9f36787e2d33e
+manifest da3fcbc289cdf382075e980d0fa9d7cbf3d4c030
+extra rebase_source:8da4909a80e47a106e902c8765b862a0ed968dbb
+files js/src/jit/x86-shared/Lowering-x86-shared.cpp
+patch 290,364,

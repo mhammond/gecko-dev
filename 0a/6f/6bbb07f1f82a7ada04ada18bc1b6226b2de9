@@ -1,0 +1,5 @@
+changeset dc63519e3cae242606a1009f707af3d0f6943344
+manifest 60a0021c42ec98506be80b6dfe77f6925d2d702c
+extra source:e46af57648ff7ea7f895cd00dc64942644babaef
+files dom/devicestorage/DeviceStorage.h
+patch 285,352,

@@ -1,0 +1,4 @@
+changeset 93052c1a0e482d0043834855e8bc9240cf411650
+manifest af8d12888211403550e9d746042effe7dad653c3
+files browser/components/preferences/in-content/moz.build
+patch 314,315,

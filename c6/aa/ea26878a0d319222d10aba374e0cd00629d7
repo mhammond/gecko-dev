@@ -1,0 +1,4 @@
+changeset 70bb205d2c8567c9f02d955cfd90acff10458cb9
+manifest cf1be3746c6789e23390620b56fda9d18d5df995
+files browser/modules/DirectoryLinksProvider.jsm
+patch 228,229,

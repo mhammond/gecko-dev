@@ -1,0 +1,4 @@
+changeset c9b5ea71452297bd145fcd13438566c52a81c090
+manifest d3718f560fa2b4b4558bf07bccf1a8d02ea8dec7
+files media/webrtc/trunk/webrtc/modules/audio_device/android/audio_device_opensles_android.cc
+patch 453,454,

@@ -1,0 +1,5 @@
+changeset 17a769dd16a13c68d10698aa8ffab20700435813
+manifest a2d25a8f78d461850810a6cf36df1f5029c89925
+extra rebase_source:d2cb9d4e2234f2b1f92cb7ff4a1730f1f408d275
+files layout/base/tests/marionette/test_selectioncarets_multiplerange.py
+patch 531,605,

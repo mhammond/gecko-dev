@@ -1,0 +1,5 @@
+changeset 33f3b919ef1b3cdeeb815362b6611bed030b5728
+manifest 472e2d00900db295b13d19c06fa5f29442f40a58
+extra commitid:FSfDiw1Uya2
+files js/src/jit/ExecutableAllocator.cpp
+patch 198,238,

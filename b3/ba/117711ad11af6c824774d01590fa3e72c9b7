@@ -1,0 +1,4 @@
+changeset 9f3a85f50cff5d0f3a7c32c7ad9c703b8ed7d031
+manifest ecd092446d5c7b98387e19a2d108de1a174b4491
+files xpcom/reflect/xptcall/md/unix/xptcinvoke_aarch64.cpp
+patch 1972,1973,

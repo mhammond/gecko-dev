@@ -1,0 +1,5 @@
+changeset 239195d791ceab09f2a28b76e94c6e438665ab78
+manifest 8cfa67c6312d6863171594e607d325e6013f9fe8
+extra rebase_source:661ab7ca0fe93d626257525cb7b6f4663a3d19ba
+files xpcom/io/nsBinaryStream.cpp
+patch 227,301,

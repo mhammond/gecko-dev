@@ -1,0 +1,4 @@
+changeset dc567e5e1576845e45bdc4abfda4e32a8343b37c
+manifest a9e1bb686fa35aa73e5f8b2672029af27d8d03d3
+files dom/tests/mochitest/fetch/test_fetch_basic.js
+patch 196,197,

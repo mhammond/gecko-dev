@@ -1,0 +1,5 @@
+changeset 0c2d18f223f6c3ee5c52eba6c24d0ab8ce1f6cdd
+manifest 706c59816d6258de7695411e8bf18ec8c638366d
+extra source:692fd43da7cb3fb9f2aabcbf3fd7d7f4bf9f5ca9
+files accessible/windows/msaa/nsWinUtils.cpp
+patch 245,312,

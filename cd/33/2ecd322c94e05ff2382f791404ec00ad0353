@@ -1,0 +1,4 @@
+changeset 91d52c8a63a925003161fc3bb5ebfb6ad7276858
+manifest 031926e94b9c2086253e45258ec78487645e7a51
+files browser/devtools/styleeditor/StyleEditorUI.jsm
+patch 274,275,

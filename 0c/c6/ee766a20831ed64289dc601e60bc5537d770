@@ -1,0 +1,4 @@
+changeset 73a6a267a50a0e1c41e689b265ad3eebe43d7ac6
+manifest f54a45aebe9970254b596ae96ab3eb5ce342df4d
+files taskcluster/scripts/builder/build-l10n.sh
+patch 163,164,

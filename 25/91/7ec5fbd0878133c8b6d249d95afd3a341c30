@@ -1,0 +1,4 @@
+changeset 38dd98fb407406fecbf956ebc6d6ed7eb1e0a661
+manifest eaf1e16f161001fe9156e47667a8cd1123b656ca
+files browser/base/content/test/general/browser_urlbarRevert.js
+patch 211,212,

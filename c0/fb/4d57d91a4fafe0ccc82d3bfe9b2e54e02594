@@ -1,0 +1,4 @@
+changeset 0a10dcc01c2e4a41e82197e13a5129eb65eeac6d
+manifest c14d66476371ac41024cb7fbfc9721800e252a55
+files js/src/jit-test/tests/gc/oomInArrayProtoTest.js
+patch 205,206,

@@ -1,0 +1,5 @@
+changeset 43556298f164f98ea1decd3382dd70e86a5ca85c
+manifest 5ded8a20e1bef3b3035dd376d19814bdd078ba1e
+extra rebase_source:bb8f3b5cbdbb6601b6946d5fbb7396848f22b5c6
+files python/mozlint/mozlint/cli.py
+patch 398,472,

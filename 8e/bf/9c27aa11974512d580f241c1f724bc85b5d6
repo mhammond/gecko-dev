@@ -1,0 +1,4 @@
+changeset 726178754a3a42b07d0757514cc0b3b017690990
+manifest 57f6c6702b5bc1e31c64a52598b4f15be7461b33
+files testing/taskcluster/tests/test_slugidjar.py
+patch 178,179,

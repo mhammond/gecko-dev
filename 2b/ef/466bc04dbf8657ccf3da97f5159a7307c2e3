@@ -1,0 +1,5 @@
+changeset 5049d11255b96f6abb80d36d9741982fc7f3eb11
+manifest ef50dec67ec81c66f1112e96760a2c3633856118
+extra histedit_source:06e3f947ff10479dea25f6e237c13594dcf9d367
+files browser/base/content/test/general/browser_bug734076.js
+patch 323,399,

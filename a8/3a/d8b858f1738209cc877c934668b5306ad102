@@ -1,0 +1,5 @@
+changeset 99183448b819dc701ea6c314b937ae38160c5ca4
+manifest 15b33b0d23ec23c0ae91aff871652b5f19e7bd04
+extra rebase_source:c56711e09118fe930f389cc48543a661c293d7e4
+files config/msvc-stl-wrapper.template.h
+patch 629,703,

@@ -1,0 +1,5 @@
+changeset 6c9f1e0f68fcfcead93448ef212e61ed0ff0b8e2
+manifest cfe1ca6c70784dda2eef89f3bdcefc5f5620b07b
+extra rebase_source:68371c68745480f36b516b208428d2453ea06609
+files services/common/kinto-offline-client.js
+patch 282,356,

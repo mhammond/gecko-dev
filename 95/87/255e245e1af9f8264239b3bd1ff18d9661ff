@@ -1,0 +1,5 @@
+changeset 70b5b544b2453f4ca6860f1879784eb56f66e88a
+manifest fe02b67fafb71c61606e45c62a07dcdb938a2e2b
+extra rebase_source:6e2c40ee16f80792f038fd581168e181a2c4bf51
+files taskcluster/scripts/tester/test-ubuntu1204.sh
+patch 752,826,

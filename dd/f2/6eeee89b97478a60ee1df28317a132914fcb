@@ -1,0 +1,5 @@
+changeset a8e0bde30bd4d0e1c07630354bd077dabbb41b78
+manifest dba2e64be1ca941cca8eb454a30f2484eb86450e
+extra amend_source:7ad4dc79cbdb30453c2d20695efee35bdf3338a7
+files js/src/jit/Ion.cpp
+patch 244,317,

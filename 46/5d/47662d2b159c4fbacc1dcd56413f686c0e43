@@ -1,0 +1,5 @@
+changeset 908ef11e47d3c103f1fc9dfeee3e7a86a9f8ade6
+manifest 724826dbf62dbb60c2e4b204762d5d0514558e63
+extra source:35958f485b2987e8b54fa3e66500174ba5cda867
+files media/libstagefright/binding/Box.cpp
+patch 235,302,

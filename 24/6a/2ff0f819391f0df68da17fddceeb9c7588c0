@@ -1,0 +1,5 @@
+changeset 1a30ac62cb4e0fe211e865cf4cdd40e5bcb74f05
+manifest a83aacbd7a93121ac3e02e3a502dbea8ec998f85
+author stefanh@inbox.com
+files layout/xul/tree/nsTreeBodyFrame.cpp
+patch 192,193,

@@ -1,0 +1,4 @@
+changeset 0ad63f3730f6097ff5157e301d43c3782c4739c8
+manifest c664a55ad38da20369034d010ad2d8a289d7ce88
+files mobile/android/stumbler/java/org/mozilla/mozstumbler/service/uploadthread/AsyncUploader.java
+patch 285,286,

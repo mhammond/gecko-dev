@@ -1,0 +1,5 @@
+changeset 9e856f294fa1bd92a5e086a33eedbb33ef782a30
+manifest c06f2f152af8eb1086a6860964b3e658c30ee177
+extra source:11f5403803254abbb8039b900b3fe21afdbd46af
+files devtools/client/webconsole/test/browser_console_variables_view_filter.js
+patch 392,459,

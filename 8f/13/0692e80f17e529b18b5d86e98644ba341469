@@ -1,0 +1,5 @@
+changeset 62e39ac7593d4d5fb11dfd2b7ea66911df89b3d9
+manifest c24b4bb57d2c7d4f29d7a63b1c2f05527df2180c
+extra rebase_source:fa4dd3230382620a393c8555338e8956df83f748
+files media/libstagefright/binding/include/mp4_demuxer/ByteWriter.h
+patch 441,515,

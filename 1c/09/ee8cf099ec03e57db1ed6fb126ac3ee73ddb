@@ -1,0 +1,4 @@
+changeset 107eb264a40d19ecdcb1af3d09959a547d397b9d
+manifest 01b7661d462ad5cf65cfe8c07b57bba53b3229ac
+files xpcom/tests/TestAutoPtr.cpp
+patch 288,289,

@@ -1,0 +1,5 @@
+changeset 495b385af8f0c82ef72089b8e30042f46630f197
+manifest 57cae008a34340b50ae9f06766db1c7c429fbc20
+extra source:7a485f899de758d2ff25741afe5c9a752c06cd95
+files testing/mozharness/mozharness/base/vcs/vcsbase.py
+patch 306,373,

@@ -1,0 +1,4 @@
+changeset 8fa8ef7b1d47db26383787bd1e903ff06612b135
+manifest 784cc45f3fc86db46c95193c6d91f3f633434047
+files dom/speakermanager/SpeakerManagerService.cpp
+patch 209,210,

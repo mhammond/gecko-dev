@@ -1,0 +1,5 @@
+changeset 2989436eb1346e6b8ae069c3f93607bba8df82c9
+manifest a7c5272b6d41bd93e5c7f33cc45b8d0431daba40
+extra rebase_source:393d43b2a2a3e6d45ac288fa7fcf7a9de18c4e65
+files b2g/config/nexus-5-l/sources.xml
+patch 287,361,

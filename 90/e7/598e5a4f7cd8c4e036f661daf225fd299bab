@@ -1,0 +1,5 @@
+changeset 54836a65a622ddbefa6dd19b1a33168f392dab72
+manifest 9a437d9ca37ecc6b6ad8d6173f964c3a014d88a4
+extra source:a4e010070e050586bdacf851478456cf140dd326
+files dom/base/DirectionalityUtils.cpp
+patch 350,417,

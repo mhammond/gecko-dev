@@ -1,0 +1,5 @@
+changeset 07171761a4d89bb00971e14b1f31d9ef55724393
+manifest b0b490f56cf027cec47a0572cce43a52404e2283
+extra rebase_source:05b5fed8250d819024c8cfbc68e66940999c967b
+files testing/tools/autotry/autotry.py
+patch 312,386,

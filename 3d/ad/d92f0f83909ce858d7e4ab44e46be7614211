@@ -1,0 +1,5 @@
+changeset 7398104fda0b921e4cafdad12c865c502494ac4c
+manifest 143b328b38221fe6d31ba1856b66d50264a23f52
+extra source:b5abe23a4ea5934d7cb1e75e86c5b79eeb5e9f22
+files testing/web-platform/meta/content-security-policy/style-src/style-src-3_4.html.ini
+patch 335,402,

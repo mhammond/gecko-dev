@@ -1,0 +1,5 @@
+changeset 08fc0d77146b68db8ca9b83f8255ed33ed9e4cc0
+manifest 5c7cbe7656dce9f397cffb2f2297afa9a17805d2
+extra source:b720fc66767b6cd6f136998dd51cf58e0d59cca8
+files gfx/2d/BaseMargin.h
+patch 251,318,

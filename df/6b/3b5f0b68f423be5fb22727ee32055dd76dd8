@@ -1,0 +1,5 @@
+changeset 36a0d0731ca6282f2a44b66f32eba4ff049ef2e4
+manifest 5c8c5131ceb921c0670d2dae7a13da853d00b219
+extra transplant_source:ãBÕ7ÒµWú˜±¿üGZ·#<&
+files xpcom/glue/nsTArray.h
+patch 258,346,

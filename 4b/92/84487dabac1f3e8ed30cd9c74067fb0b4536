@@ -1,0 +1,5 @@
+changeset 77a5e8e87f91113dcf6cb15fdc83a184cc237e48
+manifest 04c3229859953496329dbb6658aac9155c3c180e
+extra rebase_source:d7fde4380e232a19880b896234d658f60a84965d
+files mobile/android/thirdparty/com/adjust/sdk/ActivityHandler.java
+patch 337,411,

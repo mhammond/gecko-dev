@@ -1,0 +1,5 @@
+changeset 79c7fe81fe5a856ea321e1046d4bd2371eccad91
+manifest f9672fc8dc1b11ab9615b01856e73d5f18de1b7e
+extra rebase_source:72cae16646be0e4b949724dd76925b6857b81e5b
+files gfx/layers/ipc/ShadowLayerUtilsX11.h
+patch 324,398,

@@ -1,0 +1,5 @@
+changeset 5ef08ec39cd74f6572442b32dc8677a12040a70a
+manifest a526edb0364723ebd60c48df5632135144410162
+extra rebase_source:7ab28e2ebeaf5ac8a9af8e9f79a58aebb61e1793
+files browser/components/sessionstore/SessionWorker.js
+patch 615,689,

@@ -1,0 +1,5 @@
+changeset 57ab6cc9d420e4a04b61a364754891f2298f0ae0
+manifest a93643566eeca4e343df9fc92bc41b95ad1a7af2
+extra source:06034e3599c361036cfc4a09735de432301ef588
+files browser/themes/linux/downloads/indicator.css
+patch 267,334,

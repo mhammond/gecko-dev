@@ -1,0 +1,5 @@
+changeset 5583f4e00aa74bddcedf4debbacc2665d2a0af1f
+manifest 48b6e85be022e1693343024df7cff48ac1a4496e
+extra rebase_source:9bc0109e898b462b500fb40da836c0fb8660b18e
+files dom/bindings/Codegen.py
+patch 293,367,

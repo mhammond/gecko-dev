@@ -1,0 +1,5 @@
+changeset f28fdbf2af288acd789c96cf838cf804325e4bed
+manifest c5702f06c33125f08f11e86e7c81246e83df5f2a
+extra source:ecfe8eaa0ea7f4717dd8b12c4a95f4a455d53255
+files browser/themes/shared/tabs.inc.css
+patch 313,380,

@@ -1,0 +1,4 @@
+changeset ccd48b57944a0429fc8dc7d602baafb7d04b4d76
+manifest 4aabf79a820ce4cf19d6b89b895b1ced71dbd989
+files browser/extensions/e10srollout/moz.build
+patch 266,267,

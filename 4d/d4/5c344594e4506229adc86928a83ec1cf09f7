@@ -1,0 +1,5 @@
+changeset c7a87fac718e2410aad5e18007594927c79bcdb5
+manifest 3dfd41cbb65770964bfad8707ad1558997b5d0e4
+extra rebase_source:7f43e44901ced4ab4a272743bb71f2575c2cfbcb
+files browser/components/pocket/panels/js/dictionary.js
+patch 287,361,

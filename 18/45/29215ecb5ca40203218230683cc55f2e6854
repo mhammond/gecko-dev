@@ -1,0 +1,4 @@
+changeset 2c717162f3f8e319266caea8d21731eb137d672b
+manifest 1f8181497e9691dea1ca6053a4622e31b21d082d
+files toolkit/xre/nsEmbedFunctions.cpp
+patch 197,198,

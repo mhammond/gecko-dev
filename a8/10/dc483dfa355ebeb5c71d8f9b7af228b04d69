@@ -1,0 +1,5 @@
+changeset 5f6dffc243ea6ae8d13675c3bba67e5abd331fde
+manifest 7105cf3ca6f4a9231b8ff0532410a80d6327c0c1
+extra rebase_source:69e853af52e166b83a7ee9959b1ed2b9b53029a7
+files browser/components/sessionstore/test/browser_revive_crashed_bg_tabs.js
+patch 362,436,

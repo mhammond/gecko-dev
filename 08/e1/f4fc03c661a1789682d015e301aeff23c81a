@@ -1,0 +1,4 @@
+changeset bc5e82ff992f3922e8d6a1e4c21b344b94c95b81
+manifest bcbf80f8c1d463ca2bac60ad875490acbf3855f1
+files js/src/tests/ecma_6/String/normalize-generateddata-input.js
+patch 234,235,

@@ -1,0 +1,5 @@
+changeset be4d8e26c2b6a23d0a50519ac4535ab0f972dbfb
+manifest 7754e727717d0c591da77d68d9a6ed2f0768735d
+extra source:8060449a6dd05e89690e957c1e88230c6ff6e1d4
+files mobile/android/base/java/org/mozilla/gecko/ZoomedView.java
+patch 308,375,

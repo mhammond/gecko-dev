@@ -1,0 +1,5 @@
+changeset 1f1a8b96d5167153d1f750439ba6a1063155a4bc
+manifest 0c6a65686eaec7266030741d77c435d04568bc9c
+extra amend_source:79c50b2f8de7f54418752ae21f8a273c1f2adf6d
+files toolkit/content/tests/widgets/mochitest.ini
+patch 317,390,

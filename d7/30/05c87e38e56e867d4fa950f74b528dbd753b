@@ -1,0 +1,5 @@
+changeset e242ef7e600a0e769c0b4b25d888ad4208a96d53
+manifest c7cffd9c9c6c8b5ee1a2fb91be364dd0be184d5a
+extra rebase_source:a85edab38cadc702fb70e4505e38f080b164a07e
+files dom/canvas/test/webgl-conf/generate-wrappers-and-manifest.py
+patch 338,412,

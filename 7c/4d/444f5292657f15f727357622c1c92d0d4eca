@@ -1,0 +1,5 @@
+changeset 4a7d755389226c95e9e53fabda254ba6586ee5dc
+manifest aec491e86fd8e25c44a188585ba95907c3e54f26
+extra rebase_source:64ba4d9dd94577b489ea922f7397e829d8662bd9
+files js/src/jsscript.cpp
+patch 256,330,

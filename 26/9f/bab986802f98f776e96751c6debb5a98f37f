@@ -1,0 +1,4 @@
+changeset db74101d7caa27ebccd33e1c9fd2590c47d84b99
+manifest f4760b4810dc2a830b3179d93e6a2fc86ced2a9c
+files browser/devtools/netmonitor/netmonitor-controller.js
+patch 647,648,

@@ -1,0 +1,5 @@
+changeset 1280f78d221d4c1e146443ee18f99b37f5e520fd
+manifest 9f2e110a4023beea584a794401080293d1066a3b
+extra source:2a5ebc082cb2f1aee13e6a88b5b13d3531769a01
+files netwerk/protocol/http/PackagedAppService.cpp
+patch 315,382,

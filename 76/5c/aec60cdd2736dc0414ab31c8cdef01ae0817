@@ -1,0 +1,4 @@
+changeset 5bd2edcc7779c01cf82cc65344ea97cfd08926f2
+manifest 9fa5062e7ad5fdec3dcaf43628243b8fdcb8225b
+files build/clang-plugin/Makefile.in
+patch 312,313,

@@ -1,0 +1,4 @@
+changeset be499a3cae5d741b7a1a1ca5fc8b91fc0cdf6d68
+manifest 2718177002210da07ffca44562a2248cd93dbbe6
+files netwerk/base/nsBaseChannel.cpp
+patch 196,197,

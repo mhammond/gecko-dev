@@ -1,0 +1,5 @@
+changeset d79fd66bfe580ce655ec91c786aa0163784ba683
+manifest ba3186ed708d649c082a40648b07def23a18ba36
+extra branch:THUNDERBIRD_38_VERBRANCH
+files editor/libeditor/tests/test_bug1154791.html
+patch 322,365,

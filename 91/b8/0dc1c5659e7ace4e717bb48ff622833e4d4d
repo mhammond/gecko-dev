@@ -1,0 +1,4 @@
+changeset 04d79227660a8c0a3f3c0efe9f26f9cd797a0ee7
+manifest bb591bf84ed600e4ae6e2c244a14fc50c0afb353
+files gfx/gl/GLContextProviderWGL.cpp
+patch 271,272,

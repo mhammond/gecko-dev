@@ -1,0 +1,5 @@
+changeset ef9686b6cf25780789381aebbd562c5194feb149
+manifest 3f3d4de5d94ab522292d05acec78b376dd699dfa
+extra rebase_source:f3d4dd8bf562537e94635e2623183b9f03d75006
+files mobile/android/base/resources/layout/tabs_panel_default.xml
+patch 310,384,

@@ -1,0 +1,5 @@
+changeset 65dc9fb2a36817f61b93131b63e0bce3e4062d88
+manifest 35cbcd241bc32ec2c810d11af1e97beebbc8f752
+extra amend_source:a7c6a1b6d10dc4449d294ad8ef4a21d3182b4998
+files browser/config/mozconfigs/linux64/source
+patch 288,361,

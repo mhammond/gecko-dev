@@ -1,0 +1,4 @@
+changeset 1c93b4b5ef5fc4f96749c6c275799c853d94263a
+manifest 634f911f996c79398d1c203e4a67588159bf5a54
+files xpcom/glue/nsRefPtrHashtable.h
+patch 378,379,

@@ -1,0 +1,4 @@
+changeset 71445b7c304477cc2b59218878c66485813f8d1a
+manifest fc99f147343800aeeb7177a47cf8f0882d31e725
+files mobile/android/geckoview/src/main/java/org/mozilla/gecko/gfx/StackScroller.java
+patch 330,331,

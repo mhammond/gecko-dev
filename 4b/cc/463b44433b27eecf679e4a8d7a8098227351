@@ -1,0 +1,6 @@
+changeset 5fa8d3ba44f9c09533e12555ec4c774dc54ebed1
+manifest 68c234908c35e82d9631bbf0b04b9b0e0c5d1312
+author Ursula Sarracini
+extra rebase_source:b6efa168f80976f4063d4b864e199baa54d46ff6
+files browser/components/newtab/NewTabSearchProvider.jsm
+patch 346,420,

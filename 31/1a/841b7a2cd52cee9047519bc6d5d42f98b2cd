@@ -1,0 +1,5 @@
+changeset 78b3e25059cd4ee6be16f03c9c2c81a390641efb
+manifest f143d47fd6210b042a6286abcb29e40d7b26c214
+extra source:e8723c580c6dd79e2e6cd371eeb204718eb57ad4
+files browser/modules/UserContextUI.jsm
+patch 256,323,

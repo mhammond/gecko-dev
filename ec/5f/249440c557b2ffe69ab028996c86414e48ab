@@ -1,0 +1,5 @@
+changeset 51910002fb3a8dd5df40b1947d99ef26ca898841
+manifest 97ab93ec96383e754d1d4eb35ab00467c07e8464
+extra rebase_source:627904a45db6a932fa29a0547d1dd3d3bc3953fd
+files js/src/jit-test/tests/TypedObject/bug1232159.js
+patch 325,399,

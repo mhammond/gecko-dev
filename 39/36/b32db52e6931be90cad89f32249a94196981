@@ -1,0 +1,5 @@
+changeset acfb00a0a215cdaa98510e6031ff5cddb97bf9c8
+manifest da4e90c3cf7b84a079b4b7939d2fa1b61fcb46cb
+extra source:9133117f410c06ad7fa25323a168bc97200043b9
+files accessible/atk/AccessibleWrap.cpp
+patch 674,741,

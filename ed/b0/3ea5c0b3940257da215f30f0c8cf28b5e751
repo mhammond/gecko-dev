@@ -1,0 +1,5 @@
+changeset 1846e981637e0547c9b7935b2329580e03780259
+manifest 62dc1fdc94abb68a2fdfb0e05e65665623209fbf
+extra rebase_source:b0dd83b3f2e212684d786acfb8336727a4127984
+files mobile/android/base/java/org/mozilla/gecko/ReadingListHelper.java
+patch 332,406,

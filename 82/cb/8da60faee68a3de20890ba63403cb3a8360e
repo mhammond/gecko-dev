@@ -1,0 +1,5 @@
+changeset bf2d8c9183cfdb28617e14d0f6333766aefe62aa
+manifest eaffb96b5df0f59d15544294913639d234ecff51
+extra rebase_source:717ea4a22a3cd7f83887bce58a1b34112453bba6
+files dom/base/test/test_XHRDocURI.html
+patch 264,338,

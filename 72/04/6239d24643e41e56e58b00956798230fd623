@@ -1,0 +1,4 @@
+changeset 8e9a9ba04ce57dd5d8217336f2a982dc61555940
+manifest 2d9e98fa552935ab6a9c0c34ca7dbe919c5e575f
+files testing/web-platform/tests/service-workers/service-worker/activation.https.html
+patch 251,252,

@@ -1,0 +1,4 @@
+changeset d3e891845ab253b2300204d75ba4da5c535ac126
+manifest d599444435e3d69384bbfc2cc4f6d79721e5ccb4
+files extensions/cookie/test/unit/test_cookies_read.js
+patch 226,227,

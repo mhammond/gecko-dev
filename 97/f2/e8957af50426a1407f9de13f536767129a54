@@ -1,0 +1,5 @@
+changeset 541035fe27cb71fd6fdcd273c5190edd688f0731
+manifest 8210e9cb6019decf6a12bce61f2d3324a316adfb
+extra source:151500c01e44846223acb5bfcb4dcd2123e620c5
+files browser/themes/linux/customizableui/panelUIOverlay.css
+patch 326,393,

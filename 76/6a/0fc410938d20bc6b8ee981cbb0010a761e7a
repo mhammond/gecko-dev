@@ -1,0 +1,5 @@
+changeset dd0fc5a3c52f6d2bf60375a1c61f96c0aacb14f0
+manifest 8264e052950896b3633cb79a76dee76f96d2b816
+extra rebase_source:acce6fd30080ee91b26a24ef45f6c55d29d81167
+files devtools/client/shared/components/reps/object.js
+patch 299,373,

@@ -1,0 +1,5 @@
+changeset 061d2183312b76dc3f01487fed454861eceb69d4
+manifest 86b0897d1de60309e15802856ba1225ca66ec9c7
+extra rebase_source:e36782a703f238722257e7fc989cbc8f7df43792
+files layout/generic/nsBlockFrame.h
+patch 284,358,

@@ -1,0 +1,4 @@
+changeset 7f533d42cf01eef4a282ec3dea7dd5e4c3d318ee
+manifest e2d3e982822a498c5daadb087f0fe6886604808e
+files testing/mozbase/mozlog/mozlog/structured/formatters/html/xmlgen.py
+patch 225,226,

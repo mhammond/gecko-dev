@@ -1,0 +1,4 @@
+changeset 16f42df56f89c7a37b7bd1a5106c06a95742c7dc
+manifest 2a672be72a0362688f244963bcb3333316ebd165
+files browser/base/content/test/general/browser_aboutHome.js
+patch 225,226,

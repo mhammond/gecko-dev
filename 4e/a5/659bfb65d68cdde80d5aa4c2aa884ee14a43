@@ -1,0 +1,4 @@
+changeset 5fd55bc7cad8ccdce043d916748bed30be641e65
+manifest f0b3e2b5f985d8db6d8846d03287c40d2d7105da
+files js/xpconnect/src/nsScriptError.cpp
+patch 668,669,

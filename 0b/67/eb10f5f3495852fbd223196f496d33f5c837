@@ -1,0 +1,5 @@
+changeset bfa02efbffc06f79d640ff0d9b4dc81edfda6cdd
+manifest b0b64ff294af65c6b22aa7d6770755d3cb603e84
+extra rebase_source:39981497bee21d6e3b5bf4af295a785960804d06
+files js/public/Class.h
+patch 264,338,

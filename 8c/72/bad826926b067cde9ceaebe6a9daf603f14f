@@ -1,0 +1,5 @@
+changeset d0337c1582a148c5e7ebc441010074256edb8839
+manifest eca992e8ad1550faa7b46681df06f6ec4f81b7f9
+extra rebase_source:92d786021b6d8d739a6c18c077bd2d33b0df3ac6
+files netwerk/streamconv/converters/nsBinHexDecoder.cpp
+patch 342,416,

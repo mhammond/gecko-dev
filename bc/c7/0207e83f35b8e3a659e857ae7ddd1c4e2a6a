@@ -1,0 +1,5 @@
+changeset 7e0b24a260ed816cf3269c4ef3f997a1541860c2
+manifest 55e1de96495311e918a5491ae733a9c852f73299
+extra source:8ab6fa7197165bf619d844a4a622bded8beb9579
+files layout/base/nsCSSFrameConstructor.cpp
+patch 376,443,

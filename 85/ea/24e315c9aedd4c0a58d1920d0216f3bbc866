@@ -1,0 +1,5 @@
+changeset 570182c077eef4cef71fc99f80caaf671f6fa492
+manifest a639fff1dd0f3eecbe603cd6b0b0d6e5c22f25d7
+extra rebase_source:84b0270f251d6b715fcb2df04005ff437b9d3226
+files xpcom/threads/ThreadStackHelper.cpp
+patch 350,424,

@@ -1,0 +1,4 @@
+changeset d7ec6454a5c947026b16a88300d14786aeebe3b5
+manifest a7dad153298298c2f808405c49e6fc9b23231a37
+files image/decoders/nsICODecoder.cpp
+patch 215,216,

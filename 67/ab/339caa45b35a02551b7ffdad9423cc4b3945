@@ -1,0 +1,4 @@
+changeset 6b9e4e20ce0620ed3cefbe1e61b442b9ca702502
+manifest 48a0969fe3c15fd2bd87fcc71cf25baf9530fb91
+files toolkit/components/aboutcache/content/aboutCache.js
+patch 210,211,

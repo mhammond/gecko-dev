@@ -1,0 +1,4 @@
+changeset 6d88fc08e25a1963e985e15093e714544fcf1b47
+manifest 07a9909cbe05911efecb8cca66ac04e3ceba7330
+files netwerk/protocol/http/nsHttpChannel.cpp
+patch 226,227,

@@ -1,0 +1,5 @@
+changeset 8b57c89f86db1e9a8ae0ef756363558f86130ff4
+manifest 3455e15963b8d9b0192933148dd389f07d375546
+extra rebase_source:1445dc225e2ed5b29b187aa918980f7ffeb227b4
+files devtools/client/shared/widgets/HTMLTooltip.js
+patch 399,473,

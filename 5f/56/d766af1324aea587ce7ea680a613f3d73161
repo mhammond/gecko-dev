@@ -1,0 +1,5 @@
+changeset ce029b692d558f9d1c8e8d7e9f15adf83101c91f
+manifest 98ae2d997420b1d0c0d81bb9afbdb72a5556eeed
+extra source:8167849e665a754e6301a617642cf3acfcb0b64a
+files dom/base/nsContentIterator.cpp
+patch 685,752,

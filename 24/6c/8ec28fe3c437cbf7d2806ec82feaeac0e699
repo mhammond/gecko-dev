@@ -1,0 +1,5 @@
+changeset 4d9d756506a3e30a25e5169033e6d4266463d3f4
+manifest f88c9358de1774af36e45833916c089c2a09b84b
+author zhoubcfan@163.com
+files browser/installer/windows/nsis/installer.nsi
+patch 244,245,

@@ -1,0 +1,5 @@
+changeset 81bdc81c20b6888ec0ea39fecf4c6fd90a62cf83
+manifest 0af59ccbdf4e8ae8e2303c7f5f3fdc49b0699d99
+extra rebase_source:c258e7ee7e199e046b1c7ee7ff937c90696ee1f7
+files browser/themes/shared/devedition.inc.css
+patch 346,420,

@@ -1,0 +1,5 @@
+changeset f2e0ad924eba8fcd33e21241207fa7f277716648
+manifest c931513598c9fed9f68f2c87d1ab51deca782c66
+extra commitid:5GQTZbUXacT
+files js/src/asmjs/WasmText.cpp
+patch 220,260,

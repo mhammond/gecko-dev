@@ -1,0 +1,5 @@
+changeset 86d25f5945367e970ae1fdb9c1f6fc9ed634747b
+manifest 3fbe3449be6f462e2b1e8f0ae608e089dc0e48a8
+extra rebase_source:f902c7d727faaf37f1e582029bb2e93b123e14a0
+files browser/themes/shared/icon.png
+patch 262,336,

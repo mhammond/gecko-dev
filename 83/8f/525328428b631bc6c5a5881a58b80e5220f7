@@ -1,0 +1,5 @@
+changeset 21ffbd85373a05471f287070e2495884befc75e5
+manifest 84b5eef2c3a31c2e5b7ac2b311fbc15f3a17d350
+extra histedit_source:f5d9060badd90377053860fd5a45a7571aae1e77
+files modules/libpref/init/all.js
+patch 289,365,

@@ -1,0 +1,5 @@
+changeset 7cd8232b72924c0770b65e1ea6d8c9d977710713
+manifest 1ce1eedfa6358504138221ba8c2261d85dfce55f
+extra rebase_source:3236e7d6c518cf1041699101f8eef34b0ef19609
+files mobile/android/base/java/org/mozilla/gecko/util/ProxySelector.java
+patch 407,481,

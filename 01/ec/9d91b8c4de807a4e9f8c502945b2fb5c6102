@@ -1,0 +1,4 @@
+changeset 4b674e3249ecab5caf4d7a10bc1f40a1615ea84e
+manifest b089d4a5ef4101e109b8b957770549e33d74fd3f
+files toolkit/components/telemetry/tests/unit/test_ChildHistograms.js
+patch 383,384,

@@ -1,0 +1,5 @@
+changeset 276b214dde0de481b91b93e1d2a5654661b0cb44
+manifest 1960769d04c8c0e13e7c3d39beb12fccab2f0ce3
+extra rebase_source:e232b0771aaf281c02c57105ff46f05186c632db
+files toolkit/content/tests/chrome/findbar_window.xul
+patch 304,378,

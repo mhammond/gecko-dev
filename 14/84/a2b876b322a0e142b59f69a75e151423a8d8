@@ -1,0 +1,4 @@
+changeset f74ebe3e7a86429a4157049956996a84a2ef0c25
+manifest a8c5f82c7f616664dd31debf297869526d109e21
+files testing/gtest/gmock/include/gmock/gmock-spec-builders.h
+patch 273,274,

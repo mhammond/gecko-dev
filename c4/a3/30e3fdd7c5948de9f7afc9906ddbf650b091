@@ -1,0 +1,5 @@
+changeset 9e30ed5077aeeadedbfa4cb45bbb64a0e1e80948
+manifest 69b020346dc1a222b263efa85058fa51b2bb5bb3
+extra rebase_source:e30a4ebf050faec7fb390f2e819d31299ed3dc9a
+files taskcluster/ci/legacy/tasks/builds/android_api_15_partner_sample1.yml
+patch 322,396,

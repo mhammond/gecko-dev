@@ -1,0 +1,5 @@
+changeset 01f2dde06c5fd93b38c0d80b6028210b48dd3f4a
+manifest 24594ae6f89394e4d953db43b96ae7dbe3a6b40a
+extra source:13bc59af8f200c1bd9bc7d97374aaac8672bafd5
+files browser/base/content/test/general/browser_decoderDoctor.js
+patch 330,397,

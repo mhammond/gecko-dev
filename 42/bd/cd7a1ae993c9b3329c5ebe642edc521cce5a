@@ -1,0 +1,4 @@
+changeset 12b821dd866e0f11d6e45926ecc7de2941d620a1
+manifest 4ab1e7071bb9f26fd858e9320601b06de64aa044
+files toolkit/devtools/gcli/commands/security.js
+patch 244,245,

@@ -1,0 +1,4 @@
+changeset fcdfc525b830d0ae5af0c91ec941febdd5ff8bfc
+manifest 5da8faeee511f45abcb5e61e1d4068117995b58b
+files devtools/client/webconsole/test/browser_webconsole_bug_585956_console_trace.js
+patch 301,302,

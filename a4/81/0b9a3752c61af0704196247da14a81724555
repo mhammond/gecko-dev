@@ -1,0 +1,5 @@
+changeset 796d757bceee782f5c24350fcf213c87655659e9
+manifest dd4f99f92b8680c0ae13ee4b1d037834ae0f8080
+extra amend_source:c0a494d9250718cc40f784ab0709f6224e7b0b9a
+files testing/web-platform/meta/quirks-mode/hashless-hex-color.html.ini
+patch 448,521,

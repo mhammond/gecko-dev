@@ -1,0 +1,5 @@
+changeset eb0933bcc383034dc2c81ef22318026eb5f41b88
+manifest bffe21037b9be5a9a583d77c841dc350d09b7a88
+extra rebase_source:b4552e94e4dd2e6a841efb39fa880153641b27f5
+files webapprt/mac/webapprt.mm
+patch 268,342,

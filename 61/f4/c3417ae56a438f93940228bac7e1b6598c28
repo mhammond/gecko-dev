@@ -1,0 +1,4 @@
+changeset 5351b1322c900eda7fc9c5e45d1f9bd442567fcd
+manifest 62045b577e6cf0847ac0bd0085c51e1f8158d15b
+files js/src/jit/mips-shared/CodeGenerator-mips-shared.cpp
+patch 357,358,

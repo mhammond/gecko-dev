@@ -1,0 +1,4 @@
+changeset f03b60a446f193327a21e0e2ca9892538b44b2f9
+manifest 24cbc220c842ca110a6e0eae8e51787045218bfe
+files toolkit/components/url-classifier/tests/unit/test_hashcompleter.js
+patch 240,241,

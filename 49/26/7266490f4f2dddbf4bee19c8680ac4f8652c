@@ -1,0 +1,4 @@
+changeset 0bec4cffcbae44c0304bb310c43e454a7bb7d3c3
+manifest a3650aee18baefe45da3830f4bef2f59dff7440e
+files toolkit/components/extensions/ExtensionContent.jsm
+patch 271,272,

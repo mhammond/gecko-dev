@@ -1,0 +1,5 @@
+changeset b9a4f60323ccca2b83ee0244438fbbf1b3f41418
+manifest 24c8419b53b038fe6f082bae4a10fe4b3989a7c3
+extra rebase_source:1ac414ebad90113b2f15908111dbee6aeeec02ad
+files mobile/android/tests/background/junit4/src/org/mozilla/gecko/util/TestStringUtils.java
+patch 345,419,

@@ -1,0 +1,4 @@
+changeset f3b243d3f8431f0741d5ac62dd29cf923ef52e98
+manifest c795f2d14de7264e23b93c62f3d79547c86c0869
+files toolkit/modules/tests/browser/browser_FinderHighlighter.js
+patch 265,266,

@@ -1,0 +1,4 @@
+changeset d8d50064c15b51ccdeae349dca3b0a83e567487e
+manifest dd25d221a58b43b7ad2ce059944babae330ac867
+files python/mozbuild/mozbuild/mach_commands.py
+patch 359,360,

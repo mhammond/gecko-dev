@@ -1,0 +1,5 @@
+changeset 6509f5665152adbd8120b6801acafdf85f190e9f
+manifest 064d95d5df7082680a80cfc45db6c5c2211f8262
+extra commitid:IBd9Nmsmlx7
+files browser/components/preferences/in-content/applications.xul
+patch 306,346,

@@ -1,0 +1,4 @@
+changeset eccaeee0a605045f2c2432238e3096ee35f815e4
+manifest c641144e497e07a80db624d383f7cb8e7c98dffc
+files toolkit/components/prompts/test/prompt_common.js
+patch 231,232,

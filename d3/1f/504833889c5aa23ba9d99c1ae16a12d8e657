@@ -1,0 +1,5 @@
+changeset 815d8ea19eff49bf8c1172f5cc23126299f29ac9
+manifest 0ea5cc9c5644f0ea4f85e066ef7a80f81e6f38aa
+extra rebase_source:7821cc50861a2a58a0f7ef9b2b467dd0357b9952
+files mobile/android/base/java/org/mozilla/gecko/tabqueue/TabQueueService.java
+patch 349,423,

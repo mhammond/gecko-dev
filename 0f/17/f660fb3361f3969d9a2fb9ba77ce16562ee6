@@ -1,0 +1,5 @@
+changeset 886f711acae36bdabf9e4b3f055596319a6f923e
+manifest 72691ca8333fbec0623220c3b5321ed9d23a9c6a
+extra rebase_source:1072dc1e8c015b41d67992af2c7aa1984aaea958
+files browser/components/originattributes/test/browser/head.js
+patch 260,334,

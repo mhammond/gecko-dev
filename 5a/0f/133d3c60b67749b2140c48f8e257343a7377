@@ -1,0 +1,4 @@
+changeset f577fea911602ccf974bc900ca55e936a43186d2
+manifest 6208074326d5a1d0fb5cf70fed162dd31d402d35
+files toolkit/components/contextualidentity/ContextualIdentityService.jsm
+patch 291,292,

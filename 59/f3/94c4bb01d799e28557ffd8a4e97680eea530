@@ -1,0 +1,5 @@
+changeset 6ed0e5a8247afa2e0a062cc2638b6a450526d317
+manifest 7fb78627f4f671930d8580cfac4c0f3d393ad8b9
+extra rebase_source:16acc04d7fecf6c8a082288eaed0a6b61fa89a87
+files tools/coverity/model.cpp
+patch 302,376,

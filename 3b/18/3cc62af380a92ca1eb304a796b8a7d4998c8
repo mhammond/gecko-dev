@@ -1,0 +1,4 @@
+changeset 7a6ec4430c07c8ca5466a694fa57692e7d712091
+manifest c542b4866b010d2c80aa2f8a7d53147a5620978f
+files gfx/layers/client/CanvasClient.cpp
+patch 210,211,

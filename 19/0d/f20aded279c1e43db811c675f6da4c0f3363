@@ -1,0 +1,5 @@
+changeset 19605fd7b009b57f014b9038b6de57c49551463d
+manifest 44e39d53b93557fc7ec98347b4e3560b76910ed5
+extra rebase_source:d135cf14e99e2074f42c5273b3115549a7c5f608
+files browser/modules/PermissionUI.jsm
+patch 312,386,

@@ -1,0 +1,5 @@
+changeset 1d21960eebdf640fb09fdc67b16eb1f29144f3af
+manifest 7bae106b330c1228c97a38561fda6caccbed30c3
+extra rebase_source:663eeaa08b9b00a20b2a2f372057703c88053bb4
+files toolkit/devtools/gcli/commands/rulers.js
+patch 279,353,

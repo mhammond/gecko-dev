@@ -1,0 +1,4 @@
+changeset 6a3291366533e40960df1f859d52734f13f3d7a3
+manifest 8eece6113eeb5e11e43a69a60a9f4bed8746eb11
+files devtools/client/shared/widgets/Spectrum.js
+patch 237,238,

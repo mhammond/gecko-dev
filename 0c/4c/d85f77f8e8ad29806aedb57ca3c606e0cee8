@@ -1,0 +1,5 @@
+changeset 82908a457460732127a3790a75ba56459792cec7
+manifest f1ad18486a1e18af4f03e8675cbaf769c5e993ab
+extra source:b451b91d4b4687f248bc7b2a4b959c7bd7459790
+files mobile/android/tests/background/junit4/src/org/mozilla/gecko/db/BrowserProviderHistoryVisitsTestBase.java
+patch 361,428,

@@ -1,0 +1,5 @@
+changeset 74724ded165f579d12fe6bacf49e08c4f27e1c87
+manifest ebfa1e6db548fe6d69a778b4bd3a9007c7e947b5
+author Akshay Jain
+files dom/base/contentAreaDropListener.js
+patch 157,158,

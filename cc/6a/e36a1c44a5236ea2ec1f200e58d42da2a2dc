@@ -1,0 +1,4 @@
+changeset b2cc761bf9f7cdef670cc828eda559dbb8f987e7
+manifest 27ba2f91a480010d47527d688a78e17a7f3024d8
+files layout/style/nsCSSParser.cpp
+patch 279,280,

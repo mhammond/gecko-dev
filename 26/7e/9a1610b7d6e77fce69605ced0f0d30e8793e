@@ -1,0 +1,5 @@
+changeset 47a7029190831047bcb7a5f5433d4057017f1ccc
+manifest ed69916277de4cc449de37df46c0c616be211f92
+extra rebase_source:a27bd83e986f735ceafe13bc47106c8bdfb1f57c
+files devtools/client/responsivedesign/resize-commands.js
+patch 312,386,

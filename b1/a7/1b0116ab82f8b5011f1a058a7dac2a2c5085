@@ -1,0 +1,4 @@
+changeset ce6dc3e6c46f5278db05ee74bfe26b3b4f902135
+manifest 786863336cb85073b9af745fdb274d85ca5d867b
+files browser/components/uitour/test/browser_UITour_pocket.js
+patch 285,286,

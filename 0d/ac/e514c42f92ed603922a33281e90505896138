@@ -1,0 +1,4 @@
+changeset 1e8d203b0d6b8908461bf4f6fbf1edb94b2a6aa0
+manifest fb4424d762b4a3189caf787d7c8c490a9d961b9b
+files devtools/client/webconsole/test/browser_webconsole_bug_618078_network_exceptions.js
+patch 321,322,

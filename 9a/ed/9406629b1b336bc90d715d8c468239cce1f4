@@ -1,0 +1,4 @@
+changeset c016da5a123d5f7246901196a085f079d96ac06e
+manifest 6d481cc62a88a9d2ef3424694c5529f301bebebd
+files xpcom/tests/TestNsRefPtr.cpp
+patch 181,182,

@@ -1,0 +1,5 @@
+changeset 239bda8cda3581e00e8b19a8d90fc68392ecc4fe
+manifest acfb8bd1b44694f51fde86f1cc136b1933f49956
+extra source:9943bdffe5045968571f18ba6a283cbb5df894e0
+files js/src/irregexp/RegExpStack.cpp
+patch 252,319,

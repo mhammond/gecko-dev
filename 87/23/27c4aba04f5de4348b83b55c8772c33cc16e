@@ -1,0 +1,4 @@
+changeset aad9086f8efdb9b6b049234c13c0c0fd261a8c79
+manifest cebf4099b0decae8216c59115e9f9e18be6939b6
+files xpcom/base/StaticMutex.h
+patch 288,289,

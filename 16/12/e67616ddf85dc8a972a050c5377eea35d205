@@ -1,0 +1,5 @@
+changeset 39ff5bafc6186db070a98f43a79ecb117c5eef64
+manifest 47e5972c978a6b8c4d78005c3318980ec1d1a97e
+extra source:863c6740f637161e2a5577b893bcef3718924275
+files dom/canvas/CanvasRenderingContextHelper.cpp
+patch 320,387,

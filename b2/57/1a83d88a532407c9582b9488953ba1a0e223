@@ -1,0 +1,4 @@
+changeset 9ec3043741a741160e523ed818808def24cf3a3b
+manifest 23860068681d7f8af5a6338c16bc621ed1138c5b
+files dom/camera/test/test_camera_fake_parameters.html
+patch 236,237,

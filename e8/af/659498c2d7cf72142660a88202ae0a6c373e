@@ -1,0 +1,5 @@
+changeset 20c0572d2e4685cbd5caf21311a89b2117a1cb65
+manifest d3586bfa57c72485c25860b07e8a92c751a5fa03
+extra amend_source:2ee3e26e5e68bbdf718d02dd0d86d40fb0d18be6
+files config/faster/rules.mk
+patch 243,316,

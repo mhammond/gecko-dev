@@ -1,0 +1,4 @@
+changeset c15940fac6d73a9f8958b3ba4f8b6e5798ee38bb
+manifest 2a2cba6752a0e787be95be4f8605fad98604c1df
+files chrome/nsChromeProtocolHandler.cpp
+patch 361,362,

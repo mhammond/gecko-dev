@@ -1,0 +1,5 @@
+changeset a19b905f4a8af94b83184428a876e89e76e63919
+manifest 4e20d5d84622709b31c4f65124ce12cf110b2a4b
+extra branch:GECKO3150esr_2015021713_RELBRANCH
+files caps/src/nsScriptSecurityManager.cpp
+patch 353,405,

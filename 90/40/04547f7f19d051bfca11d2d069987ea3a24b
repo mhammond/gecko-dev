@@ -1,0 +1,4 @@
+changeset d1e47818513c44dcdefb0c1f6cff73f17474a3da
+manifest 0fcaabcf025dbe3646ed297def80f23195f67bf2
+files testing/mozharness/configs/android/android_panda_releng.py
+patch 222,223,

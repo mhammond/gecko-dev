@@ -1,0 +1,4 @@
+changeset d09cbf88c277e359162dcf2c93cf27f69113c1fb
+manifest 3b17b73b31dc89b32ea405a0b397c81b07b069fc
+files editor/composer/src/nsEditorSpellCheck.cpp
+patch 244,245,

@@ -1,0 +1,4 @@
+changeset dc1f927542cb6f8240256a3259cd887100bbfb4a
+manifest a4953f499aeffe4e1714d1dadb976ad416b701cf
+files gfx/layers/client/ClientReadbackLayer.h
+patch 382,383,

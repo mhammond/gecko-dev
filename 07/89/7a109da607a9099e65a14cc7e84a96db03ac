@@ -1,0 +1,5 @@
+changeset 7d0345ea434450763df3dc55941f2f2818cfaff0
+manifest fd11673f05585415604671dbca30210ceb9c6f24
+extra rebase_source:977ed096a1930e3b207e9fb1765183b48de5e29c
+files devtools/client/netmonitor/test/browser_net_footer-summary.js
+patch 325,399,

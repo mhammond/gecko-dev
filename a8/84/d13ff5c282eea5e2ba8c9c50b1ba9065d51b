@@ -1,0 +1,5 @@
+changeset 3cf5abd5dedeb13cd4b8301b151df0af8f6c7b75
+manifest 7d245154e85339168a9b12ebfb87ae14e2253e6b
+extra rebase_source:54c20ae4ea82174427724018cd7775806665db49
+files dom/broadcastchannel/tests/browser.ini
+patch 329,403,

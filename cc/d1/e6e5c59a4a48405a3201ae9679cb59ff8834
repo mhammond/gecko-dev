@@ -1,0 +1,5 @@
+changeset 281306a480ac1d2dcf4f31718400764f572bfbb2
+manifest d9ff359d7a5a0cd8de3b188be2a8516be3dd5369
+extra rebase_source:bfd77469f91e81c26532819596fa5a19f8d4a766
+files xpcom/base/nsAgg.h
+patch 338,412,

@@ -1,0 +1,4 @@
+changeset bf01fa985334310919467f14dcde23336310bbb1
+manifest 162fd6baf70fc86c408391de4cc9edd87036ba8a
+files dom/battery/test/marionette/test_deprecated_battery_unknown.js
+patch 188,189,

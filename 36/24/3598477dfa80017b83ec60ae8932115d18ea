@@ -1,0 +1,4 @@
+changeset 85291bc2cc1172f2f688c5ef207c5dea8128cd7f
+manifest f87b9cbd94eecd08c44c84ef686287aed5af5144
+files gfx/skia/skia/src/core/SkScan_Hairline.cpp
+patch 244,245,

@@ -1,0 +1,4 @@
+changeset c952a123b902bda64d6ff6d5e0be2e02499446c6
+manifest 8d87bc861f9ea618dec01a4a630daf05507b5d7c
+files xpcom/base/MemoryInfoDumper.cpp
+patch 269,270,

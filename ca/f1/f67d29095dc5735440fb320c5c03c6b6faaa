@@ -1,0 +1,5 @@
+changeset 3654304318e11e2e0ef8775678ae22e314623e6e
+manifest 4de4bc0be67cab91f1d2f6d6edfd170e9736e4e0
+extra rebase_source:ca2350bb6cc806972841347430265d6b1b374a53
+files netwerk/streamconv/nsStreamConverterService.cpp
+patch 300,374,

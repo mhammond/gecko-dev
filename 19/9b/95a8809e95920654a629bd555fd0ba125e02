@@ -1,0 +1,5 @@
+changeset 27d20d1b6f9a0f0361b2ef60875366d08de6c617
+manifest 53749ee1f87a348785dfdf769a3b87bc2af014d5
+extra rebase_source:b064c9389e596a0953aa59e92fc842f8fc561ef2
+files gfx/layers/apz/src/OverscrollHandoffState.h
+patch 306,380,

@@ -1,0 +1,4 @@
+changeset 5cbd332e6cfa9dd17d88fb1246dddb3fab702777
+manifest 84f02c752aaee300c27ac2489ce9c9590e63dba0
+files browser/components/contextualidentity/test/browser/browser_usercontextid_tabdrop.js
+patch 479,480,

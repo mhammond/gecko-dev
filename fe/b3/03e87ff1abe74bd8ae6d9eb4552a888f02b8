@@ -1,0 +1,4 @@
+changeset 5364fc8db9b0e29c209f58ea6e06fd9d980436d9
+manifest e0022abfd5f8c58c10bd0cee2c096b045e75a4cd
+files xpcom/tests/TestCOMArray.cpp
+patch 272,273,

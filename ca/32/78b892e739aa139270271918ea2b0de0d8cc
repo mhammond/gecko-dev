@@ -1,0 +1,5 @@
+changeset ca56f6ea195cb11716a50be0f06deccce023d4c8
+manifest c4c30661dcf81d3eec803f9438545b2b424d9e4d
+extra rebase_source:d01d5a8c6d2c728b80a15bf89c8fca231228904a
+files dom/tests/mochitest/chrome/window_focus.xul
+patch 312,386,

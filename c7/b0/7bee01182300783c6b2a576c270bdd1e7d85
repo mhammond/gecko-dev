@@ -1,0 +1,4 @@
+changeset d98d6c08d2fd494173bac81614017cd4f8672f3f
+manifest 67750f6aa835a4d4c0f3e3e9f4a23091fd25aa87
+files dom/bluetooth/bluedroid/BluetoothHALInterface.cpp
+patch 270,271,

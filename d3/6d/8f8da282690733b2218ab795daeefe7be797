@@ -1,0 +1,5 @@
+changeset 928f4a4cf0f34b888f8c7ef49adaac196d2ec03a
+manifest ecab28def6e96596de0a7d68d55e25e34f235a4d
+extra source:e2b1303c3924c21921f6b7f43e3fbffc5512446c
+files browser/themes/windows/browser.css
+patch 295,362,

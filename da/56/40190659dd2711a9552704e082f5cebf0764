@@ -1,0 +1,5 @@
+changeset 7f064c7d4d1208e468a54c82c6813fd4249a6924
+manifest 2d7b0881c7baf5a6f8d74cfe4d51d5e14dadccfe
+extra commitid:1Z7DR1PrcEG
+files browser/components/newtab/RemoteAboutNewTab.jsm
+patch 279,319,

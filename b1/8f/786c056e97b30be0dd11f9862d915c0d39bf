@@ -1,0 +1,4 @@
+changeset af54ea165cfdf814c0ca960baae02dd84d070dae
+manifest 3a6cbc0a0d03b2c0fd8d6cefdbc4ddb5d8c0af1e
+files image/test/browser/browser_docshell_type_editor.js
+patch 246,247,

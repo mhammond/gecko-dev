@@ -1,0 +1,5 @@
+changeset 668d0e7d36e7c063caa874639d46e1dd01864aaa
+manifest 5d7f91416c5c16e7b967e813393c0235b9d651d1
+extra rebase_source:fb785e602cff502d43d87af8bab907f04eac4ee9
+files toolkit/modules/Sqlite.jsm
+patch 257,331,

@@ -1,0 +1,5 @@
+changeset 93c743ac43d7795db51638c7e992fd85b3b8f1ac
+manifest 9deda6704614ad5d7c53322cd6e645fc785458e4
+extra source:6e705888d2a854f60deadc23d1382fbba2ef7dc2
+files media/webrtc/trunk/webrtc/modules/audio_device/win/audio_device_core_win.cc
+patch 315,382,

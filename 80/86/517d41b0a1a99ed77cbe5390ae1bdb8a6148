@@ -1,0 +1,4 @@
+changeset 932e732dedfed03fcaff46b699ac3c6efb50738d
+manifest 43f3d8dc579886f8ddaf0a09d3892c009e220e6b
+files xpcom/base/nsError.h
+patch 167,168,

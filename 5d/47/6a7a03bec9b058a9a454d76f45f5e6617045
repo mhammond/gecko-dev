@@ -1,0 +1,5 @@
+changeset cbf3766cd64945ef64337532a6d2a04bcbcbcf6f
+manifest a4d10e482af23ebdaf5c48342898a22613893d41
+extra rebase_source:5248a9b05e2553c890f5d775ce830147dc233dfa
+files dom/xbl/nsBindingManager.cpp
+patch 296,370,

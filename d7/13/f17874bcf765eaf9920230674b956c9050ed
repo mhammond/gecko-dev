@@ -1,0 +1,4 @@
+changeset bb221f207c1aa908dd1de4d1d6325d5f7c7e9346
+manifest 5ac5b04cfe6d138186d8b1d35fcf060c26a3077a
+files netwerk/dns/mdns/libmdns/nsDNSServiceDiscovery.js
+patch 212,213,

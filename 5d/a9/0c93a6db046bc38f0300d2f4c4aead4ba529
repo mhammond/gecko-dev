@@ -1,0 +1,5 @@
+changeset 94cba85a74933b22d1866146db0bded91ce42693
+manifest 1d1bb4db6514391d753918360d42e94e160aff32
+extra transplant_source:(æZv½¢-öI˜@-^ˆïú‹
+files security/manager/ssl/src/IntolerantFallbackList.inc
+patch 250,338,

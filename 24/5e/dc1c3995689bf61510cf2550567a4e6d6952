@@ -1,0 +1,5 @@
+changeset f94242ec4259e7dc64a951f491e9b294c273bd53
+manifest cf815aa2b3d2dfd9bd48653c9c13d2a5ecdab3be
+extra source:c1516ee3efd8a0329fccf93ba0398c69ed296ea4
+files browser/extensions/loop/chrome/content/modules/MozLoopService.jsm
+patch 329,396,

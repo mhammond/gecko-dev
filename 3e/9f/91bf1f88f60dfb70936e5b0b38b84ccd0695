@@ -1,0 +1,5 @@
+changeset b41dbdb8e871cf8528571a16272b05fc6449bc82
+manifest 200d45caa7292b92297e57c6f083b6de49b92215
+extra source:964d3b1c37c71524344e8a0d691655162204210c
+files widget/windows/WinIMEHandler.cpp
+patch 250,317,

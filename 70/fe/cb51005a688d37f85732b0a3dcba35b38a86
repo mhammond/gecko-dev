@@ -1,0 +1,5 @@
+changeset fcb193036063c5b1a790c7c1669381e704a14d9e
+manifest d102558787343057d766698d6d9bfb8cfc7052a8
+extra rebase_source:8e3ff82e569ce8808288fea8a3481d389e73c37d
+files testing/mozharness/scripts/b2g_desktop_multilocale.py
+patch 332,406,

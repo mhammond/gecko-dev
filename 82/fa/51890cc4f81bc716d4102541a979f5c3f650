@@ -1,0 +1,5 @@
+changeset cf82e81dd0e4cf9597d36563f65149b25be45e39
+manifest 0cdb810bc17bb77dadceaa4049c6a984d7212852
+extra source:0fbdf91d6cec99db9baf0646c372da0f5cb664e4
+files dom/bindings/parser/WebIDL.py
+patch 278,345,

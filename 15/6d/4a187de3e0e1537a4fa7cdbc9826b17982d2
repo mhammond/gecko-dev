@@ -1,0 +1,4 @@
+changeset e4e557754405f1a5dd4fa11d993581452cfd601f
+manifest 644ae3541a475bfe1a24a6a11d484e85d3a7e43f
+files dom/browser-element/mochitest/file_browserElement_XFrameOptionsAllowFrom.html
+patch 246,247,

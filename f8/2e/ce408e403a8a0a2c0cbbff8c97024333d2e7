@@ -1,0 +1,4 @@
+changeset ecd2e5b74e52d190cec7f887806adacd245d04d7
+manifest 53b3a1d108ba040ff9b9922c68c500728005660d
+files js/src/jit-test/tests/arguments/mapped-freeze.js
+patch 233,234,

@@ -1,0 +1,5 @@
+changeset 7de358e44531666830891858f25ebdadd75f4576
+manifest d5615f28dd4a0088b1ea631fae9229d4606a38fc
+extra histedit_source:1ec5fb866bbe754028cb659f4452fb63310d864f
+files browser/locales/en-US/chrome/browser/devtools/filterwidget.properties
+patch 280,356,

@@ -1,0 +1,4 @@
+changeset 00c5a750b6a61a51475563f6c80f086c0211a93a
+manifest d0d4ebbfcc8809d89b382c352b07822f96620543
+files editor/libeditor/SelectionState.h
+patch 288,289,

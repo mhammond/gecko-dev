@@ -1,0 +1,5 @@
+changeset 91fe6c306c8aa08cf24ed9fe9d507d836d9dc785
+manifest b81b6901f05d3106533c4ddd42d25947e7cbfc96
+extra rebase_source:848a578cce2e05580a1e0374f799931f1b4dfb0b
+files gfx/layers/d3d11/ReadbackManagerD3D11.cpp
+patch 256,330,

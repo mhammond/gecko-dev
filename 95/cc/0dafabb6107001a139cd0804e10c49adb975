@@ -1,0 +1,5 @@
+changeset b53187f3dc44efa6562b0d0d88b91e118acaae53
+manifest 71c9c10e45a504d582678f3b82dbc863a70c0f6e
+extra rebase_source:33dea1361ecd114b563c2b972bb6d3811e9d779c
+files toolkit/modules/SelectContentHelper.jsm
+patch 1041,1115,

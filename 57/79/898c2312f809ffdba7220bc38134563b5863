@@ -1,0 +1,4 @@
+changeset 061acc09b71300bc8c403048f54b6ae60caa2581
+manifest 3cdf4e9f330ea659b829a81906d7c31b47831117
+files dom/camera/GonkNativeWindow.cpp
+patch 252,253,

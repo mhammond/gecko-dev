@@ -1,0 +1,4 @@
+changeset 5b972a509e33ad44c175354408ab6e3fce6c066c
+manifest 67512c79e37c3da06f1fb3be256fb06e72f7cce4
+files toolkit/components/alerts/nsXULAlerts.cpp
+patch 188,189,

@@ -1,0 +1,5 @@
+changeset 1e6a6a67f97b16f040d8adba4f9fc5756168311b
+manifest 012042b1fc36218a7094035d50187eabaf5ab1f7
+extra source:0edc88aff9875d6399d79f97614b89cc5179e33c
+files dom/tests/mochitest/fetch/fetch_test_framework.js
+patch 333,400,

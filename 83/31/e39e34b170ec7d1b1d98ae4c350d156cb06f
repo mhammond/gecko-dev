@@ -1,0 +1,5 @@
+changeset fd92b3537dd60365d95382388fc361f92255a4db
+manifest e119300ba29c5a56c71bbfbc91629b8fda0c3073
+extra histedit_source:1690eee977ad546928648820d061207c791185eb
+files browser/themes/osx/browser.css
+patch 553,629,

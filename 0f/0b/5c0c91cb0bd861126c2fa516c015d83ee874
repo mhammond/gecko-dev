@@ -1,0 +1,4 @@
+changeset 53406372ffafd9cafd7ea4b8802a5fa7876bcfe5
+manifest 815ab4a6b095cdddf374af0658b91eb06dff9cf2
+files dom/canvas/test/webgl-mochitest/test_webgl2_alpha_luminance.html
+patch 323,324,

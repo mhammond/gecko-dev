@@ -1,0 +1,4 @@
+changeset 5598f6f12520b90ed7e37e1b6a5c552249a8a456
+manifest 66072a2f6957df413a7c9d232ca4b58937a8a0e5
+files toolkit/crashreporter/google-breakpad/src/client/linux/handler/Makefile.in
+patch 562,563,

@@ -1,0 +1,4 @@
+changeset 8dd081bff02011225f8383a6e1ad1657e965b5f7
+manifest f5c3a02316f79b00174cb3fb94eb5eb10469480d
+files xpcom/base/CycleCollectedJSContext.h
+patch 505,506,

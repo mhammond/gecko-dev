@@ -1,0 +1,4 @@
+changeset 7a0be20beae7c4dfc368a198e7579dabe3813ac9
+manifest b909868c63d35f893214d2fb4be1933dd6652ff2
+files ipc/dbus/DBusUtils.h
+patch 196,197,

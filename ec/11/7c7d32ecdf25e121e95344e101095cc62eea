@@ -1,0 +1,5 @@
+changeset 78248731d23f9b774ce650c67e6f0ebcb73cdbdd
+manifest d7c60e76d9e41e0f24b2bb15f3d463c44b7b2b9d
+extra source:c49359cf04ff0398969ed5c5a4ceb4d939d734af
+files toolkit/components/tooltiptext/tests/browser_input_file_tooltips.js
+patch 355,422,

@@ -1,0 +1,5 @@
+changeset 486740b9903a4f24e32628e98397c0b531d7b73d
+manifest 3aed46b95f1288b83d404826705b690449ee24ec
+extra amend_source:78130ee5bacbee8dd73c086d8dd89acb945bc99d
+files mfbt/Opaque.h
+patch 206,279,

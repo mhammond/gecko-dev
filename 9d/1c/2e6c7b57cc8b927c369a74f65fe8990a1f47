@@ -1,0 +1,4 @@
+changeset b9cd3d1a34e0e122d4c25b3b2d1936d7980a84cb
+manifest f1bd5215de525c641f204231a9b1d789edeb94f0
+files extensions/spellcheck/hunspell/glue/mozHunspell.cpp
+patch 443,444,

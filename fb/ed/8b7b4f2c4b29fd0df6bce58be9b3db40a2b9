@@ -1,0 +1,4 @@
+changeset 2bc3aac3094b63a1c5a841e1e6d200262f4855b9
+manifest 842ce3ee20eb4b2e0f778c2125d10a6402fac512
+files python/mozbuild/mozpack/copier.py
+patch 813,814,

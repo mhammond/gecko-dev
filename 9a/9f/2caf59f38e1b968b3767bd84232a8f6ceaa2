@@ -1,0 +1,5 @@
+changeset 766c351e817226d1f8bbd00565ad4d54955d25b8
+manifest bafabb33c93b7de4d06a89f0a554c48679e2a2d9
+extra rebase_source:7875403f10f20c2467bdb51de20ff72456f9cc2a
+files gfx/vr/VRManager.cpp
+patch 308,382,

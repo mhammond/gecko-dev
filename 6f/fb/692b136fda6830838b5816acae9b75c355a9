@@ -1,0 +1,4 @@
+changeset f1cb42c8da5b70ea5f5391c6c3a78af914426725
+manifest d83209ed7ede5bb62129c82d1b1d4944dd77e694
+files security/manager/tools/PreloadedHPKPins.json
+patch 331,332,

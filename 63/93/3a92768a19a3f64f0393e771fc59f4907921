@@ -1,0 +1,4 @@
+changeset 609b20e8786518a975344a8d493b0beac554e3db
+manifest eadb2c269637ca750ec0d2adcf7e275e70a832ab
+files testing/web-platform/meta/content-security-policy/blink-contrib-2/plugintypes-notype-data.sub.html.ini
+patch 280,281,

@@ -1,0 +1,5 @@
+changeset ef5c6ff8eceec52c664ac437f46527a7be25be9e
+manifest b2f3daeb525c839e725982f2b210926ecdb4aff8
+extra source:d6ee6a38aa43bae545a100d60296508878fde95c
+files browser/components/extensions/ext-history.js
+patch 285,352,

@@ -1,0 +1,5 @@
+changeset b37f2a4bd333912ef621d3fb3f85d0df14473dd6
+manifest 4fb8682c0a7a36419d87ce17672897a6352cfe31
+extra rebase_source:0730a48d7a13a6f65ec8bac7a04b775e1eff9ad7
+files mobile/android/base/java/org/mozilla/gecko/push/Fetched.java
+patch 295,369,

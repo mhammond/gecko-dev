@@ -1,0 +1,4 @@
+changeset 81e2a6e05087a0d9dea730c607c79d3a07c4512b
+manifest ea13f0a3e80788e8fb7a463bd461076dae7d77a7
+files js/src/jit/mips-shared/Lowering-mips-shared.cpp
+patch 338,339,

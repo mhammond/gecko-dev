@@ -1,0 +1,4 @@
+changeset 7f3a9e2318555b99f355f0bd84a0e62c0459ed91
+manifest 2bc887021c336c5dfc5cf0d9586bd55c8dcb2696
+files js/src/vm/ArrayBufferObject.cpp
+patch 252,253,

@@ -1,0 +1,4 @@
+changeset e52eb86c3c02a16ea6d712633ec067e8946b3872
+manifest 3d9cf6bea6ae06c2dc3886128fd13fa5cab162f9
+files browser/components/privatebrowsing/test/browser/browser_privatebrowsing_aboutSessionRestore.js
+patch 294,295,

@@ -1,0 +1,4 @@
+changeset 592187676a06cb47da66e56de1975ec9351c15a6
+manifest fac92f90fbeb683590f989dfb4b4ce4b78eab185
+files js/src/jit/LIR.cpp
+patch 181,182,

@@ -1,0 +1,4 @@
+changeset 86e0ea42f55c34fc90dd9e32439783a9929f28f4
+manifest c37ca01d5f5b307bd257e9b0a2cf5cfe8220b370
+files browser/extensions/pocket/bootstrap.js
+patch 187,188,

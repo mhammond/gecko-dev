@@ -1,0 +1,5 @@
+changeset 8ac69a3a42cac441a480801be222d3277955c2aa
+manifest a30338daf4c810614a27896f1d6385f6baff4d3d
+extra rebase_source:abb00650dc676d413d761f45085241df6a6cdd81
+files media/libstagefright/binding/include/mp4_demuxer/ByteReader.h
+patch 294,368,

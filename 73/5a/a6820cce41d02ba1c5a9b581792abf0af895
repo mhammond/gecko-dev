@@ -1,0 +1,4 @@
+changeset 1c708426fa37c479f88a973402bb416acff7270b
+manifest d019adbb26b95252d700fdd6b03845cdfe772cd8
+files js/src/jit-test/tests/asm.js/bug1268955-usestrict-semantics.js
+patch 188,189,

@@ -1,0 +1,5 @@
+changeset 2e38346f89af2e73dcb0b943fdf31b38b480e153
+manifest a10de28f889007f255acec6e0b0e3b659caff3e5
+author Shing Lyu<slyu@mozilla.com>
+files testing/marionette/client/marionette/runner/base.py
+patch 231,232,

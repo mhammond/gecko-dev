@@ -1,0 +1,5 @@
+changeset 26d7b052757ed391dfb87caef5b63964519b9737
+manifest c7048df525a269bb2e0f75bb4ad505a71fce0341
+extra rebase_source:b52de7f5a10e5fb4576872bf3169b2faf87ded32
+files taskcluster/taskgraph/transforms/job/mulet.py
+patch 365,439,

@@ -1,0 +1,4 @@
+changeset 7df50ebd4e577188f3787c7d9c0a7ec38b23984c
+manifest ee7536134d45c8037f9793e29554afcaf87cd8e4
+files browser/base/content/test/general/browser_tabkeynavigation.js
+patch 234,235,

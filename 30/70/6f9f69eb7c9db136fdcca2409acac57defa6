@@ -1,0 +1,4 @@
+changeset fd1540ba641fae147d54c2ee690513f0646b7930
+manifest bc049f4a4e90c115192f8612d51879fef950bf76
+files security/manager/ssl/CryptoUtil.h
+patch 242,243,

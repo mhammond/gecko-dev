@@ -1,0 +1,4 @@
+changeset e3ee302bec0cef118d66c4c61bfc11e70a3f218e
+manifest 718d70de93e22f0ea499172a49edfe571d7394eb
+files dom/base/nsXMLContentSerializer.cpp
+patch 312,313,

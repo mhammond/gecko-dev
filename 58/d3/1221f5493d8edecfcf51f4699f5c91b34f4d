@@ -1,0 +1,5 @@
+changeset fca5a78358adc7a911941e98c66105d534ac6ff4
+manifest 5445e8e4be4fe74e2d7831226151af329b92f2ec
+extra rebase_source:27d9d3718d0df6f13a1619d02771a5412e41982b
+files mobile/android/confvars.sh
+patch 267,341,

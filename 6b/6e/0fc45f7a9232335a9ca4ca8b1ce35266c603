@@ -1,0 +1,4 @@
+changeset 3c747d782958267e847037c20fa37e14abc4de6c
+manifest f98ef4604eb3c69e6471245bcfe5d638e0c11259
+files devtools/shared/gcli/source/lib/gcli/util/host.js
+patch 279,280,

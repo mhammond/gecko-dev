@@ -1,0 +1,4 @@
+changeset 11c812e65d638b5ba69f0e7ec39b3f112541dd20
+manifest 9a78a2f1e105caab2f1d009ea496f3bf5127a9ce
+files devtools/client/animationinspector/test/browser_animation_refresh_on_removed_animation.js
+patch 332,333,

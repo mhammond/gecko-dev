@@ -1,0 +1,5 @@
+changeset 6ef846dd261712913e1c138ce7d80eab02210a25
+manifest 3a9a0b36d533317604b76be5b1a886bf945e8c8d
+extra source:aca647243c52af04d2481e78345bf4e489f7a26c
+files browser/base/content/test/urlbar/browser_urlbarTrimURLs.js
+patch 326,393,

@@ -1,0 +1,5 @@
+changeset 80271595e9896e6cd5d2a57d06eb00e7df989929
+manifest 7d2b8db8e3d9b6f089b416ccbca9815252f9e94b
+extra rebase_source:856e14caf6e46226423be2ab5ccb967b68728c9a
+files js/src/vm/TypeInference.cpp
+patch 261,335,

@@ -1,0 +1,5 @@
+changeset 8aa793156ad00f73da82abff582fee22264b83f4
+manifest 943cac805892c23710914b6b73fbeaa3ab6495e5
+extra rebase_source:4c4c7878bb6cdd9e291070fc045f698e1a902eff
+files dom/network/TCPSocketChild.cpp
+patch 356,430,

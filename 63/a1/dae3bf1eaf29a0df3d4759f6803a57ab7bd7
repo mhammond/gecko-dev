@@ -1,0 +1,5 @@
+changeset d268ffed16a3baff393dba05c2c9a2a404e0bd48
+manifest 8e87a0205521544f91dfac64f0a09d9e293afa65
+extra rebase_source:7b250ebc82f3a85876613154bb8fbad833a64884
+files browser/fonts/EmojiOneMozilla.ttf
+patch 385,459,

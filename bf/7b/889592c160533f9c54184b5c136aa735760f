@@ -1,0 +1,4 @@
+changeset c7f42dec3730c1d6f669c53dd1f0a58bbab1d92a
+manifest 4fbb5877e8435555f95a0fb4aa506902e9379109
+files toolkit/components/url-classifier/tests/unit/test_partial.js
+patch 265,266,

@@ -1,0 +1,5 @@
+changeset 2ce7bd81fd0673ec5b45a56e4236168879c49a80
+manifest 51c30f1032c75a5dedf26a4faf79e061c8c658a1
+extra rebase_source:1325632b3877125347c34b7dc88e131199a508d4
+files browser/base/content/aboutTabCrashed.js
+patch 341,415,

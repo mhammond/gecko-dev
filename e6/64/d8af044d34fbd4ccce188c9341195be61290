@@ -1,0 +1,5 @@
+changeset e91afa57bde7000134d6a437aefcdb5d716038c8
+manifest eae4dc4c75efcf98fccb0353ba6a156aba5385e9
+extra rebase_source:06451c643eb7a4c77710c84a878a586f130d2b83
+files services/sync/locales/en-US/sync.properties
+patch 240,314,

@@ -1,0 +1,4 @@
+changeset 1293d515eb11a1e7060e9c3db8210eb8d32940d9
+manifest 1f1dfaad400dcdadb68eca2fbc39e19aec3ee927
+files devtools/client/debugger/test/mochitest/browser_dbg_variables-view-popup-16.js
+patch 249,250,

@@ -1,0 +1,4 @@
+changeset a692374920e82089bbe91aa75c1b36f51e57ea97
+manifest cdafed4d5f9f7bec2ee958414b5d15ee14f8fdb0
+files widget/gtk/NativeKeyBindings.cpp
+patch 353,354,

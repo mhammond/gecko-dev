@@ -1,0 +1,4 @@
+changeset 69f1c373450db03a9b00a7e52b56441981ef49a7
+manifest 079ab97acdcba5473a9d3cc018ff17a2111dd880
+files js/xpconnect/src/qsgen.py
+patch 200,201,

@@ -1,0 +1,4 @@
+changeset 5c3fac86a9e708a4ee066bd895b90041b6ad290e
+manifest 299fcf9301eaf454c842e43a9ab6f58a8a4b1b12
+files devtools/client/animationinspector/test/browser_animation_playerFronts_are_refreshed.js
+patch 328,329,

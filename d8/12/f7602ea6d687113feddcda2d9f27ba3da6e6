@@ -1,0 +1,4 @@
+changeset 8b76cbb69bef628b93c165c78a55c361ad3e5109
+manifest bf10cff8c730c9c9611f07f27e3598af30ca4773
+files uriloader/exthandler/nsDBusHandlerApp.cpp
+patch 494,495,

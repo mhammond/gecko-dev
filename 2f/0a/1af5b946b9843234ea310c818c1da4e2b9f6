@@ -1,0 +1,5 @@
+changeset 9f90060e64a0980803e85e6b2d475eece7f402fa
+manifest 060ae1ff2d87e5261c0383aa0d7c312896d072ce
+extra rebase_source:7300467808098a3a234474ab8eb411e6c24b2ac9
+files toolkit/components/tooltiptext/tests/browser_bug581947.js
+patch 332,406,

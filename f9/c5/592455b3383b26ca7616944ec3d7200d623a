@@ -1,0 +1,5 @@
+changeset d39277479422b1672174154dbc764d5664581270
+manifest bb539b729c471fe5278ed7020d06cb4ba57e186e
+extra commitid:9gVZFqzmV44
+files testing/mozharness/scripts/b2g_build.py
+patch 324,364,

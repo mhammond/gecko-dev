@@ -1,0 +1,5 @@
+changeset b8ca65edf90b1cc55ef61c7fb625074a9b705eeb
+manifest 7ae4917a4ab060603d6b92946d3b77f7a6d1d40b
+extra amend_source:5420ac9e6296b98f4ec5ddf5b8992cf449e8d44f
+files xpfe/appshell/nsContentTreeOwner.cpp
+patch 317,390,

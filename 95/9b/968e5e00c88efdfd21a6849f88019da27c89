@@ -1,0 +1,5 @@
+changeset 3e9799b06fe41e72cd7a8d8003e45cf1bf78daa8
+manifest ab3b943634863d2fd30fa14cbb5b9d0a468bbd74
+extra source:6dde3c79db7dc15038b66c6cffdcbf7c1678712e
+files mobile/android/base/adjust-sdk-sandbox.token
+patch 1255,1322,

@@ -1,0 +1,5 @@
+changeset d907db0b4590a238d336a2e3919f23552a7c4248
+manifest 00598b0c7e96b829ad1b5c0860a0cf3a5b34217e
+extra rebase_source:9fcab74384fdf1f0a73522d48bd0e2c19a56316e
+files js/src/devtools/automation/variants/arm-sim-osx
+patch 259,333,

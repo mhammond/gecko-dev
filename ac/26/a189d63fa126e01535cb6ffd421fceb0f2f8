@@ -1,0 +1,4 @@
+changeset 226fe77322b7212c9008302588efc898b3366255
+manifest fbed89df07116209d37eb2cf21856c9a1cade0ef
+files js/src/tests/ecma_5/JSON/parse-array-gc.js
+patch 216,217,

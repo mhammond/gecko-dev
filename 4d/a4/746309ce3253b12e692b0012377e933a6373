@@ -1,0 +1,4 @@
+changeset a4f070f356772d4559516cf6f51fe3aa2e39ebaf
+manifest ddb483a0e9bc1aa5741f094c9b8b58b94fd4cb1b
+files testing/mozharness/mozharness/mozilla/testing/talos.py
+patch 203,204,

@@ -1,0 +1,5 @@
+changeset 407ee28650b329870f4f18efea91f3a61957d81b
+manifest 43d991db7adee1ad7709ebec7565a5d7f984f5b9
+extra commitid:1em2BrTkdxf
+files testing/mochitest/tests/SimpleTest/paint_listener.js
+patch 277,317,

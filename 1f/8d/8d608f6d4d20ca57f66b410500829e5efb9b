@@ -1,0 +1,4 @@
+changeset 58137ecd12edb7ae1a57c80da811676bc66fd03c
+manifest e1b2fd798298886585830de62bdf84d234419bc2
+files js/src/jsapi-tests/testGCAllocator.cpp
+patch 245,246,

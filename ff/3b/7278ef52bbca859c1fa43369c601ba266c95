@@ -1,0 +1,4 @@
+changeset 035efa5e0655810627f1f771ec1cee620a30df53
+manifest 7036360d50b21167307c38cf681835d37deb01c9
+files js/src/jsapi-tests/testThreadingThread.cpp
+patch 185,186,

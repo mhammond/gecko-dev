@@ -1,0 +1,4 @@
+changeset bd8fc8fe4a9de47628c22ae1ed87cf9c9029acf8
+manifest 3ef6d556d573924ef8589b057b4a791d8e132405
+files xpcom/rust/nsstring/src/lib.rs
+patch 318,319,

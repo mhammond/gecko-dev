@@ -1,0 +1,5 @@
+changeset bc08f3773fb4fbe6e19e137111afb1f2b4f9c422
+manifest 3ecbcd532e1644fa16d53b3dd216ee3156bbb624
+extra rebase_source:7e6eae205c8f2a7cfc1f70fe69b05ca1ac82a141
+files addon-sdk/source/test/tabs/test-firefox-tabs.js
+patch 318,392,

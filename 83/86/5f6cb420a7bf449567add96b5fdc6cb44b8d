@@ -1,0 +1,4 @@
+changeset 1184021538f6ba44d79a18ff11eae5b5e6b6df2a
+manifest 2860d07b7d6a38580a0f73d2ee57dba4107fab84
+files gfx/layers/composite/AsyncCompositionManager.cpp
+patch 656,657,

@@ -1,0 +1,4 @@
+changeset ac8978a872e889c4ad9ca9f20f6289543a2e340d
+manifest 21985aa3663a6f8a9c8df257ffdc1ae3a8e461b3
+files config/external/nss/moz.build
+patch 274,275,

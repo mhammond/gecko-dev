@@ -1,0 +1,5 @@
+changeset a523efc645d048fec7f68c32c4c3975e882e8160
+manifest b66b51680a1840c19952e9c32ca002ef7c5dc36c
+extra rebase_source:aa059b8c75bcea4ff4c5788aac98d1e17a4a5d7b
+files dom/animation/AnimationEffectReadOnly.h
+patch 529,603,

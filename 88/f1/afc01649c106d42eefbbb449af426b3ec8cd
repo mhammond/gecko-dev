@@ -1,0 +1,4 @@
+changeset dab0693cae68fd5da764f311b20383d905435b1c
+manifest 52f7e3167f3f14f6a8b396dad5b4f5f63cab03ba
+files devtools/client/canvasdebugger/snapshotslist.js
+patch 242,243,

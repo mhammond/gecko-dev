@@ -1,0 +1,4 @@
+changeset 22e771b7f16cda5f45fba39fe9968727168e1586
+manifest 45ccb535eb89836cb69edd635e30755bafc141d4
+files devtools/shared/Parser.jsm
+patch 171,172,

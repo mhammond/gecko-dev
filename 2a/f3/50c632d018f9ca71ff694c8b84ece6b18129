@@ -1,0 +1,5 @@
+changeset 40764ff2dfd1e1371d742c0dcf64529b72bd2c23
+manifest b99edb80145525e1fe7cac89b5244344a43fb5f6
+extra rebase_source:7aab5177276c20007036abd19efb56741d790ec2
+files browser/app/macbuild/Contents/Info.plist.in
+patch 901,975,

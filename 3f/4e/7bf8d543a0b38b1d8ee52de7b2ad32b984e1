@@ -1,0 +1,4 @@
+changeset d7628ca83e108b55f5aca712db3df4bdf1892a77
+manifest a2f384065da25de0448cce48044d6b7f9257e9e4
+files security/certverifier/NSSCertDBTrustDomain.cpp
+patch 501,502,

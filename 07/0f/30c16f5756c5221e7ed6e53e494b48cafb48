@@ -1,0 +1,4 @@
+changeset a03e9b85f4bb51782de2c700a5ed9fb6231665b7
+manifest 6774b7fe2bf8ee0391f5087422ff3e36fc2916e5
+files dom/manifest/ManifestProcessor.jsm
+patch 215,216,

@@ -1,0 +1,4 @@
+changeset 39d4cf16c55451b2eb7b1aa8cdf8891c48077ddb
+manifest d296c8fc2502b832c4f6498f505edb9dfa5b988c
+files js/src/shell/jsshell.h
+patch 193,194,

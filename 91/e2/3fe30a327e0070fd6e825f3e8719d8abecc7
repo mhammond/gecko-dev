@@ -1,0 +1,4 @@
+changeset b7ba7fa185154d04e97561caefe5c0a2e973e607
+manifest c3a79538f3905edcb98e1f28a6cf41f39e7d27a6
+files dom/mobilemessage/src/gonk/MmsService.js
+patch 234,235,

@@ -1,0 +1,5 @@
+changeset 3b6fb13e56de5ad9a53cda7209e22eb1c51451bb
+manifest ef01f8362ebde02fc039124d8b85bcdec973022e
+extra rebase_source:058273473564fa4c3b3da4cbd231efd9003a7d05
+files media/libstagefright/binding/mp4parse/capi.rs
+patch 456,530,

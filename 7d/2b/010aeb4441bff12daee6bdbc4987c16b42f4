@@ -1,0 +1,4 @@
+changeset 02ab221ff043df27e820b2630a412d796c8f1e8d
+manifest 968b8f0b7bc3d19e4a5fa72d61b50a24709af15a
+files widget/gtk/IMContextWrapper.cpp
+patch 262,263,

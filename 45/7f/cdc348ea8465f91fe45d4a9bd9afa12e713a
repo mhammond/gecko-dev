@@ -1,0 +1,5 @@
+changeset 2db5ba70aa1e3ae124506143e60a39f7c9325951
+manifest 8560067120e42e121a335d5dcccf82d1582efd52
+extra rebase_source:7dd008304d58808d2ce57515a21a06fa7d32f868
+files widget/ContentEvents.h
+patch 288,362,

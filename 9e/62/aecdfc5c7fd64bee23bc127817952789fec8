@@ -1,0 +1,4 @@
+changeset 921468fa68cfe4227e4ee9ab315832e2d6e73eca
+manifest 9db1dac46cb14283a903e423fe867d6b289e96f4
+files dom/security/test/unit/test_csp_upgrade_insecure_request_header.js
+patch 281,282,

@@ -1,0 +1,4 @@
+changeset 595726ab8d29b96055cca3f0d0b079b98f87253e
+manifest 109429b2a2da084ad17bcd673973dae652dcac7c
+files devtools/client/webconsole/test/browser_console_dead_objects.js
+patch 312,313,

@@ -1,0 +1,5 @@
+changeset 00c0fdd359040cf9c5515522a620f06ea26cc6ba
+manifest ebcf0b4f34602911f6d25f51b83baeb4e5ebfab1
+extra rebase_source:3274877fbffb56153ffaa7e08f27d79898cdbee1
+files js/xpconnect/tests/chrome/test_xrayToJS.xul
+patch 269,343,

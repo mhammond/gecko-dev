@@ -1,0 +1,4 @@
+changeset 58b8d42e1fcf21d3a0663ed76e6290349c0d165a
+manifest 4b032f3a3c9782391cc8093e2273473a075c2717
+files devtools/client/webconsole/new-console-output/utils/messages.js
+patch 244,245,

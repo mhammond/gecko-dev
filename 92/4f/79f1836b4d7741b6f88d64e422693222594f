@@ -1,0 +1,4 @@
+changeset 739e16f56c9035f978591c8410b461ed21baa6f7
+manifest 6d9376232607e5acf448f832317de3a1afa66203
+files config/external/nspr/Makefile.in
+patch 268,269,

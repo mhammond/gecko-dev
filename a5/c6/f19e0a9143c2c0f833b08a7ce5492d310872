@@ -1,0 +1,5 @@
+changeset 23226470bb9478cfb1ed5abcdbb8d2a6fc365bb8
+manifest 89a688acae5dec81c4693a36a7735e8caf85a830
+author Dragana Damjanovic dd.mozilla@gmail.com
+files toolkit/system/unixproxy/nsLibProxySettings.cpp
+patch 241,242,

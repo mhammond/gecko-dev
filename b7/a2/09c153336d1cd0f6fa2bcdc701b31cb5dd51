@@ -1,0 +1,5 @@
+changeset 9a49f1eefad8e7da0accb51931ca7a810b3543f7
+manifest 79e120686123da594499536abd9bfdb5de027d6b
+extra source:17bcfd0ff1df274c81e3c543d0d014f4f7f9d8f7
+files toolkit/devtools/server/actors/animation.js
+patch 267,334,

@@ -1,0 +1,5 @@
+changeset 12f9bd2adb0e89754c39d2d5c8688b1bc818775a
+manifest 59e46d6a8a75ba0773e4826ab15fdf9c86bdbb39
+extra source:ec97adea519ba55ac05a2af28534e0594b97f80e
+files devtools/client/webconsole/test/browser_console_private_browsing.js
+patch 383,450,

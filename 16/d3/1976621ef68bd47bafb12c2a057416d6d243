@@ -1,0 +1,5 @@
+changeset a1ab21952abc22e082c9dea36d0e0d3febaf9982
+manifest 97e6fc7dc8967cef96b46abdb034ef00549810e9
+extra rebase_source:006a5e8f672aed299c0fb68b8a366940e88db5d6
+files devtools/client/framework/test/browser_toolbox_transport_events.js
+patch 327,401,

@@ -1,0 +1,5 @@
+changeset 79c148f364588036bd1c5d5f82626e18ccecf901
+manifest c5da79a0851b95039313c5647d98291b31e3d986
+extra amend_source:cf647501661f0847638c48363c9445c681af7e41
+files js/src/make-source-package.sh
+patch 218,291,

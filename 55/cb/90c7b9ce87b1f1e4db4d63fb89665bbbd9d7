@@ -1,0 +1,4 @@
+changeset a763ea5aacdabde6b0ad95274d34fad63700f6fd
+manifest 2d1017dacc74ff4f707e906068bec53d07f1de6f
+files widget/gonk/nsAppShell.cpp
+patch 221,222,

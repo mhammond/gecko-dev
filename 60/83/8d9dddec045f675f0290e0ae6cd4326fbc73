@@ -1,0 +1,4 @@
+changeset 0dbcd86566da7a3f7dd7d40d83c41c77a05cfdc1
+manifest 8b24a8c091aa98482810a86e504f3a62a946bd0b
+files devtools/client/debugger/debugger.xul
+patch 253,254,

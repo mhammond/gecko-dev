@@ -1,0 +1,5 @@
+changeset 30f211278f31ab7e77b1ffdc6f28474b0dc48a11
+manifest f83aa62922b7af04d05e900526ab180566f6745e
+extra rebase_source:c36d0f9e4a2242a934e2848b6f977f33d6ac76cc
+files security/manager/ssl/nsCertOverrideService.cpp
+patch 292,366,

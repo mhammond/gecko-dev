@@ -1,0 +1,6 @@
+changeset 89b9735661b9f19ece9b6a2bb54b1c50d0556b34
+manifest ef59dd3f38372f21d7e7412aeb51f4298ba5abb4
+author kearwood
+extra rebase_source:ec689cd68422a8487a85e70d9e2dbb13b3a1c36c
+files gfx/vr/VRDisplayHost.cpp
+patch 493,567,

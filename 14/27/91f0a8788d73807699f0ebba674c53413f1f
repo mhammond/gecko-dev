@@ -1,0 +1,4 @@
+changeset efed456bdb89af3eff3221afc2ac5d47aebfc469
+manifest 6fbcf17d0dead6cd24c6f6163c53fd918be7b80c
+files ipc/hal/DaemonSocket.cpp
+patch 194,195,

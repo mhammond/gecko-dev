@@ -1,0 +1,4 @@
+changeset f6e78ff75f4b9bcadb0e583a455928ed970c23fc
+manifest ea7983ccb015b68e8fa72f8305939d1ad3a27fd6
+files js/src/jit-test/tests/saved-stacks/gc-frame-cache.js
+patch 247,248,

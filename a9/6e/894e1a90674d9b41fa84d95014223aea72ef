@@ -1,0 +1,4 @@
+changeset 9007531fb2561c0a49355780407759448bc2a5a5
+manifest 216223269ecc8ae7e41d58c24ac5cd923e6ce78b
+files image/decoders/nsBMPDecoder.h
+patch 589,590,

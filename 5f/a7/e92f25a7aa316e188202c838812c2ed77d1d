@@ -1,0 +1,5 @@
+changeset 53df17fc5fcad4061143f6588c8d0cee75022bfd
+manifest d9d7cc0409a09c4b115c452314c5732127857ab0
+extra histedit_source:b4b8f50145cb4715b0426b0fbea6b77658c7e096
+files browser/locales/en-US/chrome/browser/browser.properties
+patch 314,390,

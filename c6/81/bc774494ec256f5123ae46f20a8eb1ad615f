@@ -1,0 +1,5 @@
+changeset 06619fe6e5052edaf48b94518f52e7cce35d0938
+manifest ae2feacd2175afdc5f6f920fa1cdd0d17549e232
+extra source:6ffbd0c170dbac9584adbb83afe6fdfbc6501fe5
+files testing/mozharness/configs/releases/updates_firefox_esr45.py
+patch 326,393,

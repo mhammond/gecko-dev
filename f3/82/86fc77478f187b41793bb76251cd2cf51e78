@@ -1,0 +1,5 @@
+changeset 3decbf5a262fa0fdb28417c165800402c385fbc5
+manifest 4a8f8d1d4beba08ae4a17aa526f3c1e8d23b03bb
+extra rebase_source:d400b92e2ad1e2b90ca97688fd5b14fab544275a
+files js/src/jsapi.h
+patch 301,375,

@@ -1,0 +1,4 @@
+changeset 6fbcdda7a0f5e5fd715903e9cea3a5fa3fce5c60
+manifest 32465ea3e31235ba84e0bab83d5d72d412dd6075
+files toolkit/mozapps/update/updater/loaddlls.cpp
+patch 169,170,

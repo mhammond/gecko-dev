@@ -1,0 +1,4 @@
+changeset 4ff0f3bf54523456fa6d3d44091c1865ebd3690b
+manifest a24e189330a4590c35c93419ea4d861f257dd93e
+files config/external/lgpllibs/moz.build
+patch 255,256,

@@ -1,0 +1,5 @@
+changeset d3f16a3d97a149562e4c126031cafe5b3d8398f5
+manifest a706a9f9c3517eb5940cf1013de4f61605562965
+extra rebase_source:3557349e242cbe45886a1a38964f210a54b2ed80
+files gfx/skia/skia/src/utils/win/SkDWrite.h
+patch 529,603,

@@ -1,0 +1,5 @@
+changeset 21b7869572c92dab8d9fa07d333c43f2855a1b3b
+manifest 6e24ab54a105be6b2e579e8350cc967d90964391
+extra rebase_source:159a0d23e45be9ba6c9e55e8673bb53623e367b9
+files toolkit/mozapps/update/tests/chrome/utils.js
+patch 286,360,

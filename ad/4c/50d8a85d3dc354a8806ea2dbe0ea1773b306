@@ -1,0 +1,5 @@
+changeset 8e07e417a5bb24c48486e560ec5823f17dbe3403
+manifest f8226cd5c153fb5e876bd29f370d1380a0b7ea00
+extra rebase_source:742b2dc71b56e32a23ca426713b3eb53a7d65f48
+files devtools/client/framework/toolbox-hosts.js
+patch 352,426,

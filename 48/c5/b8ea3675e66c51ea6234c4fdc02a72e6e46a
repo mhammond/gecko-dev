@@ -1,0 +1,5 @@
+changeset f7520ca1b034ca461a495bdb710af6581e8f0609
+manifest da283d36f882c33f0fbdb625628deed76a818df5
+extra source:5e6d9c0b3e4ec961eea492b6340cbcaa48d68257
+files mobile/android/base/resources/drawable/tab_thumbnail.xml
+patch 279,346,

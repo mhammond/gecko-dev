@@ -1,0 +1,4 @@
+changeset 8c81e97e0604b64de8fcd3c84a7a13274bfab0f2
+manifest b98fa4d30396633cd7c302eeedd498cbcaa36b26
+files widget/windows/nsNativeDragTarget.cpp
+patch 198,199,

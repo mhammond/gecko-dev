@@ -1,0 +1,4 @@
+changeset 6c4285b179df8b999f4e41ab9c6274fbc3eb9ea0
+manifest 99d352c8e1eb9975d086dce58c42ed18d00ce232
+files browser/devtools/shared/test/browser_toolbar_webconsole_errors_count.js
+patch 461,462,

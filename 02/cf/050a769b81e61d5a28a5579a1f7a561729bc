@@ -1,0 +1,4 @@
+changeset 578a16bf30e47ceb2aba7c5fd53b7eaba9829610
+manifest eaf63a2e519cc2e8e7395056164da73d0e88b57c
+files devtools/client/responsive.html/test/browser/browser_device_change.js
+patch 227,228,

@@ -1,0 +1,5 @@
+changeset 1b3ab4045d79f6a136f1b2b7707d59fe82f85fa3
+manifest 837a69f16e9a517c9b62e9d49533b54e0e595c5b
+extra source:cac755e67ad9739d72f78a184f20bafd845e514f
+files storage/mozStoragePrivateHelpers.h
+patch 302,369,

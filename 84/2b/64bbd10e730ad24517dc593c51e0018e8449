@@ -1,0 +1,4 @@
+changeset 672663f1a298ef69d17742a8da54c44f3b788aca
+manifest 8500b95b61d69295b03aa3c916c5ccd4ae694813
+files gfx/ipc/VsyncBridgeChild.cpp
+patch 193,194,

@@ -1,0 +1,5 @@
+changeset 612e73e50be6899bb48c25211ed1dca17b51163e
+manifest 7e63ff95e256957624634bcc81e7158cbdd1a840
+extra amend_source:6089eda3921aba12266373d9ca177fc2604497d0
+files browser/themes/osx/searchbar.css
+patch 243,316,

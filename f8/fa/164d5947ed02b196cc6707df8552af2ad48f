@@ -1,0 +1,4 @@
+changeset ea17ed6738b56029e8302a6f0258da8e7fb20969
+manifest fd40a9fd8e339f55c7bf1c1656c82ab24e8c64a5
+files xulrunner/stub/nsXULStub.cpp
+patch 241,242,

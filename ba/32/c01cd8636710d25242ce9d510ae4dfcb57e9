@@ -1,0 +1,4 @@
+changeset b05eb6590d71d53d564534cb0f3c8bcf08b826cf
+manifest 79be6c6668b53875095fb540e79f679b0669724d
+files netwerk/protocol/http/nsAHttpConnection.h
+patch 205,206,

@@ -1,0 +1,4 @@
+changeset 8aa72f37debb9e3c0a556dc42f08863109392065
+manifest e5b1bb455b7b02205822fecc9d1c334d57eb8a3b
+files addon-sdk/source/lib/sdk/event/chrome.js
+patch 202,203,

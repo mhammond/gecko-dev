@@ -1,0 +1,4 @@
+changeset 4db2f97f697eace608cd75332b451d0b672a8c49
+manifest 64c829f3e9d8ccde4394b399e862d23971ed6f5b
+files media/webrtc/signaling/src/sipcc/core/gsm/gsm_sdp.c
+patch 245,246,

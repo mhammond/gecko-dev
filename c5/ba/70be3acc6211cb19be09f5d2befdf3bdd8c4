@@ -1,0 +1,4 @@
+changeset 1346691a2ef85b6a7303c40a42eb325a532d39c7
+manifest 3dd532a7372c18ff3651034997da7782bb393c30
+files browser/components/customizableui/test/browser_bootstrapped_custom_toolbar.js
+patch 248,249,

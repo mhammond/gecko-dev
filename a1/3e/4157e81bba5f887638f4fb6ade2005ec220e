@@ -1,0 +1,5 @@
+changeset 631a3ee506b0fc7e2cd2547f41fe4d5019ec6303
+manifest d2a480020a7f00504c5de1d9ee19948ce7175cff
+extra source:918cb92107ecc8e0bf7c8c26b8649028cb19d90d
+files editor/libeditor/SetDocumentTitleTransaction.cpp
+patch 393,460,

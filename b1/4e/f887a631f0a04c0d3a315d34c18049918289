@@ -1,0 +1,4 @@
+changeset 72be1e6e2f310eb631bb4031b2b58204307bb690
+manifest 884365c8e02f700e594b1e7cb2a3c17ea7443876
+files browser/components/loop/content/shared/js/utils.js
+patch 246,247,

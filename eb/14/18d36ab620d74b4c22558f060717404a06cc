@@ -1,0 +1,5 @@
+changeset 11880fa53889c4b79a2b6289958ee3b8031eb03f
+manifest 4d8264b8e657c3200647237f4f8f50b2ae88122a
+extra rebase_source:777c077669139e4d163e765dbe344ad8011db88b
+files mobile/android/base/java/org/mozilla/gecko/db/LocalTabsAccessor.java
+patch 557,631,

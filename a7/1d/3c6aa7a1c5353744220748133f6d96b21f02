@@ -1,0 +1,4 @@
+changeset c2b240d60d5b87a608296c11f7efa8b5fd52518c
+manifest 7bf79fc7cd97cab4a37624d3d6ab239a51ab1f80
+files devtools/client/debugger/new/panel.js
+patch 211,212,

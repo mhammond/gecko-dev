@@ -1,0 +1,5 @@
+changeset 287ff570b1a18bc84c82309e23163557cb9fae6d
+manifest e281e89518e32e8d6a6f3a06aa56ee70847c095b
+extra rebase_source:82278e4a873e7a396fe1a73956257b5fb981b4cc
+files toolkit/modules/FinderHighlighter.jsm
+patch 361,435,

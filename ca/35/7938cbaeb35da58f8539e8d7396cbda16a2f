@@ -1,0 +1,5 @@
+changeset 30939b7409ab1c7d5d277b01bb551f9d1077b1c3
+manifest b870cd1b76eee6d836ae5bb2b7d0bdd8f57126e0
+extra rebase_source:184151d5be0476e3d2ca25e3b6d76e0b362cf1b0
+files security/manager/ssl/tests/mochitest/mixedcontent/test_bug383369.html
+patch 341,415,

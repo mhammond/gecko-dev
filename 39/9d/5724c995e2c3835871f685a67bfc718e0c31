@@ -1,0 +1,4 @@
+changeset 431e74ed28d9ebbbe01ed7278efa79b6dd8db5aa
+manifest bbe8ff5e34b566bb9c1828680fc8c771105d4400
+files widget/windows/WinUtils.cpp
+patch 222,223,

@@ -1,0 +1,4 @@
+changeset be2e4a8d9c30d108cd9a15a16ce31bcb474591a8
+manifest 27d77162b635b449bffe76da7e566ed527e6b752
+files dom/apps/src/PermissionsTable.jsm
+patch 220,221,

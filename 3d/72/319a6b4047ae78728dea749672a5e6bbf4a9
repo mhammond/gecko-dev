@@ -1,0 +1,4 @@
+changeset ae105bf20177db5ba1dd240f84ac626ae2a4eff2
+manifest 6d47ead787f32a1ffbc6a7fea9fe410cbebc83f6
+files dom/camera/DOMCameraControl.cpp
+patch 167,168,

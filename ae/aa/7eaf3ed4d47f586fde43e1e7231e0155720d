@@ -1,0 +1,4 @@
+changeset 7ca29507520332b21e014f994ae74f7285bcf411
+manifest c747dd157a5309f21e27a252fc5f2a0355894f03
+files toolkit/components/telemetry/TelemetryStopwatch.jsm
+patch 217,218,

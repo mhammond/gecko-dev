@@ -1,0 +1,5 @@
+changeset 3e1cf00f260f0bae4d42f504abbdf2c4ff554e8b
+manifest c022daa93d9bf1e9fd966d572a29a7cb47a2f536
+extra rebase_source:47f0cf49279cad1a8bcc5ae00ea45af36c5cf063
+files gfx/thebes/gfxPattern.h
+patch 244,318,

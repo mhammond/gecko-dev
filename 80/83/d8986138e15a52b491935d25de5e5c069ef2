@@ -1,0 +1,5 @@
+changeset 4010d412d8c52888861355a9de57fb933fd6d9a3
+manifest a139e0d5235cf72273dc77cfccbb89bcd27bc01e
+extra rebase_source:45da674668a97b863cfe82eac5f7ee9160d311d4
+files browser/components/extensions/ext-utils.js
+patch 281,355,

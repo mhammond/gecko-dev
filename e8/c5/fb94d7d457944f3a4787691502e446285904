@@ -1,0 +1,4 @@
+changeset 70078e65fa4f1f625371a28860decd6b6f4693cb
+manifest 5b079b69d44c8916141dd3fc431d08b1422ea6e5
+files devtools/client/webconsole/test/browser_webconsole_bug_613642_maintain_scroll.js
+patch 281,282,

@@ -1,0 +1,4 @@
+changeset 84a280a8e16af2624a8cf9dd438dad9179f51dbc
+manifest 2e94468cdd8e485cf1e21dbfc452b161d950982e
+files toolkit/devtools/event-emitter.js
+patch 218,219,

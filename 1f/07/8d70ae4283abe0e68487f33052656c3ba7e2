@@ -1,0 +1,5 @@
+changeset 6ced3124defe7079a7c86dfdb43ef11a51baddc1
+manifest bb72fd04496f179b1fcd43b141e23e4fe46ddc15
+extra rebase_source:625ffad7e4349159879fca960ec3f2c535410e97
+files caps/tests/mochitest/test_bug995943.xul
+patch 260,334,

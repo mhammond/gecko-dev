@@ -1,0 +1,5 @@
+changeset e225f606ad70067ab50cff51879b59be4e98659e
+manifest d9950cbfde1327e84db48ec737e224a817bdda3d
+extra rebase_source:2c637372142e83641bf9977916097a38f7d57ba3
+files devtools/client/responsive.html/browser/swap.js
+patch 313,387,

@@ -1,0 +1,4 @@
+changeset 8bb5aaf8357167ec91a62c4124d8653b5a539b53
+manifest e9524302c523b4c7f24ff9cfaf7f5b76829b5847
+files devtools/client/shared/developer-toolbar.js
+patch 202,203,

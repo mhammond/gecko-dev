@@ -1,0 +1,4 @@
+changeset c192d46ef7896c8579fa6b3a911ba4a8a2932399
+manifest ddff4c04a17f4518163264a240266d9335f602ec
+files toolkit/mozapps/extensions/test/xpinstall/head.js
+patch 259,260,

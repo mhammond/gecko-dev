@@ -1,0 +1,4 @@
+changeset 80879e1c8b7f5ccef173ddd132b99ef587820ea0
+manifest 285418f10ee6005265eede9ffc69e358e8c8ced6
+files browser/base/content/test/newtab/browser_newtab_bug752841.js
+patch 215,216,

@@ -1,0 +1,5 @@
+changeset 506323d5ecc3e5a9654cd5413da0b392c81bea1c
+manifest a326367506e6890a835726a6bf675d47f110fc19
+extra rebase_source:94d108432ba454aad3446e2ed86ff375f0cca662
+files mobile/android/base/fxa/receivers/FxAccountDeletedService.java
+patch 309,383,

@@ -1,0 +1,5 @@
+changeset 6a6840e6c51e078902b8659411a7cf6b8ecea995
+manifest 8014a4c3d746b4e94ee4067a92d3f4896a003c3c
+extra transplant_source:Óä2ÄTj(å„§d{²[Ãˆ)°
+files content/base/src/nsXMLHttpRequest.cpp
+patch 288,378,

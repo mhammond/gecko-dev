@@ -1,0 +1,4 @@
+changeset 3c940e39303135ea54aecef7a72709c46725228d
+manifest 43b1ac93d6ad833557463b21eea79ffa1e8635f7
+files js/src/tests/ecma_6/TypedArray/constructor-non-detached.js
+patch 226,227,

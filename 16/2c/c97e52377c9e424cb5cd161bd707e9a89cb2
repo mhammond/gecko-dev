@@ -1,0 +1,4 @@
+changeset 078fb73f17c26edffad5a5051991771e14f94d35
+manifest 7b2832b252133b2020bdf7ab3f7f5a8d855c42bb
+files devtools/client/sourceeditor/debugger.js
+patch 222,223,

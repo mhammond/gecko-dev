@@ -1,0 +1,4 @@
+changeset 0416fbbd3a63280eab7738c1246acd4b0104b619
+manifest cb957add315b45240ec7de16edb0ff16447a1e41
+files netwerk/dns/nsHostResolver.h
+patch 259,260,

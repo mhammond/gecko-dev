@@ -1,0 +1,5 @@
+changeset 817f7772031facebdafff5900ddde606f81d7bc9
+manifest 7033648146fc6d5e284c5484f1b50a01ce4d939f
+extra rebase_source:3bea6d260495c87291142249d9dc12571ee62899
+files layout/svg/nsSVGIntegrationUtils.cpp
+patch 308,382,

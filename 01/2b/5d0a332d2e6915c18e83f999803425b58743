@@ -1,0 +1,5 @@
+changeset 533b9287d572d9541ae5a03e8d1331bd1794d26b
+manifest c83f77e575b9d65302ddd6eae8abf338fe4cca7b
+extra rebase_source:89914ebe5ed4cbcb5a3fd792a9f260e4c389fe84
+files dom/webidl/CaretStateChangedEvent.webidl
+patch 822,896,

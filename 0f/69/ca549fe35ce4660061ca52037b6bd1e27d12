@@ -1,0 +1,4 @@
+changeset a267539a757f0af6bed82e8c7511d5defe1a645c
+manifest 5dea218f68488390c4223e67391b43cd0480cc7d
+files gfx/layers/d3d11/TextureD3D11.cpp
+patch 180,181,

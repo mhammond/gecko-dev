@@ -1,0 +1,5 @@
+changeset d7dd10403797f53ca13b86bb751013f5b45aefc9
+manifest 85125c9a7e40874b6d2a9da7b29399a3faec10a9
+extra rebase_source:79e9d80eada5e4c0450852da4d0bbc42e5e9f1bf
+files security/certverifier/CertVerifier.h
+patch 270,344,

@@ -1,0 +1,5 @@
+changeset 05b5247da09feb32a2e60472ab9ae7ffd906e6ab
+manifest 0fb745b74c81fe13a31fd2e44271209afb4d52d1
+extra source:52cfd2babd94fa8452128940b50614cc12660785
+files devtools/client/webide/test/test_manifestUpdate.html
+patch 353,420,

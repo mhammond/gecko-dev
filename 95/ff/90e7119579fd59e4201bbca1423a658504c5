@@ -1,0 +1,5 @@
+changeset a2cbbd85a818137bba6fee45d2c997e9193201ef
+manifest 1b37e811e79290283f25f7f1780a067bd60c3bbc
+extra rebase_source:14ce15d9890a9e052f67bb795de209220179d70e
+files browser/config/tooltool-manifests/macosx64/releng.manifest
+patch 479,553,

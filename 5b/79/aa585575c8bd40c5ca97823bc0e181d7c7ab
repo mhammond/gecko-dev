@@ -1,0 +1,5 @@
+changeset bba6abab045cd8cf8dacf9be49c95e3feab5794b
+manifest ceada4866fb49a63a970124a9a62a07889c400ef
+extra rebase_source:c6be8b33c481364162c36a0a95272fc46a19e996
+files addon-sdk/source/lib/sdk/addon/installer.js
+patch 266,340,

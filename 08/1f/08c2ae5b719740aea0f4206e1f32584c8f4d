@@ -1,0 +1,5 @@
+changeset 64305a23963a6ce00cc88f6eba95b207e54575ce
+manifest c814b8e280dd507d84500456985eb1a768237c6d
+extra histedit_source:ce94bf5ad5e3abe96ec3c75839ed581af134a487
+files testing/mozharness/test/test_base_script.py
+patch 256,332,

@@ -1,0 +1,5 @@
+changeset 48e2f76e963f126c119917551fcc86332c68a784
+manifest 3603e387ba90a53ba74b839c41db9771e64933b4
+extra branch:GECKO380b1_2015040104_RELBRANCH
+files toolkit/components/reader/ReaderMode.jsm
+patch 298,348,

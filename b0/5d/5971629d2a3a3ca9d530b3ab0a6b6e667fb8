@@ -1,0 +1,5 @@
+changeset 4ee3dd50843ae3fb5bb849abacc7dfc46b6139b4
+manifest 8ad5de0b83fe44ffb9915343efde5f6062837411
+extra rebase_source:be458fae84cdb14a52112dd091d7d285997193bb
+files hal/HalWakeLock.cpp
+patch 276,350,

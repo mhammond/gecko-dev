@@ -1,0 +1,5 @@
+changeset a4204b1030f2ff5d369aba3dc57ef190239e2f66
+manifest dd5730674ba38774b7048ea0157da81dd40cf869
+extra rebase_source:02bb2eaf574590a0414d60026eaa3a480f19ce09
+files layout/generic/nsTextRunTransformations.cpp
+patch 323,397,

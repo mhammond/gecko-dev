@@ -1,0 +1,5 @@
+changeset a8d2730ada95c70059ed6314f5eb3f7b28501f70
+manifest 46decf20feb1ee8bdabf4df5ed72d124fe91258f
+extra rebase_source:a8cd8faeb91a66d2818c7212c435847996832796
+files js/src/devtools/rootAnalysis/analyzeRoots.js
+patch 373,447,

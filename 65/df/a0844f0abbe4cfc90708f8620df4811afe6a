@@ -1,0 +1,4 @@
+changeset 7958c38c7afda34a176a78e69ff4c06b3b859ed8
+manifest 17300bbb8fe082020e96d626a9fb0b07c248c0a6
+files browser/components/privatebrowsing/test/browser/browser_privatebrowsing_cache.js
+patch 293,294,

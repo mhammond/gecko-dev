@@ -1,0 +1,5 @@
+changeset 062aa1bd5487d268078b031b75335c106ae40480
+manifest fbe066588a212e054047030263469f5d369e2afa
+extra rebase_source:d8e517c891212c0b7794e7db433f6ed626c4cac5
+files security/pkix/lib/pkixocsp.cpp
+patch 267,341,

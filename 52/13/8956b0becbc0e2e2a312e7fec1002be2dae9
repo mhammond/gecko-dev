@@ -1,0 +1,4 @@
+changeset c0eea763394f85c62300186a95911d0acf0a0a7b
+manifest ecf0f5993c7614879c0216fe94796347948f0e69
+files browser/base/content/tabcandy/app/ui.js
+patch 146,147,

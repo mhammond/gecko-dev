@@ -1,0 +1,4 @@
+changeset 3c18fce625f9dc8973dc492e1ce733334c8e0eca
+manifest 99a96cbf0c1f1e89fb1305c3c7112a35c2f11700
+files devtools/client/memory/controller.js
+patch 178,179,

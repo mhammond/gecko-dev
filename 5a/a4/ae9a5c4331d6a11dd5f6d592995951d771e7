@@ -1,0 +1,4 @@
+changeset 189d8cd85fa49c4df0aaa426b8aa5a7c69e3337b
+manifest 78b82bc30fffcdfb5312ff65ae15063a67f91415
+files browser/devtools/webide/test/browser_tabs.js
+patch 211,212,

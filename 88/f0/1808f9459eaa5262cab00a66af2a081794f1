@@ -1,0 +1,4 @@
+changeset 0705fa85d5cfc33b62349945bdf8baf36d5e510e
+manifest cfb64970899a4be741488434e7cc186eda758e09
+files testing/mochitest/tests/browser/browser.ini
+patch 204,205,

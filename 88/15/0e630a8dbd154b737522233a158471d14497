@@ -1,0 +1,5 @@
+changeset 98ccd385e6fd837cd6248367a82ffdf2627cf493
+manifest 4936627a59f2554338d8fd8e701690f3aeeb735c
+extra rebase_source:79ebfe3ff54d62a3f24f1eedfdd24f3682c29291
+files browser/components/sessionstore/content/content-sessionStore.js
+patch 306,380,

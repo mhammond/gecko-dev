@@ -1,0 +1,4 @@
+changeset d720aa40aae4be8eb1df33622d0b722cf68546f2
+manifest bdde4a06b14a98a645b526031021d16a7a102cbc
+files editor/libeditor/html/nsTableEditor.cpp
+patch 226,227,

@@ -1,0 +1,5 @@
+changeset f5d4aa81f62f3959f0dac78c7c382a6be02675cc
+manifest 6e8678cd29bf47e3276b026b1436761f583ebb86
+extra transplant_source:ßJ≠∂P∞ï±_on%†ùIÆ€_&
+files media/webrtc/signaling/src/peerconnection/WebrtcGlobalInformation.cpp
+patch 278,362,

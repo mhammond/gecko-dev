@@ -1,0 +1,4 @@
+changeset 608b76d0900e1d70f050d800fd32a9c4a4152973
+manifest 4cebf0d705e04b6489823fe3b99d56cb8fd147c0
+files toolkit/mozapps/installer/find-dupes.py
+patch 291,292,

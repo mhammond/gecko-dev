@@ -1,0 +1,5 @@
+changeset 3b9eb7fee10b7ceca0373c3fa886ddb5165b2797
+manifest 059eced8cd0a7425850d2aeb6724a7a1e73ba89b
+extra rebase_source:c3b6b71b167a897cdd14e54f24b3c495d5151dd5
+files media/webrtc/trunk/webrtc/modules/video_capture/linux/device_info_linux.cc
+patch 365,439,

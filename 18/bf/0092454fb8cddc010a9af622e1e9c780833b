@@ -1,0 +1,4 @@
+changeset 5eda6b9070bc4ef245009926fb0e8b4dfdfb02dc
+manifest 01f8cc6227b757ec8de9e625b9f19c37c74e7270
+files testing/web-platform/mozilla/meta/service-workers/service-worker/invalid-header.https.html.ini
+patch 220,221,

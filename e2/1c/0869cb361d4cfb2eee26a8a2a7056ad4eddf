@@ -1,0 +1,4 @@
+changeset aa1115365d93dab40cb437b6dba0cc05a46a0d92
+manifest c12cb3f6472c9a80f4e3d1bbbda703e1086c2e39
+files testing/web-platform/meta/custom-elements/custom-element-lifecycle/types-of-callbacks/attached-callback-test.html.ini
+patch 339,340,

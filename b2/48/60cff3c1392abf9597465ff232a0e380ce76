@@ -1,0 +1,5 @@
+changeset 3d566e0afb53759c6a36f82bbba8c75a64e5aa52
+manifest b5abe9f8213f56d653f2856b347ec97856b3da31
+extra source:70a0b4ff9d0886ce56078a3cd67aeb14af12be30
+files layout/tables/nsTableWrapperFrame.cpp
+patch 317,384,

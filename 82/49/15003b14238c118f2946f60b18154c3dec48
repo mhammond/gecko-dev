@@ -1,0 +1,5 @@
+changeset 971ee95dade06b20742e94d58c471e76705ca478
+manifest 7e1ef9cc668a1457b5ebe1b8fb6fd6192b1ff52a
+extra rebase_source:9023b03da828b57465cd72a0f06029aca3707fca
+files mobile/android/base/java/org/mozilla/gecko/IntentHelper.java
+patch 371,445,

@@ -1,0 +1,4 @@
+changeset 2182dd1323f4b6542e3532917946f99d4af732c8
+manifest 1759060d48b22b8757ad7a530e8fd0d0a394343d
+files testing/mozbase/mozprofile/mozprofile/prefs.py
+patch 325,326,

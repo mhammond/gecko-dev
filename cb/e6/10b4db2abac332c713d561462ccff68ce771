@@ -1,0 +1,4 @@
+changeset cd93d21491eaaee4fd7c6118f060cca1362ff9c9
+manifest 88cf99654e1d7f95a04ba765628c6f6b0b225804
+files js/src/asmjs/WasmText.cpp
+patch 192,193,

@@ -1,0 +1,5 @@
+changeset eef466532e8aa92e9a48cda19dddee99838f67e7
+manifest 14b1dd5849ca92b1687b4a5cadbf1f53fb7bbc79
+extra rebase_source:5ad7d6ea972d4a350091458b0cc47dd148f13bb6
+files dom/security/test/hsts/browser.ini
+patch 234,308,

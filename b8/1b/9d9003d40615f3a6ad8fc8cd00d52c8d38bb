@@ -1,0 +1,5 @@
+changeset d16b320fedd5a20b9cd5fb5d0de7fd7cea7692f6
+manifest 055a0548051f31dd215f5dbf231bdf83b1ddbbe3
+extra rebase_source:567f4b62fb905660318158df59dd345e58ae0976
+files dom/xul/templates/nsTemplateMap.h
+patch 263,337,

@@ -1,0 +1,4 @@
+changeset a018997bc53a7fdc31d236d8f488192ff9692fb1
+manifest c266b0b784cb86a4b6c5030cbcd969dbc67f3ab4
+files widget/windows/TaskbarPreview.cpp
+patch 222,223,

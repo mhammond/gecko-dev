@@ -1,0 +1,5 @@
+changeset b07f254acc0f33b820d12e13813bda0d36db06ac
+manifest 00a4bcca630329337e57bab52d81b7f09a0b8ec9
+extra source:6ec9b53392a68d1967ac5ef30d686d5e5d71cbc0
+files media/webrtc/trunk/webrtc/modules/video_coding/main/source/generic_encoder.cc
+patch 311,378,

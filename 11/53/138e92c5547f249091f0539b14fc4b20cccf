@@ -1,0 +1,5 @@
+changeset b56407b86b1340cfed2fb5b010f1ab53c7d32226
+manifest 66eddbf5a08b922cb91335ebd233b2ebdaba297b
+extra rebase_source:acf0a7fad4efc35e7f7281023aec7056bd2049ee
+files dom/indexedDB/moz.build
+patch 632,706,

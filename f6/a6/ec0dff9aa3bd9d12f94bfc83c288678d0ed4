@@ -1,0 +1,4 @@
+changeset ddb52d0e20cbcf0c31058b0f7ca45ba8c8280fcb
+manifest 0864713214d6424a1a5f5d5b68297443ebd023d6
+files media/gmp-clearkey/0.1/VideoDecoder.cpp
+patch 232,233,

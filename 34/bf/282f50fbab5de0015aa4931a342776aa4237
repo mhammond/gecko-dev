@@ -1,0 +1,5 @@
+changeset ef7602300e893e99b112dbd3ce3e562bbeb7cec8
+manifest 80829130eb70154a0f36e22ebddfe6664ae6256c
+extra source:6a30c1484e916c03c69a617653ddc4ae8bfbecec
+files js/src/jit/JitcodeMap.cpp
+patch 237,304,

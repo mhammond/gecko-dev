@@ -1,0 +1,4 @@
+changeset 586879b9c3f767bb01fc52d368f7d89d901a3649
+manifest 3699bb3638d3f8a28bbb08a221ba4fe1b57505af
+files testing/web-platform/mozilla/tests/service-workers/service-worker/update.https.html
+patch 258,259,

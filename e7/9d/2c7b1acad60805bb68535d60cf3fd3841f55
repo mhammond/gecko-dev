@@ -1,0 +1,4 @@
+changeset 5fae7363bcad8c4e45a0baa2633e0f24ede424bc
+manifest 2410d1a3b9e7dc5886290ed7ce0ef5b6f2ac81e0
+files browser/devtools/debugger/debugger-panes.js
+patch 226,227,

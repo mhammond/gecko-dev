@@ -1,0 +1,4 @@
+changeset 55212130f19da3079167a6b0a5a0ed6689c9a71d
+manifest 191355ae72bb074dc4d1195da744a5e35e870b43
+files config/gcc-stl-wrapper.template.h
+patch 1050,1051,

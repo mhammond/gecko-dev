@@ -1,0 +1,5 @@
+changeset 00ab94f6a5bc64291aa681c8fc6261bc6fda7f68
+manifest 3e7160098c769472694fa6321a6aa546d835935a
+extra source:ce36169cf980f3674fb729a5a528c589974b4bc6
+files netwerk/streamconv/converters/nsHTTPCompressConv.cpp
+patch 318,385,

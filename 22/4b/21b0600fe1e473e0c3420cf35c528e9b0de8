@@ -1,0 +1,5 @@
+changeset db47a06d14ebe5312620786a225813401493f593
+manifest 65c18b91f4c94a989f0ef40cb7677b1f2306b594
+extra rebase_source:9e673fcd0f8fd4b4905907ce013e53af919d0c90
+files browser/components/extensions/test/browser/browser_ext_tabs_move_window.js
+patch 328,402,

@@ -1,0 +1,5 @@
+changeset 3d11ac89bcd32b89ba39e6cef405d05b86cc3d50
+manifest 0058c953ddc6016f5d9513be5d94c13e903418fc
+extra rebase_source:73dbbc5505c6d3d4d9583ea94f2263e92295e065
+files js/src/jsgc.cpp
+patch 242,316,

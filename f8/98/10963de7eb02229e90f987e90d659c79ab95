@@ -1,0 +1,4 @@
+changeset 1942762d99b33ee65427d8ba0ef8f05d174a5028
+manifest b48170b5f5f8e44822c0886c3bd0e01113ecfcce
+files devtools/client/shared/widgets/VariablesView.jsm
+patch 271,272,

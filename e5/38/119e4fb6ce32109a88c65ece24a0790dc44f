@@ -1,0 +1,5 @@
+changeset 3e1f433a88fdacb9dfe593043dc8bbea180d1685
+manifest b2bd79e3acf7a3dbdc3ab14493887321bc3d85d2
+extra source:65b643d6e5f35e20c456efc4aa0e9ef4ba7c74a7
+files browser/components/uitour/test/head.js
+patch 366,433,

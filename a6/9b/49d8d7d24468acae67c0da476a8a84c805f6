@@ -1,0 +1,4 @@
+changeset 4ef727eb2cce5ea61af11489096576772be0d7b7
+manifest a77b1c34765d40073fa200960947039a1e50f20e
+files image/test/gtest/TestDecodeToSurface.cpp
+patch 230,231,

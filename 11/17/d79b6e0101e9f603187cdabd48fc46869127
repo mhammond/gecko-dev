@@ -1,0 +1,5 @@
+changeset 952534db8d857c2eaec8d1eea95b9fcafc9dec16
+manifest 9e097e123df97ea58258754b65d160710e772de5
+extra rebase_source:f345637ff4fa54eefec164fc1aee19a3947c8344
+files devtools/client/inspector/rules/models/rule.js
+patch 350,424,

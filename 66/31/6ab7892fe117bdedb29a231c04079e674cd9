@@ -1,0 +1,5 @@
+changeset 82e8f730b3e18f3be117c5a202f9fead8e7a9e78
+manifest c6b5e140af1c9031f5a50ae0eb1d67b02d78ea72
+extra rebase_source:81b34ab1e1a20e25b381605e874c85144a937836
+files mobile/android/base/java/org/mozilla/gecko/db/BrowserProvider.java
+patch 336,410,

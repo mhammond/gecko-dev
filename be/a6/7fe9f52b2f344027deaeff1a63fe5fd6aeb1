@@ -1,0 +1,4 @@
+changeset 6a5f0538b3c907f9a9f5a4851aaae2494e08b165
+manifest eba1a2256059f9dcf5dcff7d77d1474aa97d1069
+files toolkit/components/telemetry/tests/unit/test_nsITelemetry.js
+patch 231,232,

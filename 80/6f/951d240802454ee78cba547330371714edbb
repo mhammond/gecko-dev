@@ -1,0 +1,4 @@
+changeset fda7ec076725da27d06255ef7f291c2cbaf72a5d
+manifest 1cbc318fdbdced76c59e4c164752c141ce312817
+files dom/tests/mochitest/chrome/window_focus.xul
+patch 202,203,

@@ -1,0 +1,5 @@
+changeset b0a8e3986e35136829bb3a43b3c50e9060b6b559
+manifest 7e3e02690064c793c02f12803e9f30ce9ac10ed4
+extra amend_source:e78abcef2d97d490824af648ccac815599ac08c3
+files testing/mozharness/mozharness.json
+patch 259,332,

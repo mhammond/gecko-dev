@@ -1,0 +1,4 @@
+changeset 22d372a893d764554af0edb7e47f817af93b2114
+manifest 273d385fd42f9e95d17dece23a7e65dcf4197546
+files dom/geolocation/nsGeolocationSettings.cpp
+patch 218,219,

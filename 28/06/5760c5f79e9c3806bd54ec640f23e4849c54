@@ -1,0 +1,4 @@
+changeset 401aa89aeb11b0cb29419438bfc4d27061c3c3e7
+manifest cb341050759f22b575191cdbc0cae74a1a4800a2
+files dom/security/test/csp/test_referrerdirective.html
+patch 252,253,

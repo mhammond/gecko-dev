@@ -1,0 +1,5 @@
+changeset 20fca29df10323bb0bd8f8af43cecfcd85484e46
+manifest 727f425ecb806cb6e40a16ddd23293057e5bf350
+extra source:3cfd5be71eed88f862b030c7bb50066d4a05b060
+files devtools/client/performance/performance-view.js
+patch 265,332,

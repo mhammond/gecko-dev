@@ -1,0 +1,4 @@
+changeset cd123e72cdadb5ce8397c9d02dac8fe6e432d034
+manifest 170dbeec34aac4d6f2afa506c3096fd896a920d2
+files browser/components/places/content/controller.js
+patch 277,278,

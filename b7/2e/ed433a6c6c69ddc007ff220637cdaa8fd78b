@@ -1,0 +1,5 @@
+changeset 1aa86d89eea5dd233705e7cce1c3883ee0466ea8
+manifest ca1d690e36329b4c1c0fcc9ab108c3c71c737411
+extra rebase_source:f3e18e7682326bf5a20bb2136228f76d16b0303a
+files browser/base/content/test/popupNotifications/browser_popupNotification_3.js
+patch 338,412,

@@ -1,0 +1,4 @@
+changeset 6cb3fe45e73128a9683523c21849716fdbfbf4b5
+manifest b9d8fcec5c44abeab08e45aecc3e2b500b74f7cd
+files taskcluster/taskgraph/transforms/job/mozharness.py
+patch 258,259,

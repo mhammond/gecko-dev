@@ -1,0 +1,4 @@
+changeset 669f1a6049dad23fde9e78fd558ddc2a50ffcd7a
+manifest f47855f3fb212c763b7cbabe393442d4060f2f0b
+files browser/devtools/styleeditor/test/browser_styleeditor_selectstylesheet.js
+patch 245,246,

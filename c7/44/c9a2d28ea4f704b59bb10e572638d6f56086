@@ -1,0 +1,5 @@
+changeset b515d822788ff0fd28e9f6ecab4eaafe274ce5f4
+manifest 548d19026e3a79a0a9b05c55f5cac377f963daf8
+extra transplant_source:o6ì% ‹&NÇ`ÅäøÄïI:
+files browser/components/sessionstore/test/browser_586068-browser_state_interrupted.js
+patch 349,439,

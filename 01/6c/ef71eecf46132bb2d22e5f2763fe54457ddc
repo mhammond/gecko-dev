@@ -1,0 +1,4 @@
+changeset 983cba7a929366476ba3cb91a1455da4dc207542
+manifest fd3a2020dc5aebffb5019f1edc19133ef27ceb28
+files js/src/asmjs/WasmStubs.cpp
+patch 279,280,

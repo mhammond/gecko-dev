@@ -1,0 +1,4 @@
+changeset a0b06192f8823c36dececb8ddbe10b7ac7b577dc
+manifest 652b66235c0c7533818504c9fce4ec9185a25305
+files editor/libeditor/base/nsEditor.cpp
+patch 223,224,

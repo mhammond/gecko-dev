@@ -1,0 +1,5 @@
+changeset db12e253eb848d6644284f3ca034ae01e0ca4ed6
+manifest b7c985bf21036020ad936b19555c6d2c3636c84f
+extra rebase_source:2f8c303128fd2c6b44a9e6f055b39618a7003abb
+files mobile/android/chrome/content/WebrtcUI.js
+patch 305,379,

@@ -1,0 +1,4 @@
+changeset d1000838678d64462fd9ad877029e7082bbba2b3
+manifest 832da740053414c72d5b53b2df5b88333d1a5647
+files devtools/client/webconsole/test/browser_bug1045902_console_csp_ignore_reflected_xss_message.js
+patch 364,365,

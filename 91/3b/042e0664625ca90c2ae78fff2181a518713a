@@ -1,0 +1,4 @@
+changeset a84327c7eb976657d30505819dfedb0ba21e8419
+manifest e5dc949762879f3ef02ea19ce415e831f0ecb7b5
+files dom/base/nsHostObjectProtocolHandler.cpp
+patch 224,225,

@@ -1,0 +1,4 @@
+changeset 698d20c94746543bcfece4766a440e0d78f90e85
+manifest 397aa9e07b316b56a5cadc4528366671ca58f6d2
+files browser/devtools/storage/ui.js
+patch 197,198,

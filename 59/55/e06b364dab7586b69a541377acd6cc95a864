@@ -1,0 +1,5 @@
+changeset d222742756c4f5d60ce13c8102d5024ddc060fc0
+manifest 452b76a925e4d4c574c78820e0dd4cfa2d7cc390
+extra amend_source:a6cb311db1f5bbfc2cae5b89b67e03087641565f
+files gfx/vr/gfxVROculus.cpp
+patch 281,354,

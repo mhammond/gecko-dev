@@ -1,0 +1,5 @@
+changeset 4093d584009893aafd9de04a9157b314a8f43957
+manifest 2f86bb61be75ce1926ae12e931fe75b7c69eaadb
+extra commitid:8meufYutZTo
+files toolkit/mozapps/extensions/test/xpcshell/test_system_update.js
+patch 224,264,

@@ -1,0 +1,5 @@
+changeset 931ee07d307ed35df9e1775d459f0c7d38991b9f
+manifest 0aec35e79f883c4d6dcfdd248ebbb38502e3ca7d
+extra source:4fbc77b48fd9042cf94d09ec8c8c0ed2f9ab069d
+files dom/xul/templates/tests/chrome/test_bug330010.xul
+patch 304,371,

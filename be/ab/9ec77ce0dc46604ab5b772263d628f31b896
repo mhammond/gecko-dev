@@ -1,0 +1,5 @@
+changeset 705465b1504b00d01d4cb2b664a2023e6f25e0e0
+manifest 46a3792b08d1c3a3c1dc6409d0a8dc45f45624f8
+extra rebase_source:696b2a0c9c4033f2c4e6577cc30c4371818ba43e
+files toolkit/components/alerts/resources/content/alert.js
+patch 262,336,

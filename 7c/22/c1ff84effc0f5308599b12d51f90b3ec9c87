@@ -1,0 +1,5 @@
+changeset 61eec2456b97b464653a6e825511d11412061823
+manifest 555361b520e8d941c7d1abb8a3cc83e95579de34
+extra rebase_source:bbcb0e7032509d781d808b3b2c49441f8ba070a4
+files toolkit/content/contentAreaUtils.js
+patch 311,385,

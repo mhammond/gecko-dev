@@ -1,0 +1,5 @@
+changeset 3b5812d1023c18bb032a1da5c6cb0197332e767d
+manifest 81c55cd286cd0bda82ca7550041141ba5f6db1eb
+extra rebase_source:b5f329530cfe38d70ce7fed6d5b2028c4919d99a
+files b2g/chrome/content/shell.js
+patch 260,334,

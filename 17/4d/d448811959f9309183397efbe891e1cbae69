@@ -1,0 +1,4 @@
+changeset 9435a7c512ec8f2f0036921cd6a8282bcbd0544d
+manifest 43b13c293b4b3835ba5a4db1a6a5efd21100f080
+files browser/base/content/test/plugins/browser_CTP_hide_overlay.js
+patch 279,280,

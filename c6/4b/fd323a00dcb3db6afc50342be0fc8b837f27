@@ -1,0 +1,5 @@
+changeset d78a8f4bd9ccf817a199ed1f0a55c6813c78a481
+manifest b88dadd0e9023225ba1725c097e322033885978f
+extra rebase_source:18dc3e18d2e18b403bfbd31b30577f00c2af489b
+files toolkit/modules/GMPUtils.jsm
+patch 401,475,

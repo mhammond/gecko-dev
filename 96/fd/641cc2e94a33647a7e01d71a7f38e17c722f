@@ -1,0 +1,5 @@
+changeset 117e8e24d7144071a15fd8a3c39e582614b81a4d
+manifest 5631bb4c503e1353b57cd1188cf9f32215aa398f
+extra rebase_source:435b12ae6f61e63d2f0cb421a7a06e50ed2f2e14
+files dom/events/test/test_bug602962.xul
+patch 310,384,

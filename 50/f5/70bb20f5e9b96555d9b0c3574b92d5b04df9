@@ -1,0 +1,5 @@
+changeset cb183e7c648baee677345bcf25708053dadee382
+manifest 6a8a0c476ad8604a5507b0312a8264aab984e835
+extra rebase_source:e105c292aa8a55c8a9fc068d548866241582e162
+files layout/style/nsCSSParser.cpp
+patch 288,362,

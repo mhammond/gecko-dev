@@ -1,0 +1,4 @@
+changeset 66cb50799432a771b6fcedd9e82cb65ef35e65bc
+manifest af5ec84a8e392ef8ba91fc22e3916218cbde6970
+files js/src/jit-test/tests/ion/for-in-iterator-1.js
+patch 254,255,

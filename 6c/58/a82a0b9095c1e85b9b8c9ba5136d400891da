@@ -1,0 +1,4 @@
+changeset 312c81362c08343b006d3c97ace270a97f95f45e
+manifest 861ae62ede04e7edfffcd431f0c6d64ff8848f6d
+files browser/extensions/pdfjs/content/web/viewer.js
+patch 1007,1008,

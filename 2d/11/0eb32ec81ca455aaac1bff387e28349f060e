@@ -1,0 +1,4 @@
+changeset ed6e2e4ca5014474b4e8d1d2cd1c5b664f4c0e25
+manifest 3569ea4af6e61099658ca331df090d4581c0d8a2
+files browser/config/tooltool-manifests/linux64/clang.manifest.centos6
+patch 348,349,

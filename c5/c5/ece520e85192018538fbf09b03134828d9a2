@@ -1,0 +1,5 @@
+changeset 279f5c243c49c8e955faf3b667e2fef92cfefbf0
+manifest f6542852366adf28405b6ad0785c6684310ae07f
+extra rebase_source:cda8e17dd6ad7b606711630e90df8d5e65c8bda3
+files testing/mozbase/manifestparser/manifestparser/filters.py
+patch 469,543,

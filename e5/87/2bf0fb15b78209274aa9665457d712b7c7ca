@@ -1,0 +1,5 @@
+changeset 9a32e6070959a4ead6023f2f026950fb9f4bfc22
+manifest c72aa617c765d49473cd4b0b1397149d599747c6
+extra rebase_source:67a6b4ac31277e552a9d8f09ae142c1e2dd6069a
+files layout/svg/nsSVGStopFrame.cpp
+patch 269,343,

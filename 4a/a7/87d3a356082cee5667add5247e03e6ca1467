@@ -1,0 +1,5 @@
+changeset 1d2eb27cf2f3e012b15eda6e8c225db2d3b53613
+manifest f9cb915af4edc6d9bf0335d8f28a1cdef47ac975
+extra rebase_source:ab68e5e9b6f12d8cecab0d6602af0a3e4096c058
+files mobile/android/tests/browser/junit3/src/org/mozilla/tests/browser/junit3/TestJarReader.java
+patch 361,435,

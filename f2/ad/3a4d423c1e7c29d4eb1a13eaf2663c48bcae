@@ -1,0 +1,5 @@
+changeset 77beba0f1f9189ce854902ec2b5165fb4ecb7f0b
+manifest 18ca4e288beb0d473aaca3b8c31f0c302c3bb496
+extra rebase_source:09790f2bc646def4ec1b7186c2aeb0d1e23125b1
+files dom/canvas/test/webgl-conf/always-fail.html
+patch 295,369,

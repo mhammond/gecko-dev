@@ -1,0 +1,4 @@
+changeset 87d9fe68abf24bd062bc8ef140c3fed161ec6182
+manifest eb90aec1cd7ae28759a8179443fc392f93ad9717
+files dom/webidl/DOMException.webidl
+patch 222,223,

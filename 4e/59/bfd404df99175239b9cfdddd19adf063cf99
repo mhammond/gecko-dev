@@ -1,0 +1,5 @@
+changeset 0642a5722c595e9515166252fc7fb17c036b4673
+manifest 74c881b4feaae5036b391c464848394cb7bf4ed1
+extra amend_source:e6c8e548e31b3f1740f2c32a3aaff560f72d3427
+files layout/generic/nsFrame.h
+patch 803,876,

@@ -1,0 +1,5 @@
+changeset dcc8b840bd8fe08b527a48fbfc4815eaa534fc88
+manifest 7465ed3f404d875c2412e5ed41dfdecd517be55c
+extra source:f75d479d9d51ca60f1ba763e04c504d0dd29a9f5
+files dom/base/WindowNamedPropertiesHandler.cpp
+patch 276,343,

@@ -1,0 +1,5 @@
+changeset 31c5f91c5f6398f9acbf09f3a9a08bbf74289de1
+manifest e8dc467b542b8ef052a375207f346349ca6bfe55
+extra commitid:K0qClMze1zh
+files browser/tools/mozscreenshots/mozscreenshots/extension/configurations/DevTools.jsm
+patch 281,321,

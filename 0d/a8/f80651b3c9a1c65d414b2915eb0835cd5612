@@ -1,0 +1,4 @@
+changeset d3f284a633924fef943cc526c4ae0fe32a210cbd
+manifest 563755e875d59e97d2a8f83b6975dd000ac1daa4
+files browser/components/preferences/in-content/advanced.js
+patch 242,243,

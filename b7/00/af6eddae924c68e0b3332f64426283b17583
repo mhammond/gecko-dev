@@ -1,0 +1,4 @@
+changeset d0459ee243da43eb2f3f562a90f1228ebf1af5a3
+manifest 72da9b714f2c94ea0a57997e34d4853e284f85f3
+files netwerk/cache/nsCacheEntry.cpp
+patch 241,242,

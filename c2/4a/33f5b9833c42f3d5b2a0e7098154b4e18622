@@ -1,0 +1,5 @@
+changeset 9daacc9d25600491dacef965c3927d306deef931
+manifest 0f55d5ca7ee27574e340b713da61bf1855de857c
+extra rebase_source:8114621d6bf163626fc14530ef455f5c65103a0c
+files js/src/threading/ExclusiveData.h
+patch 267,341,

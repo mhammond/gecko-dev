@@ -1,0 +1,5 @@
+changeset 7424d61ee7f3f7456228f95cdec45c785def7de8
+manifest b43464b63c4ed19345b82390dd78d8ef9dce7487
+extra source:956f4eff32d2ee80ae9c4ca9f58e2ca2f30a352f
+files image/VectorImage.cpp
+patch 289,356,

@@ -1,0 +1,5 @@
+changeset 074f9de56ac0420e644b2bab7cade77d736d67b9
+manifest 341e187a0f017c06c0ea44443159ede8572c73e0
+extra rebase_source:f10f35ad753aa3c1e93c1ab5e5d957af80c5db2f
+files python/gdbpp/gdbpp/smartptr.py
+patch 310,384,

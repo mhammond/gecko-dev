@@ -1,0 +1,5 @@
+changeset 89d0d3749675100aab0c87782f94100dcb2563ae
+manifest 1a3120723e6e4b3b5f1dff8ec35deb850c2f05f8
+extra source:2a8ca5caae8e3a300701b0a85e5051ead55e0648
+files docshell/resources/content/netError.xhtml
+patch 284,351,

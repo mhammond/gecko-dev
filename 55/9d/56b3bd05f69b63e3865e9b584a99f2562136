@@ -1,0 +1,4 @@
+changeset aed03debf4f236c5ccbd746f1a8fdb353a2b572b
+manifest 7fe6235a193f812b0dc3360b0366e0cb0f291fef
+files ipc/app/macbuild/Contents/Info.plist.in
+patch 212,213,

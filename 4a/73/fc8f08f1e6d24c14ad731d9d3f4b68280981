@@ -1,0 +1,4 @@
+changeset 55df5a95d7df5b2fe897f39e29b0ec37d258e9f8
+manifest b76254427a36f7b34cdf2a761804a4a57f478d13
+files layout/svg/nsSVGForeignObjectFrame.cpp
+patch 210,211,

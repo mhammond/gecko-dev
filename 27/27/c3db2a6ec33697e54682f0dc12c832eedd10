@@ -1,0 +1,5 @@
+changeset 46de97426f7b5467a37e1512ed022f2908d8626a
+manifest f4f3e655461ce66ea740706284a7668522c5c901
+extra rebase_source:3faef9161155645bbb649681826f68fe2ee3d60f
+files devtools/shared/event-emitter.js
+patch 278,352,

@@ -1,0 +1,4 @@
+changeset 61f472bbdbc1d8a095d1375e59423027fd736e70
+manifest f230fe04e2bf63f08818803275c547bc4299749e
+files js/src/tests/ecma_7/AsyncFunctions/shell.js
+patch 244,245,

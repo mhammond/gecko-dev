@@ -1,0 +1,5 @@
+changeset 5318dac723e38ebc93c5ba9263ef4d93ad54ddd7
+manifest c5e95298cf409daedd721586645f9878f5650855
+extra rebase_source:7e20e83af89a3b4fb674d0e84663467e42a97bb0
+files testing/web-platform/meta/webvtt/webvtt-api-for-browsers/vttcue-interface/align.html.ini
+patch 353,427,

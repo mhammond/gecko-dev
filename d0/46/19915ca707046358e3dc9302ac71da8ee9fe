@@ -1,0 +1,5 @@
+changeset 94d1e80fad8c57cbc6b3e1e27c9742620840ce99
+manifest 92f1fb341d6925895e0214e27cafe681eda41609
+extra source:3cc184cc0bc2ae4141a40a75b37bb3bd4d6c57ef
+files gfx/layers/moz.build
+patch 251,318,

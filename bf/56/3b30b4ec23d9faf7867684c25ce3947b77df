@@ -1,0 +1,4 @@
+changeset 8dfb9aeac3af19e6d0b816b45cca5c5950d35b49
+manifest 3e5948555cafd070e8b327e517afa689633ba1aa
+files js/xpconnect/src/XPCThrower.cpp
+patch 178,179,

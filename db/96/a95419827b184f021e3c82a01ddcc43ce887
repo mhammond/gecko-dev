@@ -1,0 +1,4 @@
+changeset d7b18f4aa01089dab89973f19ebb2e2bfc6a56a9
+manifest dd0f008298182e78980696f810b0450b8cada33b
+files toolkit/components/satchel/AutoCompleteE10S.jsm
+patch 238,239,

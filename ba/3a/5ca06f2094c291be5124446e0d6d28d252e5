@@ -1,0 +1,5 @@
+changeset d0660ed2320b5de0b116330b58c80cd3d3044879
+manifest 1f381b4e56cfbb1c74f0513debfbbfa6e6376868
+extra rebase_source:dc84f80591ffe2fe779c1649f15376cc29d32662
+files mobile/android/base/java/org/mozilla/gecko/toolbar/PhoneTabsButton.java
+patch 444,518,

@@ -1,0 +1,5 @@
+changeset b1cc4e06979ab207eefff38298c7cf7b574dad7d
+manifest a20b97fe48beeba13eb212ed0a496b8bae5075f2
+extra rebase_source:8d3242edc54bf6505aa2e60cdb08cb0dd9743dd3
+files python/mozlint/mozlint/formatters/stylish.py
+patch 508,582,

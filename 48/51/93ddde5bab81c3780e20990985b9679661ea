@@ -1,0 +1,5 @@
+changeset 02e0770a169643107e35465f690c46f160fca670
+manifest 01ac4b48b6707894f884bacbe3bd259aec21406d
+extra rebase_source:7824fb919b581c944d46565cc12b46b3432d0fc6
+files devtools/client/storage/ui.js
+patch 314,388,

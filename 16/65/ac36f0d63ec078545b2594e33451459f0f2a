@@ -1,0 +1,5 @@
+changeset eed3673082b14f1cf6b1aa8d758d722f64c764cc
+manifest 59dd8fab1f7bbe27b36cb07cee1cf12358ad6d9e
+extra transplant_source:_‚5Âò£ëÍYÉ~;²_¬
+files security/sandbox/linux/SandboxChroot.cpp
+patch 258,348,

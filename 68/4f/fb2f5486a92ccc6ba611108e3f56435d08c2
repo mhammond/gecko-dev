@@ -1,0 +1,4 @@
+changeset 244d6edb84c4b38e7d596c378c7103e565e3caeb
+manifest 7f87c62a8b9a714da763284350751b45d3a100bd
+files taskcluster/scripts/misc/build-clang-windows.sh
+patch 660,661,

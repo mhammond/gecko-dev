@@ -1,0 +1,4 @@
+changeset 864ef38bcac5e5650d1b6bb13e43c622a25c2413
+manifest 8181e481cc39cb02f21ca788d5fc5cf33821aa68
+files mobile/android/base/java/org/mozilla/gecko/annotation/WrapForJNI.java
+patch 524,525,

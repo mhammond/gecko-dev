@@ -1,0 +1,5 @@
+changeset 9ca20bbd81e999b0bdefb7d425d797e5f0c34905
+manifest 7c986c6e6a5a75e34ff7470bc37b8b09be0af1aa
+author nsilva@mozilla.com
+files gfx/thebes/gfxPlatform.cpp
+patch 166,167,

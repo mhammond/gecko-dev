@@ -1,0 +1,4 @@
+changeset e0d9c9cbee73a42a83dbd8d1db9b4f037debcee5
+manifest 3fa876ad2fb7e641e8ae14b8e44da8b42c6f343f
+files media/libcubeb/src/cubeb_wasapi.cpp
+patch 233,234,

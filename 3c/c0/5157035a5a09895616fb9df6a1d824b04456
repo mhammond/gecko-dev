@@ -1,0 +1,4 @@
+changeset f5ed4dae7a9c702eef49c3de3f0fa9b8882e0a17
+manifest c932714d9a357de521dcd1aa3b16fed046dabaaf
+files testing/mozbase/mozlog/mozlog/commandline.py
+patch 282,283,

@@ -1,0 +1,5 @@
+changeset 790d04f41b269f2095ae733c2ffa5c910268cbe7
+manifest ab10c102e9be0bfb851e4b83bf0a08b90840c20d
+extra transplant_source:¢†ö]Ò1	ÛÚŒ°¤ÀÊÕÎ#
+files toolkit/components/telemetry/TelemetrySession.jsm
+patch 312,408,

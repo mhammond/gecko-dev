@@ -1,0 +1,5 @@
+changeset 547340fb951dbfc522c9b28c215a7ee31a144e40
+manifest 46abb07c43d9594c8fa71c0fa63ae9ab2ac6fe54
+extra rebase_source:adba3718d1a646b1446c12f16f969068aae0907d
+files js/src/gc/GCInternals.h
+patch 261,335,

@@ -1,0 +1,4 @@
+changeset 2a383ebb99d5a76b2fdd13b4248368feec57e639
+manifest 78852d2d25d95cd3b57be308cd211cb7fbc20ff9
+files layout/base/nsBidiPresUtils.cpp
+patch 229,230,

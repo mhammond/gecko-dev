@@ -1,0 +1,4 @@
+changeset bf7a327f12ddf2c6f5cd2f68b1083523861fb4b6
+manifest b5ef401cf44e5cd703ecac13a5d0e3175e639d7c
+files extensions/spellcheck/idl/mozISpellCheckingEngine.idl
+patch 205,206,

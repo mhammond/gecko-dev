@@ -1,0 +1,5 @@
+changeset ca9ed07960f52ebc677f3cd4e07a2d57322cd9df
+manifest 5b819f72a339c20e52b6ba3a1f2c355456df6bd0
+extra rebase_source:62a85de968b26230721939838ca4d29d6600b186
+files testing/mozbase/mozsystemmonitor/setup.py
+patch 327,401,

@@ -1,0 +1,4 @@
+changeset fdbf81a4fe9f43919f3951dd448bd651fbe27665
+manifest 140edd77f9926b0ad6f7b87d52066fc281092a42
+files dom/base/nsContentPermissionHelper.cpp
+patch 245,246,

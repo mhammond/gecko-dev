@@ -1,0 +1,5 @@
+changeset 70d9804d875793f80e1bef456e2f8604440f30bb
+manifest bfe0db176492c1ce5f385dcd988211e640764683
+extra source:79d93a35ff024b5c85f3cd96954dd5b22ef8c257
+files testing/mozharness/scripts/desktop_unittest.py
+patch 307,374,

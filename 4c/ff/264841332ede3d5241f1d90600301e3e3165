@@ -1,0 +1,4 @@
+changeset 2c9e3adfb02e5a2a0cc001dc4f703941db88a318
+manifest 1a091a2e42313944c69d869c4c558a6688cbfd9e
+files browser/app/nsBrowserApp.cpp
+patch 188,189,

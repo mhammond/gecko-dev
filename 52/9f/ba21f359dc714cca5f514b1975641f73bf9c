@@ -1,0 +1,4 @@
+changeset d6efa7f330e7b57ebf67c67ed8da58ba591a81b0
+manifest 25e389438f5355cfe5895912621f75fa60080295
+files browser/components/sessionstore/test/browser_595601-restore_hidden.js
+patch 259,260,

@@ -1,0 +1,5 @@
+changeset 1e25c7300f1328ffd87f22ef61b38837fc4dca5c
+manifest 2141db5de5e85d78012878ae0593bb1d42a911f9
+extra rebase_source:4fec48cde29df2e31e6b4008b0fbeebb4d3131a3
+files devtools/client/shared/components/reps/grip.js
+patch 280,354,

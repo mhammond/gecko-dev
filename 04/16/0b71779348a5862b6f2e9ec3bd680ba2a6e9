@@ -1,0 +1,4 @@
+changeset 3d132a280ca0570c9a508a4df85a8c33500e11e6
+manifest 18b730137a9729cac1bf1cd269953b4325249481
+files devtools/client/shared/widgets/tooltip-frame.xhtml
+patch 192,193,

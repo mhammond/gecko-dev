@@ -1,0 +1,4 @@
+changeset 945ba6d7bff3e0a491f536d8cf9cc54c91d958b2
+manifest da831f4eed344abc04dd207bbab4e7b79e1f16e6
+files ipc/glue/MessageChannel.cpp
+patch 536,537,

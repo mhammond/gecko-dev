@@ -1,0 +1,5 @@
+changeset 9c3d676c8fbbec49ebefaecb84d5c3066d78284d
+manifest 988f29b62abc973032970a3ca420aa1000a3d219
+extra rebase_source:514e78f2e1c2cef3b3692656b20daf3b068a4fee
+files security/manager/ssl/nsISecretDecoderRing.idl
+patch 1514,1588,

@@ -1,0 +1,4 @@
+changeset 93487b5d946700ce8b8c66b90714c13c6c4d2a81
+manifest 206b52174eb618b929aef067df894878526c1f3b
+files browser/modules/WindowsPreviewPerTab.jsm
+patch 229,230,

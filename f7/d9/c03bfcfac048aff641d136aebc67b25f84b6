@@ -1,0 +1,5 @@
+changeset a582928834afd671069fb725030fb19af550eddf
+manifest 947c103f56c58e892abc98e1a92a0e7bd2e0e6a7
+extra rebase_source:16bda5f3d7e3d6ffe12757a2e5b90be1151431cd
+files toolkit/content/license.html
+patch 293,367,

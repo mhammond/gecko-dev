@@ -1,0 +1,5 @@
+changeset 3030bd212811abc4329d6bd820bc0220fa896486
+manifest 15ea0f01bae466334cf9036d6e9039a381c5fac6
+extra rebase_source:c869eb7fd5f30a5c2803298a4c7133f46d4b788e
+files devtools/client/sourceeditor/autocomplete.js
+patch 286,360,

@@ -1,0 +1,4 @@
+changeset 0beb66b9b2cc5d8bc9aae9561f1aa00f57399cdb
+manifest a0b381f79f7aace7e6d9e8323613db4e7c7c2e5b
+files js/src/builtin/RegExp.js
+patch 178,179,

@@ -1,0 +1,5 @@
+changeset 45e774e3ceb77799d7cea0d453e631dd18dfacfb
+manifest 61bae886cafaa48aaffefceb61f9550158a072c3
+extra source:ccdaa7a3d5156c7de1dfc9bee5d2244374f96d03
+files dom/canvas/WebGLTextureUpload.cpp
+patch 271,338,

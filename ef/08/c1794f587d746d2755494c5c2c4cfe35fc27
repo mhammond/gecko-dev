@@ -1,0 +1,4 @@
+changeset db24d3cda834aad3e5cd4a05e0e1a9bbb6da3150
+manifest 36d829d6a460d8b39f7cbb69e66da4219ab3ec8a
+files xpcom/threads/MozPromise.h
+patch 246,247,

@@ -1,0 +1,5 @@
+changeset bdd8924b8ebb02104a5709a6b0c8fd8bd8c4a0d2
+manifest 53e88527521693f55d3b6d418fb272e752707bba
+extra source:489b889ae02f182fdf3dd12c0b9e3c470732f674
+files netwerk/test/unit/test_permmgr.js
+patch 311,378,

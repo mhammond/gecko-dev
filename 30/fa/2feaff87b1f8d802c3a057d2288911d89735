@@ -1,0 +1,4 @@
+changeset b2f9a7cdcb514067018f23711c44f0906ed0e6d5
+manifest 2d811627ed9d8335050ca6e32240f6be06de514a
+files mobile/android/base/java/org/mozilla/gecko/util/ColorUtil.java
+patch 190,191,

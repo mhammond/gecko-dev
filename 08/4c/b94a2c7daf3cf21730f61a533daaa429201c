@@ -1,0 +1,4 @@
+changeset a00c7b21dfa4e0d8b70a0143ca285e81e1c34af6
+manifest e5b9187b81b5f128f9a41dc529ced846e7f9d930
+files toolkit/crashreporter/google-breakpad/src/client/linux/minidump_writer/linux_ptrace_dumper.cc
+patch 331,332,

@@ -1,0 +1,4 @@
+changeset 76361667f62b31ebfcca582be1912c268b3a6596
+manifest 4fa00a6f056ccb347d07e3a47ce61d9158b8c125
+files widget/CompositorWidgetProxy.cpp
+patch 211,212,

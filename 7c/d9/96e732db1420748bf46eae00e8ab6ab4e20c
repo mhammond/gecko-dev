@@ -1,0 +1,5 @@
+changeset f25b22784bc95fbe57db5819995d733a980ec213
+manifest 0cef1aa8b0f927ae77196d12a6a08597c63f741f
+extra histedit_source:d6ce06bff319953f2abfa9b3d3acad3386b0a654
+files image/decoders/nsPNGDecoder.cpp
+patch 261,337,

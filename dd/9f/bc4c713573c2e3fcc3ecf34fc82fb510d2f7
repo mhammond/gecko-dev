@@ -1,0 +1,4 @@
+changeset 9b068db8677f6e82169a5abb74f0616fa0ee18a5
+manifest 2f5f8cb9d8bee0cd96046286c1ba2bbee8ce3668
+files browser/components/places/tests/browser/browser_bookmarkProperties_addFolderDefaultButton.js
+patch 277,278,

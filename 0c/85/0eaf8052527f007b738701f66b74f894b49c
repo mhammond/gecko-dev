@@ -1,0 +1,4 @@
+changeset 6581bbe179b96e153cbc54335681cfc5c9195d62
+manifest 277c2f1e43fcf8bb2be4292a48ad99db1f505881
+files toolkit/components/passwordmgr/InsecurePasswordUtils.jsm
+patch 255,256,

@@ -1,0 +1,4 @@
+changeset 13a99304bda65d1a965d2bf51c205c51176efffb
+manifest fd2c5b7ceeeb904d11ee5319f5994800d40f1cf2
+files devtools/client/animationinspector/test/browser.ini
+patch 216,217,

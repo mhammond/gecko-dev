@@ -1,0 +1,4 @@
+changeset 55772f8675f35621f77d50a62d747aba71d7b069
+manifest 7ee37203aadbaa6e8fae5108cdb55d11b1fd3d7a
+files mobile/android/base/java/org/mozilla/gecko/promotion/AddToHomeScreenPromotion.java
+patch 280,281,

@@ -1,0 +1,4 @@
+changeset 3810206dc61f099b8eccdd2fa5f4c90d5cd58641
+manifest d073873dab27d1076007321a242e5759876f4330
+files devtools/client/performance/performance-view.js
+patch 267,268,

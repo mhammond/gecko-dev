@@ -1,0 +1,4 @@
+changeset 93777b56435f7deeba72861929df2d9adc16af9e
+manifest 888cd1f55c0f773ef095bb9c442761d602802945
+files browser/devtools/performance/performance-controller.js
+patch 232,233,

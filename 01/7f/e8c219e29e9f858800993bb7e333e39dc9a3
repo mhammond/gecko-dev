@@ -1,0 +1,4 @@
+changeset 2b2dda648fde70cedb9a0d486e730fdec592b5e6
+manifest a9b7d2292231108a19d5ae228972ee82cf348ce3
+files devtools/client/webconsole/test/browser_webconsole_bug_613280_jsterm_copy.js
+patch 291,292,

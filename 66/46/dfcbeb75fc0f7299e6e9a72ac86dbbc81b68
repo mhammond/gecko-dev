@@ -1,0 +1,4 @@
+changeset e091cd69145afec07f2187546035812dfcb9def6
+manifest 3e9654564b3f6287341d52a1db2560cd4e753449
+files netwerk/socket/nsNamedPipeService.h
+patch 168,169,

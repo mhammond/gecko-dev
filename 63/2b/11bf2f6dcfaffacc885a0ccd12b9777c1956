@@ -1,0 +1,4 @@
+changeset aaac9952244efafe0f37257a795bf44bfa2737e0
+manifest 511ce0c8ef2d07fbef1465e5dc2860cd156d98e7
+files browser/components/extensions/ext-contextMenus.js
+patch 267,268,

@@ -1,0 +1,4 @@
+changeset a4d42eb9721db2302b0cb4310e7049c8a9299abf
+manifest f34024b0c331017ebc0eadee7f417ce2a3c7ab3f
+files browser/components/sessionstore/SessionHistory.jsm
+patch 236,237,

@@ -1,0 +1,4 @@
+changeset 80dbd90c529138a7bd6572833d0c4951a838d9d3
+manifest b9de733903e02e30d20fdd527e2875a13b3a56d4
+files xpcom/ds/nsVariant.cpp
+patch 254,255,

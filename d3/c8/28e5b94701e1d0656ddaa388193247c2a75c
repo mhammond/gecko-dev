@@ -1,0 +1,5 @@
+changeset dadf228376c80971a74f818820030256b331a3f9
+manifest 39f62de0bc73a228f42525ab1e50dae7c3e329b7
+extra source:85e76ff91cb9995d14b30c87a0992b8566c9fca1
+files gfx/thebes/gfxDWriteCommon.cpp
+patch 277,344,

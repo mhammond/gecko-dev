@@ -1,0 +1,5 @@
+changeset b83e637429b054767c9c5b6ae5054b45ee7b5d05
+manifest 8673efaab8a132d7778473988afb6965e1a4f1e4
+extra source:87f8165c1152f2dfd944a784e6fc6c592d0ae38f
+files dom/workers/test/serviceworkers/openWindow_worker.js
+patch 283,350,

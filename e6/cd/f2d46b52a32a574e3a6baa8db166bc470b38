@@ -1,0 +1,5 @@
+changeset ebe83472332c190ada8ed46e183ff91d41b1da69
+manifest 8ab94c9378917b68dd7a31994555612e1f0c1294
+extra source:1ad759d658a3a47c2076fa0ac6dd8896df0ee398
+files xpcom/base/nsConsoleService.cpp
+patch 240,307,

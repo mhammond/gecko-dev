@@ -1,0 +1,5 @@
+changeset e9f0c40c06e1add86ac1831f0561a8931fc16889
+manifest 8201ade0a40906477f024283022ae38d901e5824
+extra amend_source:35f5ce9e53dd286224273e0aefbdcec7ca81e5e5
+files testing/web-platform/tests/html/semantics/interactive-elements/the-details-element/toggleEvent.html
+patch 362,435,

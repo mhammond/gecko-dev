@@ -1,0 +1,5 @@
+changeset 0b6042ee4d0325dadca719383175a46c2e9db6fe
+manifest eefb947087722d5555f353907778a9a18b4d66c2
+extra rebase_source:2db41fb4bb9d86f8064739453354c55a09b76cd8
+files devtools/client/styleeditor/test/browser_styleeditor_private_perwindowpb.js
+patch 375,449,

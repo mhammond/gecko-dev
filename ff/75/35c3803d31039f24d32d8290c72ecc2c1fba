@@ -1,0 +1,4 @@
+changeset e3af4ebf8ffb3f5bd7ef3082986b068c6ae93049
+manifest a79e63f39d56a62bdecb3d8f2d57c196c6916b33
+files browser/components/sessionstore/test/browser_broadcast.js
+patch 279,280,

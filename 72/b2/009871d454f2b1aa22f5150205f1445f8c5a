@@ -1,0 +1,4 @@
+changeset c68650295053ece99cefefee7b7d92ed780e26de
+manifest e132b5679dc14ef684f40e67503b70634d1c8c46
+files dom/xbl/nsXBLPrototypeBinding.cpp
+patch 213,214,

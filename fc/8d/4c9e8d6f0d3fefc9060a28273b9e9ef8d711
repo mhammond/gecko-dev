@@ -1,0 +1,4 @@
+changeset e1ac38c9998e18d62a3b8e02e42959f505522944
+manifest 9fa306de62991734ce06b1bdf08c41de059100d0
+files mobile/android/base/GeckoAppShell.java
+patch 186,187,

@@ -1,0 +1,4 @@
+changeset 6a30466ee2380ef32f106dbea714b8a3196c895c
+manifest 3f04b73617f176cec2bf1da851a9a340d84f478e
+files ipc/dbus/DBusUtils.cpp
+patch 629,630,

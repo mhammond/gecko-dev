@@ -1,0 +1,5 @@
+changeset e38e42efd6cfc915d7105b81d9583af0ba9f1f2d
+manifest 6ee962041a0a898c80f0a0c4456a3b1282f9827a
+extra amend_source:5746458e4c849bd8f158875fb196ef4ae5c49b71
+files mobile/android/base/java/org/mozilla/gecko/favicons/OnFaviconLoadedListener.java
+patch 349,422,

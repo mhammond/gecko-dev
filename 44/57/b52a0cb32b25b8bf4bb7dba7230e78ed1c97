@@ -1,0 +1,4 @@
+changeset 814b316fd833702970f0d73e3cda34032689d2c1
+manifest f520c36b63d4bd108b3d96221cdc9488e901bb93
+files mobile/android/base/gfx/InputConnectionHandler.java
+patch 171,172,

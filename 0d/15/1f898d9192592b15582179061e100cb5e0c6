@@ -1,0 +1,4 @@
+changeset a677aace8abbe5a987e89a1f7754fedc387227c9
+manifest 307eb73f1ef838f98a85eab04b1aa147d14a23a6
+files dom/system/gonk/AudioManager.cpp
+patch 193,194,

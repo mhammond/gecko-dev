@@ -1,0 +1,5 @@
+changeset 86b07e82b7411e80e2b8e51f5a2ef613f727950e
+manifest 0b5b9857d54b640ac5e74af2fde23ad01b382ccc
+extra commitid:ECZsCw90nXa
+files security/manager/ssl/nsNSSComponent.cpp
+patch 241,281,

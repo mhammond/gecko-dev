@@ -1,0 +1,4 @@
+changeset 9786b43543f953d02f0a5621c3ed0804b9ffec0e
+manifest cd38280540801418b93d848e8395b30f4615193c
+files dom/tests/mochitest/bugs/test_bug346659.html
+patch 206,207,

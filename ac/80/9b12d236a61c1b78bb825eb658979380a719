@@ -1,0 +1,4 @@
+changeset 990d9231be8d7417d8733924198a1e3146a19475
+manifest ab39fdc693ecbb46266a760e2c57485c55bfaf30
+files mobile/android/base/java/org/mozilla/gecko/GeckoEditable.java
+patch 335,336,

@@ -1,0 +1,5 @@
+changeset 80c4e997d11488ff9ae5dfa6d6563354f2f94f9a
+manifest fbd0ad2ff25b1df632bf82defb199579bf222084
+extra source:3eca091288e47d48edf843f9e73799d77e60362e
+files browser/themes/shared/customizableui/panelUIOverlay.inc.css
+patch 294,361,

@@ -1,0 +1,4 @@
+changeset 8a74723c089e962e2f3f6c5aee205b55b8f17e00
+manifest cd2e8b3f25052df9c19b268b2f8faaadd71a2f2e
+files js/src/tests/ecma_6/Array/species.js
+patch 176,177,

@@ -1,0 +1,4 @@
+changeset 15c5205c623f27ac030e71a096f0a9bf892b4003
+manifest 790b95b7bea277da912ba9fd3e53fa75a48640b5
+files netwerk/protocol/http/nsHttpTransaction.cpp
+patch 222,223,

@@ -1,0 +1,5 @@
+changeset b7595b0e873652d31aaf1018193dde1f031b33d6
+manifest 8eae57f98d1986dc24722b00b9f1c6dcc8eadb73
+extra source:1baf8579898bcfb1f82171f4cffdff4cc0ddf95b
+files mobile/android/base/java/org/mozilla/gecko/widget/HistoryDividerItemDecoration.java
+patch 343,410,

@@ -1,0 +1,4 @@
+changeset 34182c54281a773dcea0fd78df1a3d0c26b8a48e
+manifest 05d560e8e29de2e0d1d769b692ac2b12224334d1
+files netwerk/dns/effective_tld_names.dat
+patch 192,193,

@@ -1,0 +1,4 @@
+changeset 7c052af6963b9a0bb2f83aaab90cddbd5732b0bd
+manifest bcf29e16e80273b4ff1815c6360272a2f41de2d0
+files dom/events/test/test_continuous_wheel_events.html
+patch 233,234,

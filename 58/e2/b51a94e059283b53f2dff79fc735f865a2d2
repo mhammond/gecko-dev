@@ -1,0 +1,5 @@
+changeset 8372f42d53da0c965b2c08ab7960c0d591ebe94a
+manifest 8cfc3604ecfbd89f421db06abe3dbe27cfa1fb24
+extra source:553a9575ad40687f2a5486b1170de0ae8a280015
+files toolkit/components/places/Shutdown.cpp
+patch 324,391,

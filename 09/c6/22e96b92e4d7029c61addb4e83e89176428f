@@ -1,0 +1,4 @@
+changeset 4ce461d9ec8e87dcfcfc9f5d2ab1f405b2e4318f
+manifest 6c2cbf7fbcb391bd7016d009a193e6ddfb3ecc20
+files js/src/vm/Shape.h
+patch 287,288,

@@ -1,0 +1,4 @@
+changeset 94a95bceb22fce77631ed0f6c3709b91b7058422
+manifest 57c3595850784b511d7968473f265645770543ee
+files xpcom/ds/nsObserverService.cpp
+patch 237,238,

@@ -1,0 +1,4 @@
+changeset 537758790a9427beb8db3c57b1fa1de1ee74ebe6
+manifest efde9a7c3510982303f5b5619380df4816615622
+files js/xpconnect/src/event_impl_gen.conf.in
+patch 187,188,

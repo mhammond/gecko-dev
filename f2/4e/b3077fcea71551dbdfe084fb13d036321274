@@ -1,0 +1,5 @@
+changeset 7f6f9c513651acef8a20295a9d144cb3ee48275f
+manifest 23a8095dd1941a85e8550a60b6f2979c58f10a62
+extra rebase_source:8c567cc3a6e986c56407c111b6265c5d215fca64
+files js/src/jsexn.cpp
+patch 242,316,

@@ -1,0 +1,5 @@
+changeset 1389a10c45421c088b236620904f77f30f15dbcb
+manifest 7c4dace3ff946326f91ebac0acd34327f3c35e8d
+extra source:4b4bedf4f6bb0e5956684f5890650b105573ef58
+files dom/apps/UserCustomizations.jsm
+patch 245,312,

@@ -1,0 +1,4 @@
+changeset f8993cea9f8e2f34581a054570f3be8ba697bb73
+manifest 5531bd93513347709cfa80e16468b1a2f27506c3
+files js/xpconnect/wrappers/AddonWrapper.cpp
+patch 187,188,

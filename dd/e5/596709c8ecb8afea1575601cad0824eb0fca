@@ -1,0 +1,5 @@
+changeset 8cc2ebfd125a2550a902b5b014e9c49106e01cf2
+manifest 3ab524f2ecbe6a0e3b1223861f464d5c31418365
+extra rebase_source:bbbbe3505410394fb4ae7c84062f4238066830f2
+files configure.in
+patch 441,515,

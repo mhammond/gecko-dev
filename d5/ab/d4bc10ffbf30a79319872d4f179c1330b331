@@ -1,0 +1,4 @@
+changeset dab23401215e52a635b7644e1edb654882dd2122
+manifest 12182120fed3ac33d63603b254cc62c749ed8b6b
+files browser/components/loop/modules/LoopStorage.jsm
+patch 237,238,

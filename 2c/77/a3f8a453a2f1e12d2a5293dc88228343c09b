@@ -1,0 +1,4 @@
+changeset 5cffb3b5b2fbc663a7e2fd75bee25449bc3f5e67
+manifest 129b36ee0088cae3c8b1b3abc6f8eba62cfc65b9
+files browser/components/loop/test/xpcshell/test_looprooms.js
+patch 294,295,

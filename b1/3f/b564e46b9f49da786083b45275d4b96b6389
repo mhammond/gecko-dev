@@ -1,0 +1,4 @@
+changeset 8361648d9079c25967cfff051ae8c703941b4cc9
+manifest 403ca005fb9c038082753038a50e11812c456583
+files python/mozbuild/mozpack/packager/formats.py
+patch 277,278,

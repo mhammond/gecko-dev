@@ -1,0 +1,5 @@
+changeset 375f6cbd79b2d3e986f0e3aa40fe4e4dbbbcfc30
+manifest 35e4b12479150fa0f5cfcc852e45245c2875d497
+extra rebase_source:5a2365e1c81df81c7dfe9696f3499c844035634e
+files browser/tools/mozscreenshots/mozscreenshots/extension/configurations/PermissionPrompts.jsm
+patch 368,442,

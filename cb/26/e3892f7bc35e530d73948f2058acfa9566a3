@@ -1,0 +1,5 @@
+changeset 74be7a5aa2ed3cec0d40db3e58ab730a46d704bb
+manifest 8b9cfeeee903de41218381dfe7a53992a2e78af0
+extra rebase_source:820fb6a1a3562bb3d6aa62294338f1328f0fb1c4
+files mfbt/TypeTraits.h
+patch 276,350,

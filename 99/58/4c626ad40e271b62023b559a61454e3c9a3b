@@ -1,0 +1,4 @@
+changeset cd8e55e9191cb12f7d7f009477afc90e568c5ebc
+manifest 655b349e7d3244819253e177dc0dcfec4a39d9b5
+files build/win64/mozconfig.vs2010
+patch 211,212,

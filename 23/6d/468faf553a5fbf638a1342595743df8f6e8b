@@ -1,0 +1,4 @@
+changeset 8db10fbfc5067ddcc5509041284e2a6dabab6cf7
+manifest acfb8fa3c3de618d1febee6e5f4131fbe4e89b29
+files mobile/android/tests/browser/robocop/src/org/mozilla/gecko/tests/testGeckoProfile.java
+patch 297,298,

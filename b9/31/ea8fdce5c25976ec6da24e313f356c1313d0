@@ -1,0 +1,4 @@
+changeset dd45b61c143bef8e00c5a7b3f4fef46dc76d6845
+manifest f3d78c7ca1261b84eb9702ede23d77c5e4aefc0b
+files toolkit/components/telemetry/TelemetryStartup.js
+patch 197,198,

@@ -1,0 +1,4 @@
+changeset 6787d2ac55923e28b22beea92561d8fcbe782338
+manifest 9e2ca9a73cbe33b692c5f3b79b8ce8e7c4481080
+files js/src/tests/ecma_6/ArrayBuffer/slice-species.js
+patch 188,189,

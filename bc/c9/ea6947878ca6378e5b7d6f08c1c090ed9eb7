@@ -1,0 +1,4 @@
+changeset b1156b0eb96fcb49966b20e5fcf6a01f634ea2ee
+manifest a17d43c29f1d3dfb86426c100439c535337c8e73
+files devtools/client/debugger/new/test/mochitest/browser_dbg_stub.js
+patch 189,190,

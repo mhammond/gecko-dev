@@ -1,0 +1,4 @@
+changeset c13f5cbbfb23d4ec20cb53bb5ccc27edb94f0a69
+manifest 22a15063cc1e5af11ccfa1580a8002dcce266b40
+files content/svg/content/src/nsDOMSVGZoomEvent.cpp
+patch 229,230,

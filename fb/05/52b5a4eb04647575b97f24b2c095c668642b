@@ -1,0 +1,5 @@
+changeset d204dd3fd48ba5016d57489bc0afce1bc2e0bd64
+manifest 9a1f3a4e55b1ebc18405da07c96acb64c93e5109
+extra branch:GECKO380_2015050320_RELBRANCH
+files gfx/thebes/gfxWindowsPlatform.cpp
+patch 231,279,

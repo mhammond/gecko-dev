@@ -1,0 +1,4 @@
+changeset ce0eabb6eb5a3921d72f2a91426b56984195c4bc
+manifest f800f11d797b5f0e07c03f6580943a033cfbf0f9
+files toolkit/components/places/nsLivemarkService.js
+patch 245,246,

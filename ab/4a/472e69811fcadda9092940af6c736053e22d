@@ -1,0 +1,4 @@
+changeset aeb1e15857b375d8aa2c7b0d5d6e83965228e5c5
+manifest 6df96aa8d67e7352f47659e8c9388d17dfaeb3af
+files browser/extensions/pdfjs/content/PdfjsChromeUtils.jsm
+patch 226,227,

@@ -1,0 +1,5 @@
+changeset 756a94ac475423c8f015e2bf9aaffdf2a11aed3e
+manifest b68b097277f828bbd60a609700a7381ba4004d12
+extra rebase_source:40b7b568f314d2fcb331bc137e1520e8fc55d934
+files dom/promise/tests/chrome.ini
+patch 310,384,

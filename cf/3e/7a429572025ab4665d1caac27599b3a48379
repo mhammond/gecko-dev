@@ -1,0 +1,5 @@
+changeset 11e8fbe5bf4666f04a219a6f71e3477782790d3e
+manifest 068f62b659f80af3cdfafc4b7b3b4f9ce4c02861
+extra rebase_source:a7f7bae1ad7b18a15f2fd52161920eaac43c6d01
+files layout/style/nsRuleNode.cpp
+patch 295,369,

@@ -1,0 +1,5 @@
+changeset c20f12a0e9add62a17ccf8a671dd96d4f9e6e8bf
+manifest 7d5a190c0f93ce2eb4df0a327637e47588d4fce7
+extra rebase_source:8200cd1c3f1c8c2db9f6193b3b5c28f23a3c272e
+files browser/components/places/content/treeView.js
+patch 320,394,

@@ -1,0 +1,5 @@
+changeset 39c568d733dcab5bacc6c0c6918b9169508e4547
+manifest b929c54797c7e6cd1478dcf9e56c5bd68774aa5f
+extra source:2cfe0596c5e9cef4adc8a60de3d5c012198f2beb
+files media/webrtc/trunk/webrtc/build/common.gypi
+patch 317,384,

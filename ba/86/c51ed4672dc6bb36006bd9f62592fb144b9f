@@ -1,0 +1,5 @@
+changeset bedbb4638d284b1d5f46c1aca3dedb4e5dc27209
+manifest 41be5e86fbf9232010fe44f1ed00c3e54c01ef66
+extra rebase_source:fabcb9b2edc214897791f813bde9c6c86296ecae
+files testing/docker/desktop-build/Dockerfile
+patch 251,325,

@@ -1,0 +1,5 @@
+changeset 58fab9169d7b634335899880032f300b003c9a02
+manifest 964d875cbfd8c96b9565852c50955064f12c14af
+extra rebase_source:a152300122c34fa96ea464fe1bec4e4353bed905
+files toolkit/components/satchel/test/test_bug_787624.html
+patch 310,384,

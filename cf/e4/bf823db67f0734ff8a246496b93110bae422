@@ -1,0 +1,4 @@
+changeset dde166b9f09e89a2ba68cb2a6bd4789e92c705f9
+manifest 0991ab4ce56c5986fc891e4839317bf46a7fa4f8
+files dom/apps/src/OfflineCacheInstaller.jsm
+patch 260,261,

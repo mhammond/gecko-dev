@@ -1,0 +1,4 @@
+changeset ac748438a039995f2230f6875ef858b06e982d9e
+manifest 32ef77fcd6f701488af74fe1cfddd84ec275f4d3
+files dom/tests/mochitest/fetch/test_fetch_cors.js
+patch 265,266,

@@ -1,0 +1,5 @@
+changeset 4b8da9a408a184c0a83cc96452b627111ba4f39c
+manifest 7e546b80cf99b44bb368e0ea1641389b4ddf3bda
+extra rebase_source:5a2aeff96ee46b0932dd23018898be3e537dbf38
+files dom/apps/AppsServiceChild.jsm
+patch 301,375,

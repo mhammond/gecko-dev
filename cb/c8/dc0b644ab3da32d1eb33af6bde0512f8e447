@@ -1,0 +1,6 @@
+changeset d6836561de7b0f96c977cc2e1f5b348030a7107d
+manifest 93f91606a64dd1f167cb53452a64d1ac1c2b5014
+author timeless@mozdev.org
+extra rebase_source:4c4529a62c5acb7bba52e8cb94e69e795a85b7e1
+files security/manager/ssl/nsCertTree.cpp
+patch 250,324,

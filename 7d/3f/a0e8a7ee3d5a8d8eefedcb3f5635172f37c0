@@ -1,0 +1,4 @@
+changeset 10a2b6ebcd44a3516673f51da14b760de7fd3bc0
+manifest ded717221fac7567f5359d7b17b10bba64e74be8
+files editor/libeditor/tests/test_selection_move_commands.xul
+patch 291,292,

@@ -1,0 +1,4 @@
+changeset 3e0850dcf03ecc24f988c93cf0f98cd45989b17f
+manifest c89a27bd1b6fa37dac19cf5211cb665259d9ef6b
+files devtools/client/responsive.html/test/browser/head.js
+patch 306,307,

@@ -1,0 +1,4 @@
+changeset 4b58c0933e10df637b4e501aade7bc2b19632d72
+manifest 53e99eef98a43c050189d6c351e6a74893a9864e
+files js/src/jit/mips64/CodeGenerator-mips64.cpp
+patch 314,315,

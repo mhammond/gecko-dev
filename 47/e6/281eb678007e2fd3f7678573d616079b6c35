@@ -1,0 +1,5 @@
+changeset d13e7c16c4b717d80aa6f4102e3e6ddb0f5922fb
+manifest 6ac5a6ae121e98df654ee825780badcc23ab2228
+extra amend_source:4c18209e03487599d2e7756dab07047b4cd3a033
+files dom/html/HTMLExtAppElement.cpp
+patch 238,311,

@@ -1,0 +1,4 @@
+changeset 77d7097247b356d63970df18e4c3d42f0b90a2a5
+manifest ad13699fa9107ca33d1011c3354d6aaab508cb96
+files browser/components/preferences/tests/browser_cookies_exceptions.js
+patch 330,331,

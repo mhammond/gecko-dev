@@ -1,0 +1,5 @@
+changeset d9a501cd1b1d786f79e7f15549b452ca3665c7af
+manifest 424261c102d92ab98518f20fce2cde407e25c749
+extra source:d378fad1aa9ceb67dbfcc7afaf5138542b292459
+files gfx/gl/GLReadTexImageHelper.cpp
+patch 260,327,

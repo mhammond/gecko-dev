@@ -1,0 +1,5 @@
+changeset ce6bd69e09fb1927631d5a4aa0b66913e17a90a2
+manifest 76bc35183befe1c43316e5d36375e8bd4b3e8169
+extra rebase_source:1dbb14b3a8a417a1343a1dff0a1cc928e74f9f1b
+files netwerk/base/PrivateBrowsingChannel.h
+patch 326,400,

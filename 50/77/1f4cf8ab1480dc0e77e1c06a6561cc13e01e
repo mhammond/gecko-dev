@@ -1,0 +1,4 @@
+changeset 8eac2429297cb163e17e4df3c616ed879d7f11ca
+manifest e2cd67bc6fb02a7cf9daa260dec669bfd65c1f4e
+files js/src/methodjit/FastBuiltins.cpp
+patch 162,163,

@@ -1,0 +1,4 @@
+changeset 8ca0d6de9f02b6e7c80f450c7febc15fde9170f3
+manifest a177fa1596b85380ae927d157a337829ea0c074a
+files browser/devtools/shared/timeline/global.js
+patch 251,252,

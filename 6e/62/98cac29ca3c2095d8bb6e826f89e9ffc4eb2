@@ -1,0 +1,5 @@
+changeset 8ab39d701f57e4fe3f8588ecbbbc9fb0ae2ddbd1
+manifest f74f5cebfe3aa398b8665c0a0577303ae292220c
+extra rebase_source:bcb8bbc2e3d91368a5fed2a4845395ab9a04c6a5
+files media/libtheora/moz.build
+patch 305,379,

@@ -1,0 +1,4 @@
+changeset 10fd0046cf6f477a630f8afe19ee9d16578b4aaf
+manifest 9090e3a04373de0a0c0175cfe60a4b375c2fabef
+files image/decoders/nsGIFDecoder2.cpp
+patch 268,269,

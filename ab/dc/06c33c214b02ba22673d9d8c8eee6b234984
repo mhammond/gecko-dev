@@ -1,0 +1,4 @@
+changeset 0b816b4edef01757b359dbdec7cdd39c3bdccfd7
+manifest d02b20f1e04d2fd24ae507592e859700f32a14fd
+files mobile/android/gradle/base/build.gradle
+patch 207,208,

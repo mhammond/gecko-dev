@@ -1,0 +1,4 @@
+changeset 8bf86cba7364722210b68241f5e785104bf3f5e0
+manifest 852783e2f4fffb888687b9bb2db5b3659220f888
+files js/xpconnect/src/XPCQuickStubs.h
+patch 208,209,

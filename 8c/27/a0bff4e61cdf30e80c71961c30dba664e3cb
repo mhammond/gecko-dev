@@ -1,0 +1,5 @@
+changeset 125fb532285479feaffb06fb09c40a3e37ccefae
+manifest b1dc26b939891630cde54edf8352c4240fe3c5b0
+extra source:9af574254ea0f28eb8269d92c290150dda28bd1d
+files mobile/android/base/home/HomeConfig.java
+patch 266,333,

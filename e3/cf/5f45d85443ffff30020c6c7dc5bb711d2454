@@ -1,0 +1,4 @@
+changeset 2d375de6447779e8b88e6a4cb385d5ef1ce2cc30
+manifest 0bd47eed05bf2b3d0b528418aa1de7bc32aaa29e
+files toolkit/components/telemetry/TelemetryHistogram.cpp
+patch 529,530,

@@ -1,0 +1,4 @@
+changeset ca4c1a98558b205c4070a5696f423db0e0cc40d6
+manifest e7bbcc62a3dc351267fd1c0d72f5b8a66226638c
+files widget/gonk/HwcComposer2D.cpp
+patch 372,373,

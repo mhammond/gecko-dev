@@ -1,0 +1,5 @@
+changeset e8fc47bc5bf4e9dca139fee85ccae835e91fab46
+manifest 68fb375c0e326977c81e2812e091fafa4548cff9
+extra rebase_source:4baf187061a7e59567772ef0bc407cf6d8c6db33
+files gfx/src/DriverInitCrashDetection.cpp
+patch 240,314,

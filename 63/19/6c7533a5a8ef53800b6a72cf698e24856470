@@ -1,0 +1,5 @@
+changeset 17daca58e46ecad0b5cb08fc2e39068ff44e54fc
+manifest 09971b30d528cb772234006e01800e2d466e1529
+extra rebase_source:1313c90202311b7dcfceef64f36a5382878a8fcc
+files netwerk/socket/nsSOCKS4SocketProvider.h
+patch 271,345,

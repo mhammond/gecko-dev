@@ -1,0 +1,4 @@
+changeset 50589eee260b2d086a89c747fbe0332a6cc15652
+manifest a680de40ac30aea9ed08b1e426f095e3252018ac
+files devtools/client/shared/widgets/TableWidget.js
+patch 222,223,

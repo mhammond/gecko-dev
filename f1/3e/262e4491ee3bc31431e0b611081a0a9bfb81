@@ -1,0 +1,5 @@
+changeset dc374fac9f6b8c7fcaac1b0e95a69797ca0f0f3e
+manifest ce19e451c0de9e0cb6c263884e7ae29643844720
+author mozilla@weilbacher.org
+files widget/src/os2/nsRwsService.cpp
+patch 205,206,

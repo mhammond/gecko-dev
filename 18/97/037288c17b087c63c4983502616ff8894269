@@ -1,0 +1,4 @@
+changeset af6ad83d570f4ddb0cbcea48f3aa2899af6b3034
+manifest 665864ebfda6b36dc1afa48d29b744369919c638
+files testing/tools/screenshot/gdk-screenshot.cpp
+patch 218,219,

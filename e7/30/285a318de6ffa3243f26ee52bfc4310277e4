@@ -1,0 +1,5 @@
+changeset 714566fb31ec58b36489c6cbd9a4904fac3da778
+manifest ae0abd7cb7873f1f00612fa1ba8f7e4fe1112869
+extra rebase_source:b4993fdfc01f04397de6c5a2d2729b4de023ce5f
+files mobile/android/base/java/org/mozilla/gecko/icons/preparation/FilterMimeTypes.java
+patch 363,437,

@@ -1,0 +1,4 @@
+changeset 24505d927c2eeb6635f4de800cfd1e0a2c6909da
+manifest d99701fa7c19598138cea5da0d6f0c809b17b53d
+files dom/camera/GonkRecorder.cpp
+patch 193,194,

@@ -1,0 +1,5 @@
+changeset 6233844593ae55045c4fb687808fbc412882e4c3
+manifest aeaf932159d50b68796be1831956c3f573021e45
+extra rebase_source:0b5133f2eea6d26ab4e190dc6bf060b6c580703a
+files browser/base/content/nsContextMenu.js
+patch 297,371,

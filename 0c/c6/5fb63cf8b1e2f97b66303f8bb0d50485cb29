@@ -1,0 +1,5 @@
+changeset 576b11c81977d3221f60da786721ec2296ee3740
+manifest 8793a06f90a537c9a304789ddd598aad168effb5
+extra source:bdbf2adc3dab5a9440cdc7b14878af34b2e44d08
+files dom/media/webaudio/MediaStreamAudioSourceNode.cpp
+patch 296,363,

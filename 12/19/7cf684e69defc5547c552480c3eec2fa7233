@@ -1,0 +1,5 @@
+changeset ee18f1f6fdd499118dbec2b493f4119600e3f4d6
+manifest 1af479ae5f292f798d5754a27f6ce54bd796a4a8
+extra commitid:3YYujX3XztY
+files browser/devtools/markupview/test/browser_markupview_dragdrop_isDragging.js
+patch 288,328,

@@ -1,0 +1,5 @@
+changeset 0f2acb5edb41591a1c109eac293ee16ec3c6e38b
+manifest 716b8d94daf1a55c878ce68417c76749d7be9767
+extra rebase_source:eaa1ddd801872c14860e3bd81645bc99d56d8e4b
+files image/encoders/bmp/nsBMPEncoder.cpp
+patch 534,608,

@@ -1,0 +1,6 @@
+changeset 48ea157bc34fdd7f6a9aa579e702604f9f82ffd0
+manifest 0dc9f6707553cac099db266fa88123674ce33df6
+author <rototor>
+extra rebase_source:dd951364914eb22de13bfbe4b45e5b974528c705
+files gfx/layers/basic/BasicCompositor.cpp
+patch 283,357,

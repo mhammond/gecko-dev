@@ -1,0 +1,4 @@
+changeset f19f79a63cf2ba41229ffa0ff919085a05afd4ec
+manifest 877d748aa2f2aef162a8bb8451843be62b6611ff
+files modules/libmar/sign/mar_sign.c
+patch 275,276,

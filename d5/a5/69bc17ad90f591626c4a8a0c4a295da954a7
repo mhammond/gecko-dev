@@ -1,0 +1,4 @@
+changeset 625ba7fc4b96abe8474f5f478b39692e72dd1233
+manifest d04b9df4d840183663365adaf0685957df1b5352
+files browser/components/feeds/FeedWriter.js
+patch 242,243,

@@ -1,0 +1,5 @@
+changeset 480fb9568d5dd175362be22361c114b362d8cb51
+manifest 999ae0577994b8d8a360671b6173cbff50566124
+extra source:22b947fac391a191a0f919a4ac26d8b96e7f2eeb
+files docshell/test/navigation/mochitest.ini
+patch 272,339,

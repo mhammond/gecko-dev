@@ -1,0 +1,4 @@
+changeset 4a8ed77f6bb573f20980056bf8c1dadd125c1a85
+manifest 25fb6a052c7fbc9ef131290c5867b869aa1e2e6d
+files mobile/android/base/java/org/mozilla/gecko/gfx/GLController.java
+patch 230,231,

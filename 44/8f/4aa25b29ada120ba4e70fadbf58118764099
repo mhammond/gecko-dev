@@ -1,0 +1,4 @@
+changeset 024cf684488b67fd129f15e5a82a0e51304735be
+manifest ed99e922b06c152c1ba7c02033366b041b2e2cd9
+files browser/base/content/test/newtab/head.js
+patch 238,239,

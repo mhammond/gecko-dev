@@ -1,0 +1,5 @@
+changeset 974036be05fa780a93198fa8322bbcdea8e0e9b7
+manifest e15166ddf6dc3fa1b35fcaf5649affad1fc21bce
+extra rebase_source:03392db5370b32f04dd3f02503060272358afabb
+files mobile/android/base/toolbar/ToolbarEditText.java
+patch 260,334,

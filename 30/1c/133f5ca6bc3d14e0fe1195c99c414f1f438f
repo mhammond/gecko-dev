@@ -1,0 +1,5 @@
+changeset b79c51ca296e2679108429029e31f6c84ae1f0d7
+manifest 7125fef6cb128b51d14c9ac51643622747a55c01
+extra rebase_source:d8d721392c88883fddf7959ca40ea194f91483c9
+files dom/bindings/mozwebidlcodegen/test/test_mozwebidlcodegen.py
+patch 584,658,

@@ -1,0 +1,4 @@
+changeset e40f1831de1ebfa17707049e28f10e78592b9eed
+manifest 5fa3951df60f16b4bef9674afcc8f949e87b400d
+files xpcom/glue/nsTHashtable.h
+patch 358,359,

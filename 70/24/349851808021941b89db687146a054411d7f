@@ -1,0 +1,4 @@
+changeset d9b67ef4fb0a2f2de2c398034ffe027c07aae8e9
+manifest 300a324c5ca07f05a5518c5cd396af354b2f3111
+files js/src/vm/String.cpp
+patch 179,180,

@@ -1,0 +1,5 @@
+changeset 25c7f7eb112ccea20e2083a38499ae5f12097480
+manifest 70522017229db06bf3f73816c1a859bc1653ef3f
+extra rebase_source:ea4f5a11c6f5bcbcee0c0d8d751ba7289bbf61c9
+files gfx/layers/ipc/CompositorBridgeParent.h
+patch 347,421,

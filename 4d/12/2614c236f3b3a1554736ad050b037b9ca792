@@ -1,0 +1,5 @@
+changeset d1b1f80184ca7b43283c36eea73ea03803140078
+manifest 4f3b78978d0cd6b43603bb030e46ed9db6ef22c1
+extra rebase_source:891c0271a5a6d58f2a94880a6e3c2ef3efe0d5e7
+files browser/modules/CaptivePortalWatcher.jsm
+patch 287,361,

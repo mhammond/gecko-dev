@@ -1,0 +1,5 @@
+changeset d3d45f7fa087c2c15742bd572ec45e01d1151911
+manifest e9a62818311b2b3a0cc657978117decc461288a4
+author jdarcangelo
+files netwerk/dns/mdns/libmdns/fallback/MulticastDNS.jsm
+patch 204,205,

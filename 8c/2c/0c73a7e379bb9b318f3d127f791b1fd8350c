@@ -1,0 +1,5 @@
+changeset 3322ea94dacb87e3934c1c0d0fe560295fcdf9c4
+manifest 72435139e7bb863f51e7ad42e97650f01b0d5085
+extra rebase_source:6fda52a9d5fb2a72f0f5f66d096a1017f02ec7f7
+files xpcom/typelib/xpt/xpt_struct.cpp
+patch 273,347,

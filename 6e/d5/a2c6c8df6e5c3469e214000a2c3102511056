@@ -1,0 +1,4 @@
+changeset 059f102b3567aba630b95833c7f9f4c737f95a1f
+manifest a20130b29390cfbaf2cd9311968a76b1fead2c13
+files dom/base/nsPerformance.cpp
+patch 266,267,

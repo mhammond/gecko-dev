@@ -1,0 +1,5 @@
+changeset b888d1d778b8c29c52375e98f9343272c5d2469f
+manifest 8ced9cb7c03b1bec146c0a6dc21f8cc6ec112256
+extra rebase_source:be2718204d4dacd5f3353060b39010ab134fe68d
+files layout/tools/reftest/reftest-analyzer-structured.xhtml
+patch 484,669,

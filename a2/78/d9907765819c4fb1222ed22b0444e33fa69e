@@ -1,0 +1,4 @@
+changeset a65d0872089a20254f800e3c21c5a35383fd4af6
+manifest 5c0a72cf300ae1aab7e0852203cba95993968dd3
+files dom/base/nsDocument.h
+patch 242,243,

@@ -1,0 +1,5 @@
+changeset 791d2d978ef7158273e2dff0f048ef546ec5ad7f
+manifest 76d8489856014f13b0851ff1ced531e8c56dde5d
+extra rebase_source:c2cdd6b300b750a8d964f73292d81d2fc74dd9cf
+files extensions/cookie/test/unit/test_permmanager_defaults.js
+patch 299,373,

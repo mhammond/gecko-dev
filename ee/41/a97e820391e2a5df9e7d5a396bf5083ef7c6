@@ -1,0 +1,4 @@
+changeset d0ad8d0da0ef0c0a7fdfeacdf3f8622531baed45
+manifest dfbe2ed8f8461203badd1e2066ccb80e89508dfa
+files toolkit/components/telemetry/docs/collection/scalars.rst
+patch 209,210,

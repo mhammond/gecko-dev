@@ -1,0 +1,4 @@
+changeset 2265bb2e41eded6751a4aa2f1d63d7e76a69440e
+manifest c9abc433db4ebaf46740b0a81e7e1e9079f60540
+files browser/components/loop/MozLoopAPI.jsm
+patch 249,250,

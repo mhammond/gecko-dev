@@ -1,0 +1,5 @@
+changeset 96412ec21495ad1be9965eb64b7263466446b4c4
+manifest 2ac2246ad5b48b5607d4aeac7f5e2f71bb997e83
+extra rebase_source:820de90d0844e1519f9e02a583c8cc3abf1dfdc0
+files build/moz.configure/rust.configure
+patch 392,466,

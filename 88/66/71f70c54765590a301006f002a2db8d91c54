@@ -1,0 +1,5 @@
+changeset 20f5f2164454d1b9b25cfc41a702f41f4166afb0
+manifest c7a0780397412fad167c3fca505108bc698f4ff1
+extra rebase_source:4ed0e6ef761b165108b8581077f2bf7eddd02274
+files xpcom/idl-parser/xpidl/typelib.py
+patch 1217,1291,

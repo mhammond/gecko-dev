@@ -1,0 +1,4 @@
+changeset 3da399e85ae56c913ca67fb0e7bff5732640d5f1
+manifest 77b45a400255b6f1c6726b95c28abbcc9185af96
+files browser/modules/BrowserUsageTelemetry.jsm
+patch 301,302,

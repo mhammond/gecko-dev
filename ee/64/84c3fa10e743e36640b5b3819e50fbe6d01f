@@ -1,0 +1,5 @@
+changeset cf30f2236629339e4845df17771b18f652a0ca00
+manifest 56ef7cd6a9e6586587a8d7238b40f1f90c4201e4
+extra rebase_source:8107bbca70b0e1e6208cc37f114ad524472174b8
+files python/mozboot/mozboot/windows.py
+patch 434,508,

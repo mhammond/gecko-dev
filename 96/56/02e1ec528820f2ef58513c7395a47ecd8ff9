@@ -1,0 +1,5 @@
+changeset 142fd07295b031014a9a221c08d34dbd4809a446
+manifest 5816fc6beeabf0f30db9bba4b1f1371eb320a805
+extra rebase_source:d79b75ff19d80352775d9ee3e895be9a91c591b1
+files addon-sdk/source/lib/sdk/l10n/properties/core.js
+patch 320,394,

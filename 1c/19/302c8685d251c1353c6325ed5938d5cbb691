@@ -1,0 +1,4 @@
+changeset fdbc5ad618facce8b3e8abc2c9f8f409934b2df2
+manifest 0a9c11e4389f394735586e8ddbfd6fc6c79d0d68
+files mozglue/build/SSE.cpp
+patch 304,305,

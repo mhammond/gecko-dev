@@ -1,0 +1,5 @@
+changeset b050868120226fbcf67bf0c4d162755ea656f7ac
+manifest 168ee932560b88a75fbefaf9f2dc3e71a9c0fb6b
+author Jorg K
+files netwerk/streamconv/converters/mozTXTToHTMLConv.cpp
+patch 186,187,

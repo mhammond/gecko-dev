@@ -1,0 +1,4 @@
+changeset d02aa2e38f40de0af48ef22a726bf11c202682d1
+manifest f537c7b6dd0a829ba7f3aed6a00923bcccaae7e4
+files hal/gonk/GonkHal.cpp
+patch 664,665,

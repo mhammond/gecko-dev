@@ -1,0 +1,5 @@
+changeset fc1cb5366882e142eb6b5f455e07f5d3dd435883
+manifest 98e6d1a2881170f37e86c624589524051b15dce9
+extra rebase_source:fb9a0d88a976d6eb24cc483bb6ad6deefe6aa67f
+files mobile/android/base/java/org/mozilla/gecko/javaaddons/JavaAddonManagerV1.java
+patch 346,420,

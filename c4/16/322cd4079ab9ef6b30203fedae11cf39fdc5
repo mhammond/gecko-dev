@@ -1,0 +1,5 @@
+changeset 5511d54a3f172c1d68f98cc55dce4de1d0ba1b51
+manifest 99672145c990129c1c69e7e573426c17c04c83a3
+extra source:0e1aa8af35b8e3fc54a2e041e131852c76f73d0c
+files toolkit/content/tests/widgets/chrome.ini
+patch 352,419,

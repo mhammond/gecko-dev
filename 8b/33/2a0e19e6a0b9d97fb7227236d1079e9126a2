@@ -1,0 +1,4 @@
+changeset 24bc2ae19c59933b870b0c12b70240a5bc21ce88
+manifest 17ff45f6f02e14008a821ee570ff855b64c4d196
+files dom/mobilemessage/src/gonk/MobileMessageDB.jsm
+patch 237,238,

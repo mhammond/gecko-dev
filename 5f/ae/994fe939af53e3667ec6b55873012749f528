@@ -1,0 +1,4 @@
+changeset 879dc05431d9944b16f75b9b064e3206772ddfd4
+manifest 39d77efdcaf76b7a9fb965cc8f9d0219323edf7d
+files dom/base/nsGlobalWindow.cpp
+patch 331,332,

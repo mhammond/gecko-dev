@@ -1,0 +1,4 @@
+changeset ba45d78e7b808370798c85d779a50c7817dce7b5
+manifest 07c8ecb70776e43998dc2e1c30a44ace5928d029
+files mobile/android/base/gfx/GeckoLayerClient.java
+patch 186,187,

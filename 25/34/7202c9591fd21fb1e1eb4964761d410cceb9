@@ -1,0 +1,4 @@
+changeset 48d6981fbef25b2c0ff0e66a3d3be2aa8c81fb1b
+manifest 511f78991387b46b5b8fc75c54c89df105d1969b
+files toolkit/components/telemetry/docs/collection/custom-pings.rst
+patch 260,261,

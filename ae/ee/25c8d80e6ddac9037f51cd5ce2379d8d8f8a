@@ -1,0 +1,4 @@
+changeset 51b6baf691d84cd054e92407018eaa7697603ccc
+manifest d930a1057d5095c40e35c9352ebea428fbe45965
+files addon-sdk/source/test/test-child_process.js
+patch 198,199,

@@ -1,0 +1,4 @@
+changeset cbc84ba469d7ea7c5e769efd5fd725f0cf254313
+manifest 9a11c76a4d56ff82ef006dd52a3f9bd1aefd1c98
+files dom/events/DataTransfer.cpp
+patch 373,374,

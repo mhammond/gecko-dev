@@ -1,0 +1,5 @@
+changeset 629e1c3ff500b93b146a420129120ea562d43dd8
+manifest dc01351cef0faa320b03cdcda6c9ca8c39032a39
+extra rebase_source:7588b343ef509c26c8b2880cda385a2019252df6
+files taskcluster/ci/legacy/tasks/builds/haz_shell_linux.yml
+patch 292,366,

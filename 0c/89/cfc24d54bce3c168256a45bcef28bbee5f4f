@@ -1,0 +1,5 @@
+changeset 6f420e6fc240db9e2f389f7b95e6817a246d00c2
+manifest d40656f3890e139e5071f57a5aa6ae48dbc9d0a0
+extra rebase_source:a7cd3deef2aa3b0f890a4ca3180831b1fb0dfaf4
+files media/libstagefright/ports/win32/include/stdbool.h
+patch 497,571,

@@ -1,0 +1,5 @@
+changeset 8a2c0e4cb8680945d1ec08f24fff175ad897df82
+manifest 56c68a65c73805c83eb7ed76c177f32f62a16001
+extra source:12cdf126c9a4dadb22ffd1d8f57cc468fff5f7b6
+files widget/nsShmImage.cpp
+patch 293,360,

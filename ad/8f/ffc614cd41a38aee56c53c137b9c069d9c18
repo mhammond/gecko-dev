@@ -1,0 +1,4 @@
+changeset dbe386574b1fac26353d9591859f119ad0e722c5
+manifest ffbd32c652e65742274cc8a46e9ffb6501f0d047
+files dom/base/nsWindowRoot.cpp
+patch 206,207,

@@ -1,0 +1,5 @@
+changeset 9f71e087fde34dc9e3ef1a10d21ef2647b23f9a2
+manifest c88959a9dd305b6f3a72557e4c07c06a6983074d
+extra histedit_source:e27fa149b16adbac9e4b006c050ebfa7b06467d8
+files toolkit/mozapps/extensions/test/xpinstall/browser.ini
+patch 292,368,

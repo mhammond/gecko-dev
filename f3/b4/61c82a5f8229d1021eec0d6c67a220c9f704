@@ -1,0 +1,4 @@
+changeset 0819bafa807fe577ed902ec9cd4989bea2d5f5c8
+manifest 2306d76d46dac7065749893c8ae2b12f93426075
+files toolkit/components/url-classifier/content/listmanager.js
+patch 217,218,

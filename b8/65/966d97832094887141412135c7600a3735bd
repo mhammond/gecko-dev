@@ -1,0 +1,5 @@
+changeset 6bf41608a192873d72639a0e58450f3f14036f46
+manifest 4005cd4174ee8c8923ac6a81be756cdb0cd8bba5
+extra rebase_source:e05cd93d3e8723b579c93c9b017e374f8c42f583
+files browser/components/extensions/test/browser/browser_ext_windows_create.js
+patch 379,453,

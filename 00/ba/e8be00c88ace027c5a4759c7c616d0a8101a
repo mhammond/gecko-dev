@@ -1,0 +1,4 @@
+changeset c2256ee8ae9a8ee0bf7ab49a8b1924720d846cc7
+manifest 54d0e67afa2cb051189e92e5d182d2f5703296d3
+files mobile/android/tests/background/junit3/src/org/mozilla/gecko/background/fxa/TestFirefoxAccounts.java
+patch 234,235,

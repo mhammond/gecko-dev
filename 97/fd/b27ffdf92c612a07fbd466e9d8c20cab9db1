@@ -1,0 +1,4 @@
+changeset 15c7487589d353261c2a0eb0d8d0ddb036b9cbdf
+manifest ac7c305b067d145ba367f6d571cf1243b11b64fc
+files browser/components/sessionstore/test/browser_579879.js
+patch 308,309,

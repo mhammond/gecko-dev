@@ -1,0 +1,5 @@
+changeset 6895b1aa8ba5ed4ae4d8d90148bda52dfce5d1ed
+manifest f75d546eb6c8d5244a7c8e2339957b9df45e65ea
+extra rebase_source:73d28be6270179719f42b51dd0978c9afce85abc
+files js/xpconnect/tests/chrome/chrome.ini
+patch 271,345,

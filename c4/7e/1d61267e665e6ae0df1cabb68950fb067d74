@@ -1,0 +1,4 @@
+changeset ed36d04f4ea0cf75b05c51f578dd5b17925a7cb9
+manifest 4835e19b039c1348ed7ef1b783367775bb6915c9
+files js/src/jit-test/tests/arguments/defaults-destructuring-mixed-default-value.js
+patch 269,270,

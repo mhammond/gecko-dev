@@ -1,0 +1,5 @@
+changeset ddd9d268accf19fc5c0a615b7c7d982669d4bf28
+manifest ff57a0eafb44757755945589d018488d8c834f5d
+extra source:0b088b6f83128a841076379faceb11416b4006ce
+files image/test/gtest/TestDecoders.cpp
+patch 307,374,

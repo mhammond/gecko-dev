@@ -1,0 +1,4 @@
+changeset b8ec85d7b044df86fc5de278210c2d44654cf453
+manifest be41fbf1e297f7dfc9dbab6901d5e66d82678a44
+files browser/components/sessionstore/test/browser_crashedTabs.js
+patch 249,250,

@@ -1,0 +1,5 @@
+changeset 4c57c2afe55b4952454821fea813ddc1d829cd8d
+manifest 90f66477f4b178d8a74fc19c20ea7a9a8a0482af
+extra rebase_source:052f55b4d10dc2a266b8cff6f94740e92b431624
+files js/src/proxy/CrossCompartmentWrapper.cpp
+patch 260,334,

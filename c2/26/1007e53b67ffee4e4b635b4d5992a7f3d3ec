@@ -1,0 +1,5 @@
+changeset 5f3e963eae505816fadc7eba8947ecfb6139352d
+manifest c60505136531521d534ec3a68e7cc507ad06b5a7
+extra transplant_source:≈2rT]0r∏$–„Ã.ê#*Ud
+files js/src/jit/JitFrames.cpp
+patch 258,340,

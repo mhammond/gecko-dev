@@ -1,0 +1,4 @@
+changeset a78f9bb9006e26f51dc379b2f2c9ed2258a693b9
+manifest 4094bdd22ffcec632bad9e1fd1711a4b32e67d39
+files xpcom/typelib/xpt/tools/xpt_link.c
+patch 388,389,

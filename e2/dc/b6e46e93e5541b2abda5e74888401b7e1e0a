@@ -1,0 +1,5 @@
+changeset b50e39d915f3e3c4ff917f1a8de54e7212c1f491
+manifest f3f07d0fc338e03da466560f286485b40ec0fb4c
+extra rebase_source:2ac88ac9888444f21114cf951d3f1f814b690e4f
+files toolkit/content/xul.css
+patch 313,387,

@@ -1,0 +1,5 @@
+changeset 8f68c33f5793a065bb8cbcd38fbe50ff4bdffcb4
+manifest 6e86e6e262f39a4d0cbb9068c6f8b8d602daf06a
+extra rebase_source:ad1cd03928d959757151fd46e25a8412c13b2511
+files browser/components/downloads/content/downloads.js
+patch 354,428,

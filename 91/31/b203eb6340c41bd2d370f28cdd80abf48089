@@ -1,0 +1,4 @@
+changeset 088bfcd8f3cb583e0357c73b8ce03b8bea95df3d
+manifest f9a330c5006a7dc79d5c819fcae269df80b810e2
+files xpcom/build/nsXPCOMStrings.cpp
+patch 203,204,

@@ -1,0 +1,4 @@
+changeset d93a398125d8e3aa6f3311029b6bade75447456c
+manifest ed425b89e9021b5d38b958bb03358e4ec08c6932
+files devtools/client/storage/test/browser.ini
+patch 225,226,

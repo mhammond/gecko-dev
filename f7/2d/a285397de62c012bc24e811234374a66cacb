@@ -1,0 +1,4 @@
+changeset 073e1d56b6cd3019082a3aef7ca4f399d2fc108b
+manifest 7e408c63bfba01f52bfa7c1836d98b4799f98983
+files dom/manifest/test/browser_fire_install_event.js
+patch 210,211,

@@ -1,0 +1,5 @@
+changeset 0f100d006b7c11a663f99563cde290915b6a162b
+manifest 733b2608b92471795abdbbc2641b0936442a642b
+extra rebase_source:c12d608c264fd1453cff55413f91612071c1a780
+files mobile/android/base/overlays/ui/SendTabDeviceListArrayAdapter.java
+patch 288,362,

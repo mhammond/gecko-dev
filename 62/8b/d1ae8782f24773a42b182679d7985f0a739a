@@ -1,0 +1,5 @@
+changeset 7a0e93ea0478322744c87871f5ff5bcd67e6052e
+manifest 3c587589ff32baa81e6d52b690985fce395f201b
+extra rebase_source:e5f980222f0323c8aaff5f934e606092691d80cb
+files services/sync/tps/extensions/tps/resource/tps.jsm
+patch 325,399,

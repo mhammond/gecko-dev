@@ -1,0 +1,4 @@
+changeset 6cb4ec731f499d21cd1409d421f29aa824ecafab
+manifest bf702f6b9a21de2a57ed97547f43329a92e11f8d
+files devtools/client/inspector/rules/rules.js
+patch 210,211,

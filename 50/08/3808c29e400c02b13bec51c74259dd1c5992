@@ -1,0 +1,4 @@
+changeset e407f668476dd21ff5bee05c85fd5aaa5c3a894c
+manifest 5067ff1fc9a3bda37e1cfb7d5ea0b3c28af38354
+files dom/xslt/tests/mochitest/test_bug1222624.html
+patch 172,173,

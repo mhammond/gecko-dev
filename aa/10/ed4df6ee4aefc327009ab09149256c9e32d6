@@ -1,0 +1,4 @@
+changeset 76f476bd8e80eaaaa2b3ebe85a74911cf369c2d3
+manifest 763944cc5de394b5d352d9aac09641bf9f78a9be
+files browser/components/loop/content/shared/js/otSdkDriver.js
+patch 242,243,

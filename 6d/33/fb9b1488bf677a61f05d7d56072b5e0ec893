@@ -1,0 +1,4 @@
+changeset 31698f41f093d16dced1d3cec6fa489b9f9c7874
+manifest 3ca0365a8e05c74f24f48973d0e0f7b6717aacf2
+files browser/base/content/test/general/browser_viewSourceInTabOnViewSource.js
+patch 179,180,

@@ -1,0 +1,5 @@
+changeset 7db6b94ebda431eb880fb958ebbcd6a9ec3b3eab
+manifest 29e15532e723b2b2289660ce788b29bfc7d99b34
+extra source:41ebaec6d7a7781e29678bd82b90dda6fc5473a5
+files devtools/client/inspector/inspector.xul
+patch 306,373,

@@ -1,0 +1,4 @@
+changeset 81df08547187c6ac2f8426a285c5c7a18abf85dd
+manifest b91c361e7b63574a862ae23087d6668003407fe7
+files devtools/client/webide/content/simulator.js
+patch 207,208,

@@ -1,0 +1,4 @@
+changeset 63f55bf75ba9226c1c4cb9589b1b59c019b3f3c5
+manifest 87121648ec3632e97075efb18b2eab44e59a31e4
+files toolkit/components/autocomplete/nsAutoCompleteController.cpp
+patch 278,279,

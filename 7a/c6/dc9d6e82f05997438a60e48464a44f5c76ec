@@ -1,0 +1,4 @@
+changeset ecd3562339dcd51a604e82efbcb347de8b823aee
+manifest c41a7ca17d84c49567805943e33e422343e1f3a6
+files toolkit/xre/nsNativeAppSupportUnix.cpp
+patch 333,334,

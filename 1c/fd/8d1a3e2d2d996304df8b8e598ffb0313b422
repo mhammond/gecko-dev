@@ -1,0 +1,4 @@
+changeset 262b435104cd4ccd6674f1c2f55f753601e37d89
+manifest c7dc9082e05504f661564f07d70c4a46bd817d47
+files toolkit/mozapps/update/test_svc/unit/test_0203_app_launch_apply_update_svc.js
+patch 377,378,

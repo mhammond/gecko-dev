@@ -1,0 +1,4 @@
+changeset efaed594f0fdad3825e4bbd9bc1efacc17fccf50
+manifest 2c7bd10ba9122fbc30454d24b6e027ee321bcdd5
+files config/external/icu/data/icudata_gas.S
+patch 407,408,

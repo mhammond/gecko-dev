@@ -1,0 +1,5 @@
+changeset 948c8cc4b5d04312037f45a67e8496a19e94ea6e
+manifest a20b8dddc4c4418c6860a161d85f418b2cbcbc62
+extra rebase_source:a0738dcfe863bedd3361fb60e1d10f03cfcd8eb2
+files gfx/skia/skia/include/core/SkTypes.h
+patch 328,402,

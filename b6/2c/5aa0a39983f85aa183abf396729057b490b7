@@ -1,0 +1,4 @@
+changeset 450d1f83b00197a99fe33c2802cfddb9d4fb7870
+manifest b930f20fbda87d8de0559e5190bc78caf2388994
+files widget/android/jni/Natives.h
+patch 923,924,

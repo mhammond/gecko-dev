@@ -1,0 +1,4 @@
+changeset 7c9c052d51bb26ff6bfb2a7eae649b1b7f008e32
+manifest fa273c745f222a49b439ad731951d14da88de953
+files mobile/android/base/java/org/mozilla/gecko/push/PushService.java
+patch 221,222,

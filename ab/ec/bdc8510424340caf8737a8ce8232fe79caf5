@@ -1,0 +1,5 @@
+changeset 67ee052e79c980efedbba9d8ff4d12b2e2ceedfa
+manifest 720d12cf0dea89cded659ff7fb1409baf31e9184
+extra rebase_source:fdc736fac46ff2f1939d55b00407350f88345932
+files widget/android/AndroidJNIWrapper.cpp
+patch 273,347,

@@ -1,0 +1,4 @@
+changeset 3512c2ff8219003c159b528cb4c65fd26ad71f89
+manifest ad92e34e21b85ff78faaf53bbe6da92ab0225e5e
+files b2g/simulator/build_xpi.py
+patch 191,192,

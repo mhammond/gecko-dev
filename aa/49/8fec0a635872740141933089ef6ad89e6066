@@ -1,0 +1,4 @@
+changeset 3538f11335104cfad91abadbfc8d236d72a58a17
+manifest fa8bd27b9b3f7467cc4e0f41e4eff3bdbb2cf585
+files js/src/tests/ecma_6/TypedArray/slice.js
+patch 254,255,

@@ -1,0 +1,4 @@
+changeset 585fbfe00e0fee774f1b844cc51c4c9960f01af2
+manifest aec72e3e5cc4902179f71c78973595770d0af803
+files devtools/client/animationinspector/test/browser_animation_timeline_header.js
+patch 306,307,

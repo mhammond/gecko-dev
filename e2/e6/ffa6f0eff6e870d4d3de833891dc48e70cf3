@@ -1,0 +1,5 @@
+changeset b91a39e959ffb29b8da8d41684181d17f92fef80
+manifest 766cfdc9695ad5fc611c69516cbc444c1c83d872
+extra rebase_source:c9f50d84151b18323097e1a00d2eb3839a22f64d
+files toolkit/components/extensions/test/xpcshell/test_ext_schemas_api_injection.js
+patch 725,799,

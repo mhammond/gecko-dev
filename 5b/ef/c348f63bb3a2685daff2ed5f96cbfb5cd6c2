@@ -1,0 +1,5 @@
+changeset 0f3da9163d9d564d15331a259e7533385d47ae18
+manifest 5b2fcbdaae38f6a7ce890eb983740ab2ebd2dfbd
+extra rebase_source:04915986442fda54dc4b6786f56546ba0c3b16c1
+files devtools/client/inspector/test/browser_inspector_select-last-selected.js
+patch 352,426,

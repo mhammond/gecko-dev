@@ -1,0 +1,4 @@
+changeset e26bc7acea8e34538c6696d8c9aa786405d59af4
+manifest 28b7ecf8d9197b7ea5a87625e77d45ddcce53c01
+files storage/src/mozStorageConnection.cpp
+patch 234,235,

@@ -1,0 +1,4 @@
+changeset a53c2a56fc340ed612368bac1a6d34725f264e0b
+manifest aa300b1652ccdc119207a7f7edf21333a1bed344
+files browser/base/content/test/general/browser_identity_UI.js
+patch 223,224,

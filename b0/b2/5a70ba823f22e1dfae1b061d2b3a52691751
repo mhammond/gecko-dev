@@ -1,0 +1,4 @@
+changeset aa90ef70bf28eedaa23cbcb9f959809b68cd9eb6
+manifest 1fd963cb59f6c2f93f8bcb3d62a8fa71775ec51d
+files netwerk/test/unit/test_bug586908.js
+patch 192,193,

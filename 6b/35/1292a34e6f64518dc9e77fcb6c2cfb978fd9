@@ -1,0 +1,4 @@
+changeset d9bbd4950bc00cb30c1b44403a1fc7dbc904e6b6
+manifest 87a8b4125e551476499e1b2562acdb861dc9c666
+files gfx/layers/apz/util/CheckerboardReportService.cpp
+patch 259,260,

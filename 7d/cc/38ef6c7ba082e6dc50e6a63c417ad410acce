@@ -1,0 +1,5 @@
+changeset 83b6cc7ed8e02294defc526d00ef25ee5897cf7e
+manifest feaea0aeef047fb8aac5fd2895c1bb364379052b
+extra source:4d3389cf88c54e42864b36764d84f9ffb09e1fc0
+files gfx/thebes/gfxPlatformMac.cpp
+patch 287,354,

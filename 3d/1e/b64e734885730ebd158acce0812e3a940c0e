@@ -1,0 +1,4 @@
+changeset 0f06fdd1ab4fa6c3fe67d342f8d562ab3dc237ba
+manifest 334de96b2b810cb496997768cba1387b58f53cd4
+files hal/gonk/GonkSensor.cpp
+patch 234,235,

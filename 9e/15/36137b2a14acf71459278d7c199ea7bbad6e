@@ -1,0 +1,5 @@
+changeset 9ba9595ed424dc4713351b741e5ee1c627191bdc
+manifest 22e2e0f76e56f61e56ba5438461745c975461db4
+extra source:de83681d85c56f6830ffad66452072bfd97b3d2b
+files toolkit/content/tests/chrome/chrome.ini
+patch 296,363,

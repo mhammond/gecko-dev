@@ -1,0 +1,4 @@
+changeset 4f0f41035aa30f05e8d86d1a7985a77fee22f8eb
+manifest 8d3553b79ae4b16511680f5c6c632dd5b3047c42
+files image/src/Downscaler.cpp
+patch 198,199,

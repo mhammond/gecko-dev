@@ -1,0 +1,4 @@
+changeset 30e2b2eea845c8c2772743c97ac4ceda529aab2d
+manifest 9ccc5767f26408674728e992a8b47470c956dada
+files xpcom/build/XPCOMInit.cpp
+patch 199,200,

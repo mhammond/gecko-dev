@@ -1,0 +1,5 @@
+changeset db41cbe363ee44f7b15bc44c8e2f1e18f0e1a4cc
+manifest a7a996e6de044303f32b886f9e134e6368de2c71
+extra rebase_source:e24879ef5fbb63de8c3d0f7b637eafd6a35083c5
+files devtools/client/inspector/computed/test/browser_computed_style-editor-link.js
+patch 371,445,

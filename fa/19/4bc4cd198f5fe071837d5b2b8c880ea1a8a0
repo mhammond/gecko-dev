@@ -1,0 +1,4 @@
+changeset 824d6ff63d10b7cfae8e849d19e59ef99ffb160d
+manifest 7c60738ff1d4e24080a4cbd8d298097b0941d9a4
+files dom/tests/mochitest/bugs/test_resize_move_windows.html
+patch 229,230,

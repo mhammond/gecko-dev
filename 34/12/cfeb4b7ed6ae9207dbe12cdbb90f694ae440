@@ -1,0 +1,5 @@
+changeset a6c2fdd0db159d463966c078502a508b86bf9d51
+manifest 40a2bdf7a272c1d5fa90b460cfaddbcd426faecc
+extra source:44d3308a260e5f3ddb695eed0e708f9c8cedfeca
+files addon-sdk/source/lib/sdk/tab/events.js
+patch 266,333,

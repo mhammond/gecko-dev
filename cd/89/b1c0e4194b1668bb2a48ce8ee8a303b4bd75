@@ -1,0 +1,4 @@
+changeset 571b4e0fdf538616f9800bcf72bd992ed16679f6
+manifest 2d064020944b6347caf048d3b78fadab93af8713
+files dom/canvas/WebGLTexelConversions.h
+patch 276,277,

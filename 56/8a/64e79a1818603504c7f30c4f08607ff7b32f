@@ -1,0 +1,5 @@
+changeset 3ffa45c6352e94c9a01dca98f52427dcd05e6ff8
+manifest 32555daf540915f48aa04b9686d37c58a13d2319
+extra rebase_source:24bc9507bb4abee94a1238176675948249c102f1
+files media/webrtc/trunk/webrtc/modules/desktop_capture/desktop_device_info.cc
+patch 325,399,

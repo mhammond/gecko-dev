@@ -1,0 +1,4 @@
+changeset b112cff0cedeb72f6d5a8b0af2437c9d65523a03
+manifest 8ec175bfbba39711d64d167395f6846bd3a1d597
+files devtools/client/performance/performance.xul
+patch 366,367,

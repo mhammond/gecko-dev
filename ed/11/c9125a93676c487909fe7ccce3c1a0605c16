@@ -1,0 +1,4 @@
+changeset e4303e24fceb6b725c5bb0bbf1f721e0fe1a84bf
+manifest 3efd8f9aebe298adba29f08d859edfb277f37a0e
+files layout/generic/nsGfxScrollFrame.cpp
+patch 316,317,

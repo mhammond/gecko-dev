@@ -1,0 +1,4 @@
+changeset 2d524b7407a9efb6ab4acbcd4aa9e01998820ca0
+manifest 7bf74ff98fcb612ddcca441d1e3fef6cd781df1c
+files dom/events/test/test_all_synthetic_events.html
+patch 245,246,

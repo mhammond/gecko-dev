@@ -1,0 +1,5 @@
+changeset 2bf12b5573116811d723899b845a3ebdc5c066f6
+manifest ba9650373667a1687e50c3ec887fca967ffcf8e0
+extra rebase_source:dd2ca157bf07f49a25d501986d3338e0f525348f
+files xpcom/components/nsCategoryManager.cpp
+patch 281,355,

@@ -1,0 +1,4 @@
+changeset d055e84f7045a0ee92009a9d7eca80d9bdc1947b
+manifest 9a4ea306e94d3eb9eed0387b8b21070d247b4926
+files devtools/client/animationinspector/test/browser_animation_toolbar_exists.js
+patch 304,305,

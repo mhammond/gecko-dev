@@ -1,0 +1,5 @@
+changeset 376b38e78518ba0774db44085ec9586bd5ddbdbf
+manifest a1da6e486a48b396d0ac2639109c61e42743581a
+extra rebase_source:de8fc2f900abbf7f0bf763ffac8f23f9cde298b4
+files xpcom/glue/nsCOMPtr.h
+patch 282,356,

@@ -1,0 +1,5 @@
+changeset aebd668e01d026b1a0def096cbe78ab85155843d
+manifest a37e754c113d524f28da8dfb878b3659475a486e
+extra rebase_source:a364a0f6f47e1c652bd41c90548fe7cbaf516374
+files xpcom/idl-parser/xpidl/moz.build
+patch 681,755,

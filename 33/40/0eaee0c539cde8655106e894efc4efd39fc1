@@ -1,0 +1,5 @@
+changeset a3e22b9090a8e8a84c94a20a781c5e87a656a251
+manifest 4c657847baaf24f3a1f175c1a2e117e5470e504f
+extra source:4e76075fa405fb0d609c473479f312cfd7172740
+files browser/components/loop/content/shared/css/common.css
+patch 332,399,

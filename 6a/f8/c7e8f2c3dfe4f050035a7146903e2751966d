@@ -1,0 +1,5 @@
+changeset 3d81f34050a40f96ea78b17287b87796a22783e9
+manifest 618cd135edd100cd320689906efa0a0b2e191b32
+extra rebase_source:6936ddb01a70fe5b35c71013bb9c0106633dd759
+files js/src/tests/ecma_5/Array/frozen-dense-array.js
+patch 273,347,

@@ -1,0 +1,5 @@
+changeset dfa3c3232d72e0bf04ca10e5153c9e0c01e9bcb5
+manifest 51bdf041031e2db14d05373366d702b92ca4f072
+extra rebase_source:3576ab2662eef6ddca3e430c305c3eda18200c71
+files layout/xul/nsGroupBoxFrame.cpp
+patch 299,373,

@@ -1,0 +1,4 @@
+changeset 9d1bbc82b4118733e88352511858b17409929a1f
+manifest 738680df1ad3f085f6edb2f39d2df8d02ed5c5fc
+files dom/workers/ServiceWorkerRegistrationInfo.h
+patch 204,205,

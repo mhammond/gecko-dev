@@ -1,0 +1,5 @@
+changeset 124857c54a1b931c65f9bdd5721ee56145184fa0
+manifest afe53555d016f8177a3539afb71f0122dd32259e
+extra transplant_source:ÙÏUé@MÿHÚ/Ð_?,$;Ó‚
+files media/webrtc/trunk/webrtc/modules/video_coding/main/source/jitter_buffer.cc
+patch 323,411,

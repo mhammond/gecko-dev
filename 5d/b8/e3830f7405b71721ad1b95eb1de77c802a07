@@ -1,0 +1,5 @@
+changeset 0b291c349e0abfdfc425f1da08bc1520e5a53a2d
+manifest 4030d2a239187f4582b9321bdd6533f732367e3c
+extra transplant_source:ëÌå9\r~I\ršñV	á
+files toolkit/crashreporter/tools/upload_symbols.py
+patch 269,361,

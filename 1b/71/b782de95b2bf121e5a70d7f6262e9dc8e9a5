@@ -1,0 +1,5 @@
+changeset 7dfb3865e126e82f46df067540de7e20b7d39b39
+manifest dab936dfc532e931726f6bc0b1c077521893ceeb
+extra rebase_source:c37fbfe63eba9d8af4bc0c7b4d4535a380b6d3bd
+files mobile/android/base/resources/layout/activity_stream_topsites_card.xml
+patch 533,607,

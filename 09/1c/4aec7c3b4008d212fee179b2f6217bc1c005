@@ -1,0 +1,5 @@
+changeset 20f2ba4d124729b45733548b58575ce10170abb7
+manifest 9a2e8578353b7acb1bd6a37aa04dd9eabcd0e53a
+extra rebase_source:e1084825207a757707b04e2f3feec1fe94e922d3
+files devtools/client/definitions.js
+patch 324,398,

@@ -1,0 +1,4 @@
+changeset 851dc8327772d5f6491b1bed591fc328baea50b7
+manifest a4beb0d6f6b4fee76f7e4bbc7c2fd723b4534e73
+files netwerk/wifi/win_wlanLibrary.h
+patch 434,435,

@@ -1,0 +1,4 @@
+changeset 09a8c5b6b287af5e76d92114a35913d320c46c00
+manifest 372e5109173496a2d34e84a48d334dd66999e927
+files gfx/layers/opengl/LayerManagerOGL.cpp
+patch 194,195,

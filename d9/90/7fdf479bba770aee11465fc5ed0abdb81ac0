@@ -1,0 +1,4 @@
+changeset 85224fb4d75ba1adb0e45ab44ef390aacd6af3d7
+manifest 1c91f45d378283855acbc8bbef40c4d20938546a
+files testing/mozharness/scripts/bouncer_submitter.py
+patch 205,206,

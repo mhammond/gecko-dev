@@ -1,0 +1,5 @@
+changeset d946881c4ee27a240715927facd2037ebebc0457
+manifest 45ba650afabdfe7d02b1ac183bae3f682fba6919
+extra rebase_source:23a7c0371b2fc4394f36d8d58fa81eea5f21938f
+files devtools/client/framework/toolbox-window.xul
+patch 306,380,

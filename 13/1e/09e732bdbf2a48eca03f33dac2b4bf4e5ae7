@@ -1,0 +1,5 @@
+changeset b3d399af0d4c6137d8dd3b12a233ef1db6180e55
+manifest 4e46ddd2d7a1d76dbbfee18722d86ed648db0be5
+extra rebase_source:97b5b82efe5028f36c52c2aadd68499ac6849015
+files browser/components/loop/test/mochitest/browser_mozLoop_sharingListeners.js
+patch 358,432,

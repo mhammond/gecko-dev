@@ -1,0 +1,5 @@
+changeset 5f657b0bdfed17d392887b5dc566a75c2dd05e2f
+manifest 41e20fe009d64f717eb8cc960033fa1e60b10e4a
+extra rebase_source:830e2cb04963ae96e06e7590e860b0dad8078866
+files browser/extensions/flyweb/install.rdf.in
+patch 315,389,

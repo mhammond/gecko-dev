@@ -1,0 +1,5 @@
+changeset e6b410c7b8478a14105af6072b76bba5e653fbb6
+manifest dfdc25acc80e09923f3c229aff98e67748b30154
+extra rebase_source:a3b39493a207f24e3857ceac2adb72abc9f8a5fb
+files js/src/vm/NativeObject.cpp
+patch 366,440,

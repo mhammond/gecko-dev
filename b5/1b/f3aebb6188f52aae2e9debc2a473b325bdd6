@@ -1,0 +1,5 @@
+changeset 53f472c13242cefcdd840ebb61bde179ca01d4b1
+manifest 51db038ccec70aabd7b35b9f22b61531931ee632
+extra source:8917ec916bddbbd5aacde8ec47ed94ba2fcf8d4b
+files mobile/android/base/widget/RoundedCornerLayout.java
+patch 252,319,

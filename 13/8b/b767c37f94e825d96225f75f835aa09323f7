@@ -1,0 +1,4 @@
+changeset 26de9419c0f096e6a006657f5e066e5e162f4b16
+manifest 1896e11d6cdb2e5518326066e543b7c9b78b4cde
+files js/src/vm/Stack.cpp
+patch 205,206,

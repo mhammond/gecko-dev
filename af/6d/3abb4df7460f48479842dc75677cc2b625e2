@@ -1,0 +1,5 @@
+changeset 3cb234c21f033552ac9de149592498ec25643cc6
+manifest 0620891537a7f0ef992f099313061ec05e28a877
+extra rebase_source:4fc8be4b21966523cad78d2ea50e41937d2bea63
+files toolkit/modules/secondscreen/PresentationApp.jsm
+patch 342,416,

@@ -1,0 +1,4 @@
+changeset f623c844dca9a01dfa3f55791df285c4e16c3ef0
+manifest 2746fa6bed9857ca5bd8aa2f6aed5dd5bd9c87fb
+files storage/mozStorageSQLFunctions.cpp
+patch 296,297,

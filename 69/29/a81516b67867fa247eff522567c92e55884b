@@ -1,0 +1,4 @@
+changeset ce4ca807b6a78d537a5591c488c0eca3b1681650
+manifest 49d09ac41e2bba0a0f1efbccd34fb0592872bb26
+files xpcom/threads/moz.build
+patch 171,172,

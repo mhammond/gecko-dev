@@ -1,0 +1,5 @@
+changeset 8e025fbffdc3810d77d85f8a860b77d78b902f07
+manifest b019452b58a90b705f82891c0997cce4f2f666dd
+extra rebase_source:8d3594dfd9f9ea340df9af50e76d18cf61dd1680
+files js/src/asmjs/WasmCode.h
+patch 255,329,

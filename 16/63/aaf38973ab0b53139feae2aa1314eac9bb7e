@@ -1,0 +1,5 @@
+changeset e5e1f4b60ecc01b49ab93df7d3eb22d314a1baa2
+manifest c8b8509fdb1d4c0fbb93cde64f5387d44fc5839d
+extra source:bfc054a2bf660d111fc19b26d3067464f6482db4
+files js/src/vm/EnvironmentObject.cpp
+patch 283,350,

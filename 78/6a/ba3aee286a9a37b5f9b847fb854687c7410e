@@ -1,0 +1,4 @@
+changeset 0e22c42d98dda844249b116de80a638f8ecff397
+manifest 809ea3cac35902667df053b4eee41c5e6210a92d
+files widget/nsIWidget.h
+patch 191,192,

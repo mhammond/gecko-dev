@@ -1,0 +1,4 @@
+changeset 57a69d309a861f8423380cd9f5ba4e4faee6b51c
+manifest 20a656d087821c754c282a4da16da112ef5526cb
+files browser/base/content/test/general/browser_fullscreen-window-open.js
+patch 273,274,

@@ -1,0 +1,4 @@
+changeset aee75e50fbc15694bbe48724eb28dea184ef985e
+manifest cfe0e0321a0dd6dde703c19d35577e01fd4b620f
+files browser/components/extensions/test/browser/file_iframe_document.sjs
+patch 273,274,

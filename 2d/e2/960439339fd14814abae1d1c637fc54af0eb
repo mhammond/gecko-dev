@@ -1,0 +1,5 @@
+changeset ca9261497284b3267b33ddc94a77f0e4261e46b6
+manifest 7f2e29c86d795615e20197c460c78e063d105f5e
+extra rebase_source:4a290c2473de2b0b01e4e185719bf571909f3ff1
+files js/src/asmjs/AsmJSSignalHandlers.cpp
+patch 432,506,

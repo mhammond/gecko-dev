@@ -1,0 +1,5 @@
+changeset 8b653b2c71f53c25e84ed10f1117a46f12280b19
+manifest 6528ce72f0414212b2ce3040b7f4065de31923f6
+extra amend_source:83074b90afdc4f4647850ffc45c44de6ab981822
+files js/src/asmjs/WasmGenerator.cpp
+patch 257,330,

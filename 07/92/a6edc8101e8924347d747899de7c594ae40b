@@ -1,0 +1,4 @@
+changeset ffb2fa8340f324f34f9c60f432c6e6ad9a95ba9d
+manifest 81552e43acaa381e45e09a87baa9446f13b14345
+files dom/bluetooth/bluedroid/BluetoothSocket.cpp
+patch 222,223,

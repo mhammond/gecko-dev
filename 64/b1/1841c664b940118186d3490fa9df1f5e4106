@@ -1,0 +1,5 @@
+changeset 0541cb3d94d960f6e183f7f900127542230b1211
+manifest 6a9158a72e4d8202beb5a0cf669c9f8edf941db4
+extra rebase_source:10ce4c40b1346cbd7f66bc10556b7647141a44de
+files layout/svg/nsSVGClipPathFrame.cpp
+patch 252,326,

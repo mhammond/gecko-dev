@@ -1,0 +1,4 @@
+changeset 2696ce503d339ce1e629d95ede7661068c82f841
+manifest 94d6bd74a9da802105bc64a87a07156d5b957954
+files dom/html/HTMLPropertiesCollection.cpp
+patch 259,260,

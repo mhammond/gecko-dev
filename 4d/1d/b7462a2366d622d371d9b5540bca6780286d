@@ -1,0 +1,4 @@
+changeset 4077e20d4cb9da6539c568b5ec38621d89706336
+manifest d2304b8c689ce9f142e70492e51ae3ef8cec4b3a
+files dom/events/test/window_wheel_default_action.html
+patch 265,266,

@@ -1,0 +1,4 @@
+changeset 810977d38c0dd543106d7d66fccfb615307b5f0e
+manifest 62791f83706bad7107a8900e324245aa4a2f7346
+files widget/windows/nsDeviceContextSpecWin.cpp
+patch 327,328,

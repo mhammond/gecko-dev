@@ -1,0 +1,4 @@
+changeset 56b5315c81d061f908e52651963b643f3947e40c
+manifest f00e5cc4f95313457ac556e083d9efb7778ec57e
+files extensions/pref/autoconfig/src/nsAutoConfig.cpp
+patch 236,237,

@@ -1,0 +1,4 @@
+changeset df53edb6b9f758764597e26d4991115fc5fee7c3
+manifest d1f7746ee8afee176b6fc00bd2a49739b8836f50
+files js/xpconnect/src/SandboxPrivate.h
+patch 189,190,

@@ -1,0 +1,5 @@
+changeset 4e37ef87035c96c1541915ca52238800303a9fe7
+manifest 5bad137eb94d19c437155ffac0f6cf3a3d8168f4
+extra rebase_source:111d7f0a25f4822c91a03163dcf13994a2f60559
+files tools/mercurial/hgsetup/config.py
+patch 236,310,

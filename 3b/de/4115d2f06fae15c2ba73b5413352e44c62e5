@@ -1,0 +1,5 @@
+changeset d5e5b71813bfd90272f3b748ae1693a4287ddbe6
+manifest 4e81f68d8192afcf634958f3f1bed5d35ee1607a
+extra source:d70bb3bdb5cc14df566cc1ed2c12f38e184a2f54
+files mobile/android/base/java/org/mozilla/gecko/home/BookmarksListView.java
+patch 582,649,

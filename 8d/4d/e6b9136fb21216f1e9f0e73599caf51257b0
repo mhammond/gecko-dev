@@ -1,0 +1,5 @@
+changeset 5cbadad4fd9c0463697102f249e1c86ce98d01c1
+manifest 45892978c22ab676ca2d0876f083aa19ebbc2238
+extra source:b2fe0aef7eb8f22ca9458d82d6b139fb4916c297
+files dom/tests/mochitest/pointerlock/pointerlock_utils.js
+patch 297,364,

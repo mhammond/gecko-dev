@@ -1,0 +1,4 @@
+changeset 927d52d615857dbc5f8e085e288a10b3fafeab60
+manifest 8a48bf16a041c3431234ecce8192abb410078c0c
+files mobile/android/base/java/org/mozilla/gecko/telemetry/TelemetryConstants.java
+patch 283,284,

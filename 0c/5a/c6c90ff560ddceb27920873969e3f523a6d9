@@ -1,0 +1,5 @@
+changeset 522135225936a32c7b084ba7eea082ee025ea7d5
+manifest 93a7ed0162b060edb92764cff6d4753be9aa6fe9
+extra rebase_source:b53a1c5dce924ea030f54bb41e13baf27cd3d823
+files mfbt/OperatorNewExtensions.h
+patch 376,450,

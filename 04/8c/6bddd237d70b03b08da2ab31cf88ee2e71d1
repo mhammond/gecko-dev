@@ -1,0 +1,4 @@
+changeset b59259518acd507a14c72a0f106f70158ef8d7c6
+manifest 5fb71cb9fed6fd3d62b73f68a44f55f8d68d1c5e
+files modules/woff2/src/port.h
+patch 189,190,

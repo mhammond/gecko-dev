@@ -1,0 +1,4 @@
+changeset e572ad1b9e3917e17004bcf6fe0288d29ffdef43
+manifest 512a46a78c429d11f533ace943ab34de0300ea31
+files xpcom/base/nsAutoPtr.h
+patch 246,247,

@@ -1,0 +1,4 @@
+changeset 438b7e68c23adbf83344f832a09d626a1190c46f
+manifest e78bb463d172c873348c79d42517a8699f77aa15
+files dom/base/nsPropertyTable.cpp
+patch 362,363,

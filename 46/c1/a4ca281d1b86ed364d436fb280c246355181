@@ -1,0 +1,4 @@
+changeset 8ee36e6d8dc79dd720ead9ab2ed80a60b68c67f5
+manifest f4e7fbf47019706656715b422f93bfb847a5f064
+files python/mozbuild/mozbuild/action/convert_def_file.py
+patch 264,265,

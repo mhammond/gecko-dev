@@ -1,0 +1,5 @@
+changeset c28406c57e3a16d6987df87c4dfabd017b01c8bb
+manifest 09619abdf3acb49beda7f90e5ca31a7a41d614ff
+extra source:8418f85a3b173555efc3f683a1ebc0ee264f6503
+files image/Downscaler.h
+patch 227,294,

@@ -1,0 +1,5 @@
+changeset f54e7f247cf2586f5e51b04f133f87f4eafc7816
+manifest 960886b18ae6abcd7c51b8b4295f3e2e2a054a6a
+extra commitid:Adcu7H4oTQG
+files xpcom/glue/pldhash.cpp
+patch 219,259,

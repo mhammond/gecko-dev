@@ -1,0 +1,5 @@
+changeset 4fcde34c3d139660a22fd191b4ffaee23683d7f7
+manifest 305c8bd6458f8cf4a92a01614ea127da7564d157
+extra rebase_source:06a8ba73fdab7f8ff0c2a7813daa1f55d76e0b54
+files parser/htmlparser/nsHTMLEntities.cpp
+patch 301,375,

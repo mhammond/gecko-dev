@@ -1,0 +1,4 @@
+changeset e240f2db0b466d4bf15fa45654fcf9aa5a7e1db2
+manifest 42315a5469f1ae5a77f31a8f8379aad30c3d9f1c
+files addon-sdk/mach_commands.py
+patch 241,242,

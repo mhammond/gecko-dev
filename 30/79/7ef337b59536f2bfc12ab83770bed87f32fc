@@ -1,0 +1,5 @@
+changeset 9e708c930a8fadf9dd959f38ffe3b69afbf62fdf
+manifest f35596de3fb03b389869d0e29dd2f0a45d4a6245
+extra rebase_source:72e8816734f9c69b7a914d830e66b23c46e824c8
+files browser/themes/shared/readinglist/readinglist.inc.css
+patch 300,374,

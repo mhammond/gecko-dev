@@ -1,0 +1,4 @@
+changeset 5d4ae7b9e9d39ca80121bbd5864694dfa61db8dd
+manifest 943ce1b6f80f0e7d409a14b1e4be0d9604247eef
+files browser/locales/en-US/chrome/browser/devtools/performance.dtd
+patch 225,226,

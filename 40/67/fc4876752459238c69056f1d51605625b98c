@@ -1,0 +1,4 @@
+changeset 6203381730cf2ac9f1ad56ce94b1fb0fd9573f8c
+manifest c1caacddbc8c567d8c3f352c42cd347f408c2162
+files xpcom/string/nsReadableUtils.cpp
+patch 181,182,

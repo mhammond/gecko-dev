@@ -1,0 +1,5 @@
+changeset cc80bc0bb6a7e7de308d32c5b7a67ace4d1f6dda
+manifest b6f3df09c788beddbcd82713216b503b08293cb7
+extra source:37c7fec8a0c130033c7e8462b058ea360c6d36d9
+files toolkit/components/places/PlacesRemoteTabsAutocompleteProvider.jsm
+patch 313,380,

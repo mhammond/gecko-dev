@@ -1,0 +1,5 @@
+changeset 8bcdcb64549b43a1c6025ee4170c182567f70248
+manifest 97100cfcba28822322de6b988dbb40d8a31c07ea
+extra source:6e593b6f2ee6542515c9ed61748e6256fd43fff5
+files dom/media/MediaEventSource.h
+patch 369,436,

@@ -1,0 +1,4 @@
+changeset ce5fcf2f22182e3da395b21c4cb886077ce79a20
+manifest 8387b6517da687cfd1d29987c40d66db5bf11667
+files toolkit/mozapps/extensions/test/xpcshell/test_gmpProvider.js
+patch 296,297,

@@ -1,0 +1,5 @@
+changeset 1993201b592bb4a7b56aa6eef7404d32117d388a
+manifest 2a51dc4170e8df3dec6bbd865c4a33a49a7a39a5
+extra rebase_source:9662008cf4aab09128b89bac46c4f99b750b73f4
+files mobile/android/base/fxa/activities/FxAccountGetStartedActivity.java
+patch 702,776,

@@ -1,0 +1,4 @@
+changeset 3cf6a99b8565b04743bdfa56fc7108d2edae4561
+manifest 228995e00c5594becbc68fbbcdd94abde97d2355
+files devtools/client/animationinspector/test/browser_animation_timeline_rate_selector.js
+patch 320,321,

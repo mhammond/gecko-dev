@@ -1,0 +1,4 @@
+changeset 75764a011b6e73e4263cf557c78e392a91526218
+manifest 719549e5356542dd8484892585ac916f437d5e03
+files dom/workers/ServiceWorkerRegistrationInfo.cpp
+patch 260,261,

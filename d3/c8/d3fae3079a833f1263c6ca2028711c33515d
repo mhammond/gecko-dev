@@ -1,0 +1,5 @@
+changeset 90f8edf13ee46f030df9c967f7d44d56cb0047d5
+manifest 62d4a2d16636ff5e0bb8bef5906c6b5f0779829f
+extra rebase_source:84104ebb4a047de6f193cfb32b72a5a298aa8f57
+files js/src/jit/x86-shared/Assembler-x86-shared.cpp
+patch 305,379,

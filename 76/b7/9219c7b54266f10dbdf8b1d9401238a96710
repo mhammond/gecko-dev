@@ -1,0 +1,5 @@
+changeset 527f7615ef42091d9d6f12959b2819f6b88c5202
+manifest 8bc860bfefd5c15c349e31da28c4cb78cd7ecdc2
+extra source:1e70dad32a8a6c1b21f6c35c214db28d4c5a6759
+files browser/components/tabview/ui.js
+patch 272,339,

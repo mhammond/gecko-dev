@@ -1,0 +1,4 @@
+changeset 85daafb4b11670833bc0a174ff657c1e7409af99
+manifest 0c776052d80d3d1b823085125c37b920b55d20d3
+files testing/mozharness/scripts/get_apk.py
+patch 248,249,

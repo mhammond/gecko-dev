@@ -1,0 +1,5 @@
+changeset fb168daab73e9b45369803e28eb644e92ac77ad1
+manifest 4942f60a215a200bb0d8625294fe9f9b3531a5b3
+extra rebase_source:bf3b1439951699ddb117070dff71198b1569ccf8
+files dom/promise/Promise.cpp
+patch 276,350,

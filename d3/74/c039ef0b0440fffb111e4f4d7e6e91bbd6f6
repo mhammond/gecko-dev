@@ -1,0 +1,5 @@
+changeset 11f20c7b030cb1e08f191bc29b520162d4a9971c
+manifest ed02edc4670c07a2052c9957e8bdc2b037f0fb32
+extra rebase_source:2480036cad45922e56e9db6dfd63b336b578e5ce
+files toolkit/modules/addons/MatchPattern.jsm
+patch 277,351,

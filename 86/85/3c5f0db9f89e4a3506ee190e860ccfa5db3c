@@ -1,0 +1,5 @@
+changeset 76d483d2d3675e51f253b8f6434173d5e14289ba
+manifest 3d5ea43a683353ba7da404fbf678cc650a8865d1
+author jlal@mozilla.com
+files testing/taskcluster/scripts/builder/build-b2g-desktop.sh
+patch 177,178,

@@ -1,0 +1,5 @@
+changeset 608c36e6b0f75454a06c1a38b88878d4ae7eacac
+manifest 5e30f5130335a4d0585e773aeb42383cf4e71141
+extra rebase_source:ba7821e10c97965c9b6dd15632749aa153a9e48d
+files accessible/tests/mochitest/events/test_coalescence.html
+patch 341,415,

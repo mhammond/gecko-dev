@@ -1,0 +1,5 @@
+changeset fb951398aea98f1728fdfed50009b3a21d30954d
+manifest ae42c062343402e1b29e3d81abf37bd60171c4a0
+extra rebase_source:c115f898cb1ce8129657e3435881e4f220eca566
+files tools/power/moz.build
+patch 274,348,

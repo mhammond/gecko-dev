@@ -1,0 +1,5 @@
+changeset 3093e8542c2cc25da94f9e616a67b2313697a96b
+manifest 8d8f893d3727034355895c4d12258577cf90844a
+extra transplant_source:u=Èè Äé¢7:2²|Tï
+files toolkit/components/reader/ReaderMode.jsm
+patch 217,307,

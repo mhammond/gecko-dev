@@ -1,0 +1,4 @@
+changeset 08d0867c736c04b1fd5d339471c10c5cc8e6a956
+manifest 92df3479da66e821c05627f4833fa8a91c49b27e
+files tools/rb/fix_macosx_stack.py
+patch 196,197,

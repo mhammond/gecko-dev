@@ -1,0 +1,4 @@
+changeset 102752ac73ab96255b3688f08ecf95f8f1827e6f
+manifest 039be195a024c9aa24514f9714235bc3d0b4f924
+files js/src/tests/ecma_6/Error/prototype-properties.js
+patch 201,202,

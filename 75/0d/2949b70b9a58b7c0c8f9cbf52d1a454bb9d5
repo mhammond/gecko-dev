@@ -1,0 +1,4 @@
+changeset 8d536cd5e5abadcc58f4d49f496eb984ca76d593
+manifest 57e1c878948209a96d68c7ec66bdb2b84b7fce91
+files dom/base/nsPluginArray.cpp
+patch 230,231,

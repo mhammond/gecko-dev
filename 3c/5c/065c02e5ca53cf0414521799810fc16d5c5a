@@ -1,0 +1,5 @@
+changeset 9879b00007bdeba1b436b57c4250819a4f1012f5
+manifest ca104a8aed997aadc8a2f121d422abe26ead5a9f
+extra rebase_source:639449db176478cf1e776a7dc82e2a613b5ec46f
+files toolkit/components/passwordmgr/test/mochitest/test_prompt_http.html
+patch 349,423,

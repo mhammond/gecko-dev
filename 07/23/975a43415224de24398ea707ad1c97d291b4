@@ -1,0 +1,5 @@
+changeset 29268ff33b0e01fadae48653a2bd68a8689fd410
+manifest 377de5e20ef0cc93360246d18a953bc1e69cce6f
+extra source:eb3d041b34c2a73f833ff1ee8af27832961e3bf8
+files gfx/cairo/cairo/src/cairo-surface-wrapper.c
+patch 317,384,

@@ -1,0 +1,4 @@
+changeset f64c8ef3ca52406c75f1c501dd11e2cc6bb0932e
+manifest 20b909fb9e8a694131d68c434b4284c33dd8fbf9
+files testing/tools/screenshot/moz.build
+patch 216,217,

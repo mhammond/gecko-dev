@@ -1,0 +1,6 @@
+changeset 96db3a1d6e6617777ef624ca63912f5cd260f74e
+manifest 9bb1be93dc9dd17103dc3191249190b3b0b342de
+author kearwood
+extra rebase_source:6bfb046d8b9653a9e5f58a2fbed7f658a9cc3ac4
+files dom/tests/mochitest/general/test_interfaces.html
+patch 242,316,

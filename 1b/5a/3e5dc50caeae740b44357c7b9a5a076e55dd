@@ -1,0 +1,4 @@
+changeset a81af903aac164077ed814e1e1171da813f901e0
+manifest d467bd547c66084aa80a3f2290ef9a07b7b77bed
+files testing/web-platform/tests/content-security-policy/blink-contrib/connect-src-beacon-blocked.sub.html
+patch 318,319,

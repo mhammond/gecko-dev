@@ -1,0 +1,4 @@
+changeset 5a726f020cb7fea3ab90f98ed87b2b54f673d10a
+manifest 83a86605700ac84d40ec50f6f9348ff079348d0e
+files devtools/client/styleeditor/test/browser.ini
+patch 185,186,

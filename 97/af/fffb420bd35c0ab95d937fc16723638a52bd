@@ -1,0 +1,4 @@
+changeset f13aab93f3a33ca6dc515e19559bd836706b4970
+manifest a8bfd70cd3d1855d10db5a33562262eb9f08039d
+files dom/base/nsDocumentEncoder.cpp
+patch 319,320,

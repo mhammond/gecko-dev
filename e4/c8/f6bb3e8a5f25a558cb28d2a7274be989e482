@@ -1,0 +1,5 @@
+changeset 507790d1f7dbc9e349f6787beec4f33f3a435439
+manifest 8ef2dc917f29bdf7c7327eec9e02de4a92e43f25
+extra rebase_source:9509a148cfa4096ca58989e08be10a609deb13dc
+files browser/themes/shared/plugin-doorhanger.inc.css
+patch 326,400,

@@ -1,0 +1,5 @@
+changeset 12722aeb2499b4287d8ba1024ee62ba3daf55859
+manifest 5b6dc2d8a1b490332e4cfe1c930cccc94ed5748f
+extra rebase_source:845c2b2a1e86e6a0a3757f9df0ab3449a726a5c3
+files js/src/jit-test/tests/ion/bug1143679.js
+patch 231,305,

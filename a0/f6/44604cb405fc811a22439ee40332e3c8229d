@@ -1,0 +1,4 @@
+changeset b92ba4dc0af5dcaa1732aa036e1ea75d8ec19717
+manifest 4a3d1a89d57708ad08b3be150696562a646b7797
+files dom/indexedDB/test/browser_permissionsPromptDeny.js
+patch 270,271,

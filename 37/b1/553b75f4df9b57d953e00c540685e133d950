@@ -1,0 +1,4 @@
+changeset a7e73c88ae0d73be1246c4cf93e3daeda24ff5a1
+manifest 8f60009bb2d41d77882ed4d97e4961db455e4ef5
+files xpfe/appshell/nsXULWindow.cpp
+patch 178,179,

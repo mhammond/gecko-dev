@@ -1,0 +1,4 @@
+changeset a40bc19d46d634ab34ab9b1ad79140e9a4098b7e
+manifest f70b05ad3ab09d2a47a0600da9c734e7b095e197
+files testing/mozharness/configs/builds/releng_sub_mac_configs/64_stat_and_debug.py
+patch 344,345,

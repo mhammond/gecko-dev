@@ -1,0 +1,4 @@
+changeset b171aef6d9cd3cc0baf441b80c2a46ec9afda3a3
+manifest 2146405e58355fd00c198370ceffcb65165e9d2c
+files browser/components/readinglist/ReadingList.jsm
+patch 184,185,

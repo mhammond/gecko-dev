@@ -1,0 +1,4 @@
+changeset f0a97dd5ee961e4f34fad490b295e4589d54855a
+manifest c1486080f06eff1c0ed1b725cd7f4235101b6822
+files toolkit/components/addoncompat/Prefetcher.jsm
+patch 243,244,

@@ -1,0 +1,5 @@
+changeset db80ed8ea070d9fbb6d80954b041b0e9c0b1bbdc
+manifest 0b9d995c875a2a113ecf90ba10b2c1ee43f4085f
+extra rebase_source:7bfd376ec38666a06d3f23fcd4bf7c0ada36898c
+files browser/devtools/performance/modules/front.js
+patch 315,389,

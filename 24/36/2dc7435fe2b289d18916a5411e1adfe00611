@@ -1,0 +1,6 @@
+changeset bf99ab13bbbf08391810989d4dbb0ff408c426e4
+manifest b100a64f9a1486d873a12617afa2a4b72fcf7280
+author kearwood
+extra rebase_source:b512add238d5a0853752ae7306fe412ee6df245a
+files gfx/layers/d3d11/CompositorD3D11.hlsl
+patch 247,321,

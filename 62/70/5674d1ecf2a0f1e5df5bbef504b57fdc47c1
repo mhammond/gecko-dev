@@ -1,0 +1,5 @@
+changeset 1dcf48bac87483bef3afb633cfa9856ee047772b
+manifest cb41fddb9e87994f2b286d8d3f2fb400c4a33ed2
+extra source:465fe1502bf49a376d9237bd1438d8a729adb770
+files testing/firefox-ui/tests/puppeteer/test_notifications.py
+patch 352,419,

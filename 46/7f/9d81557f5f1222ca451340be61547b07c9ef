@@ -1,0 +1,4 @@
+changeset c752480488dce32deb4095ac18d6cca156030f12
+manifest 5a956f81cfefa55274b1b79ab1a68993391d86b7
+files browser/components/sessionstore/test/browser_615394-SSWindowState_events.js
+patch 269,270,

@@ -1,0 +1,5 @@
+changeset e1fba9e69aa95a4392d136dfc51a171e57f966a0
+manifest 8a21c31006d54a923dedc398f51b9d91be26fee7
+extra rebase_source:fdfb0d0f592a968ee9e5852f2cc05f0873a02375
+files mfbt/Vector.h
+patch 247,321,

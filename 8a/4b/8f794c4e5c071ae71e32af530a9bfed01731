@@ -1,0 +1,4 @@
+changeset d43c0078a51d3d9159df1dede2fe683f6ae7ed02
+manifest 22b13f4e60091eeef3ee688a7f68d2799d665bb3
+files mobile/android/base/java/org/mozilla/gecko/preferences/AndroidImport.java
+patch 243,244,

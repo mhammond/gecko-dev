@@ -1,0 +1,4 @@
+changeset c6b2cbc3f7cd6ec0adbc6f86d1383694705b82e2
+manifest 45a690ac309014d667afd241480619c66bb7a6d4
+files extensions/cookie/test/unit/test_cookies_privatebrowsing.js
+patch 271,272,

@@ -1,0 +1,5 @@
+changeset e6c5544769377c9843bac0055569ff684c0636ae
+manifest 22d52018976ebbf1684e6e635d6615952eac990d
+extra rebase_source:b9089ea6789e67fbf7dc6cc1a05490c3af668123
+files layout/svg/nsSVGGenericContainerFrame.h
+patch 291,365,

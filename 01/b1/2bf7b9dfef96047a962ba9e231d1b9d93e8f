@@ -1,0 +1,4 @@
+changeset 56b6a6eca59ac61cc863099f7407de007c23823d
+manifest e64483fbda8876abccda5f07fdfbbe0a809875a0
+files browser/base/content/test/general/browser_sanitizeDialog.js
+patch 280,281,

@@ -1,0 +1,5 @@
+changeset ea11bf35e6005225cfdceffc1b7438bc2ee616d8
+manifest a42ae8679a8f142fd5da01c00ba55602546963dd
+extra rebase_source:45a1b1d49b545c1c04c63cd7ae5e8c97152c19e2
+files js/src/jsfun.h
+patch 218,292,

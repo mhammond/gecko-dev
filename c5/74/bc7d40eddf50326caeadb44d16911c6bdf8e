@@ -1,0 +1,4 @@
+changeset 636f70f6843453ef19f2a3c59de039dc2ccf08de
+manifest 9d61e591b497b8c48992ab19d9c551e4edb2627c
+files gfx/cairo/cairo/src/cairo-image-surface.c
+patch 189,190,

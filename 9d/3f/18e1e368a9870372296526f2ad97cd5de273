@@ -1,0 +1,4 @@
+changeset cf947522f851039a66ec1c59bf61f2589972c5c0
+manifest 4b8b2f411df621c0ad1a9cc176c24f05d193f1aa
+files testing/mozbase/mozdevice/mozdevice/devicemanagerADB.py
+patch 231,232,

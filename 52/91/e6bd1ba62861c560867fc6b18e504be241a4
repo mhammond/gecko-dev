@@ -1,0 +1,5 @@
+changeset 94763b7450fd1dae8cae6135c1ffbe4cebe07a1e
+manifest 96e2f7668d49f3177e65b55a95f8bd0ebb75ecf8
+extra rebase_source:5c135250a81088bb5c838a4abd352fbbe80ae8d7
+files mobile/android/base/java/org/mozilla/gecko/db/BrowserDatabaseHelper.java
+patch 361,435,

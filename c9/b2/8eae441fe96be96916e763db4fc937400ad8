@@ -1,0 +1,5 @@
+changeset 1915e2586177ea2e5bf7acb24b2764b85d630337
+manifest 28b1f82c645e4edbe1961a54c3f0b8cb33c0d495
+extra rebase_source:b433ac09d6a04eaaacaaf5c10b890b2af6a0d931
+files browser/base/content/utilityOverlay.js
+patch 535,609,

@@ -1,0 +1,4 @@
+changeset 25966a72111436da3857a7a6bed49c9ae83a1610
+manifest 345a90c71c6e7756bd32d3b47bf6f184dff5497d
+files js/src/jsapi-tests/testPersistentRooted.cpp
+patch 212,213,

@@ -1,0 +1,5 @@
+changeset ce46ebf231c1d679c9bc7abc28f774538b5a1362
+manifest 246129e44b4f357454c5adbde819794a7760d335
+extra rebase_source:f2ffa3dc6f68094c48094bd01f531985324bde6b
+files browser/components/sessionstore/test/browser_394759_behavior.js
+patch 373,447,

@@ -1,0 +1,4 @@
+changeset 84c4ab45a1eb801bb6f55893a70243a0fdc849bb
+manifest eb0e11f14c491877a9bf9e75c4d229baac512e1c
+files devtools/client/aboutdebugging/aboutdebugging.js
+patch 228,229,

@@ -1,0 +1,4 @@
+changeset c792d3cb0322b1a381565afcea5bb366cea92338
+manifest f6a918eaf2238605fbc3b071e51b9771a697404d
+files gfx/skia/skia/src/core/SkBitmapProcState.cpp
+patch 264,265,

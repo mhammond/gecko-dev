@@ -1,0 +1,4 @@
+changeset b6f7d0eb61b1878d3d906bd231edf225463ece3f
+manifest 8b328438b3b593b7f612868a5a74389d78e64d2c
+files mobile/android/base/java/org/mozilla/gecko/db/AbstractPerProfileDatabaseProvider.java
+patch 262,263,

@@ -1,0 +1,5 @@
+changeset 25566a14a7ac98674bfe9b6e73edc59fcc286c22
+manifest e940c617ace3dc0d1409abce32fec763d68b86df
+extra amend_source:e962b5267f1a3d8d090ad04921913216a9ecb745
+files devtools/client/responsive.html/components/device-selector.js
+patch 300,373,

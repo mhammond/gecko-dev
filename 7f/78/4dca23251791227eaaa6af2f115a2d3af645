@@ -1,0 +1,4 @@
+changeset ee2ddd22b6e55f39e9a47179f345df223ca3d692
+manifest 22152060e7b1b0e53ff41b1525d5a93e1adc2335
+files js/src/jit/shared/Lowering-shared-inl.h
+patch 293,294,

@@ -1,0 +1,4 @@
+changeset 163c3ecfcbdaca0e8c079df05ad591dc0a760512
+manifest 6b1fd307cdb37f47934669772ccba7b9caff26b4
+files browser/base/content/test/general/browser_tab_close_dependent_window.js
+patch 319,320,

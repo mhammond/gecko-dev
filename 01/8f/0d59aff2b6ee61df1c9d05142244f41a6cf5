@@ -1,0 +1,4 @@
+changeset dc0ea062f5a7868aa6ec089d4474c2cac6de90b4
+manifest 6a7a5bd3f7d0855a5231e8f2616632128751ef34
+files testing/talos/talos/output.py
+patch 218,219,

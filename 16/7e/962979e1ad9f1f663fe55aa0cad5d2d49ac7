@@ -1,0 +1,5 @@
+changeset fc04c5d43550ead4306f210dfa23e306a9fcd2bb
+manifest e55bb0f2a6b2d8a46b1bda6b08065620b8849d8a
+extra rebase_source:d6be9dc85ffee9cda6b57735bd8892ca427aa5d7
+files dom/canvas/test/mochitest.ini
+patch 287,361,

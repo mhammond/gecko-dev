@@ -1,0 +1,5 @@
+changeset 07eba947e1ffdad80f27b6658473671c04f74664
+manifest 63d691373ab59aa2110b94ce98b0f31fec3ba57a
+extra rebase_source:c947ed2de25426815f5260be9b550dfa99f88950
+files xpcom/threads/StateWatching.h
+patch 303,377,

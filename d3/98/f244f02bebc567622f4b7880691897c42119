@@ -1,0 +1,4 @@
+changeset 24d30440d9ebf0e1c2bb7e4f65169ec38ea285c5
+manifest 0f4789dd0d2fb43076fba56c13e9b9dd45b8fcbd
+files js/src/jit-test/tests/gc/oomInNewGlobal.js
+patch 201,202,

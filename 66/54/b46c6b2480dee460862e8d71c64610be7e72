@@ -1,0 +1,5 @@
+changeset 88610e4afc3166aee5a3807add1451429ebde36f
+manifest e179b7a7fdd4f8235788c1fb7e75e116c4619c83
+extra rebase_source:c785869390ac38cbd30fd0aa7bd968c6bd54930b
+files toolkit/components/places/PlacesSyncUtils.jsm
+patch 311,385,

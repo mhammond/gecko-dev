@@ -1,0 +1,5 @@
+changeset c521d136b0f3d0c1e401ed502de5a2be9756f2cb
+manifest 5d9d8b422e14e8f8638b88bf8814c70a07bf73fb
+extra rebase_source:fad0ffb9bc10d7c9049c3c02ae474f8f131ca006
+files browser/components/readinglist/ReadingList.jsm
+patch 266,340,

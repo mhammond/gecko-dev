@@ -1,0 +1,6 @@
+changeset 1a4d50664e00e3318e5644f955eee2bc91280aaa
+manifest a2759eccc7569654750130ba9965ba82c0357c33
+author kearwood
+extra rebase_source:015e15dee2ac3235e1e571642d3988b66b97dfd1
+files layout/generic/nsBackdropFrame.cpp
+patch 655,729,

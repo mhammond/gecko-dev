@@ -1,0 +1,5 @@
+changeset d805abb380866387d3d688cc0912f1480189f705
+manifest 3c35562ce4d2944398b3bf48d73fc1cfa2290571
+extra rebase_source:300bfdebf7e2a87e14218300db8198f1ca8f69e4
+files testing/mozharness/configs/android/androidarm_4_3.py
+patch 312,386,

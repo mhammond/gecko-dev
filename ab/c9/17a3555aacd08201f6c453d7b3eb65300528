@@ -1,0 +1,4 @@
+changeset 76f495de5f78dd4bdbfdb327cfa69e9ea6fe969a
+manifest dfe735d77e41dd02d14edbf05cc100ec0ad4e0a3
+files config/check_vanilla_allocations.py
+patch 603,604,

@@ -1,0 +1,5 @@
+changeset cd8a02710115a0d9fa973a451384798f36b44fa0
+manifest 90b84e16d588b27da62d669625935d4d8b839b00
+extra rebase_source:d0518cd618d44d80e66062a945ec8d881fbbcceb
+files browser/components/extensions/test/browser/browser_ext_tabs_events.js
+patch 290,364,

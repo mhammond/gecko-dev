@@ -1,0 +1,5 @@
+changeset 8a734418a22efe61ba871d8405bcd85493d9a852
+manifest a679b2e4d9dfb09c7b17a33bb1e45ab7d51efbf9
+extra rebase_source:46e6b872a343376cb7599610bcc45ed5fae03ffc
+files mobile/android/base/reading/ReadingListSyncAdapter.java
+patch 317,391,

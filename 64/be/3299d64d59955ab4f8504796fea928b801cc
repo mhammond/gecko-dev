@@ -1,0 +1,5 @@
+changeset 8047f5bd02f8e66074d3e070d74e22fc2a7c84c5
+manifest 81d9d2a394d69fb01a83115baa4b756c7a2a7ead
+extra rebase_source:3716cc0e3461080553fbc0cac1d99b9c9c1e9f29
+files dom/media/flac/FlacFrameParser.cpp
+patch 284,358,

@@ -1,0 +1,5 @@
+changeset 17a229d8b88843924588d2ebaab854eb4ed73de1
+manifest 0344531001c6dcc1f5fc7c226119ab9bed43056d
+extra source:2a70b4b044c35494a1b2c0d8a51dadc10bade3bf
+files devtools/client/webconsole/test/browser_console_click_focus.js
+patch 341,408,

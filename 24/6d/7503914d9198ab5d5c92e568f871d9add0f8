@@ -1,0 +1,4 @@
+changeset fcfdee109765d38d65a680307975620173f5007c
+manifest 77387d1100d809ba10e766a295c104adb67723b1
+files security/manager/ssl/nsNSSCertificate.cpp
+patch 290,291,

@@ -1,0 +1,4 @@
+changeset b2ec3d6497157b97c59dc45274a1406653a7d197
+manifest 1fe596090543647df9210d7d7164b12a147e65d3
+files mozglue/android/nsGeckoUtils.cpp
+patch 334,335,

@@ -1,0 +1,4 @@
+changeset 66fd11fee043c9ef947dec8cde8d441d844dc319
+manifest 451f590bf4cceff1b17a7dd3d5e451e2585885af
+files toolkit/components/places/tests/unit/test_telemetry.js
+patch 233,234,

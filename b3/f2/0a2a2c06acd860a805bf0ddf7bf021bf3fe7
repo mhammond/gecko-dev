@@ -1,0 +1,5 @@
+changeset 958a6b9d2f6d7fa440a6485125630b9d44bf2b63
+manifest 6bf6acdf864baa65393720ec152fa70247b232c1
+extra source:1828937da9493b2cd54862b9c520b2ba5c7db92b
+files devtools/client/eyedropper/test/browser.ini
+patch 264,331,

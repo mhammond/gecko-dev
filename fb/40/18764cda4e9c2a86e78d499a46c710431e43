@@ -1,0 +1,4 @@
+changeset 3c5ce08d5baa28904b6a8e9f99d82f66d51d5a1c
+manifest 82489be2c28beb0db4ecdb9f70ddf2655a35f245
+files devtools/client/webconsole/test/browser_webconsole_bug_1010953_cspro.js
+patch 278,279,

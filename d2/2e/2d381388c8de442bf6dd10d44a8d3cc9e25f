@@ -1,0 +1,4 @@
+changeset f5fbeeb2be69ede3846c1d6e7281d07f9cc84edd
+manifest 27b197819aec5d573e930e17bf43455774867ce0
+files layout/generic/nsIFrame.h
+patch 321,322,

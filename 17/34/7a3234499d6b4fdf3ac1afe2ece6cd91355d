@@ -1,0 +1,4 @@
+changeset 38874d98cf4fffcfb4b208de8667d17c8312f9cb
+manifest 210db1618ac0e0d8796257c3070e5c03c2f83c88
+files devtools/client/shared/browser-loader.js
+patch 194,195,

@@ -1,0 +1,5 @@
+changeset c6aba573441e38c3989ace0344a77526d02adf83
+manifest 4122aabfa0aedad3a6aee195a978517e213af487
+extra rebase_source:5574c118cf0881ddc1477ceeb1b9c979814d67d6
+files toolkit/components/addoncompat/RemoteAddonsParent.jsm
+patch 589,663,

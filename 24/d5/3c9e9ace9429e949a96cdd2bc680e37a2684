@@ -1,0 +1,5 @@
+changeset d4a308f74dc2e1a625be399734a96f073182424b
+manifest 48bf9fcf34472c6b8d07b1b4c583fc1b5024f2af
+extra rebase_source:21179d2952391091d7ff9bdcf185991833a4d8fc
+files devtools/client/sourceeditor/test/browser_vimemacs.js
+patch 329,403,

@@ -1,0 +1,5 @@
+changeset b8b27cb2e148119595af75ff7ee3c2af1b7e833a
+manifest 064108ced53a4c12adab33ea01571114f5fdf05e
+extra rebase_source:f534effa63536d9de485e9ce24af003f80563881
+files devtools/client/aboutdebugging/test/browser_addons_debug_bootstrapped.js
+patch 341,415,

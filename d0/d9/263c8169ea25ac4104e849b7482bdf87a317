@@ -1,0 +1,5 @@
+changeset df8f6646de9eea3323b159479d94865b47fe3fee
+manifest 2afd0fb7ac199757b3fcf7f2c68bfe6d61f6d802
+extra rebase_source:87fa439ee7f2e6c77a4fe5f6e96a4fa28502f916
+files browser/components/preferences/permissions.js
+patch 311,385,

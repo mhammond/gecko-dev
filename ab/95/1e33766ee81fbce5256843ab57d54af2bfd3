@@ -1,0 +1,4 @@
+changeset 869b23e9f2a416f1734ca4021c021dfc11fa6dd5
+manifest be58b52f293c3f822ee52bb033994c8e533c1c58
+files netwerk/protocol/http/nsIHttpChannel.idl
+patch 259,260,

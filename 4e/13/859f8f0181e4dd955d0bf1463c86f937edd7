@@ -1,0 +1,5 @@
+changeset ef8dd8e8237ad5c665b1b0581c31974f8b80e177
+manifest b6e58d324f1734c6f04434011b6a3c2ed5f24c2d
+extra source:15e7cce04da4e4267ae9e92b328296c9ca9f08e3
+files gfx/layers/composite/TextureHost.cpp
+patch 308,375,

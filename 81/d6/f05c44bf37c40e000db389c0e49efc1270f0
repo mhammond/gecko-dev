@@ -1,0 +1,5 @@
+changeset b4c27ab3cafeef188e84a704cbe72f27419a1eea
+manifest 1f93b4de15ecf36d7ac5bcda90676e79a39992f7
+extra rebase_source:60c07e5c76cf3ae095349918bb7aca4382d816e1
+files js/src/builtin/Module.js
+patch 275,349,

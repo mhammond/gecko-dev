@@ -1,0 +1,4 @@
+changeset d9db24868efdf51ed6b518d7befe6a124c23d6a3
+manifest 8b3fce2092dad641ea05113476455d338cf51e37
+files toolkit/components/perfmonitoring/nsPerformanceStats.cpp
+patch 302,303,

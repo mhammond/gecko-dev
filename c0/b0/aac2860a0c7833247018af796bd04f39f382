@@ -1,0 +1,5 @@
+changeset 962e15b8168444b01ecf8ba7ee3d47bda86f369d
+manifest 07bf5bbfa8e78ccffe1c34d3a482154d9ae15768
+extra amend_source:0f286f6d05a1ebe706c14dba94ae35449ea898c9
+files layout/style/AnimationCommon.cpp
+patch 798,871,

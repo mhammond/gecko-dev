@@ -1,0 +1,5 @@
+changeset 97dc860fe6189f0db8258b2727e3ad30b2347706
+manifest 1399d56cf8aef56fef9fdac8e408410a11b0a31c
+extra rebase_source:0da3f53ddbff9323880004249c92dd8ce37605f7
+files mobile/android/tests/browser/robocop/src/org/mozilla/gecko/FennecInstrumentationTestRunner.java
+patch 400,474,

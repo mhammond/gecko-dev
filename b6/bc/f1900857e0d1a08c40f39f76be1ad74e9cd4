@@ -1,0 +1,5 @@
+changeset 4dc5626ae64fead3bf40f480a3b1fc9061daf997
+manifest 225c310668af5bfd0a97917892227103a46cdb8f
+extra source:44d130271ebc4f957f32de1635b22eeaea26d787
+files dom/base/nsHostObjectProtocolHandler.cpp
+patch 289,356,

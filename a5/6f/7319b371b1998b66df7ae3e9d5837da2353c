@@ -1,0 +1,5 @@
+changeset 9ccdf1f5887ba9eedc3304e7d527f3b769ac7947
+manifest e3e363b9d52e9d3c702f103aa6fbf3001624acf9
+extra rebase_source:6cf3d00ebb79b7af38bff66535d908af048fc279
+files accessible/base/StyleInfo.cpp
+patch 302,376,

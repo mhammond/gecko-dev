@@ -1,0 +1,4 @@
+changeset 7f0a82be792db832bd1c74e6c0a098cc62a43f95
+manifest 5e31f09cefaaab38b66efea06f2a6d60503c2bc8
+files ipc/hal/DaemonSocketPDUHelpers.h
+patch 207,208,

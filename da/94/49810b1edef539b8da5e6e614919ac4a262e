@@ -1,0 +1,4 @@
+changeset 7c48a3782efe0aeb60f1dcb75fa1da04479e41f8
+manifest 15e30247111fccc6059c138895bbe33cff789923
+files browser/components/shell/nsWindowsShellService.cpp
+patch 218,219,

@@ -1,0 +1,4 @@
+changeset ab210b9e2172519fb1fc05a7a45af83ac6380032
+manifest 7bea4526d38a363f410cd6db0857bc6fb4264f77
+files js/src/tests/ecma_6/Promise/methods-non-enumerable.js
+patch 215,216,

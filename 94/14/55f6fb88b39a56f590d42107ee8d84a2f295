@@ -1,0 +1,4 @@
+changeset 9565df2c9af2e0b1cf4c8ab9ce787d1225db3c34
+manifest 731cc835efa6bb7d4a08a073e0f452648f027502
+files devtools/client/responsive.html/components/browser.js
+patch 547,548,

@@ -1,0 +1,4 @@
+changeset ba4279ef40458c6f15048dc0ff2e7a3791bd4d25
+manifest bbdb468058a9c457abd51ca1a43b3e2c5064f08a
+files browser/components/preferences/in-content/content.js
+patch 245,246,

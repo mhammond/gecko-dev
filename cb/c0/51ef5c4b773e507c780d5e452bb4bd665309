@@ -1,0 +1,4 @@
+changeset fd5a45ba0257ec668f55da824e4384b8755eda32
+manifest dffc8fa5d2d8173405ade010bc99d7ba406424a3
+files devtools/client/webconsole/net/components/net-info-body.css
+patch 222,223,

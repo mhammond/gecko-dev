@@ -1,0 +1,4 @@
+changeset cc68ce01105fb2d8b54e3b05b2a8a4b0d1deb2f7
+manifest 6df71f438810c27246f1a59e9698fafc7db364b3
+files js/src/jsfuninlines.h
+patch 188,189,

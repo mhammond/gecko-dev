@@ -1,0 +1,5 @@
+changeset 2f5f092a64add23c4bb911179a21352046848406
+manifest 42cb436e96523054cac2f03cd864eb1ea4c6adf5
+extra rebase_source:673041aaeaa48cb32c68955e0448737e1ebbc459
+files python/mach/mach/registrar.py
+patch 307,381,

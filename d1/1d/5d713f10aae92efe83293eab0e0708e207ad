@@ -1,0 +1,4 @@
+changeset 74c356ccba607d02d5aa14cabce911f50dc93dcc
+manifest 3ae528032a01ff99fc32ea3ba05eeffddf569ba1
+files js/src/jit-test/tests/coverage/bug1214548.js
+patch 256,257,

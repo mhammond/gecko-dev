@@ -1,0 +1,5 @@
+changeset 2919296c48c06eb95296a8e71f6e3c0815c6df64
+manifest ca2bcd106a4be886bc86cb3262fe6552337a7d29
+extra rebase_source:f14b3a233897c9dcf50a6713603d3413d9fee7f4
+files devtools/client/webconsole/test/browser_webconsole_bug_762593_insecure_passwords_about_blank_web_console_warning.js
+patch 416,490,

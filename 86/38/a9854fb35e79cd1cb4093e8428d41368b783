@@ -1,0 +1,4 @@
+changeset 846d3a7a2ac13e92edf256a7da01e7ea525d4f08
+manifest 434a4e0dd5aa58041e0c86dc3747220dd4e24bca
+files toolkit/mozapps/extensions/test/browser/addons/browser_inlinesettings1_custom/chrome.manifest
+patch 259,260,

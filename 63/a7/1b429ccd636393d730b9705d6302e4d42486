@@ -1,0 +1,4 @@
+changeset e915959648c4e268efc8cad4ef764383d92ebe29
+manifest 447e079af1d6e7f084f43b1f7b553859d591ef8d
+files uriloader/exthandler/tests/mochitest/mochitest.ini
+patch 217,218,

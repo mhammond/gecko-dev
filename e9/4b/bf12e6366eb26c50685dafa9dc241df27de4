@@ -1,0 +1,4 @@
+changeset 20926974cfa78a5ae14b16c1977695b24a953a13
+manifest c345cb9f53445b41e18d9b4a953b7999bf33b772
+files media/libspeex_resampler/src/resample.c
+patch 183,184,

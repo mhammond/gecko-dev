@@ -1,0 +1,4 @@
+changeset adb9a383e5ec8114d788b859f80ea9ab38acfdbc
+manifest 61c1094be55e5c9dbd8f5f7d30bcd6262cff1295
+files devtools/client/framework/toolbox-init.js
+patch 248,249,

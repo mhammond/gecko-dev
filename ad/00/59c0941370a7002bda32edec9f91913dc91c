@@ -1,0 +1,5 @@
+changeset 852ac8a4ec55b93df8c9740aafaee6b84f539c3d
+manifest 40fb39c434bb822d5bf20566744c9f72081540ce
+extra commitid:BfXalEN879H
+files browser/extensions/loop/moz.build
+patch 319,359,

@@ -1,0 +1,5 @@
+changeset 922e64883a5b4ebf6f2345dfb85f04b487a0e714
+manifest 6a24fb84ec705ec06a143eeca1fdb2c1046f94ab
+extra amend_source:efed55e9eb5f44779595a1f1293ae17ebb48a9b8
+files testing/docker/desktop-build/bin/build.sh
+patch 426,499,

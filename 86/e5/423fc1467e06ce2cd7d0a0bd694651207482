@@ -1,0 +1,5 @@
+changeset 88427e76ab5697bbc61defd016e9b3e7502cf87b
+manifest 034feb81d316a79609107e9aaab8ea808968ce45
+extra rebase_source:0b4d518f8229b35b7a54b9fba57a23371eef3d79
+files browser/themes/linux/devedition.css
+patch 306,380,

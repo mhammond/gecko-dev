@@ -1,0 +1,5 @@
+changeset 32528aa361207af33918e2986342bf176d8e4749
+manifest 78bbe18621a4cfc739fd33321c277a60bdae0418
+extra rebase_source:55473258ba149c2b00d3b1808d0f93425dcd1925
+files accessible/xpcom/xpcAccessibleDocument.cpp
+patch 311,385,

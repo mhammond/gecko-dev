@@ -1,0 +1,5 @@
+changeset 72f0acda20c0b6136058324bed919e2fb6c414c3
+manifest 338f74ca2e84b4bad73e7c38ac1abe342e583c3d
+extra rebase_source:cecaa8451f4bbad5ea77211f64c1dc5c90fe5257
+files config/external/ffi/moz.build
+patch 301,375,

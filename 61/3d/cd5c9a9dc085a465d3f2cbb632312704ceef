@@ -1,0 +1,5 @@
+changeset cd6e051445c08c6b6b4ec69e23212d2f84a21fe4
+manifest 92619dd047c643aa22c1ac6247de5ad2c7a47dac
+extra transplant_source:ÿîWö!ñŞOö†õ[c2kê³
+files dom/workers/XMLHttpRequest.cpp
+patch 281,369,

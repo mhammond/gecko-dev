@@ -1,0 +1,4 @@
+changeset a36a90399990d1b03f2169ec50c14e54d3c2fed1
+manifest 853d90f646a6009eab957570ca247e45d27a43f0
+files dom/bluetooth/bluedroid/hfp/BluetoothHfpManager.cpp
+patch 223,224,

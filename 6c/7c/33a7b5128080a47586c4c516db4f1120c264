@@ -1,0 +1,4 @@
+changeset 171a90f58f744be4e872bf35e44abc0102b53a2f
+manifest 206bbb109c0b76abeef762ab4d1c712c3b13f488
+files dom/base/DOMRequestHelper.jsm
+patch 228,229,

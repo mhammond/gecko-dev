@@ -1,0 +1,5 @@
+changeset 43f77c634a8b5e8fb50d5fd1c9148238b5ded395
+manifest e0851e5f9baa72da2e694140963b7ca82dfbd123
+extra rebase_source:5b4448b4b900b0cd1bd82ab4cd8b32f34972610e
+files toolkit/components/processsingleton/MainProcessSingleton.js
+patch 274,348,

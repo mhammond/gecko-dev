@@ -1,0 +1,5 @@
+changeset 5d16dca06481c0d2303bfcf8c7d13f9d27b865a8
+manifest 6a4161dbdc15ac3e9a14276c79076ace6a51f544
+extra amend_source:5d47921db619ca0e5c666e98f708c8df9700c816
+files devtools/client/memory/test/browser/head.js
+patch 867,940,

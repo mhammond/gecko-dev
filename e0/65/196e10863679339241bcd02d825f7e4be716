@@ -1,0 +1,4 @@
+changeset b5cc6e7d058b9ab04a3f3e73f0ed9c3fe3b809f2
+manifest a60b786507c93317c8c7e56a916437453045c1cd
+files dom/webidl/EventSource.webidl
+patch 182,183,

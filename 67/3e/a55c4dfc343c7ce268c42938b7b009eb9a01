@@ -1,0 +1,4 @@
+changeset 21925a037ec340c18b4c7526074e67194271522a
+manifest b15830c99c1a0b4636af754cd02dad080b4535b1
+files toolkit/mozapps/update/nsUpdateTimerManager.js
+patch 520,521,

@@ -1,0 +1,4 @@
+changeset ab55b041632e2f65ba47080157b02cf2143510ee
+manifest 8758efc4caf6d9c01b487d89bb84561f2520583e
+files caps/nsPrincipal.cpp
+patch 195,196,

@@ -1,0 +1,4 @@
+changeset a29cc5d2601f272ace3ea09d53a06e549b9d2b73
+manifest 3c52914303dce6d1dfcc0fb3fdbc22311fd67884
+files devtools/client/animationinspector/test/browser_animation_target_highlighter_lock.js
+patch 322,323,

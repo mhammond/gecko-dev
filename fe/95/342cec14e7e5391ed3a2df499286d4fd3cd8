@@ -1,0 +1,5 @@
+changeset f354bf7e970203bfffb1fbbc7ecaf9525597a136
+manifest 86972f8fb909bfd7290c5a407d299420e25169c7
+extra rebase_source:e1038d7ea1ac7cc9c23b570103e9aae97e04346e
+files testing/mozbase/versioninfo.py
+patch 317,391,

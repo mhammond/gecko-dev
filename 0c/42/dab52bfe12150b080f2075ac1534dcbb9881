@@ -1,0 +1,5 @@
+changeset d80bdc49a0d56f9cfe83ae81651687ae7b151f50
+manifest 25085270cc33fc96f8f194ea81ac8ce810463035
+extra rebase_source:cf9acc0012eae22322a653001bbdab1246264a5f
+files layout/style/nsComputedDOMStyle.cpp
+patch 310,384,

@@ -1,0 +1,5 @@
+changeset c4fe64d3a1c5dcfbb9ffadaa04d6084d1e92fe8d
+manifest 2e5c3c86357efa5c4c1bfd45b373e93c6b350209
+extra rebase_source:b624de603ac2a276c38f6ae294af3b08b78e6eeb
+files accessible/xpcom/xpcAccessibleTable.cpp
+patch 265,339,

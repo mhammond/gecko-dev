@@ -1,0 +1,4 @@
+changeset 2b1ddc2f0919755078ed3ea190d263f97609870b
+manifest 0ae0d5f0707438dbaf4eda457f689e81bfa874dc
+files addon-sdk/source/test/leak/test-leak-window-events.js
+patch 226,227,

@@ -1,0 +1,4 @@
+changeset 791ad21455489190f3c14c3aed820b7beef0f94f
+manifest a99646318a749766526b7b569129b21f998aaf60
+files devtools/client/animationinspector/test/browser_animation_running_on_compositor.js
+patch 318,319,

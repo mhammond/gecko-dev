@@ -1,0 +1,5 @@
+changeset d032f77a55f38746f404d9e9458d2f9ef762ecc1
+manifest bbed24b9ea044b9d97b69770039ec2cd12d1a65e
+extra amend_source:db33feaf47773c4a525c64557fec25493f9eedb1
+files toolkit/components/urlformatter/nsURLFormatter.js
+patch 262,335,

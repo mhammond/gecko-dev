@@ -1,0 +1,4 @@
+changeset cb1e8b892715d0d1377caa9f80f27b2d2000f973
+manifest 25211580f2ff3ea0417fca4c352807b32e3ff521
+files python/mozboot/mozboot/android.py
+patch 339,340,

@@ -1,0 +1,5 @@
+changeset 69595cb2a30d0c7205a5c83a7d26bba95b88a6a3
+manifest bf7a66bc9ba5ab84e83597624ed36149a2a0618b
+extra rebase_source:a14aca469ccfff7dd4c15a8fe704f2e83e468b6c
+files dom/base/nsPropertyTable.cpp
+patch 268,342,

@@ -1,0 +1,4 @@
+changeset a7eb74116e1b86183d0e618080218d4a1915a11c
+manifest bf8f88264991c91ad40618568b5ba8342b682165
+files browser/components/places/content/treeView.js
+patch 225,226,

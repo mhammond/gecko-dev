@@ -1,0 +1,5 @@
+changeset e59fbcb1da07bb3e330c8c35759e58404981ffa6
+manifest ef35e5a5deb6c58244143b407f4929e52e5a015a
+extra rebase_source:71a71cca96c6a20244886a0a7579009683c9b709
+files gfx/layers/opengl/CompositorOGL.cpp
+patch 306,380,

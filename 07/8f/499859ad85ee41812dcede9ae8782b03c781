@@ -1,0 +1,4 @@
+changeset fcab41a159596b77bd65b4d62ffc9a42aacb5cac
+manifest df18a04f4eb6b4491ca1ef8e74bff838eb080643
+files dom/bluetooth/common/webapi/BluetoothGatt.cpp
+patch 182,183,

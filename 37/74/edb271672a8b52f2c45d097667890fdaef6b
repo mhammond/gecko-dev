@@ -1,0 +1,4 @@
+changeset 447989bc9e0edea0e680638800bb512d2fea2332
+manifest a6b378a3ea1f77d6d47f47f4d00ecf891deef59a
+files xpfe/components/directory/nsDirectoryViewer.cpp
+patch 369,370,

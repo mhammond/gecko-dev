@@ -1,0 +1,4 @@
+changeset 973c9ea5241382372134af108a6412cfa4ad87aa
+manifest 466d65a193ee981d0ce332b4926783c388fd23dd
+files browser/base/content/test/general/browser_parsable_script.js
+patch 213,214,

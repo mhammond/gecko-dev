@@ -1,0 +1,5 @@
+changeset 49dff160b4317dca000d401c8536c873e777337f
+manifest 4400ce488810e5e9f91ea2ec6b32eef92ab17429
+extra rebase_source:53aaade233269d698cc5de6be744b7558cebc377
+files dom/base/nsImageLoadingContent.h
+patch 255,329,

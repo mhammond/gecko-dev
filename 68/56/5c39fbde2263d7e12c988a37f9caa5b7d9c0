@@ -1,0 +1,4 @@
+changeset 2e22440310321d890737f32af5ff31549ec70c6d
+manifest 0a4e9c820c01c91dccdfec0d8de3853a145c8a8f
+files browser/devtools/webide/modules/remote-resources.js
+patch 177,178,

@@ -1,0 +1,4 @@
+changeset 0134890a72c1d56355a20e472a56e04408153d6f
+manifest 597eed70d4897832428c89ac46dfd181ec1d748e
+files toolkit/devtools/server/actors/webapps.js
+patch 287,288,

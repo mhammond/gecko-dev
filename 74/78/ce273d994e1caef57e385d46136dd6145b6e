@@ -1,0 +1,4 @@
+changeset 78a10fc91b52108a541b82d4c4adbdb95addd8bf
+manifest 22e5f86b94a897ef5db0b483c0c094c9c2ed09ec
+files media/libyuv/libyuv.gyp
+patch 194,195,

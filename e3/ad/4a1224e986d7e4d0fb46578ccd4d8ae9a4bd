@@ -1,0 +1,5 @@
+changeset 7d0ab5434a3ca8a702048ad860268da4478dfa28
+manifest 1c6a11494cfbaa59497ff3ca2222ae3529ee1d82
+extra rebase_source:9d4e380bc855e214d1863fb21af956183daad48a
+files xpcom/tests/unit/xpcshell.ini
+patch 305,379,

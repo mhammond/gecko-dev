@@ -1,0 +1,5 @@
+changeset 6c1457027394d198932267c646135a9d8ab3876c
+manifest 9c516c44d3aee1fcef3210a2ae0317f162e11c2a
+extra source:d5aa550a2e1f668cbfd7700b8323d8606d01ed5d
+files netwerk/base/nsSecCheckWrapChannel.cpp
+patch 312,379,

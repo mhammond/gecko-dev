@@ -1,0 +1,4 @@
+changeset 9cfa81ac129a0ea376fd91d94b471bc17fb73b2a
+manifest 3b11888629a644049983b7f35a22afb796a78855
+files netwerk/cache/nsDiskCacheDeviceSQL.cpp
+patch 216,217,

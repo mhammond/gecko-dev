@@ -1,0 +1,4 @@
+changeset 160102be757f93da4d9521dfc89968ff17728962
+manifest 1555a510b188b1f9df318e6f9954672b73ea5a0c
+files dom/base/nsJSEnvironment.cpp
+patch 190,191,

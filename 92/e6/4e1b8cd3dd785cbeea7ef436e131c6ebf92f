@@ -1,0 +1,4 @@
+changeset a5b04e48b3e8e70b8a213afb75170da85c4d5b62
+manifest 24da7025d32316fc83c57f24c716614677793fcd
+files netwerk/dns/nsIDNService.cpp
+patch 312,313,

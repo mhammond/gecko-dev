@@ -1,0 +1,5 @@
+changeset fa81f18d5093d47064913e1e7fb6c54d03419df0
+manifest 22b8a9561cddbd4d28378a521a8090b841152a87
+extra rebase_source:094100088aecba9f3198eee9550f6c41be0f1628
+files xpcom/typelib/xpt/xpt_arena.cpp
+patch 284,358,

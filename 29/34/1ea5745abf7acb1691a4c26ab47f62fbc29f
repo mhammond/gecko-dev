@@ -1,0 +1,4 @@
+changeset 2b5a3e10e3962289400349e0f0c9f8d3d7b2be8c
+manifest 9a0494fd4d4d446d628e95552863cc9c5e01f937
+files gfx/skia/skia/src/gpu/effects/GrConvexPolyEffect.cpp
+patch 213,214,

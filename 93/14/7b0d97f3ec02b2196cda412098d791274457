@@ -1,0 +1,4 @@
+changeset 28d1c33b6c120985a1133c6412b8e406c8134eaa
+manifest 6c7386d8e7c390cbd6b5afaad2c58b061cb48a2d
+files dom/tests/mochitest/fetch/test_fetch_app_protocol.html
+patch 252,253,

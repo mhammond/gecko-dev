@@ -1,0 +1,4 @@
+changeset b52ff9f176fda666964ec21ec4c52acef73f8d1b
+manifest be7a94e09e5a44e705ef054a109e30f86b4106ea
+files xpcom/reflect/xptinfo/xptiTypelibGuts.cpp
+patch 270,271,

@@ -1,0 +1,5 @@
+changeset c5fe7ff0d2099ef8d10485333eff2162f9f07cab
+manifest eef5ce804065aa1ff7b7e8b02f0a3e7b7eef8c6d
+extra histedit_source:29156f052e3589959f69123b756cd28d4fa723b4
+files security/manager/ssl/StaticHPKPins.h
+patch 246,322,

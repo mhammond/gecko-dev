@@ -1,0 +1,4 @@
+changeset c0075141780894b3f1017b7b5cab5ce88812f3da
+manifest 5b9b66d0d4b4e2df8aef0f923a67d9b9208c66e2
+files mobile/android/search/manifests/SearchAndroidManifest_activities.xml.in
+patch 251,252,

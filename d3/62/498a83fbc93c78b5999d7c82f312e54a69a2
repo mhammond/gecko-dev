@@ -1,0 +1,4 @@
+changeset 89eb0f4a736378e30946fd8341ca4bc91c609337
+manifest 8274222bb5792cc2bade07182a1b116f1cb847a4
+files browser/devtools/inspector/test/browser.ini
+patch 237,238,

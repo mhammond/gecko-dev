@@ -1,0 +1,5 @@
+changeset 1c64195d903bf677d9ac71015681c2b9c2bb9957
+manifest d725becaa7385f6c8a6cc9b9d98e6de94154fbc5
+extra source:cd0e4d4aff3d27cf7d05b7bb13e12104e68675ce
+files browser/locales/en-US/chrome/browser/aboutPrivateBrowsing.dtd
+patch 318,385,

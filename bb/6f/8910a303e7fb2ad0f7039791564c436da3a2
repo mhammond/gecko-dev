@@ -1,0 +1,4 @@
+changeset 946e15013499fe1bae4c1d8e910bacaf26638ade
+manifest 88e074a27a8d644525b422f76e3c90036eb5d90d
+files mobile/android/tests/browser/robocop/testEventDispatcher.js
+patch 524,525,

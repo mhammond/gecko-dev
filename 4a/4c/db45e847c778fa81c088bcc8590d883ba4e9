@@ -1,0 +1,5 @@
+changeset 1341ec6ae0149311e8badce3e4f013e1fcc2869d
+manifest a55e6b044a5ca0d27f00c3323579321462365fa3
+extra source:d89bdc2d9f01f68fa74781e57ab582b15c2738a7
+files addon-sdk/source/lib/sdk/panel/utils.js
+patch 317,384,

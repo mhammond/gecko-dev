@@ -1,0 +1,5 @@
+changeset 1e17258d3213ac375ac59ce8d82a15ce9df4242e
+manifest 337acca943dadf14f780bc3d3002bddb35a6c70f
+extra source:43e363c256f8af61ec598e99feabc6bcc172b938
+files dom/tests/mochitest/pointerlock/file_screenClientXYConst.html
+patch 317,384,

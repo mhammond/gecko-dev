@@ -1,0 +1,5 @@
+changeset 0da5a6f77ffb2e1c4629cc0290b05be6bedd773e
+manifest da3e8f148b6589c20707537d8ed7f93aae86b6b0
+extra rebase_source:b6a7c996c6fb7b209d873748898219920b24fdb0
+files layout/reftests/image-element/invalidate-1.html
+patch 335,409,

@@ -1,0 +1,5 @@
+changeset 6b2350929cdb675daf16baedf10e06f2dff008fb
+manifest 6f66ab2db927c6fc6779a2a732a8c9d4cbcdba29
+extra rebase_source:107b398a84a2eed231bcf86f5075b997bf98e5ff
+files mobile/android/base/java/org/mozilla/gecko/promotion/HomeScreenPrompt.java
+patch 545,619,

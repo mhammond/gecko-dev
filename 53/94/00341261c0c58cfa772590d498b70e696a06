@@ -1,0 +1,4 @@
+changeset 8329ca6bb6550d24104ebffe90c88e87e96a0db6
+manifest 3bde33acccb385a0b0d51c7f0e7c118bf92d8028
+files content/xul/content/src/nsXULElement.cpp
+patch 239,240,

@@ -1,0 +1,5 @@
+changeset ef8a688b8b72f266782ed728071dd82dca1acf76
+manifest 75d1c640f6aa4721545c37a22c547e9262795503
+extra rebase_source:232f50d3b6fb8d4599967552679f05fe070e5dc1
+files mobile/android/base/java/org/mozilla/gecko/util/HardwareUtils.java
+patch 327,401,

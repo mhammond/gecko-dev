@@ -1,0 +1,4 @@
+changeset cb15edb42ed3954f59643dd0b2895bb9452cbe4f
+manifest ff89133cf19a1e880dba2eea256175ae690cffb4
+files dom/apps/src/AppsUtils.jsm
+patch 204,205,

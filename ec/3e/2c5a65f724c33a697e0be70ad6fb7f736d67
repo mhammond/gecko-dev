@@ -1,0 +1,5 @@
+changeset 349aa85350385d9a9de0c387d6e94d836ca86173
+manifest bfd87728d16c297d79f3fb271ea84d97d4585be2
+extra source:9d162f236562f4ff038e095ce1af5d31eb578f52
+files gfx/angle/src/libANGLE/renderer/d3d/d3d11/Framebuffer11.cpp
+patch 340,407,

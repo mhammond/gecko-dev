@@ -1,0 +1,4 @@
+changeset 36adc9ed1d0ed7170e67163d144db2fe67cb439a
+manifest c00f7e06284418bcf9d33b487bebba656243420d
+files mobile/android/base/sqlite/SQLiteBridge.java
+patch 223,224,

@@ -1,0 +1,4 @@
+changeset 0df7139f197ec547f78cf4a76acf7f3bed4967e0
+manifest eee61d11b6797708b4e5a9465f3d5053cdd6a9d0
+files widget/cocoa/nsMenuBarX.mm
+patch 188,189,

@@ -1,0 +1,5 @@
+changeset d653d8ceb9982bf414f7e635fded811d69d6eb64
+manifest ef8cebb02102287fcda9feaf9ed6e9898ad21d8b
+extra source:c7942b0606ada54b06f6c241e1431e9c677a443f
+files devtools/client/webconsole/test/browser_webconsole_hpkp_invalid-headers.js
+patch 355,422,

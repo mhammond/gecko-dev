@@ -1,0 +1,5 @@
+changeset 8f7eb6173acfe3955bd34b05b6131589c1a2cfc2
+manifest 9aad1cca7b7fc47dc4b9b3696d62c9466605210e
+extra commitid:FPl4Thjk7rG
+files devtools/client/webconsole/test/browser_webconsole_bug_597756_reopen_closed_tab.js
+patch 300,340,

@@ -1,0 +1,5 @@
+changeset 24f4b4e4e22dd5ab16c411133100b31afa1d0cb1
+manifest ee28b4d23fa6c0bd5e8ec97203e7f14c1f84978c
+extra rebase_source:34e97821cbcf4211ebd87317435be8e5dfeec58a
+files mobile/android/base/java/org/mozilla/gecko/home/ClientsAdapter.java
+patch 331,405,

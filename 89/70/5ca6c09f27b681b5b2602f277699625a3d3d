@@ -1,0 +1,4 @@
+changeset 9fbebd701b4ff563e1f7e666284c516e6619c753
+manifest 5f732a1370def867e88b78f899dc3ab4eadd676d
+files testing/mozbase/mozrunner/mozrunner/local.py
+patch 327,328,

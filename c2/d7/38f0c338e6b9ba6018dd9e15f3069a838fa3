@@ -1,0 +1,4 @@
+changeset 7324716faa31f0e982a4c83144ea19ea84085197
+manifest bf0107839a8302c72af9e8449a3de53b78309623
+files mobile/android/base/java/org/mozilla/gecko/widget/DividerItemDecoration.java
+patch 211,212,

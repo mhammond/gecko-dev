@@ -1,0 +1,5 @@
+changeset 8117e133c5884b8f1bb2c2786db7b112f3e8260a
+manifest 074a00406fb069cc56a61440d46323248eb2cb5a
+extra source:3d28fa9f98e1eafc400662d32823cc3594627496
+files gfx/thebes/gfxGDIFont.cpp
+patch 340,407,

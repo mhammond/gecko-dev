@@ -1,0 +1,5 @@
+changeset d8c5bc61ac8e0fd2c31653956ba8ff7281eb2061
+manifest c823bddd9601fec463bc2b5883d0d71416b8d5f3
+extra rebase_source:3a3ca37ff000a82879287b2cfc39e1bdc336a93b
+files toolkit/components/mediasniffer/nsMediaSniffer.cpp
+patch 287,361,

@@ -1,0 +1,5 @@
+changeset b03732ee3d23e956eea1742c88268ae7aebb8946
+manifest 648bd588f3ed1e019bf72be44864f5901654f6c8
+extra rebase_source:73351d138f78d7555430a98c7d7c3eb407ca8492
+files toolkit/modules/AddonWatcher.jsm
+patch 304,378,

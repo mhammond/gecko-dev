@@ -1,0 +1,4 @@
+changeset 7ad35617e91ba9d5fd336237b240b4c0f6ad91a0
+manifest 7e5fae6dad8d9951c67f06522941aa42ab2c187c
+files media/libstagefright/binding/byteorder/mod.rs
+patch 482,483,
