@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/video_coding/codecs/vp8/main/test/rps_test.cc
+copyrev: 6f362b1d84074a778c7df5bed83f3f529460db64

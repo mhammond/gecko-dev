@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/builds/opt_linux64_artifact.yml
+copyrev: 440c73db4278ae88f2da262085a9d90eb780d243

@@ -1,0 +1,2 @@
+copy: gfx/angle/src/compiler/64bit-lexer-safety.patch
+copyrev: d94ceb714d6fd9ea1cb02284c189887ec78e07dc

@@ -1,0 +1,2 @@
+copy: mobile/android/base/tests/ContentProviderTest.java.in
+copyrev: ea5fba52341f80aa8c32054e8dd82c25277cbb76

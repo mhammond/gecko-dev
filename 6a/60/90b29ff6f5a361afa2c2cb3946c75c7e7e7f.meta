@@ -1,0 +1,2 @@
+copy: testing/web-platform/mozilla/tests/service-workers/service-worker/resources/invalid-chunked-encoding-with-flush.py
+copyrev: 695bf946217b8c9a39aeef7bc3788e565a6547e7

@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/video_coding/codecs/tools/video_quality_measurement.cc
+copyrev: a27707f56ca987bab6c69ddac21bd6a404f0385b

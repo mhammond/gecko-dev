@@ -1,0 +1,2 @@
+copy: taskcluster/scripts/tester/test-ubuntu.sh
+copyrev: 89abe5847cc5bf597ab06814515a7e5226a2982d

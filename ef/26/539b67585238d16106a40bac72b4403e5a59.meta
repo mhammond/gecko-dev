@@ -1,0 +1,2 @@
+copy: testing/mozharness/configs/single_locale/mozilla-aurora_android-api-11.py
+copyrev: a915c18a55078067aa36f79f43085b3f8068a85a

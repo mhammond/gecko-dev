@@ -1,0 +1,2 @@
+copy: browser/extensions/loop/chrome/test/xpcshell/test_loopservice_initialize.js
+copyrev: e606334c0726274988e757223098c168ec75a42d

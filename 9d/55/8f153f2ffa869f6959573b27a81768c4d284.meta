@@ -1,0 +1,2 @@
+copy: dom/bluetooth/tests/marionette/test_dom_BluetoothAdapter_getters.js
+copyrev: de398cc1f4d80a97f0c0d744be7dd5b2fd918d2f

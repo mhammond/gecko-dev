@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/tests/fx_linux64_mochitest_gl_opt.yml
+copyrev: 6b6e344863909f4f2042915a32de8b4d9ede9e0c

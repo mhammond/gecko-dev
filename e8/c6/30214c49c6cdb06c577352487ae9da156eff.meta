@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/unit/tlsserver/default-ee.der
+copyrev: c261477f183c98a7ac1a4000514eebcecda43d5a

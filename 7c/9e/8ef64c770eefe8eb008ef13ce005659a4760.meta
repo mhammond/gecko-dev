@@ -1,0 +1,2 @@
+copy: testing/taskcluster/scripts/misc/repackage-jdk.sh
+copyrev: 022631b9ae100ebc37c9e0ae62fa23bac49bc0cb

@@ -1,0 +1,2 @@
+copy: ipc/chromium/src/third_party/libevent/openbsd-no-arc4random_addrandom.patch
+copyrev: feaee92425c21e8493ba5ede21347df583e74226

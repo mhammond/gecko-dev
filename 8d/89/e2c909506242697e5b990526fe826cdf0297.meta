@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_coding/neteq/signal_mcu.c
+copyrev: 46af05faac80a1163d726fc2276dea21d8f60931

@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/remote_bitrate_estimator/include/remote_bitrate_estimator.h
+copyrev: 9b6281f615ddef09d7f0d2e7f4735742f52e6ab2

@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_coding/codecs/ilbc/split_vq.c
+copyrev: 17dd441218fdaa35e9bd7a3721238583fb22f5eb

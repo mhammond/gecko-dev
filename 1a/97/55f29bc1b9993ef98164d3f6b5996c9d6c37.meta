@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/video_render/main/source/incoming_video_stream.cc
+copyrev: ec65e3387b71687db446fbaa2e5429acac6640fb

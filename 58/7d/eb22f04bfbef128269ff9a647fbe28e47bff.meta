@@ -1,0 +1,2 @@
+copy: js/src/jsapi-tests/testGCChunkAlloc.cpp
+copyrev: ea537f8a140350feea241be2d270e9a7446f12b3

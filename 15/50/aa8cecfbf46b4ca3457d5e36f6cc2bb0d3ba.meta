@@ -1,0 +1,2 @@
+copy: browser/devtools/webconsole/test/test-data.json^headers^
+copyrev: ac550cadb3866068a16fe642a1144948a1ac43fb

@@ -1,0 +1,2 @@
+copy: testing/marionette/client/marionette/tests/unit/test_set_window_size.py
+copyrev: ecfe886f774c033fe788aabb85ca08fb0df2f2b7

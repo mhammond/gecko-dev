@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/builds/b2g_aries_spark_debug.yml
+copyrev: 110ac4841bf422c415b9700aacb109669a885c60

@@ -1,0 +1,2 @@
+copy: testing/docker/android-gradle-build/bin/before.sh
+copyrev: 900b627c187877a2522e0cbed07b893d70727562

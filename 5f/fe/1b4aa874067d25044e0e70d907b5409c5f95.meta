@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/webrtc/modules/udp_transport/source/udp_socket_manager_posix.cc
+copyrev: c3c862fb7d4cb98c30bbe2f62e3e0e1733923de1

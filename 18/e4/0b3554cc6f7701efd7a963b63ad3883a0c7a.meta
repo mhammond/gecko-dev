@@ -1,0 +1,2 @@
+copy: xpcom/reflect/xptcall/src/md/unix/xptcstubs_asm_ipf32.s
+copyrev: 8688779d102c7354472299d79725b0d96c2a07e5

@@ -1,0 +1,2 @@
+copy: testing/docker/desktop-test/dot-files/config/pip/pip.conf
+copyrev: 5c9a2ad925f127c92d7abbc9612a1aa81d8d5f81

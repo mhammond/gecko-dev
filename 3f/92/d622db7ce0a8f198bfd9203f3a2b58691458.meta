@@ -1,0 +1,2 @@
+copy: extensions/spellcheck/hunspell/glue/mozHunspellDirProvider.cpp
+copyrev: 26dbd6fbf44294480760ec40a87da4fe3367eda5

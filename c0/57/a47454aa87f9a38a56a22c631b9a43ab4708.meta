@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/tests/fx_desktop_generic.yml
+copyrev: aebe4be46e116f22ffe364cd1b5595d74fa064db

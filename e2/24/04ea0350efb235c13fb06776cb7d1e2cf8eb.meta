@@ -1,0 +1,2 @@
+copy: media/libvpx/vp8/common/x86/variance_sse2.c
+copyrev: 99ded2956ec06d4e12aa8a168d7b989fc0ea6206

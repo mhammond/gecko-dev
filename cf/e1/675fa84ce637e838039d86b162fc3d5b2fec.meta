@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/tests/harness_marionette.yml
+copyrev: a2c6ea68e118c550f77588aea772c0fccb885930

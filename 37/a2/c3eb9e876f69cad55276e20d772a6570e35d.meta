@@ -1,0 +1,2 @@
+copy: media/libvpx/vp9/encoder/x86/vp9_dct32x32_avx2.c
+copyrev: fd8264b93de70d388893ad9138c2c930940ee356

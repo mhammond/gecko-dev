@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/build.yml
+copyrev: 7b901870f0464fc8b381874635f334cf8a7c9464

@@ -1,0 +1,2 @@
+copy: security/sandbox/win/src/registry_policy.cc
+copyrev: db83867a461e19b9368501116d2af7291b2f402e

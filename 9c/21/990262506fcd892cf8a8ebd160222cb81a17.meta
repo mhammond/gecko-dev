@@ -1,0 +1,2 @@
+copy: testing/web-platform/mozilla/tests/service-workers/service-worker/fetch-request-no-freshness-headers.https.html
+copyrev: 3c76cf92faa3162ac07c6bf6a3c0cb3101b2fa8b

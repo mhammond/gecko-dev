@@ -1,0 +1,2 @@
+copy: taskcluster/docker/centos6-build/hgrc
+copyrev: 614af5d525de5189c694d27d8bc9f70c2572807b

@@ -1,0 +1,2 @@
+copy: ipc/chromium/src/third_party/libevent/mac-arc4random-buf.patch
+copyrev: 094c0b6c722e1ec2fd59c7c0972c0752ad9ca01b

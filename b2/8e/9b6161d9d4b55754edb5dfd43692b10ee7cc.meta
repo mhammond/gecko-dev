@@ -1,0 +1,2 @@
+copy: security/manager/ssl/src/nsRandomGenerator.h
+copyrev: 42961f0ef546faf6aeb349377a73df790278af3b

@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/branches/alder/job_flags.yml
+copyrev: 5dbc59fd71f12b0941d4c9a855acf52932be11e5

@@ -1,0 +1,2 @@
+copy: js/src/jit-test/tests/ion/inlining/TypedObject-TypeDescrIsArrayType-unknown.js
+copyrev: f8959b2518c05c6b263a1018e0fa548230a76e9f

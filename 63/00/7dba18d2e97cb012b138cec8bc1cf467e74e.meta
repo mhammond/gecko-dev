@@ -1,0 +1,2 @@
+copy: testing/firefox-ui/tests/firefox_ui_tests/functional/locationbar/test_suggest_bookmarks.py
+copyrev: a5cc05242b7714815375aeb1435e0d27f60ec018

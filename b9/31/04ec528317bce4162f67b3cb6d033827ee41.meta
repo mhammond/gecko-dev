@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/builds/firefox_base.yml
+copyrev: dc1d50355112d6b9293d2373aef7d6b1e00e571b

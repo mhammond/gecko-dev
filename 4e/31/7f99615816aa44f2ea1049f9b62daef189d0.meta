@@ -1,0 +1,2 @@
+copy: testing/firefox-ui/tests/firefox_ui_tests/functional/locationbar/test_escape_autocomplete.py
+copyrev: 94cf9c496d1a2ad30c489d7995da043dd4637e24

@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/unit/test_pinning_dynamic/cn-x.b.pinning2.example.com-pinningroot.pem.certspec
+copyrev: dff9cc26c50f979a80ba6b30b3417910adf4363c

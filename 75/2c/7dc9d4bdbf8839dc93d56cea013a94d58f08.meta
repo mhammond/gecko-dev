@@ -1,0 +1,2 @@
+copy: taskcluster/ci/legacy/tasks/tests/fx_docker_desktop_generic.yml
+copyrev: 5aaf51d7c10f8b572af975b500f43fe100ca8f61

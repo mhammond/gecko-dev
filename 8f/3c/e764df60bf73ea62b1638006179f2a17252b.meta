@@ -1,0 +1,2 @@
+copy: xpcom/string/src/nsTStringObsolete.cpp
+copyrev: 390191dff19a930a3f65b2e701837bf90ca61ef6

@@ -1,0 +1,2 @@
+copy: xpcom/string/src/nsTPromiseFlatString.cpp
+copyrev: 653cc354cfab1cf4311751a0451d1611ff23e5be

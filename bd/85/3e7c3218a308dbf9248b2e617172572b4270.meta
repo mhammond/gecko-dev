@@ -1,0 +1,2 @@
+copy: xpcom/reflect/xptcall/src/md/unix/xptcstubs_asm_ppc_openbsd.s
+copyrev: 8839ec6674a640186450c0c0f12dbed936d5f589

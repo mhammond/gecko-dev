@@ -1,0 +1,2 @@
+copy: mobile/android/base/httpclientandroidlib/impl/io/ChunkedOutputStream.java
+copyrev: 75f0bfe5937316701524eb76f848c1acc7aeb179

@@ -1,0 +1,2 @@
+copy: toolkit/components/protobuf/src/google/protobuf/message_lite.cc
+copyrev: 747e92db5059b72631abf51be11de6707f0c62ff

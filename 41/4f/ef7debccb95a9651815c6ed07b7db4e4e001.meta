@@ -1,0 +1,2 @@
+copy: security/sandbox/chromium/sandbox/win/src/process_mitigations_win32k_dispatcher.h
+copyrev: 4f334dfa872116e4806aac5c03dc5902b911eaa5

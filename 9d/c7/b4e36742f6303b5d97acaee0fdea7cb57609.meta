@@ -1,0 +1,2 @@
+copy: media/libvpx/vp8/encoder/arm/armv6/vp8_sad16x16_armv6.asm
+copyrev: ade8894e3737d5c8d8a697841e4939eb90633a47

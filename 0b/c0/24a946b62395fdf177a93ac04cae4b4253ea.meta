@@ -1,0 +1,2 @@
+copy: testing/mozharness/configs/generic_releng_win64.py
+copyrev: d4a27f9a5fc354d1b1912cdd489e0ebf8d8ca4ce

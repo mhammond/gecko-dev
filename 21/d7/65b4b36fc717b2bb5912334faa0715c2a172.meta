@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_coding/neteq/correlator.c
+copyrev: a69320d112af72a6fc83e1a30496b48346ae4838

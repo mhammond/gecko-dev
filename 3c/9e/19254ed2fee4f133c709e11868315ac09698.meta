@@ -1,0 +1,2 @@
+copy: taskcluster/scripts/misc/build-clang-windows.sh
+copyrev: 44faa8746dc4aeae7416a1b471f72c20605d525c

@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/tests/b2g_unittest_base.yml
+copyrev: 08976f1b5ee855d444a7202be49b7635be252103

@@ -1,0 +1,2 @@
+copy: testing/web-platform/mozilla/tests/service-workers/service-worker/resources/appcache-ordering.manifest
+copyrev: 507149d48cc81fb260a055291879e1c6e6977dd7

@@ -1,0 +1,2 @@
+copy: netwerk/protocol/file/src/nsFileChannel.cpp
+copyrev: 62e3333d4eec11ccf43ce2dfde706c74b676d39f

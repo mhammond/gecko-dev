@@ -1,0 +1,2 @@
+copy: xpcom/reflect/xptcall/src/md/unix/xptcinvoke_asm_ipf64.s
+copyrev: d57bce5d2f1298175b1f635db9cf868244ea0689

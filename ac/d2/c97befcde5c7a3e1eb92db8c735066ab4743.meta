@@ -1,0 +1,2 @@
+copy: taskcluster/docker/tester/dot-config/user-dirs.dirs
+copyrev: a5faed21e3074dca4bba6b26715799a302487971

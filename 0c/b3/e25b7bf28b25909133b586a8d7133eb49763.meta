@@ -1,0 +1,2 @@
+copy: dom/base/test/csp/file_bug836922_npolicies.html^headers^
+copyrev: 4f8c997861018d9f9af75a33a2313c4743271aed

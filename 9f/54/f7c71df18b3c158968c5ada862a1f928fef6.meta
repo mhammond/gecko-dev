@@ -1,0 +1,2 @@
+copy: gfx/skia/trunk/src/opts/SkUtils_opts_SSE2.cpp
+copyrev: c88ab0a325fd77f5811b8597f751d250c12060b3

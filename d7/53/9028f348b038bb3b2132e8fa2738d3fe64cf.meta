@@ -1,0 +1,2 @@
+copy: dom/canvas/test/webgl-conformance/generate-wrappers-and-manifest.py
+copyrev: 7a12c882ad054336b3608332b39ef72c00fbacd8

@@ -1,0 +1,2 @@
+copy: taskcluster/docker/tester/bin/test.sh
+copyrev: bd251dd2d130a53807066358fec90153d70e2a1c

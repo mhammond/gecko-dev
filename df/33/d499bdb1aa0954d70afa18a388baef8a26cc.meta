@@ -1,0 +1,2 @@
+copy: taskcluster/docker/centos6-build/Dockerfile
+copyrev: bcc4eb07355fe011f6604d98445b235c8fbb4a1e

@@ -1,0 +1,2 @@
+copy: python/mozbuild/mozbuild/test/frontend/data/test-manifest-empty/moz.build
+copyrev: 60c3a83e44bec8be8ff81784b24b1754e85db1f9

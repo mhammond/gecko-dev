@@ -1,0 +1,2 @@
+copy: xpcom/reflect/xptcall/src/md/unix/xptcstubs_sparc64_openbsd.cpp
+copyrev: d3eabfd125f99ce1836c0e109489ab113494bae6

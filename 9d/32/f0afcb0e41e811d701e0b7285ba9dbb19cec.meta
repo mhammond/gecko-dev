@@ -1,0 +1,2 @@
+copy: media/libvpx/vp8/encoder/arm/armv6/vp8_variance16x16_armv6.asm
+copyrev: bd3d812e6ff6abe51a726db90c7361d63e836d6b

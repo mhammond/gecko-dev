@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/tests/fx_linux64_reftest.yml
+copyrev: 291169817a6cac8f9e849557b76dc354439e2fa3

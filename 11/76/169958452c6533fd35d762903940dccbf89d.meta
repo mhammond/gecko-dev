@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_coding/codecs/cng/cng.gypi
+copyrev: ead64dd55bc760f23dd30fad5a9560d2fd6d1c9d

@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/unit/test_ev_certs/test-oid-path-ee.pem
+copyrev: 557797f8f70aeb4c481b0a704b367ae1f121bd10

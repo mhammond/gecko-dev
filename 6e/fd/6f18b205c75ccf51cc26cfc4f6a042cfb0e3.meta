@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/tests/mozlint-flake8.yml
+copyrev: 7d315db6858990ee915bfcc04ba08af3da0dd6ac

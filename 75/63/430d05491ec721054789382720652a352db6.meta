@@ -1,0 +1,2 @@
+copy: dom/workers/test/xhr_headers_server.sjs
+copyrev: b80eeb728727cb62c6eade2a18f10575078fc30d

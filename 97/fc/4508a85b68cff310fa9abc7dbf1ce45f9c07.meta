@@ -1,0 +1,2 @@
+copy: python/mozbuild/mozbuild/testing/mochitest.py
+copyrev: b24f78b93c86d21007aea37193509010603cfffb

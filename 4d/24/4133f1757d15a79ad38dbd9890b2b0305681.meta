@@ -1,0 +1,2 @@
+copy: taskcluster/ci/legacy/tasks/builds/mobile_base.yml
+copyrev: 3451a58237740626b9e2f15e6b61f6a637bf1b2d

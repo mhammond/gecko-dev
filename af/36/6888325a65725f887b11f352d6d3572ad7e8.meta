@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/video_coding/codecs/vp8/main/source/reference_picture_selection.cc
+copyrev: d59b87c70c1670c5ccfed48fbfcdfc474911ff3e

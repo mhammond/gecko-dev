@@ -1,0 +1,2 @@
+copy: testing/web-platform/mozilla/tests/service-workers/service-worker/resources/fetch-event-respond-with-stops-propagation-worker.js
+copyrev: 986e33d07354b3da56dbdaa22ad51d40a9d657c9

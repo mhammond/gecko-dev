@@ -1,0 +1,2 @@
+copy: testing/mozharness/configs/b2g/gaia_integration_config.py
+copyrev: 67ddb082738975eb366aa890a45d93918a235cab

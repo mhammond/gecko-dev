@@ -1,0 +1,2 @@
+copy: js/src/jit-test/tests/parallelarray/overflow-throws.js
+copyrev: a866b70c6d3a2c35e2ba5c7f1dd23888acb64028

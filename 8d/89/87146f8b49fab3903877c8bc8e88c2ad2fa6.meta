@@ -1,0 +1,2 @@
+copy: gfx/skia/trunk/src/opts/SkBitmapProcState_opts_SSE2.cpp
+copyrev: 76b8c4f3facfba2954541c3e1bebd75f2381d154

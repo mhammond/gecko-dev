@@ -1,0 +1,2 @@
+copy: testing/mochitest/tests/browser/Makefile.in
+copyrev: 36bc8900b7be606a2963bd0fb92d03d3c3670fd2

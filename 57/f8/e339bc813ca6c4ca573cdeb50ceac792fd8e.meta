@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/builds/sm_arm_sim.yml
+copyrev: 51486a2c884d226c76983ed8960ca43acbc8ddbe

@@ -1,0 +1,2 @@
+copy: dom/tests/mochitest/beacon/beacon-cors-redirect-handler.sjs
+copyrev: 2860ae3e458e81b79cec9440dc2682b98b5a09ad

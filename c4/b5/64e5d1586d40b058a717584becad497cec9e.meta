@@ -1,0 +1,2 @@
+copy: js/src/jit-test/tests/parallelarray/reduce-throws.js
+copyrev: 322552b412dc17325373f6cd846d5538c290fcf8

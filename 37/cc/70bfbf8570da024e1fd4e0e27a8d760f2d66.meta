@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/unit/tlsserver/rsa-1016-keysizeDelegatedSigner.key.keyspec
+copyrev: 057b39fe6b61a1494f419975fef341057e6cfb23

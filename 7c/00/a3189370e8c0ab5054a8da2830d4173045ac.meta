@@ -1,0 +1,2 @@
+copy: ipc/chromium/src/third_party/libevent-avoid-empty-sighandler.patch
+copyrev: f94de505f858e17764647ba25725590f0c3b71bf

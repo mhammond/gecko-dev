@@ -1,0 +1,2 @@
+copy: testing/mozmill/simplejson-2.1.1/simplejson/tests/test_recursion.py
+copyrev: 3ddb3b828c42e6977f0efa0372a5e8fe0df366b3

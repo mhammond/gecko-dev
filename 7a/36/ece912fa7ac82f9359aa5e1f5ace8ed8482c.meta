@@ -1,0 +1,2 @@
+copy: devtools/client/debugger/test/mochitest/code_binary_search.coffee
+copyrev: b3728caf49728314c696ad71cbd371da385c3e9f

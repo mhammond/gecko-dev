@@ -1,0 +1,2 @@
+copy: js/src/jit-test/tests/parallelarray/reduce-bail.js
+copyrev: adc94934a8fdce8331417b2f395451b42541bca7

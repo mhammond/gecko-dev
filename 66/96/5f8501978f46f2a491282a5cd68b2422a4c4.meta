@@ -1,0 +1,2 @@
+copy: modules/freetype2/builds/win32/w32-gcc.mk
+copyrev: 99879d798bb3eaccf56787917a11d2762ed368da

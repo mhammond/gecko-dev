@@ -1,0 +1,2 @@
+copy: testing/firefox-ui/tests/firefox_ui_tests/functional/security/test_safe_browsing_warning_pages.py
+copyrev: 2a395989d868b373b0adf5ad939aa1373fc4bb52

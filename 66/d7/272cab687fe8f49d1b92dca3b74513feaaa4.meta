@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/rtp_rtcp/source/remote_rate_control.cc
+copyrev: 2e8e8d3c6005b1ce50550950373cf7321e2ea81b

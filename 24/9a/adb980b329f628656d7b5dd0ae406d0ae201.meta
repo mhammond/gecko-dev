@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/common_audio/signal_processing/resample_by_2_internal.h
+copyrev: e81ac94cc1bd4b35c2a77c8e7cbc5218d1978264

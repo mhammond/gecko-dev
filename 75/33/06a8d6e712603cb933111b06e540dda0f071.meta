@@ -1,0 +1,2 @@
+copy: toolkit/devtools/server/tests/mochitest/test_executeInGlobal-outerized_this.html
+copyrev: c129f5b1e31d52fec22b80050a3f6884ca39cbc6

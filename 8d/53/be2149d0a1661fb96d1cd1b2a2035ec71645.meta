@@ -1,0 +1,2 @@
+copy: testing/web-platform/mozilla/tests/service-workers/service-worker/resources/oninstall-throw-error-worker.js
+copyrev: 4029d31037b6bf74a15922fefe1029c1e465d6f9

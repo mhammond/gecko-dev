@@ -1,0 +1,2 @@
+copy: js/src/jit/shared/MacroAssembler-x86-shared.cpp
+copyrev: 6984d15fad21a0ad9b757d3db336f1c3e110994a

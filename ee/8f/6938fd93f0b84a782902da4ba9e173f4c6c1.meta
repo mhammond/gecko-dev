@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/tests/mulet_linter.yml
+copyrev: b581cf96781da2d6fdd7b202a985993b51efcbf4

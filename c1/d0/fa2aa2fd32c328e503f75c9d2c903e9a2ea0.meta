@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_device/main/source/win/audio_device_core_win.cc
+copyrev: fb398e6080b6ee1d8c09edba68471e938f00e294

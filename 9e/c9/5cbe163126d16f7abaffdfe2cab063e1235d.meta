@@ -1,0 +1,2 @@
+copy: testing/taskcluster/scripts/builder/pull-gaia.sh
+copyrev: e2e863dda7d409c2f5231eb3040cfb9d3f155c4c

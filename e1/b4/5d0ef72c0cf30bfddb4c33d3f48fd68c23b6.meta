@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/third_party/libyuv/source/rotate_neon.cc
+copyrev: ba78e089fd697494d94331182a9f076e247735e1

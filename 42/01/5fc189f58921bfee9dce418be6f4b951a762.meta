@@ -1,0 +1,2 @@
+copy: netwerk/protocol/http/src/nsHttpActivityDistributor.h
+copyrev: f8e7c6cc513d19f423aeb5838ea43981851a09cc

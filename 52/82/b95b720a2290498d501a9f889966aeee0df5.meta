@@ -1,0 +1,2 @@
+copy: xpcom/tests/unit/test_nsITelemetry.js
+copyrev: ed72795006b6628ec870a42ca09234fb3a2f9e13

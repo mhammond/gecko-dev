@@ -1,0 +1,2 @@
+copy: taskcluster/docker/desktop-build/bin/build.sh
+copyrev: 71091bdd1d913b9cbb19ea8490fc91a02b638e2b

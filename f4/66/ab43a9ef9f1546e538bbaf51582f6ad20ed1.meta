@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/branches/ash/job_flags.yml
+copyrev: 249ce6ddf2e55077687533f2de13399674b5d45e

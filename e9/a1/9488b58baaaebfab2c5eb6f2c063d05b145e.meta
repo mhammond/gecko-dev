@@ -1,0 +1,2 @@
+copy: taskcluster/docker/rust-build/build_cargo.sh
+copyrev: 135ebb7c6076f3381b930da79814ed952566463d

@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/unit/test_client_cert/cert_dialog.manifest
+copyrev: 1bfd7394dc7d52e26b6a2dd04f36b535960312f7

@@ -1,0 +1,2 @@
+copy: testing/docker/rust-build/checkout-sources.sh
+copyrev: 089e2a7989c0d390c301122544a89126d46d437e

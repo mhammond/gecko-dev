@@ -1,0 +1,2 @@
+copy: security/nss/external_tests/ssl_gtest/ssl_resumption_unittest.cc
+copyrev: 9baca92a5f7d71a725ca4d86e2c3ed7fee9f33c5

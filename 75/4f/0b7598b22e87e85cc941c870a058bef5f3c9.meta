@@ -1,0 +1,2 @@
+copy: testing/web-platform/mozilla/tests/service-workers/service-worker/resources/fetch-event-test-worker.js
+copyrev: 45a936c3a987c5ff01ee0b532ddb9e6f41f50ba3

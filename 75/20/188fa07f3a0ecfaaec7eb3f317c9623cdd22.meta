@@ -1,0 +1,2 @@
+copy: xpcom/reflect/xptcall/src/md/unix/xptcinvoke_amd64_openbsd.cpp
+copyrev: 3c48c829e750432473e4251156565661b2debec7

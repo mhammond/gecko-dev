@@ -1,0 +1,2 @@
+copy: testing/docker/android-gradle-build/VERSION
+copyrev: 614528b03fe124fa32b0218a72ea33ea7fc332d5

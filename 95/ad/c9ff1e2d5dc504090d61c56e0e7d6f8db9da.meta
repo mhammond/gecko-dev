@@ -1,0 +1,2 @@
+copy: dom/tests/mochitest/fetch/worker_test_fetch_cors.js
+copyrev: 9b6e979aa3da9b4879e7f715aaaa87cd6ef1345f

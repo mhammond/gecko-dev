@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/builds/android_api_15_partner_sample1.yml
+copyrev: df186ec17c6b9ba8e8561f3a7591d15b6191df96

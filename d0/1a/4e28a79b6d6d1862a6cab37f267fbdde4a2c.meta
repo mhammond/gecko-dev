@@ -1,0 +1,2 @@
+copy: js/src/tests/ecma_6/TypedObject/simd/float32x4setter.js
+copyrev: dce7c763efb8ec7f2fd18f943b426adb240cb898

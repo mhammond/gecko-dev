@@ -1,0 +1,2 @@
+copy: services/sync/tests/unit/test_passwords.log.expected
+copyrev: dc71c012bb066ec229a5f49fbf0ce5fb1c30b999

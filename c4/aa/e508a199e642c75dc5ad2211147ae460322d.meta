@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/webrtc/modules/audio_coding/neteq4/normal.cc
+copyrev: b0ada25f29a43698b9d8c2b71a81c737c9fac651

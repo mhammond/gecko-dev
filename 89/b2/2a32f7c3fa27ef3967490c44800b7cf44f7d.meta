@@ -1,0 +1,2 @@
+copy: media/libvpx/vp8/encoder/arm/neon/sad8_neon.asm
+copyrev: 4cd340e9255c9c9d9f6747fd0345af6d5c475e39

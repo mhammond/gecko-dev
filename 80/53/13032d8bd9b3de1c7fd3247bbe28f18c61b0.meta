@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/test.yml
+copyrev: f103cee68987d0240acabc52bcf8bd73f66c2410

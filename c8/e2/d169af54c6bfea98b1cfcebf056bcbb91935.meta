@@ -1,0 +1,2 @@
+copy: security/manager/boot/src/nsStrictTransportSecurityService.cpp
+copyrev: 7df0f4818e6ee315dfe80b09632e9b66d54cd08d

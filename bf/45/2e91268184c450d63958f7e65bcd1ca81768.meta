@@ -1,0 +1,2 @@
+copy: netwerk/dns/src/nsEffectiveTLDService.h
+copyrev: d89fdb467f76abbd7ca733eaa7ac96d31a6b8035

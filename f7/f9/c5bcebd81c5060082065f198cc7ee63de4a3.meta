@@ -1,0 +1,2 @@
+copy: netwerk/protocol/file/src/nsFileProtocolHandler.cpp
+copyrev: 65cb4df7c5182130efd77bbe874c5dd946283fd6

@@ -1,0 +1,2 @@
+copy: xpcom/reflect/xptcall/src/md/unix/xptcstubs_ipf64.cpp
+copyrev: e7d145d9fd56c8c0736759fc96abfb21966f33f5

@@ -1,0 +1,2 @@
+copy: other-licenses/simplejson-2.1.1/simplejson/tests/test_speedups.py
+copyrev: cc98916865a8df61f9aad52d2596e1f923c67e55

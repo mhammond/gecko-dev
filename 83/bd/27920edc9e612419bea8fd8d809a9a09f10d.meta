@@ -1,0 +1,2 @@
+copy: xpcom/reflect/xptcall/src/md/unix/xptcstubs_sparc_netbsd.cpp
+copyrev: 1d9e036d3a1be3f3c33c942ae8497889f8971fea

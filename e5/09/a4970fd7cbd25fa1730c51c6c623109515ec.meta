@@ -1,0 +1,2 @@
+copy: netwerk/protocol/http/src/nsHttpDigestAuth.h
+copyrev: 728f57bbe9ff41f45582a94a70ecd31e23375b0e

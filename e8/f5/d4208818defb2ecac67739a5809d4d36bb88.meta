@@ -1,0 +1,2 @@
+copy: testing/web-platform/mozilla/tests/service-workers/service-worker/resources/appcache-ordering.is-appcached.html
+copyrev: f45488d19fe6ee336fa28ed52a35904f5ec8749c

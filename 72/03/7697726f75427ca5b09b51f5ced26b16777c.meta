@@ -1,0 +1,2 @@
+copy: taskcluster/ci/build-signing/android-signing.yml
+copyrev: b1db63234f9ab2312690854db71a3507137f39dd

@@ -1,0 +1,2 @@
+copy: media/libvpx/vp9/encoder/arm/neon/vp9_sad4d_neon.c
+copyrev: 8bbf9b3c538e598408f088394c67117e2a248894

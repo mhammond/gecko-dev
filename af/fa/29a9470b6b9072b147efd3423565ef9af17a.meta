@@ -1,0 +1,2 @@
+copy: testing/eslint/eslint-plugin-mozilla/lib/rules/reject-importGlobalProperties.js
+copyrev: cd2dd0d71cc12960263bd24f686e9d1b6b7b5a76

@@ -1,0 +1,2 @@
+copy: xpcom/reflect/xptcall/src/md/unix/xptcstubs_asm_mips64.s
+copyrev: 7d0f6a597d7efc71c5dda1e9ec8055743fc8fc1b

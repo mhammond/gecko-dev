@@ -1,0 +1,2 @@
+copy: testing/marionette/client/marionette/tests/unit/test_file_upload.py
+copyrev: f39dbe9d88082f38c240ed7688f5cb1093b481ad

@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_coding/neteq/mcu_reset.c
+copyrev: ff19c2ab324952455d9df6aad0986f115b5bf901

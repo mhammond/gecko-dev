@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_device/main/source/android/audio_device_android_jni.cc
+copyrev: 0d85c88c35e81c1862d2365a885ee694541aa95b

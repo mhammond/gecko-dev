@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/unit/tlsserver/expiredissuer.pem.certspec
+copyrev: ed4772d6af2b4fb825bcbd05be12f752a3a6087a

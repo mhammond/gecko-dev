@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/webrtc/modules/audio_coding/neteq4/audio_vector.cc
+copyrev: ba087fc96c9ec534aba6723e897c7a7d7c75d668

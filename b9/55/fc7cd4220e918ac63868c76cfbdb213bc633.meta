@@ -1,0 +1,2 @@
+copy: testing/firefox-ui/tests/firefox_ui_tests/puppeteer/test_security.py
+copyrev: 854e82ba2b6c8d86e2184d538d7f3c208564e9d1

@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_coding/main/source/audio_coding_module_impl.cc
+copyrev: 21b4475e6cbab8578dd9c8fa3a9b15fd40bbc828

@@ -1,0 +1,2 @@
+copy: xpcom/reflect/xptcall/src/md/unix/xptcstubs_x86_64_solaris.cpp
+copyrev: e37fd4818241eb8f9e6cbc7a89f9b7c3357fcb83

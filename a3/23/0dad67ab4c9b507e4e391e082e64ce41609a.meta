@@ -1,0 +1,2 @@
+copy: taskcluster/ci/legacy/tasks/tests/fx_test_base.yml
+copyrev: 87ac7e72c20eedadecfdf575dc7ad9be11ba6a9b

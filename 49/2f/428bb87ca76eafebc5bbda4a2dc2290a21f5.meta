@@ -1,0 +1,2 @@
+copy: toolkit/devtools/server/tests/gtest/moz.build
+copyrev: befbb70f1bb4d1af61fe9d50bf04be7ff27c62cf

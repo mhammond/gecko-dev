@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/video_coding/codecs/vp8/main/test/packet_loss_test.cc
+copyrev: 1e4ff0cea6725c8dca83a17b6372c35e5e9dd001

@@ -1,0 +1,2 @@
+copy: testing/web-platform/mozilla/tests/service-workers/service-worker/resources/override_assert_object_equals.js
+copyrev: d62d570814c39fc24018b96325f994af877e2447

@@ -1,0 +1,2 @@
+copy: taskcluster/docker/desktop1604-test/jockey-gtk.desktop
+copyrev: f493a07b99d9aa469375acbd3ca54f6a54cd9fd1

@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_coding/codecs/ilbc/abs_quant.h
+copyrev: efa20b7ce5bd85747b3887134e398534887a29e8

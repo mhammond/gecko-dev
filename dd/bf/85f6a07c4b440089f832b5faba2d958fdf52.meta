@@ -1,0 +1,2 @@
+copy: browser/devtools/webconsole/test/test-bug-595934-css-loader.css^headers^
+copyrev: f8920bc93d9fc348edd6d81bef3c4e7dc2bbae2a

@@ -1,0 +1,2 @@
+copy: python/mozbuild/mozbuild/backend/templates/android_eclipse/.externalToolBuilders/Builder.launch
+copyrev: 6ca612ce3fdf3efb0c791ad4a31ab0a90165e171

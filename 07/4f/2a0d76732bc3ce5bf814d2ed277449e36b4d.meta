@@ -1,0 +1,2 @@
+copy: testing/taskcluster/scripts/builder/get-objdir.py
+copyrev: 6ef124f69d56397917bab9cf1fe38a1bf29b706e

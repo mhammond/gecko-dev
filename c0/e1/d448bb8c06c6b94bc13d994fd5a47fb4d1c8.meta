@@ -1,0 +1,2 @@
+copy: testing/mozharness/configs/builds/releng_sub_mac_configs/64_cross_opt.py
+copyrev: 0e29ce35d365df568ac1e5321174226eea4adff8

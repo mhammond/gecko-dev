@@ -1,0 +1,2 @@
+copy: security/manager/ssl/src/nsNSSVersion.cpp
+copyrev: 78e23f73d68431163157bb81c29f31eeb9ba195a

@@ -1,0 +1,2 @@
+copy: testing/mozharness/configs/generic_releng_macosx64.py
+copyrev: 510e54020eb3b4b7df2afaa6e377878235a4e677

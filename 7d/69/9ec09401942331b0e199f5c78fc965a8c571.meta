@@ -1,0 +1,2 @@
+copy: build/clang-plugin/tests/TestStackClass.cpp
+copyrev: 7eebc08f083f302c14453ad1c0ec853325973346

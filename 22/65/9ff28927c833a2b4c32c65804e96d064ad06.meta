@@ -1,0 +1,2 @@
+copy: xpcom/tests/TestDeadlockDetectorScalability.cpp
+copyrev: da1e541dd4648f7e6fc913138470a56f4655c5cc

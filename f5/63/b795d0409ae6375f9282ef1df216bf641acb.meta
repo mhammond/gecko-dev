@@ -1,0 +1,2 @@
+copy: testing/marionette/client/marionette/tests/unit/test_getattr.py
+copyrev: 31ae75c82c98ca787e012232f8733971e3c30444

@@ -1,0 +1,2 @@
+copy: toolkit/components/workerlz4/tests/xpcshell/data/chrome.manifest
+copyrev: f40ad78a54509ec8d2c64f0f56f3b86b90c0fc0a

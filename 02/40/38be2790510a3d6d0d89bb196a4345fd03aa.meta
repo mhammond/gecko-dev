@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_coding/main/source/acm_amr.cc
+copyrev: 6193ac81510f214457e9227b16646b23cf28e379

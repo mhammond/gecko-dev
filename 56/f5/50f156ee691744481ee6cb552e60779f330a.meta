@@ -1,0 +1,2 @@
+copy: toolkit/devtools/server/tests/mochitest/test_inspector_getImageData-wait-for-load.html
+copyrev: b34d73f84ca88261526c219946045e1d979969fc

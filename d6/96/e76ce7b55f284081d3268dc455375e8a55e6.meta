@@ -1,0 +1,2 @@
+copy: testing/taskcluster/scripts/misc/minidump_stackwalk.sh
+copyrev: 8cb709852d7cf8428031e17bcd432c4cefa59f85

@@ -1,0 +1,2 @@
+copy: testing/taskcluster/scripts/builder/build-simulator.sh
+copyrev: 4b3fba8363a3f60ddc6feb37748075a33f04db52

@@ -1,0 +1,2 @@
+copy: media/libvpx/vp9/common/arm/neon/vp9_avg_neon.asm
+copyrev: fede75ae09e79f5547ad2ebc4e89d5b203a7368a

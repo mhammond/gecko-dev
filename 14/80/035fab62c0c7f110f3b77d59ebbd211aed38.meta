@@ -1,0 +1,2 @@
+copy: toolkit/devtools/heapsnapshot/tests/gtest/SerializesTypeNames.cpp
+copyrev: ee8eebea55d6ce336ddf89651db1638fec30977a

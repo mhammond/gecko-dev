@@ -1,0 +1,2 @@
+copy: ipc/chromium/src/third_party/libevent-use-non-deprecated-syscalls.patch
+copyrev: 5924c8e51ebbf409b62bdea43c10838c0fa0f820

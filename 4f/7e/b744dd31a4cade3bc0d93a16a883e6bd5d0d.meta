@@ -1,0 +1,2 @@
+copy: netwerk/protocol/http/src/nsHttpPipeline.cpp
+copyrev: c12ddc701e175fb201bed51ba38edc9375f40953

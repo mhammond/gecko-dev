@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_coding/codecs/pcm16b/pcm16b.gypi
+copyrev: 52976c21a26854c7f7638ad51af953b9882820a6

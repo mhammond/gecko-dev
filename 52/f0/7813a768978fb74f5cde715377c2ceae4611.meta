@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_coding/codecs/ilbc/xcorr_coef.c
+copyrev: 16ec9a8b3a1e034eb0189176a7143d6d5745421b

@@ -1,0 +1,2 @@
+copy: security/sandbox/win/src/process_mitigations_win32k_interception.h
+copyrev: cb97f470fa99d0c61bcdac7afe63c6ba1e5ed886

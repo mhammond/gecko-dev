@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/unit/test_ev_certs/ev-valid-anypolicy-int.pem
+copyrev: 019cefecaac0b16fa6769b010f31ec19a2cd0a73

@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/unit/tlsserver/other-test-ca.key.keyspec
+copyrev: bab992554398773be3248aa0f6b72d389583ded0

@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/third_party/libyuv/unit_test/scale_test.cc
+copyrev: b6717f0065b00feef717eb31af69fe463761f8f0

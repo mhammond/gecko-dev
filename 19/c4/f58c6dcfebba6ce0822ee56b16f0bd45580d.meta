@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/third_party/libyuv/source/scale_argb.cc
+copyrev: 521e4f37043a4fed42f3bc1800d5719f05181ea9

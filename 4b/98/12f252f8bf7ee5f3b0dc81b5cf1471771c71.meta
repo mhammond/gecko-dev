@@ -1,0 +1,2 @@
+copy: security/sandbox/chromium/sandbox/win/src/registry_policy_test.cc
+copyrev: 80d059c1c1d92aa7549bdbedc69da030d5b982d1

@@ -1,0 +1,2 @@
+copy: security/manager/ssl/src/nsSmartCardMonitor.cpp
+copyrev: 0220202da5d7ea9e3716e81909c4d8fe3f90360e

@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_coding/codecs/ilbc/cb_update_best_index.c
+copyrev: 009bc2733f362ba6f3264397b434e51e3235c010

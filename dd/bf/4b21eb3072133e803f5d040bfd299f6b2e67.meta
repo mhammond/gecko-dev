@@ -1,0 +1,2 @@
+copy: security/nss/external_tests/common/gtest.mk
+copyrev: 4f08166d060cf407f69bc0a868ffe64ce97c35ae

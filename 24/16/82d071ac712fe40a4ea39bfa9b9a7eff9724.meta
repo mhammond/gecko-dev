@@ -1,0 +1,2 @@
+copy: testing/web-platform/mozilla/tests/service-workers/service-worker/resources/oninstall-throw-error-then-cancel-worker.js
+copyrev: f8df1d52f45ff1a68a5cfa534290e892afe55910

@@ -1,0 +1,2 @@
+copy: testing/mozharness/configs/builds/releng_sub_android_configs/64_api_15.py
+copyrev: 3f466f53bf9a6203a2a79280a191b33d6cf775ea

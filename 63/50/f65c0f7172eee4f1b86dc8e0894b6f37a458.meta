@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/video_coding/main/source/nack_fec_tables.h
+copyrev: 3d87781c83d0d7531c1200268ef59fda5d7b5634

@@ -1,0 +1,2 @@
+copy: browser/devtools/netmonitor/test/sjs_https-redirect-test-server.sjs
+copyrev: 699739a964ff0ffed45c408dca06fcd149c88aa9

@@ -1,0 +1,2 @@
+copy: xpcom/reflect/xptcall/src/md/unix/xptcstubs_alpha_openbsd.cpp
+copyrev: 6b4569a69a50ad05598e58f38e6fae8b4516d8e4

@@ -1,0 +1,2 @@
+copy: js/src/jit-test/tests/self-test/assertRecoveredOnBailout.js
+copyrev: f8bec7dbbc33d73c43b5adb063e4066227a84118

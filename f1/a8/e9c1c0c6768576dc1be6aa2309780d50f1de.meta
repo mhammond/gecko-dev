@@ -1,0 +1,2 @@
+copy: security/manager/boot/src/PreloadedHPKPins.json
+copyrev: ab90be4601d16ad6c271508055dfb5d7be0234c0

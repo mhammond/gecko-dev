@@ -1,0 +1,2 @@
+copy: taskcluster/docker/base-build/VERSION
+copyrev: e1599b42cc7b1a05060510c27e32a75a77716dc0

@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/unit/tlsserver/inadequateKeySizeEE.pem.certspec
+copyrev: 8740418b64fbf9b7cb41b5d9763075aebcf9aa03

@@ -1,0 +1,2 @@
+copy: taskcluster/ci/signing/kind.yml
+copyrev: 93ca6eb037923a6161c1399a9297533a48ae98f5

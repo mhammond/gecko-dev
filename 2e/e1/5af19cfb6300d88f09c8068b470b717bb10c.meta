@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/bitrate_controller/bitrate_controller_unittest.cc
+copyrev: d4a4c394b1dd9da5e32ccef49b97b4b0483d470a

@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/builds/sm_package.yml
+copyrev: d74950d9841478382a9164f2b10dec4870a8415d

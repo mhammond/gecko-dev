@@ -1,0 +1,2 @@
+copy: netwerk/protocol/http/src/nsHttpChannel.h
+copyrev: 3727360d18cb86710187dacc191903c87f9d0c59

@@ -1,0 +1,2 @@
+copy: security/nss/external_tests/util_gtest/util_utf8_unittest.cc
+copyrev: 9ae57ec5daef335b7ac4bad922ef03680b83e42d

@@ -1,0 +1,2 @@
+copy: security/nss/external_tests/nss_bogo_shim/nss_bogo_shim.cc
+copyrev: a1a01af2b914fccdfd204d3ce543d30b923aac4f

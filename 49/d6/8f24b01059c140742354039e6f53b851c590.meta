@@ -1,0 +1,2 @@
+copy: security/sandbox/base/threading/thread_collision_warner.h
+copyrev: 3a729128fd3db9959621a852d23c661665ec0add

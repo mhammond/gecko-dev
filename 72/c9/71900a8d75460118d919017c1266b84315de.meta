@@ -1,0 +1,2 @@
+copy: toolkit/devtools/heapsnapshot/tests/gtest/DeserializedStackFrameUbiStackFrames.cpp
+copyrev: 39127a356cdf1763fb545648d3f4f9db21b86a53

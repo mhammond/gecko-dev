@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/third_party/libyuv/source/scale_common.cc
+copyrev: 6bcfd6e3e65b46d400d5bb35707dff6a47a21c7f

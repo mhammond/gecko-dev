@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/video_processing/main/test/unit_test/deflickering_test.cc
+copyrev: 8f887faa2a679515104adc64da6a20cc6a75307b

@@ -1,0 +1,2 @@
+copy: testing/eslint/eslint-plugin-mozilla/lib/rules/balanced-listeners.js
+copyrev: ed0b2786d5b6f093587778a52348cc3b1c7314f1

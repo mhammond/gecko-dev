@@ -1,0 +1,2 @@
+copy: toolkit/devtools/heapsnapshot/tests/gtest/SerializesEverythingInHeapGraphOnce.cpp
+copyrev: cd4aee9a518d115f266e6972a00dca619d6a8e54

@@ -1,0 +1,2 @@
+copy: testing/web-platform/mozilla/tests/service-workers/service-worker/resources/fetch-request-fallback-worker.js
+copyrev: 789b58b0bc45c6b1300079906ecb7c25c447f078

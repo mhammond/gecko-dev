@@ -1,0 +1,2 @@
+copy: memory/jemalloc/src/include/msvc_compat/stdbool.h
+copyrev: 950222123a0c18829aa2a604b9641959425776d3

@@ -1,0 +1,2 @@
+copy: browser/components/loop/test/mochitest/browser_mozLoop_telemetry.js
+copyrev: 145b11bfa9f4da9585df5fa2291527eed34c64bd

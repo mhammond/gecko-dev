@@ -1,0 +1,2 @@
+copy: security/manager/ssl/src/IntolerantFallbackList.inc
+copyrev: bae96e056d9d8010add8334915033089c9e894c3

@@ -1,0 +1,2 @@
+copy: dom/base/test/csp/file_CSP_web_manifest.json^headers^
+copyrev: c0603cfa83a28aa8123e366bcf12a6e25e46a44b

@@ -1,0 +1,2 @@
+copy: media/libvpx/vp8/encoder/x86/variance_impl_mmx.asm
+copyrev: 9037ea6c3ff2b326b5dc146c27b802d5641b8947

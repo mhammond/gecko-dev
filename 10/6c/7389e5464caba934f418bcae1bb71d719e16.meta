@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/builds/opt_linux32.yml
+copyrev: 18b7425663634e42bc6c3d23c0915c182f4ec391

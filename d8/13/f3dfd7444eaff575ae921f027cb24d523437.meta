@@ -1,0 +1,2 @@
+copy: js/src/jit-test/tests/parallelarray/alloc-too-many-objs.js
+copyrev: 0c48fa13585b4d39f23cc8d1d186f6b7a8c6c5c5

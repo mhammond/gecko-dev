@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_processing/noise_suppression_impl.cc
+copyrev: 04f5cc0c778944cc82775204215747aa1a12c21d

@@ -1,0 +1,2 @@
+copy: js/src/jit-test/tests/parallelarray/comprehension-in-loop.js
+copyrev: ba0697b3c66ba9f9c533cbc01696e92a17c26465

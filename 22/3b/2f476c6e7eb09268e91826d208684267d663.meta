@@ -1,0 +1,2 @@
+copy: netwerk/wifi/src/nsWifiScannerUnix.cpp
+copyrev: a5eb8611a35beaf16a3e9df9838dd4924aec2268

@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/unit/tlsserver/invalidDelegatedSignerNoExtKeyUsage.pem.certspec
+copyrev: 238e3fe7a2aaf1cfe536884a89ed06d5b5bee261

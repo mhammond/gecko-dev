@@ -1,0 +1,2 @@
+copy: mobile/android/sync/manifests/SyncAndroidManifest_permissions.xml.in
+copyrev: 2c8dbc980caddce858d1fe40a4c7449d090cacf6

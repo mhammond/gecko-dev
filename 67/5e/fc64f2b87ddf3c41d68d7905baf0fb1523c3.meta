@@ -1,0 +1,2 @@
+copy: security/manager/ssl/src/nsNSSCallbacks.cpp
+copyrev: 69eb6f07dd130e344b19fcdf8dce25acb2f72971

@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/branches/mozilla-inbound/job_flags.yml
+copyrev: 27962ab16510e98921fc9b536f6d0f5fdbdb1be9

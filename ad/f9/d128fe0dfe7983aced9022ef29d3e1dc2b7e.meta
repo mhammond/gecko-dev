@@ -1,0 +1,2 @@
+copy: browser/components/migration/src/nsIEHistoryEnumerator.cpp
+copyrev: 93c27ec77830f9ef438207af25fd9f31db0ed332

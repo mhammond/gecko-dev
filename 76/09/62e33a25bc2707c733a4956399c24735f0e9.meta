@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_coding/codecs/ilbc/energy_inverse.c
+copyrev: d7f8a4df484b85b74196d8de30e3120fb4f37ca0

@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/common_video/libyuv/scaler.cc
+copyrev: d4ec8e2af847369b87da285ddbf55b75368f5153

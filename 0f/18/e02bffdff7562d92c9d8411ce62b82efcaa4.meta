@@ -1,0 +1,2 @@
+copy: testing/web-platform/mozilla/tests/service-workers/service-worker/resources/worker-load-interceptor.js
+copyrev: bde423b2867c62ebbe2fc16535416841dd9f96e6

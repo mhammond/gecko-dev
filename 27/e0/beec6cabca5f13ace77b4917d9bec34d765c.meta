@@ -1,0 +1,2 @@
+copy: testing/web-platform/mozilla/tests/service-workers/service-worker/resources/dummy-worker-interceptor.js
+copyrev: fe7e645a542a26caa1a3fd15e097caba59f87696

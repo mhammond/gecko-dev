@@ -1,0 +1,2 @@
+copy: security/sandbox/win/src/restricted_token_utils.cc
+copyrev: 9a57ac3d81b61ef0a56dc3cb42debccbdb9d0f67

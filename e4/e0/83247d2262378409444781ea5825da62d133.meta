@@ -1,0 +1,2 @@
+copy: js/src/jit-test/tests/parallelarray/scatter-regression-1.js
+copyrev: 366da222a2d6e053ec9b2f78fc224925d0587bb0

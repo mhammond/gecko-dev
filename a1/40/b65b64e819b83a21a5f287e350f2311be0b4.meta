@@ -1,0 +1,2 @@
+copy: other-licenses/simplejson-2.1.1/simplejson/tests/test_indent.py
+copyrev: dfe9215698464fc353c3443a941f3ce01e085d18

@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/unit/tlsserver/test-int-ee.pem.certspec
+copyrev: b31071eabb4e6ac1350035d40a2c5c95bf769230

@@ -1,0 +1,2 @@
+copy: security/sandbox/base/scoped_clear_errno.h
+copyrev: 4c722d5616405a6f8961dcdc843aad9fc31a420a

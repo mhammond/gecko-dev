@@ -1,0 +1,2 @@
+copy: testing/mozharness/configs/generic_releng_linux64.py
+copyrev: 87b4ffe9431f8fff52ae49131bdd1052ff385520

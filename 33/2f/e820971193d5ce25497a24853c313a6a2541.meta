@@ -1,0 +1,2 @@
+copy: taskcluster/docker/centos6-build/system-setup.sh
+copyrev: 46ea5f49b67b0f299f5c48cf9d74ac0ea896c65d

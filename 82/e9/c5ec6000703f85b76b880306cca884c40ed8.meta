@@ -1,0 +1,2 @@
+copy: extensions/spellcheck/hunspell/tests/suggestiontest/Makefile.am
+copyrev: 16fe605f1dc3af75ac13b3516192b1cbd6ee944f

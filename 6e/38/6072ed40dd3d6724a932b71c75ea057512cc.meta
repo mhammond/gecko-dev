@@ -1,0 +1,2 @@
+copy: testing/mozharness/configs/disable_signing.py
+copyrev: 1a1a3932ec7250ba0398f63cc192903be8cd378c

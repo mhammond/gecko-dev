@@ -1,0 +1,2 @@
+copy: taskcluster/docker/image_builder/bin/build_image.sh
+copyrev: 15f30a282d812d0eaedfb683afcd35d19c19eeda

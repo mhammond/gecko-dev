@@ -1,0 +1,2 @@
+copy: js/src/jit-test/tests/parallelarray/inline-new-bad-type.js
+copyrev: 42377850d64c231e73fc918f5435734f81b3685d

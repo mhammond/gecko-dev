@@ -1,0 +1,2 @@
+copy: testing/web-platform/mozilla/tests/service-workers/service-worker/resources/onactivate-throw-error-then-prevent-default-worker.js
+copyrev: 6dcfa5fb56d6c1ef2ac00f5725c7a642179915db

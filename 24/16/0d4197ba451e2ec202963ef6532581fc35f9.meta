@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/mochitest/browser/browser_bug627234_perwindowpb.js
+copyrev: 9e6d56379077c5b60f413a52af413fdfcbeb0252

@@ -1,0 +1,2 @@
+copy: toolkit/crashreporter/google-breakpad/src/tools/mac/dump_syms/dump_syms_tool.mm
+copyrev: b41d67f44440172d5962adb8cfc3df7c4ae57496

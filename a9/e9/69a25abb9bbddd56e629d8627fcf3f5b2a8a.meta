@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_coding/codecs/ilbc/comp_corr.c
+copyrev: b0ec97707ccf1b5c473e26a42b83bbed162ea064

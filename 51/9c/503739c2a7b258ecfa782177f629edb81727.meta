@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/common_audio/signal_processing/cross_correlation.c
+copyrev: ab91cdd4fbf66adee1fa35932968c541ec76bbee

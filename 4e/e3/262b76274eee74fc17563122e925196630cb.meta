@@ -1,0 +1,2 @@
+copy: xpcom/reflect/xptcall/src/md/unix/xptcstubs_ppc_aix.cpp
+copyrev: 28420e69fc9e1cd031d2351e93fbdd371edb6db9

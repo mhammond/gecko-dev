@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/voice_engine/test/auto_test/voe_stress_test.cc
+copyrev: 00369f2de9b8c863ba84ceb403903ffc4c891dc5

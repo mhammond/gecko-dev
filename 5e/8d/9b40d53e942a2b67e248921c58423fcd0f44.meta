@@ -1,0 +1,2 @@
+copy: toolkit/components/protobuf/google/protobuf/io/zero_copy_stream_impl_lite.cc
+copyrev: b93918927b31596974cdd6525bb6641bcc9c3067

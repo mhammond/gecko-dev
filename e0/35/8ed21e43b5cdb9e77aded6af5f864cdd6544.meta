@@ -1,0 +1,2 @@
+copy: testing/web-platform/tests/webdriver/navigation/auth_tests.py
+copyrev: dc65b02edf510440c201d178503933193fd8fc4a

@@ -1,0 +1,2 @@
+copy: security/manager/ssl/src/nsTLSSocketProvider.h
+copyrev: 5ba13bf9a84115c0f3e060898ea8ce6dee194455

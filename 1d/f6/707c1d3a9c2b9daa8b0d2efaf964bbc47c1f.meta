@@ -1,0 +1,2 @@
+copy: netwerk/protocol/http/src/nsHttpNTLMAuth.cpp
+copyrev: 3ea6213a60a5b2541834be22a2c3466621305f81

@@ -1,0 +1,2 @@
+copy: xpcom/reflect/xptcall/src/md/unix/xptcinvoke_asm_sparc64_openbsd.s
+copyrev: 09fc9c83408e6c0748a4144933ba4b3cb0b9c325

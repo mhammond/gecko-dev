@@ -1,0 +1,2 @@
+copy: security/nss/external_tests/nss_bogo_shim/Makefile
+copyrev: 44c334ee9fc12cd3deb19c891f6ea64dbf3cb2f8

@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_coding/neteq/mcu_address_init.c
+copyrev: eb84ee4c4a3e2065be044c6679e46e418ab485e9

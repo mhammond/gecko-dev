@@ -1,0 +1,2 @@
+copy: netwerk/protocol/http/public/nsIHttpActivityObserver.idl
+copyrev: bd870e053c153ec0177ca095c293bb0af1a9abc1

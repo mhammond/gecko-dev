@@ -1,0 +1,2 @@
+copy: media/libvpx/vp8/decoder/arm/dequantize_arm.c
+copyrev: a078a78e24614b20f786172b6d64bd9614eca13e

@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tests/test_commit_parser.py
+copyrev: 3f943ec6eb2662ceace9ffbdd6c3ce22a23c076b

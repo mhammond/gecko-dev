@@ -1,0 +1,2 @@
+copy: build/pgo/genpgocert.py.in
+copyrev: 15fd72481d2d2d80cae784abb819b89c28bb8736

@@ -1,0 +1,2 @@
+copy: testing/web-platform/mozilla/tests/service-workers/service-worker/resources/fetch-request-xhr-worker.js
+copyrev: c60aa6c6bc2550841f013b34da1dd38084f57c67

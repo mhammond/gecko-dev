@@ -1,0 +1,2 @@
+copy: testing/taskcluster/scripts/misc/repackage-jdk-ubuntu.sh
+copyrev: 7c9e8ef64c770eefe8eb008ef13ce005659a4760

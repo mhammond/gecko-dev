@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/tests/fx_linux64_marionette_e10s_dbg.yml
+copyrev: 6cfb484895a00e297a23bd5cfdfd75fb4c940432

@@ -1,0 +1,2 @@
+copy: security/sandbox/chromium/sandbox/win/src/handle_inheritance_test.cc
+copyrev: fa8d2de9288fb5280c7368868556571b702ffa0a

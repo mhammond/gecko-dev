@@ -1,0 +1,2 @@
+copy: js/src/jit-test/tests/parallelarray/partition-throws.js
+copyrev: c6adfa527fa51e0bd4edf5a1426925c96478c820

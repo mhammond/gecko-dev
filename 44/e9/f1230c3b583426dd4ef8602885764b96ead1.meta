@@ -1,0 +1,2 @@
+copy: security/sandbox/chromium/sandbox/win/src/handle_closer.cc
+copyrev: d0ff0ccd5739cfd641d61c237a92f57476d52ed1

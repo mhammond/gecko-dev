@@ -1,0 +1,2 @@
+copy: mobile/android/tests/browser/robocop/src/androidTest/java/org/mozilla/gecko/tests/BaseTest.java
+copyrev: e8ab761b4b73304698d0e53881ce6b3fbcd55815

@@ -1,0 +1,2 @@
+copy: netwerk/protocol/http/HttpChannelParent.cpp
+copyrev: b24057a2fceb1876d02f469745fb18668967970e

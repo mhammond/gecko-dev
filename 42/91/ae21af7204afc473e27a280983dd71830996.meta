@@ -1,0 +1,2 @@
+copy: netwerk/protocol/http/src/nsHttpChunkedDecoder.cpp
+copyrev: ef503aa6b0306d0190f2a0f5763e4df9ce455495

@@ -1,0 +1,2 @@
+copy: security/manager/ssl/src/nsTLSSocketProvider.cpp
+copyrev: a219b63e4f031faa7f6788db8d192114bd4e957a

@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/common_audio/signal_processing/get_scaling_square.c
+copyrev: a3352db1e3ef7507540fcb9474030f758ab23b47

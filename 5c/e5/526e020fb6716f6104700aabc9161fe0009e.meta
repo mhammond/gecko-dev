@@ -1,0 +1,2 @@
+copy: media/libvpx/vp9/encoder/x86/vp9_quantize_ssse3.asm
+copyrev: 43398ba92824decbeeb3444ccbc1e7c1fbb1b4c1

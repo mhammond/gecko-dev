@@ -1,0 +1,2 @@
+copy: testing/web-platform/mozilla/tests/service-workers/service-worker/resources/oninstall-throw-error-then-prevent-default-worker.js
+copyrev: 68cb65694a66819816784e2acab0ab343953bdf1

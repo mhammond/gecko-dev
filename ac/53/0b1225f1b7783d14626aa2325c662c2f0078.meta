@@ -1,0 +1,2 @@
+copy: testing/taskcluster/scripts/builder/build-haz-linux.sh
+copyrev: 4cab75972490243221509aec080d917bd4c7e31f

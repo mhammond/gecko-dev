@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/builds/opt_macosx64_st-an.yml
+copyrev: fc3d102abe79aefdcb5e0c08ea3d43c77df0759c

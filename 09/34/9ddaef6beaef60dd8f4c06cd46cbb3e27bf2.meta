@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/webrtc/modules/video_coding/codecs/vp8/temporal_layers.cc
+copyrev: b9e2f9e5bcbdf86021d14e2e7e061452ea6f9bc6

@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/builds/sm_variant_base.yml
+copyrev: b025887c1ca36fab8aa2053c67c7e12bfb160bdb

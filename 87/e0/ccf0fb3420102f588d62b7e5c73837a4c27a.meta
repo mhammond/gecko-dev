@@ -1,0 +1,2 @@
+copy: ipc/chromium/src/third_party/libevent-dont-use-issetugid-on-android.patch
+copyrev: be192cf4a0a5c584fe1b0decb028f4e2486f00bb

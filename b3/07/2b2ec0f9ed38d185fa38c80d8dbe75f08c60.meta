@@ -1,0 +1,2 @@
+copy: memory/replace/dmd/test/script-diff-basic-expected.txt
+copyrev: d0739fde0556ecb51466e7297d403f7b9622aeff

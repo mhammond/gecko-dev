@@ -1,0 +1,2 @@
+copy: security/nss/external_tests/ssl_gtest/ssl_v2_client_hello_unittest.cc
+copyrev: 3c74e600cf4e230b4cc63ea541d74b87c62d3ff7

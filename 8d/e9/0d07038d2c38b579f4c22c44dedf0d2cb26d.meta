@@ -1,0 +1,2 @@
+copy: taskcluster/docker/tester/tc-vcs-config.yml
+copyrev: 6f43381485f4d9a007a7488499ef3e31f484c1c4

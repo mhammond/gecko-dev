@@ -1,0 +1,2 @@
+copy: testing/firefox-ui/tests/firefox_ui_tests/functional/security/test_no_certificate.py
+copyrev: 8afa9e7945b69e59abe459304f3a01d8ae08bd05

@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_coding/codecs/g722/g722_decode.c
+copyrev: 31008da31148d9f41c3080e43c9b9e772da44392

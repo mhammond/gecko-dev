@@ -1,0 +1,2 @@
+copy: security/manager/ssl/src/nsClientAuthRemember.cpp
+copyrev: eaf57cc6d77fd951b0d90ef1a1d36669a2fdbefa

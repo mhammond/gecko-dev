@@ -1,0 +1,2 @@
+copy: testing/web-platform/mozilla/tests/service-workers/service-worker/resources/invalid-header-worker.js
+copyrev: e030d6e2be44c49e2433c9ff2174a879e015ab72

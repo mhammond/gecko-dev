@@ -1,0 +1,2 @@
+copy: testing/mozmill/simplejson-2.1.1/simplejson/tests/test_float.py
+copyrev: cefa9d40293846a5abd714a881a170fbac625102

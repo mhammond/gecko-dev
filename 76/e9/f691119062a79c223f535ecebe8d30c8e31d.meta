@@ -1,0 +1,2 @@
+copy: taskcluster/docker/base-build/system-setup.sh
+copyrev: 12ff6d9539baf77e669877427ad38557361375e8

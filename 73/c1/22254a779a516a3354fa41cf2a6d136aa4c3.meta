@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/third_party/libyuv/libyuv_test.gyp
+copyrev: d89cf1f9b00ad024bfd5b217d4e0b975c9f58cb0

@@ -1,0 +1,2 @@
+copy: taskcluster/docker/tester/dot-config/user-dirs.locale
+copyrev: 5aea09524d6ff6e84bd4e04c34c2e980c2bc4e9e

@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/webrtc/modules/audio_coding/neteq4/timestamp_scaler.cc
+copyrev: ae96d3f402e9d98a87ea4eeede456182778034f4

@@ -1,0 +1,2 @@
+copy: extensions/spellcheck/hunspell/glue/hunspell_alloc_hooks.h
+copyrev: b9ed5effb21ac2e8877b8cc2d1d6cdee2a4fbab6

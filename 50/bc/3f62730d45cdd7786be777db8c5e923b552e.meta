@@ -1,0 +1,2 @@
+copy: testing/docker/desktop-build/bin/checkout-script.sh
+copyrev: d265fca40d4a6b681ac5641e6b49102e26201db6

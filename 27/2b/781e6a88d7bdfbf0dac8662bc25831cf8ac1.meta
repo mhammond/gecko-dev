@@ -1,0 +1,2 @@
+copy: testing/firefox-ui/tests/firefox_ui_tests/functional/security/test_security_notification.py
+copyrev: ec781fcc1b254b6bdde369c7f9423d0c95d58c23

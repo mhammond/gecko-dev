@@ -1,0 +1,2 @@
+copy: security/manager/ssl/src/nsDataSignatureVerifier.cpp
+copyrev: c6580b785083c0ad7c833c1255c29188b508f544

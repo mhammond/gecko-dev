@@ -1,0 +1,2 @@
+copy: testing/web-platform/mozilla/tests/service-workers/service-worker/resources/fetch-event-async-respond-with-worker.js
+copyrev: 38690749baf796ccefceae5f41e631c5b5ee16f0

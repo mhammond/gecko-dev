@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/tests/fx_linux64_marionette_opt.yml
+copyrev: 6d096708eda8c25b35fa84bb4f24463745ca3ba7

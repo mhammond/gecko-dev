@@ -1,0 +1,2 @@
+copy: testing/web-platform/mozilla/tests/service-workers/service-worker/resources/fetch-rewrite-worker.js
+copyrev: e655e5191e19fc5acdcc0e595c82295108b8c94d

@@ -1,0 +1,2 @@
+copy: xpcom/string/src/nsTDependentString.cpp
+copyrev: a1b388c0abe074f505d5ed6375ea93967275e648

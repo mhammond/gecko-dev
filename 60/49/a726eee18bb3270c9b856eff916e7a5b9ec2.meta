@@ -1,0 +1,2 @@
+copy: toolkit/crashreporter/google-breakpad/src/processor/pathname_stripper_unittest.cc
+copyrev: 2d9ea9df52ee61bdcb572e38eefcf2d7fceafe29

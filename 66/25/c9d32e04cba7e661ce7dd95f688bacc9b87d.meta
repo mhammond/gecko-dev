@@ -1,0 +1,2 @@
+copy: testing/web-platform/mozilla/tests/service-workers/service-worker/resources/postmessage-msgport-to-client-worker.js
+copyrev: 2ff53b31ea330e095d39ed7d8bceea047c1d22e0

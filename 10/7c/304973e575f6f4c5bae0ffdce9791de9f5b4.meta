@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_processing/aec/echo_cancellation_internal.h
+copyrev: c5a5e35826a941fea215799a41661b0f97d8274c

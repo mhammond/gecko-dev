@@ -1,0 +1,2 @@
+copy: gfx/skia/trunk/src/opts/SkBlurImage_opts_SSE4.h
+copyrev: 4d4f51d9071318aacdfa577ea9685854704b4b0b

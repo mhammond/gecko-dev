@@ -1,0 +1,2 @@
+copy: testing/mozmill/virtualenv/docs/_build/_sources/news.txt
+copyrev: c15fa673a276058b3fa164ac1d9c06300298e7b4

@@ -1,0 +1,2 @@
+copy: security/sandbox/win/src/handle_closer.cc
+copyrev: 44e9f1230c3b583426dd4ef8602885764b96ead1

@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/builds/opt_linux64_st-an.yml
+copyrev: 38148654444a79d033b4fce8274dee62f9bdd333

@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_coding/codecs/ilbc/hp_output.c
+copyrev: dd54f1699f689272c8f4a6e2833266a8d7de2841

@@ -1,0 +1,2 @@
+copy: media/libvpx/vp8/encoder/arm/armv6/vp8_fast_fdct4x4_armv6.asm
+copyrev: 1821e2978202b4f1d0bb82d5193ad7c5bd14d5da

@@ -1,0 +1,2 @@
+copy: media/libvpx/vp8/encoder/arm/armv6/vp8_variance_halfpixvar16x16_v_armv6.asm
+copyrev: cc98143c50f90f24d497b1dbbf94f02759731653

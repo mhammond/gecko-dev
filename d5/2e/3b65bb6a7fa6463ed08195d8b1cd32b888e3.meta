@@ -1,0 +1,2 @@
+copy: dom/indexedDB/test/browser_privateBrowsing.js
+copyrev: d960e52f45f2bdf070b6897e9bc1754f35166b10

@@ -1,0 +1,2 @@
+copy: other-licenses/simplejson-2.1.1/simplejson/tests/test_encode_for_html.py
+copyrev: 15158d8d57e161360534b187cdd5cd76985c7f32

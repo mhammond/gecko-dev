@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_device/main/source/dummy/audio_device_dummy.h
+copyrev: c4bbf70b9582721ae0219d0ddef4fe980b3ad54f

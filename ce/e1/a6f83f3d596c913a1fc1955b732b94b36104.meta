@@ -1,0 +1,2 @@
+copy: xpcom/tests/TestNsRefPtr.cpp
+copyrev: 811172cb6990478dd479456939cd24cec04d8fd5

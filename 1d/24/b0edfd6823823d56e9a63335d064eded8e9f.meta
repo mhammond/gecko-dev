@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/tests/fx_linux64_reftest_not_accelerated.yml
+copyrev: 965665b90eddaad976cc8d126fd6cc159eecaa59

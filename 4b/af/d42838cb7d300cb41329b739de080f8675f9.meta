@@ -1,0 +1,2 @@
+copy: browser/devtools/webconsole/test/test_hsts-invalid-headers.sjs
+copyrev: e758da5b936b4d124cee35a9192dd72e1c6ee905

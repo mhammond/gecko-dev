@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_coding/main/test/TestVADDTX.cc
+copyrev: 04ddf7a1ee3aaf9ec14443cbe8af5ee9887c134e

@@ -1,0 +1,2 @@
+copy: testing/mozmill/simplejson-2.1.1/simplejson/tests/test_unicode.py
+copyrev: b24b0b6185d4e44f59b942ca7307e98963799af3

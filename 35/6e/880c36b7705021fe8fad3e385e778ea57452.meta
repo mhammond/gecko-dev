@@ -1,0 +1,2 @@
+copy: toolkit/components/extensions/test/xpcshell/test_ext_runtime_sendMessage_no_receiver.js
+copyrev: 70f1a6f09202d3262fb88842ec4a9aacafa255e6

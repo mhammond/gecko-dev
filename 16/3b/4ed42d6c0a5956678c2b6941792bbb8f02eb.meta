@@ -1,0 +1,2 @@
+copy: parser/htmlparser/tests/mochitest/file_bug672453_bomless_utf16.html
+copyrev: 1eb39d877d1629fc4ab0ce5b2f01ea3f13bbc45e

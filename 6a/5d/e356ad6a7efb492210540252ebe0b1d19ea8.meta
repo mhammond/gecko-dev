@@ -1,0 +1,2 @@
+copy: xpcom/reflect/xptcall/src/md/unix/xptcstubs_sparcv9_solaris.cpp
+copyrev: d6ce92a994e99d5fb844639fb47cbb086b7c09f1

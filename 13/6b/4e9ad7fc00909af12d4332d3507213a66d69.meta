@@ -1,0 +1,2 @@
+copy: security/manager/ssl/src/nsNSSCertificateDB.cpp
+copyrev: 6f3a59334c958a4636f9ed441a49b60d188a89b1

@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_processing/aec/include/echo_cancellation.h
+copyrev: 4658b3f2dbc03aaa8595e61ca5db6f6612f38db8

@@ -1,0 +1,2 @@
+copy: security/sandbox/chromium/sandbox/win/src/resolver_64.cc
+copyrev: 82e2dd422adf75b9497c00fc97bc03ce279043cf

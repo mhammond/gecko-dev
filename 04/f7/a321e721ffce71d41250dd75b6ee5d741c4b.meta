@@ -1,0 +1,2 @@
+copy: testing/web-platform/mozilla/tests/service-workers/service-worker/fetch-canvas-tainting.https.html
+copyrev: dc89679cb4400af9f2adbd1aa2a70fcca6c4a0f8

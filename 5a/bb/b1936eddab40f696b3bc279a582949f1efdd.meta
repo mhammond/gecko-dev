@@ -1,0 +1,2 @@
+copy: dom/tests/mochitest/fetch/reroute.js^headers^
+copyrev: 6411dbe78e3311aa0a8aabd0c24908ab82a74bbf

@@ -1,0 +1,2 @@
+copy: testing/web-platform/mozilla/tests/service-workers/service-worker/resources/end-to-end-worker.js
+copyrev: 85230dfa9da6b7cb5a2b89f0e58b86141a444f79

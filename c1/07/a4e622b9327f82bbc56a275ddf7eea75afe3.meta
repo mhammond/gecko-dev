@@ -1,0 +1,2 @@
+copy: netwerk/protocol/ftp/src/nsFtpConnectionThread.cpp
+copyrev: c82d061e1c49ae23ca54934d2b8ccbbf583bcd0f

@@ -1,0 +1,2 @@
+copy: tools/lint/eslint/eslint-plugin-mozilla/lib/rules/.eslintrc
+copyrev: 0388a19410e0b0ea776efb85ebba18ff4e1a59d0

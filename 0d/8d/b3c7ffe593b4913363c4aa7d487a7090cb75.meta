@@ -1,0 +1,2 @@
+copy: testing/web-platform/mozilla/tests/service-workers/service-worker/resources/fetch-csp-iframe.html.sub.headers
+copyrev: e1100793cc610cafed1db6ba0cf7d934aa2b8cd9

@@ -1,0 +1,2 @@
+copy: security/nss/lib/freebl/blapi.h
+copyrev: bbc5a2a67347273161ecd530fc047d9e64ac4944

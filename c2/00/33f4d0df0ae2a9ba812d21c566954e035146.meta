@@ -1,0 +1,2 @@
+copy: security/nss/external_tests/ssl_gtest/ssl_ems_unittest.cc
+copyrev: b685b657a5eb5b2f49605fa6fbe672e631405b93

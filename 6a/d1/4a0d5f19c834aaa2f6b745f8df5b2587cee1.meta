@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/unit/test_signed_apps/sign_b2g_app.py
+copyrev: 28d17e915d3809deee705dbbe2ac7400bc97b1a0

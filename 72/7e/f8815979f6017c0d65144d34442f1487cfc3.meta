@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/unit/tlsserver/self-signed-EE-with-cA-true.pem.certspec
+copyrev: 0413b93fd03fdc30c487f4192d6915332523d411

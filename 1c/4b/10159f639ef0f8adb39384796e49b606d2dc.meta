@@ -1,0 +1,2 @@
+copy: caps/tests/mochitest/test_bug292789.html.in
+copyrev: 49ea47d4348410b5ff624393c67faf0b5be8a32f

@@ -1,0 +1,2 @@
+copy: media/libvpx/vp9/encoder/x86/vp9_sad4d_sse2.asm
+copyrev: 1301118723ca8c9296760bb802723e444c419ff1

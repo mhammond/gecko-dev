@@ -1,0 +1,2 @@
+copy: toolkit/crashreporter/google-breakpad/src/third_party/linux/include/glog/log_severity.h
+copyrev: f4d5fe67894bef6e2bb5bb7b633f3edd47f8eb8d

@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/branches/b2g-inbound/job_flags.yml
+copyrev: ac73ca6cb863514ca24618568544a622b30392c4

@@ -1,0 +1,2 @@
+copy: testing/marionette/client/marionette/tests/unit/test_chrome.py
+copyrev: 85e6c78ecde6ca9eb2e0678c8ca74c5acd6b2c6b

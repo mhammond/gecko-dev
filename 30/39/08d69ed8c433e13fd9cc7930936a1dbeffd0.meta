@@ -1,0 +1,2 @@
+copy: testing/mozbase/mozfile/tests/test_remove.py
+copyrev: f1af8a0dd4ff9572825abd8c006601e9825992f0

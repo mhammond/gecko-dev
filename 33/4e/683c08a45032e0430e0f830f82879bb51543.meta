@@ -1,0 +1,2 @@
+copy: xpcom/reflect/xptcall/src/md/win32/xptcinvoke_asm_x86_64_gnu.s
+copyrev: 24fe5cd3ef1683440271176702df29fb9f710d78

@@ -1,0 +1,2 @@
+copy: xpcom/reflect/xptcall/src/md/unix/xptcstubs_mips.cpp
+copyrev: ae5f935fe8accd0b8085470676e5b82976c65a50

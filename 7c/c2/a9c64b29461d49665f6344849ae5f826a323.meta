@@ -1,0 +1,2 @@
+copy: taskcluster/docker/rust-build/build_rust_mac.sh
+copyrev: d528b6daec35d04a337888d09d219dd05366b1cb

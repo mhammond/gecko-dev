@@ -1,0 +1,2 @@
+copy: js/src/jit/x64/BaselineRegisters-x64.h
+copyrev: ecb07144d80bf53679742d24cf0a2c655fd783d8

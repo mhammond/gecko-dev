@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/video_engine/test/libvietest/include/vie_fake_camera.h
+copyrev: c51cd50b529392b6b398077876ccde2cdb728cfc

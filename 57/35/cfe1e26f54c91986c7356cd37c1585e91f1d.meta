@@ -1,0 +1,2 @@
+copy: dom/base/test/csp/file_hash_source.html^headers^
+copyrev: c97bd29e59368bba92e296b55f5d5c80a6c2c440

@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/unit/tlsserver/untrustedissuer.pem.certspec
+copyrev: 4d6cd054f9e92dd7919796f2498c9c320f3d6053

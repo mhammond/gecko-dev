@@ -1,0 +1,2 @@
+copy: js/src/jit-test/tests/parallelarray/alloc-different-objs.js
+copyrev: 059c6fa369134646a4e68c7c6ddb1c2698712590

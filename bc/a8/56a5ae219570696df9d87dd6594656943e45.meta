@@ -1,0 +1,2 @@
+copy: dom/base/test/csp/file_CSP_bug663567_allows.xml^headers^
+copyrev: 4ec23b98d2d8a0192e220381ce628565ced324ac

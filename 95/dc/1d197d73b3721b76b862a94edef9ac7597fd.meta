@@ -1,0 +1,2 @@
+copy: netwerk/test/unit/test_cache2-29-concurrent_read_non-resumable_entry_size_zero.js
+copyrev: be3fc7771705c9d242aac0c5cf9d675e9817fc42

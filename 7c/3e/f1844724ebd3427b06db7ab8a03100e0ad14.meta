@@ -1,0 +1,2 @@
+copy: taskcluster/docker/decision/VERSION
+copyrev: 176f44c4ce44d0ed320d0a4f143fd36efcac5cfe

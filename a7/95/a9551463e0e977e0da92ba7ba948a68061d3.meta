@@ -1,0 +1,2 @@
+copy: testing/firefox-ui/tests/firefox_ui_tests/puppeteer/test_about_window.py
+copyrev: da034c53e521c62f839106d84356cc7a00030a92

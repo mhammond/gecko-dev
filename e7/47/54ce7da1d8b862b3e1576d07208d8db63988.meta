@@ -1,0 +1,2 @@
+copy: security/sandbox/win/src/sidestep_resolver.cc
+copyrev: bd7949b216c437e0ea3072fd0391b9339539e0e5

@@ -1,0 +1,2 @@
+copy: netwerk/protocol/http/src/nsAHttpTransaction.h
+copyrev: 53de20b854a326631ee48080ada60df9ddb4dd11

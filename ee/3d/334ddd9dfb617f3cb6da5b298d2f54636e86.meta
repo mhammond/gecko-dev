@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/builds/mobile_base.yml
+copyrev: 2e0ec4c9d3e4970bd44b4719f07cc2cf8617a131

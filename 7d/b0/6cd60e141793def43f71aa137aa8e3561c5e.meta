@@ -1,0 +1,2 @@
+copy: testing/web-platform/mozilla/tests/service-workers/service-worker/fetch-waits-for-activate.https.html
+copyrev: d82d68b939bf23659ae3b0ad7dc169547b47973c

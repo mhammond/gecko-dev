@@ -1,0 +1,2 @@
+copy: memory/jemalloc/src/include/msvc_compat/inttypes.h
+copyrev: b4acf08adfb8052f518c908e0fb89564793c72fd

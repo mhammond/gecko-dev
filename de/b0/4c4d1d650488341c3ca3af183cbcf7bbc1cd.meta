@@ -1,0 +1,2 @@
+copy: taskcluster/docker/android-gradle-build/VERSION
+copyrev: 7e1369ffc5fe974c7429bdb4779061cbeebf6ffb

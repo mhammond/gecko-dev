@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/branches/mozilla-central/job_flags.yml
+copyrev: 30c5c6be3c9538c51a6264ee28ed1fa991ace35c

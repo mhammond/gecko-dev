@@ -1,0 +1,2 @@
+copy: taskcluster/docker/tester/VERSION
+copyrev: 6ec18f1e22d0958dc1bd9769c5c988ca1890fefd

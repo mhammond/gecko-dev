@@ -1,0 +1,2 @@
+copy: security/sandbox/chromium/sandbox/win/src/sync_policy.cc
+copyrev: 922fb6514bd5eb7d9efa8e8258b20f83e4a4cc72

@@ -1,0 +1,2 @@
+copy: netwerk/protocol/http/src/nsHttpTransaction.cpp
+copyrev: 3216585bcb135b6e9bb47eee4b97a4c2a717a3a6

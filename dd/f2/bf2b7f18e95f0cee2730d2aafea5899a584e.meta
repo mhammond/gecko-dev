@@ -1,0 +1,2 @@
+copy: mobile/android/sync/manifests/SyncAndroidManifest_activities.xml.in
+copyrev: 3f5b18fc40cfd081a7ee4f2be47c8ee3966ed02c

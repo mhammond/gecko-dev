@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/third_party/libyuv/source/mjpeg_decoder.cc
+copyrev: a8ab3266b42e37ce84cd8297b24095989e24dc04

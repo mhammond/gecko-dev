@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_coding/codecs/ilbc/index_conv_dec.c
+copyrev: f1b725f0b0b150b604b7d22a6743a6709dec5647

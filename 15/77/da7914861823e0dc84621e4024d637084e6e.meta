@@ -1,0 +1,2 @@
+copy: security/nss/external_tests/ssl_gtest/tls_connect.h
+copyrev: a6e552d74f04d04b670f9ba5578b118b00745eb7

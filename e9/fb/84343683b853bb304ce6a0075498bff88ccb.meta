@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/branches/base_job_flags.yml
+copyrev: e9967894df60b53294f134f5a38db2542fc7e9d8

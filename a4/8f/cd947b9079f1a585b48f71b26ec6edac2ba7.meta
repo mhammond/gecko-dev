@@ -1,0 +1,2 @@
+copy: memory/replace/dmd/test/full-heap-sampled-expected.txt
+copyrev: da986626789034c52861c50e249e95181c9e32f8

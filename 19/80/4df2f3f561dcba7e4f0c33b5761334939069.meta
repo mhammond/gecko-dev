@@ -1,0 +1,2 @@
+copy: testing/web-platform/tests/tools/scripts/lint.whitelist
+copyrev: aaed36bf1eb5f78790dbf48f274dbfcc235b4962

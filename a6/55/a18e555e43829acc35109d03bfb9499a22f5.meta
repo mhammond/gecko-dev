@@ -1,0 +1,2 @@
+copy: js/src/jit-test/tests/parallelarray/scatter-throws.js
+copyrev: be55b5539569c2c64bc2e6ba46acda5504d9434d

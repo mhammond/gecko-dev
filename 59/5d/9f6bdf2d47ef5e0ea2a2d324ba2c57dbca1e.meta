@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/unit/test_weak_crypto.js
+copyrev: 3712c2dbae2b13f5cd83ce7ccd4085ae466009d7

@@ -1,0 +1,2 @@
+copy: testing/web-platform/mozilla/tests/service-workers/service-worker/resources/onactivate-throw-error-from-nested-event-worker.js
+copyrev: 21fc541790d8f3c92f1e30e1545d2ba06540e8a8

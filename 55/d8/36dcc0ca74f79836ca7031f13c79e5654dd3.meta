@@ -1,0 +1,2 @@
+copy: testing/web-platform/mozilla/tests/service-workers/service-worker/resources/onactivate-throw-error-with-empty-onerror-worker.js
+copyrev: 5bd02d14b1a54b23975efc02939e49e59182e97e

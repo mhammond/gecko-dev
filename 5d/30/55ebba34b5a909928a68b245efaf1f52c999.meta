@@ -1,0 +1,2 @@
+copy: modules/freetype2/builds/win32/w32-bcc.mk
+copyrev: 6cea75a676d533fab6f5385ea9bff9cdc063166e

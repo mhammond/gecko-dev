@@ -1,0 +1,2 @@
+copy: netwerk/dns/src/prepare_tlds.py
+copyrev: 2d5812abd83a3479e3fcb2474b1403d7a853c8bc

@@ -1,0 +1,2 @@
+copy: testing/taskcluster/scripts/misc/build-clang-linux.sh
+copyrev: 7ff2e74b3afdc0e5171b3661dff86df670a5bbe7

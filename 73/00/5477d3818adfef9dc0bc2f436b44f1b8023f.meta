@@ -1,0 +1,2 @@
+copy: browser/devtools/webconsole/test/browser_bug1045902_console_csp_ignore_reflected_xss_message.js
+copyrev: c3c2cf0a74c434f24a1daa35eddf9043e0c3323d

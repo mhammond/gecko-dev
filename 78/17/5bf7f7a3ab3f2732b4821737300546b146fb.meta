@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/mochitest/stricttransportsecurity/.eslintrc.json
+copyrev: f532e2556e8a5fc7a9a6fd7ee1b3f6243969e290

@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_coding/codecs/ilbc/create_augmented_vec.c
+copyrev: 92a977c2dafb2c70a949229b4170a0ba6ab16942

@@ -1,0 +1,2 @@
+copy: testing/mozbase/manifestparser/tests/test_default_skipif.py
+copyrev: 49736824ba68920b98d7db273ad3623eb16e2470

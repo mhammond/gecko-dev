@@ -1,0 +1,2 @@
+copy: gfx/skia/trunk/src/ports/SkGlobalInitialization_default.cpp
+copyrev: 810e64d24ba2ad48633748bc62c975bd2383c2be

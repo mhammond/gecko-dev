@@ -1,0 +1,2 @@
+copy: browser/base/content/test/general/browser_bug1025195_switchToTabHavingURI_ignoreFragment.js
+copyrev: a895abe5cf31d0c2a868b18d4759e0cca2b5f31c

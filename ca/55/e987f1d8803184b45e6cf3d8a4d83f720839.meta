@@ -1,0 +1,2 @@
+copy: modules/freetype2/builds/win32/w32-vcc.mk
+copyrev: d9893c25c8a9c16fd45a12d95b2ed25950c9ec0a

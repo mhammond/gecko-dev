@@ -1,0 +1,2 @@
+copy: netwerk/protocol/http/src/nsHttpAuthManager.cpp
+copyrev: 6451eabcec45f876727194b439faca9182d758f2

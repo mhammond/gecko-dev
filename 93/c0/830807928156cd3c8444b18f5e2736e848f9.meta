@@ -1,0 +1,2 @@
+copy: dom/tests/mochitest/indexeddb/Makefile.in
+copyrev: 7d5ba801f3ed5868e74c431a18f741132bb1b491

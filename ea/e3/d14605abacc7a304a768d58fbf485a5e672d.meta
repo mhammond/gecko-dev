@@ -1,0 +1,2 @@
+copy: security/sandbox/chromium/sandbox/win/src/restricted_token.cc
+copyrev: baf42aa1ad77731d64d5bd5252b3234acf71bb04

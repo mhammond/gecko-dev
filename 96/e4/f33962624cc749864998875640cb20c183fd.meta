@@ -1,0 +1,2 @@
+copy: testing/web-platform/mozilla/tests/service-workers/service-worker/register-same-scope-different-script-url.https.html
+copyrev: 51f0406bf72fba758fb8d86ac436bb20ee51a88e

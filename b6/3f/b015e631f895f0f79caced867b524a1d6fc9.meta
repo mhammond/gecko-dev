@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_device/main/source/linux/audio_mixer_manager_pulse_linux.h
+copyrev: 4ddaf744ca524acf70b0b0ee32205ad2767d1a05

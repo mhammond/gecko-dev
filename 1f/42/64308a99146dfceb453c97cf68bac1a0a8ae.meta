@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_device/main/source/linux/pulseaudiosymboltable_linux.cc
+copyrev: 08f1434bfc0be1e041e566ba2b55eef4386b703d

@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/common_audio/signal_processing/sqrt_of_one_minus_x_squared.c
+copyrev: a2214f226e4249727d24464e6ce683ed849fb62a

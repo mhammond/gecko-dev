@@ -1,0 +1,2 @@
+copy: taskcluster/docker/desktop-build/buildprops.json
+copyrev: a14b1458113ad5da38d78c07b541042ac3e2a436

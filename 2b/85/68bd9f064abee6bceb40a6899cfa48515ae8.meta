@@ -1,0 +1,2 @@
+copy: xpcom/reflect/xptcall/src/md/unix/xptcstubs_darwin.cpp
+copyrev: ed678b876a49ae146d752fe3760848c8db1d528c

@@ -1,0 +1,2 @@
+copy: toolkit/components/protobuf/src/google/protobuf/stubs/once.cc
+copyrev: 3abd6c60830aab4239081104cba03023b4522008

@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/unit/tlsserver/invalidDelegatedSignerKeyUsageCrlSigning.pem.certspec
+copyrev: 1c341e98dd5a0da68342d8e114be6b6a0125a8cb

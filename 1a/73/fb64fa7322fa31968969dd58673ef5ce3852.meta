@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_device/main/source/linux/latebindingsymboltable_linux.cc
+copyrev: 0d067ceb8cff59a181491d945f59584ac3125ff7

@@ -1,0 +1,2 @@
+copy: toolkit/crashreporter/breakpad-patches/06-readsymboldata-mac.patch
+copyrev: 17ac8d72bf471885498e35bbc93ecadf3f3dece5

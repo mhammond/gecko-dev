@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/builds/b2g_desktop.yml
+copyrev: 0930a551a5d11077091e7207c5d78c81dba9fbb9

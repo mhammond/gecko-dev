@@ -1,0 +1,2 @@
+copy: dom/workers/test/serviceworkers/test_eval_not_allowed.html^headers^
+copyrev: 6f6e86d35c4eb51f23cd13248205d1b73424ef78

@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/unit/tlsserver/md5signature-expired.pem.certspec
+copyrev: e1cd86d0e7971768ec366f0329a14cdf326cdf4a

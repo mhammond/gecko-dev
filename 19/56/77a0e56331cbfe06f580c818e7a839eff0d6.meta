@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/unit/test_ev_certs/int-non-ev-root.pem.certspec
+copyrev: e74b5496210a2ac7c5aa8d53ebe8a72a6b81fcd1

@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_coding/codecs/ilbc/lsf_interpolate_to_poly_dec.h
+copyrev: 7f0ea3c4edfe61629b9861795119dcedfcf401a0

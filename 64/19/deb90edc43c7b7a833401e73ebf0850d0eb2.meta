@@ -1,0 +1,2 @@
+copy: parser/htmlparser/tests/mochitest/test_bug667533.html
+copyrev: 65fad119e8f7c0a13a17119f1a83fd501fc2a40e

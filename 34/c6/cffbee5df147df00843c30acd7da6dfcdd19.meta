@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_coding/codecs/ilbc/sort_sq.c
+copyrev: f1a875c7ae49967247ceceee87494ad29b18f363

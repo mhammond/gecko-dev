@@ -1,0 +1,2 @@
+copy: taskcluster/taskgraph/kind/docker_image.py
+copyrev: 631a698333a8f240bffcc83ef635db63f1a5fae1

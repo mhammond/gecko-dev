@@ -1,0 +1,2 @@
+copy: browser/devtools/debugger/test/mochitest/code_WorkerActor.attachThread-worker.js
+copyrev: b25e6b633c441aecaa47eb6b5b2713d42b0e9b60

@@ -1,0 +1,2 @@
+copy: testing/eslint-plugin-mozilla/lib/rules/import-headjs-globals.js
+copyrev: ae025c0365f58bff4362c28dfaa544da442a6bd1

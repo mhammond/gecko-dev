@@ -1,0 +1,2 @@
+copy: xpcom/reflect/xptcall/src/md/win32/xptcinvoke_x86_gnu.cpp
+copyrev: a3ac34678598f4785b410cfbc025f7b1fb102cda

@@ -1,0 +1,2 @@
+copy: js/src/jit-test/tests/wasm/basic-const.js
+copyrev: fbcf1e24244d6d006dd13046c0e02e7caf56bdcf

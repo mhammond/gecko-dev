@@ -1,0 +1,2 @@
+copy: browser/components/migration/public/nsIBrowserProfileMigrator.idl
+copyrev: 56378003f100bcace4a635e35b7f34a3e461aa5e

@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/tests/fx_linux64_web_platform_tests_e10s_opt.yml
+copyrev: 0bf98561b96f3f40f50f31d131f9e40547ccf93e

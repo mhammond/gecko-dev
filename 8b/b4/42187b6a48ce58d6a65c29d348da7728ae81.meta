@@ -1,0 +1,2 @@
+copy: gfx/skia/trunk/src/ports/SkGlobalInitialization_chromium.cpp
+copyrev: c873fd161d91a90ee4a77f71783830e3bb051c35

@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_coding/neteq/mute_signal.c
+copyrev: 8212873b150b5242a27e438bf63348e6cb267248

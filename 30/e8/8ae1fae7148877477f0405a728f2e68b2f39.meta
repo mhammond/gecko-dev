@@ -1,0 +1,2 @@
+copy: security/manager/ssl/src/nsNSSCertificateFakeTransport.h
+copyrev: b6be0d17671c1aa3aa8c86944b836fe84f87fb6e

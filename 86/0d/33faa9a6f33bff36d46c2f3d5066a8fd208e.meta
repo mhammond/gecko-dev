@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/phone_build.yml
+copyrev: a6a4e1e456819d62354502288cb882452c27124e

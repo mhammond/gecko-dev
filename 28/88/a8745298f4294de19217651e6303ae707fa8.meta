@@ -1,0 +1,2 @@
+copy: js/src/jit-test/tests/parallelarray/map-add-from-upvar-field.js
+copyrev: 06b48b3912f8d96e757b8a4b4dc0158f9e20f3c8

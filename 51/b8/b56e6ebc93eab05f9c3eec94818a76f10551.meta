@@ -1,0 +1,2 @@
+copy: security/nss/tests/ssl_gtests/parsereport.sed
+copyrev: 92921a9922136cec72baa2740c7de6ab84463f22

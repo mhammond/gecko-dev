@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/third_party/libyuv/source/scale_posix.cc
+copyrev: c92a676e71f1d3f0eb8f7927941409085ccc4e52

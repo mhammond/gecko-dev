@@ -1,0 +1,2 @@
+copy: taskcluster/docker/desktop-build/bin/checkout-script.sh
+copyrev: 50bc3f62730d45cdd7786be777db8c5e923b552e

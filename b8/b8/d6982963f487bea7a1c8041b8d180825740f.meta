@@ -1,0 +1,2 @@
+copy: security/sandbox/chromium/sandbox/win/src/sidestep_resolver.cc
+copyrev: e74754ce7da1d8b862b3e1576d07208d8db63988

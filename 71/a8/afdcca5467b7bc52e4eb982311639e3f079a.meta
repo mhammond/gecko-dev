@@ -1,0 +1,2 @@
+copy: media/libvpx/vp8/decoder/x86/dequantize_mmx.asm
+copyrev: 27690f31123f7982df65d2eed4dcdd1614747cbd

@@ -1,0 +1,2 @@
+copy: testing/web-platform/mozilla/tests/service-workers/service-worker/resources/skip-waiting-installed-worker.js
+copyrev: c08015061809414339b33c354aef0b39dd6a18ea

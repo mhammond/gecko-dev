@@ -1,0 +1,2 @@
+copy: security/manager/ssl/src/nsNTLMAuthModule.cpp
+copyrev: beb4ef38837c6a84c68f4c0e1c4059087bddf29a

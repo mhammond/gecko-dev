@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/builds/sm_plain.yml
+copyrev: 358c29043f4064fc9821830f660b3eb9a7286ada

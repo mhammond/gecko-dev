@@ -1,0 +1,2 @@
+copy: js/src/jit-test/tests/TypedObject/bug1109911.js
+copyrev: e36bccf6b9ae397fd98fb6aeef2c811deea177b4

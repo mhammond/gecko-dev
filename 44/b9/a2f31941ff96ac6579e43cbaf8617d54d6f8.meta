@@ -1,0 +1,2 @@
+copy: dom/tests/mochitest/fetch/test_fetch_cors_sw_reroute.html
+copyrev: e78f11064f591b0bd50a98755e33c31e9dfae96e

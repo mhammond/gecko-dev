@@ -1,0 +1,2 @@
+copy: browser/components/loop/test/xpcshell/test_loopservice_registration_retry.js
+copyrev: 2ff8dce12f1c15dae14fc77740daea7bb162bcf6

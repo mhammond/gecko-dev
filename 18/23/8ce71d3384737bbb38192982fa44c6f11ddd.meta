@@ -1,0 +1,2 @@
+copy: browser/components/loop/test/xpcshell/test_loopservice_restart.js
+copyrev: f73af272dc685cfb526a0ecec76a05533c92356b

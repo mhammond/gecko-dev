@@ -1,0 +1,2 @@
+copy: netwerk/protocol/http/src/nsHttpResponseHead.h
+copyrev: ded94129d2a61df1c082c843796e009f55f8a0ca

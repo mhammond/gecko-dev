@@ -1,0 +1,2 @@
+copy: netwerk/protocol/http/src/nsHttpConnection.cpp
+copyrev: 8d1c6029f3610ab71da720514ee78d7015c964f9

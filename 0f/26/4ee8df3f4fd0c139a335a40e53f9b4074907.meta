@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_processing/high_pass_filter_impl.cc
+copyrev: 0b29e32e1eb1d2a9af42946873c34ac398dde93f

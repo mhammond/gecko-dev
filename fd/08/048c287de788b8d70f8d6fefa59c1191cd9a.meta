@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/unit/test_cert_eku/int-nsSGC.pem.certspec
+copyrev: 50298ee8db83c232d6c04265c27d1d240829d6f7

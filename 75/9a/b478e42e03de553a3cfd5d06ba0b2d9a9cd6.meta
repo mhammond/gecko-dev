@@ -1,0 +1,2 @@
+copy: browser/components/loop/test/mochitest/browser_fxa_login.js
+copyrev: ba394dffd90b64647a1c905949fe66d5ce7e5cb6

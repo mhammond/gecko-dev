@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/builds/base_macosx64.yml
+copyrev: 00989ece6ba4144c5013c2478742bdd766c94ece

@@ -1,0 +1,2 @@
+copy: testing/eslint-plugin-mozilla/lib/rules/no-aArgs.js
+copyrev: 49762bc48265ac3a53575ad1bc0d43a1f01792d6

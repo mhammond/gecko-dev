@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/unit/tlsserver/delegatedSigner.pem.certspec
+copyrev: 07fbe00fd2b0a9f02dd1c23b470625a4acd4017a

@@ -1,0 +1,2 @@
+copy: testing/docker/rust-build/REGISTRY
+copyrev: e52e199095e63dd0f80598963d4a2fd2993bbadc

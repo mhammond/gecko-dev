@@ -1,0 +1,2 @@
+copy: security/manager/ssl/public/nsIX509CertValidity.idl
+copyrev: feac04b9616ed81ef8a865675105ae611d62ca74

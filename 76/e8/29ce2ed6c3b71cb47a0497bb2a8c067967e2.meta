@@ -1,0 +1,2 @@
+copy: netwerk/protocol/gopher/src/nsGopherChannel.cpp
+copyrev: e786f62caff4812c1f93cf059b1956741c9f11d7

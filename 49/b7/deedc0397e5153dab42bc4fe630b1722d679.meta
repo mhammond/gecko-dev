@@ -1,0 +1,2 @@
+copy: testing/firefox-ui/tests/firefox_ui_tests/functional/security/test_mixed_content_page.py
+copyrev: 8abc6cdea371ebb5cff5495df971700bd8b64cc4

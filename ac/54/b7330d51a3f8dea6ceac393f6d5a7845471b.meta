@@ -1,0 +1,2 @@
+copy: media/libvpx/vp8/decoder/arm/neon/idct_dequant_0_2x_neon.asm
+copyrev: 058c6f60e3a7fff8ecae99bf8c3bf39e2e726b54

@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/tests/mozharness-gecko.yml
+copyrev: 44ecbca82127e9f0969025af7d05e29b5a0b67d2

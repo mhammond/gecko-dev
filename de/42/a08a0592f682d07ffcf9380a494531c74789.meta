@@ -1,0 +1,2 @@
+copy: netwerk/base/src/nsUDPSocket.cpp
+copyrev: a771b31a7c12ba4630a433570664d9031efbcd2b

@@ -1,0 +1,2 @@
+copy: xpcom/reflect/xptcall/src/md/unix/xptcstubs_asm_pa32.s
+copyrev: 02f89c7f93505a2cd2002f072a45240e772f8186

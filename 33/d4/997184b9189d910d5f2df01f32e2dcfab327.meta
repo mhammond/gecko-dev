@@ -1,0 +1,2 @@
+copy: browser/devtools/debugger/test/mochitest/browser_dbg_promises-allocation-stack.js
+copyrev: e62fcec27566c0024e011764530946f68edb3d3d

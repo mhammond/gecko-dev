@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_coding/codecs/cng/cng_unittest.cc
+copyrev: 87478dfc6be1e432674e28b2943e19f8fc4c380e

@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_coding/codecs/ilbc/encode.c
+copyrev: 5d576ebc19703e1bc375c97e2cc599fd46f67c0f

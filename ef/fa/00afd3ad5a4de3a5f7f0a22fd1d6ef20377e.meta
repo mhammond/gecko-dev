@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/webrtc/modules/audio_coding/neteq4/time_stretch.cc
+copyrev: 38615c7335e90abd970bef1c7f967e721b750ee6

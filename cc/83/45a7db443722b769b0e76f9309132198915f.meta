@@ -1,0 +1,2 @@
+copy: mobile/android/base/httpclientandroidlib/impl/conn/HttpInetSocketAddress.java
+copyrev: e09583c9c183125db62f7188c1c72020af172c7a

@@ -1,0 +1,2 @@
+copy: security/nss/lib/freebl/sha512.c
+copyrev: c76d6cbe88625ec85b7bcabd647c1a76f5c2730e

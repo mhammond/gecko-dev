@@ -1,0 +1,2 @@
+copy: testing/firefox-ui/tests/firefox_ui_tests/functional/security/test_submit_unencrypted_info_warning.py
+copyrev: e18bb3607a348f9cedd03191ea923112223eb220

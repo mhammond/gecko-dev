@@ -1,0 +1,2 @@
+copy: xpcom/reflect/xptcall/src/md/unix/xptcstubs_linux_s390x.cpp
+copyrev: d8086fbfa2b46d2645db25798924490b6c6d845e

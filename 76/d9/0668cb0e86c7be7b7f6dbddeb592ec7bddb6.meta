@@ -1,0 +1,2 @@
+copy: security/nss/external_tests/ssl_gtest/ssl_hrr_unittest.cc
+copyrev: 49daabdca7a23aa774b2c76f00f5e1b4199ecdc1

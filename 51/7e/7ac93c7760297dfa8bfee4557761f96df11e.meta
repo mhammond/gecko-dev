@@ -1,0 +1,2 @@
+copy: media/libvpx/vp9/encoder/vp9_sad.c
+copyrev: bc85b5deda95437883a8ccabcfe263e24ebccc13

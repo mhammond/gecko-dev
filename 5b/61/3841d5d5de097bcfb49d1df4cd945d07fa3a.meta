@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/mochitest/stricttransportsecurity/test_sts_privatebrowsing.html
+copyrev: 34cac9dd80b2553f45ff4c01c3af1c712c065144

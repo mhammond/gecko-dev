@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/tests/fx_linux64_gtest.yml
+copyrev: 0c5c13a966ca22f91bac902d290d2a1b82955d1e

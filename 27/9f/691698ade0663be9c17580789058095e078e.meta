@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/image.yml
+copyrev: ac6e6dea69286041633a4e9b96e273893a9e75f0

@@ -1,0 +1,2 @@
+copy: testing/mozharness/configs/builds/releng_base_mac_cross_builds.py
+copyrev: bdb6133cff6cd05688cb390ed4f2ae6e9de3590e

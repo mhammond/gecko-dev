@@ -1,0 +1,2 @@
+copy: security/nss/external_tests/.clang-format
+copyrev: dd7bc323e10f80288af1e4deb6722a40607ce217

@@ -1,0 +1,2 @@
+copy: devtools/client/performance/test/browser_perf-events-calltree.js
+copyrev: bdea9c1c85c47ec0558653de9d12209b30042cb6

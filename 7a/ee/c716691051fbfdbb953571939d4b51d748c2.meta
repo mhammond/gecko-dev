@@ -1,0 +1,2 @@
+copy: xpcom/string/src/nsStringObsolete.cpp
+copyrev: e1170c55262b05c630adb32295e0c4d162ca826d

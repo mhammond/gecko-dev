@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/webrtc/modules/audio_coding/neteq4/background_noise.cc
+copyrev: a4b7be8276479e03833111e93bcaad2192349d08

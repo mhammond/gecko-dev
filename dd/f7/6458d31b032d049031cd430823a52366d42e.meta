@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/tests/fx_linux64_mochitest_gpu.yml
+copyrev: 50fe192d9f4f6c53682bfb4ad37bd2d4d321c263

@@ -1,0 +1,2 @@
+copy: testing/firefox-ui/tests/firefox_ui_tests/puppeteer/test_tabbar.py
+copyrev: d0c3782312e9341ffe40dd092307faca4058a2f8

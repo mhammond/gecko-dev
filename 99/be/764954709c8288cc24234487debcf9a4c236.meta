@@ -1,0 +1,2 @@
+copy: testing/web-platform/tests/DOMEvents/throwing-in-listener-when-all-have-not-run-yet.html
+copyrev: dd1f2be4431671e608ad97c49a2bb7b5cf29b65b

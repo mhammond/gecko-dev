@@ -1,0 +1,2 @@
+copy: security/nss/external_tests/nss_bogo_shim/nsskeys.h
+copyrev: 7661c3dee3d2279d5bf24a71c6fe1268049638c2

@@ -1,0 +1,2 @@
+copy: testing/docker/rust-build/repack_rust.py
+copyrev: 813f6d6e0cc7baa28815dd479f9a16ce54d3a532

@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/unit/tlsserver/delegatedSHA1Signer.pem.certspec
+copyrev: 6149efd4111ee9c3209faa7bb2ff228f0cd739f2

@@ -1,0 +1,2 @@
+copy: mobile/android/tests/background/junit4/src/org/mozilla/gecko/telemetry/stores/TestJSONFilePingStore.java
+copyrev: f7c1cfea4242dba8d2877537ac4ed62e443c78d4

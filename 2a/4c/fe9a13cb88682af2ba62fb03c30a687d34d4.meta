@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/tests/fx_linux64_mochitest_dt_opt.yml
+copyrev: 2e07c63ca29b9b7650fd27ee01f404f5352c83d8

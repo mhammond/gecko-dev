@@ -1,0 +1,2 @@
+copy: python/mozbuild/mozbuild/test/backend/data/defines/moz.build
+copyrev: 5668c4e63b8e380cebf011c1422dc08242f0a33e

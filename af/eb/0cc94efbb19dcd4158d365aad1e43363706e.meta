@@ -1,0 +1,2 @@
+copy: media/libvpx/vp8/encoder/x86/variance_impl_ssse3.asm
+copyrev: 0be2d5cbfbc1b16a05e2c22aa170f4e8d5c7bb05

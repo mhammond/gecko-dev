@@ -1,0 +1,2 @@
+copy: media/libvpx/vp8/decoder/x86/idct_blk_sse2.c
+copyrev: 1ceb12dcd816d4450dc4055158350703bc74f9d0

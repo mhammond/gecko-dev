@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/mochitest/browser/.eslintrc.json
+copyrev: 8fe8d280a4889090343bce6af8488671d01099f8

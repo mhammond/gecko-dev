@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/tests/fx_linux64_mochitest_clipboard.yml
+copyrev: c9eeef3107488e001fcba5e24ca8cf5358c2168c

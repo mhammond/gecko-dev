@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/tools/gyp/test/mac/gyptest-postbuild-static-library.gyp
+copyrev: 9674ead46088b5773f731638d7910ec4a661a180

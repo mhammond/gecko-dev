@@ -1,0 +1,2 @@
+copy: browser/components/newtab/tests/xpcshell/test_NewTabURL.js
+copyrev: 5ac21f6ab87a1a0f25f0623f0b87f3f0af4e6828

@@ -1,0 +1,2 @@
+copy: security/manager/ssl/src/nsNSSCertTrust.h
+copyrev: eba9068dce3c0717b4413f720868d343dd726387

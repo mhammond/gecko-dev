@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/video_coding/codecs/vp8/main/source/vp8.cc
+copyrev: e87ff197eccd472d71db31c43f9ff42d68792e4e

@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/remote_bitrate_estimator/remote_bitrate_estimator.gypi
+copyrev: d3f0522f9736039cd917fc33441fbe2165232423

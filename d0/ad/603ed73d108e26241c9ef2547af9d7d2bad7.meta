@@ -1,0 +1,2 @@
+copy: mobile/android/tests/browser/robocop/src/androidTest/java/org/mozilla/gecko/tests/testSessionOOMRestore.java
+copyrev: ab43b0eae54f6498e3901ad2f81cb38d3b6f20f0

@@ -1,0 +1,2 @@
+copy: testing/docker/desktop-build/bin/checkout-sources.sh
+copyrev: 86d1b4eccd7f844bf53de67b5d62bd15232658f8

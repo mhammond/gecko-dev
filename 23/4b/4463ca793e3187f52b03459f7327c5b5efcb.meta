@@ -1,0 +1,2 @@
+copy: testing/mozmill/simplejson-2.1.1/simplejson/tests/test_check_circular.py
+copyrev: 02978e7699b99333e10bb4675ba1b206ebb73e02

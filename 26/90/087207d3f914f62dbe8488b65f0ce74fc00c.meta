@@ -1,0 +1,2 @@
+copy: security/nss/external_tests/google_test/gtest/cmake/internal_utils.cmake
+copyrev: 7dc84dbcaf6578a05735bb57c7a229e6f7b23d8d

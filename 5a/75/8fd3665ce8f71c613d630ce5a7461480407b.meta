@@ -1,0 +1,2 @@
+copy: security/manager/ssl/public/nsICertTree.idl
+copyrev: ec74ad8fc97b392ec07ceae06424a5649f3eeb7c

@@ -1,0 +1,2 @@
+copy: testing/eslint-plugin-mozilla/lib/rules/var-only-at-top-level.js
+copyrev: cd95ff642c25cd84c2e37dd7e508cb1bbc785c15

@@ -1,0 +1,2 @@
+copy: browser/devtools/webconsole/test/test-bug-600183-charset.html^headers^
+copyrev: c744c8990c7148d88f0945e5f99a2053ec1903ea

@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/phone_test.yml
+copyrev: b58827b1f04a14533e8412131e6b2069df01bde7

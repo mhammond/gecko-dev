@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/builds/android_lint.yml
+copyrev: 66c9592dfd3cb8f49fba10b5094d14f364064c6b

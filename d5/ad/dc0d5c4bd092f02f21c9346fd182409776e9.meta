@@ -1,0 +1,2 @@
+copy: xpcom/reflect/xptcall/src/md/win32/xptcstubs_asm_x86_64.asm
+copyrev: 2d94fe6a055984567fd7ab81ba6982bce40ba043

@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/tests/fx_linux64_reftest_not_accelerated_e10s_opt.yml
+copyrev: e95859f385d1821b5df0946aec8e8273b7b4bde4

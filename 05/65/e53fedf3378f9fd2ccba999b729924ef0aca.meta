@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/webrtc/modules/audio_coding/neteq4/mock/mock_audio_decoder.h
+copyrev: ff8d1fb2e07caeacea7cf2be1c4bd4ebf82095fd

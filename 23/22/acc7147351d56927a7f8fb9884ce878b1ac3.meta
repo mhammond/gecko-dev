@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/unit/test_signed_apps/nss_ctypes.py
+copyrev: 6be2574efd21284beb5fbe82b7a4aa8b730e4b34

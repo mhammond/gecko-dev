@@ -1,0 +1,2 @@
+copy: dom/tests/mochitest/webapps/apps/basic.webapp^headers^
+copyrev: 2b7aaa280f9d2d699c384807c60810ff845ce29f

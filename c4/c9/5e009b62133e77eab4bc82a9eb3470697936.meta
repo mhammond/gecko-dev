@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/video_processing/main/source/content_analysis_sse2.cc
+copyrev: 34eb305bc89e92048e860c62b0a129312cdf8ec2

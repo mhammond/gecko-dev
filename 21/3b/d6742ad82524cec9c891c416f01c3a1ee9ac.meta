@@ -1,0 +1,2 @@
+copy: js/src/jit-test/tests/ion/simd-bug1121299.js
+copyrev: 6a37de485f26d4d680562cf6df3a9dc416d1a179

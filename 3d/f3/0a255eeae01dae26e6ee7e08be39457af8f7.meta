@@ -1,0 +1,2 @@
+copy: gfx/skia/trunk/src/opts/SkBlitRow_opts_SSE2.cpp
+copyrev: 93e69240457c1b1feb7e0753686191ede3c3dc27

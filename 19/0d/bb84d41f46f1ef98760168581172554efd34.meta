@@ -1,0 +1,2 @@
+copy: security/manager/boot/src/nsSiteSecurityService.cpp
+copyrev: c75961d0eaebe778c375cb2a5cd634cc83015d2c

@@ -1,0 +1,2 @@
+copy: toolkit/components/places/tests/migration/places_v6_no_frecency.sqlite
+copyrev: 92721c26b0e55f929bb704be1a9217e52477c067

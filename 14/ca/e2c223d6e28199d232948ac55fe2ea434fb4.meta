@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/tests/eslint-gecko.yml
+copyrev: 54736ba5384a2b73eecdbe801fe8fbb1dc25cdf0

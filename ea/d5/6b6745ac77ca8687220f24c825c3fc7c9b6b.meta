@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/builds/sm_base.yml
+copyrev: ca0b9c452706eaa8667582c81f5ce8e6d96d243d

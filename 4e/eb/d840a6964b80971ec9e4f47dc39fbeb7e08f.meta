@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/tests/fx_linux64_luciddream.yml
+copyrev: db4858e66784d2506a9d1ef29b206b6912de7d76

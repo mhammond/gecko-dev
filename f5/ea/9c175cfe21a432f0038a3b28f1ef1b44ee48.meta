@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/common_audio/signal_processing/dot_product_with_scale.c
+copyrev: 58cc2b60e0736cab2721bef77efbcae2d8a2f7f9

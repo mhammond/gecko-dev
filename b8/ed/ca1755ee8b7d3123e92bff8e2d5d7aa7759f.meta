@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/tests/fx_linux64_mochitest_chrome_opt.yml
+copyrev: 9b80aa811c2fe35d3d674ee4219f5ec3cdf3b238

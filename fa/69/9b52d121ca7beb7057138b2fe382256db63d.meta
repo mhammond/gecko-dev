@@ -1,0 +1,2 @@
+copy: build/unix/build-clang/query-selector-visibility.patch
+copyrev: 0043e576b77857012e53462cf28b3615f5c0fa08

@@ -1,0 +1,2 @@
+copy: mobile/android/base/httpclientandroidlib/impl/client/DefaultConnectionKeepAliveStrategy.java
+copyrev: d38b959dfd1921e410f470ef80a200bf871185fe

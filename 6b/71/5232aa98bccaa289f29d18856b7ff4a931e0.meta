@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/unit/tlsserver/other-issuer-ee.pem.certspec
+copyrev: ac584013b0bb8cf43f6420524648728630929a68

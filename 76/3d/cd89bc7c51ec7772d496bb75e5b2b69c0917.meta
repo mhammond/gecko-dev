@@ -1,0 +1,2 @@
+copy: security/manager/ssl/src/nsSSLStatus.h
+copyrev: b46824693e91a758342e22bffeb24b4722aa9803

@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/mochitest/mixedcontent/.eslintrc.json
+copyrev: 953dfb13150c109197d08b6780be1f033e1b7895

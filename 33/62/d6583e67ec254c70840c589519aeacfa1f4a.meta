@@ -1,0 +1,2 @@
+copy: taskcluster/docker/decision/system-setup.sh
+copyrev: 9aee661f570b29fb69c059eb175069fda0d25006

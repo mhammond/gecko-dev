@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/remote_bitrate_estimator/include/bwe_defines.h
+copyrev: 6ae15a3d1e99fc72d52818237072178ff806fc59

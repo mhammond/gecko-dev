@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/builds/dbg_macosx64.yml
+copyrev: 60e429ea5c82c143ca2d2fbe6477e500a6dd2ae7

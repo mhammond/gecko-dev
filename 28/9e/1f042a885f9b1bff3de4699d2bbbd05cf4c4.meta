@@ -1,0 +1,2 @@
+copy: security/manager/ssl/src/nsCryptoHash.cpp
+copyrev: 9e935e57a2aaba5d2eaeb5fc56edee1dbf6ab16a

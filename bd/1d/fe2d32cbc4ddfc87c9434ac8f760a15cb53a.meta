@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/unit/test_ev_certs/evroot.pem.certspec
+copyrev: ca409e514235cc7acbf6f59fba2909f4616257c5

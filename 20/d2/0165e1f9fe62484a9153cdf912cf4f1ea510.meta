@@ -1,0 +1,2 @@
+copy: memory/mozalloc/tests/moz.build
+copyrev: 315375f51ced6c2585816b4159c7479ddd63562c

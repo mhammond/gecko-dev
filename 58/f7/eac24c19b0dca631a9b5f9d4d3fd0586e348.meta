@@ -1,0 +1,2 @@
+copy: taskcluster/docker/rust-build/repack_rust.py
+copyrev: 72fa8ebccc9693e39a725ae46a85a829d85925c2

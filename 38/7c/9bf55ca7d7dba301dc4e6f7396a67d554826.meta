@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/common_audio/signal_processing/vector_scaling_operations_neon.s
+copyrev: e765840545e3cd8ece774a7db2e411088d3eff4f

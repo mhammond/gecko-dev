@@ -1,0 +1,2 @@
+copy: security/sandbox/base/win/event_trace_provider.cc
+copyrev: ba204aa8eaa6ec4f453b8e21aa7beb6be0bc8293

@@ -1,0 +1,2 @@
+copy: testing/firefox-ui/tests/firefox_ui_tests/functional/security/test_ev_certificate.py
+copyrev: 5565fa5330a658c580e62f17c4ce0a5218aed511

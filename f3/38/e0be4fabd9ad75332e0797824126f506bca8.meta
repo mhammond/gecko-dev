@@ -1,0 +1,2 @@
+copy: services/common/tests/unit/test_blocklist_updater.js
+copyrev: 28fe45a6804bfd39ceb3adbf98547b53fd3b193a

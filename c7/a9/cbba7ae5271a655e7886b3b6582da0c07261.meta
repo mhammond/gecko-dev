@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/unit/test_ev_certs/int-ev-valid.key
+copyrev: a359e20826f66125b2812417715cbb2be0ca89d4

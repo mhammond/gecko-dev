@@ -1,0 +1,2 @@
+copy: devtools/server/tests/mochitest/.eslintrc
+copyrev: 23216b82b4ff1df3b365b4600ef0e32ccf648b15

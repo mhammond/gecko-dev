@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/unit/tlsserver/invalidDelegatedSignerFromIntermediate.pem.certspec
+copyrev: 3d23395d082f4bed23f6562627c5c348a3616a30

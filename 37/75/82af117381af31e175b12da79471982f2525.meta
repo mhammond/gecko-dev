@@ -1,0 +1,2 @@
+copy: netwerk/dns/src/nsEffectiveTLDService.cpp
+copyrev: 4a4eb6334e5f6c3e477ee9bb44e775755c1e40ea

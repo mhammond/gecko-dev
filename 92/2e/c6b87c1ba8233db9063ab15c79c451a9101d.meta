@@ -1,0 +1,2 @@
+copy: testing/taskcluster/scripts/builder/build-linux.sh
+copyrev: 841a3ebf1c54b51f14163caa500ed3a19fb81318

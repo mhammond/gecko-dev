@@ -1,0 +1,2 @@
+copy: testing/mozmill/simplejson-2.1.1/simplejson/tests/test_scanstring.py
+copyrev: af134caba9810ca562045c2dc28d87e65182b4fa

@@ -1,0 +1,2 @@
+copy: security/nss/external_tests/ssl_gtest/ssl_gtest.cc
+copyrev: f7d0c23698bb8d63947425e48629e5f7b8cc5d82

@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/tests/fx_linux64_mochitest_jetpack_opt.yml
+copyrev: 047c8bf1ae692adcde999b1586da1e669f13491f

@@ -1,0 +1,2 @@
+copy: testing/marionette/client/marionette/tests/unit/test_import_script_reuse_window.py
+copyrev: c7ecb7f09fa58942763b8a816bb724a9b89b528d

@@ -1,0 +1,2 @@
+copy: memory/jemalloc/jemalloc.c
+copyrev: 19692eb5adfcfe1fb598072eef7085b142a9b4c7

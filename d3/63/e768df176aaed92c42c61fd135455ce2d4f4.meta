@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/tests/fx_linux64_reftest_dbg.yml
+copyrev: 2df4ed3cffb2070ebfb798c0a59275d87750355a

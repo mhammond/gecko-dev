@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/unit/test_ev_certs/no-ocsp-url-cert.pem
+copyrev: ba55df2e6353ef323bcbcf29d51b330cbd7ea836

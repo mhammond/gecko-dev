@@ -1,0 +1,2 @@
+copy: other-licenses/simplejson-2.1.1/simplejson/tests/test_check_circular.py
+copyrev: 234b4463ca793e3187f52b03459f7327c5b5efcb

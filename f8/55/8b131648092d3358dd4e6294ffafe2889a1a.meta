@@ -1,0 +1,2 @@
+copy: security/nss/external_tests/google_test/gtest/include/gtest/gtest-spi.h
+copyrev: c9bd86f9703787b7de4958e82eb1e42cc0cb2a38

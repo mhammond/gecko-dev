@@ -1,0 +1,2 @@
+copy: browser/devtools/webconsole/test/test_bug1092055_shouldwarn.js^headers^
+copyrev: 7b42cfef0513171ea3e307fb48f1dca55eb849ec

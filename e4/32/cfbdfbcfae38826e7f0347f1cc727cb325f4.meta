@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/webrtc/modules/audio_coding/neteq4/mock/mock_dtmf_tone_generator.h
+copyrev: 6945ce2a3f8e7b83b20ea51946e46d725242b4e1

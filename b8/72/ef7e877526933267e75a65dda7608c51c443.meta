@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/third_party/libyuv/source/rotate_mips.cc
+copyrev: 077c4165d6f6873cfb751184f4400304dbeccbdc

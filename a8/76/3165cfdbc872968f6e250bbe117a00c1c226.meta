@@ -1,0 +1,2 @@
+copy: netwerk/protocol/http/nsHttpChannel.cpp
+copyrev: 4f7ee7dcd2f8c183bd18668ed42cf8585b7980c7

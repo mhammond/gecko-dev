@@ -1,0 +1,2 @@
+copy: browser/components/loop/test/xpcshell/test_loopservice_token_send.js
+copyrev: a5729a55de8502cc713592ba93284fd0a564167e

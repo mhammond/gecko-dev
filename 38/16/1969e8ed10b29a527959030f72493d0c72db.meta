@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_coding/codecs/ilbc/cb_mem_energy_calc.h
+copyrev: 1cf31b1bf24726c62025a91fe361336cd1ab3633

@@ -1,0 +1,2 @@
+copy: security/sandbox/chromium/base/shim/base/third_party/nspr/prtypes.h
+copyrev: ad356a3e36d1a0da30c3de24749d129e541ab855

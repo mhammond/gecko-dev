@@ -1,0 +1,2 @@
+copy: js/src/jit-test/tests/parallelarray/bailout-never-executed.js
+copyrev: 0eb10a46c404dfcfcdd3d0b7c69a06fecc837f54

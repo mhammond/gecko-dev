@@ -1,0 +1,2 @@
+copy: testing/taskcluster/scripts/misc/repackage-jdk-centos.sh
+copyrev: 86ce209958ac693269f2f0c151cc895336ce9482

@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/tests/fx_linux64_xpcshell.yml
+copyrev: 06c3118d64ca616e8b2542acf8af3e8c27f3b9ce

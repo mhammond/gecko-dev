@@ -1,0 +1,2 @@
+copy: media/libvpx/vp8/encoder/x86/sad_mmx.asm
+copyrev: 7faec578979a269b7b5444bd71571703126496db

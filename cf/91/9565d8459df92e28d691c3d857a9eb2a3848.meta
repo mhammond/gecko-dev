@@ -1,0 +1,2 @@
+copy: testing/taskcluster/scripts/builder/build-mulet-haz-linux.sh
+copyrev: 06778c3a08dafeaa2122e2eec396d636f865a8b9

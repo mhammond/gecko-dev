@@ -1,0 +1,2 @@
+copy: media/libvpx/vp8/encoder/variance_c.c
+copyrev: bd884f312f86855e8e20b958f119b149d7ebfe5e

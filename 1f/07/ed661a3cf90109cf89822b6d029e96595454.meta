@@ -1,0 +1,2 @@
+copy: xpcom/reflect/xptcall/src/md/unix/xptcinvoke_ipf32.cpp
+copyrev: 1b217e63c75b43f4a37d2cda2aec9cad3b84bbf7

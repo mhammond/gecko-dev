@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/unit/tlsserver/nsCertTypeCriticalWithExtKeyUsage.pem.certspec
+copyrev: 3efc0139f810396f2f1b44811235389b34b2db20

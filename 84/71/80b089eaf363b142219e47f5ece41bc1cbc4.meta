@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/rtp_rtcp/source/bitrate.cc
+copyrev: a0e729466de6bda65b85458910f8ebf81a844ec8

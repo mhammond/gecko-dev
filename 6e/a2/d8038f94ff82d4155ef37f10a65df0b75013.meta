@@ -1,0 +1,2 @@
+copy: extensions/spellcheck/hunspell/tests/utf8_nonbmp.dic
+copyrev: 85557fd3d9397a94fa8dc68178fd5bd38cf5349b

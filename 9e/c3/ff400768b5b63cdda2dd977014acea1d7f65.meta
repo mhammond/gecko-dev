@@ -1,0 +1,2 @@
+copy: media/libvpx/vp8/decoder/arm/neon/dequantizeb_neon.asm
+copyrev: a9e2743094b8d21be3f76b9e9f0a1e47ab0aad38

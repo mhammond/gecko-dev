@@ -1,0 +1,2 @@
+copy: browser/devtools/webconsole/test/test_bug_770099_violation.html^headers^
+copyrev: 359ba8659218e0e34193c7d74ea79a023be6681a

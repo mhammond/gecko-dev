@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/unit/tlsserver/beforeEpochIssuer.pem.certspec
+copyrev: 4c025a0673db7de811e9b5d28e5de1fdb04388f6

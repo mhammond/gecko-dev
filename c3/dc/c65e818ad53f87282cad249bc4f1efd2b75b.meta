@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/tests/fx_linux64_gtest_opt.yml
+copyrev: 764dce76eb98c67ad5078481087c121253742e04

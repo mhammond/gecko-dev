@@ -1,0 +1,2 @@
+copy: testing/docker/desktop-build/configs/disable_signing.py
+copyrev: dcca9b26f3fc58be268b037fdfa7849a0a428cd4

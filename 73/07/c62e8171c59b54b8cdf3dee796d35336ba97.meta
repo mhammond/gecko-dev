@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/video_capture/main/source/Linux/video_capture_linux.cc
+copyrev: f36f592ed10d9c5839c78f648757200d15cfa276

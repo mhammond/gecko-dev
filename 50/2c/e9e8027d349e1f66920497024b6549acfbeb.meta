@@ -1,0 +1,2 @@
+copy: services/metrics/tests/xpcshell/test_metrics_collector.js
+copyrev: 6cf82720847c4d1b80af25811539b003000350c9

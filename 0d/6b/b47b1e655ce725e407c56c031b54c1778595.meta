@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/builds/sm_compacting.yml
+copyrev: 0159b48303da448dd9595cb618e06dd1f3a8c942

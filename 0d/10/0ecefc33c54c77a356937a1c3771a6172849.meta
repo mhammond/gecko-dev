@@ -1,0 +1,2 @@
+copy: testing/mozmill/simplejson-2.1.1/simplejson/tests/test_decode.py
+copyrev: 1d2fc888023918dfdb42652d12afbc9c14c341d8

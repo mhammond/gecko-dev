@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/unit/test_keysize/int_secp384r1_384-root_prime256v1_256.pem.certspec
+copyrev: 9e56ae5fef88b4cf25ab1a086a24a363697bd30a

@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/voice_engine/test/auto_test/fakes/fake_external_transport.h
+copyrev: 3a2afe600dbd5cc97b4479a111ed9589a4cdda42

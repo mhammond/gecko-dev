@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/tests/fx_linux64_mochitest_media_dbg.yml
+copyrev: 37ceb29d1b8f9d41e63098a3fc994522466a510e

@@ -1,0 +1,2 @@
+copy: toolkit/components/protobuf/src/google/protobuf/io/coded_stream.cc
+copyrev: 865243096818c0ad3433547126239c555161633a

@@ -1,0 +1,2 @@
+copy: toolkit/components/protobuf/src/google/protobuf/wire_format_lite.cc
+copyrev: 714e968fd7564695896fb82329416d16a74e5c7c

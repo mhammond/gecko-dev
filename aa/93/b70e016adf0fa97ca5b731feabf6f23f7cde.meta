@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/udp_transport/source/udp_socket2_manager_windows.cc
+copyrev: 7c23f23797d74b3b03cb4dd7e1dc5ef0b3600b84

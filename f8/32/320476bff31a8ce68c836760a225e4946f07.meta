@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/mochitest/bugs/test_bug480619.html
+copyrev: c3ad11d15085fdd4a630202e1bab371dc59b5f7f

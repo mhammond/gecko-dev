@@ -1,0 +1,2 @@
+copy: js/src/jit-test/tests/parallelarray/parallel-getproperty-ic.js
+copyrev: 1100a82b317a8aac1b0ce62159cac223e9fc9f39

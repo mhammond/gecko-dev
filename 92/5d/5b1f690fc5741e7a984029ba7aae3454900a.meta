@@ -1,0 +1,2 @@
+copy: dom/tests/mochitest/notification/test_leak_windowClose.html
+copyrev: f6d8262005f1cf15f8f4f3b552cadf4ee79b0c99

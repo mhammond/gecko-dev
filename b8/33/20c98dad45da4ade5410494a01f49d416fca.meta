@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/unit/tlsserver/ocspEEWithIntermediate.pem.certspec
+copyrev: 948912fd46f5a1d65b743527f3198a17251a781e

@@ -1,0 +1,2 @@
+copy: taskcluster/scripts/builder/build-linux.sh
+copyrev: 04b9e20c57ba56a037b38bdfcbdf964e93e86ff1

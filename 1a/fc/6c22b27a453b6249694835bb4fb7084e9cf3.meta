@@ -1,0 +1,2 @@
+copy: security/manager/ssl/src/nsCertVerificationThread.h
+copyrev: c0f6744269c2e65a03f6091b8aad5a720f69006b

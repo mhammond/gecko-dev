@@ -1,0 +1,2 @@
+copy: security/sandbox/chromium/sandbox/win/src/registry_interception.cc
+copyrev: 7ad9ccd5ae68a9cc411174fca357ddf76777a155

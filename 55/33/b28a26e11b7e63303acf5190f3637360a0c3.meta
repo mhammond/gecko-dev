@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/webrtc/modules/audio_device/android/java/src/org/webrtc/voiceengine/WebRTCAudioDevice.java
+copyrev: 28032f4dfbb4133148ba6ac3d927577dfa201fdb

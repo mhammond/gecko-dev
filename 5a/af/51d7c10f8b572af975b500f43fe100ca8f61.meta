@@ -1,0 +1,2 @@
+copy: taskcluster/ci/legacy/tasks/tests/fx_desktop_generic.yml
+copyrev: c057a47454aa87f9a38a56a22c631b9a43ab4708

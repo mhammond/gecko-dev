@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/video_render/main/source/android/video_render_android_native_opengl2.cc
+copyrev: 10640b7c0c592b5ab9e93b79e0dc5929bb45093f

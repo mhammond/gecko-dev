@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_coding/codecs/ilbc/interpolate_samples.h
+copyrev: fbc618c392df7ff8bf632ea59149d651eaeee936

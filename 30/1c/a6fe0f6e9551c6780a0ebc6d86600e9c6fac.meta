@@ -1,0 +1,2 @@
+copy: xpcom/reflect/xptcall/src/md/unix/xptcinvoke_ppc_rhapsody.cpp
+copyrev: ea514bf9144a6fd8cbe3c040935f6cb6a5b146cf

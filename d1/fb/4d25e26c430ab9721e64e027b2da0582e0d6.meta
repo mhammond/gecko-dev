@@ -1,0 +1,2 @@
+copy: toolkit/crashreporter/breakpad-patches/12-sht-arm-exidx-define.patch
+copyrev: 9b1532ea19c3e717c824ce2893a9c39239cbba73

@@ -1,0 +1,2 @@
+copy: security/sandbox/chromium/sandbox/win/src/restricted_token.h
+copyrev: a3b141f39b196492b3788074e8168b3cce61c3d0

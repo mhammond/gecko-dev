@@ -1,0 +1,2 @@
+copy: testing/web-platform/mozilla/tests/service-workers/service-worker/resources/fail-on-fetch-worker.js
+copyrev: 9aaf306bfd72429549c3ec218dde1c9366dc3ce4

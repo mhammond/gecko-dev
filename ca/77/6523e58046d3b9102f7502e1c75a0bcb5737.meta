@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/builds/dbg_linux32.yml
+copyrev: a5fafb6cb852aceadd837b9da10deacb06cb8174

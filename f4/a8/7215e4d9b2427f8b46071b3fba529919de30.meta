@@ -1,0 +1,2 @@
+copy: media/libvpx/vp9/encoder/x86/vp9_sad_intrin_avx2.c
+copyrev: 755840ebcab3854caabce4386ce2feeacf296bd0

@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/unit/test_ev_certs/ev-valid.pem
+copyrev: e7053cabd80c41708cf87e908923034578f62589

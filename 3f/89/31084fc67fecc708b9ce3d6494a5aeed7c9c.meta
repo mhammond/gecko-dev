@@ -1,0 +1,2 @@
+copy: testing/web-platform/mozilla/tests/service-workers/service-worker/resources/onactivate-throw-error-then-cancel-worker.js
+copyrev: 38fe20cb0e7b00466a02b4cbcc5f6960e077c49e

@@ -1,0 +1,2 @@
+copy: testing/web-platform/mozilla/tests/service-workers/service-worker/resources/fetch-event-network-error-worker.js
+copyrev: b442439d9354cf10785673df2f7970ae208166fb

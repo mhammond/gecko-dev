@@ -1,0 +1,2 @@
+copy: testing/docker/desktop-test/mozharness_configs/remove_executables.py
+copyrev: 9de752ca6629bc9df1d8ac2fa8ee4ba124567740

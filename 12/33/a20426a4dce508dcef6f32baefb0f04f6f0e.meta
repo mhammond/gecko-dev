@@ -1,0 +1,2 @@
+copy: security/sandbox/win/src/resolver_32.cc
+copyrev: 6984a22fa5c9f390264b66bb08716bad17b51225

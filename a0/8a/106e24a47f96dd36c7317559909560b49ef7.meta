@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/builds/android_api_15_gradle_dependencies.yml
+copyrev: b66254fa6381992fdc6f792f8d44b46b8df86a60

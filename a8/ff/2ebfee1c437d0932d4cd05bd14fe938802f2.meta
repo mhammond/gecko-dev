@@ -1,0 +1,2 @@
+copy: taskcluster/docker/rust-build/tcbuild.py
+copyrev: 567deb48ddaacb9497d46b45bc77be29fd25fe12

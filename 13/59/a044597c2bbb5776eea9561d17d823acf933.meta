@@ -1,0 +1,2 @@
+copy: taskcluster/docker/desktop1604-test/taskcluster-interactive-shell
+copyrev: 974e596df7dbebfa235ee7866e0cf1ef18521be2

@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/unit/tlsserver/selfsigned.pem.certspec
+copyrev: c619bdfa4e2d23dabed5ebb6e6bb384b561060b1

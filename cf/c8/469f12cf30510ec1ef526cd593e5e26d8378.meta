@@ -1,0 +1,2 @@
+copy: security/nss/external_tests/google_test/gtest/test/gtest_xml_outfile2_test_.cc
+copyrev: 543a0b5e78041d551c0fe02698131ac1a0bb4aa9

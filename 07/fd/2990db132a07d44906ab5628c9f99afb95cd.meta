@@ -1,0 +1,2 @@
+copy: taskcluster/ci/legacy/tasks/branches/try/job_flags.yml
+copyrev: fe2626c0b6d77f0bd8b25ce0908e90b7ec896891

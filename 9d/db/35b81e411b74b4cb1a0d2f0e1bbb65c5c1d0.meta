@@ -1,0 +1,2 @@
+copy: services/healthreport/tests/xpcshell/test_policy.js
+copyrev: f24f093807fffdfaa7176760dec621731c5bb4ad

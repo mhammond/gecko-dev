@@ -1,0 +1,2 @@
+copy: dom/tests/mochitest/localstorage/test_localStorageQuotaPrivateBrowsing.html
+copyrev: dafacbc8b0f2051d9371d12d5a01d8d91b161f56

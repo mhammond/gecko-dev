@@ -1,0 +1,2 @@
+copy: js/src/jsapi-tests/testSetPropertyWithNativeGetterStubSetter.cpp
+copyrev: e565844885e329f1ad29832a2dfdf0be8e1788a0

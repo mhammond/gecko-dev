@@ -1,0 +1,2 @@
+copy: devtools/server/tests/unit/test_addons_actor/web-extension/manifest.json
+copyrev: a059d46a04b972439640393afae0017f203f47d6

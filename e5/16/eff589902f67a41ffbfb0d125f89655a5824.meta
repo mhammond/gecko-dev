@@ -1,0 +1,2 @@
+copy: testing/taskcluster/scripts/builder/build-emulator.sh
+copyrev: 707c41c7143636657f4988fd72f62713bd707afe

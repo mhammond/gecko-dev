@@ -1,0 +1,2 @@
+copy: intl/uconv/src/nsUTF8ToUnicodeSSE2.cpp
+copyrev: eb0e93e1b3855a69a23618cb00c114e3fd1baad2

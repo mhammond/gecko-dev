@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/unit/tlsserver/md5signature.pem.certspec
+copyrev: c5c8f0c4982474e81e62fcdca80b386b7214d54d

@@ -1,0 +1,2 @@
+copy: other-licenses/simplejson-2.1.1/simplejson/tests/test_recursion.py
+copyrev: b7922adb0b3a44f030f01501232cf66d2a154384

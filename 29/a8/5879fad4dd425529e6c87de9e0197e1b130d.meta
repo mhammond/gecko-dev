@@ -1,0 +1,2 @@
+copy: netwerk/socket/base/nsSOCKSSocketProvider.h
+copyrev: a39812d78c0aa2cb0f5c4143e53809a154feec5c

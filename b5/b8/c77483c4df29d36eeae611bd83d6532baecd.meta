@@ -1,0 +1,2 @@
+copy: security/manager/ssl/src/nsNSSErrors.cpp
+copyrev: 018b0e1c004be025ded35e3e8ff0024c2089d93a

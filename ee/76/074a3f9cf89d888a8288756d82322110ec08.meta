@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_processing/aecm/aecm_core_neon.c
+copyrev: 6532ca159e20afbe0507c980ff9d5ac7c2fb15f1

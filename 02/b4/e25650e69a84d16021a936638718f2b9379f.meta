@@ -1,0 +1,2 @@
+copy: media/libvpx/vp8/common/arm/armv6/vp8_mse16x16_armv6.asm
+copyrev: a2d603ed78679328d76b248347dc8f434d0aaf3a

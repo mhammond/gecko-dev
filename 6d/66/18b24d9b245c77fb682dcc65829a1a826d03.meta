@@ -1,0 +1,2 @@
+copy: testing/firefox-ui/tests/firefox_ui_tests/functional/security/test_unknown_issuer.py
+copyrev: c0d4b26abb2440c8e300a235268b95c058997165

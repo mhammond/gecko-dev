@@ -1,0 +1,2 @@
+copy: testing/firefox-ui/tests/firefox_ui_tests/puppeteer/test_appinfo.py
+copyrev: a9a0920e30463ce91fb091d225e4485148a54efc

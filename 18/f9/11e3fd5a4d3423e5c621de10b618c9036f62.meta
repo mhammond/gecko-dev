@@ -1,0 +1,2 @@
+copy: taskcluster/docker/desktop1604-test/release-upgrades
+copyrev: e2309b3d3b8dfb7d3044da65c27315c266e67faf

@@ -1,0 +1,2 @@
+copy: toolkit/components/console/hudservice/tests/browser/browser_webconsole_bug_597103_deactivateHUDForContext_unfocused_window.js
+copyrev: 3db3f6fe6898f74c7772145580703d46a216834e

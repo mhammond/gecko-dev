@@ -1,0 +1,2 @@
+copy: testing/mozharness/configs/builds/taskcluster_firefox_win32_opt.py
+copyrev: 2a7db35d3559fe5517f6b950d1e9379f12ea2aa3

@@ -1,0 +1,2 @@
+copy: testing/marionette/client/marionette/tests/unit/test_click_chrome.py
+copyrev: db61b196bdb1b1f625439716d70df38fe49a8bd1

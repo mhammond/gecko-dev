@@ -1,0 +1,2 @@
+copy: netwerk/base/src/nsSocketTransport2.cpp
+copyrev: dd45838ed319b0d311ad1a35f529acdb8dc9c951

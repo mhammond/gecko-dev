@@ -1,0 +1,2 @@
+copy: taskcluster/docker/recipes/tooltool.py
+copyrev: 3ef1278e2dfd99bf06ab4731f1220ad5828562fb

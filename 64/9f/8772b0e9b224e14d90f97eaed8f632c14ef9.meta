@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/tests/fx_linux64_mochitest_jetpack_dbg.yml
+copyrev: 8ae106d71f8c2d37004cfdb74e6bcc4bea6b1283

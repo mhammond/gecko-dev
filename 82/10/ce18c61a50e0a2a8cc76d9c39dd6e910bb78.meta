@@ -1,0 +1,2 @@
+copy: other-licenses/simplejson-2.1.1/simplejson/tests/test_default.py
+copyrev: b1e17a0b24efc219aae163634663c7d932b092b4

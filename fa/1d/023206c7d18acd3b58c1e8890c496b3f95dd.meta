@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/common_audio/signal_processing/energy.c
+copyrev: f99ae0eb43d7de9191ca449e273c94b843c242d1

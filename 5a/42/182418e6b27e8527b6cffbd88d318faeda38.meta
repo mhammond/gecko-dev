@@ -1,0 +1,2 @@
+copy: dom/base/test/csp/file_self_none_as_hostname_confusion.html^headers^
+copyrev: f3ddcb8f68acf902ba0ab132833dadd7a7dbbd4b

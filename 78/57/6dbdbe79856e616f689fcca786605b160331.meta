@@ -1,0 +1,2 @@
+copy: testing/web-platform/mozilla/tests/service-workers/service-worker/resources/worker-testharness.js
+copyrev: 4848f03c5463284bdf81bd756e331b94498ae29f

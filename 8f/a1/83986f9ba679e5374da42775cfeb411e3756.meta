@@ -1,0 +1,2 @@
+copy: netwerk/protocol/websocket/nsWebSocketHandler.cpp
+copyrev: fb1a8b5ed281c8332e59a07fc4f71875ed2f4abd

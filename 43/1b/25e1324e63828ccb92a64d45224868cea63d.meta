@@ -1,0 +1,2 @@
+copy: content/base/test/csp/file_CSP_inlinescript_main_allowed.html^headers^
+copyrev: e91fb46fc09f605f1d3c57f37ac117e1c0678df1

@@ -1,0 +1,2 @@
+copy: testing/web-platform/mozilla/tests/service-workers/service-worker/resources/reject-install-worker.js
+copyrev: a4b95fe13f7dc34063c02b1ebd133143bcda68e5

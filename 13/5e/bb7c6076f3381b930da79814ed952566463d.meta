@@ -1,0 +1,2 @@
+copy: testing/docker/rust-build/build_cargo.sh
+copyrev: 7941c1acb79a556b7fb257cc523322f51a4f0bd3

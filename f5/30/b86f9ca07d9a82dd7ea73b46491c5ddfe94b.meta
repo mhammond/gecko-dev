@@ -1,0 +1,2 @@
+copy: testing/mozbase/manifestdestiny/tests/test_convert_symlinks.py
+copyrev: a65d88b0b5ff61113c77f5b85290eda51f306e38

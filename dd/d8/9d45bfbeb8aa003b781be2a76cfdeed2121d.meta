@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/bitrate_controller/send_side_bandwidth_estimation.cc
+copyrev: 97bd7dbb5a995f1ecbd3d047d0a6e863e4551939

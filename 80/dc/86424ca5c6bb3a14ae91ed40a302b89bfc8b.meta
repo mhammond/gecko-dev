@@ -1,0 +1,2 @@
+copy: security/nss/fuzz/nssfuzz/nssfuzz.cc
+copyrev: 79b930639f70faf813c838f3434d64d2c0757b74

@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/common_audio/signal_processing/resample_48khz.c
+copyrev: 1ddfcd056225974543dc3b3e97863f0d4a4978ca

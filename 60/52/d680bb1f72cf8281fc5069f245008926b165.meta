@@ -1,0 +1,2 @@
+copy: taskcluster/ci/signing/signing.yml
+copyrev: a591782cb07a8c3bd250c51f88bab586c6758043

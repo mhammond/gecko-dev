@@ -1,0 +1,2 @@
+copy: toolkit/devtools/heapsnapshot/tests/gtest/moz.build
+copyrev: 492f428bb87ca76eafebc5bbda4a2dc2290a21f5

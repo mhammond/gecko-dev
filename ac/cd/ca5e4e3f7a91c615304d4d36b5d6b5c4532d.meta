@@ -1,0 +1,2 @@
+copy: other-licenses/simplejson-2.1.1/simplejson/tests/test_encode_basestring_ascii.py
+copyrev: fd6b338a37b89d04bf4d2a014bc3f2976658bfbc

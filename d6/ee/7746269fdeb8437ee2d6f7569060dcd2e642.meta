@@ -1,0 +1,2 @@
+copy: services/fxaccounts/tests/xpcshell/test_profile_channel.js
+copyrev: d3d83a89f7e900ee9dfdc3196825a2283b466cbd

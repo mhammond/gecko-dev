@@ -1,0 +1,2 @@
+copy: security/nss/cmd/lib/SECerrs.h
+copyrev: 2377ff5720887eec3250e315931cd5e792e29538

@@ -1,0 +1,2 @@
+copy: testing/mozmill/simplejson-2.1.1/simplejson/tests/test_decimal.py
+copyrev: b7fde58d5646cb0483d5ec2d62fb5b7dd952adc4

@@ -1,0 +1,2 @@
+copy: testing/eslint/eslint-plugin-mozilla/lib/rules/import-globals.js
+copyrev: d776f975c77a290bf9e28dda5493e9f34056f69b

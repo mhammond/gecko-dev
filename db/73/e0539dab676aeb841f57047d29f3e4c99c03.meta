@@ -1,0 +1,2 @@
+copy: python/mozbuild/mozbuild/backend/templates/android_eclipse/build.xml
+copyrev: bd715539e8497b7c33cb42b62ecc9e9ae926f2ce

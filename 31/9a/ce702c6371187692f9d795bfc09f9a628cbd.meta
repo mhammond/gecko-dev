@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/builds/linux64_clang.yml
+copyrev: e7d2efb0c172266209a41c192ebfddca70048a85

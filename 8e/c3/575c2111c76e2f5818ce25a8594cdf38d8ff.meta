@@ -1,0 +1,2 @@
+copy: taskcluster/docker/recipes/xvfb.sh
+copyrev: 0e390e3228476175f012fc5bd38ab2effeab892b

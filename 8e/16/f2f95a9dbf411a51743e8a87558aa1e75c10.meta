@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_coding/neteq/bgn_update.c
+copyrev: c6ee8ea1746b0c8949867c2d6ad75c51ad239a02

@@ -1,0 +1,2 @@
+copy: other-licenses/simplejson-2.1.1/simplejson/tests/test_separators.py
+copyrev: 2657c76eb4fd3f80ba7788fcb4359c10a65bb2fd

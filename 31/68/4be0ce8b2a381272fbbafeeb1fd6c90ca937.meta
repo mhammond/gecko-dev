@@ -1,0 +1,2 @@
+copy: dom/security/test/cors/file_CrossSiteXHR_cache_server.sjs
+copyrev: f8dd8ace7515943b83b7cf0a15fa9ec8084da24f

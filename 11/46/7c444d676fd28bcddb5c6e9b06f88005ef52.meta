@@ -1,0 +1,2 @@
+copy: security/sandbox/win/src/handle_table.cc
+copyrev: 27b0aeb80ddfbe5dbfd403761d89fb2909b4eab9

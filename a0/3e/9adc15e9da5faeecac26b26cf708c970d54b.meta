@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/tests/fx_linux64_crashtest_e10s_opt.yml
+copyrev: a5f054023b0032c266c16c9a590315c3e630c8da

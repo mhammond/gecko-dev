@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_coding/codecs/opus/opus.gypi
+copyrev: f65f0ebc9ff9755d317fda47532781d37684fc60

@@ -1,0 +1,2 @@
+copy: testing/web-platform/mozilla/tests/service-workers/service-worker/fetch-mixed-content-to-outscope.https.html
+copyrev: 2ac1e62ef204b2177f773d4a93aad0e47ddcb42c

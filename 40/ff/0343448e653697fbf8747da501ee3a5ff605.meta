@@ -1,0 +1,2 @@
+copy: testing/mozharness/configs/platform_supports_post_upload_to_latest.py
+copyrev: 53e18ada5a32736d817f42e668747f9d315a4a81

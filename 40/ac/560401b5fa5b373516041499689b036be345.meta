@@ -1,0 +1,2 @@
+copy: python/mozbuild/mozbuild/test/frontend/test_sandbox_symbols.py
+copyrev: 4b224e25e68294cadbac68951f7e42a6c0b57d97

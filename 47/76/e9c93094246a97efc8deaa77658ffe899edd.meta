@@ -1,0 +1,2 @@
+copy: security/nss/external_tests/google_test/gtest/xcode/Samples/FrameworkSample/widget_test.cc
+copyrev: ecc24f1396bc395ccf09c8663dc49049f1d59dda

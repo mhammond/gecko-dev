@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/unit/tlsserver/inadequatekeyusage-ee.pem.certspec
+copyrev: 50aaec29b2e94be847ce3ea7ec30a133edfe5b64

@@ -1,0 +1,2 @@
+copy: media/libvpx/vp9/encoder/x86/vp9_highbd_variance_impl_sse2.asm
+copyrev: 1e16574635fc0d1265004326904acaaf96f22c12

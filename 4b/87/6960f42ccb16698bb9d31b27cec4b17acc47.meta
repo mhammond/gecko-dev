@@ -1,0 +1,2 @@
+copy: media/libvpx/vp9/encoder/x86/vp9_dct_impl_sse2.c
+copyrev: ff74a4ef521d8e17e5526aced73eee518ad47428

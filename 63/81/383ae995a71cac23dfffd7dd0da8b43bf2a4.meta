@@ -1,0 +1,2 @@
+copy: security/sandbox/chromium/sandbox/win/src/service_resolver_32.cc
+copyrev: 134e675ad1908e4545754c73d22be6334842a920

@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/post-builds/upload_symbols.yml
+copyrev: 5af8eb9dc086d3a73751cbb9ad19543c911227a3

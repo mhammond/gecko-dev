@@ -1,0 +1,2 @@
+copy: testing/web-platform/tests/content-security-policy/blink-contrib/resources/worker-make-xhr-blocked.js.sub.headers
+copyrev: fdeda109d468c42ef7a00ed13ff5888890617a7d

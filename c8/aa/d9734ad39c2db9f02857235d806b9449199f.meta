@@ -1,0 +1,2 @@
+copy: testing/eslint-plugin-mozilla/lib/rules/no-cpows-in-tests.js
+copyrev: 97ff5c592cc492e2614d004dd8d0699d8a4b5654

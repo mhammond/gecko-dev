@@ -1,0 +1,2 @@
+copy: browser/devtools/commandline/test/browser_cmd_appcache_valid_appcache.appcache^headers^
+copyrev: 32f1b43d6cef00df7e8a144cb792c67706ab5ad6

@@ -1,0 +1,2 @@
+copy: browser/components/sessionstore/test/browser/Makefile.in
+copyrev: 1751a64a91999723f8648c0b204975a71af39b56

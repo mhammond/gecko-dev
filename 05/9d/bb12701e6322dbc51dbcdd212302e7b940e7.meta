@@ -1,0 +1,2 @@
+copy: security/sandbox/chromium/sandbox/win/src/handle_table.cc
+copyrev: 11467c444d676fd28bcddb5c6e9b06f88005ef52

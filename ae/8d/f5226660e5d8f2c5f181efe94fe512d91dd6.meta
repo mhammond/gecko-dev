@@ -1,0 +1,2 @@
+copy: xpcom/reflect/xptcall/src/md/unix/xptcstubs_asm_sparc_openbsd.s
+copyrev: f9bf1ce09f810694d0b670fb29dc4aa124540577

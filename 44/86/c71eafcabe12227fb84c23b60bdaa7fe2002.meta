@@ -1,0 +1,2 @@
+copy: taskcluster/docker/rust-build/README.md
+copyrev: a94d4c6c031f25e15d4cdc03c4ddb7529312e71a

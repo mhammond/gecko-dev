@@ -1,0 +1,2 @@
+copy: netwerk/dns/src/nameprep_template.c
+copyrev: 452dc57f1fa62d4d291460b6cc74535f56ecf3f6

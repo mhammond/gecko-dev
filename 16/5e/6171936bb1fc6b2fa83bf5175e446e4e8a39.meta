@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/builds/android_api_11_b2gdroid.yml
+copyrev: 783d09d1f836fd7cfe3eeb6c419d2b0d5a08a242

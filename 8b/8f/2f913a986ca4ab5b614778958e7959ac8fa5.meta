@@ -1,0 +1,2 @@
+copy: xpcom/reflect/xptcall/src/md/unix/xptcinvoke_ppc_aix.cpp
+copyrev: ba75c733e2f10b01e68d81cd1d6d5066058ed7b0

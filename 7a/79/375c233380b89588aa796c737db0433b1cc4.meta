@@ -1,0 +1,2 @@
+copy: other-licenses/simplejson-2.1.1/simplejson/tests/test_scanstring.py
+copyrev: 1d34b6ea4c2369ab048250f54ae5a723dce7dc8c

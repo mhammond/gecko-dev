@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_device/main/source/linux/audio_mixer_manager_alsa_linux.h
+copyrev: 6591e33f406e759e707b5ed249e5c9c6f78cb815

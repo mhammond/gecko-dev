@@ -1,0 +1,2 @@
+copy: media/libvpx/vp8/encoder/arm/variance_arm.c
+copyrev: a9d18fd843a50f84eb392782091f0b3e8a322a5b

@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_coding/neteq/random_vector.c
+copyrev: 8c40b0a2ce9fbce2690ffb809024fe4ac1e77603

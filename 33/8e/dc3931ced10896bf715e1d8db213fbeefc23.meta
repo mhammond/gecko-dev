@@ -1,0 +1,2 @@
+copy: xpcom/build/mozPoisonWrite.h
+copyrev: b849c51e25f508b68a48e2d13dccb667a17f2b2d

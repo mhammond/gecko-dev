@@ -1,0 +1,2 @@
+copy: security/manager/ssl/src/nsNSSCertificateFakeTransport.cpp
+copyrev: 80fe1e0472e181abbd83e8c0643d9430d2a8d2c7

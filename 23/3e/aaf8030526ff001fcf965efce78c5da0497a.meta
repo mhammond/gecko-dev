@@ -1,0 +1,2 @@
+copy: taskcluster/taskgraph/kind/legacy.py
+copyrev: 6e5edc6a7f06a7a8eed66eab12a6fbea52bf8dab

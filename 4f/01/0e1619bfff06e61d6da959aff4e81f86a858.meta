@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/builds/android_test.yml
+copyrev: 0d9c5f7b67a124869fe90a85c3a4503c8231bf53

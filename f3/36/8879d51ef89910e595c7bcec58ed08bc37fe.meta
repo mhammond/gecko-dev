@@ -1,0 +1,2 @@
+copy: toolkit/components/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.h
+copyrev: d3efe435d16c8dbc05f84da311e133b5b0c94708

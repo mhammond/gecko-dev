@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/video_coding/main/source/jitter_estimator.cc
+copyrev: 53fcc0145151f2694b2193e46ce8762c980f0a22

@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/voice_engine/test/auto_test/extended/agc_config_test.cc
+copyrev: f23aa320874e5e9882cf02b63809cb008acb418c

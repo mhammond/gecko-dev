@@ -1,0 +1,2 @@
+copy: xpcom/string/src/nsPromiseFlatString.cpp
+copyrev: fe0cc42678ea528de42a8367d1b8cead69369708

@@ -1,0 +1,2 @@
+copy: dom/sms/tests/marionette/test_outgoing_max_segments.js
+copyrev: 41ab160b9939146fa22cd5fd97d4a485132c8aa4

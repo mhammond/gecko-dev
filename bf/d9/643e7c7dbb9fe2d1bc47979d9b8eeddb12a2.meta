@@ -1,0 +1,2 @@
+copy: netwerk/protocol/http/src/nsHttpAuthCache.cpp
+copyrev: 1828eca8d62a49538b5fb0d24a19c90dba1a6cf2

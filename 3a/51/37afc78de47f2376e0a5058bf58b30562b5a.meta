@@ -1,0 +1,2 @@
+copy: testing/marionette/client/marionette/tests/unit/test_switch_anonymous_content.py
+copyrev: a24a287c2dbd86db8044d9a8bf7877556569c0d6

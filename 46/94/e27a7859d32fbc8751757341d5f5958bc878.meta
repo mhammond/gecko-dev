@@ -1,0 +1,2 @@
+copy: testing/mozharness/configs/builds/releng_sub_android_configs/64_api_15_gradle.py
+copyrev: 659452efd587bd2f74bc6eb8ddeb59dd6b8ab370

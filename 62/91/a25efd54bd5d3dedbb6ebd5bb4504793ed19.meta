@@ -1,0 +1,2 @@
+copy: toolkit/devtools/server/tests/unit/test_ReadHeapSnapshot_with_allocations.js
+copyrev: 731c80d92d90f2f20bb52be22309be0988844316

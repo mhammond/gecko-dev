@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/tests/flame_kk_gaia_ui_test_functional_dsds.yml
+copyrev: 478eb7cf15ea97102fbcc4fe638caad63e409ad9

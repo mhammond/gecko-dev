@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/unit/tlsserver/badSubjectAltNames.pem.certspec
+copyrev: c4efca234879bc6d6b93493488ba78ffee345ed0

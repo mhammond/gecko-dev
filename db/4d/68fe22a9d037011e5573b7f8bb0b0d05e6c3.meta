@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/video_processing/main/test/unit_test/brightness_detection_test.cc
+copyrev: 34856c3ec3600217ce0a82defa2bfc3c57052733

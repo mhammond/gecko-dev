@@ -1,0 +1,2 @@
+copy: dom/indexedDB/test/unit/test_globalObjects_xpc.js
+copyrev: 5fbad32d56613529dcd5b3325b7104c050c13cb1

@@ -1,0 +1,2 @@
+copy: taskcluster/docker/centos6-build-upd/VERSION
+copyrev: 1f71a9e16fa368a30fa05756264cc6e84cd4e3bd

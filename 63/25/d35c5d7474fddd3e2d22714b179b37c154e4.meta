@@ -1,0 +1,2 @@
+copy: xpcom/tests/gtest/TestCOMPtrEq.cpp
+copyrev: d7eac2597151b706bf0c82467aade6b8943f88f3

@@ -1,0 +1,2 @@
+copy: memory/mozjemalloc/jemalloc.h
+copyrev: fcbb242cb6bcca4aa3888604999ea644320a922f

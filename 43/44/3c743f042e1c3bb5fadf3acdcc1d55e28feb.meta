@@ -1,0 +1,2 @@
+copy: security/manager/boot/src/PublicKeyPinningService.cpp
+copyrev: 13537da0f8ffca81bd41abe62639457eb3ebd4a0

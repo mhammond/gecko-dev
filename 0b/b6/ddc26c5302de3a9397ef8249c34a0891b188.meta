@@ -1,0 +1,2 @@
+copy: browser/components/migration/src/BrowserProfileMigrators.manifest
+copyrev: 95558df4dd0d01f65288982b37c937382151047c

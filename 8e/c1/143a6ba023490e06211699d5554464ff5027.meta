@@ -1,0 +1,2 @@
+copy: media/libvpx/vp8/decoder/arm/armv6/idct_blk_v6.c
+copyrev: 6b68894ead3dcda9269421a54d61b53f4a50249a

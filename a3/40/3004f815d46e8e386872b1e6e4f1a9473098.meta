@@ -1,0 +1,2 @@
+copy: taskcluster/docker/recipes/ubuntu1604-test-system-setup.sh
+copyrev: 9e0423e800fc82dd84364b17f4dd8b687e5c08eb

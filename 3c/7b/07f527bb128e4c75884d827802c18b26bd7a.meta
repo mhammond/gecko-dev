@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/unit/tlsserver/expiredINT.pem.certspec
+copyrev: a696c1cf0ce3221facd890cff8714645b3fbb455

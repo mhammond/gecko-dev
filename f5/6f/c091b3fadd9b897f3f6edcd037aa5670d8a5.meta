@@ -1,0 +1,2 @@
+copy: security/sandbox/chromium/sandbox/win/src/handle_closer_agent.cc
+copyrev: af7a6ef7459a83c55410f59d57502aa8caceb065

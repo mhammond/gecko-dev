@@ -1,0 +1,2 @@
+copy: security/nss/external_tests/pk11_gtest/Makefile
+copyrev: 32d410c75d744caf41f46e86beb78705f99d3d25

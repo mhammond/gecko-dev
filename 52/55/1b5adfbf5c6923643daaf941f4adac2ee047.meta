@@ -1,0 +1,2 @@
+copy: security/nss/external_tests/google_test/gtest/test/gtest_all_test.cc
+copyrev: 15fda46c50c714ca802926a8328d1b569ed5cf0d

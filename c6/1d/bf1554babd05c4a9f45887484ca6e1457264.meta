@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/common_audio/signal_processing/webrtc_fft_t_1024_8.c
+copyrev: cbe66b085b4afe631fcc1bbfe9d9a38e877df595

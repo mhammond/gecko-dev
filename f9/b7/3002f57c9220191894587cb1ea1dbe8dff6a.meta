@@ -1,0 +1,2 @@
+copy: security/manager/boot/src/CertBlocklist.cpp
+copyrev: bddd11bd5884295280401dddad3be82fe3122fbd

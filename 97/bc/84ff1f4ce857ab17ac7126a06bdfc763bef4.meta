@@ -1,0 +1,2 @@
+copy: testing/marionette/client/marionette/tests/unit/test_elementState_chrome.py
+copyrev: dd13ec04326f0f7cae2be9a64bc3d47e87e98b75

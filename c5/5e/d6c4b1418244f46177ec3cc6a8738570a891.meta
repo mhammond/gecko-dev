@@ -1,0 +1,2 @@
+copy: testing/firefox-ui/tests/firefox_ui_tests/puppeteer/test_places.py
+copyrev: ad3178777a758ebccd21f3549621af83c0834759

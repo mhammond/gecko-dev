@@ -1,0 +1,2 @@
+copy: testing/mozharness/configs/b2g/gaia_unit_production_config.py
+copyrev: 9934da645f4695fafc334e26f829e1fdf3a4f1ab

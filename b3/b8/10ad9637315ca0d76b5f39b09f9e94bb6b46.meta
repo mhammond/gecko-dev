@@ -1,0 +1,2 @@
+copy: js/src/jit-test/tests/wasm/basic-float.js
+copyrev: c1d284f1314a3eb051e23379d405a62d9826cc14

@@ -1,0 +1,2 @@
+copy: security/nss/external_tests/google_test/gtest/xcode/Config/FrameworkTarget.xcconfig
+copyrev: 33304faf563b718ae3813742aa4e1037c6a2008e

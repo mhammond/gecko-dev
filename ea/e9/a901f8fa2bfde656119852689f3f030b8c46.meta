@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/tests/fx_linux64_external_media_tests_opt.yml
+copyrev: ef8bda968b47cb865eecc28eaf4b65876f5bc8b0

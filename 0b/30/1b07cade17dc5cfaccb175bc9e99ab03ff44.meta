@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_coding/codecs/ilbc/simple_interpolate_lsf.c
+copyrev: 5752b4e058195b8e735aa1df1fb3a411008d340f

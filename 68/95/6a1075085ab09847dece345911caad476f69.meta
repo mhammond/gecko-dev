@@ -1,0 +1,2 @@
+copy: python/mozbuild/mozbuild/test/frontend/data/test-manifest-install-subdir/moz.build
+copyrev: 2aac104aecd0a07c7f7b020239a6c1a1545ccd08

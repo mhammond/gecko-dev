@@ -1,0 +1,2 @@
+copy: js/src/jit-test/tests/wasm/basic-grow-memory.js
+copyrev: 4a2161d26da91b60899c8fb11b767ecdaf05b614

@@ -1,0 +1,2 @@
+copy: security/manager/ssl/src/nsProtectedAuthThread.cpp
+copyrev: c0e480cd93f9e70fb6a295c3343b09c9f12dc356

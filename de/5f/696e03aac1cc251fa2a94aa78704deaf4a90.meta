@@ -1,0 +1,2 @@
+copy: testing/firefox-ui/tests/firefox_ui_tests/puppeteer/test_l10n.py
+copyrev: d7de6a7ba08ee6d74c4b7f155731cd125af7b895

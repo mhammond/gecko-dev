@@ -1,0 +1,2 @@
+copy: netwerk/protocol/http/src/nsHttpHeaderArray.cpp
+copyrev: 57384ded0f51739227dd644d3396b390a9b19c53

@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/unit/tlsserver/notYetValid.pem.certspec
+copyrev: d55e403789c2c1cf80d73a398b0c258bf94f4b95

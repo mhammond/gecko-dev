@@ -1,0 +1,2 @@
+copy: testing/marionette/client/marionette/tests/unit/test_shadow_dom.py
+copyrev: c350d13c3f5d435a42ccd65a01c2ae901cda87a8

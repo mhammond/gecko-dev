@@ -1,0 +1,2 @@
+copy: build/unix/build-clang/return-empty-string-non-mangled.patch
+copyrev: 77adc845cb0277998e8a093d3c7bec727c532ad4

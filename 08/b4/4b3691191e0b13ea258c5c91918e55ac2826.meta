@@ -1,0 +1,2 @@
+copy: taskcluster/docker/desktop1604-test/bin/run-wizard
+copyrev: 184ff5f2be9f49d258b496ae85807376c178cb0d

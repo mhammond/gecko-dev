@@ -1,0 +1,2 @@
+copy: security/manager/ssl/src/nsCertPicker.cpp
+copyrev: 77f148311e597e5838775a5ef835f62a484ee6f3

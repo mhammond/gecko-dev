@@ -1,0 +1,2 @@
+copy: mobile/android/base/java/org/mozilla/gecko/sqlite/ByteBufferInputStream.java
+copyrev: 48ea26ff5f268eca5f608f91488223106d356805

@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_device/main/source/linux/audio_device_alsa_linux.h
+copyrev: b8dd24ede290a5e469c8c9272be917547faa6502

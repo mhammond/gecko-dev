@@ -1,0 +1,2 @@
+copy: security/nss/external_tests/ssl_gtest/ssl_loopback_unittest.cc
+copyrev: f968f8c5128e7c143ab8b54031f35d2d3da4be5b

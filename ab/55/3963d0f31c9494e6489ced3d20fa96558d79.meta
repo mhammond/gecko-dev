@@ -1,0 +1,2 @@
+copy: taskcluster/docker/recipes/common.sh
+copyrev: cf4ecbdcca1481faae725a6ad03211856d4f782b

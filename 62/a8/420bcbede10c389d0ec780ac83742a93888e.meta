@@ -1,0 +1,2 @@
+copy: services/fxaccounts/tests/xpcshell/test_web_channel.js
+copyrev: bc4a3b2b17b179ee5bda2a3fb5bb0d2fdf079644

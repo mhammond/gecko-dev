@@ -1,0 +1,2 @@
+copy: security/manager/ssl/src/nsNSSVersion.h
+copyrev: b427ea74812e0a0c21094da50facd47fae9fb914

@@ -1,0 +1,2 @@
+copy: xpcom/reflect/xptcall/src/md/unix/xptcstubs_ppc_netbsd.cpp
+copyrev: 14e990443ffed20d97d7b1dfaf8a53abcb2eea59

@@ -1,0 +1,2 @@
+copy: security/sandbox/win/src/sidestep/preamble_patcher_with_stub.cpp
+copyrev: a911f6aa5d4f6a24b26151c14a787b91a0179671

@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/third_party/libyuv/util/compare.cc
+copyrev: bf600ef6a3a7d726755d68a6648b0c755d9ede11

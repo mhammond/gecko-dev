@@ -1,0 +1,2 @@
+copy: testing/mozmill/simplejson-2.1.1/simplejson/tests/test_fail.py
+copyrev: e59263a7251c3f906b8180bf2275daf600178293

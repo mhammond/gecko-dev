@@ -1,0 +1,2 @@
+copy: security/sandbox/win/src/named_pipe_policy.cc
+copyrev: 922cc12164051675052a398141aaca769e6df75b

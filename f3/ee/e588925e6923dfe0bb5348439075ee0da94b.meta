@@ -1,0 +1,2 @@
+copy: testing/marionette/client/marionette/tests/unit/test_execute_isolate.py
+copyrev: 00c293bc7bab6afe834166faa442bc10c919841f

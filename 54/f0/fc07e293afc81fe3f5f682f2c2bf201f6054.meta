@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/builds/sm_arm_sim_osx.yml
+copyrev: eee3c58784a52281f89f28db014e2d652043f5b7

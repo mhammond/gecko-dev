@@ -1,0 +1,2 @@
+copy: js/src/jit-test/tests/sharedbuf/bug1068458-toolong.js
+copyrev: f18ba23665a7fae4686473053bb742c5cdcf8bae

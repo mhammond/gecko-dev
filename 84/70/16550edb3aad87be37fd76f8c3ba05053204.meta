@@ -1,0 +1,2 @@
+copy: testing/docker/desktop-build/configs/platform_supports_post_upload_to_latest.py
+copyrev: 1f88a96964eca246c6e2234778d4a8bc1c2f0715

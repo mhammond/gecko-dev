@@ -1,0 +1,2 @@
+copy: security/manager/ssl/src/nsNSSCertTrust.cpp
+copyrev: f49829bf97d804cd4ac5487347e02278ce7f0939

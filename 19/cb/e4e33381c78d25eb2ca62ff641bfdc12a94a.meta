@@ -1,0 +1,2 @@
+copy: dom/tests/mochitest/notification/desktop-notification/test_leak_windowClose.html
+copyrev: 925d5b1f690fc5741e7a984029ba7aae3454900a

@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/bitrate_controller/bitrate_controller.gypi
+copyrev: 5ee7af0d25d8c9503750da6ad2093e98e2c05b1c

@@ -1,0 +1,2 @@
+copy: testing/eslint-plugin-mozilla/lib/processors/xbl-bindings.js
+copyrev: 4273dbc42a7d311509019742f249ba2278e7f428

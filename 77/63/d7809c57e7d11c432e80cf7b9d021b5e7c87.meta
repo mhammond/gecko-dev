@@ -1,0 +1,2 @@
+copy: xpcom/reflect/xptcall/src/md/unix/xptcinvoke_asm_parisc_linux.s
+copyrev: f78f47bbd3489832d24ffded5a6fb5ac598560c8

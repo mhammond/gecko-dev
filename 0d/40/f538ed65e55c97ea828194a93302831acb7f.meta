@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/remote_bitrate_estimator/remote_rate_control.cc
+copyrev: 66d7272cab687fe8f49d1b92dca3b74513feaaa4

@@ -1,0 +1,2 @@
+copy: taskcluster/taskgraph/types.py
+copyrev: fae489c8bd085e3b2ad1db73f816a9111976e38a

@@ -1,0 +1,2 @@
+copy: security/nss/external_tests/common/scoped_ptrs.h
+copyrev: fc81d4e132a57aa16b2ec5ccb9e5c458c99d8b00

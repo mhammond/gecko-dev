@@ -1,0 +1,2 @@
+copy: dom/security/test/csp/file_hash_source.html^headers^
+copyrev: 5735cfe1e26f54c91986c7356cd37c1585e91f1d

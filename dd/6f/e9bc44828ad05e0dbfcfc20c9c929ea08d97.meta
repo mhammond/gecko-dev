@@ -1,0 +1,2 @@
+copy: testing/taskcluster/scripts/phone-builder/post-build.sh
+copyrev: 284006c28fc28548141096b2b2a8b78d07a0f323

@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/third_party/libyuv/unit_test/rotate_test.cc
+copyrev: 68d9e063739b5be4aa9975e36bc6cdb2edffd26b

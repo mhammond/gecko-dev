@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/tests/fx_linux64_jsreftest_opt.yml
+copyrev: 5006965bb061485bdf35ed8648aace4b043e3454

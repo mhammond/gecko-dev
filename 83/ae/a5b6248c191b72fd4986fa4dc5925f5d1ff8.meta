@@ -1,0 +1,2 @@
+copy: services/sync/tests/unit/test_crypto_keypair.js
+copyrev: cea66aec903c552d7ae4696b06d781e3696cb30e

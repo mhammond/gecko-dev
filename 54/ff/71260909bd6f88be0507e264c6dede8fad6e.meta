@@ -1,0 +1,2 @@
+copy: services/sync/tests/unit/test_async_querySpinningly.js
+copyrev: 949ede1900a5c8760c2438de4701b70cd52d9ec3

@@ -1,0 +1,2 @@
+copy: taskcluster/docker/android-gradle-build/bin/checkout-sources.sh
+copyrev: 13b72b3be5ff069422ac6aa8efd18254ae55de91

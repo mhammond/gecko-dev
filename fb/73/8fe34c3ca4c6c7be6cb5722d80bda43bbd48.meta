@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_device/main/source/linux/audio_device_pulse_linux.h
+copyrev: 8b8380e94d5fe2a4952f8292f61a363ab2d95814

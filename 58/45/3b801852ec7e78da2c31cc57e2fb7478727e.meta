@@ -1,0 +1,2 @@
+copy: taskcluster/docker/tester/tester.env
+copyrev: da907d5b7e263cea9d274efe6c6e8a23a59d6725

@@ -1,0 +1,2 @@
+copy: dom/security/test/csp/file_inlinescript_main_allowed.html^headers^
+copyrev: 816ae6c36dc8a7bdc4d462b3eda7f2754e99d280

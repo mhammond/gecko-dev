@@ -1,0 +1,2 @@
+copy: modules/freetype2/include/freetype/internal/services/svttcmap.h
+copyrev: fcd26361845cd4bcb6ab6b5ef7241c95422e7aab

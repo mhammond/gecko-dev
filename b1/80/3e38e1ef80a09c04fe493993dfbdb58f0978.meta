@@ -1,0 +1,2 @@
+copy: testing/web-platform/mozilla/tests/service-workers/service-worker/resources/invalid-chunked-encoding.py
+copyrev: e12db86484424cb4a30e16f73842284fcccc1e22

@@ -1,0 +1,2 @@
+copy: js/src/jit-test/tests/parallelarray/write-illegal-array-elt.js
+copyrev: 049496c844d512c16bd0d65eafb650151a361ee7

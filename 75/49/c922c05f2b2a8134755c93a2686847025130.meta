@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_coding/main/source/acm_celt.cc
+copyrev: cde599a054450b94f20f5bea7f9b6b19c7908216

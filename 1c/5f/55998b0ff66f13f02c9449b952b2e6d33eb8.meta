@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_coding/neteq/interface/webrtc_neteq_internal.h
+copyrev: 5815f3334bb748be70d625a8a9dd831f5d6367d3

@@ -1,0 +1,2 @@
+copy: testing/mochitest/pywebsocket_ignore_sigint.py
+copyrev: 61c517af403443671e5b5d830bf22c2adb571de7

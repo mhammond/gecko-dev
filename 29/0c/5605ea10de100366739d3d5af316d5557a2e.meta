@@ -1,0 +1,2 @@
+copy: testing/web-platform/tests/referrer-policy/origin-only/http-rp/same-origin/http-https/xhr-request/generic.no-redirect.http.html.headers
+copyrev: 88ad535525b216cd3574b5ddb9d632e84cd80176

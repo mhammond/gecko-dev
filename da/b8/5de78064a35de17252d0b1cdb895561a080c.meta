@@ -1,0 +1,2 @@
+copy: xpcom/tests/TestThreadPool.cpp
+copyrev: bc631a7246b5ba776d032019bdf5774f26cf1fe0

@@ -1,0 +1,2 @@
+copy: testing/firefox-ui/tests/firefox_ui_tests/functional/security/test_ssl_disabled_error_page.py
+copyrev: abf7e788c845e3a4fe58c92d0ca85f4cc4bf1322

@@ -1,0 +1,2 @@
+copy: testing/mozmill/simplejson-2.1.1/simplejson/_speedups.c
+copyrev: 768e48334ee1cc7b344026a47c30aa0d0da93817

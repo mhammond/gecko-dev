@@ -1,0 +1,2 @@
+copy: browser/devtools/debugger/test/mochitest/browser_dbg_WorkerActor.attachThread.js
+copyrev: d229d8d66c64c72286af3075c996bd7782e6e117

@@ -1,0 +1,2 @@
+copy: security/manager/ssl/public/nsIX509CertDB.idl
+copyrev: 49f4ae045b6b321dfa14c42fc320c09be174699c

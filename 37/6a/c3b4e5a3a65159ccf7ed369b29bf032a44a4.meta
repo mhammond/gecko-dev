@@ -1,0 +1,2 @@
+copy: taskcluster/docker/rust-build/REGISTRY
+copyrev: b8ea7afa3bc1c0db74a690f1a5b4b41c576534b0

@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/builds/android_api_15_debug.yml
+copyrev: c3de97d83161cfe57ccf5cf130c428fa09f89c8c

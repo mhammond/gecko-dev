@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_coding/codecs/ilbc/gain_dequant.c
+copyrev: a12c72a7952f5188c5822d9d0baa453dad8890ea

@@ -1,0 +1,2 @@
+copy: other-licenses/simplejson-2.1.1/simplejson/tests/test_unicode.py
+copyrev: df97c27ecf51bb6aa59e1786f79759ed52a823f3

@@ -1,0 +1,2 @@
+copy: xpcom/reflect/xptcall/src/md/unix/xptcinvoke_asm_ppc64_linux.S
+copyrev: 23ce5177de40628f31cee64890ffe200d28a9d7a

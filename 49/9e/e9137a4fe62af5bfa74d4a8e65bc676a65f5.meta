@@ -1,0 +1,2 @@
+copy: extensions/spellcheck/hunspell/src/suggestmgr.cpp
+copyrev: f2eabd5ab807ac7db26d5a927131d71d77fb6700

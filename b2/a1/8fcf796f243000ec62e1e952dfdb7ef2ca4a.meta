@@ -1,0 +1,2 @@
+copy: testing/firefox-ui/tests/firefox_ui_tests/functional/private_browsing/test_about_private_browsing.py
+copyrev: 974fba3a2a04db8ba199dbcdef09d2ed5a62cdb0

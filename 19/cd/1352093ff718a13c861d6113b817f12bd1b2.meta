@@ -1,0 +1,2 @@
+copy: build/pylib/blessings/blessings/__init__.py
+copyrev: c10ec10a9189d27a18a11f890c93f7a0b4ec09b4

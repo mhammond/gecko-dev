@@ -1,0 +1,2 @@
+copy: dom/base/test/csp/file_multi_policy_injection_bypass_2.html^headers^
+copyrev: a111ed91ce3ddf1d3f4b27f29bf88d2fcb9de2e1

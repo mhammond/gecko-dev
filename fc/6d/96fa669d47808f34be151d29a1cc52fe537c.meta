@@ -1,0 +1,2 @@
+copy: testing/web-platform/mozilla/tests/service-workers/service-worker/resources/invalid-blobtype-worker.js
+copyrev: f307ff3a9e9473c2c9075e1292fb102e27ff8ad6

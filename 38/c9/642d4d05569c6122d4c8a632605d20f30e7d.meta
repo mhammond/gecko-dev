@@ -1,0 +1,2 @@
+copy: netwerk/dns/src/nsHostResolver.cpp
+copyrev: 69a5e241722ec5af46ed26b5b45be19b56ff3f88

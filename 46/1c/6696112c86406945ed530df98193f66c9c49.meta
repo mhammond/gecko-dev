@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/tests/fx_linux64_mochitest_chrome_dbg.yml
+copyrev: 90380bbc24a154ffa3d715958a841e104d144d3c

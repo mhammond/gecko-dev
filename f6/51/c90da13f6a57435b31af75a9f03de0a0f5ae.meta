@@ -1,0 +1,2 @@
+copy: testing/firefox-ui/tests/firefox_ui_tests/functional/locationbar/test_access_locationbar.py
+copyrev: 91d7193906b26484da0dc20a375fa87ae5fe87e8

@@ -1,0 +1,2 @@
+copy: security/manager/ssl/src/nsCrypto.cpp
+copyrev: a1b5c5dd6c921be227c6ea3d8b5892b1a4564207

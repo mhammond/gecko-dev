@@ -1,0 +1,2 @@
+copy: xpcom/tests/gtest/TestHashtables.cpp
+copyrev: 51582a2a9e4cc052403f1fb22e4ef52cccea6d15

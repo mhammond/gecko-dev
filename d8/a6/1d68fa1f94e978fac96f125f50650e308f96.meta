@@ -1,0 +1,2 @@
+copy: js/src/jit-test/tests/parallelarray/bug853576.js
+copyrev: 3869a578c712e69d895a3c56e37272fc1702bcd3

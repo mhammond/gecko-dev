@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/builds/sm_rootanalysis.yml
+copyrev: 2971f4bebe812321bd7744d73f00c26272f6a4ff

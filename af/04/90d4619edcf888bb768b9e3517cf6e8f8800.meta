@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/unit/tlsserver/ca-used-as-end-entity.pem.certspec
+copyrev: 8f38ba442e3111be386ab8e6abbe55bb55168761

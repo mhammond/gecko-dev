@@ -1,0 +1,2 @@
+copy: security/nss/fuzz/nssfuzz/registry.h
+copyrev: 07788239eca64a51627dfdbaee6660a1f12727c4

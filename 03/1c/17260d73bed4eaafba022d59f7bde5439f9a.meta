@@ -1,0 +1,2 @@
+copy: dom/tests/mochitest/w3c/testharnessreport.js.in
+copyrev: 12664e96e07b0c10b6893253cbafc304c21ec1f9

@@ -1,0 +1,2 @@
+copy: extensions/spellcheck/hunspell/src/hunspell_fopen_hooks.h
+copyrev: a3687e941ef5e5b1020e083c628b71f48fb03254

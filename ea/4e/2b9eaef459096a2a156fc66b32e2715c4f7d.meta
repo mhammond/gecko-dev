@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/third_party/libyuv/source/compare_posix.cc
+copyrev: 03722d60ca2d3bc39b91e39396aadf68d6481d76

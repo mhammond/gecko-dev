@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/voice_engine/include/mock/mock_voe_connection_observer.h
+copyrev: 703e4de2c660f30ba6f184853abd7f1de633cd7b

@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_coding/codecs/ilbc/cb_mem_energy_augmentation.c
+copyrev: b2147c780e51627882c8d84566f11fe54024ecda

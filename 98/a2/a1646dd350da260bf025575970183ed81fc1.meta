@@ -1,0 +1,2 @@
+copy: security/nss/external_tests/der_gtest/Makefile
+copyrev: be93a2eded68b2ee3820aa6a2547074e531e3956

@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_processing/gain_control_impl.cc
+copyrev: c6a9f1f255e62ffacb6d2bede9ef689c7f400bbc

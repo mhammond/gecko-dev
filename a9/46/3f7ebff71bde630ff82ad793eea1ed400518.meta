@@ -1,0 +1,2 @@
+copy: testing/marionette/client/marionette/tests/unit/test_using_permissions.py
+copyrev: fa3d38bb68538db89c6e3e63c951fbb0ebfbd174

@@ -1,0 +1,2 @@
+copy: netwerk/protocol/http/public/nsIHttpEventSink.idl
+copyrev: b59a573c71c5b1cac891db46de56c4870a5d7f0e

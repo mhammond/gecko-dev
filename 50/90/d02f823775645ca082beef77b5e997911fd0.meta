@@ -1,0 +1,2 @@
+copy: services/common/tests/unit/test_blocklist_certificates.js
+copyrev: 46dac7ab73a1ad72b4a6c74cbbb96e08119a03a6

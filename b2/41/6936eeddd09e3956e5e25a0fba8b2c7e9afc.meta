@@ -1,0 +1,2 @@
+copy: mobile/android/tests/background/junit4/src/org/mozilla/gecko/telemetry/TestTelemetryPingBuilder.java
+copyrev: 0e3a79fe83d195911aabadc3b151553b78695dd3

@@ -1,0 +1,2 @@
+copy: xpcom/tests/TestDeadlockDetector.cpp
+copyrev: 00d8c373e950c4bd749f48850e911efc98fefbff

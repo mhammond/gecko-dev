@@ -1,0 +1,2 @@
+copy: dom/indexedDB/test/unit/test_quotaExceeded_recovery.js
+copyrev: 34848075f4b095b5c93cc4952ebfc5a3957e3143

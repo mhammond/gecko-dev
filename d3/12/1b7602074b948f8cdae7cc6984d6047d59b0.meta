@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/unit/tlsserver/nsCertTypeCritical.pem.certspec
+copyrev: 2df2aa0c3880e864b22c9d475ba3a50353cade83

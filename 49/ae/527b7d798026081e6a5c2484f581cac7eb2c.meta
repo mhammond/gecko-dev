@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/tests/mulet_build_test.yml
+copyrev: 7b47075836a09c0cb0450d1b800f8489833bf9cd

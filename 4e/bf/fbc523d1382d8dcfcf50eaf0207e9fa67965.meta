@@ -1,0 +1,2 @@
+copy: testing/mochitest/runtests.py.in
+copyrev: a46f9952f37857f609b710990877d1fa34e58117

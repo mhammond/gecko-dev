@@ -1,0 +1,2 @@
+copy: extensions/spellcheck/hunspell/src/mozHunspellDirProvider.cpp
+copyrev: 3f92d622db7ce0a8f198bfd9203f3a2b58691458

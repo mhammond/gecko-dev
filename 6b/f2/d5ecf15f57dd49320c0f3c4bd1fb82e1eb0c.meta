@@ -1,0 +1,2 @@
+copy: testing/firefox-ui/tests/firefox_ui_tests/functional/locationbar/test_favicon_in_autocomplete.py
+copyrev: 00bf2ff9898955bbe7a8fc4b02ef453c3f190cfe

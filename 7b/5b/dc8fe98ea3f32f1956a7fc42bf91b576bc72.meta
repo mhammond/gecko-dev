@@ -1,0 +1,2 @@
+copy: testing/web-platform/mozilla/tests/service-workers/service-worker/resources/update-nocookie-worker.py
+copyrev: 4af1b5f50c4d9135143e3df8ff8d1a2dfa9960c4

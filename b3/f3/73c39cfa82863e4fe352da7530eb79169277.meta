@@ -1,0 +1,2 @@
+copy: taskcluster/taskgraph/kind/base.py
+copyrev: 66b4cd756502b7b761fa800beaa6460066149eef

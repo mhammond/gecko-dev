@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/lint.yml
+copyrev: 2f0f67acf4e1b29f5fb40c9824205363b3d3283d

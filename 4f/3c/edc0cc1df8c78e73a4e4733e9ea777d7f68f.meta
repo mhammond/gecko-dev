@@ -1,0 +1,2 @@
+copy: xpcom/reflect/xptcall/src/md/unix/vtable_layout_x86.cpp
+copyrev: 38a4499a7c96eb7c6c2807d6636a987096592ef7

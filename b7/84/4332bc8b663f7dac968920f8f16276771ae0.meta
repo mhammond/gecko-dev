@@ -1,0 +1,2 @@
+copy: security/manager/ssl/src/nsNSSShutDown.cpp
+copyrev: 5fc378f48b00e4875d30f9fb8d86f204f42f8c3e

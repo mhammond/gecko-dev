@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_processing/voice_detection_impl.cc
+copyrev: a9caad3b7ea06141d1c4fcd6a9320ca92794a0a4

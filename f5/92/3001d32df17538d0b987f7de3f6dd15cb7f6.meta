@@ -1,0 +1,2 @@
+copy: security/sandbox/chromium/sandbox/win/src/named_pipe_dispatcher.cc
+copyrev: 2bdef8f240c8411f808d4f325de519bb1b89d6b5

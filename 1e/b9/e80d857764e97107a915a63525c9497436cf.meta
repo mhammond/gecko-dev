@@ -1,0 +1,2 @@
+copy: testing/taskcluster/scripts/builder/setup-ccache.sh
+copyrev: 637a3e91caf73345c0ea9062add6f4d476bfb869

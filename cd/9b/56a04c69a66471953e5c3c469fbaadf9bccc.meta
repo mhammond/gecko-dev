@@ -1,0 +1,2 @@
+copy: testing/mozharness/configs/single_locale/mozilla-central_android-api-11.py
+copyrev: bf181db6afc3f8f05880714ff1dfdfb228a2ec7d

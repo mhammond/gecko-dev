@@ -1,0 +1,2 @@
+copy: netwerk/socket/base/nsISSLSocketControl.idl
+copyrev: d0818bc924fecd8d2a596fcc8bad3cef16e83b21

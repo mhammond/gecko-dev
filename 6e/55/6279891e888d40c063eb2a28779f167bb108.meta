@@ -1,0 +1,2 @@
+copy: testing/web-platform/mozilla/tests/service-workers/service-worker/ServiceWorkerGlobalScope/resources/registration-attribute-worker.js
+copyrev: d7a3852d787605901f88219140ab118f95cf554c

@@ -1,0 +1,2 @@
+copy: testing/firefox-ui/tests/firefox_ui_tests/functional/security/test_ssl_status_after_restart.py
+copyrev: 29488e8971e346b2c19092e5fc26db5548ac77da

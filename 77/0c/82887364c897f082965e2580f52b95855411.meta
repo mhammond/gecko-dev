@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/tests/fx_unittest_base.yml
+copyrev: 283a85210b2f70038c7fd2decd850c6acbc223d8

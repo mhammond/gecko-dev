@@ -1,0 +1,2 @@
+copy: gfx/skia/trunk/src/opts/SkBitmapFilter_opts_SSE2.cpp
+copyrev: da8b4f4038ca65e048affb8a8c3d4101a06ef5ad

@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/video_coding/main/source/mock/fake_tick_time.h
+copyrev: 2a6cbf3cf0f4a258ecf2ee99a1ed5e484d5ffff1

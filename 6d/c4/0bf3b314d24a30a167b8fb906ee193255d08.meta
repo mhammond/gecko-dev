@@ -1,0 +1,2 @@
+copy: testing/mozharness/configs/releases/postrelease_beta.py
+copyrev: 803b2fe4d21ae655db1257fff40350577810df33

@@ -1,0 +1,2 @@
+copy: other-licenses/simplejson-2.1.1/simplejson/tests/test_decode.py
+copyrev: 0d100ecefc33c54c77a356937a1c3771a6172849

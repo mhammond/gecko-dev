@@ -1,0 +1,2 @@
+copy: security/nss/cmd/lib/SSLerrs.h
+copyrev: 36ceae00c71b63ce841b7f51f470293a8b744bb4

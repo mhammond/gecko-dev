@@ -1,0 +1,2 @@
+copy: js/src/jsapi-tests/testJitMoveEmitterCycles-mips.cpp
+copyrev: 3c454ae46f15bb18896905091d0ebed54aefc3a3

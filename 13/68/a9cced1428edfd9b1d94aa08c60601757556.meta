@@ -1,0 +1,2 @@
+copy: taskcluster/ci/legacy/tasks/docker_build.yml
+copyrev: 8466a286363fd348a30913b6bc562830056c9c57

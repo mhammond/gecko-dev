@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/unit/test_pkcs11_insert_remove.js
+copyrev: 3ff70eb3245b93eeaa03595b88f7ae045c4ee48c

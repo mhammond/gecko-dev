@@ -1,0 +1,2 @@
+copy: testing/taskcluster/scripts/phone-builder/build-phone-ota.sh
+copyrev: 29a27c34253d8ac1ada385f76bf627227a94777c

@@ -1,0 +1,2 @@
+copy: testing/mozharness/configs/builds/releng_sub_mac_configs/64_debug.py
+copyrev: 913d92c058bd0011e01630aedadfc09533347b8a

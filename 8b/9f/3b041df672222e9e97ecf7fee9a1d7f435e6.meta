@@ -1,0 +1,2 @@
+copy: media/libvpx/vp8/decoder/arm/armv6/dequant_idct_v6.asm
+copyrev: f555f3824abb52460282527d45d97a53766e7c68

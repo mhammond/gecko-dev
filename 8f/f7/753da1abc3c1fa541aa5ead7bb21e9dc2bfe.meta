@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/rtp_rtcp/test/bwe_standalone.gypi
+copyrev: 793a206b72011b1f2bf458b1892efb104c6adcf9

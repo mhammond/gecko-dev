@@ -1,0 +1,2 @@
+copy: testing/taskcluster/scripts/builder/build-sm.sh
+copyrev: 1affd0288da72be661ff51723b1b4d85285004f1

@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/third_party/libyuv/source/scale_win.cc
+copyrev: 09869b3291bef9c0cf97cd5deb275b72ea9a290b

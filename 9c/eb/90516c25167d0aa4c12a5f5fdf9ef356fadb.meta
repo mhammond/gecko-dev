@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/webrtc/modules/audio_coding/neteq4/mock/mock_external_decoder_pcm16b.h
+copyrev: c62fef348a9f43f9b7c39f31fd78371aebf47e9d

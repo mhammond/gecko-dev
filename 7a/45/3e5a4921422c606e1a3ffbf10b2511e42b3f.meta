@@ -1,0 +1,2 @@
+copy: js/src/jit-test/tests/wasm/basic-bce.js
+copyrev: e11569b5ba9f38f08f5a3698c7fac8c6c073b2a0

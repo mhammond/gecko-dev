@@ -1,0 +1,2 @@
+copy: taskcluster/docker/desktop-build/oauth.txt
+copyrev: 80521b6042416e9ba08108276781c96ae92d09cf

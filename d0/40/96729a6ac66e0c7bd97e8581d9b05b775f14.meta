@@ -1,0 +1,2 @@
+copy: security/sandbox/chromium/sandbox/win/src/named_pipe_interception.h
+copyrev: 48eaa2b39339b19f959e471c03d04b40890f8b25

@@ -1,0 +1,2 @@
+copy: xpcom/reflect/xptcall/src/md/win32/xptcstubs_x86_64_gnu.cpp
+copyrev: c036e7ca6d1f818b2605c6b890dbf0deb7882ecf

@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/webrtc/modules/audio_processing/agc/analog_agc.c
+copyrev: 731815b6b5ce2c695635df4965293ba2ec37c5f2

@@ -1,0 +1,2 @@
+copy: browser/components/loop/test/functional/hanging_threads.py
+copyrev: 774f41e20b77b45dc535f56f73753d62d740f265

@@ -1,0 +1,2 @@
+copy: testing/eslint/eslint-plugin-mozilla/lib/rules/mark-test-function-used.js
+copyrev: b2d7cbaa40906f110793e0af345b7f37ce0d7f6a

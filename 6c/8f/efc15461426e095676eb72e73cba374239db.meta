@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_coding/codecs/cng/webrtc_cng.c
+copyrev: a743daef8afe6625f5ad398156813a2a32c66a26

@@ -1,0 +1,2 @@
+copy: taskcluster/docker/recipes/ubuntu1204-test-system-setup.sh
+copyrev: 4b7e5e2d723315c876207759c53b71c3387ba2d6

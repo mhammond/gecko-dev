@@ -1,0 +1,2 @@
+copy: security/nss/external_tests/ssl_gtest/ssl_drop_unittest.cc
+copyrev: 46f1b506c46b9583a42f886a07075c4ffaf0d562

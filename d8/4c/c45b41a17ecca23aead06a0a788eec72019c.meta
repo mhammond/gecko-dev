@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_coding/codecs/ilbc/get_sync_seq.h
+copyrev: 6f58ac0cc4e2b80041e89fa1a135aef12041ae7b

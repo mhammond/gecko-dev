@@ -1,0 +1,2 @@
+copy: security/sandbox/chromium/base/shim/base/logging.cpp
+copyrev: bbb24fd2fc3ec48d68894eeeb2e48db2cee8fd37

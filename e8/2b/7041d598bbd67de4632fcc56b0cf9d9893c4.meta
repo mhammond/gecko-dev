@@ -1,0 +1,2 @@
+copy: toolkit/devtools/server/tests/unit/test_ReadHeapSnapshot_worker.js
+copyrev: 8575706f977afc411c8977f0d62e8105f2db7bbb

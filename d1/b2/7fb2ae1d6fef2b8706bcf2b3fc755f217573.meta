@@ -1,0 +1,2 @@
+copy: security/manager/ssl/src/TransportSecurityInfo.cpp
+copyrev: 3c476bf838b1e3e2956b324861587cd8e528d773

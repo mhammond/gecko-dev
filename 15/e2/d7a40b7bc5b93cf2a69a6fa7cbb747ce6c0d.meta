@@ -1,0 +1,2 @@
+copy: dom/canvas/test/webgl-conformance/mochitest.ini.template
+copyrev: 9c3adf2d80ecf36b9d5a0b6462c66d6e95774b35

@@ -1,0 +1,2 @@
+copy: mobile/android/base/httpclientandroidlib/impl/NoConnectionReuseStrategy.java
+copyrev: 5b68ed9f575b6577223d280e50701ee89edca5e5

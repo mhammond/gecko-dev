@@ -1,0 +1,2 @@
+copy: js/src/ctypes/libffi.patch
+copyrev: 43d73883f58ddb4b974040753df58082ca5de9a7

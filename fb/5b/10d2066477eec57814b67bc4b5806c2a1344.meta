@@ -1,0 +1,2 @@
+copy: testing/firefox-ui/tests/firefox_ui_tests/functional/security/test_enable_privilege.py
+copyrev: 9e3f893c02c04fbd9dec10c1b35a905f27dd63fe

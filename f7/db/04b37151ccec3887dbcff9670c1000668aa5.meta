@@ -1,0 +1,2 @@
+copy: media/libspeex_resampler/sse-detect-runtime.patch
+copyrev: 48cc6036c1583f2e0394b808610558295bdf5b45

@@ -1,0 +1,2 @@
+copy: netwerk/protocol/file/public/nsIFileChannel.idl
+copyrev: c0835b7959181d10f4777dc472b6c487f5a9bed9

@@ -1,0 +1,2 @@
+copy: testing/taskcluster/scripts/builder/build-browser-haz-linux.sh
+copyrev: e72eb0864886c836a9052d6582e2c411716a2a05

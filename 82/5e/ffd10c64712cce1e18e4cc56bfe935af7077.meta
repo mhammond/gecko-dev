@@ -1,0 +1,2 @@
+copy: testing/mozharness/configs/beetmover/repacks.yml.tmpl
+copyrev: b5432b8c584326ea47494607ab2e1750ae66dd4b

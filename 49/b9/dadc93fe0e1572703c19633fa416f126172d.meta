@@ -1,0 +1,2 @@
+copy: media/libvpx/vp8/decoder/x86/dequantize_x86.h
+copyrev: b84568b1e557673aa8cda45912ca876ee21e429d

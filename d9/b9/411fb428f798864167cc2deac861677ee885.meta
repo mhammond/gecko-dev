@@ -1,0 +1,2 @@
+copy: security/manager/ssl/src/nsDataSignatureVerifier.h
+copyrev: 72da730ab9db87371e89637b9fa34881a742ea97

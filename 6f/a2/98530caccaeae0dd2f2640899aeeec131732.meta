@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/video_render/main/source/android/video_render_opengles20.cc
+copyrev: c15c4c6fc5cbd364fc75946eb329578ac613626d

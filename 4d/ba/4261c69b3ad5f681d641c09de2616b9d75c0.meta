@@ -1,0 +1,2 @@
+copy: dom/base/test/csp/file_CSP_evalscript_main.html^headers^
+copyrev: fcef2c053de8a465e2e7fd65c9935b4bfe5a64d8

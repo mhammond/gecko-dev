@@ -1,0 +1,2 @@
+copy: media/libvpx/vp8/encoder/x86/sad_sse3.asm
+copyrev: b64e0cef129041d2d8bdf3ea6b7e37039eeb7da1

@@ -1,0 +1,2 @@
+copy: build/unix/build-clang/clang-static-analysis-macosx64.json
+copyrev: 5bd636af666c8517b123a9e257aca7123b551c7e

@@ -1,0 +1,2 @@
+copy: security/manager/boot/src/RootCertificateTelemetryUtils.cpp
+copyrev: a9eb75567936f6cb600d48fb4d27d908862d4c43

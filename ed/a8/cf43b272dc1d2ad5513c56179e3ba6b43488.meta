@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/decision/try.yml
+copyrev: 48b0cf79912edc59aca24ae9ce039fe4a3133a26

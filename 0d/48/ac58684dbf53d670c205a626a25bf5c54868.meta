@@ -1,0 +1,2 @@
+copy: media/libyuv/source/scale_posix.cc
+copyrev: 0694012f70826c973f29735a97e89b2d505f2b52

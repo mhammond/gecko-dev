@@ -1,0 +1,2 @@
+copy: testing/web-platform/mozilla/tests/service-workers/service-worker/ServiceWorkerGlobalScope/resources/unregister-worker.js
+copyrev: 79f00db5f8db91a189a26b79c0f71009c5ed8c0c

@@ -1,0 +1,2 @@
+copy: security/nss/external_tests/google_test/gtest/include/gtest/gtest-death-test.h
+copyrev: 68d32fd2ce4eb42284ed250092940d26c35bdfd4

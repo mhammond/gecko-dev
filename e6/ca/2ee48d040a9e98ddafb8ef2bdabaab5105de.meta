@@ -1,0 +1,2 @@
+copy: js/src/jit-test/tests/parallelarray/timeout.js
+copyrev: ba8dd101d2b49d764cbb4805885c3350fc93f8bb

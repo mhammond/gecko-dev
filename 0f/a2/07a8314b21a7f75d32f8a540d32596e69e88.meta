@@ -1,0 +1,2 @@
+copy: security/sandbox/chromium/base/shim/base/strings/string_piece.h
+copyrev: 7f4cecce2f3c614b187247487d1fbae033f7284f

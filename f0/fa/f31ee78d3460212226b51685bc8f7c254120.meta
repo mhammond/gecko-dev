@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/compiled/TestSTSParser.cpp
+copyrev: 0cf8e2ea66f818f5b0d57113aa2e9f4d809367cd

@@ -1,0 +1,2 @@
+copy: dom/base/test/csp/file_CSP_bug909029_star.html^headers^
+copyrev: add717e7c487df118a33932c78d1d960699f2de8

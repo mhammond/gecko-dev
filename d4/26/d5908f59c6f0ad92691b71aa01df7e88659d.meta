@@ -1,0 +1,2 @@
+copy: dom/tests/mochitest/fetch/test_fetch_basic_http_sw_reroute.html
+copyrev: dced3d7a2bf29309162d42dda0bc57d50e58b5d4

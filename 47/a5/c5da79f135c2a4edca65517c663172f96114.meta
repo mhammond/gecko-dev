@@ -1,0 +1,2 @@
+copy: testing/web-platform/mozilla/tests/service-workers/service-worker/resources/indexeddb-worker.js
+copyrev: d995662efa9740a0628136f78eabc40c22fa7efa

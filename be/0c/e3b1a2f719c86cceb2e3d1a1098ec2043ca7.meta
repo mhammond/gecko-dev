@@ -1,0 +1,2 @@
+copy: security/manager/pki/src/nsNSSDialogs.cpp
+copyrev: 93436aa0f58f52a298ac044a3d9c54b7cc6c0f2e

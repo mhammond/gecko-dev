@@ -1,0 +1,2 @@
+copy: testing/firefox-ui/tests/firefox_ui_tests/functional/security/test_mixed_script_content_blocking.py
+copyrev: 0433f8d09191c34a1142468e98c5080fe2989d5c

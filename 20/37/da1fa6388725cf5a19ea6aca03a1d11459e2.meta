@@ -1,0 +1,2 @@
+copy: browser/components/sessionstore/src/TabStateCache.jsm
+copyrev: b8e96809ae17adcfbec8431efdeb3ece8e2d6adf

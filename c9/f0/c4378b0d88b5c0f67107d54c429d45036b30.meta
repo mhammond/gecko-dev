@@ -1,0 +1,2 @@
+copy: toolkit/devtools/server/tests/unit/babel_and_browserify_script_with_source_map.js
+copyrev: f6d8ece0d248f370da16c444cca5243feec1014f

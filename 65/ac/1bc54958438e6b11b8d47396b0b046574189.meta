@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/builds/sm_arm64_sim.yml
+copyrev: 2d8d0c6dc053064f3d2dace043f5b9316be0373b

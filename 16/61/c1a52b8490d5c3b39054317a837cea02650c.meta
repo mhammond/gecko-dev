@@ -1,0 +1,2 @@
+copy: taskcluster/docker/desktop1604-test/fonts.conf
+copyrev: 6ca9949e16f57d3a0aaed290299e33d66dc4ea38

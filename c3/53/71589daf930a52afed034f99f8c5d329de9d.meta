@@ -1,0 +1,2 @@
+copy: testing/firefox-ui/tests/firefox_ui_tests/functional/security/test_dv_certificate.py
+copyrev: cb7c131cb090429257da0728b5ffd751180de785

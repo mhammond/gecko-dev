@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/unit/test_ev_certs/int-ev-valid.pem.certspec
+copyrev: 5faaf681b557c5fffe5ab8a977708393fd8c4df4

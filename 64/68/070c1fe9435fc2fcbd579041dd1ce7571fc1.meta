@@ -1,0 +1,2 @@
+copy: testing/firefox-ui/tests/firefox_ui_tests/functional/security/test_safe_browsing_notification.py
+copyrev: 3b75d8a17aa3df7e74074281b708c9174748377e

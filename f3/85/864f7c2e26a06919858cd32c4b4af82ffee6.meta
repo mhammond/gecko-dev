@@ -1,0 +1,2 @@
+copy: testing/web-platform/mozilla/tests/service-workers/service-worker/resources/postmessage-worker.js
+copyrev: 75f92e5d45d4d6cf3b280a62d8d7afd199a958d3

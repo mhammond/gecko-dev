@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_coding/codecs/ilbc/get_cd_vec.c
+copyrev: 0ccd7c995bbbc220e5537e0df0049d003659f3ba

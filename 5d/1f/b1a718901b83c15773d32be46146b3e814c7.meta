@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/builds/b2g_phone_eng_base.yml
+copyrev: bec889e89d0ec5aabbf036403ca87cd4bb8a5a07

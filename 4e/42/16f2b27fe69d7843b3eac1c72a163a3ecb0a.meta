@@ -1,0 +1,2 @@
+copy: browser/components/loop/test/xpcshell/test_loopservice_hawk_request.js
+copyrev: e129e755c4ed0dbebf98bb61a856119baca40593

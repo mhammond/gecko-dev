@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/unit/tlsserver/eeIssuedByNonCA.pem.certspec
+copyrev: 039674a13446bdb4bc0104509057d1781585ec35

@@ -1,0 +1,2 @@
+copy: parser/htmlparser/tests/mochitest/test_xml_mislabeled_nobom.html
+copyrev: 5d155b8d0235a3009a52c480c75c4bc5a97a2514

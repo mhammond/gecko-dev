@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/unit/tlsserver/selfsigned-inadequateEKU.pem.certspec
+copyrev: 682f683e6a5659952a949f34548c8bea1292397f

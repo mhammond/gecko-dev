@@ -1,0 +1,2 @@
+copy: browser/devtools/webconsole/test/test_bug_1010953_cspro.html^headers^
+copyrev: 64b98b4090a1267b62106133f6b3114f8db64795

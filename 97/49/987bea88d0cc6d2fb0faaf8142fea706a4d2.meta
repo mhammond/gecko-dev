@@ -1,0 +1,2 @@
+copy: media/libvpx/vp8/encoder/arm/neon/variance_neon.asm
+copyrev: 5bd21d1994e7723f05aff03222a2103776174743

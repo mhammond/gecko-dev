@@ -1,0 +1,2 @@
+copy: python/mozbuild/mozbuild/testing/xpcshell.py
+copyrev: c461b72bdf5fb0d5e1d5936d1dcfdeb2e0636a07

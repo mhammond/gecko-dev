@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/third_party/libyuv/source/row_any.cc
+copyrev: bcde446fa1a55c9bad680827a2d80f325d901c22

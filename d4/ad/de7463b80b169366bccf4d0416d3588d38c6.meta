@@ -1,0 +1,2 @@
+copy: media/libvpx/vp9/encoder/x86/vp9_variance_impl_intrin_avx2.c
+copyrev: 0bd5b5c750c39866a5493b21d9926aae84ed2eff

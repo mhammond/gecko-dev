@@ -1,0 +1,2 @@
+copy: python/mozbuild/mach/commands/build.py
+copyrev: 524fa94fdb2732ad82c2598aa93ae172fb9006be

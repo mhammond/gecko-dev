@@ -1,0 +1,2 @@
+copy: netwerk/protocol/http/src/nsHttpBasicAuth.cpp
+copyrev: 6af5e7468f752a099a00536a69c531b424cf0c5e

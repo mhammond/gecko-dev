@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/unit/test_pinning_dynamic/cn-b.pinning2.example.com-badca.pem
+copyrev: 4f439a92b18e6661810adc0d24322800b1bf16f5

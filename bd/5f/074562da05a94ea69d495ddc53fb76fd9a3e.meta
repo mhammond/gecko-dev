@@ -1,0 +1,2 @@
+copy: testing/taskcluster/scripts/misc/build-gcc-linux.sh
+copyrev: 0254f0d7950afb643da1dbb58f0c28fd07be0360

@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/video_coding/main/test/generic_codec_test.cc
+copyrev: 49580fc7d39fd47e2ac1261de2b2cad0fbafda5e

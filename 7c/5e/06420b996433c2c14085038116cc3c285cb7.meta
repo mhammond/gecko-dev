@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_coding/main/source/acm_g722.cc
+copyrev: dfac6527350c6dc2d331a5a037c67e2587996433

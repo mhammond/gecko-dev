@@ -1,0 +1,2 @@
+copy: toolkit/components/workerlz4/tests/xpcshell/test_lz4.js
+copyrev: 085da7b1f495907f7c65f40ba986f4a19773ca22

@@ -1,0 +1,2 @@
+copy: xpcom/reflect/xptcall/src/md/unix/xptcinvoke_asm_mips.s
+copyrev: 00e917e90dfe581ff1810fd32a705115eeb180d9

@@ -1,0 +1,2 @@
+copy: testing/web-platform/mozilla/tests/service-workers/service-worker/register-wait-forever-in-install-worker.https.html
+copyrev: 7bf5d8818e6a0ba344d35176fdac0ca362ec75ec

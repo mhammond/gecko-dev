@@ -1,0 +1,2 @@
+copy: testing/mozmill/simplejson-2.1.1/simplejson/tests/__init__.py
+copyrev: 3dceb18574acdcef268f70d3d6fcacc864a53047

@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/unit/test_pinning_dynamic/cn-x.a.pinning2.example.com-pinningroot.pem
+copyrev: ac7b39ea316b45370305f19798f540fc647945eb

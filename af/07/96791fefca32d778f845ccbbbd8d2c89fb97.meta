@@ -1,0 +1,2 @@
+copy: taskcluster/docker/android-gradle-build/bin/before.sh
+copyrev: 65663b362c053258bc41cbcc169f130a5982468e

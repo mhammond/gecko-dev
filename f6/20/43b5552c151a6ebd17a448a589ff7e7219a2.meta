@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/remote_bitrate_estimator/include/mock/mock_remote_bitrate_observer.h
+copyrev: 13087862ecb15a532fe35b200eab964113abefc2

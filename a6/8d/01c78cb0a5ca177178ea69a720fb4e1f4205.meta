@@ -1,0 +1,2 @@
+copy: media/libvpx/vp8/decoder/x86/idct_blk_mmx.c
+copyrev: 506a5436f3b56dc2def3ce348ff54ce941e7238b

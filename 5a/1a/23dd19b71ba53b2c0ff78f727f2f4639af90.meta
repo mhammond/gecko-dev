@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_coding/neteq/mcu_dsp_common.h
+copyrev: e32d7eba347bb3d04630f2a638ae814d21715ed6

@@ -1,0 +1,2 @@
+copy: testing/web-platform/tests/XMLHttpRequest/send-non-same-origin.sub.htm
+copyrev: 7ec5416d05e90d83ff64ca514577e7abca404b56

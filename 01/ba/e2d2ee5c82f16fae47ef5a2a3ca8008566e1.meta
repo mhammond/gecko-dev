@@ -1,0 +1,2 @@
+copy: testing/web-platform/mozilla/tests/service-workers/service-worker/resources/service-worker-csp-worker.py
+copyrev: 6117a8b1357178b8af36e09cd5dc29d9c0c50c14

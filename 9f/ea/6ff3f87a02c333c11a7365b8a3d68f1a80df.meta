@@ -1,0 +1,2 @@
+copy: xpcom/reflect/xptcall/src/md/unix/moz.build
+copyrev: 780527eb5f334f1a5c67d7ab825d26c1194ed841

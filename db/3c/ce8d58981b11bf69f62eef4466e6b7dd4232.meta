@@ -1,0 +1,2 @@
+copy: testing/web-platform/mozilla/tests/service-workers/service-worker/resources/wait-forever-in-install-worker.js
+copyrev: 2c23389205a80a887871b70008300cd7ca68172e

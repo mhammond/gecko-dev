@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/system_wrappers/source/critical_section_posix.cc
+copyrev: 902622bf99bf9950d2254a00189ff1536e0554bf

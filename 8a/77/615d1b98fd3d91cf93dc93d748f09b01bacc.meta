@@ -1,0 +1,2 @@
+copy: toolkit/components/protobuf/src/google/protobuf/stubs/atomicops_internals_pnacl.h
+copyrev: 403d854b8c6cf93eb2d69c90035493092a9a9fa5

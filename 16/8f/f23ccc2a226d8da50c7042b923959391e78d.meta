@@ -1,0 +1,2 @@
+copy: security/manager/boot/src/nsEntropyCollector.cpp
+copyrev: 71db47d67702f2ec45ae14dc2c4ce8bc2eb79a69

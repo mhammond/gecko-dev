@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/common_audio/signal_processing/vector_scaling_operations.c
+copyrev: f5104cb57cf946e4283517b178aa1567df7b810f

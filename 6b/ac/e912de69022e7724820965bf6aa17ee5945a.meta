@@ -1,0 +1,2 @@
+copy: js/src/tests/ecma_5/misc/explicit-undefined-optional-argument.diff
+copyrev: 792dd2005007588cf96b2506f707873df3b8e518

@@ -1,0 +1,2 @@
+copy: testing/mozharness/configs/single_locale/mozilla-release.py
+copyrev: 073960c10a78a75214e040cb262b8b12552f8485

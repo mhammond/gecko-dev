@@ -1,0 +1,2 @@
+copy: security/nss/external_tests/ssl_gtest/libssl_internals.c
+copyrev: 487748536118947166e6b182f2d961f5cacdb367

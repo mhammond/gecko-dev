@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/builds/android_checkstyle.yml
+copyrev: 236de3251fba29a6b940f3f9a77876fe5ca62e7d

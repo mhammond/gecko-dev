@@ -1,0 +1,2 @@
+copy: taskcluster/docker/base-test/sources.list
+copyrev: c2f1c2b1363058d22b411b2c5cb900b500e4ebaa

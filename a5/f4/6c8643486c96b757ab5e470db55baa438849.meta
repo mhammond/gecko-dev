@@ -1,0 +1,2 @@
+copy: testing/taskcluster/scripts/builder/install-packages.sh
+copyrev: 3d214ba1de913aedcb4d2837ae8c104c56aa33d6

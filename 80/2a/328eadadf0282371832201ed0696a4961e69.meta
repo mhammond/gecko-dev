@@ -1,0 +1,2 @@
+copy: testing/docker/desktop-build/configs/disable_sendchange.py
+copyrev: b5bffef073df897aaf3c7e148d0a57851b1c0994

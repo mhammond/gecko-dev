@@ -1,0 +1,2 @@
+copy: security/sandbox/chromium/sandbox/win/src/sync_interception.h
+copyrev: 27a51c25dfe3f305577d1d4b56c3de8cc65975e7

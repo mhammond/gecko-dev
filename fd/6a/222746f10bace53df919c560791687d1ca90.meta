@@ -1,0 +1,2 @@
+copy: testing/web-platform/mozilla/tests/service-workers/service-worker/resources/oninstall-throw-error-from-nested-event-worker.js
+copyrev: b9b6f7df7509aec0d2e89d6ce8c0578610d8b50f

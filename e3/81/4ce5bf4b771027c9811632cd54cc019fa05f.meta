@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_conference_mixer/source/audio_frame_manipulator.cc
+copyrev: 01707e5b0246a6467be083c2b740f4b7523c8f05

@@ -1,0 +1,2 @@
+copy: testing/marionette/client/marionette/tests/unit/test_text_chrome.py
+copyrev: e4657f409fd100aa1eb5e02df2985bd4671b2f40

@@ -1,0 +1,2 @@
+copy: toolkit/crashreporter/google-breakpad/src/processor/logging.cc
+copyrev: 7732b965d0904609471df148ca33c452f333cf36

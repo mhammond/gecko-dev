@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/tests/fx_linux64_jittests_dbg.yml
+copyrev: 6f8a89b35f661e50ad3572207afeedd49a46fddd

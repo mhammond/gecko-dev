@@ -1,0 +1,2 @@
+copy: toolkit/mozapps/update/test/marionette/update_smoketest_ota_same_version.py
+copyrev: 98d4fee9321eaf4dcca0f5d33a2e3f60d186195c

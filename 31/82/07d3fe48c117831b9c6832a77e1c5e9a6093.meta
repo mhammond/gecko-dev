@@ -1,0 +1,2 @@
+copy: browser/components/loop/test/xpcshell/test_loopservice_token_invalid.js
+copyrev: 9dd5564a82ecb5c7a4014af7055012b36f83bbb3

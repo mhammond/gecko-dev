@@ -1,0 +1,2 @@
+copy: taskcluster/docker/recipes/install-mercurial.sh
+copyrev: f70e784a5733c74d2baea8cc75f1a050b14ecd3e

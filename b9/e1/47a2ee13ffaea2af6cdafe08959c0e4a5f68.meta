@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/tests/mulet_gaia_js_integration_tests.yml
+copyrev: 3ce4476880e6ab186d51d024209cc52c1397457e

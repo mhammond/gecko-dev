@@ -1,0 +1,2 @@
+copy: js/src/jit-test/tests/parallelarray/alloc-array-nonwritable.js
+copyrev: fdacb4c12ac26c510575a19b1cfef013100faa6e

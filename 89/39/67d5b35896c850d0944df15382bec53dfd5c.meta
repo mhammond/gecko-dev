@@ -1,0 +1,2 @@
+copy: browser/extensions/loop/test/mochitest/browser_loop_fxa_server.js
+copyrev: 6827b86d66c1ac0b66f05b94a3c00203091ce20c

@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/builds/sm_plaindebug.yml
+copyrev: 5a0da1015ac43baa2e98b02b7cac38c55ca4d9c5

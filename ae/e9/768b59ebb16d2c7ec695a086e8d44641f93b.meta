@@ -1,0 +1,2 @@
+copy: security/manager/ssl/src/nsNSSASN1Object.cpp
+copyrev: 300b43b6b99a2fe49329b7dfa0d07e0f1523efff

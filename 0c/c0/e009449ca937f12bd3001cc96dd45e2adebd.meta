@@ -1,0 +1,2 @@
+copy: storage/src/mozStorageConnection.cpp
+copyrev: 3329cb20c62002ee564e35b1d72af197a94ea3ad

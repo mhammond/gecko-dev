@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/builds/base_linux32.yml
+copyrev: c71509a29d46cb0af348fa1b850a7105eef37ad2

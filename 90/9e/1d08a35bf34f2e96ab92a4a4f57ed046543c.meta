@@ -1,0 +1,2 @@
+copy: netwerk/protocol/ftp/public/nsIFTPChannel.idl
+copyrev: aabced20dc98b8c592f78b854c5b3e4c076bd777

@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_coding/main/source/acm_red.cc
+copyrev: 87048d4a154df91a2cb4c676e71c4710d9ae6248

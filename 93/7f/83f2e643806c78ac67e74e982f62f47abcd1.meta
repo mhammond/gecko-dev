@@ -1,0 +1,2 @@
+copy: testing/web-platform/mozilla/tests/service-workers/service-worker/resources/oninstall-throw-error-with-empty-onerror-worker.js
+copyrev: 31eece771747b38c7c8cc167f392e4c1ff8e5851

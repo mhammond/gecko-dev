@@ -1,0 +1,2 @@
+copy: js/src/jit-test/tests/parallelarray/throw-never-executed.js
+copyrev: afba103605da013f6a9196cfb4489537d7c530d1

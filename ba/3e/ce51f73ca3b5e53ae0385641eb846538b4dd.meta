@@ -1,0 +1,2 @@
+copy: testing/web-platform/mozilla/tests/service-workers/service-worker/skip-waiting.https.html
+copyrev: b053237a6ca9034690bf34448ecdc98e42f145e3

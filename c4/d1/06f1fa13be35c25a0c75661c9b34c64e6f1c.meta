@@ -1,0 +1,2 @@
+copy: dom/workers/test/xhr_implicit_cancel_worker.js
+copyrev: 045e8a9e41208c391adab1ae9ee81408376637f2

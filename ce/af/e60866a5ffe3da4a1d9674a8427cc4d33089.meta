@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_coding/codecs/g711/g711.c
+copyrev: bc8c7f755b34a2a5bcf23d1de3df23745304709e

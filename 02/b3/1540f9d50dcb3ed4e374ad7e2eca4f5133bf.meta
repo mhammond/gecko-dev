@@ -1,0 +1,2 @@
+copy: taskcluster/docker/android-gradle-build/bin/after.sh
+copyrev: f6c623f4f77046644dabed5ceb5902a67c779152

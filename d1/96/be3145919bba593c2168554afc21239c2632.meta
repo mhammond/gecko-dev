@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/common_video/libyuv/include/libyuv.h
+copyrev: 158e00a9b7df32a757ec6652a94a26162aa845d3

@@ -1,0 +1,2 @@
+copy: taskcluster/ci/legacy/tasks/build.yml
+copyrev: 8daa823fea682b9ae81779ea383b071dd867e932

@@ -1,0 +1,2 @@
+copy: modules/plugin/test/mochitest/Makefile.in
+copyrev: dde8ed4636767c2be06e1671ec2768f066c202fc

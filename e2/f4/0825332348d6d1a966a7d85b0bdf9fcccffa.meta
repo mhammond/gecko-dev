@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/system_wrappers/source/trace_impl_no_op.cc
+copyrev: 03a1f33d8fb77d6b2bd7f20910a1b715e4663221

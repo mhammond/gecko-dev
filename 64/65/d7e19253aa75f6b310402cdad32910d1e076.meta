@@ -1,0 +1,2 @@
+copy: testing/web-platform/mozilla/tests/service-workers/service-worker/resources/xhr.js
+copyrev: 40d4595b415d47a88987f5aab0df667ab7819576

@@ -1,0 +1,2 @@
+copy: mobile/android/base/httpclientandroidlib/impl/DefaultConnectionReuseStrategy.java
+copyrev: 016cd85e3cd38c6fa37ef48c4d20a9148aa89fdd

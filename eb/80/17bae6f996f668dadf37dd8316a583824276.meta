@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/video_capture/main/source/android/video_capture_android.cc
+copyrev: 7eb46add556cb413b6d46a823b53716edf72fd1d

@@ -1,0 +1,2 @@
+copy: mobile/android/base/java/org/mozilla/gecko/util/NonEvictingLruCache.java
+copyrev: d38b2417cf1dd88233b51874a9ab3eb8c697cc47

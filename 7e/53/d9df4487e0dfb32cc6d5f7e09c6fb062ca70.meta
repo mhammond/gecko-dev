@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/builds/haz_linux.yml
+copyrev: b08925f63f9770430dc36738ffce8552edd84daf

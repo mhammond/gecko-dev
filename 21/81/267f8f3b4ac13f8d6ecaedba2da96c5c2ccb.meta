@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/tests/mulet_mochitests.yml
+copyrev: cdad6786a7a3f57641e9f2b1a9da230ff5fc97a4

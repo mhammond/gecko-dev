@@ -1,0 +1,2 @@
+copy: memory/jemalloc/src/include/msvc_compat/stdint.h
+copyrev: 929846fb835e3609dfa9bbdfd449ebe869923410

@@ -1,0 +1,2 @@
+copy: security/sandbox/chromium/sandbox/win/src/named_pipe_policy.cc
+copyrev: 2795902bb4f5568bc5d42942bd4a07132c2a67af

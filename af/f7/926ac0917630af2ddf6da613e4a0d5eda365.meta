@@ -1,0 +1,2 @@
+copy: media/libvpx/vp8/common/x86/loopfilter_block_sse2.asm
+copyrev: e9cc5e097ca22a222516ebea65405df3ced42afe

@@ -1,0 +1,2 @@
+copy: testing/docker/rust-build/build_rust.sh
+copyrev: 22cb847e0782155e49104c70cd9102cff5e3def5

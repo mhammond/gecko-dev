@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_processing/aec/aec_core_sse2.c
+copyrev: 94048dd9b3d6bbb1e7d1659913a6138b46e3d076

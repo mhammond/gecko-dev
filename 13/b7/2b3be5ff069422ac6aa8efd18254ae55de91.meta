@@ -1,0 +1,2 @@
+copy: testing/docker/android-gradle-build/bin/checkout-sources.sh
+copyrev: a4858f33f7e1cbdce28ce670bd26e34e0576617a

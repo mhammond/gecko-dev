@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/tests/fx_linux64_firefox_ui.yml
+copyrev: 1ae0509985f3dac4a6cb5e6d9a0d4cd478b2c365

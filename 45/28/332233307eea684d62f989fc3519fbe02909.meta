@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/builds/android_api_11.yml
+copyrev: 8896f87cd90f1637ccc55ef479008abcca73fa71

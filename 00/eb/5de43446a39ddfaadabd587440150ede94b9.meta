@@ -1,0 +1,2 @@
+copy: testing/marionette/client/marionette/runner/mixins/browsermob-proxy-py/test/test_webdriver.py
+copyrev: d84580bff95d8c53f39af998d017d506a80d44ce

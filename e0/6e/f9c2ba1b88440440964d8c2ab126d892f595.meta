@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_coding/codecs/ilbc/simple_lsf_quant.c
+copyrev: 96a0184c400f59d7580cccf426a0b10f9bf9a8e2

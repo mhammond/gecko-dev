@@ -1,0 +1,2 @@
+copy: security/nss/external_tests/ssl_gtest/databuffer.h
+copyrev: 0717cd1b47530fa5b1e95988edf1813bc8bcdf75

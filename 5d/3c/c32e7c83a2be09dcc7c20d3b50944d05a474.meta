@@ -1,0 +1,2 @@
+copy: toolkit/devtools/server/tests/unit/test_setBreakpoint-on-column-with-no-offsets-at-end-of-line.js
+copyrev: 167f88cdc805b9f8c49f4be76695ff00e8acb627

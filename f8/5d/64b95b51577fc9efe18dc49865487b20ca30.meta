@@ -1,0 +1,2 @@
+copy: netwerk/socket/base/nsSOCKSIOLayer.cpp
+copyrev: a7bce77bce3fed24d0b4b2fcb7be17f568196586

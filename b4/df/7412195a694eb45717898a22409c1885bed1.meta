@@ -1,0 +1,2 @@
+copy: dom/tests/mochitest/indexeddb/test_property_on_window.html
+copyrev: d737d3d18e607bb018eee160cc90ef1eaefa208c

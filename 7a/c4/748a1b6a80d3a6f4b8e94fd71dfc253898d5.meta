@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_coding/codecs/ilbc/smooth_out_data.c
+copyrev: 97350142b3b7ebd95ace029dceabc141d01ead78

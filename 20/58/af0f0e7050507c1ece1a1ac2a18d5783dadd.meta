@@ -1,0 +1,2 @@
+copy: testing/web-platform/mozilla/tests/service-workers/service-worker/resources/fetch-request-no-freshness-headers-iframe.html
+copyrev: a5ab6d93afd48dd1dbd1aaf8a38d84a8c02feb0a

@@ -1,0 +1,2 @@
+copy: security/nss/external_tests/google_test/gtest/scripts/upload_gtest.py
+copyrev: c47b74144f466f22de38efcf870b0ccf53652215

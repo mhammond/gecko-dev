@@ -1,0 +1,2 @@
+copy: security/sandbox/win/src/sync_interception.cc
+copyrev: bb1b5101eb79923d7ee78c81fca8bf2dd6920305

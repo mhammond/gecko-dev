@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/builds/linux64_gcc.yml
+copyrev: 011bb568606c37df87353db9975a8127fff3cd41

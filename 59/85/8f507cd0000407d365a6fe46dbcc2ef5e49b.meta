@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/common_audio/vad/vad_core_unittest.cc
+copyrev: db682832603a7c6428454a47e9c17fcc580123fe

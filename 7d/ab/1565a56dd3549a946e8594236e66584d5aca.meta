@@ -1,0 +1,2 @@
+copy: security/manager/ssl/tests/unit/tlsserver/default-ee.key.keyspec
+copyrev: 3f34dba13999d23e6308389b3f362c860c8959ce

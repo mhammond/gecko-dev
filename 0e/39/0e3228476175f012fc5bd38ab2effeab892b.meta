@@ -1,0 +1,2 @@
+copy: testing/docker/recipes/xvfb.sh
+copyrev: 95b80e42c6dc4c41958df431874792d7a3fbf981

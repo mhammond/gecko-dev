@@ -1,0 +1,2 @@
+copy: security/manager/ssl/src/nsNSSCertValidity.cpp
+copyrev: 245ff99f5da6a08154d4e3bc265e8d86d573a6ba

@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/udp_transport/source/udp_socket_manager_wrapper.cc
+copyrev: 30a04fde0de2129411c52ec55a487e2019cbb3e2

@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/builds/linux64_clobber.yml
+copyrev: f04b2c37bcf3fa8d32fa35a7f0d2705f1c0f8a79

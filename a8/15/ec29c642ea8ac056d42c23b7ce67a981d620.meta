@@ -1,0 +1,2 @@
+copy: dom/base/test/csp/file_CSP_inlinestyle_main_allowed.html^headers^
+copyrev: 12edc89a68a674ece49743067fea93274944d798

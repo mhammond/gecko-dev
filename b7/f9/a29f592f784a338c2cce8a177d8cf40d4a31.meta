@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/builds/b2g_base.yml
+copyrev: 3d0b5606f39258dc4c28aaace39f2bd70d8d92a2

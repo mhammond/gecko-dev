@@ -1,0 +1,2 @@
+copy: xpcom/reflect/xptcall/src/md/unix/xptcstubs_asm_ppc_aix64.s.m4
+copyrev: 468157e5373d27efe3a7082a12d111cc603d4c51

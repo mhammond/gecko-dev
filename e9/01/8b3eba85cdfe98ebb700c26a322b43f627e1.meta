@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/audio_processing/echo_control_mobile_impl.cc
+copyrev: b68d837550dc2554d08a63a12844c0d50e1203c7

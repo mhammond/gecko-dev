@@ -1,0 +1,2 @@
+copy: xpcom/string/src/nsUTF8UtilsSSE2.cpp
+copyrev: b1944c2398f60db4dd48e5a693a6e48e4f0b1699

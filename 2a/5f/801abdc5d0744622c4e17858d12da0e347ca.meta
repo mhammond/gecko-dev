@@ -1,0 +1,2 @@
+copy: taskcluster/docker/tester/REGISTRY
+copyrev: f6e34cb2ef115901be5f3b5a763a4d9aec3b5234

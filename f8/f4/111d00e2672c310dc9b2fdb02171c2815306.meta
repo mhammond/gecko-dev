@@ -1,0 +1,2 @@
+copy: taskcluster/docker/lint/system-setup.sh
+copyrev: 5c3a29522637ed74bc81ab71e9592efb8a34457c

@@ -1,0 +1,2 @@
+copy: testing/mozharness/configs/releases/postrelease_date.py
+copyrev: 71a48db1ba852de307f17df381fe97ca8b7d8918

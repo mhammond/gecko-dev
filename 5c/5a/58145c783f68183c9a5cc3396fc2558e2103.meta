@@ -1,0 +1,2 @@
+copy: testing/taskcluster/tasks/decision/periodic_alder.yml
+copyrev: b6fa772bce441c373ed80db26fe05b86c75c17b9

@@ -1,0 +1,2 @@
+copy: xpcom/tests/TestJemalloc.cpp
+copyrev: d884fe9bb0d46cea55adf458c8eb32312edf2707

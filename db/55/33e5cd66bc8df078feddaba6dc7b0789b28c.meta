@@ -1,0 +1,2 @@
+copy: media/webrtc/trunk/src/modules/video_coding/codecs/vp8/main/test/dual_decoder_test.cc
+copyrev: 8a856ba2650575c25b9bd9966945c14b59126a75
