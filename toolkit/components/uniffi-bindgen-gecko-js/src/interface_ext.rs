@@ -1,0 +1,224 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+License, v. 2.0. If a copy of the MPL was not distributed with this
+* file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+
+//! Extension traits for `UniFFI` interface types.
+//!
+//! This module implements Gecko-JS specific extension traits on these types, which we then use in
+//! the rendering code.
+
+use extend::ext;
+use heck::{CamelCase, MixedCase, SnakeCase};
+use uniffi_bindgen::interface::{ComponentInterface, FFIArgument, FFIFunction, FFIType};
+
+// Note: The code below makes heavy use of the `[extend::ext]` attribute. The basic idea is that
+// for type `Foo`, we create and implement the `FooExt` trait in one code block.  See
+// https://lib.rs/crates/extend for details.
+
+#[ext]
+pub impl ComponentInterface {
+    fn js_module_name(&self) -> String {
+        self.namespace().to_camel_case()
+    }
+
+    fn scaffolding_name(&self) -> String {
+        format!("{}Scaffolding", self.namespace().to_camel_case())
+    }
+}
+
+#[ext]
+pub impl FFIFunction {
+    fn webidl_name(&self) -> String {
+        self.name().to_mixed_case()
+    }
+
+    fn cpp_name(&self) -> String {
+        self.name().to_camel_case()
+    }
+
+    fn rust_name(&self) -> String {
+        self.name().to_snake_case()
+    }
+
+    fn webidl_return_type(&self) -> String {
+        match self.return_type() {
+            Some(t) => t.webidl_type(),
+            None => "void".to_owned(),
+        }
+    }
+
+    fn cpp_return_type(&self) -> String {
+        match self.return_type() {
+            // RustBuffer is handled with an out param instead of an actual return type
+            Some(FFIType::RustBuffer) => "void".to_owned(),
+            Some(t) => t.cpp_type(),
+            None => "void".to_owned(),
+        }
+    }
+
+    fn cpp_error_return_statement(&self) -> String {
+        match self.return_type() {
+            // RustBuffer is handled with an out param instead of an actual return type
+            Some(FFIType::UInt8)
+            | Some(FFIType::Int8)
+            | Some(FFIType::UInt16)
+            | Some(FFIType::Int16)
+            | Some(FFIType::UInt32)
+            | Some(FFIType::Int32)
+            | Some(FFIType::UInt64)
+            | Some(FFIType::Int64)
+            | Some(FFIType::Float32)
+            | Some(FFIType::Float64)
+            | Some(FFIType::RustArcPtr) => "return 0;".into(),
+            None | Some(FFIType::RustBuffer) => "return;".into(),
+            Some(FFIType::ForeignBytes) => unimplemented!("ForeignBytes not supported"),
+            Some(FFIType::ForeignCallback) => unimplemented!("ForeignCallback not supported"),
+        }
+    }
+
+    // Some C++ functions return values via an out param, rather than directly returning it.  For
+    // those functions, we return the out param type name.  Otherwise we return None.
+    fn cpp_out_param_type(&self) -> Option<String> {
+        match self.return_type() {
+            Some(FFIType::RustBuffer) => Some("JS::MutableHandle<JSObject*>".into()),
+            _ => None,
+        }
+    }
+
+    fn rust_return_type(&self) -> String {
+        match self.return_type() {
+            Some(t) => t.rust_type(),
+            None => "void".to_owned(),
+        }
+    }
+
+    fn cpp_arg_list(&self) -> String {
+        let mut parts = vec![format!(
+            "const GlobalObject& {}",
+            self.cpp_global_arg_name()
+        )];
+        for arg in self.arguments() {
+            parts.push(format!("const {}& {}", arg.cpp_type(), arg.cpp_name()));
+        }
+        parts.push(format!(
+            "UniFFIRustCallStatus& {}",
+            self.cpp_status_arg_name()
+        ));
+        if let Some(t) = self.cpp_out_param_type() {
+            parts.push(format!("{} {}", t, self.cpp_out_param_name()));
+        }
+        parts.push(format!("ErrorResult& {}", self.cpp_error_arg_name()));
+        parts.join(", ")
+    }
+
+    fn cpp_global_arg_name(&self) -> &'static str {
+        "aGlobal"
+    }
+
+    fn cpp_status_arg_name(&self) -> &'static str {
+        "status"
+    }
+
+    fn cpp_error_arg_name(&self) -> &'static str {
+        "aErrorResult"
+    }
+
+    fn cpp_out_param_name(&self) -> &'static str {
+        "aRetVal"
+    }
+
+    fn rust_arg_list(&self) -> String {
+        let mut parts: Vec<String> = self.arguments().iter().map(|a| a.rust_type()).collect();
+        parts.push("RustCallStatus*".to_owned());
+        parts.join(", ")
+    }
+
+    // Currently needed because we handle `RustBuffer` specially in the C++ code, I wish we could
+    // rework things to not need this.
+    fn returns_rust_buffer(&self) -> bool {
+        matches!(self.return_type(), Some(FFIType::RustBuffer))
+    }
+}
+
+#[ext]
+pub impl FFIType {
+    fn webidl_type(&self) -> String {
+        match self {
+            FFIType::UInt8 => "octet",
+            FFIType::Int8 => "byte",
+            FFIType::UInt16 => "unsigned short",
+            FFIType::Int16 => "short",
+            FFIType::UInt32 => "unsigned long",
+            FFIType::Int32 => "long",
+            FFIType::UInt64 => "unsigned long long",
+            FFIType::Int64 => "long long",
+            FFIType::Float32 => "float",
+            FFIType::Float64 => "double",
+            FFIType::RustArcPtr => "long long",
+            FFIType::RustBuffer => "ArrayBuffer",
+            FFIType::ForeignBytes => unimplemented!("ForeignBytes not supported"),
+            FFIType::ForeignCallback => unimplemented!("ForeignCallback not supported"),
+        }
+        .to_owned()
+    }
+
+    fn cpp_type(&self) -> String {
+        match self {
+            FFIType::UInt8 => "uint_8",
+            FFIType::Int8 => "int_8",
+            FFIType::UInt16 => "uint_16",
+            FFIType::Int16 => "int_16",
+            FFIType::UInt32 => "uint_32",
+            FFIType::Int32 => "int_32",
+            FFIType::UInt64 => "uint_64",
+            FFIType::Int64 => "int_64",
+            FFIType::Float32 => "float",
+            FFIType::Float64 => "double",
+            FFIType::RustArcPtr => "uint_64",
+            // The JS wrapper code uses `ArrayBuffer` since it has a nice JS API.  We input
+            // `ArrayBuffer` in the C++ code, then convert it to `RustBuffer` before passing to
+            // Rust.
+            FFIType::RustBuffer => "ArrayBuffer",
+            FFIType::ForeignBytes => unimplemented!("ForeignBytes not supported"),
+            FFIType::ForeignCallback => unimplemented!("ForeignCallback not supported"),
+        }
+        .to_owned()
+    }
+
+    fn rust_type(&self) -> String {
+        match self {
+            // As mentioned above, this is mostly the same as `cpp_type()`, except for `RustBuffer`
+            FFIType::RustBuffer => "RustBuffer".to_owned(),
+            _ => self.cpp_type(),
+        }
+    }
+}
+
+#[ext]
+pub impl FFIArgument {
+    fn webidl_name(&self) -> String {
+        self.name().to_mixed_case()
+    }
+
+    fn cpp_name(&self) -> String {
+        self.name().to_mixed_case()
+    }
+
+    fn webidl_type(&self) -> String {
+        self.type_().webidl_type()
+    }
+
+    fn cpp_type(&self) -> String {
+        self.type_().cpp_type()
+    }
+
+    fn rust_type(&self) -> String {
+        self.type_().rust_type()
+    }
+
+    // Currently needed because we handle `RustBuffer` specially in the C++ code, I wish we could
+    // rework things to not need this.
+    fn is_rust_buffer(&self) -> bool {
+        matches!(self.type_(), FFIType::RustBuffer)
+    }
+}

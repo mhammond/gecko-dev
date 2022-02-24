@@ -1,0 +1,19 @@
+[package]
+name = "uniffi-bindgen-gecko-js"
+version = "0.1.0"
+edition = "2018"
+resolver = "1"
+
+[[bin]]
+name = "uniffi-bindgen-gecko-js"
+path = "src/main.rs"
+
+[dependencies]
+anyhow = "1"
+askama = { version = "0.10", default-features = false, features = ["config"] }
+clap = { version = "2", default-features = false }
+extend = "1.1"
+heck = "0.3"
+uniffi_bindgen = { git = "https://github.com/bendk/uniffi-rs.git", branch="seperate-bindings-mvp" }
+serde = "1"
+toml = "0.5"

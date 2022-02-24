@@ -107,6 +107,11 @@ git = "https://github.com/chris-zen/coremidi.git"
 replace-with = "vendored-sources"
 rev = "fc68464b5445caf111e41f643a2e69ccce0b4f83"
 
+[source."https://github.com/bendk/uniffi-rs.git"]
+branch = "seperate-bindings-mvp"
+git = "https://github.com/bendk/uniffi-rs.git"
+replace-with = "vendored-sources"
+
 [source.crates-io]
 replace-with = "vendored-sources"
 

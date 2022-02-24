@@ -24,6 +24,7 @@ members = [
 exclude = [
   # Excluded because it's for a toolchain task
   "build/liblowercase",
+  "toolkit/components/uniffi-bindgen-gecko-js",
 
   # Exclude third-party code vendored into mozilla-central.
   "servo",

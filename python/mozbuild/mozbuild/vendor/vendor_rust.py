@@ -78,6 +78,7 @@ TOLERATED_DUPES = {
     "base64": 3,
     "bytes": 3,
     "cfg-if": 2,
+    "clap": 2,
     "crossbeam-deque": 2,
     "crossbeam-epoch": 2,
     "crossbeam-utils": 3,
@@ -87,9 +88,15 @@ TOLERATED_DUPES = {
     "memmap2": 2,
     "memoffset": 2,
     "mio": 2,
+    "nom": 2,
+    "paste": 2,
     "pin-project-lite": 2,
+    "semver": 2,
+    "semver-parser": 2,
     "target-lexicon": 2,
+    "textwrap": 2,
     "tokio": 2,
+    "toml": 2,
 }
 
 

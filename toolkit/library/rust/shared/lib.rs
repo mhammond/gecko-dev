@@ -5,6 +5,7 @@
 extern crate geckoservo;
 
 extern crate app_services_logger;
+extern crate uniffi_example_geometry;
 #[cfg(feature = "cubeb-remoting")]
 extern crate audioipc2_client;
 #[cfg(feature = "cubeb-remoting")]
@@ -120,4 +121,12 @@ pub extern "C" fn debug_log(target: *const c_char, message: *const c_char) {
         // NOTE: The `info!` log macro is used here because we have the `release_max_level_info` feature set.
         info!(target: CStr::from_ptr(target).to_str().unwrap(), "{}", CStr::from_ptr(message).to_str().unwrap());
     }
+}
+
+// We don't re-export symbols from the uniffi crate by default because of
+// https://github.com/rust-lang/rust/issues/50007.  To work around this, we need to use one of the
+// functions here  This function is not intended to be called at all.
+#[no_mangle]
+pub unsafe extern "C" fn uniffi_extern_hack() {
+    uniffi::extern_symbol_hack();
 }
