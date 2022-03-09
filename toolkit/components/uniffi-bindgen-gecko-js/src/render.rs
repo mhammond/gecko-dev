@@ -50,7 +50,7 @@ struct CPPHeaderScaffoldingTemplate {
 }
 
 #[derive(Template)]
-#[template(path = "Bindings.jsm", escape = "none")]
+#[template(path = "js/wrapper.jsm", escape = "none")]
 struct JSBindingsTemplate {
     ci: ComponentInterface,
 }

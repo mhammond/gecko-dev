@@ -9,7 +9,7 @@ License, v. 2.0. If a copy of the MPL was not distributed with this
 
 use extend::ext;
 use heck::{CamelCase, MixedCase, SnakeCase};
-use uniffi_bindgen::interface::{ComponentInterface, FFIArgument, FFIFunction, FFIType};
+use uniffi_bindgen::interface::{ComponentInterface, FFIArgument, FFIFunction, FFIType, Record, Field, Argument, Type, Function};
 
 // Note: The code below makes heavy use of the `[extend::ext]` attribute. The basic idea is that
 // for type `Foo`, we create and implement the `FooExt` trait in one code block.  See
@@ -38,6 +38,10 @@ pub impl FFIFunction {
 
     fn rust_name(&self) -> String {
         self.name().to_snake_case()
+    }
+
+    fn js_name(&self) -> String {
+        self.name().to_mixed_case()
     }
 
     fn webidl_return_type(&self) -> String {
@@ -220,5 +224,120 @@ pub impl FFIArgument {
     // rework things to not need this.
     fn is_rust_buffer(&self) -> bool {
         matches!(self.type_(), FFIType::RustBuffer)
+    }
+}
+
+
+#[ext]
+pub impl Record {
+    fn js_name(&self) -> String {
+        self.name().to_camel_case()
+    }
+
+    fn js_constructor_field_list(&self) -> String {
+        let mut field_list = String::new();
+        for (idx, field) in self.fields().iter().enumerate() {
+            let field = field.name().to_mixed_case();
+            field_list.push_str(&field);
+            if idx != self.fields().len() - 1 {
+                field_list.push_str(",")
+            }
+        }
+        field_list
+    }
+
+    fn js_var_name(&self) -> String {
+        self.name().to_mixed_case()
+    }
+}
+
+#[ext]
+pub impl Field {
+    fn js_name(&self) -> String {
+        self.name().to_mixed_case()
+    }
+
+    fn write_datastream_fn(&self) -> String {
+        self.type_().write_datastream_fn()
+    }
+
+    fn read_datastream_fn(&self) -> String {
+        self.type_().read_datastream_fn()
+    }
+
+    fn js_ffi_converter(&self) -> String {
+        self.type_().js_ffi_converter()
+    }
+}
+
+#[ext]
+pub impl Argument {
+    fn js_lift_fn_name(&self) -> String {
+        format!("FfiConverter{}", self.type_().js_name())
+    }
+
+    fn js_name(&self) -> String {
+        self.name().to_mixed_case()
+    }
+}
+
+#[ext]
+pub impl Type {
+    fn js_name(&self) -> String {
+        match self {
+            Type::Float64 => "Double".to_string(),
+            Type::Optional(inner) => format!("Optional{}", inner.js_name()),
+            Type::Record(name) => name.to_camel_case(),
+            _ => todo!()
+        }
+    }
+
+    fn write_datastream_fn(&self) -> String {
+        match self {
+            Type::Float64 => format!("FfiConverterDouble.write"),
+            Type::Record(name) => format!("FfiConverter{}.write", name.to_camel_case()),
+            Type::Optional(inner) => format!("FfiConverterOptional{}.write", inner.js_name()),
+            _ => todo!()
+        }
+    }
+
+    fn read_datastream_fn(&self) -> String {
+        match self {
+            Type::Float64 => format!("FfiConverterDouble.read"),
+            Type::Record(name) => format!("FfiConverter{}.read", name.to_camel_case()),
+            Type::Optional(inner) => format!("FfiConverterOptional{}.read", inner.js_name()),
+            _ => todo!()
+        }
+    }
+
+    fn js_ffi_converter(&self) -> String {
+        match self {
+            Type::Float64 => "FfiConverterDouble".to_string(),
+            Type::Record(name) => format!("FfiConverter{}", name.to_camel_case()),
+            Type::Optional(inner) => format!("FfiConverterOptional{}", inner.js_name()),
+            _ => todo!()
+        }
+    }
+}
+
+#[ext]
+pub impl Function {
+    fn js_arg_names(&self) -> String {
+        let mut args = String::new();
+        for (i, arg) in self.arguments().iter().enumerate() {
+            args.push_str(&arg.js_name());
+            if i != self.arguments().len() - 1 {
+                args.push_str(",")
+            }
+        }
+        args
+    }
+
+    fn js_name(&self) -> String  {
+        self.name().to_mixed_case()
+    }
+
+    fn js_ffi_return_type(&self) -> String {
+        self.return_type().map(|t| t.js_ffi_converter()).unwrap_or("".to_string())
     }
 }
