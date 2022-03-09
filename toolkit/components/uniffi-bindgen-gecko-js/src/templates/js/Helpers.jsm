@@ -62,7 +62,7 @@ class ArrayBufferDataStream {
   }
   class UniFFIPanic extends UniFFIError {}
 
-class FFIConverterDouble {
+class FfiConverterDouble {
     static lift(value) {
         return value;
     }

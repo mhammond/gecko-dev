@@ -2,12 +2,14 @@
 function {{ func.js_name() }}({{ func.js_arg_names() }}) {
     return {{ func.js_ffi_return_type() }}.lift(
         makeRustCall((status) => {{ ci.scaffolding_name() }}.{{func.ffi_func().js_name()}}({%- for arg in func.arguments() -%}
-            {{ arg.js_lift_fn_name() }}({{ arg.name() }}),
+            {{ arg.js_lower_fn_name() }}({{ arg.name() }}),
             {%- endfor %}
             status
         )
-    )
+    ))
 }
+
+EXPORTED_SYMBOLS.push("{{ func.js_name() }}");
 
 
 {%- endfor %}

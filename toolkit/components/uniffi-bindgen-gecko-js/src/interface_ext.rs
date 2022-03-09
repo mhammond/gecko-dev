@@ -235,19 +235,7 @@ pub impl Record {
     }
 
     fn js_constructor_field_list(&self) -> String {
-        let mut field_list = String::new();
-        for (idx, field) in self.fields().iter().enumerate() {
-            let field = field.name().to_mixed_case();
-            field_list.push_str(&field);
-            if idx != self.fields().len() - 1 {
-                field_list.push_str(",")
-            }
-        }
-        field_list
-    }
-
-    fn js_var_name(&self) -> String {
-        self.name().to_mixed_case()
+        self.fields().iter().map(|f| f.js_name()).collect::<Vec<String>>().join(",")
     }
 }
 
@@ -272,8 +260,8 @@ pub impl Field {
 
 #[ext]
 pub impl Argument {
-    fn js_lift_fn_name(&self) -> String {
-        format!("FfiConverter{}", self.type_().js_name())
+    fn js_lower_fn_name(&self) -> String {
+        format!("FfiConverter{}.lower", self.type_().js_name())
     }
 
     fn js_name(&self) -> String {
@@ -293,30 +281,15 @@ pub impl Type {
     }
 
     fn write_datastream_fn(&self) -> String {
-        match self {
-            Type::Float64 => format!("FfiConverterDouble.write"),
-            Type::Record(name) => format!("FfiConverter{}.write", name.to_camel_case()),
-            Type::Optional(inner) => format!("FfiConverterOptional{}.write", inner.js_name()),
-            _ => todo!()
-        }
+        format!("{}.write", self.js_ffi_converter())
     }
 
     fn read_datastream_fn(&self) -> String {
-        match self {
-            Type::Float64 => format!("FfiConverterDouble.read"),
-            Type::Record(name) => format!("FfiConverter{}.read", name.to_camel_case()),
-            Type::Optional(inner) => format!("FfiConverterOptional{}.read", inner.js_name()),
-            _ => todo!()
-        }
+       format!("{}.read", self.js_ffi_converter())
     }
 
     fn js_ffi_converter(&self) -> String {
-        match self {
-            Type::Float64 => "FfiConverterDouble".to_string(),
-            Type::Record(name) => format!("FfiConverter{}", name.to_camel_case()),
-            Type::Optional(inner) => format!("FfiConverterOptional{}", inner.js_name()),
-            _ => todo!()
-        }
+        format!("FfiConverter{}", self.js_name())
     }
 }
 

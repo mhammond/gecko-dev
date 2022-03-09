@@ -3,6 +3,9 @@
 
 "use strict";
 
+var EXPORTED_SYMBOLS = [];
+
+
 {% include "Helpers.jsm" %}
 
 

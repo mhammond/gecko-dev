@@ -3,6 +3,9 @@
 
 "use strict";
 
+var EXPORTED_SYMBOLS = [];
+
+
 // Write/Read data to/from an ArrayBuffer
 class ArrayBufferDataStream {
     constructor(arrayBuffer) {
@@ -67,7 +70,7 @@ class ArrayBufferDataStream {
   }
   class UniFFIPanic extends UniFFIError {}
 
-class FFIConverterDouble {
+class FfiConverterDouble {
     static lift(value) {
         return value;
     }
@@ -100,10 +103,11 @@ class FfiConverterPoint {
     static lift(buf) {
         return this.read(new ArrayBufferDataStream(buf));
     }
-    static lower(point) {
-        let buf = new ArrayBuffer(this.computeSize());
-        let dataStream = new ArrayBufferDataStream(buf);
-        this.write(dataStream, point);
+    static lower(value) {
+        const buf = new ArrayBuffer(this.computeSize());
+        const dataStream = new ArrayBufferDataStream(buf);
+        this.write(dataStream, value);
+        return buf;
     }
     static read(dataStream) {
         return new Point(
@@ -111,18 +115,59 @@ class FfiConverterPoint {
             FfiConverterDouble.read(dataStream) 
         );
     }
-    static write(dataStream, point) {
-        FfiConverterDouble.write(dataStream, point.coordX);
-        FfiConverterDouble.write(dataStream, point.coordY);
+    static write(dataStream, value) {
+        FfiConverterDouble.write(dataStream, value.coordX);
+        FfiConverterDouble.write(dataStream, value.coordY);
     }
 
     static computeSize() {
-        const totalSize = 0;
+        let totalSize = 0;
         totalSize += FfiConverterDouble.computeSize();
         totalSize += FfiConverterDouble.computeSize();
         return totalSize
     }
 }
+
+class FfiConverterOptionalPoint {
+    static lift(buf) {
+        return this.read(new ArrayBufferDataStream(buf));
+    }
+
+    static lower(value) {
+        const buf = new ArrayBuffer(this.computeSize());
+        const dataStream = new ArrayBufferDataStream(buf);
+        this.write(dataStream, value);
+        return buf;
+    }
+
+    static read(dataStream) {
+        const code = dataStream.readUint8(0);
+        switch (code) {
+            case 0:
+                return null
+            case 1:
+                return FfiConverterPoint.read(dataStream);
+            default:
+                throw UniFFIError(`Unexpected code: ${code}`);
+        }
+    }
+
+    static write(dataStream, value) {
+        if (!value) {
+            dataStream.writeUint8(0);
+            return buf;
+        }
+        dataStream.writeUint8(1);
+        FfiConverterPoint.write(dataStream, value);
+        return buf;
+    }
+
+    static computeSize() {
+        return 1 + FfiConverterPoint.computeSize();
+    }
+}
+
+EXPORTED_SYMBOLS.push("Point");
 
 class Line {
     constructor(start,end) {
@@ -135,10 +180,11 @@ class FfiConverterLine {
     static lift(buf) {
         return this.read(new ArrayBufferDataStream(buf));
     }
-    static lower(line) {
-        let buf = new ArrayBuffer(this.computeSize());
-        let dataStream = new ArrayBufferDataStream(buf);
-        this.write(dataStream, line);
+    static lower(value) {
+        const buf = new ArrayBuffer(this.computeSize());
+        const dataStream = new ArrayBufferDataStream(buf);
+        this.write(dataStream, value);
+        return buf;
     }
     static read(dataStream) {
         return new Line(
@@ -146,31 +192,76 @@ class FfiConverterLine {
             FfiConverterPoint.read(dataStream) 
         );
     }
-    static write(dataStream, line) {
-        FfiConverterPoint.write(dataStream, line.start);
-        FfiConverterPoint.write(dataStream, line.end);
+    static write(dataStream, value) {
+        FfiConverterPoint.write(dataStream, value.start);
+        FfiConverterPoint.write(dataStream, value.end);
     }
 
     static computeSize() {
-        const totalSize = 0;
+        let totalSize = 0;
         totalSize += FfiConverterPoint.computeSize();
         totalSize += FfiConverterPoint.computeSize();
         return totalSize
     }
 }
 
+class FfiConverterOptionalLine {
+    static lift(buf) {
+        return this.read(new ArrayBufferDataStream(buf));
+    }
+
+    static lower(value) {
+        const buf = new ArrayBuffer(this.computeSize());
+        const dataStream = new ArrayBufferDataStream(buf);
+        this.write(dataStream, value);
+        return buf;
+    }
+
+    static read(dataStream) {
+        const code = dataStream.readUint8(0);
+        switch (code) {
+            case 0:
+                return null
+            case 1:
+                return FfiConverterLine.read(dataStream);
+            default:
+                throw UniFFIError(`Unexpected code: ${code}`);
+        }
+    }
+
+    static write(dataStream, value) {
+        if (!value) {
+            dataStream.writeUint8(0);
+            return buf;
+        }
+        dataStream.writeUint8(1);
+        FfiConverterLine.write(dataStream, value);
+        return buf;
+    }
+
+    static computeSize() {
+        return 1 + FfiConverterLine.computeSize();
+    }
+}
+
+EXPORTED_SYMBOLS.push("Line");
+
 
 function gradient(ln) {
     return FfiConverterDouble.lift(
-        makeRustCall((status) => GeometryScaffolding.geometryEb69Gradient(FfiConverterLine(ln),
+        makeRustCall((status) => GeometryScaffolding.geometryEb69Gradient(FfiConverterLine.lower(ln),
             status
         )
-    )
+    ))
 }
+
+EXPORTED_SYMBOLS.push("gradient");
 function intersection(ln1,ln2) {
     return FfiConverterOptionalPoint.lift(
-        makeRustCall((status) => GeometryScaffolding.geometryEb69Intersection(FfiConverterLine(ln1),FfiConverterLine(ln2),
+        makeRustCall((status) => GeometryScaffolding.geometryEb69Intersection(FfiConverterLine.lower(ln1),FfiConverterLine.lower(ln2),
             status
         )
-    )
+    ))
 }
+
+EXPORTED_SYMBOLS.push("intersection");
