@@ -8,11 +8,9 @@ FINAL_LIBRARY = "xul"
 
 UNIFIED_SOURCES += [
     "OwnedRustBuffer.cpp",
-    "UniFFIRustCallStatus.cpp",
 ]
 
 EXPORTS.mozilla.dom += [
     "OwnedRustBuffer.h",
     "UniFFI.h",
-    "UniFFIRustCallStatus.h",
 ]

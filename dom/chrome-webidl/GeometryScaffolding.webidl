@@ -3,6 +3,8 @@
 
 [ChromeOnly, Exposed=Window]
 namespace GeometryScaffolding {
-  [Throws] double geometryEb69Gradient(ArrayBuffer ln, UniFFIRustCallStatus status);
-  [Throws] ArrayBuffer geometryEb69Intersection(ArrayBuffer ln1, ArrayBuffer ln2, UniFFIRustCallStatus status);
+  [Throws]
+  UniFFIRustCallResult geometryEb69Gradient(ArrayBuffer ln );
+  [Throws]
+  UniFFIRustCallResult geometryEb69Intersection(ArrayBuffer ln1, ArrayBuffer ln2 );
 };

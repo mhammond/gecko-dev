@@ -45,48 +45,16 @@ pub impl FFIFunction {
     }
 
     fn webidl_return_type(&self) -> String {
-        match self.return_type() {
-            Some(t) => t.webidl_type(),
-            None => "void".to_owned(),
-        }
+        "UniFFIRustCallResult".to_string()
     }
 
     fn cpp_return_type(&self) -> String {
-        match self.return_type() {
-            // RustBuffer is handled with an out param instead of an actual return type
-            Some(FFIType::RustBuffer) => "void".to_owned(),
-            Some(t) => t.cpp_type(),
-            None => "void".to_owned(),
-        }
+        // This is always void, since we use an out param
+        "void".to_owned()
     }
 
-    fn cpp_error_return_statement(&self) -> String {
-        match self.return_type() {
-            // RustBuffer is handled with an out param instead of an actual return type
-            Some(FFIType::UInt8)
-            | Some(FFIType::Int8)
-            | Some(FFIType::UInt16)
-            | Some(FFIType::Int16)
-            | Some(FFIType::UInt32)
-            | Some(FFIType::Int32)
-            | Some(FFIType::UInt64)
-            | Some(FFIType::Int64)
-            | Some(FFIType::Float32)
-            | Some(FFIType::Float64)
-            | Some(FFIType::RustArcPtr) => "return 0;".into(),
-            None | Some(FFIType::RustBuffer) => "return;".into(),
-            Some(FFIType::ForeignBytes) => unimplemented!("ForeignBytes not supported"),
-            Some(FFIType::ForeignCallback) => unimplemented!("ForeignCallback not supported"),
-        }
-    }
-
-    // Some C++ functions return values via an out param, rather than directly returning it.  For
-    // those functions, we return the out param type name.  Otherwise we return None.
     fn cpp_out_param_type(&self) -> Option<String> {
-        match self.return_type() {
-            Some(FFIType::RustBuffer) => Some("JS::MutableHandle<JSObject*>".into()),
-            _ => None,
-        }
+        Some("RootedDictionary<UniFFIRustCallResult>&".into())
     }
 
     fn rust_return_type(&self) -> String {
@@ -104,10 +72,6 @@ pub impl FFIFunction {
         for arg in self.arguments() {
             parts.push(format!("const {}& {}", arg.cpp_type(), arg.cpp_name()));
         }
-        parts.push(format!(
-            "UniFFIRustCallStatus& {}",
-            self.cpp_status_arg_name()
-        ));
         if let Some(t) = self.cpp_out_param_type() {
             parts.push(format!("{} {}", t, self.cpp_out_param_name()));
         }
@@ -115,20 +79,19 @@ pub impl FFIFunction {
         parts.join(", ")
     }
 
+    // Names of the extra arguments to our C++ functions.  Prefixed with "aUniFFI" to avoid name
+    // conflicts with the Rust function arguments.
+
     fn cpp_global_arg_name(&self) -> &'static str {
-        "aGlobal"
-    }
-
-    fn cpp_status_arg_name(&self) -> &'static str {
-        "status"
-    }
-
-    fn cpp_error_arg_name(&self) -> &'static str {
-        "aErrorResult"
+        "aUniFFIGlobal"
     }
 
     fn cpp_out_param_name(&self) -> &'static str {
-        "aRetVal"
+        "aUniFFIReturnValue"
+    }
+
+    fn cpp_error_arg_name(&self) -> &'static str {
+        "aUniFFIErrorResult"
     }
 
     fn rust_arg_list(&self) -> String {

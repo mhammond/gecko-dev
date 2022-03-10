@@ -1,3 +1,8 @@
+// UniFFIRustCallResult.code values
+const CALL_SUCCESS = 0;
+const CALL_ERROR = 1;
+const CALL_INTERNAL_ERROR = 2;
+
 // Write/Read data to/from an ArrayBuffer
 class ArrayBufferDataStream {
     constructor(arrayBuffer) {
@@ -28,26 +33,20 @@ class ArrayBufferDataStream {
 
 
   function makeRustCall(callback, liftErrCallback) {
-    let status = new UniFFIRustCallStatus();
-    let rv = callback(status);
-    switch (status.code) {
-      case UniFFIRustCallStatus.CALL_SUCCESS:
-        return rv;
+    let result = callback();
+    switch (result.code) {
+      case CALL_SUCCESS:
+        return result.data
   
-      case UniFFIRustCallStatus.CALL_ERROR:
-        throw liftErrCallback(status.getArrayBuffer());
+      case CALL_ERROR:
+        throw liftErrCallback(result.data);
   
-      case UniFFIRustCallStatus.CALL_PANIC:
-        // Theoretical code to handle Rust panics.  It's theoretical at
-        // this point because gecko sets the panic=abort flag for rustc,
-        // which prevents the UniFFI panic catching code from running.
-  
-        // Try to get the panic message
-        let errorBuf = status.getArrayBuffer();
-        if (errorBuf.byteLength > 0) {
-          throw UniFFIPanic(liftString(errorBuf));
+      case CALL_INTERNAL_ERROR:
+        let message = result.internalErrorMessage;
+        if (message) {
+          throw UniFFIInternalError(message);
         } else {
-          throw UniFFIPanic("Unknown panic in Rust code");
+          throw UniFFIInternalError("Unknown error");
         }
   
       default:
@@ -60,7 +59,7 @@ class ArrayBufferDataStream {
       this.message = message;
     }
   }
-  class UniFFIPanic extends UniFFIError {}
+  class UniFFIInternalError extends UniFFIError {}
 
 class FfiConverterDouble {
     static lift(value) {

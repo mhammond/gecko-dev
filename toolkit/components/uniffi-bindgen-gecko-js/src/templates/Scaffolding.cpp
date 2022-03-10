@@ -9,14 +9,15 @@ namespace mozilla::dom {
 {%- for func in ci.iter_user_ffi_function_definitions() %}
 
 {{ func.cpp_return_type() }} {{ ci.scaffolding_name() }}::{{ func.cpp_name() }}({{ func.cpp_arg_list() }}) {
+
   {#- Perform any argument conversions needed before sending the them to rust #}
 
   {%- for arg in func.arguments() %}
   {%- if arg.is_rust_buffer() %}
   {{ arg.cpp_name() }}.ComputeState();
   OwnedRustBuffer {{ arg.cpp_name() }}Converted({{ arg.cpp_name() }}, {{ func.cpp_error_arg_name() }});
-  if (!{{ arg.cpp_name() }}Converted.isValid()) {
-    {{ func.cpp_error_return_statement() }}
+  if ({{ func.cpp_error_arg_name() }}.Failed()) {
+      return;
   }
   {%- endif %}
   {%- endfor %}
@@ -32,17 +33,19 @@ namespace mozilla::dom {
     {%- endif %}
     {%- endfor %}
     &callStatus);
-  {{ func.cpp_status_arg_name() }}.update(callStatus);
 
-  {%- if func.returns_rust_buffer() %}
-  // Convert result RustBuffer into an ArrayBuffer and set the out param
-  {{ func.cpp_out_param_name() }}.set(JS::RootedObject(
-    {{ func.cpp_global_arg_name() }}.Context(),
-    OwnedRustBuffer(rustResult).intoArrayBuffer({{ func.cpp_global_arg_name() }}.Context())));
-  {%- else %}
-  // Return the result directly
-  return rustResult;
-  {%- endif %}
+  {{ func.cpp_out_param_name() }}.mCode = callStatus.code;
+  if (callStatus.code == uniffi::CALL_SUCCESS) {
+      {%- if func.returns_rust_buffer() %}
+      // Convert result RustBuffer into an ArrayBuffer and set the data field
+      {{ func.cpp_out_param_name() }}.mData.setObjectOrNull(
+        OwnedRustBuffer(rustResult).intoArrayBuffer({{ func.cpp_global_arg_name() }}.Context())
+       );
+      {%- else %}
+      // All other return values (ints, floats, pointers) are handled as a JS number value
+      {{ func.cpp_out_param_name() }}.mData.setNumber(rustResult);
+      {%- endif %}
+  }
 }
 
 {%- endfor %}

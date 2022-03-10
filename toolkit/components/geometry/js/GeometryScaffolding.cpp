@@ -6,11 +6,11 @@
 
 namespace mozilla::dom {
 
-double GeometryScaffolding::GeometryEb69Gradient(const GlobalObject& aGlobal, const ArrayBuffer& ln, UniFFIRustCallStatus& status, ErrorResult& aErrorResult) {
+void GeometryScaffolding::GeometryEb69Gradient(const GlobalObject& aUniFFIGlobal, const ArrayBuffer& ln, RootedDictionary<UniFFIRustCallResult>& aUniFFIReturnValue, ErrorResult& aUniFFIErrorResult) {
   ln.ComputeState();
-  OwnedRustBuffer lnConverted(ln, aErrorResult);
-  if (!lnConverted.isValid()) {
-    return 0;
+  OwnedRustBuffer lnConverted(ln, aUniFFIErrorResult);
+  if (aUniFFIErrorResult.Failed()) {
+      return;
   }
 
   // Call the Rust function
@@ -18,21 +18,24 @@ double GeometryScaffolding::GeometryEb69Gradient(const GlobalObject& aGlobal, co
   double rustResult = geometry_eb69_gradient(
     lnConverted.intoRustBuffer(),
     &callStatus);
-  status.update(callStatus);
-  // Return the result directly
-  return rustResult;
+
+  aUniFFIReturnValue.mCode = callStatus.code;
+  if (callStatus.code == uniffi::CALL_SUCCESS) {
+      // All other return values (ints, floats, pointers) are handled as a JS number value
+      aUniFFIReturnValue.mData.setNumber(rustResult);
+  }
 }
 
-void GeometryScaffolding::GeometryEb69Intersection(const GlobalObject& aGlobal, const ArrayBuffer& ln1, const ArrayBuffer& ln2, UniFFIRustCallStatus& status, JS::MutableHandle<JSObject*> aRetVal, ErrorResult& aErrorResult) {
+void GeometryScaffolding::GeometryEb69Intersection(const GlobalObject& aUniFFIGlobal, const ArrayBuffer& ln1, const ArrayBuffer& ln2, RootedDictionary<UniFFIRustCallResult>& aUniFFIReturnValue, ErrorResult& aUniFFIErrorResult) {
   ln1.ComputeState();
-  OwnedRustBuffer ln1Converted(ln1, aErrorResult);
-  if (!ln1Converted.isValid()) {
-    return;
+  OwnedRustBuffer ln1Converted(ln1, aUniFFIErrorResult);
+  if (aUniFFIErrorResult.Failed()) {
+      return;
   }
   ln2.ComputeState();
-  OwnedRustBuffer ln2Converted(ln2, aErrorResult);
-  if (!ln2Converted.isValid()) {
-    return;
+  OwnedRustBuffer ln2Converted(ln2, aUniFFIErrorResult);
+  if (aUniFFIErrorResult.Failed()) {
+      return;
   }
 
   // Call the Rust function
@@ -41,11 +44,14 @@ void GeometryScaffolding::GeometryEb69Intersection(const GlobalObject& aGlobal, 
     ln1Converted.intoRustBuffer(),
     ln2Converted.intoRustBuffer(),
     &callStatus);
-  status.update(callStatus);
-  // Convert result RustBuffer into an ArrayBuffer and set the out param
-  aRetVal.set(JS::RootedObject(
-    aGlobal.Context(),
-    OwnedRustBuffer(rustResult).intoArrayBuffer(aGlobal.Context())));
+
+  aUniFFIReturnValue.mCode = callStatus.code;
+  if (callStatus.code == uniffi::CALL_SUCCESS) {
+      // Convert result RustBuffer into an ArrayBuffer and set the data field
+      aUniFFIReturnValue.mData.setObjectOrNull(
+        OwnedRustBuffer(rustResult).intoArrayBuffer(aUniFFIGlobal.Context())
+       );
+  }
 }
 
 }  // namespace mozilla::dom

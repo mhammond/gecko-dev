@@ -7,8 +7,9 @@ namespace {{ ci.scaffolding_name() }} {
  #  Each function is annotated with [Throws] to handle low-level UniFFI exceptions.  User errors are handled at the .jsm level.
  -#}
 {%- for func in ci.iter_user_ffi_function_definitions() %}
-  [Throws] {{ func.webidl_return_type() }} {{ func.webidl_name() }}(
-      {%- for arg in func.arguments() %}{{ arg.webidl_type() }} {{ arg.webidl_name() }}, {% endfor -%}
-      UniFFIRustCallStatus status);
+  [Throws]
+  {{ func.webidl_return_type() }} {{ func.webidl_name() }}(
+      {%- for arg in func.arguments() %}{{ arg.webidl_type() }} {{ arg.webidl_name() }}{% if !loop.last %}, {% endif %}{% endfor -%}
+    );
 {%- endfor %}
 };

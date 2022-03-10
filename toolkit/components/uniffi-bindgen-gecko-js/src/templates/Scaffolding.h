@@ -5,8 +5,9 @@
 #define mozilla_dom_{{ ci.scaffolding_name() }}_h
 
 #include "mozilla/ErrorResult.h"
+#include "mozilla/dom/RootedDictionary.h"
 #include "mozilla/dom/TypedArray.h"
-#include "mozilla/dom/UniFFIRustCallStatus.h"
+#include "mozilla/dom/UniFFIRustCallResultBinding.h"
 #include "UniFFI.h"
 
 // Scaffolding functions from UniFFI

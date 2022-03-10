@@ -5,8 +5,9 @@
 #define mozilla_dom_GeometryScaffolding_h
 
 #include "mozilla/ErrorResult.h"
+#include "mozilla/dom/RootedDictionary.h"
 #include "mozilla/dom/TypedArray.h"
-#include "mozilla/dom/UniFFIRustCallStatus.h"
+#include "mozilla/dom/UniFFIRustCallResultBinding.h"
 #include "UniFFI.h"
 
 // Scaffolding functions from UniFFI
@@ -24,9 +25,9 @@ class GlobalObject;
 class GeometryScaffolding {
   public:
 
-  static double GeometryEb69Gradient(const GlobalObject& aGlobal, const ArrayBuffer& ln, UniFFIRustCallStatus& status, ErrorResult& aErrorResult);
+  static void GeometryEb69Gradient(const GlobalObject& aUniFFIGlobal, const ArrayBuffer& ln, RootedDictionary<UniFFIRustCallResult>& aUniFFIReturnValue, ErrorResult& aUniFFIErrorResult);
 
-  static void GeometryEb69Intersection(const GlobalObject& aGlobal, const ArrayBuffer& ln1, const ArrayBuffer& ln2, UniFFIRustCallStatus& status, JS::MutableHandle<JSObject*> aRetVal, ErrorResult& aErrorResult);
+  static void GeometryEb69Intersection(const GlobalObject& aUniFFIGlobal, const ArrayBuffer& ln1, const ArrayBuffer& ln2, RootedDictionary<UniFFIRustCallResult>& aUniFFIReturnValue, ErrorResult& aUniFFIErrorResult);
 };
 
 }  // namespace mozilla::dom

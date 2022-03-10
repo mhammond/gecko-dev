@@ -9,7 +9,14 @@
 
 #include <stdint.h>
 
-// structs/functions from the UniFFI
+namespace uniffi {
+  // Valid values for UniFFIRustCallResult.code and RustCallStatus.code
+  const int8_t CALL_SUCCESS = 0;
+  const int8_t CALL_ERROR = 1;
+  const int8_t CALL_INTERNAL_ERROR = 2;
+}
+
+// structs/functions from UniFFI
 extern "C" {
 struct RustBuffer {
   int32_t capacity;

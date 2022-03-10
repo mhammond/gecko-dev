@@ -16,6 +16,7 @@ OwnedRustBuffer::OwnedRustBuffer(const RustBuffer& aBuf) {
 OwnedRustBuffer::OwnedRustBuffer(const ArrayBuffer& aArrayBuffer,
                                  ErrorResult& aRv) {
   if (aArrayBuffer.Length() > INT32_MAX) {
+    mBuf = { 0 };
     aRv.ThrowRangeError("Input ArrayBuffer is too large");
     return;
   }
@@ -38,6 +39,7 @@ OwnedRustBuffer::OwnedRustBuffer(const ArrayBuffer& aArrayBuffer,
     } else {
       aRv.ThrowUnknownError("Unknown error allocating rust buffer");
     }
+    mBuf = { 0 };
     return;
   }
 
