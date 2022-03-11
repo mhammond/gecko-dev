@@ -53,19 +53,25 @@ OwnedRustBuffer::OwnedRustBuffer(OwnedRustBuffer&& aOther) : mBuf(aOther.mBuf) {
 }
 
 OwnedRustBuffer& OwnedRustBuffer::operator=(OwnedRustBuffer&& aOther) {
+  freeData();
   mBuf = aOther.mBuf;
   aOther.mBuf = RustBuffer{0};
   return *this;
 }
 
-OwnedRustBuffer::~OwnedRustBuffer() {
+void OwnedRustBuffer::freeData() {
   if (isValid()) {
     RustCallStatus status{};
     uniffi_rustbuffer_free(mBuf, &status);
     if (status.code != 0) {
       MOZ_CRASH("Freeing a RustBuffer should never fail");
     }
+    mBuf = {0};
   }
+}
+
+OwnedRustBuffer::~OwnedRustBuffer() {
+  freeData();
 }
 
 RustBuffer OwnedRustBuffer::intoRustBuffer() {

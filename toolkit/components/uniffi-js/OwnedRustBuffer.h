@@ -18,9 +18,11 @@ class OwnedRustBuffer final {
  private:
   RustBuffer mBuf;
 
+  void freeData();
+
  public:
   // The default constructor creates an invalid OwnedRustBuffer
-  OwnedRustBuffer() = default;
+  OwnedRustBuffer() : mBuf { 0 } { };
 
   // Constructor for creating an OwnedRustBuffer from a raw RustBuffer struct
   // that was returned by Rust (therefore we now own the RustBuffer).

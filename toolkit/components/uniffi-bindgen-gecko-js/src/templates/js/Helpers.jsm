@@ -32,28 +32,27 @@ class ArrayBufferDataStream {
   }
 
 
-  function makeRustCall(callback, liftErrCallback) {
-    let result = callback();
+  function handleRustResult(result, liftCallback, liftErrCallback) {
     switch (result.code) {
       case CALL_SUCCESS:
-        return result.data
-  
+        return liftCallback(result.data);
+
       case CALL_ERROR:
         throw liftErrCallback(result.data);
-  
+
       case CALL_INTERNAL_ERROR:
         let message = result.internalErrorMessage;
         if (message) {
-          throw UniFFIInternalError(message);
+          throw new UniFFIInternalError(message);
         } else {
-          throw UniFFIInternalError("Unknown error");
+          throw new UniFFIInternalError("Unknown error");
         }
-  
+
       default:
-        throw UniFFIError(`Unexpected status code: ${status.code}`);
+        throw new UniFFIError(`Unexpected status code: ${result.code}`);
     }
   }
-  
+
   class UniFFIError {
     constructor(message) {
       this.message = message;

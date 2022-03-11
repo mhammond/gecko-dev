@@ -39,28 +39,27 @@ class ArrayBufferDataStream {
   }
 
 
-  function makeRustCall(callback, liftErrCallback) {
-    let result = callback();
+  function handleRustResult(result, liftCallback, liftErrCallback) {
     switch (result.code) {
       case CALL_SUCCESS:
-        return result.data
-  
+        return liftCallback(result.data);
+
       case CALL_ERROR:
         throw liftErrCallback(result.data);
-  
+
       case CALL_INTERNAL_ERROR:
         let message = result.internalErrorMessage;
         if (message) {
-          throw UniFFIInternalError(message);
+          throw new UniFFIInternalError(message);
         } else {
-          throw UniFFIInternalError("Unknown error");
+          throw new UniFFIInternalError("Unknown error");
         }
-  
+
       default:
-        throw UniFFIError(`Unexpected status code: ${status.code}`);
+        throw new UniFFIError(`Unexpected status code: ${result.code}`);
     }
   }
-  
+
   class UniFFIError {
     constructor(message) {
       this.message = message;
@@ -246,18 +245,20 @@ EXPORTED_SYMBOLS.push("Line");
 
 
 function gradient(ln) {
-    return FfiConverterDouble.lift(
-        makeRustCall(() => GeometryScaffolding.geometryEb69Gradient(FfiConverterLine.lower(ln),
-        )
-    ))
+    const liftResult = (result) => FfiConverterDouble.lift(result)
+    const liftError = null; // TODO
+    const callResult = GeometryScaffolding.geometryEb69Gradient(FfiConverterLine.lower(ln),
+    )
+    return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
 }
 
 EXPORTED_SYMBOLS.push("gradient");
 function intersection(ln1,ln2) {
-    return FfiConverterOptionalPoint.lift(
-        makeRustCall(() => GeometryScaffolding.geometryEb69Intersection(FfiConverterLine.lower(ln1),FfiConverterLine.lower(ln2),
-        )
-    ))
+    const liftResult = (result) => FfiConverterOptionalPoint.lift(result)
+    const liftError = null; // TODO
+    const callResult = GeometryScaffolding.geometryEb69Intersection(FfiConverterLine.lower(ln1),FfiConverterLine.lower(ln2),
+    )
+    return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
 }
 
 EXPORTED_SYMBOLS.push("intersection");

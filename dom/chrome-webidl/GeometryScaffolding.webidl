@@ -4,7 +4,7 @@
 [ChromeOnly, Exposed=Window]
 namespace GeometryScaffolding {
   [Throws]
-  UniFFIRustCallResult geometryEb69Gradient(ArrayBuffer ln );
+  Promise<UniFFIRustCallResult> geometryEb69Gradient(ArrayBuffer ln );
   [Throws]
-  UniFFIRustCallResult geometryEb69Intersection(ArrayBuffer ln1, ArrayBuffer ln2 );
+  Promise<UniFFIRustCallResult> geometryEb69Intersection(ArrayBuffer ln1, ArrayBuffer ln2 );
 };

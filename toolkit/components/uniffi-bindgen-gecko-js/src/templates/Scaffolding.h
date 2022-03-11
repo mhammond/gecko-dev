@@ -21,11 +21,15 @@ namespace mozilla::dom {
 
 class GlobalObject;
 
-class {{ ci.scaffolding_name() }} {
+class {{ ci.cpp_class_name() }} {
   public:
   {%- for func in ci.iter_user_ffi_function_definitions() %}
 
-  static {{ func.cpp_return_type() }} {{ func.cpp_name() }}({{ func.cpp_arg_list() }});
+  {%- if func.is_async() %}
+  static already_AddRefed<Promise> {{ func.cpp_name() }}(const GlobalObject& aUniFFIGlobal, {{ func.cpp_input_arg_list() }}, ErrorResult& aUniFFIErrorResult);
+  {%- else %}
+  static void {{ func.cpp_name() }}(const GlobalObject& aUniFFIGlobal, {{ func.cpp_input_arg_list() }}, RootedDictionary<UniFFIRustCallResult>& aUniFFIReturnValue, ErrorResult& aUniFFIErrorResult);
+  {%- endif %}
   {%- endfor %}
 };
 

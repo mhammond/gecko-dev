@@ -24,16 +24,33 @@ pub impl ComponentInterface {
     fn scaffolding_name(&self) -> String {
         format!("{}Scaffolding", self.namespace().to_camel_case())
     }
+
+    fn cpp_class_name(&self) -> String {
+        format!("{}Scaffolding", self.namespace().to_camel_case())
+    }
+
+    fn cpp_namespace(&self) -> String {
+        format!("uniffi::{}", self.namespace().to_snake_case())
+    }
 }
 
 #[ext]
 pub impl FFIFunction {
+    fn is_async(&self) -> bool {
+        // TODO check `uniffi.toml` or some other configuration to figure this out
+        true
+    }
+
     fn webidl_name(&self) -> String {
         self.name().to_mixed_case()
     }
 
     fn cpp_name(&self) -> String {
         self.name().to_camel_case()
+    }
+
+    fn cpp_namespace(&self) -> String {
+        self.name().to_snake_case()
     }
 
     fn rust_name(&self) -> String {
@@ -45,16 +62,11 @@ pub impl FFIFunction {
     }
 
     fn webidl_return_type(&self) -> String {
-        "UniFFIRustCallResult".to_string()
-    }
-
-    fn cpp_return_type(&self) -> String {
-        // This is always void, since we use an out param
-        "void".to_owned()
-    }
-
-    fn cpp_out_param_type(&self) -> Option<String> {
-        Some("RootedDictionary<UniFFIRustCallResult>&".into())
+        if self.is_async() {
+            "Promise<UniFFIRustCallResult>".to_string()
+        } else {
+            "UniFFIRustCallResult".to_string()
+        }
     }
 
     fn rust_return_type(&self) -> String {
@@ -64,34 +76,15 @@ pub impl FFIFunction {
         }
     }
 
-    fn cpp_arg_list(&self) -> String {
-        let mut parts = vec![format!(
-            "const GlobalObject& {}",
-            self.cpp_global_arg_name()
-        )];
-        for arg in self.arguments() {
-            parts.push(format!("const {}& {}", arg.cpp_type(), arg.cpp_name()));
-        }
-        if let Some(t) = self.cpp_out_param_type() {
-            parts.push(format!("{} {}", t, self.cpp_out_param_name()));
-        }
-        parts.push(format!("ErrorResult& {}", self.cpp_error_arg_name()));
-        parts.join(", ")
-    }
-
-    // Names of the extra arguments to our C++ functions.  Prefixed with "aUniFFI" to avoid name
-    // conflicts with the Rust function arguments.
-
-    fn cpp_global_arg_name(&self) -> &'static str {
-        "aUniFFIGlobal"
-    }
-
-    fn cpp_out_param_name(&self) -> &'static str {
-        "aUniFFIReturnValue"
-    }
-
-    fn cpp_error_arg_name(&self) -> &'static str {
-        "aUniFFIErrorResult"
+    // Render our arguments as a comma-separated list, where each type gets passed to our
+    // scaffolding function by the WebIDL code generator.
+    fn cpp_input_arg_list(&self) -> String {
+        self
+            .arguments()
+            .into_iter()
+            .map(|arg| format!("const {}& {}", arg.cpp_type(), arg.cpp_name()))
+            .collect::<Vec<String>>()
+            .join(", ")
     }
 
     fn rust_arg_list(&self) -> String {
@@ -190,7 +183,6 @@ pub impl FFIArgument {
     }
 }
 
-
 #[ext]
 pub impl Record {
     fn js_name(&self) -> String {
@@ -258,6 +250,11 @@ pub impl Type {
 
 #[ext]
 pub impl Function {
+    fn is_async(&self) -> bool {
+        // TODO check `uniffi.toml` or some other configuration to figure this out
+        true
+    }
+
     fn js_arg_names(&self) -> String {
         let mut args = String::new();
         for (i, arg) in self.arguments().iter().enumerate() {
