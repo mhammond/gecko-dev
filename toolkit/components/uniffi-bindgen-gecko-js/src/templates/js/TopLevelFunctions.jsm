@@ -1,10 +1,10 @@
 {%- for func in ci.iter_function_definitions() %}
-function {{ func.js_name() }}({{ func.js_arg_names() }}) {
-    const liftResult = (result) => {{ func.js_ffi_return_type() }}.lift(result)
+function {{ func.nm() }}({{ func.arg_names() }}) {
+    const liftResult = (result) => {{ func.ffi_return_type() }}.lift(result)
     const liftError = null; // TODO
-    const callResult = {{ ci.scaffolding_name() }}.{{func.ffi_func().js_name()}}(
+    const callResult = {{ ci.scaffolding_name() }}.{{func.ffi_func().nm()}}(
         {%- for arg in func.arguments() -%}
-        {{ arg.js_lower_fn_name() }}({{ arg.name() }}),
+        {{ arg.lower_fn_name() }}({{ arg.name() }}),
         {%- endfor %}
     )
     {%- if func.is_async() %}
@@ -14,7 +14,7 @@ function {{ func.js_name() }}({{ func.js_arg_names() }}) {
     {%- endif %}
 }
 
-EXPORTED_SYMBOLS.push("{{ func.js_name() }}");
+EXPORTED_SYMBOLS.push("{{ func.nm() }}");
 
 
 {%- endfor %}

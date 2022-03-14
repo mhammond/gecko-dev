@@ -2,11 +2,11 @@
 // Trust me, you don't want to mess with it!
 
 [ChromeOnly, Exposed=Window]
-namespace {{ ci.scaffolding_name() }} {
+namespace {{ ci.scaffolding_namespace() }} {
 {%- for func in ci.iter_user_ffi_function_definitions() %}
   [Throws]
-  {{ func.webidl_return_type() }} {{ func.webidl_name() }}(
-      {%- for arg in func.arguments() %}{{ arg.webidl_type() }} {{ arg.webidl_name() }}{% if !loop.last %}, {% endif %}{% endfor -%}
+  {{ func.return_type_name() }} {{ func.nm() }}(
+      {%- for arg in func.arguments() %}{{ arg.type_name() }} {{ arg.nm() }}{% if !loop.last %}, {% endif %}{% endfor -%}
     );
 {%- endfor %}
 };

@@ -1,5 +1,5 @@
-use crate::interface_ext::*;
 use anyhow::{bail, Context, Result};
+use heck::CamelCase;
 use serde::Deserialize;
 use std::convert::{TryFrom, TryInto};
 use std::fs::File;
@@ -9,7 +9,6 @@ use uniffi_bindgen::{
     generate_external_bindings, BindingGenerator, ComponentInterface, EmptyBindingGeneratorConfig,
 };
 
-mod interface_ext;
 mod render;
 
 #[derive(Copy, Clone, Debug, Deserialize, PartialEq, PartialOrd, Ord, Eq)]
@@ -69,10 +68,10 @@ impl<'a> GeckoJsBindingGenerator<'a> {
 
     fn calc_filename(&self, ci: &ComponentInterface) -> String {
         match self.mode {
-            Mode::WebIdl => format!("{}.webidl", ci.scaffolding_name()),
-            Mode::CPP => format!("{}.cpp", ci.scaffolding_name()),
-            Mode::CPPHeader => format!("{}.h", ci.scaffolding_name()),
-            Mode::JS => format!("{}.jsm", ci.js_module_name()),
+            Mode::WebIdl => format!("{}Scaffolding.webidl", ci.namespace().to_camel_case()),
+            Mode::CPP => format!("{}Scaffolding.cpp", ci.namespace().to_camel_case()),
+            Mode::CPPHeader => format!("{}Scaffolding.h", ci.namespace().to_camel_case()),
+            Mode::JS => format!("{}.jsm", ci.namespace().to_camel_case()),
         }
     }
 }
@@ -87,7 +86,7 @@ impl<'a> BindingGenerator for GeckoJsBindingGenerator<'a> {
         out_dir: &Path,
     ) -> anyhow::Result<()> {
         let writer = self.create_writer(&ci, out_dir)?;
-        render::Renderer::render_file(self.mode, ci, config, writer)
+        render::render_file(self.mode, ci, config, writer)
     }
 }
 

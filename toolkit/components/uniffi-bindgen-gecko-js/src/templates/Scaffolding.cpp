@@ -3,7 +3,7 @@
 
 #include "nsIGlobalObject.h"
 #include "mozilla/MozPromise.h"
-#include "mozilla/dom/{{ ci.scaffolding_name() }}.h"
+#include "mozilla/dom/{{ ci.scaffolding_class() }}.h"
 #include "mozilla/dom/OwnedRustBuffer.h"
 #include "mozilla/dom/Promise.h"
 
@@ -21,9 +21,9 @@ using namespace mozilla::dom;
 struct Args {
     {%- for arg in func.arguments() %}
     {%- if arg.is_rust_buffer() %}
-    mozilla::dom::OwnedRustBuffer {{ arg.cpp_name() }};
+    mozilla::dom::OwnedRustBuffer {{ arg.nm() }};
     {%- else %}
-    {{ arg.cpp_type() }} {{ arg.cpp_name() }};
+    {{ arg.type_name() }} {{ arg.nm() }};
     {%- endif %}
     {%- endfor %}
 };
@@ -41,20 +41,20 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs({{ func.cpp_input_arg_list() }}, mozilla::ErrorResult& aUniFFIError) {
+Args PrepareArgs({{ func.input_arg_list() }}, mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
 
     {%- for arg in func.arguments() %}
     {%- if arg.is_rust_buffer() %}
-    {{ arg.cpp_name() }}.ComputeState();
-    uniFFIArgs.{{ arg.cpp_name() }} = OwnedRustBuffer({{ arg.cpp_name() }}, aUniFFIError);
+    {{ arg.nm() }}.ComputeState();
+    uniFFIArgs.{{ arg.nm() }} = OwnedRustBuffer({{ arg.nm() }}, aUniFFIError);
     if (aUniFFIError.Failed()) {
         return uniFFIArgs;
     }
     {%- else %}
-    uniFFIArgs.{{ arg.cpp_name() }} = {{ arg.cpp_name() }}
+    uniFFIArgs.{{ arg.nm() }} = {{ arg.nm() }}
     {%- endif %}
     {%- endfor %}
 
@@ -69,9 +69,9 @@ Result Invoke(Args& aArgs) {
     result.mReturnValue = ::{{ func.rust_name() }}(
          {%- for arg in func.arguments() %}
          {%- if arg.is_rust_buffer() %}
-         aArgs.{{ arg.cpp_name() }}.intoRustBuffer(),
+         aArgs.{{ arg.nm() }}.intoRustBuffer(),
          {%- else %}
-         aArgs.{{ arg.cpp_name() }},
+         aArgs.{{ arg.nm() }},
          {%- endif %}
          {%- endfor %}
          &result.mCallStatus
@@ -114,11 +114,11 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace mozilla::dom {
 
 {%- for func in ci.iter_user_ffi_function_definitions() %}
-{%- let fully_qualified_name = "{}::{}"|format(ci.cpp_class_name(), func.cpp_name()) %}
+{%- let fully_qualified_name = "{}::{}"|format(ci.scaffolding_class(), func.nm()) %}
 using namespace {{ ci.cpp_namespace() }};
 
 {%- if func.is_async() %}
-already_AddRefed<Promise> {{ fully_qualified_name }}(const GlobalObject& aUniFFIGlobal, {{ func.cpp_input_arg_list() }}, ErrorResult& aUniFFIError) {
+already_AddRefed<Promise> {{ fully_qualified_name }}(const GlobalObject& aUniFFIGlobal, {{ func.input_arg_list() }}, ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
 
@@ -130,7 +130,7 @@ already_AddRefed<Promise> {{ fully_qualified_name }}(const GlobalObject& aUniFFI
     }
 
     // Prepare arguments to pass to Rust
-    auto uniFFIArgs = {{ func.cpp_namespace() }}::PrepareArgs({% for arg in func.arguments() %}{{ arg.cpp_name() }}, {% endfor %}aUniFFIError);
+    auto uniFFIArgs = {{ func.cpp_namespace() }}::PrepareArgs({% for arg in func.arguments() %}{{ arg.nm() }}, {% endfor %}aUniFFIError);
     if (aUniFFIError.Failed()) {
         return nullptr;
     }
@@ -171,11 +171,11 @@ already_AddRefed<Promise> {{ fully_qualified_name }}(const GlobalObject& aUniFFI
 }
 
 {%- else %}
-void {{ ci.cpp_class_name() }}::{{ func.cpp_name() }}(const GlobalObject& aUniFFIGlobal, {{ func.cpp_input_arg_list() }}, RootedDictionary<UniFFIRustCallResult>& aUniFFIReturnValue, ErrorResult& aUniFFIError) {
+void {{ ci.scaffolding_class() }}::{{ func.nm() }}(const GlobalObject& aUniFFIGlobal, {{ func.input_arg_list() }}, RootedDictionary<UniFFIRustCallResult>& aUniFFIReturnValue, ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
 
-    auto uniFFIArgs = {{ func.cpp_namespace() }}::PrepareArgs({% for arg in func.arguments() %}{{ arg.cpp_name() }}, {% endfor %}aUniFFIError);
+    auto uniFFIArgs = {{ func.cpp_namespace() }}::PrepareArgs({% for arg in func.arguments() %}{{ arg.nm() }}, {% endfor %}aUniFFIError);
     if (aUniFFIError.Failed()) {
         return;
     }

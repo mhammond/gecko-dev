@@ -1,15 +1,15 @@
 
 {%- for record in ci.iter_record_definitions() %}
 
-class {{ record.js_name() }} {
-    constructor({{ record.js_constructor_field_list() }}) {
+class {{ record.nm() }} {
+    constructor({{ record.constructor_field_list() }}) {
         {%- for field in record.fields() %}
-        this.{{field.js_name()}} = {{ field.js_name() }};
+        this.{{field.nm()}} = {{ field.nm() }};
         {%- endfor %}
     }
 }
 
-class FfiConverter{{ record.js_name() }} {
+class FfiConverter{{ record.nm() }} {
     static lift(buf) {
         return this.read(new ArrayBufferDataStream(buf));
     }
@@ -20,7 +20,7 @@ class FfiConverter{{ record.js_name() }} {
         return buf;
     }
     static read(dataStream) {
-        return new {{record.js_name()}}(
+        return new {{record.nm()}}(
             {%- for field in record.fields() %}
             {{ field.read_datastream_fn() }}(dataStream)
            {%- if !loop.last %}, {% endif %}
@@ -29,20 +29,20 @@ class FfiConverter{{ record.js_name() }} {
     }
     static write(dataStream, value) {
         {%- for field in record.fields() %}
-        {{ field.write_datastream_fn() }}(dataStream, value.{{field.js_name()}});
+        {{ field.write_datastream_fn() }}(dataStream, value.{{field.nm()}});
         {%- endfor %}
     }
 
     static computeSize() {
         let totalSize = 0;
         {%- for field in record.fields() %}
-        totalSize += {{ field.js_ffi_converter() }}.computeSize();
+        totalSize += {{ field.ffi_converter() }}.computeSize();
         {%- endfor %}
         return totalSize
     }
 }
 
-class FfiConverterOptional{{ record.js_name() }} {
+class FfiConverterOptional{{ record.nm() }} {
     static lift(buf) {
         return this.read(new ArrayBufferDataStream(buf));
     }
@@ -60,7 +60,7 @@ class FfiConverterOptional{{ record.js_name() }} {
             case 0:
                 return null
             case 1:
-                return FfiConverter{{record.js_name()}}.read(dataStream);
+                return FfiConverter{{record.nm()}}.read(dataStream);
             default:
                 throw UniFFIError(`Unexpected code: ${code}`);
         }
@@ -72,15 +72,15 @@ class FfiConverterOptional{{ record.js_name() }} {
             return buf;
         }
         dataStream.writeUint8(1);
-        FfiConverter{{record.js_name()}}.write(dataStream, value);
+        FfiConverter{{record.nm()}}.write(dataStream, value);
         return buf;
     }
 
     static computeSize() {
-        return 1 + FfiConverter{{record.js_name()}}.computeSize();
+        return 1 + FfiConverter{{record.nm()}}.computeSize();
     }
 }
 
-EXPORTED_SYMBOLS.push("{{ record.js_name() }}");
+EXPORTED_SYMBOLS.push("{{ record.nm() }}");
 
 {%- endfor %}
