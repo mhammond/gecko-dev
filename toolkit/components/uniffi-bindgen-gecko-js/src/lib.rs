@@ -1,7 +1,10 @@
-use anyhow::{bail, Result};
+use crate::interface_ext::*;
+use anyhow::{bail, Context, Result};
 use serde::Deserialize;
 use std::convert::{TryFrom, TryInto};
-use std::path::Path;
+use std::fs::File;
+use std::io::Write;
+use std::path::{Path, PathBuf};
 use uniffi_bindgen::{
     generate_external_bindings, BindingGenerator, ComponentInterface, EmptyBindingGeneratorConfig,
 };
@@ -31,20 +34,50 @@ impl TryFrom<&str> for Mode {
     }
 }
 
-struct GeckoJsBindingGenerator {
+struct GeckoJsBindingGenerator<'a> {
     mode: Mode,
+    args: clap::ArgMatches<'a>,
 }
 
 // Use EmptyBindingGeneratorConfig for now
 type Config = EmptyBindingGeneratorConfig;
 
-impl GeckoJsBindingGenerator {
-    fn new(mode: Mode) -> Self {
-        Self { mode }
+impl<'a> GeckoJsBindingGenerator<'a> {
+    fn new(mode: Mode, args: clap::ArgMatches<'a>) -> Self {
+        Self { mode, args }
+    }
+
+    fn create_writer(
+        &self,
+        ci: &ComponentInterface,
+        out_dir: &Path,
+    ) -> anyhow::Result<Box<dyn Write>> {
+        if self.args.is_present("stdout") {
+            return Ok(Box::new(std::io::stdout()))
+        }
+
+        let out_path = if self.args.is_present("out") {
+            PathBuf::from(self.args.value_of("out").unwrap())
+        } else {
+            let filename = self.calc_filename(ci);
+            out_dir.join(&filename)
+        };
+        Ok(Box::new(
+            File::create(&out_path).context(format!("Failed to create {:?}", out_path.file_name()))?,
+        ))
+    }
+
+    fn calc_filename(&self, ci: &ComponentInterface) -> String {
+        match self.mode {
+            Mode::WebIdl => format!("{}.webidl", ci.scaffolding_name()),
+            Mode::CPP => format!("{}.cpp", ci.scaffolding_name()),
+            Mode::CPPHeader => format!("{}.h", ci.scaffolding_name()),
+            Mode::JS => format!("{}.jsm", ci.js_module_name()),
+        }
     }
 }
 
-impl BindingGenerator for GeckoJsBindingGenerator {
+impl<'a> BindingGenerator for GeckoJsBindingGenerator<'a> {
     type Config = Config;
 
     fn write_bindings(
@@ -53,7 +86,8 @@ impl BindingGenerator for GeckoJsBindingGenerator {
         config: Self::Config,
         out_dir: &Path,
     ) -> anyhow::Result<()> {
-        render::Renderer::render_file(self.mode, ci, config, out_dir)
+        let writer = self.create_writer(&ci, out_dir)?;
+        render::Renderer::render_file(self.mode, ci, config, writer)
     }
 }
 
@@ -61,6 +95,17 @@ pub fn run_main() -> Result<()> {
     let matches = clap::App::new("uniffi-bindgen-gecko-js")
         .about("Scaffolding and bindings generator for Rust")
         .version(clap::crate_version!())
+        .arg(
+            clap::Arg::with_name("stdout")
+                .long("--stdout")
+                .help("Write output to STDOUT"),
+        )
+        .arg(
+            clap::Arg::with_name("out")
+                .long("--out")
+                .takes_value(true)
+                .help("Write output to path"),
+        )
         .arg(
             clap::Arg::with_name("out_dir")
                 .long("--out-dir")
@@ -77,8 +122,10 @@ pub fn run_main() -> Result<()> {
             .help("Path to the optional uniffi config file. If not provided, uniffi-bindgen will try to guess it from the UDL's file location.")
         )
         .get_matches();
-    let binding_generator =
-        GeckoJsBindingGenerator::new(matches.value_of("mode").unwrap().try_into()?);
+    let binding_generator = GeckoJsBindingGenerator::new(
+        matches.value_of("mode").unwrap().try_into()?,
+        matches.clone(),
+    );
     generate_external_bindings(
         binding_generator,
         matches.value_of_os("udl_file").unwrap(), // Required

@@ -1,4 +1,4 @@
-// Hand-written JS targeted at the Geometry app.
+// hard-coded for geometry - no templates yet!
 
 "use strict";
 
@@ -93,20 +93,24 @@ class ArrayBufferDataStream {
   // TODO: write more methods
 }
 
-let FFIConverterDouble = {
-  lift: (value) => value,
-  lower: (value) => value,
+class FFIConverterDouble {
+  static lift(value) {
+    return value;
+  }
+  static lower(value) {
+    return value;
+  }
 }
 
-let FFIConverterLine = {
-  lift: function(buf) {
+class FFIConverterLine {
+  static lift(buf) {
     let dataStream = new ArrayBufferDataStream(buf);
     return new Line(
       FFIConverterPoint.read(dataStream),
       FFIConverterPoint.read(dataStream),
     );
-  },
-  lower: function(line) {
+  }
+  static lower(line) {
       // TODO: calculate the array size
       let buf = new ArrayBuffer(32);
 
@@ -117,8 +121,8 @@ let FFIConverterLine = {
   }
 }
 
-let FFIConverterOptionalPoint = {
-  lift: function(buf) {
+class FFIConverterOptionalPoint {
+  static lift(buf) {
     let dataStream = new ArrayBufferDataStream(buf);
     let code = dataStream.readUint8(0);
     switch (code) {
@@ -129,28 +133,28 @@ let FFIConverterOptionalPoint = {
         default:
           throw UniFFIError(`Unexpected code: ${code}`);
     }
-  },
+  }
 }
 
-let FFIConverterPoint = {
-  lift: function(buf) {
+class FFIConverterPoint {
+  static lift(buf) {
     return this.read(new ArrayBufferDataStream(buf));
-  },
-  lower: function(point) {
+  }
+  static lower(point) {
     // TODO: calculate the array size
     let buf = new ArrayBuffer(16);
     let dataStream = new ArrayBufferDataStream(buf);
     this.write(dataStream, point);
     return buf;
-  },
-  read: function(dataStream) {
+  }
+  static read(dataStream) {
     return new Point(
         dataStream.readFloat64(),
         dataStream.readFloat64(),
     );
-  },
-  write: function(dataStream, point) {
+  }
+  static write(dataStream, point) {
     dataStream.writeFloat64(point.coord_x);
     dataStream.writeFloat64(point.coord_y);
-  },
+  }
 }

@@ -49,7 +49,6 @@ WEBIDL_FILES = [
     "Flex.webidl",
     "Fluent.webidl",
     "FrameLoader.webidl",
-    "GeometryScaffolding.webidl",
     "HeapSnapshot.webidl",
     "InspectorUtils.webidl",
     "IteratorResult.webidl",
@@ -84,6 +83,12 @@ WEBIDL_FILES = [
     "XULTextElement.webidl",
     "XULTreeElement.webidl",
 ]
+
+if CONFIG["ENABLE_TESTS"]:
+    # UniFFI examples and fixtures for testing
+    WEBIDL_FILES.extend([
+        "GeometryScaffolding.webidl",
+    ])
 
 if CONFIG["MOZ_PLACES"]:
     WEBIDL_FILES += [
