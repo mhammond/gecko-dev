@@ -8,6 +8,6 @@ var EXPORTED_SYMBOLS = [];
 {% include "Helpers.jsm" %}
 
 
-{% include "Records.jsm" %}
+{% include "Types.jsm" %}
 
 {% include "TopLevelFunctions.jsm" %}
