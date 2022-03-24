@@ -92,7 +92,7 @@ pub impl Type {
     }
 
     fn ffi_converter(&self) -> String {
-        format!("FfiConverter{}", self.nm())
+        format!("FfiConverter{}", self.canonical_name().to_camel_case())
     }
 }
 

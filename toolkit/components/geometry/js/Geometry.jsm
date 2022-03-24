@@ -13,158 +13,148 @@ const CALL_INTERNAL_ERROR = 2;
 // Write/Read data to/from an ArrayBuffer
 class ArrayBufferDataStream {
     constructor(arrayBuffer) {
-      this.dataView = new DataView(arrayBuffer);
-      this.pos = 0;
+        this.dataView = new DataView(arrayBuffer);
+        this.pos = 0;
     }
-  
-    readFloat64() {
-      let rv = this.dataView.getFloat64(this.pos);
-      this.pos += 8;
-      return rv;
-    }
-  
-    writeFloat64(value) {
-      this.dataView.setFloat64(this.pos, value);
-      this.pos += 8;
-    }
-  
+
     readUint8() {
-      let rv = this.dataView.getUint8(this.pos);
-      this.pos += 1;
-      return rv;
+        let rv = this.dataView.getUint8(this.pos);
+        this.pos += 1;
+        return rv;
     }
-  
-  
+
+    readUint16() {
+        let rv = this.dataView.getUint16(this.pos);
+        this.pos += 2;
+        return rv;
+    }
+
+    readUint32() {
+        let rv = this.dataView.getUint32(this.pos);
+        this.pos += 4;
+        return rv;
+    }
+
+    readUint64() {
+        let rv = this.dataView.getUint64(this.pos);
+        this.pos += 8;
+        return rv;
+    }
+
+    readInt8() {
+        let rv = this.dataView.getInt8(this.pos);
+        this.pos += 1;
+        return rv;
+    }
+
+    readInt16() {
+        let rv = this.dataView.getInt16(this.pos);
+        this.pos += 2;
+        return rv;
+    }
+
+    readInt32() {
+        let rv = this.dataView.getInt32(this.pos);
+        this.pos += 4;
+        return rv;
+    }
+
+    readInt64() {
+        let rv = this.dataView.getInt64(this.pos);
+        this.pos += 8;
+        return rv;
+    }
+
+    readFloat32() {
+        let rv = this.dataView.getFloat32(this.pos);
+        this.pos += 4;
+        return rv;
+    }
+
+    writeFloat32(value) {
+        this.dataView.setFloat32(this.pos, value);
+        this.pos += 4;
+    }
+
+    readFloat64() {
+        let rv = this.dataView.getFloat64(this.pos);
+        this.pos += 8;
+        return rv;
+    }
+
+    writeFloat64(value) {
+        this.dataView.setFloat64(this.pos, value);
+        this.pos += 8;
+    }
+
+
+
     // TODO: write more methods
-  }
+}
 
 
-  function handleRustResult(result, liftCallback, liftErrCallback) {
+function handleRustResult(result, liftCallback, liftErrCallback) {
     switch (result.code) {
-      case CALL_SUCCESS:
-        return liftCallback(result.data);
+        case CALL_SUCCESS:
+            return liftCallback(result.data);
 
-      case CALL_ERROR:
-        throw liftErrCallback(result.data);
+        case CALL_ERROR:
+            throw liftErrCallback(result.data);
 
-      case CALL_INTERNAL_ERROR:
-        let message = result.internalErrorMessage;
-        if (message) {
-          throw new UniFFIInternalError(message);
-        } else {
-          throw new UniFFIInternalError("Unknown error");
-        }
+        case CALL_INTERNAL_ERROR:
+            let message = result.internalErrorMessage;
+            if (message) {
+                throw new UniFFIInternalError(message);
+            } else {
+                throw new UniFFIInternalError("Unknown error");
+            }
 
-      default:
-        throw new UniFFIError(`Unexpected status code: ${result.code}`);
+        default:
+            throw new UniFFIError(`Unexpected status code: ${result.code}`);
     }
-  }
+}
 
-  class UniFFIError {
+class UniFFIError {
     constructor(message) {
-      this.message = message;
+        this.message = message;
     }
-  }
-  class UniFFIInternalError extends UniFFIError {}
+}
 
-class FfiConverterDouble {
+class UniFFIInternalError extends UniFFIError {}
+
+// Base class for FFI converters that lift/lower by reading/writing to an ArrayBuffer
+class FfiConverterArrayBuffer {
+    static lift(buf) {
+        return this.read(new ArrayBufferDataStream(buf));
+    }
+
+    static lower(value) {
+        const buf = new ArrayBuffer(this.computeSize());
+        const dataStream = new ArrayBufferDataStream(buf);
+        this.write(dataStream, value);
+        return buf;
+    }
+}
+
+
+class FfiConverterF64 {
+    static computeSize() {
+        return 8;
+    }
     static lift(value) {
         return value;
     }
     static lower(value) {
         return value;
     }
-    static computeSize() {
-        return 8;
+    static write(dataStream, value) {
+        dataStream.writeFloat64(value)
     }
-    static write(dataStream, double) {
-        dataStream.writeFloat64(double)
-    }
-
     static read(dataStream) {
         return dataStream.readFloat64()
     }
 }
 
-
-
-
-class Point {
-    constructor(coordX,coordY) {
-        this.coordX = coordX;
-        this.coordY = coordY;
-    }
-}
-
-class FfiConverterPoint {
-    static lift(buf) {
-        return this.read(new ArrayBufferDataStream(buf));
-    }
-    static lower(value) {
-        const buf = new ArrayBuffer(this.computeSize());
-        const dataStream = new ArrayBufferDataStream(buf);
-        this.write(dataStream, value);
-        return buf;
-    }
-    static read(dataStream) {
-        return new Point(
-            FfiConverterDouble.read(dataStream), 
-            FfiConverterDouble.read(dataStream) 
-        );
-    }
-    static write(dataStream, value) {
-        FfiConverterDouble.write(dataStream, value.coordX);
-        FfiConverterDouble.write(dataStream, value.coordY);
-    }
-
-    static computeSize() {
-        let totalSize = 0;
-        totalSize += FfiConverterDouble.computeSize();
-        totalSize += FfiConverterDouble.computeSize();
-        return totalSize
-    }
-}
-
-class FfiConverterOptionalPoint {
-    static lift(buf) {
-        return this.read(new ArrayBufferDataStream(buf));
-    }
-
-    static lower(value) {
-        const buf = new ArrayBuffer(this.computeSize());
-        const dataStream = new ArrayBufferDataStream(buf);
-        this.write(dataStream, value);
-        return buf;
-    }
-
-    static read(dataStream) {
-        const code = dataStream.readUint8(0);
-        switch (code) {
-            case 0:
-                return null
-            case 1:
-                return FfiConverterPoint.read(dataStream);
-            default:
-                throw UniFFIError(`Unexpected code: ${code}`);
-        }
-    }
-
-    static write(dataStream, value) {
-        if (!value) {
-            dataStream.writeUint8(0);
-            return buf;
-        }
-        dataStream.writeUint8(1);
-        FfiConverterPoint.write(dataStream, value);
-        return buf;
-    }
-
-    static computeSize() {
-        return 1 + FfiConverterPoint.computeSize();
-    }
-}
-
-EXPORTED_SYMBOLS.push("Point");
 
 class Line {
     constructor(start,end) {
@@ -173,7 +163,7 @@ class Line {
     }
 }
 
-class FfiConverterLine {
+class FfiConverterTypeLine {
     static lift(buf) {
         return this.read(new ArrayBufferDataStream(buf));
     }
@@ -185,42 +175,69 @@ class FfiConverterLine {
     }
     static read(dataStream) {
         return new Line(
-            FfiConverterPoint.read(dataStream), 
-            FfiConverterPoint.read(dataStream) 
+            FfiConverterTypePoint.read(dataStream), 
+            FfiConverterTypePoint.read(dataStream) 
         );
     }
     static write(dataStream, value) {
-        FfiConverterPoint.write(dataStream, value.start);
-        FfiConverterPoint.write(dataStream, value.end);
+        FfiConverterTypePoint.write(dataStream, value.start);
+        FfiConverterTypePoint.write(dataStream, value.end);
     }
 
     static computeSize() {
         let totalSize = 0;
-        totalSize += FfiConverterPoint.computeSize();
-        totalSize += FfiConverterPoint.computeSize();
+        totalSize += FfiConverterTypePoint.computeSize();
+        totalSize += FfiConverterTypePoint.computeSize();
         return totalSize
     }
 }
 
-class FfiConverterOptionalLine {
+EXPORTED_SYMBOLS.push("Line");
+
+class Point {
+    constructor(coordX,coordY) {
+        this.coordX = coordX;
+        this.coordY = coordY;
+    }
+}
+
+class FfiConverterTypePoint {
     static lift(buf) {
         return this.read(new ArrayBufferDataStream(buf));
     }
-
     static lower(value) {
         const buf = new ArrayBuffer(this.computeSize());
         const dataStream = new ArrayBufferDataStream(buf);
         this.write(dataStream, value);
         return buf;
     }
+    static read(dataStream) {
+        return new Point(
+            FfiConverterF64.read(dataStream), 
+            FfiConverterF64.read(dataStream) 
+        );
+    }
+    static write(dataStream, value) {
+        FfiConverterF64.write(dataStream, value.coordX);
+        FfiConverterF64.write(dataStream, value.coordY);
+    }
 
+    static computeSize() {
+        let totalSize = 0;
+        totalSize += FfiConverterF64.computeSize();
+        totalSize += FfiConverterF64.computeSize();
+        return totalSize
+    }
+}
+
+EXPORTED_SYMBOLS.push("Point");class FfiConverterOptionalTypePoint extends FfiConverterArrayBuffer {
     static read(dataStream) {
         const code = dataStream.readUint8(0);
         switch (code) {
             case 0:
                 return null
             case 1:
-                return FfiConverterLine.read(dataStream);
+                return FfiConverterTypePoint.read(dataStream)
             default:
                 throw UniFFIError(`Unexpected code: ${code}`);
         }
@@ -229,34 +246,30 @@ class FfiConverterOptionalLine {
     static write(dataStream, value) {
         if (!value) {
             dataStream.writeUint8(0);
-            return buf;
         }
         dataStream.writeUint8(1);
-        FfiConverterLine.write(dataStream, value);
-        return buf;
+        FfiConverterTypePoint.write(dataStream, value)
     }
 
     static computeSize() {
-        return 1 + FfiConverterLine.computeSize();
+        return 1 + FfiConverterTypePoint.computeSize()
     }
 }
 
-EXPORTED_SYMBOLS.push("Line");
-
 
 function gradient(ln) {
-    const liftResult = (result) => FfiConverterDouble.lift(result)
+    const liftResult = (result) => FfiConverterF64.lift(result)
     const liftError = null; // TODO
-    const callResult = GeometryScaffolding.geometryEb69Gradient(FfiConverterLine.lower(ln),
+    const callResult = GeometryScaffolding.geometryEb69Gradient(FfiConverterTypeLine.lower(ln),
     )
     return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
 }
 
 EXPORTED_SYMBOLS.push("gradient");
 function intersection(ln1,ln2) {
-    const liftResult = (result) => FfiConverterOptionalPoint.lift(result)
+    const liftResult = (result) => FfiConverterOptionalTypePoint.lift(result)
     const liftError = null; // TODO
-    const callResult = GeometryScaffolding.geometryEb69Intersection(FfiConverterLine.lower(ln1),FfiConverterLine.lower(ln2),
+    const callResult = GeometryScaffolding.geometryEb69Intersection(FfiConverterTypeLine.lower(ln1),FfiConverterTypeLine.lower(ln2),
     )
     return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
 }
