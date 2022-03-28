@@ -13,7 +13,7 @@ class {{ ffi_converter }} {
         return this.read(new ArrayBufferDataStream(buf));
     }
     static lower(value) {
-        const buf = new ArrayBuffer(this.computeSize());
+        const buf = new ArrayBuffer(this.computeSize(value));
         const dataStream = new ArrayBufferDataStream(buf);
         this.write(dataStream, value);
         return buf;
@@ -32,10 +32,10 @@ class {{ ffi_converter }} {
         {%- endfor %}
     }
 
-    static computeSize() {
+    static computeSize(value) {
         let totalSize = 0;
         {%- for field in record.fields() %}
-        totalSize += {{ field.ffi_converter() }}.computeSize();
+        totalSize += {{ field.ffi_converter() }}.computeSize(value.{{ field.nm() }});
         {%- endfor %}
         return totalSize
     }

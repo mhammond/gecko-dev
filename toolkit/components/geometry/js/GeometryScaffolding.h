@@ -12,9 +12,13 @@
 
 // Scaffolding functions from UniFFI
 extern "C" {
-double geometry_eb69_gradient(RustBuffer, RustCallStatus*);
+double geometry_f18a_gradient(RustBuffer, RustCallStatus*);
 
-RustBuffer geometry_eb69_intersection(RustBuffer, RustBuffer, RustCallStatus*);
+RustBuffer geometry_f18a_intersection(RustBuffer, RustBuffer, RustCallStatus*);
+
+RustBuffer geometry_f18a_string_round(RustBuffer, RustCallStatus*);
+
+RustBuffer geometry_f18a_string_record_round(RustBuffer, RustCallStatus*);
 
 }
 
@@ -24,8 +28,10 @@ class GlobalObject;
 
 class GeometryScaffolding {
   public:
-  static already_AddRefed<Promise> GeometryEb69Gradient(const GlobalObject& aUniFFIGlobal, const ArrayBuffer& ln, ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> GeometryEb69Intersection(const GlobalObject& aUniFFIGlobal, const ArrayBuffer& ln1, const ArrayBuffer& ln2, ErrorResult& aUniFFIErrorResult);
+  static already_AddRefed<Promise> GeometryF18aGradient(const GlobalObject& aUniFFIGlobal, const ArrayBuffer& ln, ErrorResult& aUniFFIErrorResult);
+  static already_AddRefed<Promise> GeometryF18aIntersection(const GlobalObject& aUniFFIGlobal, const ArrayBuffer& ln1, const ArrayBuffer& ln2, ErrorResult& aUniFFIErrorResult);
+  static already_AddRefed<Promise> GeometryF18aStringRound(const GlobalObject& aUniFFIGlobal, const ArrayBuffer& s, ErrorResult& aUniFFIErrorResult);
+  static already_AddRefed<Promise> GeometryF18aStringRecordRound(const GlobalObject& aUniFFIGlobal, const ArrayBuffer& p, ErrorResult& aUniFFIErrorResult);
 };
 
 }  // namespace mozilla::dom

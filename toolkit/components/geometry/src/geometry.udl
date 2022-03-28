@@ -2,11 +2,16 @@
 namespace geometry {
   double gradient(Line ln);
   Point? intersection(Line ln1, Line ln2);
+
+  string string_round(string s);
+
+  Point string_record_round(Point p);
 };
 
 dictionary Point {
   double coord_x;
   double coord_y;
+  string description;
 };
 
 dictionary Line {

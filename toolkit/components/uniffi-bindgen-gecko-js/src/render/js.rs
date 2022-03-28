@@ -79,6 +79,7 @@ pub impl Type {
             Type::Float64 => "Double".to_string(),
             Type::Optional(inner) => format!("Optional{}", inner.nm()),
             Type::Record(name) => name.to_camel_case(),
+            Type::String => "String".to_string(),
             _ => todo!()
         }
     }

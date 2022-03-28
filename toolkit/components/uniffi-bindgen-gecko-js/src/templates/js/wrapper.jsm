@@ -7,7 +7,6 @@ var EXPORTED_SYMBOLS = [];
 
 {% include "Helpers.jsm" %}
 
-
 {% include "Types.jsm" %}
 
 {% include "TopLevelFunctions.jsm" %}

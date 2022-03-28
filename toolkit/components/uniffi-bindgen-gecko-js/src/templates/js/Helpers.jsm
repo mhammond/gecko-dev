@@ -80,8 +80,30 @@ class ArrayBufferDataStream {
         this.pos += 8;
     }
 
+    writeUint8(value) {
+      this.dataView.setUint8(this.pos, value);
+      this.pos += 1;
+    }
 
+    writeUint32(value) {
+      this.dataView.setUint32(this.pos, value);
+      this.pos += 4;
+    }
+  
+    writeUint8Array(value) {
+      for (const byte of value) {
+        this.writeUint8(byte);
+      }
+    }
 
+    readUint8Array(len) {
+      const arr = new Uint8Array(len);
+      for (let i = 0; i < len; i++) {
+        arr[i] = this.readUint8();
+      }
+      return arr;
+    }
+  
     // TODO: write more methods
 }
 

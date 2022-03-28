@@ -10,6 +10,7 @@ const EPSILON: f64 = 0.0001f64;
 pub struct Point {
     coord_x: f64,
     coord_y: f64,
+    description: String,
 }
 
 #[derive(Debug, Clone)]
@@ -41,7 +42,18 @@ pub fn intersection(ln1: Line, ln2: Line) -> Option<Point> {
     Some(Point {
         coord_x: x,
         coord_y: g1 * x + z1,
+        description: Default::default(),
     })
+}
+
+pub fn string_round(s: String) -> String {
+    std::str::from_utf8(s.as_bytes()).unwrap();
+    s
+}
+
+pub fn string_record_round(p: Point) -> Point {
+    std::str::from_utf8(p.description.as_bytes()).unwrap();
+    p
 }
 
 include!(concat!(env!("OUT_DIR"), "/geometry.uniffi.rs"));

@@ -87,8 +87,30 @@ class ArrayBufferDataStream {
         this.pos += 8;
     }
 
+    writeUint8(value) {
+      this.dataView.setUint8(this.pos, value);
+      this.pos += 1;
+    }
 
+    writeUint32(value) {
+      this.dataView.setUint32(this.pos, value);
+      this.pos += 4;
+    }
+  
+    writeUint8Array(value) {
+      for (const byte of value) {
+        this.writeUint8(byte);
+      }
+    }
 
+    readUint8Array(len) {
+      const arr = new Uint8Array(len);
+      for (let i = 0; i < len; i++) {
+        arr[i] = this.readUint8();
+      }
+      return arr;
+    }
+  
     // TODO: write more methods
 }
 
@@ -136,7 +158,6 @@ class FfiConverterArrayBuffer {
     }
 }
 
-
 class FfiConverterF64 {
     static computeSize() {
         return 8;
@@ -155,6 +176,36 @@ class FfiConverterF64 {
     }
 }
 
+class FfiConverterString {
+    static lift(buf) {
+        const decoder = new TextDecoder();
+        const utf8Arr = new Uint8Array(buf);
+        return decoder.decode(utf8Arr);
+    }
+    static lower(value) {
+        const encoder = new TextEncoder();
+        return encoder.encode(value).buffer;
+    }
+
+    static write(dataStream, value) {
+        const encoder = new TextEncoder();
+        const utf8Arr = encoder.encode(value);
+        dataStream.writeUint32(utf8Arr.length);
+        dataStream.writeUint8Array(utf8Arr);
+    }
+
+    static read(dataStream) {
+        const decoder = new TextDecoder();
+        const size = dataStream.readUint32();
+        const utf8Arr = dataStream.readUint8Array(size);
+        return decoder.decode(utf8Arr);
+    }
+
+    static computeSize(value) {
+        const encoder = new TextEncoder();
+        return 4 + encoder.encode(value).length
+    }
+}
 
 class Line {
     constructor(start,end) {
@@ -168,7 +219,7 @@ class FfiConverterTypeLine {
         return this.read(new ArrayBufferDataStream(buf));
     }
     static lower(value) {
-        const buf = new ArrayBuffer(this.computeSize());
+        const buf = new ArrayBuffer(this.computeSize(value));
         const dataStream = new ArrayBufferDataStream(buf);
         this.write(dataStream, value);
         return buf;
@@ -184,10 +235,10 @@ class FfiConverterTypeLine {
         FfiConverterTypePoint.write(dataStream, value.end);
     }
 
-    static computeSize() {
+    static computeSize(value) {
         let totalSize = 0;
-        totalSize += FfiConverterTypePoint.computeSize();
-        totalSize += FfiConverterTypePoint.computeSize();
+        totalSize += FfiConverterTypePoint.computeSize(value.start);
+        totalSize += FfiConverterTypePoint.computeSize(value.end);
         return totalSize
     }
 }
@@ -195,9 +246,10 @@ class FfiConverterTypeLine {
 EXPORTED_SYMBOLS.push("Line");
 
 class Point {
-    constructor(coordX,coordY) {
+    constructor(coordX,coordY,description) {
         this.coordX = coordX;
         this.coordY = coordY;
+        this.description = description;
     }
 }
 
@@ -206,7 +258,7 @@ class FfiConverterTypePoint {
         return this.read(new ArrayBufferDataStream(buf));
     }
     static lower(value) {
-        const buf = new ArrayBuffer(this.computeSize());
+        const buf = new ArrayBuffer(this.computeSize(value));
         const dataStream = new ArrayBufferDataStream(buf);
         this.write(dataStream, value);
         return buf;
@@ -214,18 +266,21 @@ class FfiConverterTypePoint {
     static read(dataStream) {
         return new Point(
             FfiConverterF64.read(dataStream), 
-            FfiConverterF64.read(dataStream) 
+            FfiConverterF64.read(dataStream), 
+            FfiConverterString.read(dataStream) 
         );
     }
     static write(dataStream, value) {
         FfiConverterF64.write(dataStream, value.coordX);
         FfiConverterF64.write(dataStream, value.coordY);
+        FfiConverterString.write(dataStream, value.description);
     }
 
-    static computeSize() {
+    static computeSize(value) {
         let totalSize = 0;
-        totalSize += FfiConverterF64.computeSize();
-        totalSize += FfiConverterF64.computeSize();
+        totalSize += FfiConverterF64.computeSize(value.coordX);
+        totalSize += FfiConverterF64.computeSize(value.coordY);
+        totalSize += FfiConverterString.computeSize(value.description);
         return totalSize
     }
 }
@@ -260,7 +315,7 @@ EXPORTED_SYMBOLS.push("Point");class FfiConverterOptionalTypePoint extends FfiCo
 function gradient(ln) {
     const liftResult = (result) => FfiConverterF64.lift(result)
     const liftError = null; // TODO
-    const callResult = GeometryScaffolding.geometryEb69Gradient(FfiConverterTypeLine.lower(ln),
+    const callResult = GeometryScaffolding.geometryF18aGradient(FfiConverterTypeLine.lower(ln),
     )
     return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
 }
@@ -269,9 +324,27 @@ EXPORTED_SYMBOLS.push("gradient");
 function intersection(ln1,ln2) {
     const liftResult = (result) => FfiConverterOptionalTypePoint.lift(result)
     const liftError = null; // TODO
-    const callResult = GeometryScaffolding.geometryEb69Intersection(FfiConverterTypeLine.lower(ln1),FfiConverterTypeLine.lower(ln2),
+    const callResult = GeometryScaffolding.geometryF18aIntersection(FfiConverterTypeLine.lower(ln1),FfiConverterTypeLine.lower(ln2),
     )
     return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
 }
 
 EXPORTED_SYMBOLS.push("intersection");
+function stringRound(s) {
+    const liftResult = (result) => FfiConverterString.lift(result)
+    const liftError = null; // TODO
+    const callResult = GeometryScaffolding.geometryF18aStringRound(FfiConverterString.lower(s),
+    )
+    return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+}
+
+EXPORTED_SYMBOLS.push("stringRound");
+function stringRecordRound(p) {
+    const liftResult = (result) => FfiConverterTypePoint.lift(result)
+    const liftError = null; // TODO
+    const callResult = GeometryScaffolding.geometryF18aStringRecordRound(FfiConverterTypePoint.lower(p),
+    )
+    return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+}
+
+EXPORTED_SYMBOLS.push("stringRecordRound");

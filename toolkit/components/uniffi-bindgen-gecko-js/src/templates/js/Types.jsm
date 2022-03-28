@@ -38,6 +38,9 @@
 {%- when Type::Optional with (inner) %}
 {%- include "Optional.jsm" %}
 
+{%- when Type::String %}
+{%- include "String.jsm" %}
+
 {%- else %}
 {# TODO implement the other types #}
 
