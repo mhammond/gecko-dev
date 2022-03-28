@@ -85,17 +85,17 @@ pub impl FFIType {
     // Type for the WebIDL implementation method
     fn type_name(&self) -> String {
         match self {
-            FFIType::UInt8 => "uint_8",
-            FFIType::Int8 => "int_8",
-            FFIType::UInt16 => "uint_16",
-            FFIType::Int16 => "int_16",
-            FFIType::UInt32 => "uint_32",
-            FFIType::Int32 => "int_32",
-            FFIType::UInt64 => "uint_64",
-            FFIType::Int64 => "int_64",
+            FFIType::UInt8 => "uint8_t",
+            FFIType::Int8 => "int8_t",
+            FFIType::UInt16 => "uint16_t",
+            FFIType::Int16 => "int16_t",
+            FFIType::UInt32 => "uint32_t",
+            FFIType::Int32 => "int32_t",
+            FFIType::UInt64 => "uint64_t",
+            FFIType::Int64 => "int64_t",
             FFIType::Float32 => "float",
             FFIType::Float64 => "double",
-            FFIType::RustArcPtr => "uint_64",
+            FFIType::RustArcPtr => "uint64_t",
             // The JS wrapper code uses `ArrayBuffer` since it has a nice JS API.  We input
             // `ArrayBuffer` in the C++ code, then convert it to `RustBuffer` before passing to
             // Rust.

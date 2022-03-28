@@ -144,7 +144,7 @@ class FfiConverterArrayBuffer {
     }
 
     static lower(value) {
-        const buf = new ArrayBuffer(this.computeSize());
+        const buf = new ArrayBuffer(this.computeSize(value));
         const dataStream = new ArrayBufferDataStream(buf);
         this.write(dataStream, value);
         return buf;

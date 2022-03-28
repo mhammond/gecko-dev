@@ -54,7 +54,7 @@ Args PrepareArgs({{ func.input_arg_list() }}, mozilla::ErrorResult& aUniFFIError
         return uniFFIArgs;
     }
     {%- else %}
-    uniFFIArgs.{{ arg.nm() }} = {{ arg.nm() }}
+    uniFFIArgs.{{ arg.nm() }} = {{ arg.nm() }};
     {%- endif %}
     {%- endfor %}
 
