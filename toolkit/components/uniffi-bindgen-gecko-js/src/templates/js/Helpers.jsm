@@ -89,24 +89,34 @@ class ArrayBufferDataStream {
       this.dataView.setUint32(this.pos, value);
       this.pos += 4;
     }
-  
-    writeUint8Array(value) {
-      for (const byte of value) {
-        this.writeUint8(byte);
+
+    writeString(value) {
+      const encoder = new TextEncoder();
+      // Note: in order to efficiently write this data, we first write the
+      // string data, reserving 4 bytes for the size.
+      const dest = new Uint8Array(this.dataView.buffer, this.pos + 4);
+      const encodeResult = encoder.encodeInto(value, dest);
+      if (encodeResult.read != value.length) {
+        throw new UniFFIError(
+            "writeString: out of space when writing to ArrayBuffer.  Did the computeSize() method returned the wrong result?"
+        );
       }
+      const size = encodeResult.written;
+      // Next, go back and write the size before the string data
+      this.dataView.setUint32(this.pos, size);
+      // Finally, advance our position past both the size and string data
+      this.pos += size + 4;
     }
 
-    readUint8Array(len) {
-      const arr = new Uint8Array(len);
-      for (let i = 0; i < len; i++) {
-        arr[i] = this.readUint8();
-      }
-      return arr;
+    readString() {
+      const decoder = new TextDecoder();
+      const size = this.readUint32();
+      const source = new Uint8Array(this.dataView.buffer, this.pos, size)
+      const value = decoder.decode(source);
+      this.pos += size;
+      return value;
     }
-  
-    // TODO: write more methods
 }
-
 
 function handleRustResult(result, liftCallback, liftErrCallback) {
     switch (result.code) {

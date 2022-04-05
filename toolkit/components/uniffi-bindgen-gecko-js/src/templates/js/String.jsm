@@ -12,17 +12,11 @@ class FfiConverterString {
     }
 
     static write(dataStream, value) {
-        const encoder = new TextEncoder();
-        const utf8Arr = encoder.encode(value);
-        dataStream.writeUint32(utf8Arr.length);
-        dataStream.writeUint8Array(utf8Arr);
+        dataStream.writeString(value);
     }
 
     static read(dataStream) {
-        const decoder = new TextDecoder();
-        const size = dataStream.readUint32();
-        const utf8Arr = dataStream.readUint8Array(size);
-        return decoder.decode(utf8Arr);
+        return dataStream.readString();
     }
 
     static computeSize(value) {
