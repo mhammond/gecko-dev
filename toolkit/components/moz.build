@@ -42,7 +42,6 @@ DIRS += [
     "finalizationwitness",
     "find",
     "forgetaboutsite",
-    "geometry",
     "glean",
     "httpsonlyerror",
     "jsoncpp/src/lib_json",
@@ -146,3 +145,6 @@ if CONFIG["COMPILE_ENVIRONMENT"]:
     EXPORTS.mozilla += [
         "!regex_ffi_generated.h",
     ]
+
+if CONFIG["MOZ_UNIFFI_FIXTURES"]:
+    DIRS += ["uniffi-bindgen-gecko-js/fixtures"]

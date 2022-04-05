@@ -14,11 +14,11 @@ from mach.decorators import (
 )
 
 generated_bindings_paths = {
-    'toolkit/components/geometry/src/geometry.udl': {
+    'third_party/rust/uniffi-example-geometry/src/geometry.udl': {
         'webidl': 'dom/chrome-webidl/GeometryScaffolding.webidl',
-        'cpp-header': 'toolkit/components/geometry/js/GeometryScaffolding.h',
-        'cpp': 'toolkit/components/geometry/js/GeometryScaffolding.cpp',
-        'js': 'toolkit/components/geometry/js/Geometry.jsm',
+        'cpp-header': 'toolkit/components/uniffi-bindgen-gecko-js/fixtures/GeometryScaffolding.h',
+        'cpp': 'toolkit/components/uniffi-bindgen-gecko-js/fixtures/GeometryScaffolding.cpp',
+        'js': 'toolkit/components/uniffi-bindgen-gecko-js/fixtures/Geometry.jsm',
     },
 }
 
@@ -27,7 +27,7 @@ def build_uniffi_bindgen_gecko_js(command_context):
     print("Building uniffi-bindgen-gecko-js")
     subprocess.check_call(['cargo', 'build', '--release'], cwd=uniffi_root)
     print()
-    return os.path.join(uniffi_root, 'target', 'release', 'uniffi-bindgen-gecko-js')
+    return os.path.join(command_context.topsrcdir, 'target', 'release', 'uniffi-bindgen-gecko-js')
 
 @Command(
     "uniffi",

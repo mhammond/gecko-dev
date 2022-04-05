@@ -4,6 +4,7 @@
 
 use anyhow::Result;
 use askama::Template;
+use std::borrow::Borrow;
 
 use super::interface::*;
 use heck::SnakeCase;
@@ -24,7 +25,6 @@ impl<'a> RustScaffolding<'a> {
 }
 mod filters {
     use super::*;
-    use std::fmt;
 
     pub fn type_rs(type_: &Type) -> Result<String, askama::Error> {
         Ok(match type_ {
@@ -48,8 +48,8 @@ mod filters {
             Type::Optional(t) => format!("std::option::Option<{}>", type_rs(t)?),
             Type::Sequence(t) => format!("std::vec::Vec<{}>", type_rs(t)?),
             Type::Map(t) => format!("std::collections::HashMap<String, {}>", type_rs(t)?),
+            Type::Custom { name, .. } => name.clone(),
             Type::External { .. } => panic!("External types coming to a uniffi near you soon!"),
-            Type::Custom { .. } => panic!("Wrapped types coming to a uniffi near you soon!"),
         })
     }
 
@@ -133,7 +133,7 @@ mod filters {
     }
 
     // Turns a `crate-name` into the `crate_name` the .rs code needs to specify.
-    pub fn crate_name_rs(nm: &dyn fmt::Display) -> Result<String, askama::Error> {
+    pub fn crate_name_rs(nm: &str) -> Result<String, askama::Error> {
         Ok(nm.to_string().to_snake_case())
     }
 }

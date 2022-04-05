@@ -47,7 +47,7 @@ const URLENCODE_SET: &AsciiSet = &URLENCODE_STRICT_SET.remove(b'/');
 // Askama or should refer to a local `filters` module. It should contain all the
 // filters shipped with Askama, even the optional ones (since optional inclusion
 // in the const vector based on features seems impossible right now).
-pub const BUILT_IN_FILTERS: [&str; 26] = [
+pub const BUILT_IN_FILTERS: &[&str] = &[
     "abs",
     "capitalize",
     "center",
@@ -62,6 +62,7 @@ pub const BUILT_IN_FILTERS: [&str; 26] = [
     "join",
     "linebreaks",
     "linebreaksbr",
+    "paragraphbreaks",
     "lower",
     "lowercase",
     "safe",
@@ -72,8 +73,10 @@ pub const BUILT_IN_FILTERS: [&str; 26] = [
     "urlencode",
     "urlencode_strict",
     "wordcount",
-    "json", // Optional feature; reserve the name anyway
-    "yaml", // Optional feature; reserve the name anyway
+    // optional features, reserve the names anyway:
+    "json",
+    "markdown",
+    "yaml",
 ];
 
 /// Marks a string (or other `Display` type) as safe
@@ -105,15 +108,6 @@ where
     Ok(MarkupDisplay::new_unsafe(v, e))
 }
 
-/// Alias for the `escape()` filter
-pub fn e<E, T>(e: E, v: T) -> Result<MarkupDisplay<E, T>>
-where
-    E: Escaper,
-    T: fmt::Display,
-{
-    escape(e, v)
-}
-
 #[cfg(feature = "humansize")]
 /// Returns adequate string representation (in KB, ..) of number of bytes
 pub fn filesizeformat<B: FileSize>(b: &B) -> Result<String> {
@@ -122,7 +116,7 @@ pub fn filesizeformat<B: FileSize>(b: &B) -> Result<String> {
 }
 
 #[cfg(feature = "percent-encoding")]
-/// Percent-encodes the argument for safe use in URI; does not encode `/`
+/// Percent-encodes the argument for safe use in URI; does not encode `/`.
 ///
 /// This should be safe for all parts of URI (paths segments, query keys, query
 /// values). In the rare case that the server can't deal with forward slashes in
@@ -134,20 +128,20 @@ pub fn filesizeformat<B: FileSize>(b: &B) -> Result<String> {
 /// with the exception of `/`.
 ///
 /// ```none,ignore
-/// <a href="/metro{{ "/stations/Château d'Eau" | urlencode }}">Station</a>
-/// <a href="/page?text={{ "look, unicode/emojis ✨" | urlencode }}">Page</a>
+/// <a href="/metro{{ "/stations/Château d'Eau"|urlencode }}">Station</a>
+/// <a href="/page?text={{ "look, unicode/emojis ✨"|urlencode }}">Page</a>
 /// ```
 ///
 /// To encode `/` as well, see [`urlencode_strict`](./fn.urlencode_strict.html).
 ///
 /// [`urlencode_strict`]: ./fn.urlencode_strict.html
-pub fn urlencode(s: &dyn fmt::Display) -> Result<String> {
+pub fn urlencode<T: fmt::Display>(s: T) -> Result<String> {
     let s = s.to_string();
     Ok(utf8_percent_encode(&s, URLENCODE_SET).to_string())
 }
 
 #[cfg(feature = "percent-encoding")]
-/// Percent-encodes the argument for safe use in URI; encodes `/`
+/// Percent-encodes the argument for safe use in URI; encodes `/`.
 ///
 /// Use this filter for encoding query keys and values in the rare case that
 /// the server can't process them unencoded.
@@ -157,11 +151,11 @@ pub fn urlencode(s: &dyn fmt::Display) -> Result<String> {
 /// as specified by [RFC3986](https://tools.ietf.org/html/rfc3986#section-2.3).
 ///
 /// ```none,ignore
-/// <a href="/page?text={{ "look, unicode/emojis ✨" | urlencode_strict }}">Page</a>
+/// <a href="/page?text={{ "look, unicode/emojis ✨"|urlencode_strict }}">Page</a>
 /// ```
 ///
 /// If you want to preserve `/`, see [`urlencode`](./fn.urlencode.html).
-pub fn urlencode_strict(s: &dyn fmt::Display) -> Result<String> {
+pub fn urlencode_strict<T: fmt::Display>(s: T) -> Result<String> {
     let s = s.to_string();
     Ok(utf8_percent_encode(&s, URLENCODE_STRICT_SET).to_string())
 }
@@ -199,65 +193,75 @@ pub fn format() {}
 ///
 /// A single newline becomes an HTML line break `<br>` and a new line
 /// followed by a blank line becomes a paragraph break `<p>`.
-pub fn linebreaks(s: &dyn fmt::Display) -> Result<String> {
+pub fn linebreaks<T: fmt::Display>(s: T) -> Result<String> {
     let s = s.to_string();
-    let linebroken = s.replace("\n\n", "</p><p>").replace("\n", "<br/>");
+    let linebroken = s.replace("\n\n", "</p><p>").replace('\n', "<br/>");
 
     Ok(format!("<p>{}</p>", linebroken))
 }
 
 /// Converts all newlines in a piece of plain text to HTML line breaks
-pub fn linebreaksbr(s: &dyn fmt::Display) -> Result<String> {
+pub fn linebreaksbr<T: fmt::Display>(s: T) -> Result<String> {
     let s = s.to_string();
-    Ok(s.replace("\n", "<br/>"))
+    Ok(s.replace('\n', "<br/>"))
+}
+
+/// Replaces only paragraph breaks in plain text with appropriate HTML
+///
+/// A new line followed by a blank line becomes a paragraph break `<p>`.
+/// Paragraph tags only wrap content; empty paragraphs are removed.
+/// No `<br/>` tags are added.
+pub fn paragraphbreaks<T: fmt::Display>(s: T) -> Result<String> {
+    let s = s.to_string();
+    let linebroken = s.replace("\n\n", "</p><p>").replace("<p></p>", "");
+
+    Ok(format!("<p>{}</p>", linebroken))
 }
 
 /// Converts to lowercase
-pub fn lower(s: &dyn fmt::Display) -> Result<String> {
+pub fn lower<T: fmt::Display>(s: T) -> Result<String> {
     let s = s.to_string();
     Ok(s.to_lowercase())
 }
 
 /// Alias for the `lower()` filter
-pub fn lowercase(s: &dyn fmt::Display) -> Result<String> {
+pub fn lowercase<T: fmt::Display>(s: T) -> Result<String> {
     lower(s)
 }
 
 /// Converts to uppercase
-pub fn upper(s: &dyn fmt::Display) -> Result<String> {
+pub fn upper<T: fmt::Display>(s: T) -> Result<String> {
     let s = s.to_string();
     Ok(s.to_uppercase())
 }
 
 /// Alias for the `upper()` filter
-pub fn uppercase(s: &dyn fmt::Display) -> Result<String> {
+pub fn uppercase<T: fmt::Display>(s: T) -> Result<String> {
     upper(s)
 }
 
 /// Strip leading and trailing whitespace
-pub fn trim(s: &dyn fmt::Display) -> Result<String> {
+pub fn trim<T: fmt::Display>(s: T) -> Result<String> {
     let s = s.to_string();
     Ok(s.trim().to_owned())
 }
 
 /// Limit string length, appends '...' if truncated
-pub fn truncate(s: &dyn fmt::Display, len: &usize) -> Result<String> {
+pub fn truncate<T: fmt::Display>(s: T, len: usize) -> Result<String> {
     let mut s = s.to_string();
-    if s.len() <= *len {
-        Ok(s)
-    } else {
-        let mut real_len = *len;
+    if s.len() > len {
+        let mut real_len = len;
         while !s.is_char_boundary(real_len) {
             real_len += 1;
         }
         s.truncate(real_len);
         s.push_str("...");
-        Ok(s)
     }
+    Ok(s)
 }
 
 /// Indent lines with `width` spaces
-pub fn indent(s: &dyn fmt::Display, width: &usize) -> Result<String> {
+pub fn indent<T: fmt::Display>(s: T, width: usize) -> Result<String> {
     let s = s.to_string();
 
     let mut indented = String::new();
@@ -266,7 +270,7 @@ pub fn indent(s: &dyn fmt::Display, width: &usize) -> Result<String> {
         indented.push(c);
 
         if c == '\n' && i < s.len() - 1 {
-            for _ in 0..*width {
+            for _ in 0..width {
                 indented.push(' ');
             }
         }
@@ -277,7 +281,7 @@ pub fn indent(s: &dyn fmt::Display, width: &usize) -> Result<String> {
 
 #[cfg(feature = "num-traits")]
 /// Casts number to f64
-pub fn into_f64<T>(number: &T) -> Result<f64>
+pub fn into_f64<T>(number: T) -> Result<f64>
 where
     T: NumCast,
 {
@@ -286,7 +290,7 @@ where
 
 #[cfg(feature = "num-traits")]
 /// Casts number to isize
-pub fn into_isize<T>(number: &T) -> Result<isize>
+pub fn into_isize<T>(number: T) -> Result<isize>
 where
     T: NumCast,
 {
@@ -325,7 +329,7 @@ where
 }
 
 /// Capitalize a value. The first character will be uppercase, all others lowercase.
-pub fn capitalize(s: &dyn fmt::Display) -> Result<String> {
+pub fn capitalize<T: fmt::Display>(s: T) -> Result<String> {
     let mut s = s.to_string();
 
     match s.get_mut(0..1).map(|s| {
@@ -371,10 +375,58 @@ pub fn center(src: &dyn fmt::Display, dst_len: usize) -> Result<String> {
 }
 
 /// Count the words in that string
-pub fn wordcount(s: &dyn fmt::Display) -> Result<usize> {
+pub fn wordcount<T: fmt::Display>(s: T) -> Result<usize> {
     let s = s.to_string();
 
     Ok(s.split_whitespace().count())
+}
+
+#[cfg(feature = "markdown")]
+pub fn markdown<E, S>(
+    e: E,
+    s: S,
+    options: Option<&comrak::ComrakOptions>,
+) -> Result<MarkupDisplay<E, String>>
+where
+    E: Escaper,
+    S: AsRef<str>,
+{
+    use comrak::{
+        markdown_to_html, ComrakExtensionOptions, ComrakOptions, ComrakParseOptions,
+        ComrakRenderOptions,
+    };
+
+    const DEFAULT_OPTIONS: ComrakOptions = ComrakOptions {
+        extension: ComrakExtensionOptions {
+            strikethrough: true,
+            tagfilter: true,
+            table: true,
+            autolink: true,
+            // default:
+            tasklist: false,
+            superscript: false,
+            header_ids: None,
+            footnotes: false,
+            description_lists: false,
+            front_matter_delimiter: None,
+        },
+        parse: ComrakParseOptions {
+            // default:
+            smart: false,
+            default_info_string: None,
+        },
+        render: ComrakRenderOptions {
+            unsafe_: false,
+            escape: true,
+            // default:
+            hardbreaks: false,
+            github_pre_lang: false,
+            width: 0,
+        },
+    };
+
+    let s = markdown_to_html(s.as_ref(), options.unwrap_or(&DEFAULT_OPTIONS));
+    Ok(MarkupDisplay::new_safe(s, e))
 }
 
 #[cfg(test)]
@@ -458,6 +510,22 @@ mod tests {
     }
 
     #[test]
+    fn test_paragraphbreaks() {
+        assert_eq!(
+            paragraphbreaks(&"Foo\nBar Baz").unwrap(),
+            "<p>Foo\nBar Baz</p>"
+        );
+        assert_eq!(
+            paragraphbreaks(&"Foo\nBar\n\nBaz").unwrap(),
+            "<p>Foo\nBar</p><p>Baz</p>"
+        );
+        assert_eq!(
+            paragraphbreaks(&"Foo\n\n\n\n\nBar\n\nBaz").unwrap(),
+            "<p>Foo</p><p>\nBar</p><p>Baz</p>"
+        );
+    }
+
+    #[test]
     fn test_lower() {
         assert_eq!(lower(&"Foo").unwrap(), "foo");
         assert_eq!(lower(&"FOO").unwrap(), "foo");
@@ -480,36 +548,36 @@ mod tests {
 
     #[test]
     fn test_truncate() {
-        assert_eq!(truncate(&"hello", &2).unwrap(), "he...");
+        assert_eq!(truncate(&"hello", 2).unwrap(), "he...");
         let a = String::from("您好");
         assert_eq!(a.len(), 6);
         assert_eq!(String::from("您").len(), 3);
-        assert_eq!(truncate(&"您好", &1).unwrap(), "您...");
-        assert_eq!(truncate(&"您好", &2).unwrap(), "您...");
-        assert_eq!(truncate(&"您好", &3).unwrap(), "您...");
-        assert_eq!(truncate(&"您好", &4).unwrap(), "您好...");
-        assert_eq!(truncate(&"您好", &6).unwrap(), "您好");
-        assert_eq!(truncate(&"您好", &7).unwrap(), "您好");
+        assert_eq!(truncate(&"您好", 1).unwrap(), "您...");
+        assert_eq!(truncate(&"您好", 2).unwrap(), "您...");
+        assert_eq!(truncate(&"您好", 3).unwrap(), "您...");
+        assert_eq!(truncate(&"您好", 4).unwrap(), "您好...");
+        assert_eq!(truncate(&"您好", 6).unwrap(), "您好");
+        assert_eq!(truncate(&"您好", 7).unwrap(), "您好");
         let s = String::from("🤚a🤚");
         assert_eq!(s.len(), 9);
         assert_eq!(String::from("🤚").len(), 4);
-        assert_eq!(truncate(&"🤚a🤚", &1).unwrap(), "🤚...");
-        assert_eq!(truncate(&"🤚a🤚", &2).unwrap(), "🤚...");
-        assert_eq!(truncate(&"🤚a🤚", &3).unwrap(), "🤚...");
-        assert_eq!(truncate(&"🤚a🤚", &4).unwrap(), "🤚...");
-        assert_eq!(truncate(&"🤚a🤚", &5).unwrap(), "🤚a...");
-        assert_eq!(truncate(&"🤚a🤚", &6).unwrap(), "🤚a🤚...");
-        assert_eq!(truncate(&"🤚a🤚", &9).unwrap(), "🤚a🤚");
-        assert_eq!(truncate(&"🤚a🤚", &10).unwrap(), "🤚a🤚");
+        assert_eq!(truncate(&"🤚a🤚", 1).unwrap(), "🤚...");
+        assert_eq!(truncate(&"🤚a🤚", 2).unwrap(), "🤚...");
+        assert_eq!(truncate(&"🤚a🤚", 3).unwrap(), "🤚...");
+        assert_eq!(truncate(&"🤚a🤚", 4).unwrap(), "🤚...");
+        assert_eq!(truncate(&"🤚a🤚", 5).unwrap(), "🤚a...");
+        assert_eq!(truncate(&"🤚a🤚", 6).unwrap(), "🤚a🤚...");
+        assert_eq!(truncate(&"🤚a🤚", 9).unwrap(), "🤚a🤚");
+        assert_eq!(truncate(&"🤚a🤚", 10).unwrap(), "🤚a🤚");
     }
 
     #[test]
     fn test_indent() {
-        assert_eq!(indent(&"hello", &2).unwrap(), "hello");
-        assert_eq!(indent(&"hello\n", &2).unwrap(), "hello\n");
-        assert_eq!(indent(&"hello\nfoo", &2).unwrap(), "hello\n  foo");
+        assert_eq!(indent(&"hello", 2).unwrap(), "hello");
+        assert_eq!(indent(&"hello\n", 2).unwrap(), "hello\n");
+        assert_eq!(indent(&"hello\nfoo", 2).unwrap(), "hello\n  foo");
         assert_eq!(
-            indent(&"hello\nfoo\n bar", &4).unwrap(),
+            indent(&"hello\nfoo\n bar", 4).unwrap(),
             "hello\n    foo\n     bar"
         );
     }
@@ -518,27 +586,28 @@ mod tests {
     #[test]
     #[allow(clippy::float_cmp)]
     fn test_into_f64() {
-        assert_eq!(into_f64(&1).unwrap(), 1.0 as f64);
-        assert_eq!(into_f64(&1.9).unwrap(), 1.9 as f64);
-        assert_eq!(into_f64(&-1.9).unwrap(), -1.9 as f64);
-        assert_eq!(into_f64(&(INFINITY as f32)).unwrap(), INFINITY);
-        assert_eq!(into_f64(&(-INFINITY as f32)).unwrap(), -INFINITY);
+        assert_eq!(into_f64(1).unwrap(), 1.0_f64);
+        assert_eq!(into_f64(1.9).unwrap(), 1.9_f64);
+        assert_eq!(into_f64(-1.9).unwrap(), -1.9_f64);
+        assert_eq!(into_f64(INFINITY as f32).unwrap(), INFINITY);
+        assert_eq!(into_f64(-INFINITY as f32).unwrap(), -INFINITY);
     }
 
     #[cfg(feature = "num-traits")]
     #[test]
     fn test_into_isize() {
-        assert_eq!(into_isize(&1).unwrap(), 1 as isize);
-        assert_eq!(into_isize(&1.9).unwrap(), 1 as isize);
-        assert_eq!(into_isize(&-1.9).unwrap(), -1 as isize);
-        assert_eq!(into_isize(&(1.5 as f64)).unwrap(), 1 as isize);
-        assert_eq!(into_isize(&(-1.5 as f64)).unwrap(), -1 as isize);
-        match into_isize(&INFINITY) {
+        assert_eq!(into_isize(1).unwrap(), 1_isize);
+        assert_eq!(into_isize(1.9).unwrap(), 1_isize);
+        assert_eq!(into_isize(-1.9).unwrap(), -1_isize);
+        assert_eq!(into_isize(1.5_f64).unwrap(), 1_isize);
+        assert_eq!(into_isize(-1.5_f64).unwrap(), -1_isize);
+        match into_isize(INFINITY) {
             Err(Fmt(fmt::Error)) => {}
             _ => panic!("Should return error of type Err(Fmt(fmt::Error))"),
         };
     }
 
+    #[allow(clippy::needless_borrow)]
     #[test]
     fn test_join() {
         assert_eq!(
@@ -551,16 +620,10 @@ mod tests {
         assert_eq!(join(empty.iter(), ", ").unwrap(), "");
 
         let input: Vec<String> = vec!["foo".into(), "bar".into(), "bazz".into()];
-        assert_eq!(
-            join((&input).iter(), ":".to_string()).unwrap(),
-            "foo:bar:bazz"
-        );
         assert_eq!(join(input.iter(), ":").unwrap(), "foo:bar:bazz");
-        assert_eq!(join(input.iter(), ":".to_string()).unwrap(), "foo:bar:bazz");
 
         let input: &[String] = &["foo".into(), "bar".into()];
         assert_eq!(join(input.iter(), ":").unwrap(), "foo:bar");
-        assert_eq!(join(input.iter(), ":".to_string()).unwrap(), "foo:bar");
 
         let real: String = "blah".into();
         let input: Vec<&str> = vec![&real];
@@ -580,8 +643,8 @@ mod tests {
         assert_eq!(abs(-1).unwrap(), 1);
         assert_eq!(abs(1.0).unwrap(), 1.0);
         assert_eq!(abs(-1.0).unwrap(), 1.0);
-        assert_eq!(abs(1.0 as f64).unwrap(), 1.0 as f64);
-        assert_eq!(abs(-1.0 as f64).unwrap(), 1.0 as f64);
+        assert_eq!(abs(1.0_f64).unwrap(), 1.0_f64);
+        assert_eq!(abs(-1.0_f64).unwrap(), 1.0_f64);
     }
 
     #[test]

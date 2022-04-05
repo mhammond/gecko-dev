@@ -12,6 +12,7 @@ members = [
   "security/manager/ssl/ipcclientcerts",
   "security/manager/ssl/osclientcerts",
   "testing/geckodriver",
+  "toolkit/components/uniffi-bindgen-gecko-js",
   "toolkit/crashreporter/rust_minidump_writer_linux",
   "toolkit/crashreporter/mozwer-rust",
   "toolkit/library/gtest/rust",
@@ -24,7 +25,6 @@ members = [
 exclude = [
   # Excluded because it's for a toolchain task
   "build/liblowercase",
-  "toolkit/components/uniffi-bindgen-gecko-js",
 
   # Exclude third-party code vendored into mozilla-central.
   "servo",

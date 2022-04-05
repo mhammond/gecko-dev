@@ -5,7 +5,6 @@
 extern crate geckoservo;
 
 extern crate app_services_logger;
-extern crate uniffi_example_geometry;
 #[cfg(feature = "cubeb-remoting")]
 extern crate audioipc2_client;
 #[cfg(feature = "cubeb-remoting")]
@@ -92,6 +91,12 @@ extern crate midir_impl;
 
 extern crate origin_trials_ffi;
 
+#[cfg(feature = "uniffi-example-geometry")]
+extern crate uniffi_geometry;
+
+#[cfg(feature = "uniffi-example-geometry")]
+uniffi_geometry::uniffi_reexport_scaffolding!();
+
 extern crate log;
 use log::info;
 
@@ -128,5 +133,6 @@ pub extern "C" fn debug_log(target: *const c_char, message: *const c_char) {
 // functions here  This function is not intended to be called at all.
 #[no_mangle]
 pub unsafe extern "C" fn uniffi_extern_hack() {
-    uniffi::extern_symbol_hack();
+    let mut status = uniffi::RustCallStatus::default();
+    uniffi::uniffi_rustbuffer_alloc(0, &mut status);
 }

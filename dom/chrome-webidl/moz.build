@@ -84,7 +84,7 @@ WEBIDL_FILES = [
     "XULTreeElement.webidl",
 ]
 
-if CONFIG["ENABLE_TESTS"]:
+if CONFIG["MOZ_UNIFFI_FIXTURES"]:
     # UniFFI examples and fixtures for testing
     WEBIDL_FILES.extend([
         "GeometryScaffolding.webidl",

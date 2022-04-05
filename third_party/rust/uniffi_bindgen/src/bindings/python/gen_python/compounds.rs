@@ -2,13 +2,12 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
+use super::filters;
 use crate::backend::{CodeOracle, CodeType, Literal, TypeIdentifier};
 use crate::interface::types::Type;
 use askama::Template;
 use paste::paste;
-use std::fmt;
-
-use super::filters;
+use std::borrow::Borrow;
 
 fn render_literal(oracle: &dyn CodeOracle, literal: &Literal, inner: &TypeIdentifier) -> String {
     match literal {
@@ -43,10 +42,6 @@ macro_rules! impl_code_type_for_compound {
                 fn outer(&self) -> &TypeIdentifier {
                     &self.outer
                 }
-
-                fn ffi_converter_name(&self, oracle: &dyn CodeOracle) -> String {
-                    format!("FfiConverter{}", self.canonical_name(oracle))
-                }
             }
 
             impl CodeType for $T  {
@@ -62,27 +57,11 @@ macro_rules! impl_code_type_for_compound {
                     render_literal(oracle, &literal, self.inner())
                 }
 
-                fn lower(&self, oracle: &dyn CodeOracle, nm: &dyn fmt::Display) -> String {
-                    format!("{}._lower({})", self.ffi_converter_name(oracle), oracle.var_name(nm))
-                }
-
-                fn write(&self, oracle: &dyn CodeOracle, nm: &dyn fmt::Display, target: &dyn fmt::Display) -> String {
-                    format!("{}._write({}, {})", self.ffi_converter_name(oracle), oracle.var_name(nm), target)
-                }
-
-                fn lift(&self, oracle: &dyn CodeOracle, nm: &dyn fmt::Display) -> String {
-                    format!("{}._lift({})", self.ffi_converter_name(oracle), nm)
-                }
-
-                fn read(&self, oracle: &dyn CodeOracle, nm: &dyn fmt::Display) -> String {
-                    format!("{}._read({})", self.ffi_converter_name(oracle), nm)
-                }
-
                 fn helper_code(&self, _oracle: &dyn CodeOracle) -> Option<String> {
                     Some(self.render().unwrap())
                 }
 
-                fn coerce(&self, oracle: &dyn CodeOracle, nm: &dyn fmt::Display) -> String {
+                fn coerce(&self, oracle: &dyn CodeOracle, nm: &str) -> String {
                     $coerce_code(self, oracle, nm)
                 }
             }
@@ -96,11 +75,7 @@ impl_code_type_for_compound!(
     "OptionalTemplate.py",
     optional_coerce
 );
-fn optional_coerce(
-    this: &OptionalCodeType,
-    oracle: &dyn CodeOracle,
-    nm: &dyn fmt::Display,
-) -> String {
+fn optional_coerce(this: &OptionalCodeType, oracle: &dyn CodeOracle, nm: &str) -> String {
     format!(
         "(None if {} is None else {})",
         nm,
@@ -114,11 +89,7 @@ impl_code_type_for_compound!(
     "SequenceTemplate.py",
     sequence_coerce
 );
-fn sequence_coerce(
-    this: &SequenceCodeType,
-    oracle: &dyn CodeOracle,
-    nm: &dyn fmt::Display,
-) -> String {
+fn sequence_coerce(this: &SequenceCodeType, oracle: &dyn CodeOracle, nm: &str) -> String {
     format!(
         "list({} for x in {})",
         oracle.find(this.inner()).coerce(oracle, &"x".to_string()),
@@ -126,7 +97,7 @@ fn sequence_coerce(
     )
 }
 impl_code_type_for_compound!(MapCodeType, "Map{}", "MapTemplate.py", map_coerce);
-fn map_coerce(this: &MapCodeType, oracle: &dyn CodeOracle, nm: &dyn fmt::Display) -> String {
+fn map_coerce(this: &MapCodeType, oracle: &dyn CodeOracle, nm: &str) -> String {
     format!(
         "dict(({}, {}) for (k, v) in {}.items())",
         oracle.find(&Type::String).coerce(oracle, &"k".to_string()),

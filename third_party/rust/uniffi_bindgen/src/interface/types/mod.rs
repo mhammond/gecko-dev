@@ -112,8 +112,12 @@ impl Type {
             Type::Sequence(t) => format!("Sequence{}", t.canonical_name()),
             Type::Map(t) => format!("Map{}", t.canonical_name()),
             // A type that exists externally.
-            Type::External { name, .. } | Type::Custom { name, .. } => name.to_owned(),
+            Type::External { name, .. } | Type::Custom { name, .. } => format!("Type{}", name),
         }
+    }
+
+    pub fn ffi_type(&self) -> FFIType {
+        self.into()
     }
 }
 

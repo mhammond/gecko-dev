@@ -2,13 +2,12 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-use std::collections::{HashMap, HashSet};
-use std::fmt;
-
 use anyhow::Result;
 use askama::Template;
 use heck::{CamelCase, ShoutySnakeCase, SnakeCase};
 use serde::{Deserialize, Serialize};
+use std::borrow::Borrow;
+use std::collections::{HashMap, HashSet};
 
 use crate::backend::{CodeDeclaration, CodeOracle, CodeType, TemplateExpression, TypeIdentifier};
 use crate::interface::*;
@@ -73,9 +72,7 @@ impl MergeWith for Config {
 
 // Generate python bindings for the given ComponentInterface, as a string.
 pub fn generate_python_bindings(config: &Config, ci: &ComponentInterface) -> Result<String> {
-    let oracle = PythonCodeOracle::new(config.clone());
-    filters::set_oracle(oracle.clone());
-    PythonWrapper::new(oracle, config.clone(), ci)
+    PythonWrapper::new(PythonCodeOracle, config.clone(), ci)
         .render()
         .map_err(|_| anyhow::anyhow!("failed to render python bindings"))
 }
@@ -179,15 +176,9 @@ impl<'a> PythonWrapper<'a> {
 }
 
 #[derive(Clone, Default)]
-pub struct PythonCodeOracle {
-    config: Config,
-}
+pub struct PythonCodeOracle;
 
 impl PythonCodeOracle {
-    fn new(config: Config) -> Self {
-        Self { config }
-    }
-
     fn create_code_type(&self, type_: TypeIdentifier) -> Box<dyn CodeType> {
         // I really want access to the ComponentInterface here so I can look up the interface::{Enum, Record, Error, Object, etc}
         // However, there's some violence and gore I need to do to (temporarily) make the oracle usable from filters.
@@ -236,11 +227,7 @@ impl PythonCodeOracle {
             Type::External { name, crate_name } => {
                 Box::new(external::ExternalCodeType::new(name, crate_name))
             }
-            Type::Custom { name, builtin } => Box::new(custom::CustomCodeType::new(
-                name.clone(),
-                builtin.as_ref().clone(),
-                self.config.custom_types.get(&name).cloned(),
-            )),
+            Type::Custom { name, .. } => Box::new(custom::CustomCodeType::new(name)),
         }
     }
 }
@@ -251,22 +238,22 @@ impl CodeOracle for PythonCodeOracle {
     }
 
     /// Get the idiomatic Python rendering of a class name (for enums, records, errors, etc).
-    fn class_name(&self, nm: &dyn fmt::Display) -> String {
+    fn class_name(&self, nm: &str) -> String {
         nm.to_string().to_camel_case()
     }
 
     /// Get the idiomatic Python rendering of a function name.
-    fn fn_name(&self, nm: &dyn fmt::Display) -> String {
+    fn fn_name(&self, nm: &str) -> String {
         nm.to_string().to_snake_case()
     }
 
     /// Get the idiomatic Python rendering of a variable name.
-    fn var_name(&self, nm: &dyn fmt::Display) -> String {
+    fn var_name(&self, nm: &str) -> String {
         nm.to_string().to_snake_case()
     }
 
     /// Get the idiomatic Python rendering of an individual enum variant.
-    fn enum_variant_name(&self, nm: &dyn fmt::Display) -> String {
+    fn enum_variant_name(&self, nm: &str) -> String {
         nm.to_string().to_shouty_snake_case()
     }
 
@@ -275,7 +262,7 @@ impl CodeOracle for PythonCodeOracle {
     /// This replaces "Error" at the end of the name with "Exception".  Rust code typically uses
     /// "Error" for any type of error but in the Java world, "Error" means a non-recoverable error
     /// and is distinguished from an "Exception".
-    fn error_name(&self, nm: &dyn fmt::Display) -> String {
+    fn error_name(&self, nm: &str) -> String {
         let name = nm.to_string();
         match name.strip_suffix("Error") {
             None => name,
@@ -309,25 +296,9 @@ impl CodeOracle for PythonCodeOracle {
 
 pub mod filters {
     use super::*;
-    use std::fmt;
-
-    // This code is a bit unfortunate.  We want to have a `PythonCodeOracle` instance available for
-    // the filter functions, so that we don't always need to pass as an argument in the template
-    // code.  However, `PythonCodeOracle` depends on a `Config` instance.  So we use some dirty,
-    // non-threadsafe, code to set it at the start of `generate_python_bindings()`.
-    //
-    // If askama supported using a struct instead of a module for the filters we could avoid this.
-
-    static mut ORACLE: Option<PythonCodeOracle> = None;
-
-    pub(super) fn set_oracle(oracle: PythonCodeOracle) {
-        unsafe {
-            ORACLE = Some(oracle);
-        }
-    }
 
     fn oracle() -> &'static PythonCodeOracle {
-        unsafe { ORACLE.as_ref().unwrap() }
+        &PythonCodeOracle
     }
 
     pub fn type_name(codetype: &impl CodeType) -> Result<String, askama::Error> {
@@ -335,34 +306,30 @@ pub mod filters {
         Ok(codetype.type_label(oracle))
     }
 
+    pub fn ffi_converter_name(codetype: &impl CodeType) -> Result<String, askama::Error> {
+        let oracle = oracle();
+        Ok(codetype.ffi_converter_name(oracle))
+    }
+
     pub fn canonical_name(codetype: &impl CodeType) -> Result<String, askama::Error> {
         let oracle = oracle();
         Ok(codetype.canonical_name(oracle))
     }
 
-    pub fn lower_var(
-        nm: &dyn fmt::Display,
-        codetype: &impl CodeType,
-    ) -> Result<String, askama::Error> {
-        let oracle = oracle();
-        Ok(codetype.lower(oracle, nm))
+    pub fn lift_fn(codetype: &impl CodeType) -> Result<String, askama::Error> {
+        Ok(format!("{}.lift", ffi_converter_name(codetype)?))
     }
 
-    pub fn write_var(
-        nm: &dyn fmt::Display,
-        target: &dyn fmt::Display,
-        codetype: &impl CodeType,
-    ) -> Result<String, askama::Error> {
-        let oracle = oracle();
-        Ok(codetype.write(oracle, nm, target))
+    pub fn lower_fn(codetype: &impl CodeType) -> Result<String, askama::Error> {
+        Ok(format!("{}.lower", ffi_converter_name(codetype)?))
     }
 
-    pub fn lift_var(
-        nm: &dyn fmt::Display,
-        codetype: &impl CodeType,
-    ) -> Result<String, askama::Error> {
-        let oracle = oracle();
-        Ok(codetype.lift(oracle, nm))
+    pub fn read_fn(codetype: &impl CodeType) -> Result<String, askama::Error> {
+        Ok(format!("{}.read", ffi_converter_name(codetype)?))
+    }
+
+    pub fn write_fn(codetype: &impl CodeType) -> Result<String, askama::Error> {
+        Ok(format!("{}.write", ffi_converter_name(codetype)?))
     }
 
     pub fn literal_py(
@@ -373,36 +340,28 @@ pub mod filters {
         Ok(codetype.literal(oracle, literal))
     }
 
-    pub fn read_var(
-        nm: &dyn fmt::Display,
-        codetype: &impl CodeType,
-    ) -> Result<String, askama::Error> {
-        let oracle = oracle();
-        Ok(codetype.read(oracle, nm))
-    }
-
     /// Get the Python syntax for representing a given low-level `FFIType`.
     pub fn ffi_type_name(type_: &FFIType) -> Result<String, askama::Error> {
         Ok(oracle().ffi_type_label(type_))
     }
 
     /// Get the idiomatic Python rendering of a class name (for enums, records, errors, etc).
-    pub fn class_name(nm: &dyn fmt::Display) -> Result<String, askama::Error> {
+    pub fn class_name(nm: &str) -> Result<String, askama::Error> {
         Ok(oracle().class_name(nm))
     }
 
     /// Get the idiomatic Python rendering of a function name.
-    pub fn fn_name(nm: &dyn fmt::Display) -> Result<String, askama::Error> {
+    pub fn fn_name(nm: &str) -> Result<String, askama::Error> {
         Ok(oracle().fn_name(nm))
     }
 
     /// Get the idiomatic Python rendering of a variable name.
-    pub fn var_name(nm: &dyn fmt::Display) -> Result<String, askama::Error> {
+    pub fn var_name(nm: &str) -> Result<String, askama::Error> {
         Ok(oracle().var_name(nm))
     }
 
     /// Get the idiomatic Python rendering of an individual enum variant.
-    pub fn enum_variant_py(nm: &dyn fmt::Display) -> Result<String, askama::Error> {
+    pub fn enum_variant_py(nm: &str) -> Result<String, askama::Error> {
         Ok(oracle().enum_variant_name(nm))
     }
 
@@ -411,11 +370,11 @@ pub mod filters {
     /// This replaces "Error" at the end of the name with "Exception".  Rust code typically uses
     /// "Error" for any type of error but in the Java world, "Error" means a non-recoverable error
     /// and is distinguished from an "Exception".
-    pub fn exception_name(nm: &dyn fmt::Display) -> Result<String, askama::Error> {
+    pub fn exception_name(nm: &str) -> Result<String, askama::Error> {
         Ok(oracle().error_name(nm))
     }
 
-    pub fn coerce_py(nm: &dyn fmt::Display, type_: &Type) -> Result<String, askama::Error> {
+    pub fn coerce_py(nm: &str, type_: &Type) -> Result<String, askama::Error> {
         let oracle = oracle();
         Ok(oracle.find(type_).coerce(oracle, nm))
     }

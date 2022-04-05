@@ -1,13 +1,19 @@
 #![cfg_attr(feature = "cargo-clippy", allow(unused_parens))]
+#![forbid(unsafe_code)]
+#![deny(elided_lifetimes_in_paths)]
+#![deny(unreachable_pub)]
 
+use std::borrow::Cow;
 use std::collections::{BTreeMap, HashSet};
 use std::convert::TryFrom;
 use std::path::{Path, PathBuf};
 use std::{env, fmt, fs};
 
+use proc_macro2::{Span, TokenStream};
 #[cfg(feature = "serde")]
 use serde::Deserialize;
 
+pub use crate::input::extension_to_mime_type;
 pub use askama_escape::MarkupDisplay;
 
 mod error;
@@ -31,7 +37,7 @@ pub struct Config<'a> {
     pub escapers: Vec<(HashSet<String>, String)>,
 }
 
-impl<'a> Config<'a> {
+impl Config<'_> {
     pub fn new(s: &str) -> std::result::Result<Config<'_>, CompileError> {
         let root = PathBuf::from(env::var("CARGO_MANIFEST_DIR").unwrap());
         let default_dirs = vec![root.join("templates")];
@@ -137,7 +143,7 @@ pub struct Syntax<'a> {
     pub comment_end: &'a str,
 }
 
-impl<'a> Default for Syntax<'a> {
+impl Default for Syntax<'_> {
     fn default() -> Self {
         Self {
             block_start: "{%",
@@ -197,16 +203,14 @@ struct RawConfig<'d> {
     escaper: Option<Vec<RawEscaper<'d>>>,
 }
 
-impl<'d> RawConfig<'d> {
+impl RawConfig<'_> {
     #[cfg(feature = "config")]
     fn from_toml_str(s: &str) -> std::result::Result<RawConfig<'_>, CompileError> {
-        toml::from_str(&s).map_err(|e| {
-            CompileError::String(format!("invalid TOML in {}: {}", CONFIG_FILE_NAME, e))
-        })
+        toml::from_str(s).map_err(|e| format!("invalid TOML in {}: {}", CONFIG_FILE_NAME, e).into())
     }
 
     #[cfg(not(feature = "config"))]
-    fn from_toml_str<'n>(_: &'n str) -> std::result::Result<RawConfig<'_>, CompileError> {
+    fn from_toml_str(_: &str) -> std::result::Result<RawConfig<'_>, CompileError> {
         Err("TOML support not available".into())
     }
 }
@@ -239,9 +243,8 @@ pub fn read_config_file() -> std::result::Result<String, CompileError> {
     let root = PathBuf::from(env::var("CARGO_MANIFEST_DIR").unwrap());
     let filename = root.join(CONFIG_FILE_NAME);
     if filename.exists() {
-        fs::read_to_string(&filename).map_err(|_| {
-            CompileError::String(format!("unable to read {}", filename.to_str().unwrap()))
-        })
+        fs::read_to_string(&filename)
+            .map_err(|_| format!("unable to read {:?}", filename.to_str().unwrap()).into())
     } else {
         Ok("".to_string())
     }
@@ -257,10 +260,11 @@ where
 #[allow(clippy::match_wild_err_arm)]
 pub fn get_template_source(tpl_path: &Path) -> std::result::Result<String, CompileError> {
     match fs::read_to_string(tpl_path) {
-        Err(_) => Err(CompileError::String(format!(
+        Err(_) => Err(format!(
             "unable to open template file '{}'",
             tpl_path.to_str().unwrap()
-        ))),
+        )
+        .into()),
         Ok(mut source) => {
             if source.ends_with('\n') {
                 let _ = source.pop();
@@ -273,8 +277,8 @@ pub fn get_template_source(tpl_path: &Path) -> std::result::Result<String, Compi
 #[derive(Clone, Copy, Debug)]
 pub struct Integrations {
     pub actix: bool,
+    pub axum: bool,
     pub gotham: bool,
-    pub iron: bool,
     pub mendes: bool,
     pub rocket: bool,
     pub tide: bool,
@@ -289,30 +293,45 @@ static DEFAULT_ESCAPERS: &[(&[&str], &str)] = &[
     (&["j2", "jinja", "jinja2"], "::askama::Html"),
 ];
 
-#[derive(Debug)]
-pub enum CompileError {
-    Static(&'static str),
-    String(String),
+#[derive(Debug, Clone)]
+pub struct CompileError {
+    msg: Cow<'static, str>,
+    span: Span,
 }
 
-impl fmt::Display for CompileError {
-    fn fmt(&self, fmt: &mut fmt::Formatter<'_>) -> fmt::Result {
-        match self {
-            CompileError::Static(s) => write!(fmt, "{}", s),
-            CompileError::String(s) => write!(fmt, "{}", s),
+impl CompileError {
+    pub fn new<S: Into<Cow<'static, str>>>(s: S, span: Span) -> Self {
+        Self {
+            msg: s.into(),
+            span,
         }
+    }
+
+    pub fn to_compile_error(self) -> TokenStream {
+        syn::Error::new(self.span, self.msg).to_compile_error()
+    }
+}
+
+impl std::error::Error for CompileError {}
+
+impl fmt::Display for CompileError {
+    #[inline]
+    fn fmt(&self, fmt: &mut fmt::Formatter<'_>) -> fmt::Result {
+        fmt.write_str(&self.msg)
     }
 }
 
 impl From<&'static str> for CompileError {
+    #[inline]
     fn from(s: &'static str) -> Self {
-        CompileError::Static(s)
+        Self::new(s, Span::call_site())
     }
 }
 
 impl From<String> for CompileError {
+    #[inline]
     fn from(s: String) -> Self {
-        CompileError::String(s)
+        Self::new(s, Span::call_site())
     }
 }
 

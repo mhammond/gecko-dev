@@ -2,8 +2,6 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-use std::fmt;
-
 use crate::backend::{CodeDeclaration, CodeOracle, CodeType, Literal};
 use crate::interface::{ComponentInterface, Enum};
 use askama::Template;
@@ -24,8 +22,8 @@ impl CodeType for EnumCodeType {
         oracle.class_name(&self.id)
     }
 
-    fn canonical_name(&self, oracle: &dyn CodeOracle) -> String {
-        format!("Enum{}", self.type_label(oracle))
+    fn canonical_name(&self, _oracle: &dyn CodeOracle) -> String {
+        format!("Type{}", self.id)
     }
 
     fn literal(&self, oracle: &dyn CodeOracle, literal: &Literal) -> String {
@@ -40,27 +38,6 @@ impl CodeType for EnumCodeType {
         }
     }
 
-    fn lower(&self, oracle: &dyn CodeOracle, nm: &dyn fmt::Display) -> String {
-        format!("{}._lower()", oracle.var_name(nm))
-    }
-
-    fn write(
-        &self,
-        oracle: &dyn CodeOracle,
-        nm: &dyn fmt::Display,
-        target: &dyn fmt::Display,
-    ) -> String {
-        format!("{}._write({})", oracle.var_name(nm), target)
-    }
-
-    fn lift(&self, oracle: &dyn CodeOracle, nm: &dyn fmt::Display) -> String {
-        format!("{}._lift({})", self.type_label(oracle), nm)
-    }
-
-    fn read(&self, oracle: &dyn CodeOracle, nm: &dyn fmt::Display) -> String {
-        format!("{}._read({})", self.type_label(oracle), nm)
-    }
-
     fn helper_code(&self, oracle: &dyn CodeOracle) -> Option<String> {
         Some(format!(
             "# Helper code for {} enum is found in EnumTemplate.py",
@@ -68,7 +45,7 @@ impl CodeType for EnumCodeType {
         ))
     }
 
-    fn coerce(&self, _oracle: &dyn CodeOracle, nm: &dyn fmt::Display) -> String {
+    fn coerce(&self, _oracle: &dyn CodeOracle, nm: &str) -> String {
         nm.to_string()
     }
 }

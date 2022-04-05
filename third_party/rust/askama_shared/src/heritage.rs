@@ -1,7 +1,7 @@
 use std::collections::HashMap;
 use std::path::{Path, PathBuf};
 
-use crate::parser::{Expr, Macro, Node};
+use crate::parser::{Expr, Loop, Macro, Node};
 use crate::{CompileError, Config};
 
 pub struct Heritage<'a> {
@@ -9,10 +9,10 @@ pub struct Heritage<'a> {
     pub blocks: BlockAncestry<'a>,
 }
 
-impl<'a> Heritage<'a> {
-    pub fn new<'n>(
+impl Heritage<'_> {
+    pub fn new<'n, S: std::hash::BuildHasher>(
         mut ctx: &'n Context<'n>,
-        contexts: &'n HashMap<&'n PathBuf, Context<'n>>,
+        contexts: &'n HashMap<&'n Path, Context<'n>, S>,
     ) -> Heritage<'n> {
         let mut blocks: BlockAncestry<'n> = ctx
             .blocks
@@ -21,7 +21,7 @@ impl<'a> Heritage<'a> {
             .collect();
 
         while let Some(ref path) = ctx.extends {
-            ctx = &contexts[&path];
+            ctx = &contexts[path.as_path()];
             for (name, def) in &ctx.blocks {
                 blocks.entry(name).or_insert_with(Vec::new).push((ctx, def));
             }
@@ -41,9 +41,9 @@ pub struct Context<'a> {
     pub imports: HashMap<&'a str, PathBuf>,
 }
 
-impl<'a> Context<'a> {
+impl Context<'_> {
     pub fn new<'n>(
-        config: &Config,
+        config: &Config<'_>,
         path: &Path,
         nodes: &'n [Node<'n>],
     ) -> Result<Context<'n>, CompileError> {
@@ -86,11 +86,14 @@ impl<'a> Context<'a> {
                             nested.push(nodes);
                         }
                     }
-                    Node::Loop(_, _, _, nodes, _) => {
-                        nested.push(nodes);
+                    Node::Loop(Loop {
+                        body, else_block, ..
+                    }) => {
+                        nested.push(body);
+                        nested.push(else_block);
                     }
-                    Node::Match(_, _, _, arms, _) => {
-                        for (_, _, _, arm) in arms {
+                    Node::Match(_, _, arms, _) => {
+                        for (_, _, arm) in arms {
                             nested.push(arm);
                         }
                     }
