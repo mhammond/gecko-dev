@@ -5700,6 +5700,7 @@ dependencies = [
 name = "uniffi-example-geometry"
 version = "0.17.0"
 dependencies = [
+ "thiserror",
  "uniffi",
  "uniffi_build",
  "uniffi_macros",

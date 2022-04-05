@@ -9,7 +9,7 @@
 
 namespace uniffi::geometry {
 // For each Rust scaffolding function, define types and functions for calling it
-namespace geometry_39ef_gradient {
+namespace geometry_c24c_gradient {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
 //
@@ -52,7 +52,7 @@ Args PrepareArgs(const ArrayBuffer& ln, mozilla::ErrorResult& aUniFFIError) {
 // For async calls this should be called in the worker thread
 Result Invoke(Args& aArgs) {
     Result result = {};
-    result.mReturnValue = ::geometry_39ef_gradient(
+    result.mReturnValue = ::geometry_c24c_gradient(
          aArgs.ln.intoRustBuffer(),
          &result.mCallStatus
      );
@@ -84,7 +84,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 }
 }
 // For each Rust scaffolding function, define types and functions for calling it
-namespace geometry_39ef_intersection {
+namespace geometry_c24c_intersection {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
 //
@@ -133,7 +133,7 @@ Args PrepareArgs(const ArrayBuffer& ln1, const ArrayBuffer& ln2, mozilla::ErrorR
 // For async calls this should be called in the worker thread
 Result Invoke(Args& aArgs) {
     Result result = {};
-    result.mReturnValue = ::geometry_39ef_intersection(
+    result.mReturnValue = ::geometry_c24c_intersection(
          aArgs.ln1.intoRustBuffer(),
          aArgs.ln2.intoRustBuffer(),
          &result.mCallStatus
@@ -166,7 +166,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 }
 }
 // For each Rust scaffolding function, define types and functions for calling it
-namespace geometry_39ef_string_round {
+namespace geometry_c24c_string_round {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
 //
@@ -209,7 +209,7 @@ Args PrepareArgs(const ArrayBuffer& s, mozilla::ErrorResult& aUniFFIError) {
 // For async calls this should be called in the worker thread
 Result Invoke(Args& aArgs) {
     Result result = {};
-    result.mReturnValue = ::geometry_39ef_string_round(
+    result.mReturnValue = ::geometry_c24c_string_round(
          aArgs.s.intoRustBuffer(),
          &result.mCallStatus
      );
@@ -241,7 +241,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 }
 }
 // For each Rust scaffolding function, define types and functions for calling it
-namespace geometry_39ef_string_record_round {
+namespace geometry_c24c_string_record_round {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
 //
@@ -284,7 +284,7 @@ Args PrepareArgs(const ArrayBuffer& p, mozilla::ErrorResult& aUniFFIError) {
 // For async calls this should be called in the worker thread
 Result Invoke(Args& aArgs) {
     Result result = {};
-    result.mReturnValue = ::geometry_39ef_string_record_round(
+    result.mReturnValue = ::geometry_c24c_string_record_round(
          aArgs.p.intoRustBuffer(),
          &result.mCallStatus
      );
@@ -316,7 +316,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 }
 }
 // For each Rust scaffolding function, define types and functions for calling it
-namespace geometry_39ef_arr_round {
+namespace geometry_c24c_arr_round {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
 //
@@ -361,7 +361,7 @@ Args PrepareArgs(const ArrayBuffer& arr, const uint32_t& size, mozilla::ErrorRes
 // For async calls this should be called in the worker thread
 Result Invoke(Args& aArgs) {
     Result result = {};
-    result.mReturnValue = ::geometry_39ef_arr_round(
+    result.mReturnValue = ::geometry_c24c_arr_round(
          aArgs.arr.intoRustBuffer(),
          aArgs.size,
          &result.mCallStatus
@@ -394,7 +394,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 }
 }
 // For each Rust scaffolding function, define types and functions for calling it
-namespace geometry_39ef_map_round {
+namespace geometry_c24c_map_round {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
 //
@@ -439,7 +439,7 @@ Args PrepareArgs(const ArrayBuffer& map, const uint32_t& size, mozilla::ErrorRes
 // For async calls this should be called in the worker thread
 Result Invoke(Args& aArgs) {
     Result result = {};
-    result.mReturnValue = ::geometry_39ef_map_round(
+    result.mReturnValue = ::geometry_c24c_map_round(
          aArgs.map.intoRustBuffer(),
          aArgs.size,
          &result.mCallStatus
@@ -475,7 +475,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 
 namespace mozilla::dom {
 using namespace uniffi::geometry;
-already_AddRefed<Promise> GeometryScaffolding::Geometry39efGradient(const GlobalObject& aUniFFIGlobal, const ArrayBuffer& ln, ErrorResult& aUniFFIError) {
+already_AddRefed<Promise> GeometryScaffolding::GeometryC24cGradient(const GlobalObject& aUniFFIGlobal, const ArrayBuffer& ln, ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
 
@@ -487,19 +487,19 @@ already_AddRefed<Promise> GeometryScaffolding::Geometry39efGradient(const Global
     }
 
     // Prepare arguments to pass to Rust
-    auto uniFFIArgs = geometry_39ef_gradient::PrepareArgs(ln, aUniFFIError);
+    auto uniFFIArgs = geometry_c24c_gradient::PrepareArgs(ln, aUniFFIError);
     if (aUniFFIError.Failed()) {
         return nullptr;
     }
 
     // Create a second promise that gets resolved by a background task that calls the scaffolding function
-    using UniFFITaskPromise = MozPromise<geometry_39ef_gradient::Result, nsresult, true>;
+    using UniFFITaskPromise = MozPromise<geometry_c24c_gradient::Result, nsresult, true>;
     RefPtr uniFFITaskPromise = new UniFFITaskPromise::Private(__func__);
     nsresult uniFFIDispatchResult = NS_DispatchBackgroundTask(
             NS_NewRunnableFunction(
-                "GeometryScaffolding::Geometry39efGradient",
+                "GeometryScaffolding::GeometryC24cGradient",
                 [args = std::move(uniFFIArgs), uniFFITaskPromise]() mutable {
-                auto result = geometry_39ef_gradient::Invoke(args);
+                auto result = geometry_c24c_gradient::Invoke(args);
                 uniFFITaskPromise->Resolve(std::move(result), __func__);
             }),
             NS_DISPATCH_EVENT_MAY_BLOCK);
@@ -511,14 +511,14 @@ already_AddRefed<Promise> GeometryScaffolding::Geometry39efGradient(const Global
     uniFFITaskPromise->Then(GetCurrentSerialEventTarget(), __func__,
             [uniFFIXPCOMGlobal, uniFFIReturnPromise](UniFFITaskPromise::ResolveOrRejectValue&& aResult) {
             if (!aResult.IsResolve()) {
-                uniFFIReturnPromise->MaybeRejectWithUnknownError("GeometryScaffolding::Geometry39efGradient task dispatch failed");
+                uniFFIReturnPromise->MaybeRejectWithUnknownError("GeometryScaffolding::GeometryC24cGradient task dispatch failed");
                 return;
             }
 
-            AutoEntryScript aes(uniFFIXPCOMGlobal, "GeometryScaffolding::Geometry39efGradient call resolve");
+            AutoEntryScript aes(uniFFIXPCOMGlobal, "GeometryScaffolding::GeometryC24cGradient call resolve");
             RootedDictionary<UniFFIRustCallResult> returnValue(aes.cx());
 
-            geometry_39ef_gradient::ReturnResult(aes.cx(), aResult.ResolveValue(), returnValue);
+            geometry_c24c_gradient::ReturnResult(aes.cx(), aResult.ResolveValue(), returnValue);
             uniFFIReturnPromise->MaybeResolve(returnValue);
             }
     );
@@ -527,7 +527,7 @@ already_AddRefed<Promise> GeometryScaffolding::Geometry39efGradient(const Global
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::geometry;
-already_AddRefed<Promise> GeometryScaffolding::Geometry39efIntersection(const GlobalObject& aUniFFIGlobal, const ArrayBuffer& ln1, const ArrayBuffer& ln2, ErrorResult& aUniFFIError) {
+already_AddRefed<Promise> GeometryScaffolding::GeometryC24cIntersection(const GlobalObject& aUniFFIGlobal, const ArrayBuffer& ln1, const ArrayBuffer& ln2, ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
 
@@ -539,19 +539,19 @@ already_AddRefed<Promise> GeometryScaffolding::Geometry39efIntersection(const Gl
     }
 
     // Prepare arguments to pass to Rust
-    auto uniFFIArgs = geometry_39ef_intersection::PrepareArgs(ln1, ln2, aUniFFIError);
+    auto uniFFIArgs = geometry_c24c_intersection::PrepareArgs(ln1, ln2, aUniFFIError);
     if (aUniFFIError.Failed()) {
         return nullptr;
     }
 
     // Create a second promise that gets resolved by a background task that calls the scaffolding function
-    using UniFFITaskPromise = MozPromise<geometry_39ef_intersection::Result, nsresult, true>;
+    using UniFFITaskPromise = MozPromise<geometry_c24c_intersection::Result, nsresult, true>;
     RefPtr uniFFITaskPromise = new UniFFITaskPromise::Private(__func__);
     nsresult uniFFIDispatchResult = NS_DispatchBackgroundTask(
             NS_NewRunnableFunction(
-                "GeometryScaffolding::Geometry39efIntersection",
+                "GeometryScaffolding::GeometryC24cIntersection",
                 [args = std::move(uniFFIArgs), uniFFITaskPromise]() mutable {
-                auto result = geometry_39ef_intersection::Invoke(args);
+                auto result = geometry_c24c_intersection::Invoke(args);
                 uniFFITaskPromise->Resolve(std::move(result), __func__);
             }),
             NS_DISPATCH_EVENT_MAY_BLOCK);
@@ -563,14 +563,14 @@ already_AddRefed<Promise> GeometryScaffolding::Geometry39efIntersection(const Gl
     uniFFITaskPromise->Then(GetCurrentSerialEventTarget(), __func__,
             [uniFFIXPCOMGlobal, uniFFIReturnPromise](UniFFITaskPromise::ResolveOrRejectValue&& aResult) {
             if (!aResult.IsResolve()) {
-                uniFFIReturnPromise->MaybeRejectWithUnknownError("GeometryScaffolding::Geometry39efIntersection task dispatch failed");
+                uniFFIReturnPromise->MaybeRejectWithUnknownError("GeometryScaffolding::GeometryC24cIntersection task dispatch failed");
                 return;
             }
 
-            AutoEntryScript aes(uniFFIXPCOMGlobal, "GeometryScaffolding::Geometry39efIntersection call resolve");
+            AutoEntryScript aes(uniFFIXPCOMGlobal, "GeometryScaffolding::GeometryC24cIntersection call resolve");
             RootedDictionary<UniFFIRustCallResult> returnValue(aes.cx());
 
-            geometry_39ef_intersection::ReturnResult(aes.cx(), aResult.ResolveValue(), returnValue);
+            geometry_c24c_intersection::ReturnResult(aes.cx(), aResult.ResolveValue(), returnValue);
             uniFFIReturnPromise->MaybeResolve(returnValue);
             }
     );
@@ -579,7 +579,7 @@ already_AddRefed<Promise> GeometryScaffolding::Geometry39efIntersection(const Gl
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::geometry;
-already_AddRefed<Promise> GeometryScaffolding::Geometry39efStringRound(const GlobalObject& aUniFFIGlobal, const ArrayBuffer& s, ErrorResult& aUniFFIError) {
+already_AddRefed<Promise> GeometryScaffolding::GeometryC24cStringRound(const GlobalObject& aUniFFIGlobal, const ArrayBuffer& s, ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
 
@@ -591,19 +591,19 @@ already_AddRefed<Promise> GeometryScaffolding::Geometry39efStringRound(const Glo
     }
 
     // Prepare arguments to pass to Rust
-    auto uniFFIArgs = geometry_39ef_string_round::PrepareArgs(s, aUniFFIError);
+    auto uniFFIArgs = geometry_c24c_string_round::PrepareArgs(s, aUniFFIError);
     if (aUniFFIError.Failed()) {
         return nullptr;
     }
 
     // Create a second promise that gets resolved by a background task that calls the scaffolding function
-    using UniFFITaskPromise = MozPromise<geometry_39ef_string_round::Result, nsresult, true>;
+    using UniFFITaskPromise = MozPromise<geometry_c24c_string_round::Result, nsresult, true>;
     RefPtr uniFFITaskPromise = new UniFFITaskPromise::Private(__func__);
     nsresult uniFFIDispatchResult = NS_DispatchBackgroundTask(
             NS_NewRunnableFunction(
-                "GeometryScaffolding::Geometry39efStringRound",
+                "GeometryScaffolding::GeometryC24cStringRound",
                 [args = std::move(uniFFIArgs), uniFFITaskPromise]() mutable {
-                auto result = geometry_39ef_string_round::Invoke(args);
+                auto result = geometry_c24c_string_round::Invoke(args);
                 uniFFITaskPromise->Resolve(std::move(result), __func__);
             }),
             NS_DISPATCH_EVENT_MAY_BLOCK);
@@ -615,14 +615,14 @@ already_AddRefed<Promise> GeometryScaffolding::Geometry39efStringRound(const Glo
     uniFFITaskPromise->Then(GetCurrentSerialEventTarget(), __func__,
             [uniFFIXPCOMGlobal, uniFFIReturnPromise](UniFFITaskPromise::ResolveOrRejectValue&& aResult) {
             if (!aResult.IsResolve()) {
-                uniFFIReturnPromise->MaybeRejectWithUnknownError("GeometryScaffolding::Geometry39efStringRound task dispatch failed");
+                uniFFIReturnPromise->MaybeRejectWithUnknownError("GeometryScaffolding::GeometryC24cStringRound task dispatch failed");
                 return;
             }
 
-            AutoEntryScript aes(uniFFIXPCOMGlobal, "GeometryScaffolding::Geometry39efStringRound call resolve");
+            AutoEntryScript aes(uniFFIXPCOMGlobal, "GeometryScaffolding::GeometryC24cStringRound call resolve");
             RootedDictionary<UniFFIRustCallResult> returnValue(aes.cx());
 
-            geometry_39ef_string_round::ReturnResult(aes.cx(), aResult.ResolveValue(), returnValue);
+            geometry_c24c_string_round::ReturnResult(aes.cx(), aResult.ResolveValue(), returnValue);
             uniFFIReturnPromise->MaybeResolve(returnValue);
             }
     );
@@ -631,7 +631,7 @@ already_AddRefed<Promise> GeometryScaffolding::Geometry39efStringRound(const Glo
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::geometry;
-already_AddRefed<Promise> GeometryScaffolding::Geometry39efStringRecordRound(const GlobalObject& aUniFFIGlobal, const ArrayBuffer& p, ErrorResult& aUniFFIError) {
+already_AddRefed<Promise> GeometryScaffolding::GeometryC24cStringRecordRound(const GlobalObject& aUniFFIGlobal, const ArrayBuffer& p, ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
 
@@ -643,19 +643,19 @@ already_AddRefed<Promise> GeometryScaffolding::Geometry39efStringRecordRound(con
     }
 
     // Prepare arguments to pass to Rust
-    auto uniFFIArgs = geometry_39ef_string_record_round::PrepareArgs(p, aUniFFIError);
+    auto uniFFIArgs = geometry_c24c_string_record_round::PrepareArgs(p, aUniFFIError);
     if (aUniFFIError.Failed()) {
         return nullptr;
     }
 
     // Create a second promise that gets resolved by a background task that calls the scaffolding function
-    using UniFFITaskPromise = MozPromise<geometry_39ef_string_record_round::Result, nsresult, true>;
+    using UniFFITaskPromise = MozPromise<geometry_c24c_string_record_round::Result, nsresult, true>;
     RefPtr uniFFITaskPromise = new UniFFITaskPromise::Private(__func__);
     nsresult uniFFIDispatchResult = NS_DispatchBackgroundTask(
             NS_NewRunnableFunction(
-                "GeometryScaffolding::Geometry39efStringRecordRound",
+                "GeometryScaffolding::GeometryC24cStringRecordRound",
                 [args = std::move(uniFFIArgs), uniFFITaskPromise]() mutable {
-                auto result = geometry_39ef_string_record_round::Invoke(args);
+                auto result = geometry_c24c_string_record_round::Invoke(args);
                 uniFFITaskPromise->Resolve(std::move(result), __func__);
             }),
             NS_DISPATCH_EVENT_MAY_BLOCK);
@@ -667,14 +667,14 @@ already_AddRefed<Promise> GeometryScaffolding::Geometry39efStringRecordRound(con
     uniFFITaskPromise->Then(GetCurrentSerialEventTarget(), __func__,
             [uniFFIXPCOMGlobal, uniFFIReturnPromise](UniFFITaskPromise::ResolveOrRejectValue&& aResult) {
             if (!aResult.IsResolve()) {
-                uniFFIReturnPromise->MaybeRejectWithUnknownError("GeometryScaffolding::Geometry39efStringRecordRound task dispatch failed");
+                uniFFIReturnPromise->MaybeRejectWithUnknownError("GeometryScaffolding::GeometryC24cStringRecordRound task dispatch failed");
                 return;
             }
 
-            AutoEntryScript aes(uniFFIXPCOMGlobal, "GeometryScaffolding::Geometry39efStringRecordRound call resolve");
+            AutoEntryScript aes(uniFFIXPCOMGlobal, "GeometryScaffolding::GeometryC24cStringRecordRound call resolve");
             RootedDictionary<UniFFIRustCallResult> returnValue(aes.cx());
 
-            geometry_39ef_string_record_round::ReturnResult(aes.cx(), aResult.ResolveValue(), returnValue);
+            geometry_c24c_string_record_round::ReturnResult(aes.cx(), aResult.ResolveValue(), returnValue);
             uniFFIReturnPromise->MaybeResolve(returnValue);
             }
     );
@@ -683,7 +683,7 @@ already_AddRefed<Promise> GeometryScaffolding::Geometry39efStringRecordRound(con
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::geometry;
-already_AddRefed<Promise> GeometryScaffolding::Geometry39efArrRound(const GlobalObject& aUniFFIGlobal, const ArrayBuffer& arr, const uint32_t& size, ErrorResult& aUniFFIError) {
+already_AddRefed<Promise> GeometryScaffolding::GeometryC24cArrRound(const GlobalObject& aUniFFIGlobal, const ArrayBuffer& arr, const uint32_t& size, ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
 
@@ -695,19 +695,19 @@ already_AddRefed<Promise> GeometryScaffolding::Geometry39efArrRound(const Global
     }
 
     // Prepare arguments to pass to Rust
-    auto uniFFIArgs = geometry_39ef_arr_round::PrepareArgs(arr, size, aUniFFIError);
+    auto uniFFIArgs = geometry_c24c_arr_round::PrepareArgs(arr, size, aUniFFIError);
     if (aUniFFIError.Failed()) {
         return nullptr;
     }
 
     // Create a second promise that gets resolved by a background task that calls the scaffolding function
-    using UniFFITaskPromise = MozPromise<geometry_39ef_arr_round::Result, nsresult, true>;
+    using UniFFITaskPromise = MozPromise<geometry_c24c_arr_round::Result, nsresult, true>;
     RefPtr uniFFITaskPromise = new UniFFITaskPromise::Private(__func__);
     nsresult uniFFIDispatchResult = NS_DispatchBackgroundTask(
             NS_NewRunnableFunction(
-                "GeometryScaffolding::Geometry39efArrRound",
+                "GeometryScaffolding::GeometryC24cArrRound",
                 [args = std::move(uniFFIArgs), uniFFITaskPromise]() mutable {
-                auto result = geometry_39ef_arr_round::Invoke(args);
+                auto result = geometry_c24c_arr_round::Invoke(args);
                 uniFFITaskPromise->Resolve(std::move(result), __func__);
             }),
             NS_DISPATCH_EVENT_MAY_BLOCK);
@@ -719,14 +719,14 @@ already_AddRefed<Promise> GeometryScaffolding::Geometry39efArrRound(const Global
     uniFFITaskPromise->Then(GetCurrentSerialEventTarget(), __func__,
             [uniFFIXPCOMGlobal, uniFFIReturnPromise](UniFFITaskPromise::ResolveOrRejectValue&& aResult) {
             if (!aResult.IsResolve()) {
-                uniFFIReturnPromise->MaybeRejectWithUnknownError("GeometryScaffolding::Geometry39efArrRound task dispatch failed");
+                uniFFIReturnPromise->MaybeRejectWithUnknownError("GeometryScaffolding::GeometryC24cArrRound task dispatch failed");
                 return;
             }
 
-            AutoEntryScript aes(uniFFIXPCOMGlobal, "GeometryScaffolding::Geometry39efArrRound call resolve");
+            AutoEntryScript aes(uniFFIXPCOMGlobal, "GeometryScaffolding::GeometryC24cArrRound call resolve");
             RootedDictionary<UniFFIRustCallResult> returnValue(aes.cx());
 
-            geometry_39ef_arr_round::ReturnResult(aes.cx(), aResult.ResolveValue(), returnValue);
+            geometry_c24c_arr_round::ReturnResult(aes.cx(), aResult.ResolveValue(), returnValue);
             uniFFIReturnPromise->MaybeResolve(returnValue);
             }
     );
@@ -735,7 +735,7 @@ already_AddRefed<Promise> GeometryScaffolding::Geometry39efArrRound(const Global
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::geometry;
-already_AddRefed<Promise> GeometryScaffolding::Geometry39efMapRound(const GlobalObject& aUniFFIGlobal, const ArrayBuffer& map, const uint32_t& size, ErrorResult& aUniFFIError) {
+already_AddRefed<Promise> GeometryScaffolding::GeometryC24cMapRound(const GlobalObject& aUniFFIGlobal, const ArrayBuffer& map, const uint32_t& size, ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
 
@@ -747,19 +747,19 @@ already_AddRefed<Promise> GeometryScaffolding::Geometry39efMapRound(const Global
     }
 
     // Prepare arguments to pass to Rust
-    auto uniFFIArgs = geometry_39ef_map_round::PrepareArgs(map, size, aUniFFIError);
+    auto uniFFIArgs = geometry_c24c_map_round::PrepareArgs(map, size, aUniFFIError);
     if (aUniFFIError.Failed()) {
         return nullptr;
     }
 
     // Create a second promise that gets resolved by a background task that calls the scaffolding function
-    using UniFFITaskPromise = MozPromise<geometry_39ef_map_round::Result, nsresult, true>;
+    using UniFFITaskPromise = MozPromise<geometry_c24c_map_round::Result, nsresult, true>;
     RefPtr uniFFITaskPromise = new UniFFITaskPromise::Private(__func__);
     nsresult uniFFIDispatchResult = NS_DispatchBackgroundTask(
             NS_NewRunnableFunction(
-                "GeometryScaffolding::Geometry39efMapRound",
+                "GeometryScaffolding::GeometryC24cMapRound",
                 [args = std::move(uniFFIArgs), uniFFITaskPromise]() mutable {
-                auto result = geometry_39ef_map_round::Invoke(args);
+                auto result = geometry_c24c_map_round::Invoke(args);
                 uniFFITaskPromise->Resolve(std::move(result), __func__);
             }),
             NS_DISPATCH_EVENT_MAY_BLOCK);
@@ -771,14 +771,14 @@ already_AddRefed<Promise> GeometryScaffolding::Geometry39efMapRound(const Global
     uniFFITaskPromise->Then(GetCurrentSerialEventTarget(), __func__,
             [uniFFIXPCOMGlobal, uniFFIReturnPromise](UniFFITaskPromise::ResolveOrRejectValue&& aResult) {
             if (!aResult.IsResolve()) {
-                uniFFIReturnPromise->MaybeRejectWithUnknownError("GeometryScaffolding::Geometry39efMapRound task dispatch failed");
+                uniFFIReturnPromise->MaybeRejectWithUnknownError("GeometryScaffolding::GeometryC24cMapRound task dispatch failed");
                 return;
             }
 
-            AutoEntryScript aes(uniFFIXPCOMGlobal, "GeometryScaffolding::Geometry39efMapRound call resolve");
+            AutoEntryScript aes(uniFFIXPCOMGlobal, "GeometryScaffolding::GeometryC24cMapRound call resolve");
             RootedDictionary<UniFFIRustCallResult> returnValue(aes.cx());
 
-            geometry_39ef_map_round::ReturnResult(aes.cx(), aResult.ResolveValue(), returnValue);
+            geometry_c24c_map_round::ReturnResult(aes.cx(), aResult.ResolveValue(), returnValue);
             uniFFIReturnPromise->MaybeResolve(returnValue);
             }
     );

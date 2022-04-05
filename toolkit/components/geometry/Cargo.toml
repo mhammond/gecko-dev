@@ -9,6 +9,7 @@ publish = false
 [dependencies]
 uniffi = { git = "https://github.com/bendk/uniffi-rs.git", branch="seperate-bindings-mvp" }
 uniffi_macros = { git = "https://github.com/bendk/uniffi-rs.git", branch="seperate-bindings-mvp" }
+thiserror = "1"
 
 [build-dependencies]
 uniffi_build = { git = "https://github.com/bendk/uniffi-rs.git", branch="seperate-bindings-mvp", features = [ "builtin-bindgen" ]}

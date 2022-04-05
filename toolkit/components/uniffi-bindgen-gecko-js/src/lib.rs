@@ -52,7 +52,7 @@ impl<'a> GeckoJsBindingGenerator<'a> {
         out_dir: &Path,
     ) -> anyhow::Result<Box<dyn Write>> {
         if self.args.is_present("stdout") {
-            return Ok(Box::new(std::io::stdout()))
+            return Ok(Box::new(std::io::stdout()));
         }
 
         let out_path = if self.args.is_present("out") {
@@ -61,9 +61,10 @@ impl<'a> GeckoJsBindingGenerator<'a> {
             let filename = self.calc_filename(ci);
             out_dir.join(&filename)
         };
-        Ok(Box::new(
-            File::create(&out_path).context(format!("Failed to create {:?}", out_path.file_name()))?,
-        ))
+        Ok(Box::new(File::create(&out_path).context(format!(
+            "Failed to create {:?}",
+            out_path.file_name()
+        ))?))
     }
 
     fn calc_filename(&self, ci: &ComponentInterface) -> String {

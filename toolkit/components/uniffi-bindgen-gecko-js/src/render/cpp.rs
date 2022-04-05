@@ -1,12 +1,12 @@
 /* This Source Code Form is subject to the terms of the Mozilla Public
- License, v. 2.0. If a copy of the MPL was not distributed with this
- * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+License, v. 2.0. If a copy of the MPL was not distributed with this
+* file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
+use super::shared::*;
 use askama::Template;
 use extend::ext;
 use heck::{CamelCase, MixedCase, SnakeCase};
 use uniffi_bindgen::interface::{ComponentInterface, FFIArgument, FFIFunction, FFIType};
-use super::shared::*;
 
 #[derive(Template)]
 #[template(path = "Scaffolding.cpp", escape = "none")]
@@ -50,8 +50,7 @@ pub impl FFIFunction {
     // Render our arguments as a comma-separated list, where each part is what gets passed to our
     // scaffolding function by the WebIDL code generator.
     fn input_arg_list(&self) -> String {
-        self
-            .arguments()
+        self.arguments()
             .into_iter()
             .map(|arg| format!("const {}& {}", arg.type_name(), arg.nm()))
             .collect::<Vec<String>>()

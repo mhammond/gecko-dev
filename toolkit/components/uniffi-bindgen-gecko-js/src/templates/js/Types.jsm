@@ -45,7 +45,10 @@
 {%- include "Sequence.jsm" %}
 
 {%- when Type::Map with (inner) %}
-{% include "Map.jsm" %}
+{%- include "Map.jsm" %}
+
+{%- when Type::Error with (name) %}
+{% include "Error.jsm" %}
 
 {%- else %}
 {# TODO implement the other types #}

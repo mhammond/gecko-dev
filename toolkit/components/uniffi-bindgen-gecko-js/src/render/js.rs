@@ -1,12 +1,14 @@
 /* This Source Code Form is subject to the terms of the Mozilla Public
- License, v. 2.0. If a copy of the MPL was not distributed with this
- * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+License, v. 2.0. If a copy of the MPL was not distributed with this
+* file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
+use super::shared::*;
 use askama::Template;
 use extend::ext;
 use heck::{CamelCase, MixedCase};
-use super::shared::*;
-use uniffi_bindgen::interface::{ComponentInterface, FFIFunction, Record, Field, Argument, Type, Function};
+use uniffi_bindgen::interface::{
+    Argument, ComponentInterface, Error, FFIFunction, Field, Function, Record, Type,
+};
 
 #[derive(Template)]
 #[template(path = "js/wrapper.jsm", escape = "none")]
@@ -38,7 +40,11 @@ pub impl Record {
     }
 
     fn constructor_field_list(&self) -> String {
-        self.fields().iter().map(|f| f.nm()).collect::<Vec<String>>().join(",")
+        self.fields()
+            .iter()
+            .map(|f| f.nm())
+            .collect::<Vec<String>>()
+            .join(",")
     }
 }
 
@@ -80,7 +86,7 @@ pub impl Type {
             Type::Optional(inner) => format!("Optional{}", inner.nm()),
             Type::Record(name) => name.to_camel_case(),
             Type::String => "String".to_string(),
-            _ => todo!()
+            _ => todo!(),
         }
     }
 
@@ -89,7 +95,7 @@ pub impl Type {
     }
 
     fn read_datastream_fn(&self) -> String {
-       format!("{}.read", self.ffi_converter())
+        format!("{}.read", self.ffi_converter())
     }
 
     fn ffi_converter(&self) -> String {
@@ -110,11 +116,20 @@ pub impl Function {
         args
     }
 
-    fn nm(&self) -> String  {
+    fn nm(&self) -> String {
         self.name().to_mixed_case()
     }
 
     fn ffi_return_type(&self) -> String {
-        self.return_type().map(|t| t.ffi_converter()).unwrap_or("".to_string())
+        self.return_type()
+            .map(|t| t.ffi_converter())
+            .unwrap_or("".to_string())
+    }
+}
+
+#[ext(name=ErrorJSExt)]
+pub impl Error {
+    fn nm(&self) -> String {
+        self.name().to_camel_case()
     }
 }
