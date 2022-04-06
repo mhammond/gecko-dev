@@ -91,11 +91,14 @@ extern crate midir_impl;
 
 extern crate origin_trials_ffi;
 
-#[cfg(feature = "uniffi-example-geometry")]
-extern crate uniffi_geometry;
+#[cfg(feature = "uniffi_fixtures")]
+mod uniffi_fixtures {
+    extern crate arithmetical;
+    extern crate uniffi_geometry;
 
-#[cfg(feature = "uniffi-example-geometry")]
-uniffi_geometry::uniffi_reexport_scaffolding!();
+    arithmetical::uniffi_reexport_scaffolding!();
+    uniffi_geometry::uniffi_reexport_scaffolding!();
+}
 
 extern crate log;
 use log::info;

@@ -3,7 +3,7 @@ function {{ func.nm() }}({{ func.arg_names() }}) {
     const liftResult = (result) => {{ func.ffi_return_type() }}.lift(result);
     {%- match func.throws_type() %}
     {%- when Some with (err_type) %}
-    const liftError = (data) => {{ err_type.ffi_converter() }}.lift(data); // TODO
+    const liftError = (data) => {{ err_type.ffi_converter() }}.lift(data);
     {%- else %}
     const liftError = null;
     {%- endmatch %}

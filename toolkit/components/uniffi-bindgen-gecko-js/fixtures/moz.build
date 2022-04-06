@@ -5,16 +5,21 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
  
 FINAL_LIBRARY = "xul"
- 
+
+components = [
+    "Arithmetic", "Geometry",
+]
+
 UNIFIED_SOURCES += [
-    "GeometryScaffolding.cpp",
+    "{}Scaffolding.cpp".format(component) for component in components
 ]
  
 EXPORTS.mozilla.dom += [
-    "GeometryScaffolding.h",
+    "{}Scaffolding.h".format(component) for component in components
 ]
  
 EXTRA_JS_MODULES["components-utils"] = [
- "Geometry.jsm",
+    "{}.jsm".format(component) for component in components
 ]
 
+XPCSHELL_TESTS_MANIFESTS += ["tests/xpcshell.ini"]

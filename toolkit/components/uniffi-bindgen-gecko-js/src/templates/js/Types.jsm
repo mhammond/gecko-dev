@@ -2,6 +2,9 @@
 {%- let ffi_converter = type_.ffi_converter() %}
 {%- match type_ %}
 
+{%- when Type::Boolean %}
+{%- include "Boolean.jsm" %}
+
 {%- when Type::UInt8 %}
 {%- include "UInt8.jsm" %}
 

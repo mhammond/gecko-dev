@@ -87,6 +87,7 @@ WEBIDL_FILES = [
 if CONFIG["MOZ_UNIFFI_FIXTURES"]:
     # UniFFI examples and fixtures for testing
     WEBIDL_FILES.extend([
+        "ArithmeticScaffolding.webidl",
         "GeometryScaffolding.webidl",
     ])
 

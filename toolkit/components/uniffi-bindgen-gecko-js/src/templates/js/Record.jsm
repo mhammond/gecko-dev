@@ -6,6 +6,13 @@ class {{ record.nm() }} {
         this.{{field.nm()}} = {{ field.nm() }};
         {%- endfor %}
     }
+    equals(other) {
+        return (
+            {%- for field in record.fields() %}
+            {{ field.type_().equals("this.{}"|format(field.nm()), "other.{}"|format(field.nm())) }}{% if !loop.last %} &&{% endif %}
+            {%- endfor %}
+        )
+    }
 }
 
 class {{ ffi_converter }} {

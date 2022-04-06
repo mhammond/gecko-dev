@@ -14,11 +14,18 @@ from mach.decorators import (
 )
 
 generated_bindings_paths = {
+    # UniFFI Examples/Fixtures
     'third_party/rust/uniffi-example-geometry/src/geometry.udl': {
         'webidl': 'dom/chrome-webidl/GeometryScaffolding.webidl',
         'cpp-header': 'toolkit/components/uniffi-bindgen-gecko-js/fixtures/GeometryScaffolding.h',
         'cpp': 'toolkit/components/uniffi-bindgen-gecko-js/fixtures/GeometryScaffolding.cpp',
         'js': 'toolkit/components/uniffi-bindgen-gecko-js/fixtures/Geometry.jsm',
+    },
+    'third_party/rust/uniffi-example-arithmetic/src/arithmetic.udl': {
+        'webidl': 'dom/chrome-webidl/ArithmeticScaffolding.webidl',
+        'cpp-header': 'toolkit/components/uniffi-bindgen-gecko-js/fixtures/ArithmeticScaffolding.h',
+        'cpp': 'toolkit/components/uniffi-bindgen-gecko-js/fixtures/ArithmeticScaffolding.cpp',
+        'js': 'toolkit/components/uniffi-bindgen-gecko-js/fixtures/Arithmetic.jsm',
     },
 }
 

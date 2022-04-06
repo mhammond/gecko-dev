@@ -61,6 +61,7 @@ gecko-profiler = { path = "../../../../tools/profiler/rust-api"}
 midir_impl = { path = "../../../../dom/midi/midir_impl", optional = true }
 origin-trials-ffi = { path = "../../../../dom/origin-trials/ffi" }
 uniffi = { git = "https://github.com/bendk/uniffi-rs.git", branch = "external-bindings-tests" }
+uniffi-example-arithmetic = { git = "https://github.com/bendk/uniffi-rs.git", branch = "external-bindings-tests", optional = true }
 uniffi-example-geometry = { git = "https://github.com/bendk/uniffi-rs.git", branch = "external-bindings-tests", optional = true }
 
 # Note: `modern_sqlite` means rusqlite's bindings file be for a sqlite with
@@ -108,7 +109,7 @@ glean_with_gecko = ["fog_control/with_gecko"]
 oxidized_breakpad = ["rust_minidump_writer_linux"]
 with_dbus = ["audio_thread_priority/with_dbus"]
 thread_sanitizer = ["xpcom/thread_sanitizer"]
-uniffi_fixtures = ["uniffi-example-geometry"]
+uniffi_fixtures = ["uniffi-example-arithmetic", "uniffi-example-geometry"]
 webmidi_midir_impl = ["midir_impl"]
 
 [lib]

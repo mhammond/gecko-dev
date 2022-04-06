@@ -168,7 +168,7 @@ class FfiConverterArrayBuffer {
     }
 }
 
-class FfiConverterF64 {
+class FfiConverterU64 {
     static computeSize() {
         return 8;
     }
@@ -179,10 +179,30 @@ class FfiConverterF64 {
         return value;
     }
     static write(dataStream, value) {
-        dataStream.writeFloat64(value)
+        dataStream.writeUint64(value)
     }
     static read(dataStream) {
-        return dataStream.readFloat64()
+        return dataStream.readUint64()
+    }
+}class FfiConverterBool {
+    static computeSize() {
+        return 1;
+    }
+    static lift(value) {
+        return value == 1;
+    }
+    static lower(value) {
+        if (value) {
+            return 1;
+        } else {
+            return 0;
+        }
+    }
+    static write(dataStream, value) {
+        dataStream.writeUint8(this.lower(value))
+    }
+    static read(dataStream) {
+        return this.lift(dataStream.readUint8())
     }
 }
 
@@ -211,136 +231,69 @@ class FfiConverterString {
     }
 }
 
-class Line {
-    constructor(start,end) {
-        this.start = start;
-        this.end = end;
-    }
-    equals(other) {
-        return (
-            this.start.equals(other.start) &&
-            this.end.equals(other.end)
-        )
+
+class ArithmeticError extends Error {}
+EXPORTED_SYMBOLS.push("ArithmeticError");
+
+
+class IntegerOverflow extends ArithmeticError {
+    
+    constructor(message, ...params) {
+        super(...params);
+        this.message = message;
     }
 }
+EXPORTED_SYMBOLS.push("IntegerOverflow");
 
-class FfiConverterTypeLine {
-    static lift(buf) {
-        return this.read(new ArrayBufferDataStream(buf));
-    }
-    static lower(value) {
-        const buf = new ArrayBuffer(this.computeSize(value));
-        const dataStream = new ArrayBufferDataStream(buf);
-        this.write(dataStream, value);
-        return buf;
-    }
+class FfiConverterTypeArithmeticError extends FfiConverterArrayBuffer {
     static read(dataStream) {
-        return new Line(
-            FfiConverterTypePoint.read(dataStream), 
-            FfiConverterTypePoint.read(dataStream)
-        );
-    }
-    static write(dataStream, value) {
-        FfiConverterTypePoint.write(dataStream, value.start);
-        FfiConverterTypePoint.write(dataStream, value.end);
-    }
-
-    static computeSize(value) {
-        let totalSize = 0;
-        totalSize += FfiConverterTypePoint.computeSize(value.start);
-        totalSize += FfiConverterTypePoint.computeSize(value.end);
-        return totalSize
-    }
-}
-
-EXPORTED_SYMBOLS.push("Line");
-
-class Point {
-    constructor(coordX,coordY) {
-        this.coordX = coordX;
-        this.coordY = coordY;
-    }
-    equals(other) {
-        return (
-            this.coordX == other.coordX &&
-            this.coordY == other.coordY
-        )
-    }
-}
-
-class FfiConverterTypePoint {
-    static lift(buf) {
-        return this.read(new ArrayBufferDataStream(buf));
-    }
-    static lower(value) {
-        const buf = new ArrayBuffer(this.computeSize(value));
-        const dataStream = new ArrayBufferDataStream(buf);
-        this.write(dataStream, value);
-        return buf;
-    }
-    static read(dataStream) {
-        return new Point(
-            FfiConverterF64.read(dataStream), 
-            FfiConverterF64.read(dataStream)
-        );
-    }
-    static write(dataStream, value) {
-        FfiConverterF64.write(dataStream, value.coordX);
-        FfiConverterF64.write(dataStream, value.coordY);
-    }
-
-    static computeSize(value) {
-        let totalSize = 0;
-        totalSize += FfiConverterF64.computeSize(value.coordX);
-        totalSize += FfiConverterF64.computeSize(value.coordY);
-        return totalSize
-    }
-}
-
-EXPORTED_SYMBOLS.push("Point");class FfiConverterOptionalTypePoint extends FfiConverterArrayBuffer {
-    static read(dataStream) {
-        const code = dataStream.readUint8(0);
-        switch (code) {
-            case 0:
-                return null
+        switch (dataStream.readInt32()) {
             case 1:
-                return FfiConverterTypePoint.read(dataStream)
+                throw new IntegerOverflow(FfiConverterString.read(dataStream));
             default:
-                throw UniFFIError(`Unexpected code: ${code}`);
+                return new Error("Unknown ArithmeticError variant");
         }
-    }
-
-    static write(dataStream, value) {
-        if (!value) {
-            dataStream.writeUint8(0);
-        }
-        dataStream.writeUint8(1);
-        FfiConverterTypePoint.write(dataStream, value)
-    }
-
-    static computeSize() {
-        return 1 + FfiConverterTypePoint.computeSize()
     }
 }
 
 
-function gradient(ln) {
-    const liftResult = (result) => FfiConverterF64.lift(result);
-    const liftError = null;
+function add(a,b) {
+    const liftResult = (result) => FfiConverterU64.lift(result);
+    const liftError = (data) => FfiConverterTypeArithmeticError.lift(data); // TODO
 
-    const callResult = GeometryScaffolding.geometryEb69Gradient(FfiConverterTypeLine.lower(ln),
+    const callResult = ArithmeticScaffolding.arithmetic475fAdd(FfiConverterU64.lower(a),FfiConverterU64.lower(b),
     )
     return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
 }
 
-EXPORTED_SYMBOLS.push("gradient");
-function intersection(ln1,ln2) {
-    const liftResult = (result) => FfiConverterOptionalTypePoint.lift(result);
-    const liftError = null;
+EXPORTED_SYMBOLS.push("add");
+function sub(a,b) {
+    const liftResult = (result) => FfiConverterU64.lift(result);
+    const liftError = (data) => FfiConverterTypeArithmeticError.lift(data); // TODO
 
-    const callResult = GeometryScaffolding.geometryEb69Intersection(FfiConverterTypeLine.lower(ln1),FfiConverterTypeLine.lower(ln2),
+    const callResult = ArithmeticScaffolding.arithmetic475fSub(FfiConverterU64.lower(a),FfiConverterU64.lower(b),
     )
     return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
 }
 
-EXPORTED_SYMBOLS.push("intersection");
+EXPORTED_SYMBOLS.push("sub");
+function div(dividend,divisor) {
+    const liftResult = (result) => FfiConverterU64.lift(result);
+    const liftError = null;
+
+    const callResult = ArithmeticScaffolding.arithmetic475fDiv(FfiConverterU64.lower(dividend),FfiConverterU64.lower(divisor),
+    )
+    return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+}
+
+EXPORTED_SYMBOLS.push("div");
+function equal(a,b) {
+    const liftResult = (result) => FfiConverterBool.lift(result);
+    const liftError = null;
+
+    const callResult = ArithmeticScaffolding.arithmetic475fEqual(FfiConverterU64.lower(a),FfiConverterU64.lower(b),
+    )
+    return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+}
+
+EXPORTED_SYMBOLS.push("equal");

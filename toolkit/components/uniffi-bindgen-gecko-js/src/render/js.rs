@@ -90,6 +90,14 @@ pub impl Type {
         }
     }
 
+    // Render an expression to check if two instances of this type are equal
+    fn equals(&self, first: &str, second: &str) -> String {
+        match self {
+            Type::Record(_) => format!("{}.equals({})", first, second),
+            _ => format!("{} == {}", first, second),
+        }
+    }
+
     fn write_datastream_fn(&self) -> String {
         format!("{}.write", self.ffi_converter())
     }
