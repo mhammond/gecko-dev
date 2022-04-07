@@ -1,6 +1,6 @@
 class {{ ffi_converter }} extends FfiConverterArrayBuffer {
     static read(dataStream) {
-        const len = dataStream.readUint32();
+        const len = dataStream.readInt32();
         const arr = [];
         for (let i = 0; i < len; i++) {
             arr.push({{ inner.ffi_converter() }}.read(dataStream));
@@ -9,7 +9,7 @@ class {{ ffi_converter }} extends FfiConverterArrayBuffer {
     }
 
     static write(dataStream, value) {
-        dataStream.writeUint32(value.length);
+        dataStream.writeInt32(value.length);
         value.forEach((innerValue) => {
             {{ inner.ffi_converter() }}.write(dataStream, innerValue);
         })

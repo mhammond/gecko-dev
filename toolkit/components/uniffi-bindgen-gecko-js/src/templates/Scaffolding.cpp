@@ -30,7 +30,9 @@ struct Args {
 
 // Return values from the scaffolding function
 struct Result {
+    {%- if func.has_return_type() %}
     {{ func.rust_return_type() }} mReturnValue;
+    {%- endif %}
     RustCallStatus mCallStatus = {};
 };
 
@@ -41,7 +43,9 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs({{ func.input_arg_list() }}, mozilla::ErrorResult& aUniFFIError) {
+Args PrepareArgs(
+    {%- if func.has_args()%}{{ func.input_arg_list() }},{%- else %}{%- endif %}
+    mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
@@ -66,7 +70,7 @@ Args PrepareArgs({{ func.input_arg_list() }}, mozilla::ErrorResult& aUniFFIError
 // For async calls this should be called in the worker thread
 Result Invoke(Args& aArgs) {
     Result result = {};
-    result.mReturnValue = ::{{ func.rust_name() }}(
+    {%- if func.has_return_type() %}result.mReturnValue = {%- endif %}::{{ func.rust_name() }}(
          {%- for arg in func.arguments() %}
          {%- if arg.is_rust_buffer() %}
          aArgs.{{ arg.nm() }}.intoRustBuffer(),
@@ -88,7 +92,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
             {%- if func.returns_rust_buffer() %}
             // Convert result RustBuffer into an ArrayBuffer and set the data field
             aReturnValue.mData.setObjectOrNull(OwnedRustBuffer(aCallResult.mReturnValue).intoArrayBuffer(aContext));
-            {%- else %}
+            {%- else if func.has_return_type() %}
             // All other return values (ints, floats, pointers) are handled as a JS number value
             aReturnValue.mData.setNumber(aCallResult.mReturnValue);
             {%- endif %}
@@ -118,7 +122,9 @@ namespace mozilla::dom {
 using namespace {{ ci.cpp_namespace() }};
 
 {%- if func.is_async() %}
-already_AddRefed<Promise> {{ fully_qualified_name }}(const GlobalObject& aUniFFIGlobal, {{ func.input_arg_list() }}, ErrorResult& aUniFFIError) {
+already_AddRefed<Promise> {{ fully_qualified_name }}(const GlobalObject& aUniFFIGlobal, 
+{%- if func.has_args()%}{{ func.input_arg_list() }},{%- else %}{%- endif %}
+ ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
 
@@ -171,7 +177,9 @@ already_AddRefed<Promise> {{ fully_qualified_name }}(const GlobalObject& aUniFFI
 }
 
 {%- else %}
-void {{ ci.scaffolding_class() }}::{{ func.nm() }}(const GlobalObject& aUniFFIGlobal, {{ func.input_arg_list() }}, RootedDictionary<UniFFIRustCallResult>& aUniFFIReturnValue, ErrorResult& aUniFFIError) {
+void {{ ci.scaffolding_class() }}::{{ func.nm() }}(const GlobalObject& aUniFFIGlobal,
+{%- if func.has_args()%}{{ func.input_arg_list() }},{%- else %}{%- endif %}
+RootedDictionary<UniFFIRustCallResult>& aUniFFIReturnValue, ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
 

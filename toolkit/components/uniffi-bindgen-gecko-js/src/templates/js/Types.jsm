@@ -53,6 +53,9 @@
 {%- when Type::Error with (name) %}
 {% include "Error.jsm" %}
 
+{% when Type::Enum with (name) %}
+{% include "Enum.jsm" %}
+
 {%- else %}
 {# TODO implement the other types #}
 

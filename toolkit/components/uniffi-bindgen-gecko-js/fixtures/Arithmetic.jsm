@@ -115,6 +115,11 @@ class ArrayBufferDataStream {
       this.pos += size + 4;
     }
 
+    writeInt32(value) {
+        this.dataView.setInt32(this.pos, value);
+        this.pos += 4;
+    }
+
     readString() {
       const decoder = new TextDecoder();
       const size = this.readUint32();
@@ -249,7 +254,7 @@ class FfiConverterTypeArithmeticError extends FfiConverterArrayBuffer {
     static read(dataStream) {
         switch (dataStream.readInt32()) {
             case 1:
-                throw new IntegerOverflow(FfiConverterString.read(dataStream));
+                return new IntegerOverflow(FfiConverterString.read(dataStream));
             default:
                 return new Error("Unknown ArithmeticError variant");
         }
@@ -257,9 +262,11 @@ class FfiConverterTypeArithmeticError extends FfiConverterArrayBuffer {
 }
 
 
+
+
 function add(a,b) {
     const liftResult = (result) => FfiConverterU64.lift(result);
-    const liftError = (data) => FfiConverterTypeArithmeticError.lift(data); // TODO
+    const liftError = (data) => FfiConverterTypeArithmeticError.lift(data);
 
     const callResult = ArithmeticScaffolding.arithmetic475fAdd(FfiConverterU64.lower(a),FfiConverterU64.lower(b),
     )
@@ -269,7 +276,7 @@ function add(a,b) {
 EXPORTED_SYMBOLS.push("add");
 function sub(a,b) {
     const liftResult = (result) => FfiConverterU64.lift(result);
-    const liftError = (data) => FfiConverterTypeArithmeticError.lift(data); // TODO
+    const liftError = (data) => FfiConverterTypeArithmeticError.lift(data);
 
     const callResult = ArithmeticScaffolding.arithmetic475fSub(FfiConverterU64.lower(a),FfiConverterU64.lower(b),
     )

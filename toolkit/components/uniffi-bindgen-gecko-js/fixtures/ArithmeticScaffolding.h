@@ -28,10 +28,14 @@ class GlobalObject;
 
 class ArithmeticScaffolding {
   public:
-  static already_AddRefed<Promise> Arithmetic475fAdd(const GlobalObject& aUniFFIGlobal, const uint64_t& a, const uint64_t& b, ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> Arithmetic475fSub(const GlobalObject& aUniFFIGlobal, const uint64_t& a, const uint64_t& b, ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> Arithmetic475fDiv(const GlobalObject& aUniFFIGlobal, const uint64_t& dividend, const uint64_t& divisor, ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> Arithmetic475fEqual(const GlobalObject& aUniFFIGlobal, const uint64_t& a, const uint64_t& b, ErrorResult& aUniFFIErrorResult);
+  static already_AddRefed<Promise> Arithmetic475fAdd(const GlobalObject& aUniFFIGlobal,const uint64_t& a, const uint64_t& b,
+  ErrorResult& aUniFFIErrorResult);
+  static already_AddRefed<Promise> Arithmetic475fSub(const GlobalObject& aUniFFIGlobal,const uint64_t& a, const uint64_t& b,
+  ErrorResult& aUniFFIErrorResult);
+  static already_AddRefed<Promise> Arithmetic475fDiv(const GlobalObject& aUniFFIGlobal,const uint64_t& dividend, const uint64_t& divisor,
+  ErrorResult& aUniFFIErrorResult);
+  static already_AddRefed<Promise> Arithmetic475fEqual(const GlobalObject& aUniFFIGlobal,const uint64_t& a, const uint64_t& b,
+  ErrorResult& aUniFFIErrorResult);
 };
 
 }  // namespace mozilla::dom

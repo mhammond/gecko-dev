@@ -24,8 +24,10 @@ class GlobalObject;
 
 class GeometryScaffolding {
   public:
-  static already_AddRefed<Promise> GeometryEb69Gradient(const GlobalObject& aUniFFIGlobal, const ArrayBuffer& ln, ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> GeometryEb69Intersection(const GlobalObject& aUniFFIGlobal, const ArrayBuffer& ln1, const ArrayBuffer& ln2, ErrorResult& aUniFFIErrorResult);
+  static already_AddRefed<Promise> GeometryEb69Gradient(const GlobalObject& aUniFFIGlobal,const ArrayBuffer& ln,
+  ErrorResult& aUniFFIErrorResult);
+  static already_AddRefed<Promise> GeometryEb69Intersection(const GlobalObject& aUniFFIGlobal,const ArrayBuffer& ln1, const ArrayBuffer& ln2,
+  ErrorResult& aUniFFIErrorResult);
 };
 
 }  // namespace mozilla::dom

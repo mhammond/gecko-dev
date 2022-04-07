@@ -95,7 +95,9 @@ extern crate origin_trials_ffi;
 mod uniffi_fixtures {
     extern crate arithmetical;
     extern crate uniffi_geometry;
+    extern crate uniffi_rondpoint;
 
+    uniffi_rondpoint::uniffi_reexport_scaffolding!();
     arithmetical::uniffi_reexport_scaffolding!();
     uniffi_geometry::uniffi_reexport_scaffolding!();
 }

@@ -58,7 +58,7 @@ pub impl FFIFunction {
     }
 
     fn rust_name(&self) -> String {
-        self.name().to_snake_case()
+        self.name().to_string()
     }
 
     fn rust_return_type(&self) -> String {
@@ -76,6 +76,14 @@ pub impl FFIFunction {
 
     fn returns_rust_buffer(&self) -> bool {
         matches!(self.return_type(), Some(FFIType::RustBuffer))
+    }
+
+    fn has_args(&self) -> bool {
+       !self.arguments().is_empty()
+    }
+
+    fn has_return_type(&self) -> bool {
+        self.return_type().is_some()
     }
 }
 

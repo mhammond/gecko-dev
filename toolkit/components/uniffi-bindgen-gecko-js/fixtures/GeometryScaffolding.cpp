@@ -34,7 +34,8 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const ArrayBuffer& ln, mozilla::ErrorResult& aUniFFIError) {
+Args PrepareArgs(const ArrayBuffer& ln,
+    mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
@@ -51,8 +52,7 @@ Args PrepareArgs(const ArrayBuffer& ln, mozilla::ErrorResult& aUniFFIError) {
 //
 // For async calls this should be called in the worker thread
 Result Invoke(Args& aArgs) {
-    Result result = {};
-    result.mReturnValue = ::geometry_eb69_gradient(
+    Result result = {};result.mReturnValue =::geometry_eb69_gradient(
          aArgs.ln.intoRustBuffer(),
          &result.mCallStatus
      );
@@ -110,7 +110,8 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const ArrayBuffer& ln1, const ArrayBuffer& ln2, mozilla::ErrorResult& aUniFFIError) {
+Args PrepareArgs(const ArrayBuffer& ln1, const ArrayBuffer& ln2,
+    mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
@@ -132,8 +133,7 @@ Args PrepareArgs(const ArrayBuffer& ln1, const ArrayBuffer& ln2, mozilla::ErrorR
 //
 // For async calls this should be called in the worker thread
 Result Invoke(Args& aArgs) {
-    Result result = {};
-    result.mReturnValue = ::geometry_eb69_intersection(
+    Result result = {};result.mReturnValue =::geometry_eb69_intersection(
          aArgs.ln1.intoRustBuffer(),
          aArgs.ln2.intoRustBuffer(),
          &result.mCallStatus
@@ -169,7 +169,8 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 
 namespace mozilla::dom {
 using namespace uniffi::geometry;
-already_AddRefed<Promise> GeometryScaffolding::GeometryEb69Gradient(const GlobalObject& aUniFFIGlobal, const ArrayBuffer& ln, ErrorResult& aUniFFIError) {
+already_AddRefed<Promise> GeometryScaffolding::GeometryEb69Gradient(const GlobalObject& aUniFFIGlobal,const ArrayBuffer& ln,
+ ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
 
@@ -221,7 +222,8 @@ already_AddRefed<Promise> GeometryScaffolding::GeometryEb69Gradient(const Global
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::geometry;
-already_AddRefed<Promise> GeometryScaffolding::GeometryEb69Intersection(const GlobalObject& aUniFFIGlobal, const ArrayBuffer& ln1, const ArrayBuffer& ln2, ErrorResult& aUniFFIError) {
+already_AddRefed<Promise> GeometryScaffolding::GeometryEb69Intersection(const GlobalObject& aUniFFIGlobal,const ArrayBuffer& ln1, const ArrayBuffer& ln2,
+ ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
 

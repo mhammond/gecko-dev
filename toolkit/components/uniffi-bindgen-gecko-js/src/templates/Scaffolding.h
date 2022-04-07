@@ -26,9 +26,13 @@ class {{ ci.scaffolding_class() }} {
   {%- for func in ci.iter_user_ffi_function_definitions() %}
 
   {%- if func.is_async() %}
-  static already_AddRefed<Promise> {{ func.nm() }}(const GlobalObject& aUniFFIGlobal, {{ func.input_arg_list() }}, ErrorResult& aUniFFIErrorResult);
+  static already_AddRefed<Promise> {{ func.nm() }}(const GlobalObject& aUniFFIGlobal,
+  {%- if func.has_args() %}{{ func.input_arg_list() }},{%- else %}{%- endif %}
+  ErrorResult& aUniFFIErrorResult);
   {%- else %}
-  static void {{ func.nm() }}(const GlobalObject& aUniFFIGlobal, {{ func.input_arg_list() }}, RootedDictionary<UniFFIRustCallResult>& aUniFFIReturnValue, ErrorResult& aUniFFIErrorResult);
+  static void {{ func.nm() }}(const GlobalObject& aUniFFIGlobal, 
+   {%- if func.has_args() %}{{ func.input_arg_list() }},{%- else %}{%- endif %}
+  RootedDictionary<UniFFIRustCallResult>& aUniFFIReturnValue, ErrorResult& aUniFFIErrorResult);
   {%- endif %}
   {%- endfor %}
 };

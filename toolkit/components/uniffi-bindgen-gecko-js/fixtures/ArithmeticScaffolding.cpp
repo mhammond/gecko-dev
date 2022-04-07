@@ -35,7 +35,8 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& a, const uint64_t& b, mozilla::ErrorResult& aUniFFIError) {
+Args PrepareArgs(const uint64_t& a, const uint64_t& b,
+    mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
@@ -49,8 +50,7 @@ Args PrepareArgs(const uint64_t& a, const uint64_t& b, mozilla::ErrorResult& aUn
 //
 // For async calls this should be called in the worker thread
 Result Invoke(Args& aArgs) {
-    Result result = {};
-    result.mReturnValue = ::arithmetic_475f_add(
+    Result result = {};result.mReturnValue =::arithmetic_475f_add(
          aArgs.a,
          aArgs.b,
          &result.mCallStatus
@@ -109,7 +109,8 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& a, const uint64_t& b, mozilla::ErrorResult& aUniFFIError) {
+Args PrepareArgs(const uint64_t& a, const uint64_t& b,
+    mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
@@ -123,8 +124,7 @@ Args PrepareArgs(const uint64_t& a, const uint64_t& b, mozilla::ErrorResult& aUn
 //
 // For async calls this should be called in the worker thread
 Result Invoke(Args& aArgs) {
-    Result result = {};
-    result.mReturnValue = ::arithmetic_475f_sub(
+    Result result = {};result.mReturnValue =::arithmetic_475f_sub(
          aArgs.a,
          aArgs.b,
          &result.mCallStatus
@@ -183,7 +183,8 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& dividend, const uint64_t& divisor, mozilla::ErrorResult& aUniFFIError) {
+Args PrepareArgs(const uint64_t& dividend, const uint64_t& divisor,
+    mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
@@ -197,8 +198,7 @@ Args PrepareArgs(const uint64_t& dividend, const uint64_t& divisor, mozilla::Err
 //
 // For async calls this should be called in the worker thread
 Result Invoke(Args& aArgs) {
-    Result result = {};
-    result.mReturnValue = ::arithmetic_475f_div(
+    Result result = {};result.mReturnValue =::arithmetic_475f_div(
          aArgs.dividend,
          aArgs.divisor,
          &result.mCallStatus
@@ -257,7 +257,8 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& a, const uint64_t& b, mozilla::ErrorResult& aUniFFIError) {
+Args PrepareArgs(const uint64_t& a, const uint64_t& b,
+    mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
@@ -271,8 +272,7 @@ Args PrepareArgs(const uint64_t& a, const uint64_t& b, mozilla::ErrorResult& aUn
 //
 // For async calls this should be called in the worker thread
 Result Invoke(Args& aArgs) {
-    Result result = {};
-    result.mReturnValue = ::arithmetic_475f_equal(
+    Result result = {};result.mReturnValue =::arithmetic_475f_equal(
          aArgs.a,
          aArgs.b,
          &result.mCallStatus
@@ -308,7 +308,8 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 
 namespace mozilla::dom {
 using namespace uniffi::arithmetic;
-already_AddRefed<Promise> ArithmeticScaffolding::Arithmetic475fAdd(const GlobalObject& aUniFFIGlobal, const uint64_t& a, const uint64_t& b, ErrorResult& aUniFFIError) {
+already_AddRefed<Promise> ArithmeticScaffolding::Arithmetic475fAdd(const GlobalObject& aUniFFIGlobal,const uint64_t& a, const uint64_t& b,
+ ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
 
@@ -360,7 +361,8 @@ already_AddRefed<Promise> ArithmeticScaffolding::Arithmetic475fAdd(const GlobalO
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::arithmetic;
-already_AddRefed<Promise> ArithmeticScaffolding::Arithmetic475fSub(const GlobalObject& aUniFFIGlobal, const uint64_t& a, const uint64_t& b, ErrorResult& aUniFFIError) {
+already_AddRefed<Promise> ArithmeticScaffolding::Arithmetic475fSub(const GlobalObject& aUniFFIGlobal,const uint64_t& a, const uint64_t& b,
+ ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
 
@@ -412,7 +414,8 @@ already_AddRefed<Promise> ArithmeticScaffolding::Arithmetic475fSub(const GlobalO
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::arithmetic;
-already_AddRefed<Promise> ArithmeticScaffolding::Arithmetic475fDiv(const GlobalObject& aUniFFIGlobal, const uint64_t& dividend, const uint64_t& divisor, ErrorResult& aUniFFIError) {
+already_AddRefed<Promise> ArithmeticScaffolding::Arithmetic475fDiv(const GlobalObject& aUniFFIGlobal,const uint64_t& dividend, const uint64_t& divisor,
+ ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
 
@@ -464,7 +467,8 @@ already_AddRefed<Promise> ArithmeticScaffolding::Arithmetic475fDiv(const GlobalO
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::arithmetic;
-already_AddRefed<Promise> ArithmeticScaffolding::Arithmetic475fEqual(const GlobalObject& aUniFFIGlobal, const uint64_t& a, const uint64_t& b, ErrorResult& aUniFFIError) {
+already_AddRefed<Promise> ArithmeticScaffolding::Arithmetic475fEqual(const GlobalObject& aUniFFIGlobal,const uint64_t& a, const uint64_t& b,
+ ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
 

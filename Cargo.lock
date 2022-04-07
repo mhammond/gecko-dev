@@ -2171,6 +2171,7 @@ dependencies = [
  "uniffi",
  "uniffi-example-arithmetic",
  "uniffi-example-geometry",
+ "uniffi-example-rondpoint",
  "viaduct",
  "webext_storage_bridge",
  "webrender_bindings",
@@ -5723,6 +5724,16 @@ dependencies = [
 
 [[package]]
 name = "uniffi-example-geometry"
+version = "0.17.0"
+source = "git+https://github.com/bendk/uniffi-rs.git?branch=external-bindings-tests#a998673cfb511be0a972749bbe322044d5835ac4"
+dependencies = [
+ "uniffi",
+ "uniffi_build",
+ "uniffi_macros",
+]
+
+[[package]]
+name = "uniffi-example-rondpoint"
 version = "0.17.0"
 source = "git+https://github.com/bendk/uniffi-rs.git?branch=external-bindings-tests#a998673cfb511be0a972749bbe322044d5835ac4"
 dependencies = [

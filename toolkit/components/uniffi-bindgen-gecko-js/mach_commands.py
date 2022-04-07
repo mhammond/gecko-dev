@@ -27,6 +27,12 @@ generated_bindings_paths = {
         'cpp': 'toolkit/components/uniffi-bindgen-gecko-js/fixtures/ArithmeticScaffolding.cpp',
         'js': 'toolkit/components/uniffi-bindgen-gecko-js/fixtures/Arithmetic.jsm',
     },
+    'third_party/rust/uniffi-example-rondpoint/src/rondpoint.udl': {
+        'webidl': 'dom/chrome-webidl/RondpointScaffolding.webidl',
+        'cpp-header': 'toolkit/components/uniffi-bindgen-gecko-js/fixtures/RondpointScaffolding.h',
+        'cpp': 'toolkit/components/uniffi-bindgen-gecko-js/fixtures/RondpointScaffolding.cpp',
+        'js': 'toolkit/components/uniffi-bindgen-gecko-js/fixtures/Rondpoint.jsm',
+    },
 }
 
 def build_uniffi_bindgen_gecko_js(command_context):

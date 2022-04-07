@@ -4,7 +4,7 @@
 
 class {{ ffi_converter }} extends FfiConverterArrayBuffer {
     static read(dataStream) {
-        const len = dataStream.readUint32();
+        const len = dataStream.readInt32();
         const map = {};
         for (let i = 0; i < len; i++) {
             const key = {{ string_ffi_converter }}.read(dataStream);
@@ -16,7 +16,7 @@ class {{ ffi_converter }} extends FfiConverterArrayBuffer {
     }
 
     static write(dataStream, value) {
-        dataStream.writeUint32(Object.keys(value).length);
+        dataStream.writeInt32(Object.keys(value).length);
         for (const key in value) {
             {{ string_ffi_converter }}.write(dataStream, key);
             {{ inner.ffi_converter() }}.write(dataStream, value[key]);

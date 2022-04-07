@@ -108,6 +108,11 @@ class ArrayBufferDataStream {
       this.pos += size + 4;
     }
 
+    writeInt32(value) {
+        this.dataView.setInt32(this.pos, value);
+        this.pos += 4;
+    }
+
     readString() {
       const decoder = new TextDecoder();
       const size = this.readUint32();

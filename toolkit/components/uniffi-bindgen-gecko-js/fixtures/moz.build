@@ -7,7 +7,7 @@
 FINAL_LIBRARY = "xul"
 
 components = [
-    "Arithmetic", "Geometry",
+    "Arithmetic", "Geometry", "Rondpoint"
 ]
 
 UNIFIED_SOURCES += [

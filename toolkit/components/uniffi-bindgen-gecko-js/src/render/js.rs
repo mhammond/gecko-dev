@@ -5,9 +5,9 @@ License, v. 2.0. If a copy of the MPL was not distributed with this
 use super::shared::*;
 use askama::Template;
 use extend::ext;
-use heck::{CamelCase, MixedCase};
+use heck::{CamelCase, MixedCase, ShoutySnakeCase};
 use uniffi_bindgen::interface::{
-    Argument, ComponentInterface, Error, FFIFunction, Field, Function, Record, Type,
+    Argument, ComponentInterface, Error, FFIFunction, Field, Function, Record, Type, Enum
 };
 
 #[derive(Template)]
@@ -108,6 +108,13 @@ pub impl Type {
 
     fn ffi_converter(&self) -> String {
         format!("FfiConverter{}", self.canonical_name().to_camel_case())
+    }
+}
+
+#[ext(name=EnumJSExt)]
+pub impl Enum {
+    fn nm(&self) -> String {
+        self.name().to_camel_case()
     }
 }
 
