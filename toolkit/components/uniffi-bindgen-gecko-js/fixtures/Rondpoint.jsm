@@ -410,6 +410,8 @@ class FfiConverterString {
 
 
 class Optionneur {
+    // Use `init` to instantiate this class.
+    // DO NOT USE THIS CONSTRUCTOR DIRECTLY
     constructor(ptr) {
         if (!ptr) {
             throw new UniFFIError("Attempting to construct an object that needs to be constructed asynchronously" +
@@ -417,7 +419,13 @@ class Optionneur {
         }
         this.ptr = ptr;
     }
-    
+
+    /**
+     * An async constructor for Optionneur.
+     * 
+     * @returns {Promise<Optionneur>}: A promise that resolves
+     *      to a newly constructed Optionneur
+     */
     static init() {
         const liftResult = (resultPtr) => {
             return new Optionneur(resultPtr);
@@ -630,10 +638,34 @@ class Optionneur {
     }
 }
 
+class FfiConverterTypeOptionneur {
+    static lift(value) {
+        return new Optionneur(value);
+    }
+
+    static lower(value) {
+        return value.ptr;
+    }
+
+    static read(dataStream) {
+        return lift(dataStream.readInt64());
+    }
+
+    static write(dataStream, value) {
+        dataStream.writeInt64(value.ptr);
+    }
+
+    static computeSize(value) {
+        return 8;
+    }
+}
+
 EXPORTED_SYMBOLS.push("Optionneur");
 
 
 class Retourneur {
+    // Use `init` to instantiate this class.
+    // DO NOT USE THIS CONSTRUCTOR DIRECTLY
     constructor(ptr) {
         if (!ptr) {
             throw new UniFFIError("Attempting to construct an object that needs to be constructed asynchronously" +
@@ -641,7 +673,13 @@ class Retourneur {
         }
         this.ptr = ptr;
     }
-    
+
+    /**
+     * An async constructor for Retourneur.
+     * 
+     * @returns {Promise<Retourneur>}: A promise that resolves
+     *      to a newly constructed Retourneur
+     */
     static init() {
         const liftResult = (resultPtr) => {
             return new Retourneur(resultPtr);
@@ -774,10 +812,34 @@ class Retourneur {
     }
 }
 
+class FfiConverterTypeRetourneur {
+    static lift(value) {
+        return new Retourneur(value);
+    }
+
+    static lower(value) {
+        return value.ptr;
+    }
+
+    static read(dataStream) {
+        return lift(dataStream.readInt64());
+    }
+
+    static write(dataStream, value) {
+        dataStream.writeInt64(value.ptr);
+    }
+
+    static computeSize(value) {
+        return 8;
+    }
+}
+
 EXPORTED_SYMBOLS.push("Retourneur");
 
 
 class Stringifier {
+    // Use `init` to instantiate this class.
+    // DO NOT USE THIS CONSTRUCTOR DIRECTLY
     constructor(ptr) {
         if (!ptr) {
             throw new UniFFIError("Attempting to construct an object that needs to be constructed asynchronously" +
@@ -785,7 +847,13 @@ class Stringifier {
         }
         this.ptr = ptr;
     }
-    
+
+    /**
+     * An async constructor for Stringifier.
+     * 
+     * @returns {Promise<Stringifier>}: A promise that resolves
+     *      to a newly constructed Stringifier
+     */
     static init() {
         const liftResult = (resultPtr) => {
             return new Stringifier(resultPtr);
@@ -891,6 +959,28 @@ class Stringifier {
         const callResult = RondpointScaffolding.rondpointC728StringifierToStringBoolean(this.ptr,FfiConverterBool.lower(value),
         )
         return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+}
+
+class FfiConverterTypeStringifier {
+    static lift(value) {
+        return new Stringifier(value);
+    }
+
+    static lower(value) {
+        return value.ptr;
+    }
+
+    static read(dataStream) {
+        return lift(dataStream.readInt64());
+    }
+
+    static write(dataStream, value) {
+        dataStream.writeInt64(value.ptr);
+    }
+
+    static computeSize(value) {
+        return 8;
     }
 }
 

@@ -26,6 +26,7 @@ fn arg_names(args: &[&Argument]) -> String {
 
 fn render_enum_literal(typ: &Type, variant_name: &str) -> String {
     if let Type::Enum(enum_name) = typ {
+        // TODO: This does not support complex enum literals yet.
         return format!("{}.{}", enum_name.to_camel_case(), variant_name.to_shouty_snake_case());
     } else {
         panic!("Rendering an enum literal on a type that is not an enum")
