@@ -12,15 +12,19 @@ class {{ ffi_converter }} extends FfiConverterArrayBuffer {
     }
 
     static write(dataStream, value) {
-        if (!value) {
+        if (value === null || value === undefined) {
             dataStream.writeUint8(0);
+            return;
         }
         dataStream.writeUint8(1);
         {{ inner.ffi_converter() }}.write(dataStream, value)
     }
 
-    static computeSize() {
-        return 1 + {{ inner.ffi_converter() }}.computeSize()
+    static computeSize(value) {
+        if (value === null || value === undefined) {
+            return 1;
+        }
+        return 1 + {{ inner.ffi_converter() }}.computeSize(value)
     }
 }
 

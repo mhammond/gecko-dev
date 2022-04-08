@@ -23,10 +23,20 @@ class ArrayBufferDataStream {
         return rv;
     }
 
+    writeUint8(value) {
+        this.dataView.setUint8(this.pos, value);
+        this.pos += 1;
+    }
+
     readUint16() {
         let rv = this.dataView.getUint16(this.pos);
         this.pos += 2;
         return rv;
+    }
+
+    writeUint16(value) {
+        this.dataView.setUint16(this.pos, value);
+        this.pos += 2;
     }
 
     readUint32() {
@@ -35,16 +45,32 @@ class ArrayBufferDataStream {
         return rv;
     }
 
-    readUint64() {
-        let rv = this.dataView.getUint64(this.pos);
-        this.pos += 8;
-        return rv;
+    writeUint32(value) {
+        this.dataView.setUint32(this.pos, value);
+        this.pos += 4;
     }
+
+    readUint64() {
+        let rv = this.dataView.getBigUint64(this.pos);
+        this.pos += 8;
+        return Number(rv);
+    }
+
+    writeUint64(value) {
+        this.dataView.setBigUint64(this.pos, BigInt(value));
+        this.pos += 8;
+    }
+
 
     readInt8() {
         let rv = this.dataView.getInt8(this.pos);
         this.pos += 1;
         return rv;
+    }
+
+    writeInt8(value) {
+        this.dataView.setInt8(this.pos, value);
+        this.pos += 1;
     }
 
     readInt16() {
@@ -53,17 +79,33 @@ class ArrayBufferDataStream {
         return rv;
     }
 
+    writeInt16(value) {
+        this.dataView.setInt16(this.pos, value);
+        this.pos += 2;
+    }
+
     readInt32() {
         let rv = this.dataView.getInt32(this.pos);
         this.pos += 4;
         return rv;
     }
 
-    readInt64() {
-        let rv = this.dataView.getInt64(this.pos);
-        this.pos += 8;
-        return rv;
+    writeInt32(value) {
+        this.dataView.setInt32(this.pos, value);
+        this.pos += 4;
     }
+
+    readInt64() {
+        let rv = this.dataView.getBigInt64(this.pos);
+        this.pos += 8;
+        return Number(rv);
+    }
+
+    writeInt64(value) {
+        this.dataView.setBigInt64(this.pos, BigInt(value));
+        this.pos += 8;
+    }
+
 
     readFloat32() {
         let rv = this.dataView.getFloat32(this.pos);
@@ -87,15 +129,6 @@ class ArrayBufferDataStream {
         this.pos += 8;
     }
 
-    writeUint8(value) {
-      this.dataView.setUint8(this.pos, value);
-      this.pos += 1;
-    }
-
-    writeUint32(value) {
-      this.dataView.setUint32(this.pos, value);
-      this.pos += 4;
-    }
 
     writeString(value) {
       const encoder = new TextEncoder();
@@ -113,11 +146,6 @@ class ArrayBufferDataStream {
       this.dataView.setUint32(this.pos, size);
       // Finally, advance our position past both the size and string data
       this.pos += size + 4;
-    }
-
-    writeInt32(value) {
-        this.dataView.setInt32(this.pos, value);
-        this.pos += 4;
     }
 
     readString() {
@@ -381,7 +409,492 @@ class FfiConverterString {
 }
 
 
+class Optionneur {
+    constructor(ptr) {
+        if (!ptr) {
+            throw new UniFFIError("Attempting to construct an object that needs to be constructed asynchronously" +
+            "Please use the init async function")
+        }
+        this.ptr = ptr;
+    }
+    
+    static init() {
+        const liftResult = (resultPtr) => {
+            return new Optionneur(resultPtr);
+        };
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728OptionneurNew(
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    sinonBoolean(value = false) {
+        const liftResult = (result) => FfiConverterBool.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728OptionneurSinonBoolean(this.ptr,FfiConverterBool.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    sinonString(value = "default") {
+        const liftResult = (result) => FfiConverterString.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728OptionneurSinonString(this.ptr,FfiConverterString.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    sinonSequence(value = []) {
+        const liftResult = (result) => FfiConverterSequencestring.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728OptionneurSinonSequence(this.ptr,FfiConverterSequencestring.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    sinonNull(value = null) {
+        const liftResult = (result) => FfiConverterOptionalstring.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728OptionneurSinonNull(this.ptr,FfiConverterOptionalstring.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    sinonZero(value = 0) {
+        const liftResult = (result) => FfiConverterOptionali32.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728OptionneurSinonZero(this.ptr,FfiConverterOptionali32.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    sinonU8Dec(value = 42) {
+        const liftResult = (result) => FfiConverterU8.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728OptionneurSinonU8Dec(this.ptr,FfiConverterU8.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    sinonI8Dec(value = -42) {
+        const liftResult = (result) => FfiConverterI8.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728OptionneurSinonI8Dec(this.ptr,FfiConverterI8.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    sinonU16Dec(value = 42) {
+        const liftResult = (result) => FfiConverterU16.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728OptionneurSinonU16Dec(this.ptr,FfiConverterU16.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    sinonI16Dec(value = 42) {
+        const liftResult = (result) => FfiConverterI16.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728OptionneurSinonI16Dec(this.ptr,FfiConverterI16.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    sinonU32Dec(value = 42) {
+        const liftResult = (result) => FfiConverterU32.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728OptionneurSinonU32Dec(this.ptr,FfiConverterU32.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    sinonI32Dec(value = 42) {
+        const liftResult = (result) => FfiConverterI32.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728OptionneurSinonI32Dec(this.ptr,FfiConverterI32.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    sinonU64Dec(value = 42) {
+        const liftResult = (result) => FfiConverterU64.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728OptionneurSinonU64Dec(this.ptr,FfiConverterU64.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    sinonI64Dec(value = 42) {
+        const liftResult = (result) => FfiConverterI64.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728OptionneurSinonI64Dec(this.ptr,FfiConverterI64.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    sinonU8Hex(value = 0xff) {
+        const liftResult = (result) => FfiConverterU8.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728OptionneurSinonU8Hex(this.ptr,FfiConverterU8.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    sinonI8Hex(value = -127) {
+        const liftResult = (result) => FfiConverterI8.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728OptionneurSinonI8Hex(this.ptr,FfiConverterI8.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    sinonU16Hex(value = 0xffff) {
+        const liftResult = (result) => FfiConverterU16.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728OptionneurSinonU16Hex(this.ptr,FfiConverterU16.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    sinonI16Hex(value = 0x7f) {
+        const liftResult = (result) => FfiConverterI16.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728OptionneurSinonI16Hex(this.ptr,FfiConverterI16.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    sinonU32Hex(value = 0xffffffff) {
+        const liftResult = (result) => FfiConverterU32.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728OptionneurSinonU32Hex(this.ptr,FfiConverterU32.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    sinonI32Hex(value = 0x7fffffff) {
+        const liftResult = (result) => FfiConverterI32.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728OptionneurSinonI32Hex(this.ptr,FfiConverterI32.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    sinonU64Hex(value = 0xffffffffffffffff) {
+        const liftResult = (result) => FfiConverterU64.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728OptionneurSinonU64Hex(this.ptr,FfiConverterU64.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    sinonI64Hex(value = 0x7fffffffffffffff) {
+        const liftResult = (result) => FfiConverterI64.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728OptionneurSinonI64Hex(this.ptr,FfiConverterI64.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    sinonU32Oct(value = 0o755) {
+        const liftResult = (result) => FfiConverterU32.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728OptionneurSinonU32Oct(this.ptr,FfiConverterU32.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    sinonF32(value = 42.0) {
+        const liftResult = (result) => FfiConverterF32.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728OptionneurSinonF32(this.ptr,FfiConverterF32.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    sinonF64(value = 42.1) {
+        const liftResult = (result) => FfiConverterF64.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728OptionneurSinonF64(this.ptr,FfiConverterF64.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    sinonEnum(value = Enumeration.TROIS) {
+        const liftResult = (result) => FfiConverterTypeEnumeration.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728OptionneurSinonEnum(this.ptr,FfiConverterTypeEnumeration.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+}
 
+EXPORTED_SYMBOLS.push("Optionneur");
+
+
+class Retourneur {
+    constructor(ptr) {
+        if (!ptr) {
+            throw new UniFFIError("Attempting to construct an object that needs to be constructed asynchronously" +
+            "Please use the init async function")
+        }
+        this.ptr = ptr;
+    }
+    
+    static init() {
+        const liftResult = (resultPtr) => {
+            return new Retourneur(resultPtr);
+        };
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728RetourneurNew(
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    identiqueI8(value) {
+        const liftResult = (result) => FfiConverterI8.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728RetourneurIdentiqueI8(this.ptr,FfiConverterI8.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    identiqueU8(value) {
+        const liftResult = (result) => FfiConverterU8.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728RetourneurIdentiqueU8(this.ptr,FfiConverterU8.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    identiqueI16(value) {
+        const liftResult = (result) => FfiConverterI16.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728RetourneurIdentiqueI16(this.ptr,FfiConverterI16.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    identiqueU16(value) {
+        const liftResult = (result) => FfiConverterU16.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728RetourneurIdentiqueU16(this.ptr,FfiConverterU16.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    identiqueI32(value) {
+        const liftResult = (result) => FfiConverterI32.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728RetourneurIdentiqueI32(this.ptr,FfiConverterI32.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    identiqueU32(value) {
+        const liftResult = (result) => FfiConverterU32.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728RetourneurIdentiqueU32(this.ptr,FfiConverterU32.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    identiqueI64(value) {
+        const liftResult = (result) => FfiConverterI64.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728RetourneurIdentiqueI64(this.ptr,FfiConverterI64.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    identiqueU64(value) {
+        const liftResult = (result) => FfiConverterU64.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728RetourneurIdentiqueU64(this.ptr,FfiConverterU64.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    identiqueFloat(value) {
+        const liftResult = (result) => FfiConverterF32.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728RetourneurIdentiqueFloat(this.ptr,FfiConverterF32.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    identiqueDouble(value) {
+        const liftResult = (result) => FfiConverterF64.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728RetourneurIdentiqueDouble(this.ptr,FfiConverterF64.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    identiqueBoolean(value) {
+        const liftResult = (result) => FfiConverterBool.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728RetourneurIdentiqueBoolean(this.ptr,FfiConverterBool.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    identiqueString(value) {
+        const liftResult = (result) => FfiConverterString.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728RetourneurIdentiqueString(this.ptr,FfiConverterString.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    identiqueNombresSignes(value) {
+        const liftResult = (result) => FfiConverterTypeDictionnaireNombresSignes.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728RetourneurIdentiqueNombresSignes(this.ptr,FfiConverterTypeDictionnaireNombresSignes.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    identiqueNombres(value) {
+        const liftResult = (result) => FfiConverterTypeDictionnaireNombres.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728RetourneurIdentiqueNombres(this.ptr,FfiConverterTypeDictionnaireNombres.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    identiqueOptionneurDictionnaire(value) {
+        const liftResult = (result) => FfiConverterTypeOptionneurDictionnaire.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728RetourneurIdentiqueOptionneurDictionnaire(this.ptr,FfiConverterTypeOptionneurDictionnaire.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+}
+
+EXPORTED_SYMBOLS.push("Retourneur");
+
+
+class Stringifier {
+    constructor(ptr) {
+        if (!ptr) {
+            throw new UniFFIError("Attempting to construct an object that needs to be constructed asynchronously" +
+            "Please use the init async function")
+        }
+        this.ptr = ptr;
+    }
+    
+    static init() {
+        const liftResult = (resultPtr) => {
+            return new Stringifier(resultPtr);
+        };
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728StringifierNew(
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    wellKnownString(value) {
+        const liftResult = (result) => FfiConverterString.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728StringifierWellKnownString(this.ptr,FfiConverterString.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    toStringI8(value) {
+        const liftResult = (result) => FfiConverterString.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728StringifierToStringI8(this.ptr,FfiConverterI8.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    toStringU8(value) {
+        const liftResult = (result) => FfiConverterString.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728StringifierToStringU8(this.ptr,FfiConverterU8.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    toStringI16(value) {
+        const liftResult = (result) => FfiConverterString.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728StringifierToStringI16(this.ptr,FfiConverterI16.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    toStringU16(value) {
+        const liftResult = (result) => FfiConverterString.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728StringifierToStringU16(this.ptr,FfiConverterU16.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    toStringI32(value) {
+        const liftResult = (result) => FfiConverterString.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728StringifierToStringI32(this.ptr,FfiConverterI32.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    toStringU32(value) {
+        const liftResult = (result) => FfiConverterString.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728StringifierToStringU32(this.ptr,FfiConverterU32.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    toStringI64(value) {
+        const liftResult = (result) => FfiConverterString.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728StringifierToStringI64(this.ptr,FfiConverterI64.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    toStringU64(value) {
+        const liftResult = (result) => FfiConverterString.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728StringifierToStringU64(this.ptr,FfiConverterU64.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    toStringFloat(value) {
+        const liftResult = (result) => FfiConverterString.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728StringifierToStringFloat(this.ptr,FfiConverterF32.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    toStringDouble(value) {
+        const liftResult = (result) => FfiConverterString.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728StringifierToStringDouble(this.ptr,FfiConverterF64.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+    toStringBoolean(value) {
+        const liftResult = (result) => FfiConverterString.lift(result);
+        const liftError = null;
+    
+        const callResult = RondpointScaffolding.rondpointC728StringifierToStringBoolean(this.ptr,FfiConverterBool.lower(value),
+        )
+        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
+    }
+}
+
+EXPORTED_SYMBOLS.push("Stringifier");
 
 class Dictionnaire {
     constructor(un,deux,petitNombre,grosNombre) {
@@ -546,7 +1059,7 @@ class FfiConverterTypeDictionnaireNombresSignes {
 EXPORTED_SYMBOLS.push("DictionnaireNombresSignes");
 
 class OptionneurDictionnaire {
-    constructor(i8Var,u8Var,i16Var,u16Var,i32Var,u32Var,i64Var,u64Var,floatVar,doubleVar,booleanVar,stringVar,listVar,enumerationVar,dictionnaireVar) {
+    constructor(i8Var = -8,u8Var = 8,i16Var = -16,u16Var = 0x10,i32Var = -32,u32Var = 32,i64Var = -64,u64Var = 64,floatVar = 4.0,doubleVar = 8.0,booleanVar = true,stringVar = "default",listVar = [],enumerationVar = Enumeration.DEUX,dictionnaireVar = null) {
         this.i8Var = i8Var;
         this.u8Var = u8Var;
         this.i16Var = i16Var;
@@ -739,6 +1252,8 @@ class FfiConverterTypeEnumeration extends FfiConverterArrayBuffer {
 EXPORTED_SYMBOLS.push("Enumeration");
 
 
+
+
 class EnumerationAvecDonnees {}
 EnumerationAvecDonnees.Zero = class extends EnumerationAvecDonnees{
     constructor(
@@ -826,6 +1341,8 @@ class FfiConverterTypeEnumerationAvecDonnees extends FfiConverterArrayBuffer {
 EXPORTED_SYMBOLS.push("EnumerationAvecDonnees");
 
 
+
+
 const MinusculeMajusculeEnum = {
     MINUSCULE_MAJUSCULE_VARIANT: 1,
 };
@@ -854,7 +1371,9 @@ class FfiConverterTypeminusculeMajusculeEnum extends FfiConverterArrayBuffer {
     }
 }
 
-EXPORTED_SYMBOLS.push("MinusculeMajusculeEnum");class FfiConverterOptionali32 extends FfiConverterArrayBuffer {
+EXPORTED_SYMBOLS.push("MinusculeMajusculeEnum");
+
+class FfiConverterOptionali32 extends FfiConverterArrayBuffer {
     static read(dataStream) {
         const code = dataStream.readUint8(0);
         switch (code) {
@@ -868,15 +1387,19 @@ EXPORTED_SYMBOLS.push("MinusculeMajusculeEnum");class FfiConverterOptionali32 ex
     }
 
     static write(dataStream, value) {
-        if (!value) {
+        if (value === null || value === undefined) {
             dataStream.writeUint8(0);
+            return;
         }
         dataStream.writeUint8(1);
         FfiConverterI32.write(dataStream, value)
     }
 
-    static computeSize() {
-        return 1 + FfiConverterI32.computeSize()
+    static computeSize(value) {
+        if (value === null || value === undefined) {
+            return 1;
+        }
+        return 1 + FfiConverterI32.computeSize(value)
     }
 }class FfiConverterOptionalstring extends FfiConverterArrayBuffer {
     static read(dataStream) {
@@ -892,15 +1415,19 @@ EXPORTED_SYMBOLS.push("MinusculeMajusculeEnum");class FfiConverterOptionali32 ex
     }
 
     static write(dataStream, value) {
-        if (!value) {
+        if (value === null || value === undefined) {
             dataStream.writeUint8(0);
+            return;
         }
         dataStream.writeUint8(1);
         FfiConverterString.write(dataStream, value)
     }
 
-    static computeSize() {
-        return 1 + FfiConverterString.computeSize()
+    static computeSize(value) {
+        if (value === null || value === undefined) {
+            return 1;
+        }
+        return 1 + FfiConverterString.computeSize(value)
     }
 }class FfiConverterOptionalTypeminusculeMajusculeEnum extends FfiConverterArrayBuffer {
     static read(dataStream) {
@@ -916,15 +1443,19 @@ EXPORTED_SYMBOLS.push("MinusculeMajusculeEnum");class FfiConverterOptionali32 ex
     }
 
     static write(dataStream, value) {
-        if (!value) {
+        if (value === null || value === undefined) {
             dataStream.writeUint8(0);
+            return;
         }
         dataStream.writeUint8(1);
         FfiConverterTypeminusculeMajusculeEnum.write(dataStream, value)
     }
 
-    static computeSize() {
-        return 1 + FfiConverterTypeminusculeMajusculeEnum.computeSize()
+    static computeSize(value) {
+        if (value === null || value === undefined) {
+            return 1;
+        }
+        return 1 + FfiConverterTypeminusculeMajusculeEnum.computeSize(value)
     }
 }class FfiConverterSequencestring extends FfiConverterArrayBuffer {
     static read(dataStream) {

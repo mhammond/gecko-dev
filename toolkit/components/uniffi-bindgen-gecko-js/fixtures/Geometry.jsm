@@ -23,10 +23,20 @@ class ArrayBufferDataStream {
         return rv;
     }
 
+    writeUint8(value) {
+        this.dataView.setUint8(this.pos, value);
+        this.pos += 1;
+    }
+
     readUint16() {
         let rv = this.dataView.getUint16(this.pos);
         this.pos += 2;
         return rv;
+    }
+
+    writeUint16(value) {
+        this.dataView.setUint16(this.pos, value);
+        this.pos += 2;
     }
 
     readUint32() {
@@ -35,16 +45,32 @@ class ArrayBufferDataStream {
         return rv;
     }
 
-    readUint64() {
-        let rv = this.dataView.getUint64(this.pos);
-        this.pos += 8;
-        return rv;
+    writeUint32(value) {
+        this.dataView.setUint32(this.pos, value);
+        this.pos += 4;
     }
+
+    readUint64() {
+        let rv = this.dataView.getBigUint64(this.pos);
+        this.pos += 8;
+        return Number(rv);
+    }
+
+    writeUint64(value) {
+        this.dataView.setBigUint64(this.pos, BigInt(value));
+        this.pos += 8;
+    }
+
 
     readInt8() {
         let rv = this.dataView.getInt8(this.pos);
         this.pos += 1;
         return rv;
+    }
+
+    writeInt8(value) {
+        this.dataView.setInt8(this.pos, value);
+        this.pos += 1;
     }
 
     readInt16() {
@@ -53,17 +79,33 @@ class ArrayBufferDataStream {
         return rv;
     }
 
+    writeInt16(value) {
+        this.dataView.setInt16(this.pos, value);
+        this.pos += 2;
+    }
+
     readInt32() {
         let rv = this.dataView.getInt32(this.pos);
         this.pos += 4;
         return rv;
     }
 
-    readInt64() {
-        let rv = this.dataView.getInt64(this.pos);
-        this.pos += 8;
-        return rv;
+    writeInt32(value) {
+        this.dataView.setInt32(this.pos, value);
+        this.pos += 4;
     }
+
+    readInt64() {
+        let rv = this.dataView.getBigInt64(this.pos);
+        this.pos += 8;
+        return Number(rv);
+    }
+
+    writeInt64(value) {
+        this.dataView.setBigInt64(this.pos, BigInt(value));
+        this.pos += 8;
+    }
+
 
     readFloat32() {
         let rv = this.dataView.getFloat32(this.pos);
@@ -87,15 +129,6 @@ class ArrayBufferDataStream {
         this.pos += 8;
     }
 
-    writeUint8(value) {
-      this.dataView.setUint8(this.pos, value);
-      this.pos += 1;
-    }
-
-    writeUint32(value) {
-      this.dataView.setUint32(this.pos, value);
-      this.pos += 4;
-    }
 
     writeString(value) {
       const encoder = new TextEncoder();
@@ -113,11 +146,6 @@ class ArrayBufferDataStream {
       this.dataView.setUint32(this.pos, size);
       // Finally, advance our position past both the size and string data
       this.pos += size + 4;
-    }
-
-    writeInt32(value) {
-        this.dataView.setInt32(this.pos, value);
-        this.pos += 4;
     }
 
     readString() {
@@ -316,15 +344,19 @@ EXPORTED_SYMBOLS.push("Point");class FfiConverterOptionalTypePoint extends FfiCo
     }
 
     static write(dataStream, value) {
-        if (!value) {
+        if (value === null || value === undefined) {
             dataStream.writeUint8(0);
+            return;
         }
         dataStream.writeUint8(1);
         FfiConverterTypePoint.write(dataStream, value)
     }
 
-    static computeSize() {
-        return 1 + FfiConverterTypePoint.computeSize()
+    static computeSize(value) {
+        if (value === null || value === undefined) {
+            return 1;
+        }
+        return 1 + FfiConverterTypePoint.computeSize(value)
     }
 }
 

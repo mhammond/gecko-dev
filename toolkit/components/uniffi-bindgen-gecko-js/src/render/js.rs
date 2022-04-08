@@ -7,9 +7,30 @@ use askama::Template;
 use extend::ext;
 use heck::{CamelCase, MixedCase, ShoutySnakeCase};
 use uniffi_bindgen::interface::{
-    Argument, ComponentInterface, Error, FFIFunction, Field, Function, Record, Type, Enum
+    Argument, ComponentInterface, Error, FFIFunction, Field, Function, Record, Type, Enum, Object, Constructor, Method, Literal, Radix
 };
 
+fn arg_names(args: &[&Argument]) -> String {
+    args.iter()
+        .map(|arg| {
+            if let Some(default_value) = arg.default_value() {
+                format!("{} = {}", arg.nm(), default_value.render())
+            } else {
+                arg.nm()
+            }
+        })
+        .collect::<Vec<String>>()
+        .join(",")
+}
+
+
+fn render_enum_literal(typ: &Type, variant_name: &str) -> String {
+    if let Type::Enum(enum_name) = typ {
+        return format!("{}.{}", enum_name.to_camel_case(), variant_name.to_shouty_snake_case());
+    } else {
+        panic!("Rendering an enum literal on a type that is not an enum")
+    }
+}
 #[derive(Template)]
 #[template(path = "js/wrapper.jsm", escape = "none")]
 pub struct JSBindingsTemplate {
@@ -33,6 +54,34 @@ pub impl FFIFunction {
     }
 }
 
+#[ext(name=LiteralJSExt)]
+pub impl Literal {
+    fn render(&self) -> String {
+        match self {
+            Literal::Boolean(inner) => inner.to_string(),
+            Literal::String(inner) => format!("\"{}\"", inner),
+            Literal::UInt(num, radix, _) =>  format!("{}", radix.render_num(num)),
+            Literal::Int(num, radix, _) => format!("{}", radix.render_num(num)),
+            Literal::Float(num, _) => num.clone(),
+            Literal::Enum(name, typ) => render_enum_literal(typ, name),
+            Literal::EmptyMap => "{}".to_string(),
+            Literal::EmptySequence => "[]".to_string(),
+            Literal::Null => "null".to_string(),
+        }
+    }
+}
+
+#[ext(name=RadixJSExt)]
+pub impl Radix {
+    fn render_num(&self, num: impl std::fmt::Display + std::fmt::LowerHex + std::fmt::Octal) -> String {
+        match self {
+            Radix::Decimal => format!("{}", num),
+            Radix::Hexadecimal => format!("{:#x}", num),
+            Radix::Octal => format!("{:#o}", num)
+        }
+    }
+}
+
 #[ext(name=RecordJSExt)]
 pub impl Record {
     fn nm(&self) -> String {
@@ -42,7 +91,13 @@ pub impl Record {
     fn constructor_field_list(&self) -> String {
         self.fields()
             .iter()
-            .map(|f| f.nm())
+            .map(|field| {
+                if let Some(default_value) = field.default_value() {
+                    format!("{} = {}", field.nm(), default_value.render())
+                } else {
+                    field.nm()
+                }
+            })
             .collect::<Vec<String>>()
             .join(",")
     }
@@ -80,15 +135,6 @@ pub impl Argument {
 
 #[ext(name=TypeJSExt)]
 pub impl Type {
-    fn nm(&self) -> String {
-        match self {
-            Type::Float64 => "Double".to_string(),
-            Type::Optional(inner) => format!("Optional{}", inner.nm()),
-            Type::Record(name) => name.to_camel_case(),
-            Type::String => "String".to_string(),
-            _ => todo!(),
-        }
-    }
 
     // Render an expression to check if two instances of this type are equal
     fn equals(&self, first: &str, second: &str) -> String {
@@ -121,14 +167,7 @@ pub impl Enum {
 #[ext(name=FunctionJSExt)]
 pub impl Function {
     fn arg_names(&self) -> String {
-        let mut args = String::new();
-        for (i, arg) in self.arguments().iter().enumerate() {
-            args.push_str(&arg.name());
-            if i != self.arguments().len() - 1 {
-                args.push_str(",")
-            }
-        }
-        args
+        arg_names(self.arguments().as_slice())
     }
 
     fn nm(&self) -> String {
@@ -146,5 +185,37 @@ pub impl Function {
 pub impl Error {
     fn nm(&self) -> String {
         self.name().to_camel_case()
+    }
+}
+
+#[ext(name=ObjectJSExt)]
+pub impl Object {
+    fn nm(&self) -> String {
+        self.name().to_camel_case()
+    }
+}
+
+#[ext(name=ConstructorJSExt)]
+pub impl Constructor {
+    fn arg_names(&self) -> String {
+        arg_names(&self.arguments().as_slice())
+
+    }
+}
+
+#[ext(name=MethodJSExt)]
+pub impl Method {
+    fn arg_names(&self) -> String {
+        arg_names(self.arguments().as_slice())
+    }
+
+    fn ffi_return_type(&self) -> String {
+        self.return_type()
+            .map(|t| t.ffi_converter())
+            .unwrap_or("".to_string())
+    }
+
+    fn nm(&self) -> String {
+        self.name().to_mixed_case()
     }
 }
