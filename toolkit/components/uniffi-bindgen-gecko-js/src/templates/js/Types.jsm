@@ -56,6 +56,9 @@
 {% when Type::Enum with (name) %}
 {% include "Enum.jsm" %}
 
+{% when Type::Object with (name) %}
+{% include "Object.jsm" %}
+
 {%- else %}
 {# TODO implement the other types #}
 

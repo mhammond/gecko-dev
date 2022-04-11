@@ -4,7 +4,7 @@ License, v. 2.0. If a copy of the MPL was not distributed with this
 
 /// Extension traits that are shared across multiple render targets
 use extend::ext;
-use uniffi_bindgen::interface::{FFIFunction, Function};
+use uniffi_bindgen::interface::{FFIFunction, Function, Constructor, Method};
 
 #[ext]
 pub impl FFIFunction {
@@ -16,6 +16,22 @@ pub impl FFIFunction {
 
 #[ext]
 pub impl Function {
+    fn is_async(&self) -> bool {
+        // TODO check `uniffi.toml` or some other configuration to figure this out
+        true
+    }
+}
+
+#[ext]
+pub impl Constructor {
+    fn is_async(&self) -> bool {
+        // TODO check `uniffi.toml` or some other configuration to figure this out
+        true
+    }
+}
+
+#[ext]
+pub impl Method {
     fn is_async(&self) -> bool {
         // TODO check `uniffi.toml` or some other configuration to figure this out
         true
