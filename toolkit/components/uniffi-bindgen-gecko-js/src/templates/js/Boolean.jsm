@@ -1,4 +1,4 @@
-class {{ ffi_converter }} {
+class {{ ffi_converter }} extends FfiConverter {
     static computeSize() {
         return 1;
     }

@@ -121,6 +121,10 @@ pub impl Field {
     fn ffi_converter(&self) -> String {
         self.type_().ffi_converter()
     }
+
+    fn check_type(&self) -> String {
+        format!("{}.checkType(\"{}\", {})", self.type_().ffi_converter(), self.nm(), self.nm())
+    }
 }
 
 #[ext(name=ArgumentJSExt)]
@@ -131,6 +135,10 @@ pub impl Argument {
 
     fn nm(&self) -> String {
         self.name().to_mixed_case()
+    }
+
+    fn check_type(&self) -> String {
+        format!("{}.checkType(\"{}\", {})", self.type_().ffi_converter(), self.nm(), self.nm())
     }
 }
 
@@ -174,12 +182,6 @@ pub impl Function {
     fn nm(&self) -> String {
         self.name().to_mixed_case()
     }
-
-    fn ffi_return_type(&self) -> String {
-        self.return_type()
-            .map(|t| t.ffi_converter())
-            .unwrap_or("".to_string())
-    }
 }
 
 #[ext(name=ErrorJSExt)]
@@ -200,7 +202,6 @@ pub impl Object {
 pub impl Constructor {
     fn arg_names(&self) -> String {
         arg_names(&self.arguments().as_slice())
-
     }
 }
 
@@ -208,12 +209,6 @@ pub impl Constructor {
 pub impl Method {
     fn arg_names(&self) -> String {
         arg_names(self.arguments().as_slice())
-    }
-
-    fn ffi_return_type(&self) -> String {
-        self.return_type()
-            .map(|t| t.ffi_converter())
-            .unwrap_or("".to_string())
     }
 
     fn nm(&self) -> String {

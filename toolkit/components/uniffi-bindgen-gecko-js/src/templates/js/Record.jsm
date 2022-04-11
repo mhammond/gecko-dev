@@ -3,6 +3,10 @@
 class {{ record.nm() }} {
     constructor({{ record.constructor_field_list() }}) {
         {%- for field in record.fields() %}
+        {{ field.check_type() }};
+        {%- endfor %}
+
+        {%- for field in record.fields() %}
         this.{{field.nm()}} = {{ field.nm() }};
         {%- endfor %}
     }
@@ -15,7 +19,7 @@ class {{ record.nm() }} {
     }
 }
 
-class {{ ffi_converter }} {
+class {{ ffi_converter }} extends FfiConverter {
     static lift(buf) {
         return this.read(new ArrayBufferDataStream(buf));
     }

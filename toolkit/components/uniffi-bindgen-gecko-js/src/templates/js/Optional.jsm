@@ -1,4 +1,10 @@
 class {{ ffi_converter }} extends FfiConverterArrayBuffer {
+    static checkType(name, value) {
+        if (value !== undefined && value !== null) {
+            {{ inner.ffi_converter() }}.checkType(name, value)
+        }
+    }
+
     static read(dataStream) {
         const code = dataStream.readUint8(0);
         switch (code) {

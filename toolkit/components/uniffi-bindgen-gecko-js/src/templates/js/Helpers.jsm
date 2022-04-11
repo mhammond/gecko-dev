@@ -180,8 +180,20 @@ class UniFFIError {
 
 class UniFFIInternalError extends UniFFIError {}
 
+// Base class for FFI converters
+class FfiConverter {
+    static checkType(name, value) {
+        if (value === undefined ) {
+            throw TypeError(`${name} is undefined`);
+        }
+        if (value === null ) {
+            throw TypeError(`${name} is null`);
+        }
+    }
+}
+
 // Base class for FFI converters that lift/lower by reading/writing to an ArrayBuffer
-class FfiConverterArrayBuffer {
+class FfiConverterArrayBuffer extends FfiConverter {
     static lift(buf) {
         return this.read(new ArrayBufferDataStream(buf));
     }

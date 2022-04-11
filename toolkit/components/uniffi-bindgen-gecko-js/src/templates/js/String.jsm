@@ -1,6 +1,6 @@
 
 
-class FfiConverterString {
+class FfiConverterString extends FfiConverter {
     static lift(buf) {
         const decoder = new TextDecoder();
         const utf8Arr = new Uint8Array(buf);

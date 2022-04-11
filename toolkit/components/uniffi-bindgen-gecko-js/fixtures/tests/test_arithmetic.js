@@ -7,13 +7,20 @@ add_task(async function() {
     Assert.ok(Arithmetic.IntegerOverflow)
     Assert.equal(await Arithmetic.add(2, 4), 6)
     Assert.equal(await Arithmetic.add(4, 8), 12)
-    // This doesn't work because JS number values are actually floats, and
-    // large integers get rounded to a different value.
-    //
+    // For other backends we would have this test:
     // await Assert.rejects(
     //     Arithmetic.add(18446744073709551615, 1),
     //     Arithmetic.IntegerOverflow,
     //     "add() should throw IntegerOverflow")
+    //
+    // However, this doesn't work because JS number values are actually 64-bit
+    // floats, and that number is greater than the maximum "safe" integer.
+    //
+    // Instead, let's test that we reject numbers that are that big
+    await Assert.rejects(
+        Arithmetic.add(Number.MAX_SAFE_INTEGER + 1, 0),
+        /TypeError/,
+        "add() should throw TypeError when an input is > MAX_SAFE_INTEGER")
 
     Assert.equal(await Arithmetic.sub(4, 2), 2)
     Assert.equal(await Arithmetic.sub(8, 4), 4)

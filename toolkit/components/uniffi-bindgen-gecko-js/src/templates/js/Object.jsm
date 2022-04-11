@@ -12,91 +12,35 @@ class {{ object.nm() }} {
         }
         this.ptr = ptr;
     }
-    
-    {%- if cons.is_async() %}
 
+    {%- if cons.is_async() %}
     /**
      * An async constructor for {{ object.nm() }}.
      * 
      * @returns {Promise<{{ object.nm() }}>}: A promise that resolves
      *      to a newly constructed {{ object.nm() }}
      */
-    static init({{cons.arg_names()}}) {
-        const liftResult = (resultPtr) => {
-            return new {{ object.nm() }}(resultPtr);
-        };
-        {%- match cons.throws_type() %}
-        {%- when Some with (err_type) %}
-        const liftError = (data) => {{ err_type.ffi_converter() }}.lift(data);
-        {%- else %}
-        const liftError = null;
-        {%- endmatch %}
-    
-        const callResult = {{ ci.scaffolding_name() }}.{{cons.ffi_func().nm()}}(
-            {%- for arg in cons.arguments() -%}
-            {{ arg.lower_fn_name() }}({{ arg.name() }}),
-            {%- endfor %}
-        )
-        {%- if cons.is_async() %}
-        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
-        {%- else %}
-        return handleRustResult(callResult,  liftResult, liftError);
-        {%- endif %}
-    }
     {%- else %}
-    
     /**
      * A constructor for {{ object.nm() }}.
      * 
      * @returns { {{ object.nm() }} }
      */
-    static init({{ cons.arg_names() }}) {
-        const liftResult = (resultPtr) => {
-            return new {{ object.nm() }}(resultPtr);
-        };
-        {%- match cons.throws_type() %}
-        {%- when Some with (err_type) %}
-        const liftError = (data) => {{ err_type.ffi_converter() }}.lift(data);
-        {%- else %}
-        const liftError = null;
-        {%- endmatch %}
-    
-        const callResult = {{ ci.scaffolding_name() }}.{{cons.ffi_func().nm()}}(
-            {%- for arg in cons.arguments() -%}
-            {{ arg.lower_fn_name() }}({{ arg.name() }}),
-            {%- endfor %}
-        )
-        return handleRustResult(callResult,  liftResult, liftError);
-    }
     {%- endif %}
+    static init({{cons.arg_names()}}) {
+        {% call js::call_constructor(cons, type_) %}
+    }
     {%- else %}
     {%- endmatch %}
 
     {%- for meth in object.methods() %}
     {{ meth.nm() }}({{ meth.arg_names() }}) {
-        const liftResult = (result) => {{ meth.ffi_return_type() }}.lift(result);
-        {%- match meth.throws_type() %}
-        {%- when Some with (err_type) %}
-        const liftError = (data) => {{ err_type.ffi_converter() }}.lift(data);
-        {%- else %}
-        const liftError = null;
-        {%- endmatch %}
-    
-        const callResult = {{ ci.scaffolding_name() }}.{{meth.ffi_func().nm()}}(this.ptr,
-            {%- for arg in meth.arguments() -%}
-            {{ arg.lower_fn_name() }}({{ arg.name() }}),
-            {%- endfor %}
-        )
-        {%- if meth.is_async() %}
-        return callResult.then((result) => handleRustResult(result,  liftResult, liftError));
-        {%- else %}
-        return handleRustResult(callResult,  liftResult, liftError);
-        {%- endif %}
+        {% call js::call_method(meth, type_) %}
     }
     {%- endfor %}
 }
 
-class {{ ffi_converter }} {
+class {{ ffi_converter }} extends FfiConverter {
     static lift(value) {
         return new {{ object.nm() }}(value);
     }
