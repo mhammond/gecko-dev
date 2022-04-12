@@ -12,121 +12,121 @@
 
 // Scaffolding functions from UniFFI
 extern "C" {
-void ffi_rondpoint_c728_Retourneur_object_free(uint64_t, RustCallStatus*);
+void ffi_rondpoint_c728_Retourneur_object_free(void *, RustCallStatus*);
 
-uint64_t rondpoint_c728_Retourneur_new(RustCallStatus*);
+void * rondpoint_c728_Retourneur_new(RustCallStatus*);
 
-int8_t rondpoint_c728_Retourneur_identique_i8(uint64_t, int8_t, RustCallStatus*);
+int8_t rondpoint_c728_Retourneur_identique_i8(void *, int8_t, RustCallStatus*);
 
-uint8_t rondpoint_c728_Retourneur_identique_u8(uint64_t, uint8_t, RustCallStatus*);
+uint8_t rondpoint_c728_Retourneur_identique_u8(void *, uint8_t, RustCallStatus*);
 
-int16_t rondpoint_c728_Retourneur_identique_i16(uint64_t, int16_t, RustCallStatus*);
+int16_t rondpoint_c728_Retourneur_identique_i16(void *, int16_t, RustCallStatus*);
 
-uint16_t rondpoint_c728_Retourneur_identique_u16(uint64_t, uint16_t, RustCallStatus*);
+uint16_t rondpoint_c728_Retourneur_identique_u16(void *, uint16_t, RustCallStatus*);
 
-int32_t rondpoint_c728_Retourneur_identique_i32(uint64_t, int32_t, RustCallStatus*);
+int32_t rondpoint_c728_Retourneur_identique_i32(void *, int32_t, RustCallStatus*);
 
-uint32_t rondpoint_c728_Retourneur_identique_u32(uint64_t, uint32_t, RustCallStatus*);
+uint32_t rondpoint_c728_Retourneur_identique_u32(void *, uint32_t, RustCallStatus*);
 
-int64_t rondpoint_c728_Retourneur_identique_i64(uint64_t, int64_t, RustCallStatus*);
+int64_t rondpoint_c728_Retourneur_identique_i64(void *, int64_t, RustCallStatus*);
 
-uint64_t rondpoint_c728_Retourneur_identique_u64(uint64_t, uint64_t, RustCallStatus*);
+uint64_t rondpoint_c728_Retourneur_identique_u64(void *, uint64_t, RustCallStatus*);
 
-float rondpoint_c728_Retourneur_identique_float(uint64_t, float, RustCallStatus*);
+float rondpoint_c728_Retourneur_identique_float(void *, float, RustCallStatus*);
 
-double rondpoint_c728_Retourneur_identique_double(uint64_t, double, RustCallStatus*);
+double rondpoint_c728_Retourneur_identique_double(void *, double, RustCallStatus*);
 
-int8_t rondpoint_c728_Retourneur_identique_boolean(uint64_t, int8_t, RustCallStatus*);
+int8_t rondpoint_c728_Retourneur_identique_boolean(void *, int8_t, RustCallStatus*);
 
-RustBuffer rondpoint_c728_Retourneur_identique_string(uint64_t, RustBuffer, RustCallStatus*);
+RustBuffer rondpoint_c728_Retourneur_identique_string(void *, RustBuffer, RustCallStatus*);
 
-RustBuffer rondpoint_c728_Retourneur_identique_nombres_signes(uint64_t, RustBuffer, RustCallStatus*);
+RustBuffer rondpoint_c728_Retourneur_identique_nombres_signes(void *, RustBuffer, RustCallStatus*);
 
-RustBuffer rondpoint_c728_Retourneur_identique_nombres(uint64_t, RustBuffer, RustCallStatus*);
+RustBuffer rondpoint_c728_Retourneur_identique_nombres(void *, RustBuffer, RustCallStatus*);
 
-RustBuffer rondpoint_c728_Retourneur_identique_optionneur_dictionnaire(uint64_t, RustBuffer, RustCallStatus*);
+RustBuffer rondpoint_c728_Retourneur_identique_optionneur_dictionnaire(void *, RustBuffer, RustCallStatus*);
 
-void ffi_rondpoint_c728_Stringifier_object_free(uint64_t, RustCallStatus*);
+void ffi_rondpoint_c728_Stringifier_object_free(void *, RustCallStatus*);
 
-uint64_t rondpoint_c728_Stringifier_new(RustCallStatus*);
+void * rondpoint_c728_Stringifier_new(RustCallStatus*);
 
-RustBuffer rondpoint_c728_Stringifier_well_known_string(uint64_t, RustBuffer, RustCallStatus*);
+RustBuffer rondpoint_c728_Stringifier_well_known_string(void *, RustBuffer, RustCallStatus*);
 
-RustBuffer rondpoint_c728_Stringifier_to_string_i8(uint64_t, int8_t, RustCallStatus*);
+RustBuffer rondpoint_c728_Stringifier_to_string_i8(void *, int8_t, RustCallStatus*);
 
-RustBuffer rondpoint_c728_Stringifier_to_string_u8(uint64_t, uint8_t, RustCallStatus*);
+RustBuffer rondpoint_c728_Stringifier_to_string_u8(void *, uint8_t, RustCallStatus*);
 
-RustBuffer rondpoint_c728_Stringifier_to_string_i16(uint64_t, int16_t, RustCallStatus*);
+RustBuffer rondpoint_c728_Stringifier_to_string_i16(void *, int16_t, RustCallStatus*);
 
-RustBuffer rondpoint_c728_Stringifier_to_string_u16(uint64_t, uint16_t, RustCallStatus*);
+RustBuffer rondpoint_c728_Stringifier_to_string_u16(void *, uint16_t, RustCallStatus*);
 
-RustBuffer rondpoint_c728_Stringifier_to_string_i32(uint64_t, int32_t, RustCallStatus*);
+RustBuffer rondpoint_c728_Stringifier_to_string_i32(void *, int32_t, RustCallStatus*);
 
-RustBuffer rondpoint_c728_Stringifier_to_string_u32(uint64_t, uint32_t, RustCallStatus*);
+RustBuffer rondpoint_c728_Stringifier_to_string_u32(void *, uint32_t, RustCallStatus*);
 
-RustBuffer rondpoint_c728_Stringifier_to_string_i64(uint64_t, int64_t, RustCallStatus*);
+RustBuffer rondpoint_c728_Stringifier_to_string_i64(void *, int64_t, RustCallStatus*);
 
-RustBuffer rondpoint_c728_Stringifier_to_string_u64(uint64_t, uint64_t, RustCallStatus*);
+RustBuffer rondpoint_c728_Stringifier_to_string_u64(void *, uint64_t, RustCallStatus*);
 
-RustBuffer rondpoint_c728_Stringifier_to_string_float(uint64_t, float, RustCallStatus*);
+RustBuffer rondpoint_c728_Stringifier_to_string_float(void *, float, RustCallStatus*);
 
-RustBuffer rondpoint_c728_Stringifier_to_string_double(uint64_t, double, RustCallStatus*);
+RustBuffer rondpoint_c728_Stringifier_to_string_double(void *, double, RustCallStatus*);
 
-RustBuffer rondpoint_c728_Stringifier_to_string_boolean(uint64_t, int8_t, RustCallStatus*);
+RustBuffer rondpoint_c728_Stringifier_to_string_boolean(void *, int8_t, RustCallStatus*);
 
-void ffi_rondpoint_c728_Optionneur_object_free(uint64_t, RustCallStatus*);
+void ffi_rondpoint_c728_Optionneur_object_free(void *, RustCallStatus*);
 
-uint64_t rondpoint_c728_Optionneur_new(RustCallStatus*);
+void * rondpoint_c728_Optionneur_new(RustCallStatus*);
 
-int8_t rondpoint_c728_Optionneur_sinon_boolean(uint64_t, int8_t, RustCallStatus*);
+int8_t rondpoint_c728_Optionneur_sinon_boolean(void *, int8_t, RustCallStatus*);
 
-RustBuffer rondpoint_c728_Optionneur_sinon_string(uint64_t, RustBuffer, RustCallStatus*);
+RustBuffer rondpoint_c728_Optionneur_sinon_string(void *, RustBuffer, RustCallStatus*);
 
-RustBuffer rondpoint_c728_Optionneur_sinon_sequence(uint64_t, RustBuffer, RustCallStatus*);
+RustBuffer rondpoint_c728_Optionneur_sinon_sequence(void *, RustBuffer, RustCallStatus*);
 
-RustBuffer rondpoint_c728_Optionneur_sinon_null(uint64_t, RustBuffer, RustCallStatus*);
+RustBuffer rondpoint_c728_Optionneur_sinon_null(void *, RustBuffer, RustCallStatus*);
 
-RustBuffer rondpoint_c728_Optionneur_sinon_zero(uint64_t, RustBuffer, RustCallStatus*);
+RustBuffer rondpoint_c728_Optionneur_sinon_zero(void *, RustBuffer, RustCallStatus*);
 
-uint8_t rondpoint_c728_Optionneur_sinon_u8_dec(uint64_t, uint8_t, RustCallStatus*);
+uint8_t rondpoint_c728_Optionneur_sinon_u8_dec(void *, uint8_t, RustCallStatus*);
 
-int8_t rondpoint_c728_Optionneur_sinon_i8_dec(uint64_t, int8_t, RustCallStatus*);
+int8_t rondpoint_c728_Optionneur_sinon_i8_dec(void *, int8_t, RustCallStatus*);
 
-uint16_t rondpoint_c728_Optionneur_sinon_u16_dec(uint64_t, uint16_t, RustCallStatus*);
+uint16_t rondpoint_c728_Optionneur_sinon_u16_dec(void *, uint16_t, RustCallStatus*);
 
-int16_t rondpoint_c728_Optionneur_sinon_i16_dec(uint64_t, int16_t, RustCallStatus*);
+int16_t rondpoint_c728_Optionneur_sinon_i16_dec(void *, int16_t, RustCallStatus*);
 
-uint32_t rondpoint_c728_Optionneur_sinon_u32_dec(uint64_t, uint32_t, RustCallStatus*);
+uint32_t rondpoint_c728_Optionneur_sinon_u32_dec(void *, uint32_t, RustCallStatus*);
 
-int32_t rondpoint_c728_Optionneur_sinon_i32_dec(uint64_t, int32_t, RustCallStatus*);
+int32_t rondpoint_c728_Optionneur_sinon_i32_dec(void *, int32_t, RustCallStatus*);
 
-uint64_t rondpoint_c728_Optionneur_sinon_u64_dec(uint64_t, uint64_t, RustCallStatus*);
+uint64_t rondpoint_c728_Optionneur_sinon_u64_dec(void *, uint64_t, RustCallStatus*);
 
-int64_t rondpoint_c728_Optionneur_sinon_i64_dec(uint64_t, int64_t, RustCallStatus*);
+int64_t rondpoint_c728_Optionneur_sinon_i64_dec(void *, int64_t, RustCallStatus*);
 
-uint8_t rondpoint_c728_Optionneur_sinon_u8_hex(uint64_t, uint8_t, RustCallStatus*);
+uint8_t rondpoint_c728_Optionneur_sinon_u8_hex(void *, uint8_t, RustCallStatus*);
 
-int8_t rondpoint_c728_Optionneur_sinon_i8_hex(uint64_t, int8_t, RustCallStatus*);
+int8_t rondpoint_c728_Optionneur_sinon_i8_hex(void *, int8_t, RustCallStatus*);
 
-uint16_t rondpoint_c728_Optionneur_sinon_u16_hex(uint64_t, uint16_t, RustCallStatus*);
+uint16_t rondpoint_c728_Optionneur_sinon_u16_hex(void *, uint16_t, RustCallStatus*);
 
-int16_t rondpoint_c728_Optionneur_sinon_i16_hex(uint64_t, int16_t, RustCallStatus*);
+int16_t rondpoint_c728_Optionneur_sinon_i16_hex(void *, int16_t, RustCallStatus*);
 
-uint32_t rondpoint_c728_Optionneur_sinon_u32_hex(uint64_t, uint32_t, RustCallStatus*);
+uint32_t rondpoint_c728_Optionneur_sinon_u32_hex(void *, uint32_t, RustCallStatus*);
 
-int32_t rondpoint_c728_Optionneur_sinon_i32_hex(uint64_t, int32_t, RustCallStatus*);
+int32_t rondpoint_c728_Optionneur_sinon_i32_hex(void *, int32_t, RustCallStatus*);
 
-uint64_t rondpoint_c728_Optionneur_sinon_u64_hex(uint64_t, uint64_t, RustCallStatus*);
+uint64_t rondpoint_c728_Optionneur_sinon_u64_hex(void *, uint64_t, RustCallStatus*);
 
-int64_t rondpoint_c728_Optionneur_sinon_i64_hex(uint64_t, int64_t, RustCallStatus*);
+int64_t rondpoint_c728_Optionneur_sinon_i64_hex(void *, int64_t, RustCallStatus*);
 
-uint32_t rondpoint_c728_Optionneur_sinon_u32_oct(uint64_t, uint32_t, RustCallStatus*);
+uint32_t rondpoint_c728_Optionneur_sinon_u32_oct(void *, uint32_t, RustCallStatus*);
 
-float rondpoint_c728_Optionneur_sinon_f32(uint64_t, float, RustCallStatus*);
+float rondpoint_c728_Optionneur_sinon_f32(void *, float, RustCallStatus*);
 
-double rondpoint_c728_Optionneur_sinon_f64(uint64_t, double, RustCallStatus*);
+double rondpoint_c728_Optionneur_sinon_f64(void *, double, RustCallStatus*);
 
-RustBuffer rondpoint_c728_Optionneur_sinon_enum(uint64_t, RustBuffer, RustCallStatus*);
+RustBuffer rondpoint_c728_Optionneur_sinon_enum(void *, RustBuffer, RustCallStatus*);
 
 RustBuffer rondpoint_c728_copie_dictionnaire(RustBuffer, RustCallStatus*);
 
@@ -146,121 +146,121 @@ class GlobalObject;
 
 class RondpointScaffolding {
   public:
-  static already_AddRefed<Promise> FfiRondpointC728RetourneurObjectFree(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr,
+  static already_AddRefed<Promise> FfiRondpointC728RetourneurObjectFree(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr,
   ErrorResult& aUniFFIErrorResult);
   static already_AddRefed<Promise> RondpointC728RetourneurNew(const GlobalObject& aUniFFIGlobal,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728RetourneurIdentiqueI8(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const int8_t& value,
+  static already_AddRefed<Promise> RondpointC728RetourneurIdentiqueI8(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const int8_t& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728RetourneurIdentiqueU8(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const uint8_t& value,
+  static already_AddRefed<Promise> RondpointC728RetourneurIdentiqueU8(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const uint8_t& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728RetourneurIdentiqueI16(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const int16_t& value,
+  static already_AddRefed<Promise> RondpointC728RetourneurIdentiqueI16(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const int16_t& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728RetourneurIdentiqueU16(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const uint16_t& value,
+  static already_AddRefed<Promise> RondpointC728RetourneurIdentiqueU16(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const uint16_t& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728RetourneurIdentiqueI32(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const int32_t& value,
+  static already_AddRefed<Promise> RondpointC728RetourneurIdentiqueI32(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const int32_t& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728RetourneurIdentiqueU32(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const uint32_t& value,
+  static already_AddRefed<Promise> RondpointC728RetourneurIdentiqueU32(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const uint32_t& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728RetourneurIdentiqueI64(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const int64_t& value,
+  static already_AddRefed<Promise> RondpointC728RetourneurIdentiqueI64(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const int64_t& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728RetourneurIdentiqueU64(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const uint64_t& value,
+  static already_AddRefed<Promise> RondpointC728RetourneurIdentiqueU64(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const uint64_t& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728RetourneurIdentiqueFloat(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const float& value,
+  static already_AddRefed<Promise> RondpointC728RetourneurIdentiqueFloat(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const float& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728RetourneurIdentiqueDouble(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const double& value,
+  static already_AddRefed<Promise> RondpointC728RetourneurIdentiqueDouble(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const double& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728RetourneurIdentiqueBoolean(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const int8_t& value,
+  static already_AddRefed<Promise> RondpointC728RetourneurIdentiqueBoolean(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const int8_t& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728RetourneurIdentiqueString(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const ArrayBuffer& value,
+  static already_AddRefed<Promise> RondpointC728RetourneurIdentiqueString(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const ArrayBuffer& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728RetourneurIdentiqueNombresSignes(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const ArrayBuffer& value,
+  static already_AddRefed<Promise> RondpointC728RetourneurIdentiqueNombresSignes(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const ArrayBuffer& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728RetourneurIdentiqueNombres(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const ArrayBuffer& value,
+  static already_AddRefed<Promise> RondpointC728RetourneurIdentiqueNombres(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const ArrayBuffer& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728RetourneurIdentiqueOptionneurDictionnaire(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const ArrayBuffer& value,
+  static already_AddRefed<Promise> RondpointC728RetourneurIdentiqueOptionneurDictionnaire(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const ArrayBuffer& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> FfiRondpointC728StringifierObjectFree(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr,
+  static already_AddRefed<Promise> FfiRondpointC728StringifierObjectFree(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr,
   ErrorResult& aUniFFIErrorResult);
   static already_AddRefed<Promise> RondpointC728StringifierNew(const GlobalObject& aUniFFIGlobal,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728StringifierWellKnownString(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const ArrayBuffer& value,
+  static already_AddRefed<Promise> RondpointC728StringifierWellKnownString(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const ArrayBuffer& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728StringifierToStringI8(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const int8_t& value,
+  static already_AddRefed<Promise> RondpointC728StringifierToStringI8(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const int8_t& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728StringifierToStringU8(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const uint8_t& value,
+  static already_AddRefed<Promise> RondpointC728StringifierToStringU8(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const uint8_t& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728StringifierToStringI16(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const int16_t& value,
+  static already_AddRefed<Promise> RondpointC728StringifierToStringI16(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const int16_t& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728StringifierToStringU16(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const uint16_t& value,
+  static already_AddRefed<Promise> RondpointC728StringifierToStringU16(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const uint16_t& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728StringifierToStringI32(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const int32_t& value,
+  static already_AddRefed<Promise> RondpointC728StringifierToStringI32(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const int32_t& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728StringifierToStringU32(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const uint32_t& value,
+  static already_AddRefed<Promise> RondpointC728StringifierToStringU32(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const uint32_t& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728StringifierToStringI64(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const int64_t& value,
+  static already_AddRefed<Promise> RondpointC728StringifierToStringI64(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const int64_t& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728StringifierToStringU64(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const uint64_t& value,
+  static already_AddRefed<Promise> RondpointC728StringifierToStringU64(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const uint64_t& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728StringifierToStringFloat(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const float& value,
+  static already_AddRefed<Promise> RondpointC728StringifierToStringFloat(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const float& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728StringifierToStringDouble(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const double& value,
+  static already_AddRefed<Promise> RondpointC728StringifierToStringDouble(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const double& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728StringifierToStringBoolean(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const int8_t& value,
+  static already_AddRefed<Promise> RondpointC728StringifierToStringBoolean(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const int8_t& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> FfiRondpointC728OptionneurObjectFree(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr,
+  static already_AddRefed<Promise> FfiRondpointC728OptionneurObjectFree(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr,
   ErrorResult& aUniFFIErrorResult);
   static already_AddRefed<Promise> RondpointC728OptionneurNew(const GlobalObject& aUniFFIGlobal,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728OptionneurSinonBoolean(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const int8_t& value,
+  static already_AddRefed<Promise> RondpointC728OptionneurSinonBoolean(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const int8_t& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728OptionneurSinonString(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const ArrayBuffer& value,
+  static already_AddRefed<Promise> RondpointC728OptionneurSinonString(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const ArrayBuffer& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728OptionneurSinonSequence(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const ArrayBuffer& value,
+  static already_AddRefed<Promise> RondpointC728OptionneurSinonSequence(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const ArrayBuffer& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728OptionneurSinonNull(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const ArrayBuffer& value,
+  static already_AddRefed<Promise> RondpointC728OptionneurSinonNull(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const ArrayBuffer& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728OptionneurSinonZero(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const ArrayBuffer& value,
+  static already_AddRefed<Promise> RondpointC728OptionneurSinonZero(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const ArrayBuffer& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728OptionneurSinonU8Dec(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const uint8_t& value,
+  static already_AddRefed<Promise> RondpointC728OptionneurSinonU8Dec(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const uint8_t& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728OptionneurSinonI8Dec(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const int8_t& value,
+  static already_AddRefed<Promise> RondpointC728OptionneurSinonI8Dec(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const int8_t& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728OptionneurSinonU16Dec(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const uint16_t& value,
+  static already_AddRefed<Promise> RondpointC728OptionneurSinonU16Dec(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const uint16_t& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728OptionneurSinonI16Dec(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const int16_t& value,
+  static already_AddRefed<Promise> RondpointC728OptionneurSinonI16Dec(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const int16_t& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728OptionneurSinonU32Dec(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const uint32_t& value,
+  static already_AddRefed<Promise> RondpointC728OptionneurSinonU32Dec(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const uint32_t& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728OptionneurSinonI32Dec(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const int32_t& value,
+  static already_AddRefed<Promise> RondpointC728OptionneurSinonI32Dec(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const int32_t& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728OptionneurSinonU64Dec(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const uint64_t& value,
+  static already_AddRefed<Promise> RondpointC728OptionneurSinonU64Dec(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const uint64_t& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728OptionneurSinonI64Dec(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const int64_t& value,
+  static already_AddRefed<Promise> RondpointC728OptionneurSinonI64Dec(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const int64_t& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728OptionneurSinonU8Hex(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const uint8_t& value,
+  static already_AddRefed<Promise> RondpointC728OptionneurSinonU8Hex(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const uint8_t& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728OptionneurSinonI8Hex(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const int8_t& value,
+  static already_AddRefed<Promise> RondpointC728OptionneurSinonI8Hex(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const int8_t& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728OptionneurSinonU16Hex(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const uint16_t& value,
+  static already_AddRefed<Promise> RondpointC728OptionneurSinonU16Hex(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const uint16_t& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728OptionneurSinonI16Hex(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const int16_t& value,
+  static already_AddRefed<Promise> RondpointC728OptionneurSinonI16Hex(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const int16_t& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728OptionneurSinonU32Hex(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const uint32_t& value,
+  static already_AddRefed<Promise> RondpointC728OptionneurSinonU32Hex(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const uint32_t& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728OptionneurSinonI32Hex(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const int32_t& value,
+  static already_AddRefed<Promise> RondpointC728OptionneurSinonI32Hex(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const int32_t& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728OptionneurSinonU64Hex(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const uint64_t& value,
+  static already_AddRefed<Promise> RondpointC728OptionneurSinonU64Hex(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const uint64_t& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728OptionneurSinonI64Hex(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const int64_t& value,
+  static already_AddRefed<Promise> RondpointC728OptionneurSinonI64Hex(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const int64_t& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728OptionneurSinonU32Oct(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const uint32_t& value,
+  static already_AddRefed<Promise> RondpointC728OptionneurSinonU32Oct(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const uint32_t& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728OptionneurSinonF32(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const float& value,
+  static already_AddRefed<Promise> RondpointC728OptionneurSinonF32(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const float& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728OptionneurSinonF64(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const double& value,
+  static already_AddRefed<Promise> RondpointC728OptionneurSinonF64(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const double& value,
   ErrorResult& aUniFFIErrorResult);
-  static already_AddRefed<Promise> RondpointC728OptionneurSinonEnum(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const ArrayBuffer& value,
+  static already_AddRefed<Promise> RondpointC728OptionneurSinonEnum(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const ArrayBuffer& value,
   ErrorResult& aUniFFIErrorResult);
   static already_AddRefed<Promise> RondpointC728CopieDictionnaire(const GlobalObject& aUniFFIGlobal,const ArrayBuffer& d,
   ErrorResult& aUniFFIErrorResult);

@@ -12,11 +12,6 @@ namespace uniffi::arithmetic {
 namespace arithmetic_475f_add {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
     uint64_t a;
     uint64_t b;
@@ -64,7 +59,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // All other return values (ints, floats, pointers) are handled as a JS number value
+            // Numeric Return
             aReturnValue.mData.setNumber(aCallResult.mReturnValue);
             break;
 
@@ -86,11 +81,6 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace arithmetic_475f_sub {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
     uint64_t a;
     uint64_t b;
@@ -138,7 +128,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // All other return values (ints, floats, pointers) are handled as a JS number value
+            // Numeric Return
             aReturnValue.mData.setNumber(aCallResult.mReturnValue);
             break;
 
@@ -160,11 +150,6 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace arithmetic_475f_div {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
     uint64_t dividend;
     uint64_t divisor;
@@ -212,7 +197,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // All other return values (ints, floats, pointers) are handled as a JS number value
+            // Numeric Return
             aReturnValue.mData.setNumber(aCallResult.mReturnValue);
             break;
 
@@ -234,11 +219,6 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace arithmetic_475f_equal {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
     uint64_t a;
     uint64_t b;
@@ -286,7 +266,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // All other return values (ints, floats, pointers) are handled as a JS number value
+            // Numeric Return
             aReturnValue.mData.setNumber(aCallResult.mReturnValue);
             break;
 

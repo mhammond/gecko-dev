@@ -12,12 +12,11 @@ namespace uniffi::geometry {
 namespace geometry_eb69_gradient {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
+    // RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
+    // freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
+    // isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
+    // converted, but one fails to convert.
     mozilla::dom::OwnedRustBuffer ln;
 };
 
@@ -39,6 +38,7 @@ Args PrepareArgs(const ArrayBuffer& ln,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
+    // Convert the ArrayBuffer we get from JS to an OwnedRustBuffer
     ln.ComputeState();
     uniFFIArgs.ln = OwnedRustBuffer(ln, aUniFFIError);
     if (aUniFFIError.Failed()) {
@@ -53,6 +53,8 @@ Args PrepareArgs(const ArrayBuffer& ln,
 // For async calls this should be called in the worker thread
 Result Invoke(Args& aArgs) {
     Result result = {};result.mReturnValue =::geometry_eb69_gradient(
+         // Call intoRustBuffer() to get a `RustBuffer` from an OwnedRustBuffer.  This transfers ownership to Rust,
+         // OwnedRustBuffer will no longer try to free it
          aArgs.ln.intoRustBuffer(),
          &result.mCallStatus
      );
@@ -65,7 +67,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // All other return values (ints, floats, pointers) are handled as a JS number value
+            // Numeric Return
             aReturnValue.mData.setNumber(aCallResult.mReturnValue);
             break;
 
@@ -87,13 +89,16 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace geometry_eb69_intersection {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
+    // RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
+    // freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
+    // isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
+    // converted, but one fails to convert.
     mozilla::dom::OwnedRustBuffer ln1;
+    // RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
+    // freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
+    // isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
+    // converted, but one fails to convert.
     mozilla::dom::OwnedRustBuffer ln2;
 };
 
@@ -115,11 +120,13 @@ Args PrepareArgs(const ArrayBuffer& ln1, const ArrayBuffer& ln2,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
+    // Convert the ArrayBuffer we get from JS to an OwnedRustBuffer
     ln1.ComputeState();
     uniFFIArgs.ln1 = OwnedRustBuffer(ln1, aUniFFIError);
     if (aUniFFIError.Failed()) {
         return uniFFIArgs;
     }
+    // Convert the ArrayBuffer we get from JS to an OwnedRustBuffer
     ln2.ComputeState();
     uniFFIArgs.ln2 = OwnedRustBuffer(ln2, aUniFFIError);
     if (aUniFFIError.Failed()) {
@@ -134,7 +141,11 @@ Args PrepareArgs(const ArrayBuffer& ln1, const ArrayBuffer& ln2,
 // For async calls this should be called in the worker thread
 Result Invoke(Args& aArgs) {
     Result result = {};result.mReturnValue =::geometry_eb69_intersection(
+         // Call intoRustBuffer() to get a `RustBuffer` from an OwnedRustBuffer.  This transfers ownership to Rust,
+         // OwnedRustBuffer will no longer try to free it
          aArgs.ln1.intoRustBuffer(),
+         // Call intoRustBuffer() to get a `RustBuffer` from an OwnedRustBuffer.  This transfers ownership to Rust,
+         // OwnedRustBuffer will no longer try to free it
          aArgs.ln2.intoRustBuffer(),
          &result.mCallStatus
      );
@@ -147,7 +158,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // Convert result RustBuffer into an ArrayBuffer and set the data field
+            // RustBuffer return, convert it to an ArrayBuffer
             aReturnValue.mData.setObjectOrNull(OwnedRustBuffer(aCallResult.mReturnValue).intoArrayBuffer(aContext));
             break;
 

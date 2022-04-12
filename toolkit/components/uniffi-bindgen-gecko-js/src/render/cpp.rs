@@ -52,7 +52,7 @@ pub impl FFIFunction {
     fn input_arg_list(&self) -> String {
         self.arguments()
             .into_iter()
-            .map(|arg| format!("const {}& {}", arg.type_name(), arg.nm()))
+            .map(|arg| format!("const {}& {}", arg.js_type(), arg.nm()))
             .collect::<Vec<String>>()
             .join(", ")
     }
@@ -74,10 +74,6 @@ pub impl FFIFunction {
         parts.join(", ")
     }
 
-    fn returns_rust_buffer(&self) -> bool {
-        matches!(self.return_type(), Some(FFIType::RustBuffer))
-    }
-
     fn has_args(&self) -> bool {
        !self.arguments().is_empty()
     }
@@ -90,7 +86,9 @@ pub impl FFIFunction {
 #[ext(name=FFITypeCppExt)]
 pub impl FFIType {
     // Type for the WebIDL implementation method
-    fn type_name(&self) -> String {
+    //
+    // This is what we get passed from the JS code
+    fn js_type(&self) -> String {
         match self {
             FFIType::UInt8 => "uint8_t",
             FFIType::Int8 => "int8_t",
@@ -102,7 +100,8 @@ pub impl FFIType {
             FFIType::Int64 => "int64_t",
             FFIType::Float32 => "float",
             FFIType::Float64 => "double",
-            FFIType::RustArcPtr => "uint64_t",
+            // Pointers are handled with the "private value" API, see Scaffolding.cpp for details
+            FFIType::RustArcPtr => "JS::Handle<JS::Value>",
             // The JS wrapper code uses `ArrayBuffer` since it has a nice JS API.  We input
             // `ArrayBuffer` in the C++ code, then convert it to `RustBuffer` before passing to
             // Rust.
@@ -113,11 +112,31 @@ pub impl FFIType {
         .to_owned()
     }
 
+    // Type for the `Args` struct
+    //
+    // We convert js_type -> args_type in `PrepareArgs()` in `Scaffolding.cpp` in order to:
+    //
+    //   - Collect successfully converted arguments from JS.  For example, we store ArrayBuffer` args in an
+    //     `OwnedRustBuffer` which handles freeing them if other args fail to convert.
+    //   - Avoid dereferencing JS data inside async calls.  This is important because the GC might free up the data
+    //     before the worker thread processes it.  `PrepareArgs()` runs synchronously and extracts the data to pass to
+    //     the worker thread.
+    fn args_type(&self) -> String {
+        match self {
+            FFIType::RustBuffer => "OwnedRustBuffer".to_owned(),
+            FFIType::RustArcPtr => "void *".to_owned(),
+            _ => self.js_type(),
+        }
+    }
+
     // Type for the Rust scaffolding code
+    //
+    // We convert args_type -> rust_type in `Invoke()` in `Scaffolding.cpp`
     fn rust_type(&self) -> String {
         match self {
             FFIType::RustBuffer => "RustBuffer".to_owned(),
-            _ => self.type_name(),
+            FFIType::RustArcPtr => "void *".to_owned(),
+            _ => self.js_type(),
         }
     }
 }
@@ -128,15 +147,15 @@ pub impl FFIArgument {
         self.name().to_mixed_case()
     }
 
-    fn type_name(&self) -> String {
-        self.type_().type_name()
+    fn js_type(&self) -> String {
+        self.type_().js_type()
+    }
+
+    fn args_type(&self) -> String {
+        self.type_().args_type()
     }
 
     fn rust_type(&self) -> String {
         self.type_().rust_type()
-    }
-
-    fn is_rust_buffer(&self) -> bool {
-        matches!(self.type_(), FFIType::RustBuffer)
     }
 }

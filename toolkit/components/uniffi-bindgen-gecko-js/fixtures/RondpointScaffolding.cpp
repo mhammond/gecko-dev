@@ -12,13 +12,8 @@ namespace uniffi::rondpoint {
 namespace ffi_rondpoint_c728_retourneur_object_free {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
 };
 
 // Return values from the scaffolding function
@@ -33,12 +28,13 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
 
     return uniFFIArgs;
 }
@@ -60,6 +56,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
+            // Void return
             break;
 
         case uniffi::CALL_ERROR:
@@ -80,17 +77,12 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_retourneur_new {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
 };
 
 // Return values from the scaffolding function
 struct Result {
-    uint64_t mReturnValue;
+    void * mReturnValue;
     RustCallStatus mCallStatus = {};
 };
 
@@ -126,8 +118,8 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // All other return values (ints, floats, pointers) are handled as a JS number value
-            aReturnValue.mData.setNumber(aCallResult.mReturnValue);
+            // Pointer return, use `JS::Value::setPrivate()` to store it
+            aReturnValue.mData.setPrivate(aCallResult.mReturnValue);
             break;
 
         case uniffi::CALL_ERROR:
@@ -148,13 +140,8 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_retourneur_identique_i8 {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
     int8_t value;
 };
 
@@ -171,12 +158,13 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const int8_t& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const int8_t& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
     return uniFFIArgs;
@@ -200,7 +188,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // All other return values (ints, floats, pointers) are handled as a JS number value
+            // Numeric Return
             aReturnValue.mData.setNumber(aCallResult.mReturnValue);
             break;
 
@@ -222,13 +210,8 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_retourneur_identique_u8 {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
     uint8_t value;
 };
 
@@ -245,12 +228,13 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const uint8_t& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const uint8_t& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
     return uniFFIArgs;
@@ -274,7 +258,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // All other return values (ints, floats, pointers) are handled as a JS number value
+            // Numeric Return
             aReturnValue.mData.setNumber(aCallResult.mReturnValue);
             break;
 
@@ -296,13 +280,8 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_retourneur_identique_i16 {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
     int16_t value;
 };
 
@@ -319,12 +298,13 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const int16_t& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const int16_t& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
     return uniFFIArgs;
@@ -348,7 +328,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // All other return values (ints, floats, pointers) are handled as a JS number value
+            // Numeric Return
             aReturnValue.mData.setNumber(aCallResult.mReturnValue);
             break;
 
@@ -370,13 +350,8 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_retourneur_identique_u16 {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
     uint16_t value;
 };
 
@@ -393,12 +368,13 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const uint16_t& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const uint16_t& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
     return uniFFIArgs;
@@ -422,7 +398,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // All other return values (ints, floats, pointers) are handled as a JS number value
+            // Numeric Return
             aReturnValue.mData.setNumber(aCallResult.mReturnValue);
             break;
 
@@ -444,13 +420,8 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_retourneur_identique_i32 {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
     int32_t value;
 };
 
@@ -467,12 +438,13 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const int32_t& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const int32_t& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
     return uniFFIArgs;
@@ -496,7 +468,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // All other return values (ints, floats, pointers) are handled as a JS number value
+            // Numeric Return
             aReturnValue.mData.setNumber(aCallResult.mReturnValue);
             break;
 
@@ -518,13 +490,8 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_retourneur_identique_u32 {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
     uint32_t value;
 };
 
@@ -541,12 +508,13 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const uint32_t& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const uint32_t& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
     return uniFFIArgs;
@@ -570,7 +538,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // All other return values (ints, floats, pointers) are handled as a JS number value
+            // Numeric Return
             aReturnValue.mData.setNumber(aCallResult.mReturnValue);
             break;
 
@@ -592,13 +560,8 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_retourneur_identique_i64 {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
     int64_t value;
 };
 
@@ -615,12 +578,13 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const int64_t& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const int64_t& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
     return uniFFIArgs;
@@ -644,7 +608,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // All other return values (ints, floats, pointers) are handled as a JS number value
+            // Numeric Return
             aReturnValue.mData.setNumber(aCallResult.mReturnValue);
             break;
 
@@ -666,13 +630,8 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_retourneur_identique_u64 {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
     uint64_t value;
 };
 
@@ -689,12 +648,13 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const uint64_t& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const uint64_t& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
     return uniFFIArgs;
@@ -718,7 +678,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // All other return values (ints, floats, pointers) are handled as a JS number value
+            // Numeric Return
             aReturnValue.mData.setNumber(aCallResult.mReturnValue);
             break;
 
@@ -740,13 +700,8 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_retourneur_identique_float {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
     float value;
 };
 
@@ -763,12 +718,13 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const float& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const float& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
     return uniFFIArgs;
@@ -792,7 +748,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // All other return values (ints, floats, pointers) are handled as a JS number value
+            // Numeric Return
             aReturnValue.mData.setNumber(aCallResult.mReturnValue);
             break;
 
@@ -814,13 +770,8 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_retourneur_identique_double {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
     double value;
 };
 
@@ -837,12 +788,13 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const double& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const double& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
     return uniFFIArgs;
@@ -866,7 +818,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // All other return values (ints, floats, pointers) are handled as a JS number value
+            // Numeric Return
             aReturnValue.mData.setNumber(aCallResult.mReturnValue);
             break;
 
@@ -888,13 +840,8 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_retourneur_identique_boolean {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
     int8_t value;
 };
 
@@ -911,12 +858,13 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const int8_t& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const int8_t& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
     return uniFFIArgs;
@@ -940,7 +888,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // All other return values (ints, floats, pointers) are handled as a JS number value
+            // Numeric Return
             aReturnValue.mData.setNumber(aCallResult.mReturnValue);
             break;
 
@@ -962,13 +910,12 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_retourneur_identique_string {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
+    // RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
+    // freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
+    // isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
+    // converted, but one fails to convert.
     mozilla::dom::OwnedRustBuffer value;
 };
 
@@ -985,12 +932,14 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const ArrayBuffer& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const ArrayBuffer& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
+    // Convert the ArrayBuffer we get from JS to an OwnedRustBuffer
     value.ComputeState();
     uniFFIArgs.value = OwnedRustBuffer(value, aUniFFIError);
     if (aUniFFIError.Failed()) {
@@ -1006,6 +955,8 @@ Args PrepareArgs(const uint64_t& ptr, const ArrayBuffer& value,
 Result Invoke(Args& aArgs) {
     Result result = {};result.mReturnValue =::rondpoint_c728_Retourneur_identique_string(
          aArgs.ptr,
+         // Call intoRustBuffer() to get a `RustBuffer` from an OwnedRustBuffer.  This transfers ownership to Rust,
+         // OwnedRustBuffer will no longer try to free it
          aArgs.value.intoRustBuffer(),
          &result.mCallStatus
      );
@@ -1018,7 +969,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // Convert result RustBuffer into an ArrayBuffer and set the data field
+            // RustBuffer return, convert it to an ArrayBuffer
             aReturnValue.mData.setObjectOrNull(OwnedRustBuffer(aCallResult.mReturnValue).intoArrayBuffer(aContext));
             break;
 
@@ -1040,13 +991,12 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_retourneur_identique_nombres_signes {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
+    // RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
+    // freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
+    // isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
+    // converted, but one fails to convert.
     mozilla::dom::OwnedRustBuffer value;
 };
 
@@ -1063,12 +1013,14 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const ArrayBuffer& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const ArrayBuffer& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
+    // Convert the ArrayBuffer we get from JS to an OwnedRustBuffer
     value.ComputeState();
     uniFFIArgs.value = OwnedRustBuffer(value, aUniFFIError);
     if (aUniFFIError.Failed()) {
@@ -1084,6 +1036,8 @@ Args PrepareArgs(const uint64_t& ptr, const ArrayBuffer& value,
 Result Invoke(Args& aArgs) {
     Result result = {};result.mReturnValue =::rondpoint_c728_Retourneur_identique_nombres_signes(
          aArgs.ptr,
+         // Call intoRustBuffer() to get a `RustBuffer` from an OwnedRustBuffer.  This transfers ownership to Rust,
+         // OwnedRustBuffer will no longer try to free it
          aArgs.value.intoRustBuffer(),
          &result.mCallStatus
      );
@@ -1096,7 +1050,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // Convert result RustBuffer into an ArrayBuffer and set the data field
+            // RustBuffer return, convert it to an ArrayBuffer
             aReturnValue.mData.setObjectOrNull(OwnedRustBuffer(aCallResult.mReturnValue).intoArrayBuffer(aContext));
             break;
 
@@ -1118,13 +1072,12 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_retourneur_identique_nombres {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
+    // RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
+    // freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
+    // isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
+    // converted, but one fails to convert.
     mozilla::dom::OwnedRustBuffer value;
 };
 
@@ -1141,12 +1094,14 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const ArrayBuffer& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const ArrayBuffer& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
+    // Convert the ArrayBuffer we get from JS to an OwnedRustBuffer
     value.ComputeState();
     uniFFIArgs.value = OwnedRustBuffer(value, aUniFFIError);
     if (aUniFFIError.Failed()) {
@@ -1162,6 +1117,8 @@ Args PrepareArgs(const uint64_t& ptr, const ArrayBuffer& value,
 Result Invoke(Args& aArgs) {
     Result result = {};result.mReturnValue =::rondpoint_c728_Retourneur_identique_nombres(
          aArgs.ptr,
+         // Call intoRustBuffer() to get a `RustBuffer` from an OwnedRustBuffer.  This transfers ownership to Rust,
+         // OwnedRustBuffer will no longer try to free it
          aArgs.value.intoRustBuffer(),
          &result.mCallStatus
      );
@@ -1174,7 +1131,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // Convert result RustBuffer into an ArrayBuffer and set the data field
+            // RustBuffer return, convert it to an ArrayBuffer
             aReturnValue.mData.setObjectOrNull(OwnedRustBuffer(aCallResult.mReturnValue).intoArrayBuffer(aContext));
             break;
 
@@ -1196,13 +1153,12 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_retourneur_identique_optionneur_dictionnaire {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
+    // RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
+    // freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
+    // isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
+    // converted, but one fails to convert.
     mozilla::dom::OwnedRustBuffer value;
 };
 
@@ -1219,12 +1175,14 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const ArrayBuffer& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const ArrayBuffer& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
+    // Convert the ArrayBuffer we get from JS to an OwnedRustBuffer
     value.ComputeState();
     uniFFIArgs.value = OwnedRustBuffer(value, aUniFFIError);
     if (aUniFFIError.Failed()) {
@@ -1240,6 +1198,8 @@ Args PrepareArgs(const uint64_t& ptr, const ArrayBuffer& value,
 Result Invoke(Args& aArgs) {
     Result result = {};result.mReturnValue =::rondpoint_c728_Retourneur_identique_optionneur_dictionnaire(
          aArgs.ptr,
+         // Call intoRustBuffer() to get a `RustBuffer` from an OwnedRustBuffer.  This transfers ownership to Rust,
+         // OwnedRustBuffer will no longer try to free it
          aArgs.value.intoRustBuffer(),
          &result.mCallStatus
      );
@@ -1252,7 +1212,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // Convert result RustBuffer into an ArrayBuffer and set the data field
+            // RustBuffer return, convert it to an ArrayBuffer
             aReturnValue.mData.setObjectOrNull(OwnedRustBuffer(aCallResult.mReturnValue).intoArrayBuffer(aContext));
             break;
 
@@ -1274,13 +1234,8 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace ffi_rondpoint_c728_stringifier_object_free {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
 };
 
 // Return values from the scaffolding function
@@ -1295,12 +1250,13 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
 
     return uniFFIArgs;
 }
@@ -1322,6 +1278,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
+            // Void return
             break;
 
         case uniffi::CALL_ERROR:
@@ -1342,17 +1299,12 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_stringifier_new {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
 };
 
 // Return values from the scaffolding function
 struct Result {
-    uint64_t mReturnValue;
+    void * mReturnValue;
     RustCallStatus mCallStatus = {};
 };
 
@@ -1388,8 +1340,8 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // All other return values (ints, floats, pointers) are handled as a JS number value
-            aReturnValue.mData.setNumber(aCallResult.mReturnValue);
+            // Pointer return, use `JS::Value::setPrivate()` to store it
+            aReturnValue.mData.setPrivate(aCallResult.mReturnValue);
             break;
 
         case uniffi::CALL_ERROR:
@@ -1410,13 +1362,12 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_stringifier_well_known_string {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
+    // RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
+    // freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
+    // isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
+    // converted, but one fails to convert.
     mozilla::dom::OwnedRustBuffer value;
 };
 
@@ -1433,12 +1384,14 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const ArrayBuffer& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const ArrayBuffer& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
+    // Convert the ArrayBuffer we get from JS to an OwnedRustBuffer
     value.ComputeState();
     uniFFIArgs.value = OwnedRustBuffer(value, aUniFFIError);
     if (aUniFFIError.Failed()) {
@@ -1454,6 +1407,8 @@ Args PrepareArgs(const uint64_t& ptr, const ArrayBuffer& value,
 Result Invoke(Args& aArgs) {
     Result result = {};result.mReturnValue =::rondpoint_c728_Stringifier_well_known_string(
          aArgs.ptr,
+         // Call intoRustBuffer() to get a `RustBuffer` from an OwnedRustBuffer.  This transfers ownership to Rust,
+         // OwnedRustBuffer will no longer try to free it
          aArgs.value.intoRustBuffer(),
          &result.mCallStatus
      );
@@ -1466,7 +1421,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // Convert result RustBuffer into an ArrayBuffer and set the data field
+            // RustBuffer return, convert it to an ArrayBuffer
             aReturnValue.mData.setObjectOrNull(OwnedRustBuffer(aCallResult.mReturnValue).intoArrayBuffer(aContext));
             break;
 
@@ -1488,13 +1443,8 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_stringifier_to_string_i8 {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
     int8_t value;
 };
 
@@ -1511,12 +1461,13 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const int8_t& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const int8_t& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
     return uniFFIArgs;
@@ -1540,7 +1491,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // Convert result RustBuffer into an ArrayBuffer and set the data field
+            // RustBuffer return, convert it to an ArrayBuffer
             aReturnValue.mData.setObjectOrNull(OwnedRustBuffer(aCallResult.mReturnValue).intoArrayBuffer(aContext));
             break;
 
@@ -1562,13 +1513,8 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_stringifier_to_string_u8 {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
     uint8_t value;
 };
 
@@ -1585,12 +1531,13 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const uint8_t& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const uint8_t& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
     return uniFFIArgs;
@@ -1614,7 +1561,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // Convert result RustBuffer into an ArrayBuffer and set the data field
+            // RustBuffer return, convert it to an ArrayBuffer
             aReturnValue.mData.setObjectOrNull(OwnedRustBuffer(aCallResult.mReturnValue).intoArrayBuffer(aContext));
             break;
 
@@ -1636,13 +1583,8 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_stringifier_to_string_i16 {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
     int16_t value;
 };
 
@@ -1659,12 +1601,13 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const int16_t& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const int16_t& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
     return uniFFIArgs;
@@ -1688,7 +1631,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // Convert result RustBuffer into an ArrayBuffer and set the data field
+            // RustBuffer return, convert it to an ArrayBuffer
             aReturnValue.mData.setObjectOrNull(OwnedRustBuffer(aCallResult.mReturnValue).intoArrayBuffer(aContext));
             break;
 
@@ -1710,13 +1653,8 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_stringifier_to_string_u16 {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
     uint16_t value;
 };
 
@@ -1733,12 +1671,13 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const uint16_t& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const uint16_t& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
     return uniFFIArgs;
@@ -1762,7 +1701,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // Convert result RustBuffer into an ArrayBuffer and set the data field
+            // RustBuffer return, convert it to an ArrayBuffer
             aReturnValue.mData.setObjectOrNull(OwnedRustBuffer(aCallResult.mReturnValue).intoArrayBuffer(aContext));
             break;
 
@@ -1784,13 +1723,8 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_stringifier_to_string_i32 {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
     int32_t value;
 };
 
@@ -1807,12 +1741,13 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const int32_t& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const int32_t& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
     return uniFFIArgs;
@@ -1836,7 +1771,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // Convert result RustBuffer into an ArrayBuffer and set the data field
+            // RustBuffer return, convert it to an ArrayBuffer
             aReturnValue.mData.setObjectOrNull(OwnedRustBuffer(aCallResult.mReturnValue).intoArrayBuffer(aContext));
             break;
 
@@ -1858,13 +1793,8 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_stringifier_to_string_u32 {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
     uint32_t value;
 };
 
@@ -1881,12 +1811,13 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const uint32_t& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const uint32_t& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
     return uniFFIArgs;
@@ -1910,7 +1841,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // Convert result RustBuffer into an ArrayBuffer and set the data field
+            // RustBuffer return, convert it to an ArrayBuffer
             aReturnValue.mData.setObjectOrNull(OwnedRustBuffer(aCallResult.mReturnValue).intoArrayBuffer(aContext));
             break;
 
@@ -1932,13 +1863,8 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_stringifier_to_string_i64 {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
     int64_t value;
 };
 
@@ -1955,12 +1881,13 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const int64_t& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const int64_t& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
     return uniFFIArgs;
@@ -1984,7 +1911,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // Convert result RustBuffer into an ArrayBuffer and set the data field
+            // RustBuffer return, convert it to an ArrayBuffer
             aReturnValue.mData.setObjectOrNull(OwnedRustBuffer(aCallResult.mReturnValue).intoArrayBuffer(aContext));
             break;
 
@@ -2006,13 +1933,8 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_stringifier_to_string_u64 {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
     uint64_t value;
 };
 
@@ -2029,12 +1951,13 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const uint64_t& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const uint64_t& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
     return uniFFIArgs;
@@ -2058,7 +1981,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // Convert result RustBuffer into an ArrayBuffer and set the data field
+            // RustBuffer return, convert it to an ArrayBuffer
             aReturnValue.mData.setObjectOrNull(OwnedRustBuffer(aCallResult.mReturnValue).intoArrayBuffer(aContext));
             break;
 
@@ -2080,13 +2003,8 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_stringifier_to_string_float {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
     float value;
 };
 
@@ -2103,12 +2021,13 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const float& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const float& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
     return uniFFIArgs;
@@ -2132,7 +2051,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // Convert result RustBuffer into an ArrayBuffer and set the data field
+            // RustBuffer return, convert it to an ArrayBuffer
             aReturnValue.mData.setObjectOrNull(OwnedRustBuffer(aCallResult.mReturnValue).intoArrayBuffer(aContext));
             break;
 
@@ -2154,13 +2073,8 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_stringifier_to_string_double {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
     double value;
 };
 
@@ -2177,12 +2091,13 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const double& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const double& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
     return uniFFIArgs;
@@ -2206,7 +2121,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // Convert result RustBuffer into an ArrayBuffer and set the data field
+            // RustBuffer return, convert it to an ArrayBuffer
             aReturnValue.mData.setObjectOrNull(OwnedRustBuffer(aCallResult.mReturnValue).intoArrayBuffer(aContext));
             break;
 
@@ -2228,13 +2143,8 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_stringifier_to_string_boolean {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
     int8_t value;
 };
 
@@ -2251,12 +2161,13 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const int8_t& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const int8_t& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
     return uniFFIArgs;
@@ -2280,7 +2191,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // Convert result RustBuffer into an ArrayBuffer and set the data field
+            // RustBuffer return, convert it to an ArrayBuffer
             aReturnValue.mData.setObjectOrNull(OwnedRustBuffer(aCallResult.mReturnValue).intoArrayBuffer(aContext));
             break;
 
@@ -2302,13 +2213,8 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace ffi_rondpoint_c728_optionneur_object_free {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
 };
 
 // Return values from the scaffolding function
@@ -2323,12 +2229,13 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
 
     return uniFFIArgs;
 }
@@ -2350,6 +2257,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
+            // Void return
             break;
 
         case uniffi::CALL_ERROR:
@@ -2370,17 +2278,12 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_optionneur_new {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
 };
 
 // Return values from the scaffolding function
 struct Result {
-    uint64_t mReturnValue;
+    void * mReturnValue;
     RustCallStatus mCallStatus = {};
 };
 
@@ -2416,8 +2319,8 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // All other return values (ints, floats, pointers) are handled as a JS number value
-            aReturnValue.mData.setNumber(aCallResult.mReturnValue);
+            // Pointer return, use `JS::Value::setPrivate()` to store it
+            aReturnValue.mData.setPrivate(aCallResult.mReturnValue);
             break;
 
         case uniffi::CALL_ERROR:
@@ -2438,13 +2341,8 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_optionneur_sinon_boolean {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
     int8_t value;
 };
 
@@ -2461,12 +2359,13 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const int8_t& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const int8_t& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
     return uniFFIArgs;
@@ -2490,7 +2389,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // All other return values (ints, floats, pointers) are handled as a JS number value
+            // Numeric Return
             aReturnValue.mData.setNumber(aCallResult.mReturnValue);
             break;
 
@@ -2512,13 +2411,12 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_optionneur_sinon_string {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
+    // RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
+    // freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
+    // isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
+    // converted, but one fails to convert.
     mozilla::dom::OwnedRustBuffer value;
 };
 
@@ -2535,12 +2433,14 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const ArrayBuffer& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const ArrayBuffer& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
+    // Convert the ArrayBuffer we get from JS to an OwnedRustBuffer
     value.ComputeState();
     uniFFIArgs.value = OwnedRustBuffer(value, aUniFFIError);
     if (aUniFFIError.Failed()) {
@@ -2556,6 +2456,8 @@ Args PrepareArgs(const uint64_t& ptr, const ArrayBuffer& value,
 Result Invoke(Args& aArgs) {
     Result result = {};result.mReturnValue =::rondpoint_c728_Optionneur_sinon_string(
          aArgs.ptr,
+         // Call intoRustBuffer() to get a `RustBuffer` from an OwnedRustBuffer.  This transfers ownership to Rust,
+         // OwnedRustBuffer will no longer try to free it
          aArgs.value.intoRustBuffer(),
          &result.mCallStatus
      );
@@ -2568,7 +2470,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // Convert result RustBuffer into an ArrayBuffer and set the data field
+            // RustBuffer return, convert it to an ArrayBuffer
             aReturnValue.mData.setObjectOrNull(OwnedRustBuffer(aCallResult.mReturnValue).intoArrayBuffer(aContext));
             break;
 
@@ -2590,13 +2492,12 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_optionneur_sinon_sequence {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
+    // RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
+    // freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
+    // isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
+    // converted, but one fails to convert.
     mozilla::dom::OwnedRustBuffer value;
 };
 
@@ -2613,12 +2514,14 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const ArrayBuffer& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const ArrayBuffer& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
+    // Convert the ArrayBuffer we get from JS to an OwnedRustBuffer
     value.ComputeState();
     uniFFIArgs.value = OwnedRustBuffer(value, aUniFFIError);
     if (aUniFFIError.Failed()) {
@@ -2634,6 +2537,8 @@ Args PrepareArgs(const uint64_t& ptr, const ArrayBuffer& value,
 Result Invoke(Args& aArgs) {
     Result result = {};result.mReturnValue =::rondpoint_c728_Optionneur_sinon_sequence(
          aArgs.ptr,
+         // Call intoRustBuffer() to get a `RustBuffer` from an OwnedRustBuffer.  This transfers ownership to Rust,
+         // OwnedRustBuffer will no longer try to free it
          aArgs.value.intoRustBuffer(),
          &result.mCallStatus
      );
@@ -2646,7 +2551,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // Convert result RustBuffer into an ArrayBuffer and set the data field
+            // RustBuffer return, convert it to an ArrayBuffer
             aReturnValue.mData.setObjectOrNull(OwnedRustBuffer(aCallResult.mReturnValue).intoArrayBuffer(aContext));
             break;
 
@@ -2668,13 +2573,12 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_optionneur_sinon_null {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
+    // RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
+    // freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
+    // isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
+    // converted, but one fails to convert.
     mozilla::dom::OwnedRustBuffer value;
 };
 
@@ -2691,12 +2595,14 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const ArrayBuffer& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const ArrayBuffer& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
+    // Convert the ArrayBuffer we get from JS to an OwnedRustBuffer
     value.ComputeState();
     uniFFIArgs.value = OwnedRustBuffer(value, aUniFFIError);
     if (aUniFFIError.Failed()) {
@@ -2712,6 +2618,8 @@ Args PrepareArgs(const uint64_t& ptr, const ArrayBuffer& value,
 Result Invoke(Args& aArgs) {
     Result result = {};result.mReturnValue =::rondpoint_c728_Optionneur_sinon_null(
          aArgs.ptr,
+         // Call intoRustBuffer() to get a `RustBuffer` from an OwnedRustBuffer.  This transfers ownership to Rust,
+         // OwnedRustBuffer will no longer try to free it
          aArgs.value.intoRustBuffer(),
          &result.mCallStatus
      );
@@ -2724,7 +2632,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // Convert result RustBuffer into an ArrayBuffer and set the data field
+            // RustBuffer return, convert it to an ArrayBuffer
             aReturnValue.mData.setObjectOrNull(OwnedRustBuffer(aCallResult.mReturnValue).intoArrayBuffer(aContext));
             break;
 
@@ -2746,13 +2654,12 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_optionneur_sinon_zero {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
+    // RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
+    // freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
+    // isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
+    // converted, but one fails to convert.
     mozilla::dom::OwnedRustBuffer value;
 };
 
@@ -2769,12 +2676,14 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const ArrayBuffer& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const ArrayBuffer& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
+    // Convert the ArrayBuffer we get from JS to an OwnedRustBuffer
     value.ComputeState();
     uniFFIArgs.value = OwnedRustBuffer(value, aUniFFIError);
     if (aUniFFIError.Failed()) {
@@ -2790,6 +2699,8 @@ Args PrepareArgs(const uint64_t& ptr, const ArrayBuffer& value,
 Result Invoke(Args& aArgs) {
     Result result = {};result.mReturnValue =::rondpoint_c728_Optionneur_sinon_zero(
          aArgs.ptr,
+         // Call intoRustBuffer() to get a `RustBuffer` from an OwnedRustBuffer.  This transfers ownership to Rust,
+         // OwnedRustBuffer will no longer try to free it
          aArgs.value.intoRustBuffer(),
          &result.mCallStatus
      );
@@ -2802,7 +2713,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // Convert result RustBuffer into an ArrayBuffer and set the data field
+            // RustBuffer return, convert it to an ArrayBuffer
             aReturnValue.mData.setObjectOrNull(OwnedRustBuffer(aCallResult.mReturnValue).intoArrayBuffer(aContext));
             break;
 
@@ -2824,13 +2735,8 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_optionneur_sinon_u8_dec {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
     uint8_t value;
 };
 
@@ -2847,12 +2753,13 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const uint8_t& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const uint8_t& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
     return uniFFIArgs;
@@ -2876,7 +2783,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // All other return values (ints, floats, pointers) are handled as a JS number value
+            // Numeric Return
             aReturnValue.mData.setNumber(aCallResult.mReturnValue);
             break;
 
@@ -2898,13 +2805,8 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_optionneur_sinon_i8_dec {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
     int8_t value;
 };
 
@@ -2921,12 +2823,13 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const int8_t& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const int8_t& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
     return uniFFIArgs;
@@ -2950,7 +2853,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // All other return values (ints, floats, pointers) are handled as a JS number value
+            // Numeric Return
             aReturnValue.mData.setNumber(aCallResult.mReturnValue);
             break;
 
@@ -2972,13 +2875,8 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_optionneur_sinon_u16_dec {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
     uint16_t value;
 };
 
@@ -2995,12 +2893,13 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const uint16_t& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const uint16_t& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
     return uniFFIArgs;
@@ -3024,7 +2923,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // All other return values (ints, floats, pointers) are handled as a JS number value
+            // Numeric Return
             aReturnValue.mData.setNumber(aCallResult.mReturnValue);
             break;
 
@@ -3046,13 +2945,8 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_optionneur_sinon_i16_dec {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
     int16_t value;
 };
 
@@ -3069,12 +2963,13 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const int16_t& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const int16_t& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
     return uniFFIArgs;
@@ -3098,7 +2993,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // All other return values (ints, floats, pointers) are handled as a JS number value
+            // Numeric Return
             aReturnValue.mData.setNumber(aCallResult.mReturnValue);
             break;
 
@@ -3120,13 +3015,8 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_optionneur_sinon_u32_dec {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
     uint32_t value;
 };
 
@@ -3143,12 +3033,13 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const uint32_t& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const uint32_t& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
     return uniFFIArgs;
@@ -3172,7 +3063,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // All other return values (ints, floats, pointers) are handled as a JS number value
+            // Numeric Return
             aReturnValue.mData.setNumber(aCallResult.mReturnValue);
             break;
 
@@ -3194,13 +3085,8 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_optionneur_sinon_i32_dec {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
     int32_t value;
 };
 
@@ -3217,12 +3103,13 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const int32_t& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const int32_t& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
     return uniFFIArgs;
@@ -3246,7 +3133,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // All other return values (ints, floats, pointers) are handled as a JS number value
+            // Numeric Return
             aReturnValue.mData.setNumber(aCallResult.mReturnValue);
             break;
 
@@ -3268,13 +3155,8 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_optionneur_sinon_u64_dec {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
     uint64_t value;
 };
 
@@ -3291,12 +3173,13 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const uint64_t& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const uint64_t& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
     return uniFFIArgs;
@@ -3320,7 +3203,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // All other return values (ints, floats, pointers) are handled as a JS number value
+            // Numeric Return
             aReturnValue.mData.setNumber(aCallResult.mReturnValue);
             break;
 
@@ -3342,13 +3225,8 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_optionneur_sinon_i64_dec {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
     int64_t value;
 };
 
@@ -3365,12 +3243,13 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const int64_t& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const int64_t& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
     return uniFFIArgs;
@@ -3394,7 +3273,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // All other return values (ints, floats, pointers) are handled as a JS number value
+            // Numeric Return
             aReturnValue.mData.setNumber(aCallResult.mReturnValue);
             break;
 
@@ -3416,13 +3295,8 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_optionneur_sinon_u8_hex {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
     uint8_t value;
 };
 
@@ -3439,12 +3313,13 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const uint8_t& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const uint8_t& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
     return uniFFIArgs;
@@ -3468,7 +3343,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // All other return values (ints, floats, pointers) are handled as a JS number value
+            // Numeric Return
             aReturnValue.mData.setNumber(aCallResult.mReturnValue);
             break;
 
@@ -3490,13 +3365,8 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_optionneur_sinon_i8_hex {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
     int8_t value;
 };
 
@@ -3513,12 +3383,13 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const int8_t& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const int8_t& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
     return uniFFIArgs;
@@ -3542,7 +3413,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // All other return values (ints, floats, pointers) are handled as a JS number value
+            // Numeric Return
             aReturnValue.mData.setNumber(aCallResult.mReturnValue);
             break;
 
@@ -3564,13 +3435,8 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_optionneur_sinon_u16_hex {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
     uint16_t value;
 };
 
@@ -3587,12 +3453,13 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const uint16_t& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const uint16_t& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
     return uniFFIArgs;
@@ -3616,7 +3483,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // All other return values (ints, floats, pointers) are handled as a JS number value
+            // Numeric Return
             aReturnValue.mData.setNumber(aCallResult.mReturnValue);
             break;
 
@@ -3638,13 +3505,8 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_optionneur_sinon_i16_hex {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
     int16_t value;
 };
 
@@ -3661,12 +3523,13 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const int16_t& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const int16_t& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
     return uniFFIArgs;
@@ -3690,7 +3553,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // All other return values (ints, floats, pointers) are handled as a JS number value
+            // Numeric Return
             aReturnValue.mData.setNumber(aCallResult.mReturnValue);
             break;
 
@@ -3712,13 +3575,8 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_optionneur_sinon_u32_hex {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
     uint32_t value;
 };
 
@@ -3735,12 +3593,13 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const uint32_t& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const uint32_t& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
     return uniFFIArgs;
@@ -3764,7 +3623,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // All other return values (ints, floats, pointers) are handled as a JS number value
+            // Numeric Return
             aReturnValue.mData.setNumber(aCallResult.mReturnValue);
             break;
 
@@ -3786,13 +3645,8 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_optionneur_sinon_i32_hex {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
     int32_t value;
 };
 
@@ -3809,12 +3663,13 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const int32_t& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const int32_t& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
     return uniFFIArgs;
@@ -3838,7 +3693,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // All other return values (ints, floats, pointers) are handled as a JS number value
+            // Numeric Return
             aReturnValue.mData.setNumber(aCallResult.mReturnValue);
             break;
 
@@ -3860,13 +3715,8 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_optionneur_sinon_u64_hex {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
     uint64_t value;
 };
 
@@ -3883,12 +3733,13 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const uint64_t& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const uint64_t& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
     return uniFFIArgs;
@@ -3912,7 +3763,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // All other return values (ints, floats, pointers) are handled as a JS number value
+            // Numeric Return
             aReturnValue.mData.setNumber(aCallResult.mReturnValue);
             break;
 
@@ -3934,13 +3785,8 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_optionneur_sinon_i64_hex {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
     int64_t value;
 };
 
@@ -3957,12 +3803,13 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const int64_t& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const int64_t& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
     return uniFFIArgs;
@@ -3986,7 +3833,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // All other return values (ints, floats, pointers) are handled as a JS number value
+            // Numeric Return
             aReturnValue.mData.setNumber(aCallResult.mReturnValue);
             break;
 
@@ -4008,13 +3855,8 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_optionneur_sinon_u32_oct {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
     uint32_t value;
 };
 
@@ -4031,12 +3873,13 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const uint32_t& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const uint32_t& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
     return uniFFIArgs;
@@ -4060,7 +3903,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // All other return values (ints, floats, pointers) are handled as a JS number value
+            // Numeric Return
             aReturnValue.mData.setNumber(aCallResult.mReturnValue);
             break;
 
@@ -4082,13 +3925,8 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_optionneur_sinon_f32 {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
     float value;
 };
 
@@ -4105,12 +3943,13 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const float& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const float& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
     return uniFFIArgs;
@@ -4134,7 +3973,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // All other return values (ints, floats, pointers) are handled as a JS number value
+            // Numeric Return
             aReturnValue.mData.setNumber(aCallResult.mReturnValue);
             break;
 
@@ -4156,13 +3995,8 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_optionneur_sinon_f64 {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
     double value;
 };
 
@@ -4179,12 +4013,13 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const double& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const double& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
     return uniFFIArgs;
@@ -4208,7 +4043,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // All other return values (ints, floats, pointers) are handled as a JS number value
+            // Numeric Return
             aReturnValue.mData.setNumber(aCallResult.mReturnValue);
             break;
 
@@ -4230,13 +4065,12 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_optionneur_sinon_enum {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
-    uint64_t ptr;
+    void * ptr;
+    // RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
+    // freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
+    // isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
+    // converted, but one fails to convert.
     mozilla::dom::OwnedRustBuffer value;
 };
 
@@ -4253,12 +4087,14 @@ struct Result {
 //
 // For async calls this should be called in the main thread, since the GC can
 // move the ArrayBuffer pointers while the background task is waiting.
-Args PrepareArgs(const uint64_t& ptr, const ArrayBuffer& value,
+Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const ArrayBuffer& value,
     mozilla::ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    uniFFIArgs.ptr = ptr;
+    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    uniFFIArgs.ptr = ptr.toPrivate();
+    // Convert the ArrayBuffer we get from JS to an OwnedRustBuffer
     value.ComputeState();
     uniFFIArgs.value = OwnedRustBuffer(value, aUniFFIError);
     if (aUniFFIError.Failed()) {
@@ -4274,6 +4110,8 @@ Args PrepareArgs(const uint64_t& ptr, const ArrayBuffer& value,
 Result Invoke(Args& aArgs) {
     Result result = {};result.mReturnValue =::rondpoint_c728_Optionneur_sinon_enum(
          aArgs.ptr,
+         // Call intoRustBuffer() to get a `RustBuffer` from an OwnedRustBuffer.  This transfers ownership to Rust,
+         // OwnedRustBuffer will no longer try to free it
          aArgs.value.intoRustBuffer(),
          &result.mCallStatus
      );
@@ -4286,7 +4124,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // Convert result RustBuffer into an ArrayBuffer and set the data field
+            // RustBuffer return, convert it to an ArrayBuffer
             aReturnValue.mData.setObjectOrNull(OwnedRustBuffer(aCallResult.mReturnValue).intoArrayBuffer(aContext));
             break;
 
@@ -4308,12 +4146,11 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_copie_dictionnaire {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
+    // RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
+    // freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
+    // isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
+    // converted, but one fails to convert.
     mozilla::dom::OwnedRustBuffer d;
 };
 
@@ -4335,6 +4172,7 @@ Args PrepareArgs(const ArrayBuffer& d,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
+    // Convert the ArrayBuffer we get from JS to an OwnedRustBuffer
     d.ComputeState();
     uniFFIArgs.d = OwnedRustBuffer(d, aUniFFIError);
     if (aUniFFIError.Failed()) {
@@ -4349,6 +4187,8 @@ Args PrepareArgs(const ArrayBuffer& d,
 // For async calls this should be called in the worker thread
 Result Invoke(Args& aArgs) {
     Result result = {};result.mReturnValue =::rondpoint_c728_copie_dictionnaire(
+         // Call intoRustBuffer() to get a `RustBuffer` from an OwnedRustBuffer.  This transfers ownership to Rust,
+         // OwnedRustBuffer will no longer try to free it
          aArgs.d.intoRustBuffer(),
          &result.mCallStatus
      );
@@ -4361,7 +4201,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // Convert result RustBuffer into an ArrayBuffer and set the data field
+            // RustBuffer return, convert it to an ArrayBuffer
             aReturnValue.mData.setObjectOrNull(OwnedRustBuffer(aCallResult.mReturnValue).intoArrayBuffer(aContext));
             break;
 
@@ -4383,12 +4223,11 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_copie_enumeration {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
+    // RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
+    // freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
+    // isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
+    // converted, but one fails to convert.
     mozilla::dom::OwnedRustBuffer e;
 };
 
@@ -4410,6 +4249,7 @@ Args PrepareArgs(const ArrayBuffer& e,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
+    // Convert the ArrayBuffer we get from JS to an OwnedRustBuffer
     e.ComputeState();
     uniFFIArgs.e = OwnedRustBuffer(e, aUniFFIError);
     if (aUniFFIError.Failed()) {
@@ -4424,6 +4264,8 @@ Args PrepareArgs(const ArrayBuffer& e,
 // For async calls this should be called in the worker thread
 Result Invoke(Args& aArgs) {
     Result result = {};result.mReturnValue =::rondpoint_c728_copie_enumeration(
+         // Call intoRustBuffer() to get a `RustBuffer` from an OwnedRustBuffer.  This transfers ownership to Rust,
+         // OwnedRustBuffer will no longer try to free it
          aArgs.e.intoRustBuffer(),
          &result.mCallStatus
      );
@@ -4436,7 +4278,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // Convert result RustBuffer into an ArrayBuffer and set the data field
+            // RustBuffer return, convert it to an ArrayBuffer
             aReturnValue.mData.setObjectOrNull(OwnedRustBuffer(aCallResult.mReturnValue).intoArrayBuffer(aContext));
             break;
 
@@ -4458,12 +4300,11 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_copie_enumerations {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
+    // RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
+    // freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
+    // isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
+    // converted, but one fails to convert.
     mozilla::dom::OwnedRustBuffer e;
 };
 
@@ -4485,6 +4326,7 @@ Args PrepareArgs(const ArrayBuffer& e,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
+    // Convert the ArrayBuffer we get from JS to an OwnedRustBuffer
     e.ComputeState();
     uniFFIArgs.e = OwnedRustBuffer(e, aUniFFIError);
     if (aUniFFIError.Failed()) {
@@ -4499,6 +4341,8 @@ Args PrepareArgs(const ArrayBuffer& e,
 // For async calls this should be called in the worker thread
 Result Invoke(Args& aArgs) {
     Result result = {};result.mReturnValue =::rondpoint_c728_copie_enumerations(
+         // Call intoRustBuffer() to get a `RustBuffer` from an OwnedRustBuffer.  This transfers ownership to Rust,
+         // OwnedRustBuffer will no longer try to free it
          aArgs.e.intoRustBuffer(),
          &result.mCallStatus
      );
@@ -4511,7 +4355,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // Convert result RustBuffer into an ArrayBuffer and set the data field
+            // RustBuffer return, convert it to an ArrayBuffer
             aReturnValue.mData.setObjectOrNull(OwnedRustBuffer(aCallResult.mReturnValue).intoArrayBuffer(aContext));
             break;
 
@@ -4533,12 +4377,11 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_copie_carte {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
+    // RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
+    // freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
+    // isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
+    // converted, but one fails to convert.
     mozilla::dom::OwnedRustBuffer c;
 };
 
@@ -4560,6 +4403,7 @@ Args PrepareArgs(const ArrayBuffer& c,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
+    // Convert the ArrayBuffer we get from JS to an OwnedRustBuffer
     c.ComputeState();
     uniFFIArgs.c = OwnedRustBuffer(c, aUniFFIError);
     if (aUniFFIError.Failed()) {
@@ -4574,6 +4418,8 @@ Args PrepareArgs(const ArrayBuffer& c,
 // For async calls this should be called in the worker thread
 Result Invoke(Args& aArgs) {
     Result result = {};result.mReturnValue =::rondpoint_c728_copie_carte(
+         // Call intoRustBuffer() to get a `RustBuffer` from an OwnedRustBuffer.  This transfers ownership to Rust,
+         // OwnedRustBuffer will no longer try to free it
          aArgs.c.intoRustBuffer(),
          &result.mCallStatus
      );
@@ -4586,7 +4432,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // Convert result RustBuffer into an ArrayBuffer and set the data field
+            // RustBuffer return, convert it to an ArrayBuffer
             aReturnValue.mData.setObjectOrNull(OwnedRustBuffer(aCallResult.mReturnValue).intoArrayBuffer(aContext));
             break;
 
@@ -4608,11 +4454,6 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 namespace rondpoint_c728_switcheroo {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
     int8_t b;
 };
@@ -4657,7 +4498,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            // All other return values (ints, floats, pointers) are handled as a JS number value
+            // Numeric Return
             aReturnValue.mData.setNumber(aCallResult.mReturnValue);
             break;
 
@@ -4679,7 +4520,7 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
 
 namespace mozilla::dom {
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::FfiRondpointC728RetourneurObjectFree(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr,
+already_AddRefed<Promise> RondpointScaffolding::FfiRondpointC728RetourneurObjectFree(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -4785,7 +4626,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728RetourneurNew(const
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728RetourneurIdentiqueI8(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const int8_t& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728RetourneurIdentiqueI8(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const int8_t& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -4838,7 +4679,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728RetourneurIdentique
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728RetourneurIdentiqueU8(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const uint8_t& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728RetourneurIdentiqueU8(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const uint8_t& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -4891,7 +4732,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728RetourneurIdentique
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728RetourneurIdentiqueI16(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const int16_t& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728RetourneurIdentiqueI16(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const int16_t& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -4944,7 +4785,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728RetourneurIdentique
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728RetourneurIdentiqueU16(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const uint16_t& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728RetourneurIdentiqueU16(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const uint16_t& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -4997,7 +4838,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728RetourneurIdentique
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728RetourneurIdentiqueI32(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const int32_t& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728RetourneurIdentiqueI32(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const int32_t& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -5050,7 +4891,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728RetourneurIdentique
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728RetourneurIdentiqueU32(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const uint32_t& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728RetourneurIdentiqueU32(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const uint32_t& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -5103,7 +4944,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728RetourneurIdentique
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728RetourneurIdentiqueI64(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const int64_t& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728RetourneurIdentiqueI64(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const int64_t& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -5156,7 +4997,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728RetourneurIdentique
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728RetourneurIdentiqueU64(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const uint64_t& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728RetourneurIdentiqueU64(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const uint64_t& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -5209,7 +5050,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728RetourneurIdentique
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728RetourneurIdentiqueFloat(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const float& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728RetourneurIdentiqueFloat(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const float& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -5262,7 +5103,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728RetourneurIdentique
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728RetourneurIdentiqueDouble(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const double& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728RetourneurIdentiqueDouble(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const double& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -5315,7 +5156,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728RetourneurIdentique
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728RetourneurIdentiqueBoolean(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const int8_t& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728RetourneurIdentiqueBoolean(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const int8_t& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -5368,7 +5209,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728RetourneurIdentique
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728RetourneurIdentiqueString(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const ArrayBuffer& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728RetourneurIdentiqueString(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const ArrayBuffer& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -5421,7 +5262,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728RetourneurIdentique
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728RetourneurIdentiqueNombresSignes(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const ArrayBuffer& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728RetourneurIdentiqueNombresSignes(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const ArrayBuffer& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -5474,7 +5315,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728RetourneurIdentique
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728RetourneurIdentiqueNombres(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const ArrayBuffer& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728RetourneurIdentiqueNombres(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const ArrayBuffer& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -5527,7 +5368,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728RetourneurIdentique
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728RetourneurIdentiqueOptionneurDictionnaire(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const ArrayBuffer& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728RetourneurIdentiqueOptionneurDictionnaire(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const ArrayBuffer& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -5580,7 +5421,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728RetourneurIdentique
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::FfiRondpointC728StringifierObjectFree(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr,
+already_AddRefed<Promise> RondpointScaffolding::FfiRondpointC728StringifierObjectFree(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -5686,7 +5527,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728StringifierNew(cons
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728StringifierWellKnownString(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const ArrayBuffer& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728StringifierWellKnownString(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const ArrayBuffer& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -5739,7 +5580,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728StringifierWellKnow
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728StringifierToStringI8(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const int8_t& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728StringifierToStringI8(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const int8_t& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -5792,7 +5633,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728StringifierToString
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728StringifierToStringU8(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const uint8_t& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728StringifierToStringU8(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const uint8_t& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -5845,7 +5686,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728StringifierToString
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728StringifierToStringI16(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const int16_t& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728StringifierToStringI16(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const int16_t& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -5898,7 +5739,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728StringifierToString
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728StringifierToStringU16(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const uint16_t& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728StringifierToStringU16(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const uint16_t& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -5951,7 +5792,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728StringifierToString
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728StringifierToStringI32(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const int32_t& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728StringifierToStringI32(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const int32_t& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -6004,7 +5845,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728StringifierToString
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728StringifierToStringU32(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const uint32_t& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728StringifierToStringU32(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const uint32_t& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -6057,7 +5898,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728StringifierToString
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728StringifierToStringI64(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const int64_t& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728StringifierToStringI64(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const int64_t& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -6110,7 +5951,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728StringifierToString
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728StringifierToStringU64(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const uint64_t& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728StringifierToStringU64(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const uint64_t& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -6163,7 +6004,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728StringifierToString
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728StringifierToStringFloat(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const float& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728StringifierToStringFloat(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const float& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -6216,7 +6057,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728StringifierToString
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728StringifierToStringDouble(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const double& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728StringifierToStringDouble(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const double& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -6269,7 +6110,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728StringifierToString
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728StringifierToStringBoolean(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const int8_t& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728StringifierToStringBoolean(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const int8_t& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -6322,7 +6163,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728StringifierToString
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::FfiRondpointC728OptionneurObjectFree(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr,
+already_AddRefed<Promise> RondpointScaffolding::FfiRondpointC728OptionneurObjectFree(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -6428,7 +6269,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurNew(const
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonBoolean(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const int8_t& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonBoolean(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const int8_t& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -6481,7 +6322,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonBool
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonString(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const ArrayBuffer& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonString(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const ArrayBuffer& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -6534,7 +6375,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonStri
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonSequence(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const ArrayBuffer& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonSequence(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const ArrayBuffer& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -6587,7 +6428,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonSequ
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonNull(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const ArrayBuffer& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonNull(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const ArrayBuffer& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -6640,7 +6481,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonNull
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonZero(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const ArrayBuffer& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonZero(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const ArrayBuffer& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -6693,7 +6534,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonZero
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonU8Dec(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const uint8_t& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonU8Dec(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const uint8_t& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -6746,7 +6587,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonU8De
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonI8Dec(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const int8_t& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonI8Dec(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const int8_t& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -6799,7 +6640,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonI8De
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonU16Dec(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const uint16_t& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonU16Dec(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const uint16_t& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -6852,7 +6693,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonU16D
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonI16Dec(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const int16_t& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonI16Dec(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const int16_t& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -6905,7 +6746,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonI16D
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonU32Dec(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const uint32_t& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonU32Dec(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const uint32_t& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -6958,7 +6799,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonU32D
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonI32Dec(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const int32_t& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonI32Dec(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const int32_t& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -7011,7 +6852,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonI32D
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonU64Dec(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const uint64_t& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonU64Dec(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const uint64_t& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -7064,7 +6905,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonU64D
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonI64Dec(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const int64_t& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonI64Dec(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const int64_t& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -7117,7 +6958,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonI64D
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonU8Hex(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const uint8_t& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonU8Hex(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const uint8_t& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -7170,7 +7011,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonU8He
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonI8Hex(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const int8_t& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonI8Hex(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const int8_t& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -7223,7 +7064,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonI8He
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonU16Hex(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const uint16_t& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonU16Hex(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const uint16_t& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -7276,7 +7117,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonU16H
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonI16Hex(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const int16_t& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonI16Hex(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const int16_t& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -7329,7 +7170,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonI16H
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonU32Hex(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const uint32_t& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonU32Hex(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const uint32_t& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -7382,7 +7223,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonU32H
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonI32Hex(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const int32_t& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonI32Hex(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const int32_t& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -7435,7 +7276,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonI32H
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonU64Hex(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const uint64_t& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonU64Hex(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const uint64_t& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -7488,7 +7329,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonU64H
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonI64Hex(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const int64_t& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonI64Hex(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const int64_t& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -7541,7 +7382,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonI64H
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonU32Oct(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const uint32_t& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonU32Oct(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const uint32_t& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -7594,7 +7435,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonU32O
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonF32(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const float& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonF32(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const float& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -7647,7 +7488,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonF32(
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonF64(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const double& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonF64(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const double& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
@@ -7700,7 +7541,7 @@ already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonF64(
     return uniFFIReturnPromise.forget();
 }
 using namespace uniffi::rondpoint;
-already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonEnum(const GlobalObject& aUniFFIGlobal,const uint64_t& ptr, const ArrayBuffer& value,
+already_AddRefed<Promise> RondpointScaffolding::RondpointC728OptionneurSinonEnum(const GlobalObject& aUniFFIGlobal,const JS::Handle<JS::Value>& ptr, const ArrayBuffer& value,
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args

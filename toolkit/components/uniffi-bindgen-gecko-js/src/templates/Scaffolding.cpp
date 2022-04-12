@@ -13,18 +13,18 @@ namespace {{ ci.cpp_namespace() }} {
 namespace {{ func.cpp_namespace() }} {
 using namespace mozilla::dom;
 // Arguments to pass to the scaffolding function
-//
-// RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
-// freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
-// isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
-// converted, but one fails to convert.
 struct Args {
     {%- for arg in func.arguments() %}
-    {%- if arg.is_rust_buffer() %}
+    {%- match arg.type_() %}
+    {%- when FFIType::RustBuffer %}
+    // RustBuffer arguments are stored as OwnedRustBuffer instances.  That class takes care of
+    // freeing the buffer if the arguments don't get passed to Rust (i.e. intoRustBuffer()
+    // isn't called).  This can happen if some of the ArrayBuffer arguments are succuessfully
+    // converted, but one fails to convert.
     mozilla::dom::OwnedRustBuffer {{ arg.nm() }};
     {%- else %}
-    {{ arg.type_name() }} {{ arg.nm() }};
-    {%- endif %}
+    {{ arg.args_type() }} {{ arg.nm() }};
+    {%- endmatch %}
     {%- endfor %}
 };
 
@@ -51,15 +51,20 @@ Args PrepareArgs(
     Args uniFFIArgs;
 
     {%- for arg in func.arguments() %}
-    {%- if arg.is_rust_buffer() %}
+    {%- match arg.type_() %}
+    {%- when FFIType::RustBuffer %}
+    // Convert the ArrayBuffer we get from JS to an OwnedRustBuffer
     {{ arg.nm() }}.ComputeState();
     uniFFIArgs.{{ arg.nm() }} = OwnedRustBuffer({{ arg.nm() }}, aUniFFIError);
     if (aUniFFIError.Failed()) {
         return uniFFIArgs;
     }
+    {%- when FFIType::RustArcPtr %}
+    // Extract the pointer from the JS::Value using `toPrivate`.
+    uniFFIArgs.{{ arg.nm() }} = {{ arg.nm() }}.toPrivate();
     {%- else %}
     uniFFIArgs.{{ arg.nm() }} = {{ arg.nm() }};
-    {%- endif %}
+    {%- endmatch %}
     {%- endfor %}
 
     return uniFFIArgs;
@@ -72,11 +77,14 @@ Result Invoke(Args& aArgs) {
     Result result = {};
     {%- if func.has_return_type() %}result.mReturnValue = {%- endif %}::{{ func.rust_name() }}(
          {%- for arg in func.arguments() %}
-         {%- if arg.is_rust_buffer() %}
+         {%- match arg.type_() %}
+         {%- when FFIType::RustBuffer %}
+         // Call intoRustBuffer() to get a `RustBuffer` from an OwnedRustBuffer.  This transfers ownership to Rust,
+         // OwnedRustBuffer will no longer try to free it
          aArgs.{{ arg.nm() }}.intoRustBuffer(),
          {%- else %}
          aArgs.{{ arg.nm() }},
-         {%- endif %}
+         {%- endmatch %}
          {%- endfor %}
          &result.mCallStatus
      );
@@ -89,13 +97,19 @@ void ReturnResult(JSContext* aContext, const Result& aCallResult, RootedDictiona
         case uniffi::CALL_SUCCESS:
             // Successful call.  Populate data with the return value
             aReturnValue.mCode = uniffi::CALL_SUCCESS;
-            {%- if func.returns_rust_buffer() %}
-            // Convert result RustBuffer into an ArrayBuffer and set the data field
+            {%- match func.return_type() %}
+            {%- when Some with (FFIType::RustBuffer) %}
+            // RustBuffer return, convert it to an ArrayBuffer
             aReturnValue.mData.setObjectOrNull(OwnedRustBuffer(aCallResult.mReturnValue).intoArrayBuffer(aContext));
-            {%- else if func.has_return_type() %}
-            // All other return values (ints, floats, pointers) are handled as a JS number value
+            {%- when Some with (FFIType::RustArcPtr) %}
+            // Pointer return, use `JS::Value::setPrivate()` to store it
+            aReturnValue.mData.setPrivate(aCallResult.mReturnValue);
+            {%- when Some with (_) %}
+            // Numeric Return
             aReturnValue.mData.setNumber(aCallResult.mReturnValue);
-            {%- endif %}
+            {%- when None %}
+            // Void return
+            {%- endmatch %}
             break;
 
         case uniffi::CALL_ERROR:
