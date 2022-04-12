@@ -52,7 +52,8 @@ pub impl FFIType {
             FFIType::Int64 => "long long",
             FFIType::Float32 => "float",
             FFIType::Float64 => "double",
-            FFIType::RustArcPtr => "long long",
+            // Pointers are handled with the "private value" API, see Scaffolding.cpp for details
+            FFIType::RustArcPtr => "any",
             FFIType::RustBuffer => "ArrayBuffer",
             FFIType::ForeignBytes => unimplemented!("ForeignBytes not supported"),
             FFIType::ForeignCallback => unimplemented!("ForeignCallback not supported"),
