@@ -136,7 +136,7 @@ namespace mozilla::dom {
 using namespace {{ ci.cpp_namespace() }};
 
 {%- if func.is_async() %}
-already_AddRefed<Promise> {{ fully_qualified_name }}(const GlobalObject& aUniFFIGlobal, 
+already_AddRefed<Promise> {{ fully_qualified_name }}(const GlobalObject& aUniFFIGlobal,
 {%- if func.has_args()%}{{ func.input_arg_list() }},{%- else %}{%- endif %}
  ErrorResult& aUniFFIError) {
     // Note: Prefix our params and local variables with "uniffi" to avoid name
@@ -209,4 +209,3 @@ RootedDictionary<UniFFIRustCallResult>& aUniFFIReturnValue, ErrorResult& aUniFFI
 {%- endfor %}
 
 }  // namespace mozilla::dom
-

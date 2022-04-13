@@ -30,7 +30,7 @@ class {{ ci.scaffolding_class() }} {
   {%- if func.has_args() %}{{ func.input_arg_list() }},{%- else %}{%- endif %}
   ErrorResult& aUniFFIErrorResult);
   {%- else %}
-  static void {{ func.nm() }}(const GlobalObject& aUniFFIGlobal, 
+  static void {{ func.nm() }}(const GlobalObject& aUniFFIGlobal,
    {%- if func.has_args() %}{{ func.input_arg_list() }},{%- else %}{%- endif %}
   RootedDictionary<UniFFIRustCallResult>& aUniFFIReturnValue, ErrorResult& aUniFFIErrorResult);
   {%- endif %}

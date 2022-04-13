@@ -163,6 +163,7 @@ file-whitespace:
         - toolkit/mozapps/installer/windows/nsis/preprocess-locale.py
         - tools/jprof/README.html
         - tools/lint/eslint
+        - toolkit/components/uniffi-bindgen-gecko-js/fixtures/generated
         - view/crashtests
         - widget/cocoa/crashtests
         - widget/nsFilePickerProxy.cpp
