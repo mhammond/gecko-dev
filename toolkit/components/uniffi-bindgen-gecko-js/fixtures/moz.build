@@ -3,7 +3,7 @@
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
- 
+
 FINAL_LIBRARY = "xul"
 
 components = [
@@ -11,15 +11,15 @@ components = [
 ]
 
 UNIFIED_SOURCES += [
-    "{}Scaffolding.cpp".format(component) for component in components
+    "generated/{}Scaffolding.cpp".format(component) for component in components
 ]
- 
+
 EXPORTS.mozilla.dom += [
-    "{}Scaffolding.h".format(component) for component in components
+    "generated/{}Scaffolding.h".format(component) for component in components
 ]
- 
+
 EXTRA_JS_MODULES["components-utils"] = [
-    "{}.jsm".format(component) for component in components
+    "generated/{}.jsm".format(component) for component in components
 ]
 
 XPCSHELL_TESTS_MANIFESTS += ["tests/xpcshell.ini"]

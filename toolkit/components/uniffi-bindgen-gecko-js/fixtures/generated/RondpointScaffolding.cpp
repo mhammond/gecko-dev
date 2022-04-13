@@ -33,7 +33,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
 
     return uniFFIArgs;
@@ -163,7 +163,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const int8_t& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
@@ -233,7 +233,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const uint8_t& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
@@ -303,7 +303,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const int16_t& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
@@ -373,7 +373,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const uint16_t& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
@@ -443,7 +443,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const int32_t& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
@@ -513,7 +513,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const uint32_t& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
@@ -583,7 +583,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const int64_t& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
@@ -653,7 +653,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const uint64_t& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
@@ -723,7 +723,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const float& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
@@ -793,7 +793,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const double& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
@@ -863,7 +863,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const int8_t& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
@@ -937,7 +937,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const ArrayBuffer& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     // Convert the ArrayBuffer we get from JS to an OwnedRustBuffer
     value.ComputeState();
@@ -1018,7 +1018,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const ArrayBuffer& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     // Convert the ArrayBuffer we get from JS to an OwnedRustBuffer
     value.ComputeState();
@@ -1099,7 +1099,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const ArrayBuffer& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     // Convert the ArrayBuffer we get from JS to an OwnedRustBuffer
     value.ComputeState();
@@ -1180,7 +1180,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const ArrayBuffer& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     // Convert the ArrayBuffer we get from JS to an OwnedRustBuffer
     value.ComputeState();
@@ -1255,7 +1255,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
 
     return uniFFIArgs;
@@ -1389,7 +1389,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const ArrayBuffer& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     // Convert the ArrayBuffer we get from JS to an OwnedRustBuffer
     value.ComputeState();
@@ -1466,7 +1466,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const int8_t& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
@@ -1536,7 +1536,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const uint8_t& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
@@ -1606,7 +1606,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const int16_t& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
@@ -1676,7 +1676,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const uint16_t& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
@@ -1746,7 +1746,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const int32_t& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
@@ -1816,7 +1816,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const uint32_t& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
@@ -1886,7 +1886,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const int64_t& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
@@ -1956,7 +1956,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const uint64_t& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
@@ -2026,7 +2026,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const float& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
@@ -2096,7 +2096,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const double& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
@@ -2166,7 +2166,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const int8_t& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
@@ -2234,7 +2234,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
 
     return uniFFIArgs;
@@ -2364,7 +2364,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const int8_t& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
@@ -2438,7 +2438,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const ArrayBuffer& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     // Convert the ArrayBuffer we get from JS to an OwnedRustBuffer
     value.ComputeState();
@@ -2519,7 +2519,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const ArrayBuffer& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     // Convert the ArrayBuffer we get from JS to an OwnedRustBuffer
     value.ComputeState();
@@ -2600,7 +2600,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const ArrayBuffer& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     // Convert the ArrayBuffer we get from JS to an OwnedRustBuffer
     value.ComputeState();
@@ -2681,7 +2681,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const ArrayBuffer& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     // Convert the ArrayBuffer we get from JS to an OwnedRustBuffer
     value.ComputeState();
@@ -2758,7 +2758,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const uint8_t& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
@@ -2828,7 +2828,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const int8_t& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
@@ -2898,7 +2898,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const uint16_t& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
@@ -2968,7 +2968,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const int16_t& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
@@ -3038,7 +3038,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const uint32_t& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
@@ -3108,7 +3108,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const int32_t& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
@@ -3178,7 +3178,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const uint64_t& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
@@ -3248,7 +3248,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const int64_t& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
@@ -3318,7 +3318,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const uint8_t& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
@@ -3388,7 +3388,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const int8_t& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
@@ -3458,7 +3458,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const uint16_t& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
@@ -3528,7 +3528,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const int16_t& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
@@ -3598,7 +3598,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const uint32_t& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
@@ -3668,7 +3668,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const int32_t& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
@@ -3738,7 +3738,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const uint64_t& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
@@ -3808,7 +3808,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const int64_t& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
@@ -3878,7 +3878,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const uint32_t& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
@@ -3948,7 +3948,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const float& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
@@ -4018,7 +4018,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const double& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     uniFFIArgs.value = value;
 
@@ -4092,7 +4092,7 @@ Args PrepareArgs(const JS::Handle<JS::Value>& ptr, const ArrayBuffer& value,
     // Note: Prefix our params and local variables with "uniffi" to avoid name
     // conflicts with the scaffolding function args
     Args uniFFIArgs;
-    // Extract the pointer from the JS::Value using `toPrivate`.  See `ReturnResult()` for where we set this value
+    // Extract the pointer from the JS::Value using `toPrivate`.
     uniFFIArgs.ptr = ptr.toPrivate();
     // Convert the ArrayBuffer we get from JS to an OwnedRustBuffer
     value.ComputeState();
