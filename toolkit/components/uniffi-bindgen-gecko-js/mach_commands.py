@@ -13,25 +13,26 @@ from mach.decorators import (
     SubCommand,
 )
 
+generated_dir = "toolkit/components/uniffi-bindgen-gecko-js/fixtures/generated"
 generated_bindings_paths = {
     # UniFFI Examples/Fixtures
-    'third_party/rust/uniffi-example-geometry/src/geometry.udl': {
-        'webidl': 'dom/chrome-webidl/GeometryScaffolding.webidl',
-        'cpp-header': 'toolkit/components/uniffi-bindgen-gecko-js/fixtures/GeometryScaffolding.h',
-        'cpp': 'toolkit/components/uniffi-bindgen-gecko-js/fixtures/GeometryScaffolding.cpp',
-        'js': 'toolkit/components/uniffi-bindgen-gecko-js/fixtures/Geometry.jsm',
+    "third_party/rust/uniffi-example-geometry/src/geometry.udl": {
+        "webidl": "dom/chrome-webidl/GeometryScaffolding.webidl",
+        "cpp-header": f"{generated_dir}/GeometryScaffolding.h",
+        "cpp": f"{generated_dir}/GeometryScaffolding.cpp",
+        "js": f"{generated_dir}/Geometry.jsm",
     },
-    'third_party/rust/uniffi-example-arithmetic/src/arithmetic.udl': {
-        'webidl': 'dom/chrome-webidl/ArithmeticScaffolding.webidl',
-        'cpp-header': 'toolkit/components/uniffi-bindgen-gecko-js/fixtures/ArithmeticScaffolding.h',
-        'cpp': 'toolkit/components/uniffi-bindgen-gecko-js/fixtures/ArithmeticScaffolding.cpp',
-        'js': 'toolkit/components/uniffi-bindgen-gecko-js/fixtures/Arithmetic.jsm',
+    "third_party/rust/uniffi-example-arithmetic/src/arithmetic.udl": {
+        "webidl": "dom/chrome-webidl/ArithmeticScaffolding.webidl",
+        "cpp-header": f"{generated_dir}/ArithmeticScaffolding.h",
+        "cpp": f"{generated_dir}/ArithmeticScaffolding.cpp",
+        "js": f"{generated_dir}/Arithmetic.jsm",
     },
-    'third_party/rust/uniffi-example-rondpoint/src/rondpoint.udl': {
-        'webidl': 'dom/chrome-webidl/RondpointScaffolding.webidl',
-        'cpp-header': 'toolkit/components/uniffi-bindgen-gecko-js/fixtures/RondpointScaffolding.h',
-        'cpp': 'toolkit/components/uniffi-bindgen-gecko-js/fixtures/RondpointScaffolding.cpp',
-        'js': 'toolkit/components/uniffi-bindgen-gecko-js/fixtures/Rondpoint.jsm',
+    "third_party/rust/uniffi-example-rondpoint/src/rondpoint.udl": {
+        "webidl": "dom/chrome-webidl/RondpointScaffolding.webidl",
+        "cpp-header": f"{generated_dir}/RondpointScaffolding.h",
+        "cpp": f"{generated_dir}/RondpointScaffolding.cpp",
+        "js": f"{generated_dir}/Rondpoint.jsm",
     },
 }
 
