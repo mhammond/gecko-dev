@@ -1517,7 +1517,7 @@ dependencies = [
 [[package]]
 name = "error-support"
 version = "0.1.0"
-source = "git+https://github.com/mozilla/application-services?rev=fb1c78b13c27b5db1fd5458b8c2d8f433855dd61#fb1c78b13c27b5db1fd5458b8c2d8f433855dd61"
+source = "git+https://github.com/mhammond/application-services?rev=365a92891ac08f7b186ff99284a341188d33a8a0#365a92891ac08f7b186ff99284a341188d33a8a0"
 dependencies = [
  "log",
 ]
@@ -2166,6 +2166,7 @@ dependencies = [
  "rust_minidump_writer_linux",
  "static_prefs",
  "storage",
+ "tabs",
  "tokio-reactor",
  "tokio-threadpool",
  "unic-langid",
@@ -2635,7 +2636,7 @@ dependencies = [
 [[package]]
 name = "interrupt-support"
 version = "0.1.0"
-source = "git+https://github.com/mozilla/application-services?rev=fb1c78b13c27b5db1fd5458b8c2d8f433855dd61#fb1c78b13c27b5db1fd5458b8c2d8f433855dd61"
+source = "git+https://github.com/mhammond/application-services?rev=365a92891ac08f7b186ff99284a341188d33a8a0#365a92891ac08f7b186ff99284a341188d33a8a0"
 dependencies = [
  "lazy_static",
  "parking_lot 0.12.999",
@@ -3721,7 +3722,7 @@ dependencies = [
 [[package]]
 name = "nss_build_common"
 version = "0.1.0"
-source = "git+https://github.com/mozilla/application-services?rev=fb1c78b13c27b5db1fd5458b8c2d8f433855dd61#fb1c78b13c27b5db1fd5458b8c2d8f433855dd61"
+source = "git+https://github.com/mhammond/application-services?rev=365a92891ac08f7b186ff99284a341188d33a8a0#365a92891ac08f7b186ff99284a341188d33a8a0"
 
 [[package]]
 name = "nsstring"
@@ -4886,7 +4887,7 @@ dependencies = [
 [[package]]
 name = "sql-support"
 version = "0.1.0"
-source = "git+https://github.com/mozilla/application-services?rev=fb1c78b13c27b5db1fd5458b8c2d8f433855dd61#fb1c78b13c27b5db1fd5458b8c2d8f433855dd61"
+source = "git+https://github.com/mhammond/application-services?rev=365a92891ac08f7b186ff99284a341188d33a8a0#365a92891ac08f7b186ff99284a341188d33a8a0"
 dependencies = [
  "ffi-support",
  "interrupt-support",
@@ -5068,7 +5069,7 @@ dependencies = [
 [[package]]
 name = "sync-guid"
 version = "0.1.0"
-source = "git+https://github.com/mozilla/application-services?rev=fb1c78b13c27b5db1fd5458b8c2d8f433855dd61#fb1c78b13c27b5db1fd5458b8c2d8f433855dd61"
+source = "git+https://github.com/mhammond/application-services?rev=365a92891ac08f7b186ff99284a341188d33a8a0#365a92891ac08f7b186ff99284a341188d33a8a0"
 dependencies = [
  "base64",
  "rand 0.8.5",
@@ -5079,7 +5080,7 @@ dependencies = [
 [[package]]
 name = "sync15-traits"
 version = "0.1.0"
-source = "git+https://github.com/mozilla/application-services?rev=fb1c78b13c27b5db1fd5458b8c2d8f433855dd61#fb1c78b13c27b5db1fd5458b8c2d8f433855dd61"
+source = "git+https://github.com/mhammond/application-services?rev=365a92891ac08f7b186ff99284a341188d33a8a0#365a92891ac08f7b186ff99284a341188d33a8a0"
 dependencies = [
  "anyhow",
  "error-support",
@@ -5105,6 +5106,30 @@ dependencies = [
  "quote",
  "syn",
  "unicode-xid",
+]
+
+[[package]]
+name = "tabs"
+version = "0.1.0"
+source = "git+https://github.com/mhammond/application-services?rev=365a92891ac08f7b186ff99284a341188d33a8a0#365a92891ac08f7b186ff99284a341188d33a8a0"
+dependencies = [
+ "anyhow",
+ "error-support",
+ "interrupt-support",
+ "lazy_static",
+ "log",
+ "rusqlite",
+ "serde",
+ "serde_derive",
+ "serde_json",
+ "sql-support",
+ "sync-guid",
+ "sync15-traits",
+ "thiserror",
+ "uniffi",
+ "uniffi_build",
+ "uniffi_macros",
+ "url",
 ]
 
 [[package]]
@@ -5797,7 +5822,7 @@ checksum = "49874b5167b65d7193b8aba1567f5c7d93d001cafc34600cee003eda787e483f"
 [[package]]
 name = "viaduct"
 version = "0.1.0"
-source = "git+https://github.com/mozilla/application-services?rev=fb1c78b13c27b5db1fd5458b8c2d8f433855dd61#fb1c78b13c27b5db1fd5458b8c2d8f433855dd61"
+source = "git+https://github.com/mhammond/application-services?rev=365a92891ac08f7b186ff99284a341188d33a8a0#365a92891ac08f7b186ff99284a341188d33a8a0"
 dependencies = [
  "ffi-support",
  "log",
@@ -5953,7 +5978,7 @@ dependencies = [
 [[package]]
 name = "webext-storage"
 version = "0.1.0"
-source = "git+https://github.com/mozilla/application-services?rev=fb1c78b13c27b5db1fd5458b8c2d8f433855dd61#fb1c78b13c27b5db1fd5458b8c2d8f433855dd61"
+source = "git+https://github.com/mhammond/application-services?rev=365a92891ac08f7b186ff99284a341188d33a8a0#365a92891ac08f7b186ff99284a341188d33a8a0"
 dependencies = [
  "error-support",
  "ffi-support",

@@ -47,15 +47,15 @@ git = "https://github.com/mozilla/audioipc"
 replace-with = "vendored-sources"
 rev = "fb7a2b12ced3b43e6a268621989c6191d1ed7e39"
 
-[source."https://github.com/mozilla/application-services"]
-git = "https://github.com/mozilla/application-services"
-replace-with = "vendored-sources"
-rev = "fb1c78b13c27b5db1fd5458b8c2d8f433855dd61"
-
 [source."https://github.com/mozilla-spidermonkey/jsparagus"]
 git = "https://github.com/mozilla-spidermonkey/jsparagus"
 replace-with = "vendored-sources"
 rev = "688a6574cf830b4a3adaf9c5d41efc1f7dd4017f"
+
+[source."https://github.com/mhammond/application-services"]
+git = "https://github.com/mhammond/application-services"
+replace-with = "vendored-sources"
+rev = "365a92891ac08f7b186ff99284a341188d33a8a0"
 
 [source."https://github.com/kinetiknz/mio-named-pipes"]
 git = "https://github.com/kinetiknz/mio-named-pipes"
