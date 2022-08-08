@@ -10,34 +10,42 @@ const { Service } = ChromeUtils.import("resource://services-sync/service.js");
 async function getMocks() {
   let engine = new TabEngine(Service);
   await engine.initialize();
-  let store = engine._store;
-  store.getTabState = mockGetTabState;
-  store.shouldSkipWindow = mockShouldSkipWindow;
-  return [engine, store];
+  let bridge = engine._bridge;
+  engine._provider.shouldSkipWindow = mockShouldSkipWindow;
+  return [engine, bridge];
 }
 
 add_task(async function test_tab_engine_skips_incoming_local_record() {
   _("Ensure incoming records that match local client ID are never applied.");
-  let [engine, store] = await getMocks();
+  let [engine, bridge] = await getMocks();
   let localID = engine.service.clientsEngine.localID;
-  let apply = store.applyIncoming;
+  let apply = bridge.storeIncoming;
   let applied = [];
 
-  store.applyIncoming = async function(record) {
-    notEqual(record.id, localID, "Only apply tab records from remote clients");
+  bridge.storeIncoming = async function(incomingAsJson) {
+    let record = JSON.parse(incomingAsJson[0]);
+    Assert.ok(record.id);
     applied.push(record);
-    apply.call(store, record);
+    apply.call(bridge, incomingAsJson);
   };
 
   let collection = new ServerCollection();
 
   _("Creating remote tab record with local client ID");
-  let localRecord = encryptPayload({ id: localID, clientName: "local" });
+  let localRecord = encryptPayload({
+    id: localID,
+    clientName: "local",
+    tabs: [],
+  });
   collection.insert(localID, localRecord);
 
   _("Creating remote tab record with a different client ID");
   let remoteID = "different";
-  let remoteRecord = encryptPayload({ id: remoteID, clientName: "not local" });
+  let remoteRecord = encryptPayload({
+    id: remoteID,
+    clientName: "not local",
+    tabs: [],
+  });
   collection.insert(remoteID, remoteRecord);
 
   _("Setting up Sync server");
@@ -59,8 +67,19 @@ add_task(async function test_tab_engine_skips_incoming_local_record() {
   let promiseFinished = new Promise(resolve => {
     let syncFinish = engine._syncFinish;
     engine._syncFinish = async function() {
-      equal(applied.length, 1, "Remote client record was applied");
-      equal(applied[0].id, remoteID, "Remote client ID matches");
+      let remoteTabs = await engine._rustStore.getAll();
+      console.log(remoteTabs);
+      equal(
+        remoteTabs.length,
+        1,
+        "Remote client record was applied and local wasn't"
+      );
+      let record = remoteTabs[0];
+      equal(record.clientId, remoteID, "Remote client ID matches");
+
+      let clients = await engine.getAllClients();
+      // XXX - test the shape of getAllClients
+      // client.id, client.type, client.tabs
 
       await syncFinish.call(engine);
       resolve();
@@ -72,112 +91,61 @@ add_task(async function test_tab_engine_skips_incoming_local_record() {
   await promiseFinished;
 });
 
-add_task(async function test_reconcile() {
-  let [engine] = await getMocks();
+add_task(async function test_create() {
+  let [engine, bridge] = getMocks();
+  Assert.ok(bridge);
 
-  _("Setup engine for reconciling");
-  await engine._syncStartup();
+  _("Create a first record");
+  let rec = encryptPayload({
+    id: "id1",
+    clientName: "clientName1",
+    tabs: [
+      {
+        title: "title",
+        urlHistory: ["http://example.com/"],
+        icon: "",
+        lastUsed: 2,
+      },
+      {
+        title: "title1",
+        urlHistory: ["http://example.com/"],
+        icon: "",
+        lastUsed: 2,
+      },
+    ],
+  });
+  await bridge.storeIncoming([JSON.stringify(rec)]);
+  deepEqual(bridge._remoteClients.id1, { lastModified: 1000, foo: "bar" });
 
-  _("Create an incoming remote record");
-  let remoteRecord = {
-    id: "remote id",
-    cleartext: "stuff and things!",
-    modified: 1000,
-  };
+  _("Create a second record");
+  rec = encryptPayload({
+    id: "id2",
+    clientName: "clientName2",
+    tabs: [
+      {
+        title: "title2",
+        urlHistory: ["http://someotherexample.com/"],
+        icon: "",
+        lastUsed: 3,
+      },
+    ],
+  });
+  await bridge.storeIncoming([JSON.stringify(rec)]);
+  deepEqual(bridge._remoteClients.id2, { lastModified: 2000, foo2: "bar2" });
 
-  ok(
-    await engine._reconcile(remoteRecord),
-    "Apply a recently modified remote record"
-  );
-
-  remoteRecord.modified = 0;
-  ok(
-    await engine._reconcile(remoteRecord),
-    "Apply a remote record modified long ago"
-  );
-
-  // Remote tab records are never tracked locally, so the only
-  // time they're skipped is when they're marked as deleted.
-  remoteRecord.deleted = true;
-  ok(!(await engine._reconcile(remoteRecord)), "Skip a deleted remote record");
-
-  _("Create an incoming local record");
-  // The locally tracked tab record always takes precedence over its
-  // remote counterparts.
-  let localRecord = {
-    id: engine.service.clientsEngine.localID,
-    cleartext: "this should always be skipped",
-    modified: 2000,
-  };
-
-  ok(
-    !(await engine._reconcile(localRecord)),
-    "Skip incoming local if recently modified"
-  );
-
-  localRecord.modified = 0;
-  ok(
-    !(await engine._reconcile(localRecord)),
-    "Skip incoming local if modified long ago"
-  );
-
-  localRecord.deleted = true;
-  ok(!(await engine._reconcile(localRecord)), "Skip incoming local if deleted");
-});
-
-add_task(async function test_modified_after_fail() {
-  let [engine, store] = await getMocks();
-  store.getWindowEnumerator = () =>
-    mockGetWindowEnumerator(["http://example.com"]);
-
-  let server = await serverForFoo(engine);
-  await SyncTestingInfrastructure(server);
-
-  try {
-    _("First sync; create collection and tabs record on server");
-    await sync_engine_and_validate_telem(engine, false);
-
-    let collection = server.user("foo").collection("tabs");
-    deepEqual(
-      collection.cleartext(engine.service.clientsEngine.localID).tabs,
-      [
-        {
-          title: "title",
-          urlHistory: ["http://example.com/"],
-          icon: "",
-          lastUsed: 2,
-        },
-      ],
-      "Should upload mock local tabs on first sync"
-    );
-    ok(
-      !engine._tracker.modified,
-      "Tracker shouldn't be modified after first sync"
-    );
-
-    _("Second sync; flag tracker as modified and throw on upload");
-    engine._tracker.modified = true;
-    let oldPost = collection.post;
-    collection.post = () => {
-      throw new Error("Sync this!");
-    };
-    await Assert.rejects(
-      sync_engine_and_validate_telem(engine, true),
-      ex => ex.success === false
-    );
-    ok(
-      engine._tracker.modified,
-      "Tracker should remain modified after failed sync"
-    );
-
-    _("Third sync");
-    collection.post = oldPost;
-    await sync_engine_and_validate_telem(engine, false);
-    ok(
-      !engine._tracker.modified,
-      "Tracker shouldn't be modified again after third sync"
-    );
-  } finally {
-    await promiseStopServer(server);
-  }
+  _("Create a third record");
+  rec = encryptPayload({
+    id: "id3",
+    clientName: "clientName3",
+    tabs: [
+      {
+        title: "title3",
+        urlHistory: ["http://example.com/"],
+        icon: "",
+        lastUsed: 2,
+      },
+    ],
+  });
+  await bridge.storeIncoming([JSON.stringify(rec)]);
+  deepEqual(bridge._remoteClients.id3, { lastModified: 3000, foo3: "bar3" });
 });

@@ -33,6 +33,10 @@ const { SyncRecord, SyncTelemetry } = ChromeUtils.import(
   "resource://services-sync/telemetry.js"
 );
 
+const { BridgedEngine, LogAdapter } = ChromeUtils.import(
+  "resource://services-sync/bridged_engine.js"
+);
+
 const FAR_FUTURE = 4102405200000; // 2100/01/01
 
 const lazy = {};
@@ -48,7 +52,10 @@ ChromeUtils.defineESModuleGetters(lazy, {
 });
 
 XPCOMUtils.defineLazyModuleGetters(lazy, {
+  ClientRemoteTabs: "resource://gre/modules/Tabs.jsm",
   NimbusFeatures: "resource://nimbus/ExperimentAPI.jsm",
+  RemoteTabRecord: "resource://gre/modules/Tabs.jsm",
+  TabsStore: "resource://gre/modules/Tabs.jsm",
 });
 
 XPCOMUtils.defineLazyPreferenceGetter(
@@ -69,35 +76,80 @@ XPCOMUtils.defineLazyPreferenceGetter(
   0
 );
 
-function TabSetRecord(collection, id) {
-  CryptoWrapper.call(this, collection, id);
-}
-TabSetRecord.prototype = {
-  __proto__: CryptoWrapper.prototype,
-  _logName: "Sync.Record.Tabs",
-  ttl: TABS_TTL,
-};
+XPCOMUtils.defineLazyGetter(lazy, "rustStore", async () => {
+  let path = PathUtils.join(PathUtils.profileDir, "synced-tabs.db");
+  return await lazy.TabsStore.init(path);
+});
 
-Utils.deferGetSet(TabSetRecord, "cleartext", ["clientName", "tabs"]);
-
+// A "bridged engine" to our tabs component.
 function TabEngine(service) {
-  SyncEngine.call(this, "Tabs", service);
-}
-TabEngine.prototype = {
-  __proto__: SyncEngine.prototype,
-  _storeObj: TabStore,
-  _trackerObj: TabTracker,
-  _recordObj: TabSetRecord,
+  BridgedEngine.call(this, "Tabs", service);
 
+  // XXX - this logger stuff probably doesn't work?
+  let app_services_logger = Cc["@mozilla.org/appservices/logger;1"].getService(
+    Ci.mozIAppServicesLogger
+  );
+  let logger_target = "app-services:tabs:sync";
+  app_services_logger.register(logger_target, new LogAdapter(this._log));
+}
+
+TabEngine.prototype = {
+  __proto__: BridgedEngine.prototype,
+  _providerObj: TabProvider,
+  _trackerObj: TabTracker,
   syncPriority: 3,
+
+  get _provider() {
+    let provider = new this._providerObj(this.Name, this);
+    this.__defineGetter__("_provider", () => provider);
+    return provider;
+  },
+
+  async _syncStartup() {
+    // Tell the bridged engine about clients.
+    // This is the same shape as ClientData in app-services.
+    let clientData = {
+      local_client_id: this.service.clientsEngine.localID,
+      recent_clients: {},
+    };
+    let clientsEngine = this.service.clientsEngine;
+    for (let remoteClient of clientsEngine.remoteClients) {
+      let id = remoteClient.id;
+      if (!id) {
+        throw "no id?";
+      }
+      let client = {
+        fxa_device_id: remoteClient.fxaDeviceId,
+        // device_name and device_type are soft-deprecated - every client
+        // prefers what's in the FxA record. But fill them correctly anyway.
+        device_name: clientsEngine.getClientName(id),
+        device_type: clientsEngine.getClientType(id),
+      };
+      clientData.recent_clients[id] = client;
+    }
+    await this._bridge.prepareForSync(JSON.stringify(clientData));
+
+    let tabs = await this._provider.getAllTabs(true);
+    await this._rustStore.setLocalTabs(tabs);
+    await this._bridge.setLastSync(0);
+    await super._syncStartup();
+  },
 
   async initialize() {
     await SyncEngine.prototype.initialize.call(this);
+
+    let rustStore = await lazy.rustStore;
+    this._bridge = await rustStore.bridgedEngine();
+    // XXX - This is particularly useful for accessing the store in tests
+    this._rustStore = rustStore;
+    this._log.info("Got a bridged engine!");
 
     // Reset the client on every startup so that we fetch recent tabs.
     await this._resetClient();
   },
 
+  // XXX - this should be the only reference to the tracker. We can probably
+  // just use a bool on the engine and drop the tracker entirely?
   async getChangedIDs() {
     // No need for a proper timestamp (no conflict resolution needed).
     let changedIDs = {};
@@ -108,36 +160,38 @@ TabEngine.prototype = {
   },
 
   // API for use by Sync UI code to give user choices of tabs to open.
-  getAllClients() {
-    return this._store._remoteClients;
+  async getAllClients() {
+    let remoteTabs = await this._rustStore.getAll();
+    let remoteClientTabs = [];
+    for (let remoteClient of this.service.clientsEngine.remoteClients) {
+      // we want the tabs from the rust engine but the shape from clients engine
+      let rustClient = remoteTabs.find(
+        x => x.clientId === remoteClient.fxaDeviceId
+      );
+      if (!rustClient) {
+        continue;
+      }
+
+      let client = {
+        tabs: rustClient.remoteTabs,
+        ...remoteClient,
+      };
+      remoteClientTabs.push(client);
+    }
+    return remoteClientTabs;
   },
 
+  // This seems to only be used by services/sync/tps/extensions/.../tabs.jsm
+  // Potential to remove and/or move to that test script?
+  // (Yeah - remove and copy it to tps!)
   getClientById(id) {
     return this._store._remoteClients[id];
   },
 
-  async _resetClient() {
-    await SyncEngine.prototype._resetClient.call(this);
-    await this._store.wipe();
-    this._tracker.modified = true;
-  },
-
   async removeClientData() {
+    // This needs thought?
     let url = this.engineURL + "/" + this.service.clientsEngine.localID;
     await this.service.resource(url).delete();
-  },
-
-  async _reconcile(item) {
-    // Skip our own record.
-    // TabStore.itemExists tests only against our local client ID.
-    if (await this._store.itemExists(item.id)) {
-      this._log.trace(
-        "Ignoring incoming tab item because of its id: " + item.id
-      );
-      return false;
-    }
-
-    return SyncEngine.prototype._reconcile.call(this, item);
   },
 
   async trackRemainingChanges() {
@@ -146,15 +200,8 @@ TabEngine.prototype = {
     }
   },
 
-  async _onRecordsWritten(succeeded, failed, serverModifiedTime) {
-    await super._onRecordsWritten(succeeded, failed, serverModifiedTime);
-    if (failed.length) {
-      // This should be impossible, so make a note. Maybe upgrade to `.error`?
-      this._log.warn("the server rejected our tabs record");
-    }
-  },
-
   // Support for "quick writes"
+  // XXX - needs love!
   _engineLock: Utils.lock,
   _engineLocked: false,
 
@@ -206,11 +253,12 @@ TabEngine.prototype = {
         // X-If-Unmodified-Since - we want the POST to work even if the remote
         // has moved on and we will catch back up next full sync.
         const origLastSync = await this.getLastSync();
-        await this.setLastSync(FAR_FUTURE);
+        // XXX -  Quick sync is broken not detecting changes to submit
+        await this._bridge.setLastSync(FAR_FUTURE);
         try {
           await this._doQuickWrite();
         } finally {
-          await this.setLastSync(origLastSync);
+          await this._bridge.setLastSync(Math.floor(origLastSync / 1000));
         }
       })();
     } catch (ex) {
@@ -239,6 +287,8 @@ TabEngine.prototype = {
       // but we don't call that so we don't do the meta/global dances -
       // these dances would be very important for any other engine, but
       // we can avoid it for tabs because of the lack of reconcilliation.
+      let tabs = await this._provider.getAllTabs(true);
+      await this._rustStore.setLocalTabs(tabs);
       this._modified.replace(await this.pullChanges());
       this._tracker.clearChangedIDs();
       this._tracker.resetScore();
@@ -273,16 +323,9 @@ TabEngine.prototype = {
   },
 };
 
-function TabStore(name, engine) {
-  Store.call(this, name, engine);
-}
-TabStore.prototype = {
-  __proto__: Store.prototype,
+function TabProvider() {}
 
-  async itemExists(id) {
-    return id == this.engine.service.clientsEngine.localID;
-  },
-
+TabProvider.prototype = {
   getWindowEnumerator() {
     return Services.wm.getEnumerator("navigator:browser");
   },
@@ -330,7 +373,9 @@ TabStore.prototype = {
           title: tab.linkedBrowser.contentTitle || "",
           urlHistory: [url],
           icon: "",
-          lastUsed: Math.floor((tab.lastAccessed || 0) / 1000),
+          // XXX - need to change this to be in ms
+          //lastUsed: Math.floor((tab.lastAccessed || 0) / 1000),
+          lastUsed: Math.floor(tab.lastAccessed || 0),
         };
         allTabs.push(thisTab);
         // Use the favicon service for the icon url - we can wait for the promises at the end.
@@ -350,76 +395,9 @@ TabStore.prototype = {
 
     await Promise.allSettled(iconPromises);
 
-    return allTabs;
-  },
-
-  async createRecord(id, collection) {
-    let record = new TabSetRecord(collection, id);
-    record.clientName = this.engine.service.clientsEngine.localName;
-
-    // Sort tabs in descending-used order to grab the most recently used
-    let tabs = (await this.getAllTabs(true)).sort(function(a, b) {
+    return allTabs.sort(function(a, b) {
       return b.lastUsed - a.lastUsed;
     });
-    const maxPayloadSize = this.engine.service.getMemcacheMaxRecordPayloadSize();
-    let records = Utils.tryFitItems(tabs, maxPayloadSize);
-
-    if (records.length != tabs.length) {
-      this._log.warn(
-        `Can't fit all tabs in sync payload: have ${tabs.length}, but can only fit ${records.length}.`
-      );
-    }
-
-    if (this._log.level <= Log.Level.Trace) {
-      records.forEach(tab => {
-        this._log.trace("Wrapping tab: ", tab);
-      });
-    }
-
-    record.tabs = records;
-    return record;
-  },
-
-  async getAllIDs() {
-    // Don't report any tabs if all windows are in private browsing for
-    // first syncs.
-    let ids = {};
-    let allWindowsArePrivate = false;
-    for (let win of Services.wm.getEnumerator("navigator:browser")) {
-      if (lazy.PrivateBrowsingUtils.isWindowPrivate(win)) {
-        // Ensure that at least there is a private window.
-        allWindowsArePrivate = true;
-      } else {
-        // If there is a not private windown then finish and continue.
-        allWindowsArePrivate = false;
-        break;
-      }
-    }
-
-    if (
-      allWindowsArePrivate &&
-      !lazy.PrivateBrowsingUtils.permanentPrivateBrowsing
-    ) {
-      return ids;
-    }
-
-    ids[this.engine.service.clientsEngine.localID] = true;
-    return ids;
-  },
-
-  async wipe() {
-    this._remoteClients = {};
-  },
-
-  async create(record) {
-    this._log.debug("Adding remote tabs from " + record.id);
-    this._remoteClients[record.id] = Object.assign({}, record.cleartext, {
-      lastModified: record.modified,
-    });
-  },
-
-  async update(record) {
-    this._log.trace("Ignoring tab updates as local ones win");
   },
 };
 

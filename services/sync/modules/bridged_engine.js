@@ -408,7 +408,8 @@ BridgedEngine.prototype = {
     // The bridge defines lastSync as integer ms, but sync itself wants to work
     // in a float seconds with 2 decimal places.
     let lastSyncMS = await this._bridge.lastSync();
-    return Math.round(lastSyncMS / 10) / 100;
+    return Math.round(lastSyncMS) * 1000;
+    //return Math.round(lastSyncMS / 10) / 100;
   },
 
   async setLastSync(lastSyncSeconds) {
@@ -477,7 +478,7 @@ BridgedEngine.prototype = {
    * records from the outgoing table back to the mirror.
    */
   async _onRecordsWritten(succeeded, failed, serverModifiedTime) {
-    await this._bridge.setUploaded(serverModifiedTime, succeeded);
+    await this._bridge.setUploaded(Math.floor(serverModifiedTime), succeeded);
   },
 
   async _createTombstone() {
