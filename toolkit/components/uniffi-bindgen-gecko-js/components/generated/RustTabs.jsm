@@ -154,21 +154,21 @@ class ArrayBufferDataStream {
       return value;
     }
 
-    // Reads a TodoList pointer from the data stream
+    // Reads a TabsStore pointer from the data stream
     // UniFFI Pointers are **always** 8 bytes long. That is enforced
     // by the C++ and Rust Scaffolding code.
-    readPointerTodoList() {
-        const pointerId = 5; // todolist:TodoList
+    readPointerTabsStore() {
+        const pointerId = 0; // tabs:TabsStore
         const res = UniFFIScaffolding.readPointer(pointerId, this.dataView.buffer, this.pos);
         this.pos += 8;
         return res;
     }
 
-    // Writes a TodoList pointer into the data stream
+    // Writes a TabsStore pointer into the data stream
     // UniFFI Pointers are **always** 8 bytes long. That is enforced
     // by the C++ and Rust Scaffolding code.
-    writePointerTodoList(value) {
-        const pointerId = 5; // todolist:TodoList
+    writePointerTabsStore(value) {
+        const pointerId = 0; // tabs:TabsStore
         UniFFIScaffolding.writePointer(pointerId, value, this.dataView.buffer, this.pos);
         this.pos += 8;
     }
@@ -235,7 +235,29 @@ class FfiConverterArrayBuffer extends FfiConverter {
 const uniffiObjectPtr = Symbol("uniffiObjectPtr");
 const constructUniffiObject = Symbol("constructUniffiObject");
 
-
+class FfiConverterI64 extends FfiConverter {
+    static checkType(name, value) {
+        super.checkType(name, value);
+        if (!Number.isSafeInteger(value)) {
+            throw TypeError(`${name} exceeds the safe integer bounds (${value})`);
+        }
+    }
+    static computeSize() {
+        return 8;
+    }
+    static lift(value) {
+        return value;
+    }
+    static lower(value) {
+        return value;
+    }
+    static write(dataStream, value) {
+        dataStream.writeInt64(value)
+    }
+    static read(dataStream) {
+        return dataStream.readInt64()
+    }
+}
 
 class FfiConverterString extends FfiConverter {
     static lift(buf) {
@@ -263,7 +285,7 @@ class FfiConverterString extends FfiConverter {
 }
 
 
-class TodoList {
+class TabsStore {
     // Use `init` to instantiate this class.
     // DO NOT USE THIS CONSTRUCTOR DIRECTLY
     constructor(opts) {
@@ -277,17 +299,33 @@ class TodoList {
         this[uniffiObjectPtr] = opts[constructUniffiObject];
     }
     /**
-     * An async constructor for TodoList.
+     * An async constructor for TabsStore.
      * 
-     * @returns {Promise<TodoList>}: A promise that resolves
-     *      to a newly constructed TodoList
+     * @returns {Promise<TabsStore>}: A promise that resolves
+     *      to a newly constructed TabsStore
      */
-    static init() {
-    const liftResult = (result) => FfiConverterTypeTodoList.lift(result);
+    static init(path) {
+    const liftResult = (result) => FfiConverterTypeTabsStore.lift(result);
+    const liftError = null;
+    const functionCall = () => {
+        FfiConverterString.checkType("path", path);
+        return UniFFIScaffolding.callAsync(
+            0, // tabs:tabs_3f91_TabsStore_new
+            FfiConverterString.lower(path),
+        )
+    }
+    try {
+        return functionCall().then((result) => handleRustResult(result, liftResult, liftError));
+    }  catch (error) {
+        return Promise.reject(error)
+    }}
+    getAll() {
+    const liftResult = (result) => FfiConverterSequenceTypeClientRemoteTabs.lift(result);
     const liftError = null;
     const functionCall = () => {
         return UniFFIScaffolding.callAsync(
-            78, // todolist:todolist_9473_TodoList_new
+            1, // tabs:tabs_3f91_TabsStore_get_all
+            FfiConverterTypeTabsStore.lower(this),
         )
     }
     try {
@@ -295,75 +333,15 @@ class TodoList {
     }  catch (error) {
         return Promise.reject(error)
     }}
-    addItem(todo) {
-    const liftResult = (result) => undefined;
-    const liftError = (data) => FfiConverterTypeTodoError.lift(data);
-    const functionCall = () => {
-        FfiConverterString.checkType("todo", todo);
-        return UniFFIScaffolding.callAsync(
-            79, // todolist:todolist_9473_TodoList_add_item
-            FfiConverterTypeTodoList.lower(this),
-            FfiConverterString.lower(todo),
-        )
-    }
-    try {
-        return functionCall().then((result) => handleRustResult(result, liftResult, liftError));
-    }  catch (error) {
-        return Promise.reject(error)
-    }}
-    addEntry(entry) {
-    const liftResult = (result) => undefined;
-    const liftError = (data) => FfiConverterTypeTodoError.lift(data);
-    const functionCall = () => {
-        FfiConverterTypeTodoEntry.checkType("entry", entry);
-        return UniFFIScaffolding.callAsync(
-            80, // todolist:todolist_9473_TodoList_add_entry
-            FfiConverterTypeTodoList.lower(this),
-            FfiConverterTypeTodoEntry.lower(entry),
-        )
-    }
-    try {
-        return functionCall().then((result) => handleRustResult(result, liftResult, liftError));
-    }  catch (error) {
-        return Promise.reject(error)
-    }}
-    getEntries() {
-    const liftResult = (result) => FfiConverterSequenceTypeTodoEntry.lift(result);
-    const liftError = null;
-    const functionCall = () => {
-        return UniFFIScaffolding.callAsync(
-            81, // todolist:todolist_9473_TodoList_get_entries
-            FfiConverterTypeTodoList.lower(this),
-        )
-    }
-    try {
-        return functionCall().then((result) => handleRustResult(result, liftResult, liftError));
-    }  catch (error) {
-        return Promise.reject(error)
-    }}
-    getItems() {
-    const liftResult = (result) => FfiConverterSequencestring.lift(result);
-    const liftError = null;
-    const functionCall = () => {
-        return UniFFIScaffolding.callAsync(
-            82, // todolist:todolist_9473_TodoList_get_items
-            FfiConverterTypeTodoList.lower(this),
-        )
-    }
-    try {
-        return functionCall().then((result) => handleRustResult(result, liftResult, liftError));
-    }  catch (error) {
-        return Promise.reject(error)
-    }}
-    addEntries(entries) {
+    setLocalTabs(remoteTabs) {
     const liftResult = (result) => undefined;
     const liftError = null;
     const functionCall = () => {
-        FfiConverterSequenceTypeTodoEntry.checkType("entries", entries);
+        FfiConverterSequenceTypeRemoteTabRecord.checkType("remoteTabs", remoteTabs);
         return UniFFIScaffolding.callAsync(
-            83, // todolist:todolist_9473_TodoList_add_entries
-            FfiConverterTypeTodoList.lower(this),
-            FfiConverterSequenceTypeTodoEntry.lower(entries),
+            2, // tabs:tabs_3f91_TabsStore_set_local_tabs
+            FfiConverterTypeTabsStore.lower(this),
+            FfiConverterSequenceTypeRemoteTabRecord.lower(remoteTabs),
         )
     }
     try {
@@ -371,15 +349,13 @@ class TodoList {
     }  catch (error) {
         return Promise.reject(error)
     }}
-    addItems(items) {
+    registerWithSyncManager() {
     const liftResult = (result) => undefined;
     const liftError = null;
     const functionCall = () => {
-        FfiConverterSequencestring.checkType("items", items);
         return UniFFIScaffolding.callAsync(
-            84, // todolist:todolist_9473_TodoList_add_items
-            FfiConverterTypeTodoList.lower(this),
-            FfiConverterSequencestring.lower(items),
+            3, // tabs:tabs_3f91_TabsStore_register_with_sync_manager
+            FfiConverterTypeTabsStore.lower(this),
         )
     }
     try {
@@ -387,13 +363,13 @@ class TodoList {
     }  catch (error) {
         return Promise.reject(error)
     }}
-    getLastEntry() {
-    const liftResult = (result) => FfiConverterTypeTodoEntry.lift(result);
-    const liftError = (data) => FfiConverterTypeTodoError.lift(data);
+    reset() {
+    const liftResult = (result) => undefined;
+    const liftError = (data) => FfiConverterTypeTabsError.lift(data);
     const functionCall = () => {
         return UniFFIScaffolding.callAsync(
-            85, // todolist:todolist_9473_TodoList_get_last_entry
-            FfiConverterTypeTodoList.lower(this),
+            4, // tabs:tabs_3f91_TabsStore_reset
+            FfiConverterTypeTabsStore.lower(this),
         )
     }
     try {
@@ -401,57 +377,23 @@ class TodoList {
     }  catch (error) {
         return Promise.reject(error)
     }}
-    getLast() {
+    sync(keyId,accessToken,syncKey,tokenserverUrl,localId) {
     const liftResult = (result) => FfiConverterString.lift(result);
-    const liftError = (data) => FfiConverterTypeTodoError.lift(data);
+    const liftError = (data) => FfiConverterTypeTabsError.lift(data);
     const functionCall = () => {
+        FfiConverterString.checkType("keyId", keyId);
+        FfiConverterString.checkType("accessToken", accessToken);
+        FfiConverterString.checkType("syncKey", syncKey);
+        FfiConverterString.checkType("tokenserverUrl", tokenserverUrl);
+        FfiConverterString.checkType("localId", localId);
         return UniFFIScaffolding.callAsync(
-            86, // todolist:todolist_9473_TodoList_get_last
-            FfiConverterTypeTodoList.lower(this),
-        )
-    }
-    try {
-        return functionCall().then((result) => handleRustResult(result, liftResult, liftError));
-    }  catch (error) {
-        return Promise.reject(error)
-    }}
-    getFirst() {
-    const liftResult = (result) => FfiConverterString.lift(result);
-    const liftError = (data) => FfiConverterTypeTodoError.lift(data);
-    const functionCall = () => {
-        return UniFFIScaffolding.callAsync(
-            87, // todolist:todolist_9473_TodoList_get_first
-            FfiConverterTypeTodoList.lower(this),
-        )
-    }
-    try {
-        return functionCall().then((result) => handleRustResult(result, liftResult, liftError));
-    }  catch (error) {
-        return Promise.reject(error)
-    }}
-    clearItem(todo) {
-    const liftResult = (result) => undefined;
-    const liftError = (data) => FfiConverterTypeTodoError.lift(data);
-    const functionCall = () => {
-        FfiConverterString.checkType("todo", todo);
-        return UniFFIScaffolding.callAsync(
-            88, // todolist:todolist_9473_TodoList_clear_item
-            FfiConverterTypeTodoList.lower(this),
-            FfiConverterString.lower(todo),
-        )
-    }
-    try {
-        return functionCall().then((result) => handleRustResult(result, liftResult, liftError));
-    }  catch (error) {
-        return Promise.reject(error)
-    }}
-    makeDefault() {
-    const liftResult = (result) => undefined;
-    const liftError = null;
-    const functionCall = () => {
-        return UniFFIScaffolding.callAsync(
-            89, // todolist:todolist_9473_TodoList_make_default
-            FfiConverterTypeTodoList.lower(this),
+            5, // tabs:tabs_3f91_TabsStore_sync
+            FfiConverterTypeTabsStore.lower(this),
+            FfiConverterString.lower(keyId),
+            FfiConverterString.lower(accessToken),
+            FfiConverterString.lower(syncKey),
+            FfiConverterString.lower(tokenserverUrl),
+            FfiConverterString.lower(localId),
         )
     }
     try {
@@ -462,11 +404,11 @@ class TodoList {
 
 }
 
-class FfiConverterTypeTodoList extends FfiConverter {
+class FfiConverterTypeTabsStore extends FfiConverter {
     static lift(value) {
         const opts = {};
         opts[constructUniffiObject] = value;
-        return new TodoList(opts);
+        return new TabsStore(opts);
     }
 
     static lower(value) {
@@ -474,11 +416,11 @@ class FfiConverterTypeTodoList extends FfiConverter {
     }
 
     static read(dataStream) {
-        return this.lift(dataStream.readPointerTodoList());
+        return this.lift(dataStream.readPointerTabsStore());
     }
 
     static write(dataStream, value) {
-        dataStream.writePointerTodoList(value[uniffiObjectPtr]);
+        dataStream.writePointerTabsStore(value[uniffiObjectPtr]);
     }
 
     static computeSize(value) {
@@ -486,21 +428,30 @@ class FfiConverterTypeTodoList extends FfiConverter {
     }
 }
 
-EXPORTED_SYMBOLS.push("TodoList");
+EXPORTED_SYMBOLS.push("TabsStore");
 
-class TodoEntry {
-    constructor(text) {
-        FfiConverterString.checkType("text", text);
-        this.text = text;
+class ClientRemoteTabs {
+    constructor(clientId,clientName,deviceType,remoteTabs) {
+        FfiConverterString.checkType("clientId", clientId);
+        FfiConverterString.checkType("clientName", clientName);
+        FfiConverterTypeTabsDeviceType.checkType("deviceType", deviceType);
+        FfiConverterSequenceTypeRemoteTabRecord.checkType("remoteTabs", remoteTabs);
+        this.clientId = clientId;
+        this.clientName = clientName;
+        this.deviceType = deviceType;
+        this.remoteTabs = remoteTabs;
     }
     equals(other) {
         return (
-            this.text == other.text
+            this.clientId == other.clientId &&
+            this.clientName == other.clientName &&
+            this.deviceType == other.deviceType &&
+            this.remoteTabs == other.remoteTabs
         )
     }
 }
 
-class FfiConverterTypeTodoEntry extends FfiConverter {
+class FfiConverterTypeClientRemoteTabs extends FfiConverter {
     static lift(buf) {
         return this.read(new ArrayBufferDataStream(buf));
     }
@@ -511,92 +462,247 @@ class FfiConverterTypeTodoEntry extends FfiConverter {
         return buf;
     }
     static read(dataStream) {
-        return new TodoEntry(
-            FfiConverterString.read(dataStream)
+        return new ClientRemoteTabs(
+            FfiConverterString.read(dataStream), 
+            FfiConverterString.read(dataStream), 
+            FfiConverterTypeTabsDeviceType.read(dataStream), 
+            FfiConverterSequenceTypeRemoteTabRecord.read(dataStream)
         );
     }
     static write(dataStream, value) {
-        FfiConverterString.write(dataStream, value.text);
+        FfiConverterString.write(dataStream, value.clientId);
+        FfiConverterString.write(dataStream, value.clientName);
+        FfiConverterTypeTabsDeviceType.write(dataStream, value.deviceType);
+        FfiConverterSequenceTypeRemoteTabRecord.write(dataStream, value.remoteTabs);
     }
 
     static computeSize(value) {
         let totalSize = 0;
-        totalSize += FfiConverterString.computeSize(value.text);
+        totalSize += FfiConverterString.computeSize(value.clientId);
+        totalSize += FfiConverterString.computeSize(value.clientName);
+        totalSize += FfiConverterTypeTabsDeviceType.computeSize(value.deviceType);
+        totalSize += FfiConverterSequenceTypeRemoteTabRecord.computeSize(value.remoteTabs);
         return totalSize
     }
 }
 
-EXPORTED_SYMBOLS.push("TodoEntry");
+EXPORTED_SYMBOLS.push("ClientRemoteTabs");
 
-
-class TodoError extends Error {}
-EXPORTED_SYMBOLS.push("TodoError");
-
-
-class TodoDoesNotExist extends TodoError {
-    
-    constructor(message, ...params) {
-        super(...params);
-        this.message = message;
+class RemoteTabRecord {
+    constructor(title,urlHistory,icon,lastUsed) {
+        FfiConverterString.checkType("title", title);
+        FfiConverterSequencestring.checkType("urlHistory", urlHistory);
+        FfiConverterOptionalstring.checkType("icon", icon);
+        FfiConverterI64.checkType("lastUsed", lastUsed);
+        this.title = title;
+        this.urlHistory = urlHistory;
+        this.icon = icon;
+        this.lastUsed = lastUsed;
+    }
+    equals(other) {
+        return (
+            this.title == other.title &&
+            this.urlHistory == other.urlHistory &&
+            this.icon == other.icon &&
+            this.lastUsed == other.lastUsed
+        )
     }
 }
-EXPORTED_SYMBOLS.push("TodoDoesNotExist");
-class EmptyTodoList extends TodoError {
-    
-    constructor(message, ...params) {
-        super(...params);
-        this.message = message;
-    }
-}
-EXPORTED_SYMBOLS.push("EmptyTodoList");
-class DuplicateTodo extends TodoError {
-    
-    constructor(message, ...params) {
-        super(...params);
-        this.message = message;
-    }
-}
-EXPORTED_SYMBOLS.push("DuplicateTodo");
-class EmptyString extends TodoError {
-    
-    constructor(message, ...params) {
-        super(...params);
-        this.message = message;
-    }
-}
-EXPORTED_SYMBOLS.push("EmptyString");
-class DeligatedError extends TodoError {
-    
-    constructor(message, ...params) {
-        super(...params);
-        this.message = message;
-    }
-}
-EXPORTED_SYMBOLS.push("DeligatedError");
 
-class FfiConverterTypeTodoError extends FfiConverterArrayBuffer {
+class FfiConverterTypeRemoteTabRecord extends FfiConverter {
+    static lift(buf) {
+        return this.read(new ArrayBufferDataStream(buf));
+    }
+    static lower(value) {
+        const buf = new ArrayBuffer(this.computeSize(value));
+        const dataStream = new ArrayBufferDataStream(buf);
+        this.write(dataStream, value);
+        return buf;
+    }
+    static read(dataStream) {
+        return new RemoteTabRecord(
+            FfiConverterString.read(dataStream), 
+            FfiConverterSequencestring.read(dataStream), 
+            FfiConverterOptionalstring.read(dataStream), 
+            FfiConverterI64.read(dataStream)
+        );
+    }
+    static write(dataStream, value) {
+        FfiConverterString.write(dataStream, value.title);
+        FfiConverterSequencestring.write(dataStream, value.urlHistory);
+        FfiConverterOptionalstring.write(dataStream, value.icon);
+        FfiConverterI64.write(dataStream, value.lastUsed);
+    }
+
+    static computeSize(value) {
+        let totalSize = 0;
+        totalSize += FfiConverterString.computeSize(value.title);
+        totalSize += FfiConverterSequencestring.computeSize(value.urlHistory);
+        totalSize += FfiConverterOptionalstring.computeSize(value.icon);
+        totalSize += FfiConverterI64.computeSize(value.lastUsed);
+        return totalSize
+    }
+}
+
+EXPORTED_SYMBOLS.push("RemoteTabRecord");
+
+
+const TabsDeviceType = {
+    DESKTOP: 1,
+    MOBILE: 2,
+    TABLET: 3,
+    VR: 4,
+    TV: 5,
+    UNKNOWN: 6,
+};
+
+Object.freeze(TabsDeviceType);
+class FfiConverterTypeTabsDeviceType extends FfiConverterArrayBuffer {
     static read(dataStream) {
         switch (dataStream.readInt32()) {
             case 1:
-                return new TodoDoesNotExist(FfiConverterString.read(dataStream));
+                return TabsDeviceType.DESKTOP
             case 2:
-                return new EmptyTodoList(FfiConverterString.read(dataStream));
+                return TabsDeviceType.MOBILE
             case 3:
-                return new DuplicateTodo(FfiConverterString.read(dataStream));
+                return TabsDeviceType.TABLET
             case 4:
-                return new EmptyString(FfiConverterString.read(dataStream));
+                return TabsDeviceType.VR
             case 5:
-                return new DeligatedError(FfiConverterString.read(dataStream));
+                return TabsDeviceType.TV
+            case 6:
+                return TabsDeviceType.UNKNOWN
             default:
-                return new Error("Unknown TodoError variant");
+                return new Error("Unknown TabsDeviceType variant");
+        }
+    }
+
+    static write(dataStream, value) {
+        if (value === TabsDeviceType.DESKTOP) {
+            dataStream.writeInt32(1);
+            return;
+        }
+        if (value === TabsDeviceType.MOBILE) {
+            dataStream.writeInt32(2);
+            return;
+        }
+        if (value === TabsDeviceType.TABLET) {
+            dataStream.writeInt32(3);
+            return;
+        }
+        if (value === TabsDeviceType.VR) {
+            dataStream.writeInt32(4);
+            return;
+        }
+        if (value === TabsDeviceType.TV) {
+            dataStream.writeInt32(5);
+            return;
+        }
+        if (value === TabsDeviceType.UNKNOWN) {
+            dataStream.writeInt32(6);
+            return;
+        }
+        return new Error("Unknown TabsDeviceType variant");
+    }
+
+    static computeSize(value) {
+        return 4;
+    }
+}
+
+EXPORTED_SYMBOLS.push("TabsDeviceType");
+
+
+
+
+class TabsError extends Error {}
+EXPORTED_SYMBOLS.push("TabsError");
+
+
+class SyncAdapterError extends TabsError {
+    
+    constructor(message, ...params) {
+        super(...params);
+        this.message = message;
+    }
+}
+EXPORTED_SYMBOLS.push("SyncAdapterError");
+class SyncResetError extends TabsError {
+    
+    constructor(message, ...params) {
+        super(...params);
+        this.message = message;
+    }
+}
+EXPORTED_SYMBOLS.push("SyncResetError");
+class JsonError extends TabsError {
+    
+    constructor(message, ...params) {
+        super(...params);
+        this.message = message;
+    }
+}
+EXPORTED_SYMBOLS.push("JsonError");
+class MissingLocalIdError extends TabsError {
+    
+    constructor(message, ...params) {
+        super(...params);
+        this.message = message;
+    }
+}
+EXPORTED_SYMBOLS.push("MissingLocalIdError");
+class UrlParseError extends TabsError {
+    
+    constructor(message, ...params) {
+        super(...params);
+        this.message = message;
+    }
+}
+EXPORTED_SYMBOLS.push("UrlParseError");
+class SqlError extends TabsError {
+    
+    constructor(message, ...params) {
+        super(...params);
+        this.message = message;
+    }
+}
+EXPORTED_SYMBOLS.push("SqlError");
+class OpenDatabaseError extends TabsError {
+    
+    constructor(message, ...params) {
+        super(...params);
+        this.message = message;
+    }
+}
+EXPORTED_SYMBOLS.push("OpenDatabaseError");
+
+class FfiConverterTypeTabsError extends FfiConverterArrayBuffer {
+    static read(dataStream) {
+        switch (dataStream.readInt32()) {
+            case 1:
+                return new SyncAdapterError(FfiConverterString.read(dataStream));
+            case 2:
+                return new SyncResetError(FfiConverterString.read(dataStream));
+            case 3:
+                return new JsonError(FfiConverterString.read(dataStream));
+            case 4:
+                return new MissingLocalIdError(FfiConverterString.read(dataStream));
+            case 5:
+                return new UrlParseError(FfiConverterString.read(dataStream));
+            case 6:
+                return new SqlError(FfiConverterString.read(dataStream));
+            case 7:
+                return new OpenDatabaseError(FfiConverterString.read(dataStream));
+            default:
+                return new Error("Unknown TabsError variant");
         }
     }
 }
 
-class FfiConverterOptionalTypeTodoList extends FfiConverterArrayBuffer {
+class FfiConverterOptionalstring extends FfiConverterArrayBuffer {
     static checkType(name, value) {
         if (value !== undefined && value !== null) {
-            FfiConverterTypeTodoList.checkType(name, value)
+            FfiConverterString.checkType(name, value)
         }
     }
 
@@ -606,7 +712,7 @@ class FfiConverterOptionalTypeTodoList extends FfiConverterArrayBuffer {
             case 0:
                 return null
             case 1:
-                return FfiConverterTypeTodoList.read(dataStream)
+                return FfiConverterString.read(dataStream)
             default:
                 throw UniFFIError(`Unexpected code: ${code}`);
         }
@@ -618,14 +724,14 @@ class FfiConverterOptionalTypeTodoList extends FfiConverterArrayBuffer {
             return;
         }
         dataStream.writeUint8(1);
-        FfiConverterTypeTodoList.write(dataStream, value)
+        FfiConverterString.write(dataStream, value)
     }
 
     static computeSize(value) {
         if (value === null || value === undefined) {
             return 1;
         }
-        return 1 + FfiConverterTypeTodoList.computeSize(value)
+        return 1 + FfiConverterString.computeSize(value)
     }
 }class FfiConverterSequencestring extends FfiConverterArrayBuffer {
     static read(dataStream) {
@@ -652,12 +758,12 @@ class FfiConverterOptionalTypeTodoList extends FfiConverterArrayBuffer {
         }
         return size;
     }
-}class FfiConverterSequenceTypeTodoEntry extends FfiConverterArrayBuffer {
+}class FfiConverterSequenceTypeClientRemoteTabs extends FfiConverterArrayBuffer {
     static read(dataStream) {
         const len = dataStream.readInt32();
         const arr = [];
         for (let i = 0; i < len; i++) {
-            arr.push(FfiConverterTypeTodoEntry.read(dataStream));
+            arr.push(FfiConverterTypeClientRemoteTabs.read(dataStream));
         }
         return arr;
     }
@@ -665,7 +771,7 @@ class FfiConverterOptionalTypeTodoList extends FfiConverterArrayBuffer {
     static write(dataStream, value) {
         dataStream.writeInt32(value.length);
         value.forEach((innerValue) => {
-            FfiConverterTypeTodoEntry.write(dataStream, innerValue);
+            FfiConverterTypeClientRemoteTabs.write(dataStream, innerValue);
         })
     }
 
@@ -673,65 +779,35 @@ class FfiConverterOptionalTypeTodoList extends FfiConverterArrayBuffer {
         // The size of the length
         let size = 4;
         for (const innerValue of value) {
-            size += FfiConverterTypeTodoEntry.computeSize(innerValue);
+            size += FfiConverterTypeClientRemoteTabs.computeSize(innerValue);
+        }
+        return size;
+    }
+}class FfiConverterSequenceTypeRemoteTabRecord extends FfiConverterArrayBuffer {
+    static read(dataStream) {
+        const len = dataStream.readInt32();
+        const arr = [];
+        for (let i = 0; i < len; i++) {
+            arr.push(FfiConverterTypeRemoteTabRecord.read(dataStream));
+        }
+        return arr;
+    }
+
+    static write(dataStream, value) {
+        dataStream.writeInt32(value.length);
+        value.forEach((innerValue) => {
+            FfiConverterTypeRemoteTabRecord.write(dataStream, innerValue);
+        })
+    }
+
+    static computeSize(value) {
+        // The size of the length
+        let size = 4;
+        for (const innerValue of value) {
+            size += FfiConverterTypeRemoteTabRecord.computeSize(innerValue);
         }
         return size;
     }
 }
 
 
-function getDefaultList() {
-    
-    const liftResult = (result) => FfiConverterOptionalTypeTodoList.lift(result);
-    const liftError = null;
-    const functionCall = () => {
-        return UniFFIScaffolding.callAsync(
-            90, // todolist:todolist_9473_get_default_list
-        )
-    }
-    try {
-        return functionCall().then((result) => handleRustResult(result, liftResult, liftError));
-    }  catch (error) {
-        return Promise.reject(error)
-    }
-}
-
-EXPORTED_SYMBOLS.push("getDefaultList");
-function setDefaultList(list) {
-    
-    const liftResult = (result) => undefined;
-    const liftError = null;
-    const functionCall = () => {
-        FfiConverterTypeTodoList.checkType("list", list);
-        return UniFFIScaffolding.callAsync(
-            91, // todolist:todolist_9473_set_default_list
-            FfiConverterTypeTodoList.lower(list),
-        )
-    }
-    try {
-        return functionCall().then((result) => handleRustResult(result, liftResult, liftError));
-    }  catch (error) {
-        return Promise.reject(error)
-    }
-}
-
-EXPORTED_SYMBOLS.push("setDefaultList");
-function createEntryWith(todo) {
-    
-    const liftResult = (result) => FfiConverterTypeTodoEntry.lift(result);
-    const liftError = (data) => FfiConverterTypeTodoError.lift(data);
-    const functionCall = () => {
-        FfiConverterString.checkType("todo", todo);
-        return UniFFIScaffolding.callAsync(
-            92, // todolist:todolist_9473_create_entry_with
-            FfiConverterString.lower(todo),
-        )
-    }
-    try {
-        return functionCall().then((result) => handleRustResult(result, liftResult, liftError));
-    }  catch (error) {
-        return Promise.reject(error)
-    }
-}
-
-EXPORTED_SYMBOLS.push("createEntryWith");

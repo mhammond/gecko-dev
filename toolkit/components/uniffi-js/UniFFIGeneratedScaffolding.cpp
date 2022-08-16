@@ -19,28 +19,112 @@ using dom::UniFFIScaffoldingCallResult;
 
 // Define scaffolding functions from UniFFI
 extern "C" {
+  void ffi_tabs_3f91_TabsStore_object_free(void *, RustCallStatus*);
+  void * tabs_3f91_TabsStore_new(RustBuffer, RustCallStatus*);
+  RustBuffer tabs_3f91_TabsStore_get_all(void *, RustCallStatus*);
+  void tabs_3f91_TabsStore_set_local_tabs(void *, RustBuffer, RustCallStatus*);
+  void tabs_3f91_TabsStore_register_with_sync_manager(void *, RustCallStatus*);
+  void tabs_3f91_TabsStore_reset(void *, RustCallStatus*);
+  RustBuffer tabs_3f91_TabsStore_sync(void *, RustBuffer, RustBuffer, RustBuffer, RustBuffer, RustBuffer, RustCallStatus*);
 }
 
 // Define pointer types
+const static mozilla::uniffi::UniFFIPointerType kTabsTabsStorePointerType {
+  "tabs::TabsStore"_ns,
+  ffi_tabs_3f91_TabsStore_object_free
+};
 
 Maybe<already_AddRefed<Promise>> UniFFICallAsync(const GlobalObject& aGlobal, uint64_t aId, const Sequence<ScaffoldingType>& aArgs, ErrorResult& aError) {
   switch (aId) {
+    case 0: { // tabs:tabs_3f91_TabsStore_new
+      using CallHandler = ScaffoldingCallHandler<ScaffoldingObjectConverter<&kTabsTabsStorePointerType>, ScaffoldingConverter<RustBuffer>>;
+      return Some(CallHandler::CallAsync(tabs_3f91_TabsStore_new, aGlobal, aArgs, "tabs_3f91_TabsStore_new: "_ns, aError));
+    }
+    case 1: { // tabs:tabs_3f91_TabsStore_get_all
+      using CallHandler = ScaffoldingCallHandler<ScaffoldingConverter<RustBuffer>, ScaffoldingObjectConverter<&kTabsTabsStorePointerType>>;
+      return Some(CallHandler::CallAsync(tabs_3f91_TabsStore_get_all, aGlobal, aArgs, "tabs_3f91_TabsStore_get_all: "_ns, aError));
+    }
+    case 2: { // tabs:tabs_3f91_TabsStore_set_local_tabs
+      using CallHandler = ScaffoldingCallHandler<ScaffoldingConverter<void>, ScaffoldingObjectConverter<&kTabsTabsStorePointerType>, ScaffoldingConverter<RustBuffer>>;
+      return Some(CallHandler::CallAsync(tabs_3f91_TabsStore_set_local_tabs, aGlobal, aArgs, "tabs_3f91_TabsStore_set_local_tabs: "_ns, aError));
+    }
+    case 3: { // tabs:tabs_3f91_TabsStore_register_with_sync_manager
+      using CallHandler = ScaffoldingCallHandler<ScaffoldingConverter<void>, ScaffoldingObjectConverter<&kTabsTabsStorePointerType>>;
+      return Some(CallHandler::CallAsync(tabs_3f91_TabsStore_register_with_sync_manager, aGlobal, aArgs, "tabs_3f91_TabsStore_register_with_sync_manager: "_ns, aError));
+    }
+    case 4: { // tabs:tabs_3f91_TabsStore_reset
+      using CallHandler = ScaffoldingCallHandler<ScaffoldingConverter<void>, ScaffoldingObjectConverter<&kTabsTabsStorePointerType>>;
+      return Some(CallHandler::CallAsync(tabs_3f91_TabsStore_reset, aGlobal, aArgs, "tabs_3f91_TabsStore_reset: "_ns, aError));
+    }
+    case 5: { // tabs:tabs_3f91_TabsStore_sync
+      using CallHandler = ScaffoldingCallHandler<ScaffoldingConverter<RustBuffer>, ScaffoldingObjectConverter<&kTabsTabsStorePointerType>, ScaffoldingConverter<RustBuffer>, ScaffoldingConverter<RustBuffer>, ScaffoldingConverter<RustBuffer>, ScaffoldingConverter<RustBuffer>, ScaffoldingConverter<RustBuffer>>;
+      return Some(CallHandler::CallAsync(tabs_3f91_TabsStore_sync, aGlobal, aArgs, "tabs_3f91_TabsStore_sync: "_ns, aError));
+    }
   }
   return Nothing();
 }
 
 bool UniFFICallSync(const GlobalObject& aGlobal, uint64_t aId, const Sequence<ScaffoldingType>& aArgs, RootedDictionary<UniFFIScaffoldingCallResult>& aReturnValue, ErrorResult& aError) {
   switch (aId) {
+    case 0: { // tabs:tabs_3f91_TabsStore_new
+      using CallHandler = ScaffoldingCallHandler<ScaffoldingObjectConverter<&kTabsTabsStorePointerType>, ScaffoldingConverter<RustBuffer>>;
+      CallHandler::CallSync(tabs_3f91_TabsStore_new, aGlobal, aArgs, aReturnValue, "tabs_3f91_TabsStore_new: "_ns, aError);
+      return true;
+    }
+    case 1: { // tabs:tabs_3f91_TabsStore_get_all
+      using CallHandler = ScaffoldingCallHandler<ScaffoldingConverter<RustBuffer>, ScaffoldingObjectConverter<&kTabsTabsStorePointerType>>;
+      CallHandler::CallSync(tabs_3f91_TabsStore_get_all, aGlobal, aArgs, aReturnValue, "tabs_3f91_TabsStore_get_all: "_ns, aError);
+      return true;
+    }
+    case 2: { // tabs:tabs_3f91_TabsStore_set_local_tabs
+      using CallHandler = ScaffoldingCallHandler<ScaffoldingConverter<void>, ScaffoldingObjectConverter<&kTabsTabsStorePointerType>, ScaffoldingConverter<RustBuffer>>;
+      CallHandler::CallSync(tabs_3f91_TabsStore_set_local_tabs, aGlobal, aArgs, aReturnValue, "tabs_3f91_TabsStore_set_local_tabs: "_ns, aError);
+      return true;
+    }
+    case 3: { // tabs:tabs_3f91_TabsStore_register_with_sync_manager
+      using CallHandler = ScaffoldingCallHandler<ScaffoldingConverter<void>, ScaffoldingObjectConverter<&kTabsTabsStorePointerType>>;
+      CallHandler::CallSync(tabs_3f91_TabsStore_register_with_sync_manager, aGlobal, aArgs, aReturnValue, "tabs_3f91_TabsStore_register_with_sync_manager: "_ns, aError);
+      return true;
+    }
+    case 4: { // tabs:tabs_3f91_TabsStore_reset
+      using CallHandler = ScaffoldingCallHandler<ScaffoldingConverter<void>, ScaffoldingObjectConverter<&kTabsTabsStorePointerType>>;
+      CallHandler::CallSync(tabs_3f91_TabsStore_reset, aGlobal, aArgs, aReturnValue, "tabs_3f91_TabsStore_reset: "_ns, aError);
+      return true;
+    }
+    case 5: { // tabs:tabs_3f91_TabsStore_sync
+      using CallHandler = ScaffoldingCallHandler<ScaffoldingConverter<RustBuffer>, ScaffoldingObjectConverter<&kTabsTabsStorePointerType>, ScaffoldingConverter<RustBuffer>, ScaffoldingConverter<RustBuffer>, ScaffoldingConverter<RustBuffer>, ScaffoldingConverter<RustBuffer>, ScaffoldingConverter<RustBuffer>>;
+      CallHandler::CallSync(tabs_3f91_TabsStore_sync, aGlobal, aArgs, aReturnValue, "tabs_3f91_TabsStore_sync: "_ns, aError);
+      return true;
+    }
   }
   return false;
 }
 
 Maybe<already_AddRefed<UniFFIPointer>> UniFFIReadPointer(const GlobalObject& aGlobal, uint64_t aId, const ArrayBuffer& aArrayBuff, long aPosition, ErrorResult& aError) {
-  return Nothing();
+  const UniFFIPointerType* type;
+  switch (aId) {
+    case 0: { // tabs:TabsStore
+      type = &kTabsTabsStorePointerType;
+      break;
+    }
+    default:
+      return Nothing();
+  }
+  return Some(UniFFIPointer::Read(aArrayBuff, aPosition, type, aError));
 }
 
 bool UniFFIWritePointer(const GlobalObject& aGlobal, uint64_t aId, const UniFFIPointer& aPtr, const ArrayBuffer& aArrayBuff, long aPosition, ErrorResult& aError) {
-  return false;
+  const UniFFIPointerType* type;
+  switch (aId) {
+    case 0: { // tabs:TabsStore
+      type = &kTabsTabsStorePointerType;
+      break;
+    }
+    default:
+      return false;
+  }
+  aPtr.Write(aArrayBuff, aPosition, type, aError);
+  return true;
 }
 
 }  // namespace mozilla::uniffi
