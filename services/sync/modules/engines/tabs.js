@@ -2,7 +2,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-var EXPORTED_SYMBOLS = ["TabEngine", "TabSetRecord"];
+var EXPORTED_SYMBOLS = ["TabEngine", "TabProvider"];
 
 const TABS_TTL = 31622400; // 366 days (1 leap year).
 const TAB_ENTRIES_LIMIT = 5; // How many URLs to include in tab history.
@@ -76,11 +76,6 @@ XPCOMUtils.defineLazyPreferenceGetter(
   0
 );
 
-XPCOMUtils.defineLazyGetter(lazy, "rustStore", async () => {
-  let path = PathUtils.join(PathUtils.profileDir, "synced-tabs.db");
-  return await lazy.TabsStore.init(path);
-});
-
 // A "bridged engine" to our tabs component.
 function TabEngine(service) {
   BridgedEngine.call(this, "Tabs", service);
@@ -95,23 +90,27 @@ function TabEngine(service) {
 
 TabEngine.prototype = {
   __proto__: BridgedEngine.prototype,
-  _providerObj: TabProvider,
   _trackerObj: TabTracker,
   syncPriority: 3,
 
-  get _provider() {
-    let provider = new this._providerObj(this.Name, this);
-    this.__defineGetter__("_provider", () => provider);
-    return provider;
-  },
-
-  async _syncStartup() {
+  async prepareTheBridge(isQuickWrite) {
     // Tell the bridged engine about clients.
     // This is the same shape as ClientData in app-services.
     let clientData = {
       local_client_id: this.service.clientsEngine.localID,
       recent_clients: {},
     };
+
+    let tabs = await TabProvider.getAllTabs(true);
+    await this._rustStore.setLocalTabs(tabs);
+
+    // Quick write only cares about the posting the local records, so return early
+    if (isQuickWrite) {
+      await this.setLastSync(FAR_FUTURE);
+      await this._bridge.prepareForSync(JSON.stringify(clientData));
+      return;
+    }
+
     let clientsEngine = this.service.clientsEngine;
     for (let remoteClient of clientsEngine.remoteClients) {
       let id = remoteClient.id;
@@ -122,30 +121,32 @@ TabEngine.prototype = {
         fxa_device_id: remoteClient.fxaDeviceId,
         // device_name and device_type are soft-deprecated - every client
         // prefers what's in the FxA record. But fill them correctly anyway.
-        device_name: clientsEngine.getClientName(id),
+        device_name: clientsEngine.getClientName(id) ?? "",
         device_type: clientsEngine.getClientType(id),
       };
       clientData.recent_clients[id] = client;
     }
-    await this._bridge.prepareForSync(JSON.stringify(clientData));
-
-    let tabs = await this._provider.getAllTabs(true);
-    await this._rustStore.setLocalTabs(tabs);
+    // We set this to zero so we always grab the most recent tabs
     await this._bridge.setLastSync(0);
+    await this._bridge.prepareForSync(JSON.stringify(clientData));
+  },
+
+  async _syncStartup() {
+    await this.prepareTheBridge();
     await super._syncStartup();
   },
 
   async initialize() {
     await SyncEngine.prototype.initialize.call(this);
 
-    let rustStore = await lazy.rustStore;
-    this._bridge = await rustStore.bridgedEngine();
-    // XXX - This is particularly useful for accessing the store in tests
-    this._rustStore = rustStore;
+    let path = PathUtils.join(PathUtils.profileDir, "synced-tabs.db");
+    this._rustStore = await lazy.TabsStore.init(path);
+    this._bridge = await this._rustStore.bridgedEngine();
     this._log.info("Got a bridged engine!");
 
     // Reset the client on every startup so that we fetch recent tabs.
     await this._resetClient();
+    this._tracker.modified = true;
   },
 
   // XXX - this should be the only reference to the tracker. We can probably
@@ -171,7 +172,6 @@ TabEngine.prototype = {
       if (!rustClient) {
         continue;
       }
-
       let client = {
         tabs: rustClient.remoteTabs,
         ...remoteClient,
@@ -201,7 +201,6 @@ TabEngine.prototype = {
   },
 
   // Support for "quick writes"
-  // XXX - needs love!
   _engineLock: Utils.lock,
   _engineLocked: false,
 
@@ -253,12 +252,10 @@ TabEngine.prototype = {
         // X-If-Unmodified-Since - we want the POST to work even if the remote
         // has moved on and we will catch back up next full sync.
         const origLastSync = await this.getLastSync();
-        // XXX -  Quick sync is broken not detecting changes to submit
-        await this._bridge.setLastSync(FAR_FUTURE);
         try {
           await this._doQuickWrite();
         } finally {
-          await this._bridge.setLastSync(Math.floor(origLastSync / 1000));
+          await this.setLastSync(origLastSync / 1000);
         }
       })();
     } catch (ex) {
@@ -283,17 +280,31 @@ TabEngine.prototype = {
     telemetryRecord.onEngineStart(name);
     try {
       Async.checkAppReady();
-      // tracking the modified items is normally done by _syncStartup(),
-      // but we don't call that so we don't do the meta/global dances -
-      // these dances would be very important for any other engine, but
-      // we can avoid it for tabs because of the lack of reconcilliation.
-      let tabs = await this._provider.getAllTabs(true);
-      await this._rustStore.setLocalTabs(tabs);
-      this._modified.replace(await this.pullChanges());
+      // We need to prep the bridge before we try to post since it grabs
+      // the most recent local client id for us and
+      await this.prepareTheBridge(true);
       this._tracker.clearChangedIDs();
       this._tracker.resetScore();
 
-      // now just the "upload" part of a sync.
+      Async.checkAppReady();
+      // now just the "upload" part of a sync,
+      // which for a rust engine is  not obvious.
+      // We need to do is ask the rust engine for the changes. Although
+      // this is kinda abusing the bridged-engine interface, we know the tabs
+      // implementation of it works ok
+      let outgoing = await this._bridge.apply();
+      // We know we always have exactly 1 record.
+      let mine = outgoing[0];
+      this._log.trace("outgoing envelope", mine);
+      // `this._recordObj` is a `BridgedRecord`, which isn't exported.
+      let record = this._recordObj.fromOutgoingEnvelope(
+        this.name,
+        JSON.parse(mine)
+      );
+      let changeset = {};
+      changeset[record.id] = { synced: false, record };
+      this._modified.replace(changeset);
+
       Async.checkAppReady();
       await this._uploadOutgoing();
       telemetryRecord.onEngineApplied(name, 1);
@@ -323,9 +334,7 @@ TabEngine.prototype = {
   },
 };
 
-function TabProvider() {}
-
-TabProvider.prototype = {
+const TabProvider = {
   getWindowEnumerator() {
     return Services.wm.getEnumerator("navigator:browser");
   },
@@ -373,8 +382,8 @@ TabProvider.prototype = {
           title: tab.linkedBrowser.contentTitle || "",
           urlHistory: [url],
           icon: "",
-          // XXX - need to change this to be in ms
-          //lastUsed: Math.floor((tab.lastAccessed || 0) / 1000),
+          // Rust engine implementation wants this to be in ms - which is
+          // what we have.
           lastUsed: Math.floor(tab.lastAccessed || 0),
         };
         allTabs.push(thisTab);

@@ -1,21 +1,15 @@
 /* Any copyright is dedicated to the Public Domain.
    http://creativecommons.org/publicdomain/zero/1.0/ */
 
-const { TabEngine, TabSetRecord } = ChromeUtils.import(
+const { TabEngine, TabSetRecord, TabProvider } = ChromeUtils.import(
   "resource://services-sync/engines/tabs.js"
 );
 const { Service } = ChromeUtils.import("resource://services-sync/service.js");
 
-async function getMockProvider() {
-  let engine = new TabEngine(Service);
-  await engine.initialize();
-  let provider = engine._provider;
-  provider.shouldSkipWindow = mockShouldSkipWindow;
-  return provider;
-}
-
 add_task(async function test_getAllTabs() {
-  let provider = await getMockProvider();
+  let provider = TabProvider;
+  provider.shouldSkipWindow = mockShouldSkipWindow;
+
   let tabs;
 
   provider.getWindowEnumerator = mockGetWindowEnumerator.bind(this, [
@@ -30,7 +24,7 @@ add_task(async function test_getAllTabs() {
   equal(tabs[0].urlHistory.length, 1);
   equal(tabs[0].urlHistory[0], "http://bar.com/");
   equal(tabs[0].icon, "");
-  equal(tabs[0].lastUsed, 2);
+  equal(tabs[0].lastUsed, 2000);
 
   _("Get all tabs, and check that filtering works.");
   provider.getWindowEnumerator = mockGetWindowEnumerator.bind(this, [

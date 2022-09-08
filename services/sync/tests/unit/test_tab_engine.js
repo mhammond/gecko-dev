@@ -1,33 +1,114 @@
 /* Any copyright is dedicated to the Public Domain.
    http://creativecommons.org/publicdomain/zero/1.0/ */
 
-const { TabEngine } = ChromeUtils.import(
+const { TabEngine, TabProvider } = ChromeUtils.import(
   "resource://services-sync/engines/tabs.js"
 );
 const { WBORecord } = ChromeUtils.import("resource://services-sync/record.js");
 const { Service } = ChromeUtils.import("resource://services-sync/service.js");
 
-async function getMocks() {
-  let engine = new TabEngine(Service);
-  await engine.initialize();
-  let bridge = engine._bridge;
-  engine._provider.shouldSkipWindow = mockShouldSkipWindow;
-  return [engine, bridge];
+let engine;
+// We'll need the clients engine for testing as tabs is closely related
+let clientsEngine;
+
+async function syncClientsEngine(server) {
+  clientsEngine._lastFxADevicesFetch = 0;
+  clientsEngine.lastModified = server.getCollection("foo", "clients").timestamp;
+  await clientsEngine._sync();
 }
+
+async function makeRemoteClients() {
+  let server = await serverForFoo(clientsEngine);
+  await configureIdentity({ username: "foo" }, server);
+  await Service.login();
+
+  await SyncTestingInfrastructure(server);
+  await generateNewKeys(Service.collectionKeys);
+
+  let remoteId = Utils.makeGUID();
+  let remoteId2 = Utils.makeGUID();
+  let collection = server.getCollection("foo", "clients");
+
+  _("Create remote client records");
+  collection.insertRecord({
+    id: remoteId,
+    name: "Remote client",
+    type: "desktop",
+    commands: [],
+    version: "48",
+    fxaDeviceId: remoteId,
+    fxaDeviceName: "Fxa - Remote client",
+    protocols: ["1.5"],
+  });
+
+  collection.insertRecord({
+    id: remoteId2,
+    name: "Remote client 2",
+    type: "desktop",
+    commands: [],
+    version: "48",
+    fxaDeviceId: remoteId2,
+    fxaDeviceName: "Fxa - Remote client 2",
+    protocols: ["1.5"],
+  });
+
+  let fxAccounts = clientsEngine.fxAccounts;
+  clientsEngine.fxAccounts = {
+    notifyDevices() {
+      return Promise.resolve(true);
+    },
+    device: {
+      getLocalId() {
+        return fxAccounts.device.getLocalId();
+      },
+      getLocalName() {
+        return fxAccounts.device.getLocalName();
+      },
+      getLocalType() {
+        return fxAccounts.device.getLocalType();
+      },
+      recentDeviceList: [{ id: remoteId }],
+      refreshDeviceList() {
+        return Promise.resolve(true);
+      },
+    },
+    _internal: {
+      now() {
+        return Date.now();
+      },
+    },
+  };
+
+  await syncClientsEngine(server);
+}
+
+add_task(async function setup() {
+  clientsEngine = Service.clientsEngine;
+  // Make some clients to test with
+  await makeRemoteClients();
+
+  // Make the tabs engine for all the tests to use
+  engine = Service.engineManager.get("tabs");
+  await engine.initialize();
+
+  // Since these are xpcshell tests, we'll need to mock this
+  TabProvider.shouldSkipWindow = mockShouldSkipWindow;
+});
 
 add_task(async function test_tab_engine_skips_incoming_local_record() {
   _("Ensure incoming records that match local client ID are never applied.");
-  let [engine, bridge] = await getMocks();
-  let localID = engine.service.clientsEngine.localID;
-  let apply = bridge.storeIncoming;
-  let applied = [];
 
-  bridge.storeIncoming = async function(incomingAsJson) {
-    let record = JSON.parse(incomingAsJson[0]);
-    Assert.ok(record.id);
-    applied.push(record);
-    apply.call(bridge, incomingAsJson);
-  };
+  //let bridge = engine._bridge;
+  let localID = clientsEngine.localID;
+  //let apply = bridge.storeIncoming;
+  //let applied = [];
+
+  // bridge.storeIncoming = async function(incomingAsJson) {
+  //   let record = JSON.parse(incomingAsJson[0]);
+  //   Assert.ok(record.id);
+  //   applied.push(record);
+  //   apply.call(bridge, incomingAsJson);
+  // };
 
   let collection = new ServerCollection();
 
@@ -35,16 +116,30 @@ add_task(async function test_tab_engine_skips_incoming_local_record() {
   let localRecord = encryptPayload({
     id: localID,
     clientName: "local",
-    tabs: [],
+    tabs: [
+      {
+        title: "title",
+        urlHistory: ["http://foo.com/"],
+        icon: "",
+        lastUsed: 2000,
+      },
+    ],
   });
   collection.insert(localID, localRecord);
 
   _("Creating remote tab record with a different client ID");
-  let remoteID = "different";
+  let remoteID = "fake-guid-00"; // remote should match one of the test clients
   let remoteRecord = encryptPayload({
     id: remoteID,
     clientName: "not local",
-    tabs: [],
+    tabs: [
+      {
+        title: "title2",
+        urlHistory: ["http://bar.com/"],
+        icon: "",
+        lastUsed: 3000,
+      },
+    ],
   });
   collection.insert(remoteID, remoteRecord);
 
@@ -60,7 +155,9 @@ add_task(async function test_tab_engine_skips_incoming_local_record() {
     engine.metaURL,
     new WBORecord(engine.metaURL)
   );
-  meta_global.payload.engines = { tabs: { version: engine.version, syncID } };
+  meta_global.payload.engines = {
+    tabs: { version: engine.version, syncID },
+  };
 
   await generateNewKeys(Service.collectionKeys);
 
@@ -68,7 +165,6 @@ add_task(async function test_tab_engine_skips_incoming_local_record() {
     let syncFinish = engine._syncFinish;
     engine._syncFinish = async function() {
       let remoteTabs = await engine._rustStore.getAll();
-      console.log(remoteTabs);
       equal(
         remoteTabs.length,
         1,
@@ -77,10 +173,21 @@ add_task(async function test_tab_engine_skips_incoming_local_record() {
       let record = remoteTabs[0];
       equal(record.clientId, remoteID, "Remote client ID matches");
 
+      _("Ensure getAllClients returns the correct shape");
       let clients = await engine.getAllClients();
-      // XXX - test the shape of getAllClients
-      // client.id, client.type, client.tabs
-
+      equal(clients.length, 1);
+      let client = clients[0];
+      equal(client.id, "fake-guid-00");
+      equal(client.name, "Remote client");
+      equal(client.type, "desktop");
+      deepEqual(client.tabs, [
+        {
+          title: "title2",
+          urlHistory: ["http://bar.com/"],
+          icon: "",
+          lastUsed: 3000000,
+        },
+      ]);
       await syncFinish.call(engine);
       resolve();
     };
@@ -91,61 +198,16 @@ add_task(async function test_tab_engine_skips_incoming_local_record() {
   await promiseFinished;
 });
 
-add_task(async function test_create() {
-  let [engine, bridge] = getMocks();
-  Assert.ok(bridge);
+// set local tabs
+add_task(async function test_set_local_tabs() {
+  TabProvider.getWindowEnumerator = mockGetWindowEnumerator.bind(this, [
+    "http://example1.com",
+    "http://example2.com",
+  ]);
 
-  _("Create a first record");
-  let rec = encryptPayload({
-    id: "id1",
-    clientName: "clientName1",
-    tabs: [
-      {
-        title: "title",
-        urlHistory: ["http://example.com/"],
-        icon: "",
-        lastUsed: 2,
-      },
-      {
-        title: "title1",
-        urlHistory: ["http://example.com/"],
-        icon: "",
-        lastUsed: 2,
-      },
-    ],
-  });
-  await bridge.storeIncoming([JSON.stringify(rec)]);
-  deepEqual(bridge._remoteClients.id1, { lastModified: 1000, foo: "bar" });
-
-  _("Create a second record");
-  rec = encryptPayload({
-    id: "id2",
-    clientName: "clientName2",
-    tabs: [
-      {
-        title: "title2",
-        urlHistory: ["http://someotherexample.com/"],
-        icon: "",
-        lastUsed: 3,
-      },
-    ],
-  });
-  await bridge.storeIncoming([JSON.stringify(rec)]);
-  deepEqual(bridge._remoteClients.id2, { lastModified: 2000, foo2: "bar2" });
-
-  _("Create a third record");
-  rec = encryptPayload({
-    id: "id3",
-    clientName: "clientName3",
-    tabs: [
-      {
-        title: "title3",
-        urlHistory: ["http://example.com/"],
-        icon: "",
-        lastUsed: 2,
-      },
-    ],
-  });
-  await bridge.storeIncoming([JSON.stringify(rec)]);
-  deepEqual(bridge._remoteClients.id3, { lastModified: 3000, foo3: "bar3" });
+  _("Testing sending tabs to rust");
+  // Get all tabs from desktop
+  let tabs = await TabProvider.getAllTabs();
+  // Then push it into the rust store
+  await engine._rustStore.setLocalTabs(tabs);
 });
