@@ -237,9 +237,11 @@ export const TabsSetupFlowManager = new (class {
   }
   get secondaryDeviceConnected() {
     if (!this.fxaSignedIn) {
+      console.log("Not signed into fxa");
       return false;
     }
     let recentDevices = lazy.fxAccounts.device?.recentDeviceList?.length;
+    console.log("recentDevices: ", lazy.fxAccounts.device?.recentDeviceList);
     return recentDevices > 1;
   }
   get mobileDeviceConnected() {
@@ -342,6 +344,8 @@ export const TabsSetupFlowManager = new (class {
   }
 
   get waitingForTabs() {
+    console.log("secondaryDeviceConnected: ", this.secondaryDeviceConnected);
+    console.log("waitinfForTabsInternal: ", this._waitingForTabs);
     return (
       // signed in & at least 1 other device is sycning indicates there's something to wait for
       this.secondaryDeviceConnected &&

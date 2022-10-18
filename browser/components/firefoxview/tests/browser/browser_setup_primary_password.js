@@ -95,6 +95,9 @@ add_task(async function test_primary_password_locked() {
     // We expect the waiting state until we get a sync update/finished
     info("Setup state:" + TabsSetupFlowManager.currentSetupState.name);
 
+    //const sleep = ms => new Promise(r => setTimeout(r, ms));
+    //await sleep(5000);
+
     ok(TabsSetupFlowManager.waitingForTabs, "Now waiting for tabs");
     ok(
       document
